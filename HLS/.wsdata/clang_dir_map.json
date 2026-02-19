@@ -1,0 +1,6 @@
+{
+  "workspaceRoot": "F:\\Motor-Simulator\\HLS",
+  "mapping": {
+    "Audio-Filtering\\Fir-Filter.cpp": "Audio-Filtering"
+  }
+}
