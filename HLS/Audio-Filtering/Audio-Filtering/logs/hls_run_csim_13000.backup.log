@@ -1,0 +1,79 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering\Audio-Filtering.hlsrun_csim_summary, at 02/23/26 19:58:55
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering -config C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg -cmdlineconfig C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline
+INFO: [HLS 200-10] For user 'mlangweil' on host 'xilinx11-005.wincoe.coe.neu.edu' (Windows NT_amd64 version 10.0) on Mon Feb 23 19:59:01 -0500 2026
+INFO: [HLS 200-10] In directory 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering'
+INFO: [HLS 200-2005] Using work_dir C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+WARNING: [HLS 200-2001] file not found 'Config.cpp' see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+WARNING: [HLS 200-40] Cannot find design file 'Config.cpp'
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../Coefficients_tb.cpp in debug mode
+   Compiling ../../../../Coefficients.cpp in debug mode
+   Generating csim.exe
+Makefile.rules:349: recipe for target 'csim.exe' failed
+In file included from ../../../../Coefficients_tb.cpp:1:
+In file included from ../../../../Coefficients.h:5:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h:15:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h:10:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h:658:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../Coefficients.cpp:2:
+In file included from ../../../../Coefficients.h:5:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h:15:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h:10:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h:658:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+ld.lld: error: undefined symbol: calculateCoefficients(int, int, int, hls::stream<hls::axis<ap_int<32>, 2ull, 5ull, 6ull, (unsigned char)56, false>, 0>&)
+>>> referenced by ../../../../Coefficients_tb.cpp:8
+>>>               obj/Coefficients_tb.o:(main)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [csim.exe] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: 4
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 2 seconds. Total elapsed time: 19.229 seconds; peak allocated memory: 246.836 MB.

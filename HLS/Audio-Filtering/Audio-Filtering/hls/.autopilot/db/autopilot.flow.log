@@ -997,3 +997,1220 @@ Execute   close_project
 Execute     close_solution 
 Execute       cleanup_all 
 Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 19:55:28 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s Config.cpp see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+WARNING: [HLS 200-2001] file not found 'Config.cpp' see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files Config.cpp 
+WARNING: [HLS 200-40] Cannot find design file 'Config.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.cflags=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'tb.cflags=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files -tb * -appendflags -cflags Coefficients_tb.cpp 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.463 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.149 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.221 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.814 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.923 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 2.567 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 19:56:28 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s Config.cpp see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+WARNING: [HLS 200-2001] file not found 'Config.cpp' see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files Config.cpp 
+WARNING: [HLS 200-40] Cannot find design file 'Config.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.479 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.166 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.225 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Command       ap_part_info done; 0.121 sec.
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.839 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.941 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 9.656 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 19:57:17 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s Config.cpp see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+WARNING: [HLS 200-2001] file not found 'Config.cpp' see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files Config.cpp 
+WARNING: [HLS 200-40] Cannot find design file 'Config.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.522 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.142 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.2 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.835 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.945 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 23.118 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 19:59:02 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s Config.cpp see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+WARNING: [HLS 200-2001] file not found 'Config.cpp' see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files Config.cpp 
+WARNING: [HLS 200-40] Cannot find design file 'Config.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.34 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.162 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.238 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.684 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.786 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Command     ap_part_info done; 0.101 sec.
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 11.605 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 20:15:19 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id WARNING @200-2001@%s%s Config.cpp see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+WARNING: [HLS 200-2001] file not found 'Config.cpp' see [hls] from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Config.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files Config.cpp 
+WARNING: [HLS 200-40] Cannot find design file 'Config.cpp'
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(16) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(16)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.426 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.186 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.264 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Command       ap_part_info done; 0.103 sec.
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.807 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.913 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 2.081 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 20:16:07 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.669 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.17 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.215 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.988 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 5.117 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+INFO-FLOW: AESL_CSIM::c_sim errorInfo:
+
+    while executing
+"::AESL_CSIM::c_sim "$argn" "
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO-FLOW: AESL_CSIM::csim_cmd_wrap errorInfo:
+4
+    while executing
+"::AESL_CSIM::csim_cmd_wrap $args"
+INFO-FLOW: Caught error in csim_design: 4
+    while executing
+"ap_internal_csim_design "
+Command   csim_design done; error code: 2; 1.924 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 20:23:19 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.581 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.157 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.207 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Command       ap_part_info done; 0.107 sec.
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.912 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.998 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute     source run_sim.tcl 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 20:29:16 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.377 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.151 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.209 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.682 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.794 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute     source run_sim.tcl 
+Command     ap_source done; 0.459 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 12.795 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 20:30:41 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.217 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.172 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.223 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.541 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.658 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute     source run_sim.tcl 
+Command     ap_source done; 0.46 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 7.232 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 20:31:24 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 3.637 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.14 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.193 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 3.901 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 3.997 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute     source run_sim.tcl 
+Command     ap_source done; 0.445 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 6.72 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 20:36:35 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.572 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.13 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.176 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Command       ap_part_info done; 0.102 sec.
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.864 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.987 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Command     ap_part_info done; 0.106 sec.
+Execute     source run_sim.tcl 
+Command     ap_source done; 0.53 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 8.476 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls opened at Mon Feb 23 20:37:47 -0500 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(12)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(13)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(14)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(15)
+Execute     add_files C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients_tb.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients_tb.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.h 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+Execute     add_files -tb C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 4.449 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Command         ap_source done; 0.144 sec.
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.212 sec.
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Command       ap_part_info done; 0.11 sec.
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 4.785 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 4.881 sec.
+Execute   apply_ini C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     source csim/.lst_opt.tcl 
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute     source run_sim.tcl 
+Command     ap_source done; 0.523 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 7.446 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
