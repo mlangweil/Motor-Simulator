@@ -1,4 +1,4 @@
-obj/Coefficients_tb.o: ../../../../Coefficients_tb.cpp \
+obj/coefficients_tb.o: ../../../../coefficients_tb.cpp \
   ../../../../Coefficients.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/hls_stream.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h \

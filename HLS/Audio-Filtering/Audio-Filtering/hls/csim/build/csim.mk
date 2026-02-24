@@ -23,7 +23,7 @@ __USE_VCXX_CLANG__ = 1
 
 ObjDir = obj
 
-HLS_SOURCES = ../../../../Coefficients.cpp ../../../../Coefficients_tb.cpp ../../../../Fir-Filter.cpp
+HLS_SOURCES = ../../../../Coefficients.cpp ../../../../coefficients_tb.cpp ../../../../Fir-Filter.cpp
 
 override TARGET := csim.exe
 
@@ -90,11 +90,11 @@ $(ObjDir)/Coefficients.o: ../../../../Coefficients.cpp $(ObjDir)/.dir
 
 -include $(ObjDir)/Coefficients.d
 
-$(ObjDir)/Coefficients_tb.o: ../../../../Coefficients_tb.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../Coefficients_tb.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/coefficients_tb.o: ../../../../coefficients_tb.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../coefficients_tb.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
--include $(ObjDir)/Coefficients_tb.d
+-include $(ObjDir)/coefficients_tb.d
 
 $(ObjDir)/Fir-Filter.o: ../../../../Fir-Filter.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../../Fir-Filter.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)

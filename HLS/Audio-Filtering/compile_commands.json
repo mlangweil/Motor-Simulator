@@ -19,9 +19,9 @@
       "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
       "",
       "-c",
-      "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Config.cpp"
+      "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp"
     ],
-    "file": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Config.cpp"
+    "file": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp"
   },
   {
     "directory": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering",
@@ -31,8 +31,8 @@
       "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
       "",
       "-c",
-      "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp"
+      "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients_tb.cpp"
     ],
-    "file": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp"
+    "file": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients_tb.cpp"
   }
 ]

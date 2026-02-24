@@ -1,6 +1,6 @@
-INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering\Audio-Filtering.hlsrun_csim_summary, at 02/23/26 21:33:41
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering\Audio-Filtering.hlsrun_csim_summary, at 02/23/26 21:28:36
 INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering -config C:/TEMP/mlangweil/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg -cmdlineconfig C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline
-INFO: [HLS 200-10] For user 'mlangweil' on host 'xilinx11-005.wincoe.coe.neu.edu' (Windows NT_amd64 version 10.0) on Mon Feb 23 21:33:48 -0500 2026
+INFO: [HLS 200-10] For user 'mlangweil' on host 'xilinx11-005.wincoe.coe.neu.edu' (Windows NT_amd64 version 10.0) on Mon Feb 23 21:28:42 -0500 2026
 INFO: [HLS 200-10] In directory 'C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering'
 INFO: [HLS 200-2005] Using work_dir C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
@@ -93,34 +93,33 @@ nan
 -0.0353678
 6.45086e-08
 0.0289372
+Data 1.26527e-09
+Data 1.26612e-08
+Data -2.60026e-09
+Data 1.23563e-08
+Data 1.39138e-08
+Data -1.6369e-08
+Data 3.79581e-09
+Data -3.82499e-09
+Data 1.39138e-08
+Data -1.46903e-08
+Data 8.18687e-09
+Data -8.08316e-09
 Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 2
+Data -8.08316e-09
+Data 8.18687e-09
+Data -1.46903e-08
+Data 1.39138e-08
+Data -3.82499e-09
+Data 3.79581e-09
+Data -1.6369e-08
+Data 1.39138e-08
+Data 1.23563e-08
+Data -2.60026e-09
+Data 1.26612e-08
+Data 2e-15
 INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 25
-WARNING: assign NaN to ap integer value
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 2 seconds. Total elapsed time: 19.318 seconds; peak allocated memory: 255.008 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 2 seconds. Total elapsed time: 20.135 seconds; peak allocated memory: 246.180 MB.
 INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 26s

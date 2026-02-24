@@ -1,0 +1,10 @@
+{
+  "workspaceRoot": "C:\\TEMP\\mlangweil\\Motor-Simulator",
+  "mapping": {
+    "HLS\\Audio-Filtering\\Coefficients.cpp": "HLS\\Audio-Filtering",
+    "HLS\\Audio-Filtering\\Coefficients_tb.cpp": "HLS\\Audio-Filtering",
+    "HLS\\Audio-Filtering\\Coefficients.h": "HLS\\Audio-Filtering",
+    "HLS\\Audio-Filtering\\Fir-Filter.cpp": "HLS\\Audio-Filtering",
+    "HLS\\Audio-Filtering\\Fir-Filter.h": "HLS\\Audio-Filtering"
+  }
+}

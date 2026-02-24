@@ -10,7 +10,8 @@ int main() {
     for (int j = 0; j < TAPS; j++)
     {
         coefficients.read(data);
-        cout<<"Data " << j <<data.data.to_int()<<endl;
+        float d = data.data.to_float();
+        cout<<"Data " << d<<endl;
     }
     return 0;
 }

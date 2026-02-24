@@ -314,3 +314,278 @@
 02/23/26 20:38:00: SERVER: destructor for server bound to port 56238
 02/23/26 20:38:00: Server exiting with status 0.
 02/23/26 20:38:00: Closing log file.
+02/23/26 21:18:45: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:18:45: Server was asked to start on port: '57101'
+02/23/26 21:18:45: Server is using token UUID: 'f2b5d932-4966-48d7-8e4a-7873027451b6'
+02/23/26 21:18:45: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:18:45: Attempting to start server on port '57101'
+02/23/26 21:18:45: Running Dispatch Server
+02/23/26 21:18:45: Version 2.2.0
+02/23/26 21:18:46: Dispatch Server: Accepted socket connection from client
+02/23/26 21:18:46: Starting Socket connection
+02/23/26 21:18:46: EXCHANGE_TOKEN received, server token: f2b5d932-4966-48d7-8e4a-7873027451b6, passed token: f2b5d932-4966-48d7-8e4a-7873027451b6
+02/23/26 21:18:46: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:18:46: SESSION_MGR: creating session with session uuid: '261df448-13e4-4a7e-a867-895f924a7171' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:18:46: KERNEL_SVC: creating session with uuid: '261df448-13e4-4a7e-a867-895f924a7171' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:18:46: GUIDANCE_SMGR: creating guidance session with uuid: '261df448-13e4-4a7e-a867-895f924a7171' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:18:58: Dispatch Server: Accepted socket connection from client
+02/23/26 21:18:58: Starting Socket connection
+02/23/26 21:19:11: SESSION_MGR: closing session for UUID '261df448-13e4-4a7e-a867-895f924a7171' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:19:11: KERNEL_SVC: closing session for UUID '261df448-13e4-4a7e-a867-895f924a7171' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:19:11: GUIDANCE_SMGR: closing session for UUID '261df448-13e4-4a7e-a867-895f924a7171' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:19:11: STOP_SERVER received, server token: f2b5d932-4966-48d7-8e4a-7873027451b6, passed token: f2b5d932-4966-48d7-8e4a-7873027451b6
+02/23/26 21:19:11: Socket received request to stop server.
+02/23/26 21:19:11: Dispatch Server: do_await_stop
+02/23/26 21:19:11: SERVER: destructor for server bound to port 57101
+02/23/26 21:19:11: Server exiting with status 0.
+02/23/26 21:19:11: Closing log file.
+02/23/26 21:20:22: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:20:22: Server was asked to start on port: '57166'
+02/23/26 21:20:22: Server is using token UUID: '002bded7-7aeb-4177-96db-9b08fe5e3d5d'
+02/23/26 21:20:22: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:20:22: Attempting to start server on port '57166'
+02/23/26 21:20:22: Running Dispatch Server
+02/23/26 21:20:22: Version 2.2.0
+02/23/26 21:20:23: Dispatch Server: Accepted socket connection from client
+02/23/26 21:20:23: Starting Socket connection
+02/23/26 21:20:23: EXCHANGE_TOKEN received, server token: 002bded7-7aeb-4177-96db-9b08fe5e3d5d, passed token: 002bded7-7aeb-4177-96db-9b08fe5e3d5d
+02/23/26 21:20:23: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:20:23: SESSION_MGR: creating session with session uuid: '6ccd798f-13f6-4cd9-a64c-5e69ed9c831b' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:20:23: KERNEL_SVC: creating session with uuid: '6ccd798f-13f6-4cd9-a64c-5e69ed9c831b' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:20:23: GUIDANCE_SMGR: creating guidance session with uuid: '6ccd798f-13f6-4cd9-a64c-5e69ed9c831b' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:20:35: Dispatch Server: Accepted socket connection from client
+02/23/26 21:20:35: Starting Socket connection
+02/23/26 21:20:42: SESSION_MGR: closing session for UUID '6ccd798f-13f6-4cd9-a64c-5e69ed9c831b' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:20:42: KERNEL_SVC: closing session for UUID '6ccd798f-13f6-4cd9-a64c-5e69ed9c831b' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:20:42: GUIDANCE_SMGR: closing session for UUID '6ccd798f-13f6-4cd9-a64c-5e69ed9c831b' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:20:42: STOP_SERVER received, server token: 002bded7-7aeb-4177-96db-9b08fe5e3d5d, passed token: 002bded7-7aeb-4177-96db-9b08fe5e3d5d
+02/23/26 21:20:42: Socket received request to stop server.
+02/23/26 21:20:42: Dispatch Server: do_await_stop
+02/23/26 21:20:42: SERVER: destructor for server bound to port 57166
+02/23/26 21:20:42: Server exiting with status 0.
+02/23/26 21:20:42: Closing log file.
+02/23/26 21:22:30: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:22:30: Server was asked to start on port: '50015'
+02/23/26 21:22:30: Server is using token UUID: '6889dfaa-ac31-44f5-a193-d081a6f19a62'
+02/23/26 21:22:30: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:22:30: Attempting to start server on port '50015'
+02/23/26 21:22:30: Running Dispatch Server
+02/23/26 21:22:30: Version 2.2.0
+02/23/26 21:22:31: Dispatch Server: Accepted socket connection from client
+02/23/26 21:22:31: Starting Socket connection
+02/23/26 21:22:31: EXCHANGE_TOKEN received, server token: 6889dfaa-ac31-44f5-a193-d081a6f19a62, passed token: 6889dfaa-ac31-44f5-a193-d081a6f19a62
+02/23/26 21:22:31: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:22:31: SESSION_MGR: creating session with session uuid: '1aab219b-d42f-481e-aafc-3346c06eed44' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:22:31: KERNEL_SVC: creating session with uuid: '1aab219b-d42f-481e-aafc-3346c06eed44' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:22:31: GUIDANCE_SMGR: creating guidance session with uuid: '1aab219b-d42f-481e-aafc-3346c06eed44' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:22:43: Dispatch Server: Accepted socket connection from client
+02/23/26 21:22:43: Starting Socket connection
+02/23/26 21:22:51: SESSION_MGR: closing session for UUID '1aab219b-d42f-481e-aafc-3346c06eed44' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:22:51: KERNEL_SVC: closing session for UUID '1aab219b-d42f-481e-aafc-3346c06eed44' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:22:51: GUIDANCE_SMGR: closing session for UUID '1aab219b-d42f-481e-aafc-3346c06eed44' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:22:51: STOP_SERVER received, server token: 6889dfaa-ac31-44f5-a193-d081a6f19a62, passed token: 6889dfaa-ac31-44f5-a193-d081a6f19a62
+02/23/26 21:22:51: Socket received request to stop server.
+02/23/26 21:22:51: Dispatch Server: do_await_stop
+02/23/26 21:22:51: SERVER: destructor for server bound to port 50015
+02/23/26 21:22:51: Server exiting with status 0.
+02/23/26 21:22:51: Closing log file.
+02/23/26 21:23:26: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:23:26: Server was asked to start on port: '50068'
+02/23/26 21:23:26: Server is using token UUID: '06e119aa-acc1-4794-8e28-2edc1d0229a7'
+02/23/26 21:23:26: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:23:26: Attempting to start server on port '50068'
+02/23/26 21:23:26: Running Dispatch Server
+02/23/26 21:23:26: Version 2.2.0
+02/23/26 21:23:28: Dispatch Server: Accepted socket connection from client
+02/23/26 21:23:28: Starting Socket connection
+02/23/26 21:23:28: EXCHANGE_TOKEN received, server token: 06e119aa-acc1-4794-8e28-2edc1d0229a7, passed token: 06e119aa-acc1-4794-8e28-2edc1d0229a7
+02/23/26 21:23:28: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:23:28: SESSION_MGR: creating session with session uuid: 'c6cf3a8f-2f7a-4dec-bfc3-4eb911c5b7a4' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:23:28: KERNEL_SVC: creating session with uuid: 'c6cf3a8f-2f7a-4dec-bfc3-4eb911c5b7a4' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:23:28: GUIDANCE_SMGR: creating guidance session with uuid: 'c6cf3a8f-2f7a-4dec-bfc3-4eb911c5b7a4' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:23:40: Dispatch Server: Accepted socket connection from client
+02/23/26 21:23:40: Starting Socket connection
+02/23/26 21:23:48: SESSION_MGR: closing session for UUID 'c6cf3a8f-2f7a-4dec-bfc3-4eb911c5b7a4' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:23:48: KERNEL_SVC: closing session for UUID 'c6cf3a8f-2f7a-4dec-bfc3-4eb911c5b7a4' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:23:48: GUIDANCE_SMGR: closing session for UUID 'c6cf3a8f-2f7a-4dec-bfc3-4eb911c5b7a4' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:23:48: STOP_SERVER received, server token: 06e119aa-acc1-4794-8e28-2edc1d0229a7, passed token: 06e119aa-acc1-4794-8e28-2edc1d0229a7
+02/23/26 21:23:48: Socket received request to stop server.
+02/23/26 21:23:48: Dispatch Server: do_await_stop
+02/23/26 21:23:48: SERVER: destructor for server bound to port 50068
+02/23/26 21:23:48: Server exiting with status 0.
+02/23/26 21:23:48: Closing log file.
+02/23/26 21:24:16: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:24:16: Server was asked to start on port: '50124'
+02/23/26 21:24:16: Server is using token UUID: 'd555af09-a62d-498b-9b85-04ab252d2268'
+02/23/26 21:24:16: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:24:16: Attempting to start server on port '50124'
+02/23/26 21:24:16: Running Dispatch Server
+02/23/26 21:24:16: Version 2.2.0
+02/23/26 21:24:17: Dispatch Server: Accepted socket connection from client
+02/23/26 21:24:17: Starting Socket connection
+02/23/26 21:24:17: EXCHANGE_TOKEN received, server token: d555af09-a62d-498b-9b85-04ab252d2268, passed token: d555af09-a62d-498b-9b85-04ab252d2268
+02/23/26 21:24:17: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:24:17: SESSION_MGR: creating session with session uuid: 'efc9c767-c192-4717-9957-df821f6b6a97' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:24:17: KERNEL_SVC: creating session with uuid: 'efc9c767-c192-4717-9957-df821f6b6a97' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:24:17: GUIDANCE_SMGR: creating guidance session with uuid: 'efc9c767-c192-4717-9957-df821f6b6a97' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:24:29: Dispatch Server: Accepted socket connection from client
+02/23/26 21:24:29: Starting Socket connection
+02/23/26 21:24:38: SESSION_MGR: closing session for UUID 'efc9c767-c192-4717-9957-df821f6b6a97' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:24:38: KERNEL_SVC: closing session for UUID 'efc9c767-c192-4717-9957-df821f6b6a97' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:24:38: GUIDANCE_SMGR: closing session for UUID 'efc9c767-c192-4717-9957-df821f6b6a97' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:24:38: STOP_SERVER received, server token: d555af09-a62d-498b-9b85-04ab252d2268, passed token: d555af09-a62d-498b-9b85-04ab252d2268
+02/23/26 21:24:38: Socket received request to stop server.
+02/23/26 21:24:38: Dispatch Server: do_await_stop
+02/23/26 21:24:38: SERVER: destructor for server bound to port 50124
+02/23/26 21:24:38: Server exiting with status 0.
+02/23/26 21:24:38: Closing log file.
+02/23/26 21:25:37: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:25:37: Server was asked to start on port: '50179'
+02/23/26 21:25:37: Server is using token UUID: '37267ad5-ace7-4eae-80c1-e51e4abbefdb'
+02/23/26 21:25:37: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:25:37: Attempting to start server on port '50179'
+02/23/26 21:25:37: Running Dispatch Server
+02/23/26 21:25:37: Version 2.2.0
+02/23/26 21:25:39: Dispatch Server: Accepted socket connection from client
+02/23/26 21:25:39: Starting Socket connection
+02/23/26 21:25:39: EXCHANGE_TOKEN received, server token: 37267ad5-ace7-4eae-80c1-e51e4abbefdb, passed token: 37267ad5-ace7-4eae-80c1-e51e4abbefdb
+02/23/26 21:25:39: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:25:39: SESSION_MGR: creating session with session uuid: '070bc707-e7bb-420f-9ead-79bf32338095' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:25:39: KERNEL_SVC: creating session with uuid: '070bc707-e7bb-420f-9ead-79bf32338095' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:25:39: GUIDANCE_SMGR: creating guidance session with uuid: '070bc707-e7bb-420f-9ead-79bf32338095' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:25:50: Dispatch Server: Accepted socket connection from client
+02/23/26 21:25:50: Starting Socket connection
+02/23/26 21:26:03: SESSION_MGR: closing session for UUID '070bc707-e7bb-420f-9ead-79bf32338095' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:03: KERNEL_SVC: closing session for UUID '070bc707-e7bb-420f-9ead-79bf32338095' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:03: GUIDANCE_SMGR: closing session for UUID '070bc707-e7bb-420f-9ead-79bf32338095' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:03: STOP_SERVER received, server token: 37267ad5-ace7-4eae-80c1-e51e4abbefdb, passed token: 37267ad5-ace7-4eae-80c1-e51e4abbefdb
+02/23/26 21:26:03: Socket received request to stop server.
+02/23/26 21:26:03: Dispatch Server: do_await_stop
+02/23/26 21:26:03: SERVER: destructor for server bound to port 50179
+02/23/26 21:26:03: Server exiting with status 0.
+02/23/26 21:26:03: Closing log file.
+02/23/26 21:26:28: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:26:28: Server was asked to start on port: '63142'
+02/23/26 21:26:28: Server is using token UUID: 'dae04ae0-ef9d-419f-808b-67784d3969ae'
+02/23/26 21:26:28: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:26:28: Attempting to start server on port '63142'
+02/23/26 21:26:28: Running Dispatch Server
+02/23/26 21:26:28: Version 2.2.0
+02/23/26 21:26:29: Dispatch Server: Accepted socket connection from client
+02/23/26 21:26:29: Starting Socket connection
+02/23/26 21:26:29: EXCHANGE_TOKEN received, server token: dae04ae0-ef9d-419f-808b-67784d3969ae, passed token: dae04ae0-ef9d-419f-808b-67784d3969ae
+02/23/26 21:26:29: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:26:29: SESSION_MGR: creating session with session uuid: 'c985516d-e4d7-44e3-b8e3-e27d40cc6ae6' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:29: KERNEL_SVC: creating session with uuid: 'c985516d-e4d7-44e3-b8e3-e27d40cc6ae6' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:29: GUIDANCE_SMGR: creating guidance session with uuid: 'c985516d-e4d7-44e3-b8e3-e27d40cc6ae6' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:41: Dispatch Server: Accepted socket connection from client
+02/23/26 21:26:41: Starting Socket connection
+02/23/26 21:26:49: SESSION_MGR: closing session for UUID 'c985516d-e4d7-44e3-b8e3-e27d40cc6ae6' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:49: KERNEL_SVC: closing session for UUID 'c985516d-e4d7-44e3-b8e3-e27d40cc6ae6' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:49: GUIDANCE_SMGR: closing session for UUID 'c985516d-e4d7-44e3-b8e3-e27d40cc6ae6' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:26:49: STOP_SERVER received, server token: dae04ae0-ef9d-419f-808b-67784d3969ae, passed token: dae04ae0-ef9d-419f-808b-67784d3969ae
+02/23/26 21:26:49: Socket received request to stop server.
+02/23/26 21:26:49: Dispatch Server: do_await_stop
+02/23/26 21:26:49: SERVER: destructor for server bound to port 63142
+02/23/26 21:26:49: Server exiting with status 0.
+02/23/26 21:26:49: Closing log file.
+02/23/26 21:27:07: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:27:07: Server was asked to start on port: '63196'
+02/23/26 21:27:07: Server is using token UUID: '54c22f3c-b55a-459d-8fbf-831ea405890b'
+02/23/26 21:27:07: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:27:07: Attempting to start server on port '63196'
+02/23/26 21:27:07: Running Dispatch Server
+02/23/26 21:27:07: Version 2.2.0
+02/23/26 21:27:08: Dispatch Server: Accepted socket connection from client
+02/23/26 21:27:08: Starting Socket connection
+02/23/26 21:27:08: EXCHANGE_TOKEN received, server token: 54c22f3c-b55a-459d-8fbf-831ea405890b, passed token: 54c22f3c-b55a-459d-8fbf-831ea405890b
+02/23/26 21:27:08: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:27:08: SESSION_MGR: creating session with session uuid: 'd07ed66e-3c14-4e52-957a-fb117ebb1872' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:27:08: KERNEL_SVC: creating session with uuid: 'd07ed66e-3c14-4e52-957a-fb117ebb1872' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:27:08: GUIDANCE_SMGR: creating guidance session with uuid: 'd07ed66e-3c14-4e52-957a-fb117ebb1872' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:27:19: Dispatch Server: Accepted socket connection from client
+02/23/26 21:27:19: Starting Socket connection
+02/23/26 21:27:27: SESSION_MGR: closing session for UUID 'd07ed66e-3c14-4e52-957a-fb117ebb1872' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:27:27: KERNEL_SVC: closing session for UUID 'd07ed66e-3c14-4e52-957a-fb117ebb1872' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:27:27: GUIDANCE_SMGR: closing session for UUID 'd07ed66e-3c14-4e52-957a-fb117ebb1872' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:27:27: STOP_SERVER received, server token: 54c22f3c-b55a-459d-8fbf-831ea405890b, passed token: 54c22f3c-b55a-459d-8fbf-831ea405890b
+02/23/26 21:27:27: Socket received request to stop server.
+02/23/26 21:27:27: Dispatch Server: do_await_stop
+02/23/26 21:27:27: SERVER: destructor for server bound to port 63196
+02/23/26 21:27:27: Server exiting with status 0.
+02/23/26 21:27:27: Closing log file.
+02/23/26 21:28:35: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:28:35: Server was asked to start on port: '63251'
+02/23/26 21:28:35: Server is using token UUID: 'c53bc29c-1451-4933-8a2b-5923dc3710e7'
+02/23/26 21:28:35: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:28:35: Attempting to start server on port '63251'
+02/23/26 21:28:35: Running Dispatch Server
+02/23/26 21:28:35: Version 2.2.0
+02/23/26 21:28:36: Dispatch Server: Accepted socket connection from client
+02/23/26 21:28:36: Starting Socket connection
+02/23/26 21:28:36: EXCHANGE_TOKEN received, server token: c53bc29c-1451-4933-8a2b-5923dc3710e7, passed token: c53bc29c-1451-4933-8a2b-5923dc3710e7
+02/23/26 21:28:36: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:28:36: SESSION_MGR: creating session with session uuid: '9d36c4de-0d57-4d8d-aaed-26d7ad1d4262' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:28:36: KERNEL_SVC: creating session with uuid: '9d36c4de-0d57-4d8d-aaed-26d7ad1d4262' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:28:36: GUIDANCE_SMGR: creating guidance session with uuid: '9d36c4de-0d57-4d8d-aaed-26d7ad1d4262' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:28:47: Dispatch Server: Accepted socket connection from client
+02/23/26 21:28:47: Starting Socket connection
+02/23/26 21:29:00: SESSION_MGR: closing session for UUID '9d36c4de-0d57-4d8d-aaed-26d7ad1d4262' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:29:00: KERNEL_SVC: closing session for UUID '9d36c4de-0d57-4d8d-aaed-26d7ad1d4262' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:29:00: GUIDANCE_SMGR: closing session for UUID '9d36c4de-0d57-4d8d-aaed-26d7ad1d4262' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:29:00: STOP_SERVER received, server token: c53bc29c-1451-4933-8a2b-5923dc3710e7, passed token: c53bc29c-1451-4933-8a2b-5923dc3710e7
+02/23/26 21:29:00: Socket received request to stop server.
+02/23/26 21:29:00: Dispatch Server: do_await_stop
+02/23/26 21:29:00: SERVER: destructor for server bound to port 63251
+02/23/26 21:29:00: Server exiting with status 0.
+02/23/26 21:29:00: Closing log file.
+02/23/26 21:29:35: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:29:35: Server was asked to start on port: '63314'
+02/23/26 21:29:35: Server is using token UUID: '421c57f0-0e2b-4f58-8fcd-b3ff2da3d635'
+02/23/26 21:29:35: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:29:35: Attempting to start server on port '63314'
+02/23/26 21:29:35: Running Dispatch Server
+02/23/26 21:29:35: Version 2.2.0
+02/23/26 21:29:36: Dispatch Server: Accepted socket connection from client
+02/23/26 21:29:36: Starting Socket connection
+02/23/26 21:29:36: EXCHANGE_TOKEN received, server token: 421c57f0-0e2b-4f58-8fcd-b3ff2da3d635, passed token: 421c57f0-0e2b-4f58-8fcd-b3ff2da3d635
+02/23/26 21:29:36: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:29:36: SESSION_MGR: creating session with session uuid: '1a1a6020-05e6-493d-a836-bd3c14cf4001' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:29:36: KERNEL_SVC: creating session with uuid: '1a1a6020-05e6-493d-a836-bd3c14cf4001' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:29:36: GUIDANCE_SMGR: creating guidance session with uuid: '1a1a6020-05e6-493d-a836-bd3c14cf4001' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:29:47: Dispatch Server: Accepted socket connection from client
+02/23/26 21:29:47: Starting Socket connection
+02/23/26 21:30:01: SESSION_MGR: closing session for UUID '1a1a6020-05e6-493d-a836-bd3c14cf4001' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:30:01: KERNEL_SVC: closing session for UUID '1a1a6020-05e6-493d-a836-bd3c14cf4001' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:30:01: GUIDANCE_SMGR: closing session for UUID '1a1a6020-05e6-493d-a836-bd3c14cf4001' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:30:01: STOP_SERVER received, server token: 421c57f0-0e2b-4f58-8fcd-b3ff2da3d635, passed token: 421c57f0-0e2b-4f58-8fcd-b3ff2da3d635
+02/23/26 21:30:01: Socket received request to stop server.
+02/23/26 21:30:01: Dispatch Server: do_await_stop
+02/23/26 21:30:01: SERVER: destructor for server bound to port 63314
+02/23/26 21:30:01: Server exiting with status 0.
+02/23/26 21:30:01: Closing log file.
+02/23/26 21:33:40: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 21:33:40: Server was asked to start on port: '53192'
+02/23/26 21:33:40: Server is using token UUID: '6144f4b9-95d1-41ca-9954-96f576c48290'
+02/23/26 21:33:40: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 21:33:40: Attempting to start server on port '53192'
+02/23/26 21:33:40: Running Dispatch Server
+02/23/26 21:33:40: Version 2.2.0
+02/23/26 21:33:41: Dispatch Server: Accepted socket connection from client
+02/23/26 21:33:41: Starting Socket connection
+02/23/26 21:33:41: EXCHANGE_TOKEN received, server token: 6144f4b9-95d1-41ca-9954-96f576c48290, passed token: 6144f4b9-95d1-41ca-9954-96f576c48290
+02/23/26 21:33:41: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 21:33:41: SESSION_MGR: creating session with session uuid: '2d0a6b03-3b79-45fb-b1ee-efa1cf4dd0c9' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:33:41: KERNEL_SVC: creating session with uuid: '2d0a6b03-3b79-45fb-b1ee-efa1cf4dd0c9' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:33:41: GUIDANCE_SMGR: creating guidance session with uuid: '2d0a6b03-3b79-45fb-b1ee-efa1cf4dd0c9' and name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:33:53: Dispatch Server: Accepted socket connection from client
+02/23/26 21:33:53: Starting Socket connection
+02/23/26 21:34:06: SESSION_MGR: closing session for UUID '2d0a6b03-3b79-45fb-b1ee-efa1cf4dd0c9' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:34:06: KERNEL_SVC: closing session for UUID '2d0a6b03-3b79-45fb-b1ee-efa1cf4dd0c9' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:34:06: GUIDANCE_SMGR: closing session for UUID '2d0a6b03-3b79-45fb-b1ee-efa1cf4dd0c9' with name 'vitis-run_compile_Audio-Filtering'
+02/23/26 21:34:06: STOP_SERVER received, server token: 6144f4b9-95d1-41ca-9954-96f576c48290, passed token: 6144f4b9-95d1-41ca-9954-96f576c48290
+02/23/26 21:34:06: Socket received request to stop server.
+02/23/26 21:34:06: Dispatch Server: do_await_stop
+02/23/26 21:34:06: SERVER: destructor for server bound to port 53192
+02/23/26 21:34:06: Server exiting with status 0.
+02/23/26 21:34:06: Closing log file.
