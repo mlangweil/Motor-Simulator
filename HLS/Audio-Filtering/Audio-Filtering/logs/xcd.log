@@ -1,0 +1,25 @@
+02/23/26 19:15:04: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+02/23/26 19:15:04: Server was asked to start on port: '54671'
+02/23/26 19:15:04: Server is using token UUID: 'b0e7d560-c6e2-46c5-8a6f-b63ce0005ec2'
+02/23/26 19:15:04: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+02/23/26 19:15:04: Attempting to start server on port '54671'
+02/23/26 19:15:04: Running Dispatch Server
+02/23/26 19:15:04: Version 2.2.0
+02/23/26 19:15:05: Dispatch Server: Accepted socket connection from client
+02/23/26 19:15:05: Starting Socket connection
+02/23/26 19:15:05: EXCHANGE_TOKEN received, server token: b0e7d560-c6e2-46c5-8a6f-b63ce0005ec2, passed token: b0e7d560-c6e2-46c5-8a6f-b63ce0005ec2
+02/23/26 19:15:05: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+02/23/26 19:15:05: SESSION_MGR: creating session with session uuid: '9cfa347e-86ed-4ca5-97ef-e6144fba530b' and name 'v++_compile_Audio-Filtering'
+02/23/26 19:15:05: KERNEL_SVC: creating session with uuid: '9cfa347e-86ed-4ca5-97ef-e6144fba530b' and name 'v++_compile_Audio-Filtering'
+02/23/26 19:15:05: GUIDANCE_SMGR: creating guidance session with uuid: '9cfa347e-86ed-4ca5-97ef-e6144fba530b' and name 'v++_compile_Audio-Filtering'
+02/23/26 19:15:17: Dispatch Server: Accepted socket connection from client
+02/23/26 19:15:17: Starting Socket connection
+02/23/26 19:17:11: SESSION_MGR: closing session for UUID '9cfa347e-86ed-4ca5-97ef-e6144fba530b' with name 'v++_compile_Audio-Filtering'
+02/23/26 19:17:11: KERNEL_SVC: closing session for UUID '9cfa347e-86ed-4ca5-97ef-e6144fba530b' with name 'v++_compile_Audio-Filtering'
+02/23/26 19:17:11: GUIDANCE_SMGR: closing session for UUID '9cfa347e-86ed-4ca5-97ef-e6144fba530b' with name 'v++_compile_Audio-Filtering'
+02/23/26 19:17:11: STOP_SERVER received, server token: b0e7d560-c6e2-46c5-8a6f-b63ce0005ec2, passed token: b0e7d560-c6e2-46c5-8a6f-b63ce0005ec2
+02/23/26 19:17:11: Socket received request to stop server.
+02/23/26 19:17:11: Dispatch Server: do_await_stop
+02/23/26 19:17:11: SERVER: destructor for server bound to port 54671
+02/23/26 19:17:11: Server exiting with status 0.
+02/23/26 19:17:11: Closing log file.

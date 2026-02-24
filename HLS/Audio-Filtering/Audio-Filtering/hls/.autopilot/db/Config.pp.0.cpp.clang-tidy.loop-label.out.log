@@ -1,0 +1,40 @@
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:26997:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1223_1: 
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:26997:7: note: FIX-IT applied suggested code changes
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:27971:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:27971:5: note: FIX-IT applied suggested code changes
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:27985:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:27985:5: note: FIX-IT applied suggested code changes
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:27999:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:27999:5: note: FIX-IT applied suggested code changes
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:29628:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:29628:7: note: FIX-IT applied suggested code changes
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:33871:5: warning: Added loop label VITIS_LOOP_19_1:   [xilinx-label-all-loops]
+    for (int i = 0; i < 25 - 1; i++) {
+    ^~~
+    VITIS_LOOP_19_1: 
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:33871:5: note: FIX-IT applied suggested code changes
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:33875:3: warning: Added loop label VITIS_LOOP_23_2:   [xilinx-label-all-loops]
+  while (1) {
+  ^~~~~
+  VITIS_LOOP_23_2: 
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:33875:3: note: FIX-IT applied suggested code changes
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:33876:5: warning: Added loop label VITIS_LOOP_24_3:   [xilinx-label-all-loops]
+    for (int i = 0; i < 25 - 1; i++) {
+    ^~~
+    VITIS_LOOP_24_3: 
+C:\Temp\mlangweil\Motor-Simulator\HLS\Audio-Filtering\Audio-Filtering\hls\.autopilot\db\Config.pp.0.cpp:33876:5: note: FIX-IT applied suggested code changes
