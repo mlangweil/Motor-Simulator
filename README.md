@@ -15,6 +15,8 @@ Proposed FIR filter process:
 
 HOW TO RUN FIR_PYTHON FILE
 This file implements a FIR filter purely in Python which is what we hope to accomplish in hardware
+
 Using the FIR_Python file and the "drmpaan.wav" file will allow you to see Frequency response, original signal, filtered signal and an array of taps.
+
 If you download the .wav file provided you just need to have the file in the same Jupyter Notebook folder with the FIR_Python.ipynb.
 Then you can click run because the function call is already there, but you can change the frequency band if you would like. If you use your own .wav file you may need to adjust frequency band depending on sample frequency of that file.
