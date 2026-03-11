@@ -42,8 +42,8 @@ set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xczu3eg:-sfvc784:-2-e
-set SourceFiles {sc {} c {../../Config.cpp ../../Coefficients.cpp ../../Fir-Filter.cpp}}
-set SourceFlags {sc {} c {{} {} {}}}
+set SourceFiles {sc {} c {../../Coefficients.cpp ../../Fir-Filter.cpp}}
+set SourceFlags {sc {} c {{} {}}}
 set DirectiveFile {}
 set TBFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set SpecLanguage C

@@ -25,44 +25,14 @@ using namespace std;
 #define AUTOTB_TVOUT_upperCutoff "../tv/cdatafile/c.calculateCoefficients.autotvout_upperCutoff.dat"
 #define AUTOTB_TVIN_samplingRate "../tv/cdatafile/c.calculateCoefficients.autotvin_samplingRate.dat"
 #define AUTOTB_TVOUT_samplingRate "../tv/cdatafile/c.calculateCoefficients.autotvout_samplingRate.dat"
-#define AUTOTB_TVIN_coefficients_V_data_V "../tv/cdatafile/c.calculateCoefficients.autotvin_coefficients_V_data_V.dat"
-#define AUTOTB_TVOUT_coefficients_V_data_V "../tv/cdatafile/c.calculateCoefficients.autotvout_coefficients_V_data_V.dat"
-#define AUTOTB_TVIN_coefficients_V_keep_V "../tv/cdatafile/c.calculateCoefficients.autotvin_coefficients_V_keep_V.dat"
-#define AUTOTB_TVOUT_coefficients_V_keep_V "../tv/cdatafile/c.calculateCoefficients.autotvout_coefficients_V_keep_V.dat"
-#define AUTOTB_TVIN_coefficients_V_strb_V "../tv/cdatafile/c.calculateCoefficients.autotvin_coefficients_V_strb_V.dat"
-#define AUTOTB_TVOUT_coefficients_V_strb_V "../tv/cdatafile/c.calculateCoefficients.autotvout_coefficients_V_strb_V.dat"
-#define AUTOTB_TVIN_coefficients_V_user_V "../tv/cdatafile/c.calculateCoefficients.autotvin_coefficients_V_user_V.dat"
-#define AUTOTB_TVOUT_coefficients_V_user_V "../tv/cdatafile/c.calculateCoefficients.autotvout_coefficients_V_user_V.dat"
-#define AUTOTB_TVIN_coefficients_V_last_V "../tv/cdatafile/c.calculateCoefficients.autotvin_coefficients_V_last_V.dat"
-#define AUTOTB_TVOUT_coefficients_V_last_V "../tv/cdatafile/c.calculateCoefficients.autotvout_coefficients_V_last_V.dat"
-#define AUTOTB_TVIN_coefficients_V_id_V "../tv/cdatafile/c.calculateCoefficients.autotvin_coefficients_V_id_V.dat"
-#define AUTOTB_TVOUT_coefficients_V_id_V "../tv/cdatafile/c.calculateCoefficients.autotvout_coefficients_V_id_V.dat"
-#define AUTOTB_TVIN_coefficients_V_dest_V "../tv/cdatafile/c.calculateCoefficients.autotvin_coefficients_V_dest_V.dat"
-#define AUTOTB_TVOUT_coefficients_V_dest_V "../tv/cdatafile/c.calculateCoefficients.autotvout_coefficients_V_dest_V.dat"
-#define WRAPC_STREAM_SIZE_OUT_coefficients_V_data_V "../tv/stream_size/stream_size_out_coefficients_V_data_V.dat"
-#define WRAPC_STREAM_EGRESS_STATUS_coefficients_V_data_V "../tv/stream_size/stream_egress_status_coefficients_V_data_V.dat"
-#define WRAPC_STREAM_SIZE_OUT_coefficients_V_keep_V "../tv/stream_size/stream_size_out_coefficients_V_keep_V.dat"
-#define WRAPC_STREAM_EGRESS_STATUS_coefficients_V_keep_V "../tv/stream_size/stream_egress_status_coefficients_V_keep_V.dat"
-#define WRAPC_STREAM_SIZE_OUT_coefficients_V_strb_V "../tv/stream_size/stream_size_out_coefficients_V_strb_V.dat"
-#define WRAPC_STREAM_EGRESS_STATUS_coefficients_V_strb_V "../tv/stream_size/stream_egress_status_coefficients_V_strb_V.dat"
-#define WRAPC_STREAM_SIZE_OUT_coefficients_V_user_V "../tv/stream_size/stream_size_out_coefficients_V_user_V.dat"
-#define WRAPC_STREAM_EGRESS_STATUS_coefficients_V_user_V "../tv/stream_size/stream_egress_status_coefficients_V_user_V.dat"
-#define WRAPC_STREAM_SIZE_OUT_coefficients_V_last_V "../tv/stream_size/stream_size_out_coefficients_V_last_V.dat"
-#define WRAPC_STREAM_EGRESS_STATUS_coefficients_V_last_V "../tv/stream_size/stream_egress_status_coefficients_V_last_V.dat"
-#define WRAPC_STREAM_SIZE_OUT_coefficients_V_id_V "../tv/stream_size/stream_size_out_coefficients_V_id_V.dat"
-#define WRAPC_STREAM_EGRESS_STATUS_coefficients_V_id_V "../tv/stream_size/stream_egress_status_coefficients_V_id_V.dat"
-#define WRAPC_STREAM_SIZE_OUT_coefficients_V_dest_V "../tv/stream_size/stream_size_out_coefficients_V_dest_V.dat"
-#define WRAPC_STREAM_EGRESS_STATUS_coefficients_V_dest_V "../tv/stream_size/stream_egress_status_coefficients_V_dest_V.dat"
+#define AUTOTB_TVIN_bram "../tv/cdatafile/c.calculateCoefficients.autotvin_bram.dat"
+#define AUTOTB_TVOUT_bram "../tv/cdatafile/c.calculateCoefficients.autotvout_bram.dat"
+#define AUTOTB_TVIN_gmem "../tv/cdatafile/c.calculateCoefficients.autotvin_gmem.dat"
+#define AUTOTB_TVOUT_gmem "../tv/cdatafile/c.calculateCoefficients.autotvout_gmem.dat"
 
 
 // tvout file define:
-#define AUTOTB_TVOUT_PC_coefficients_V_data_V "../tv/rtldatafile/rtl.calculateCoefficients.autotvout_coefficients_V_data_V.dat"
-#define AUTOTB_TVOUT_PC_coefficients_V_keep_V "../tv/rtldatafile/rtl.calculateCoefficients.autotvout_coefficients_V_keep_V.dat"
-#define AUTOTB_TVOUT_PC_coefficients_V_strb_V "../tv/rtldatafile/rtl.calculateCoefficients.autotvout_coefficients_V_strb_V.dat"
-#define AUTOTB_TVOUT_PC_coefficients_V_user_V "../tv/rtldatafile/rtl.calculateCoefficients.autotvout_coefficients_V_user_V.dat"
-#define AUTOTB_TVOUT_PC_coefficients_V_last_V "../tv/rtldatafile/rtl.calculateCoefficients.autotvout_coefficients_V_last_V.dat"
-#define AUTOTB_TVOUT_PC_coefficients_V_id_V "../tv/rtldatafile/rtl.calculateCoefficients.autotvout_coefficients_V_id_V.dat"
-#define AUTOTB_TVOUT_PC_coefficients_V_dest_V "../tv/rtldatafile/rtl.calculateCoefficients.autotvout_coefficients_V_dest_V.dat"
+#define AUTOTB_TVOUT_PC_gmem "../tv/rtldatafile/rtl.calculateCoefficients.autotvout_gmem.dat"
 
 
 namespace hls::sim
@@ -1193,10 +1163,10 @@ namespace hls::sim
 
 
 extern "C"
-void calculateCoefficients_hw_stub_wrapper(hls::sim::Byte<4>, hls::sim::Byte<4>, float, void*, void*, void*, void*, void*, void*, void*);
+void calculateCoefficients_hw_stub_wrapper(hls::sim::Byte<4>, hls::sim::Byte<4>, float, void*);
 
 extern "C"
-void apatb_calculateCoefficients_hw(hls::sim::Byte<4> __xlx_apatb_param_lowerCutoff, hls::sim::Byte<4> __xlx_apatb_param_upperCutoff, float __xlx_apatb_param_samplingRate, void* __xlx_apatb_param_coefficients_V_data_V, void* __xlx_apatb_param_coefficients_V_keep_V, void* __xlx_apatb_param_coefficients_V_strb_V, void* __xlx_apatb_param_coefficients_V_user_V, void* __xlx_apatb_param_coefficients_V_last_V, void* __xlx_apatb_param_coefficients_V_id_V, void* __xlx_apatb_param_coefficients_V_dest_V)
+void apatb_calculateCoefficients_hw(hls::sim::Byte<4> __xlx_apatb_param_lowerCutoff, hls::sim::Byte<4> __xlx_apatb_param_upperCutoff, float __xlx_apatb_param_samplingRate, void* __xlx_apatb_param_bram)
 {
   static hls::sim::Register port0 {
     .name = "lowerCutoff",
@@ -1231,154 +1201,56 @@ void apatb_calculateCoefficients_hw(hls::sim::Byte<4> __xlx_apatb_param_lowerCut
   };
   port2.param = &__xlx_apatb_param_samplingRate;
 
-  static hls::sim::Stream<hls::sim::Byte<4>> port3 {
+  hls::sim::Byte<4> __xlx_offset_byte_param_bram;
+  static hls::sim::Register port3 {
+    .name = "bram",
     .width = 32,
-    .name = "coefficients_V_data_V",
 #ifdef POST_CHECK
-    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_coefficients_V_data_V),
 #else
-    .writer = new hls::sim::Writer(AUTOTB_TVOUT_coefficients_V_data_V),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_coefficients_V_data_V),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_coefficients_V_data_V),
+    .owriter = nullptr,
+    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_bram),
 #endif
   };
-  port3.param = (hls::stream<hls::sim::Byte<4>>*)__xlx_apatb_param_coefficients_V_data_V;
-  port3.hasWrite = true;
+  port3.param = &__xlx_offset_byte_param_bram;
 
-  static hls::sim::Stream<hls::sim::Byte<1>> port4 {
-    .width = 4,
-    .name = "coefficients_V_keep_V",
+  static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port4 {
+    .width = 32,
+    .asize = 4,
+    .hbm = false,
+    .name = { "gmem" },
 #ifdef POST_CHECK
-    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_coefficients_V_keep_V),
+    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_gmem),
 #else
-    .writer = new hls::sim::Writer(AUTOTB_TVOUT_coefficients_V_keep_V),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_coefficients_V_keep_V),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_coefficients_V_keep_V),
+    .owriter = new hls::sim::Writer(AUTOTB_TVOUT_gmem),
+    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_gmem),
 #endif
   };
-  port4.param = (hls::stream<hls::sim::Byte<1>>*)__xlx_apatb_param_coefficients_V_keep_V;
-  port4.hasWrite = true;
-
-  static hls::sim::Stream<hls::sim::Byte<1>> port5 {
-    .width = 4,
-    .name = "coefficients_V_strb_V",
-#ifdef POST_CHECK
-    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_coefficients_V_strb_V),
-#else
-    .writer = new hls::sim::Writer(AUTOTB_TVOUT_coefficients_V_strb_V),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_coefficients_V_strb_V),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_coefficients_V_strb_V),
-#endif
-  };
-  port5.param = (hls::stream<hls::sim::Byte<1>>*)__xlx_apatb_param_coefficients_V_strb_V;
-  port5.hasWrite = true;
-
-  static hls::sim::Stream<hls::sim::Byte<1>> port6 {
-    .width = 2,
-    .name = "coefficients_V_user_V",
-#ifdef POST_CHECK
-    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_coefficients_V_user_V),
-#else
-    .writer = new hls::sim::Writer(AUTOTB_TVOUT_coefficients_V_user_V),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_coefficients_V_user_V),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_coefficients_V_user_V),
-#endif
-  };
-  port6.param = (hls::stream<hls::sim::Byte<1>>*)__xlx_apatb_param_coefficients_V_user_V;
-  port6.hasWrite = true;
-
-  static hls::sim::Stream<hls::sim::Byte<1>> port7 {
-    .width = 1,
-    .name = "coefficients_V_last_V",
-#ifdef POST_CHECK
-    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_coefficients_V_last_V),
-#else
-    .writer = new hls::sim::Writer(AUTOTB_TVOUT_coefficients_V_last_V),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_coefficients_V_last_V),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_coefficients_V_last_V),
-#endif
-  };
-  port7.param = (hls::stream<hls::sim::Byte<1>>*)__xlx_apatb_param_coefficients_V_last_V;
-  port7.hasWrite = true;
-
-  static hls::sim::Stream<hls::sim::Byte<1>> port8 {
-    .width = 5,
-    .name = "coefficients_V_id_V",
-#ifdef POST_CHECK
-    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_coefficients_V_id_V),
-#else
-    .writer = new hls::sim::Writer(AUTOTB_TVOUT_coefficients_V_id_V),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_coefficients_V_id_V),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_coefficients_V_id_V),
-#endif
-  };
-  port8.param = (hls::stream<hls::sim::Byte<1>>*)__xlx_apatb_param_coefficients_V_id_V;
-  port8.hasWrite = true;
-
-  static hls::sim::Stream<hls::sim::Byte<1>> port9 {
-    .width = 6,
-    .name = "coefficients_V_dest_V",
-#ifdef POST_CHECK
-    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_coefficients_V_dest_V),
-#else
-    .writer = new hls::sim::Writer(AUTOTB_TVOUT_coefficients_V_dest_V),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_coefficients_V_dest_V),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_coefficients_V_dest_V),
-#endif
-  };
-  port9.param = (hls::stream<hls::sim::Byte<1>>*)__xlx_apatb_param_coefficients_V_dest_V;
-  port9.hasWrite = true;
+  port4.param = { __xlx_apatb_param_bram };
+  port4.nbytes = { 0 };
+  port4.offset = {  };
+  port4.hasWrite = { true };
 
   try {
 #ifdef POST_CHECK
     CodeState = ENTER_WRAPC_PC;
-    check(port3);
     check(port4);
-    check(port5);
-    check(port6);
-    check(port7);
-    check(port8);
-    check(port9);
 #else
     static hls::sim::RefTCL tcl("../tv/cdatafile/ref.tcl");
     CodeState = DUMP_INPUTS;
     dump(port0, port0.iwriter, tcl.AESL_transaction);
     dump(port1, port1.iwriter, tcl.AESL_transaction);
     dump(port2, port2.iwriter, tcl.AESL_transaction);
+    dump(port3, port3.iwriter, tcl.AESL_transaction);
+    dump(port4, port4.iwriter, tcl.AESL_transaction);
     port0.doTCL(tcl);
     port1.doTCL(tcl);
     port2.doTCL(tcl);
-    port3.markSize();
-    port4.markSize();
-    port5.markSize();
-    port6.markSize();
-    port7.markSize();
-    port8.markSize();
-    port9.markSize();
-    CodeState = CALL_C_DUT;
-    calculateCoefficients_hw_stub_wrapper(__xlx_apatb_param_lowerCutoff, __xlx_apatb_param_upperCutoff, __xlx_apatb_param_samplingRate, __xlx_apatb_param_coefficients_V_data_V, __xlx_apatb_param_coefficients_V_keep_V, __xlx_apatb_param_coefficients_V_strb_V, __xlx_apatb_param_coefficients_V_user_V, __xlx_apatb_param_coefficients_V_last_V, __xlx_apatb_param_coefficients_V_id_V, __xlx_apatb_param_coefficients_V_dest_V);
-    port3.buffer();
-    port4.buffer();
-    port5.buffer();
-    port6.buffer();
-    port7.buffer();
-    port8.buffer();
-    port9.buffer();
-    CodeState = DUMP_OUTPUTS;
-    dump(port3, tcl.AESL_transaction);
-    dump(port4, tcl.AESL_transaction);
-    dump(port5, tcl.AESL_transaction);
-    dump(port6, tcl.AESL_transaction);
-    dump(port7, tcl.AESL_transaction);
-    dump(port8, tcl.AESL_transaction);
-    dump(port9, tcl.AESL_transaction);
     port3.doTCL(tcl);
     port4.doTCL(tcl);
-    port5.doTCL(tcl);
-    port6.doTCL(tcl);
-    port7.doTCL(tcl);
-    port8.doTCL(tcl);
-    port9.doTCL(tcl);
+    CodeState = CALL_C_DUT;
+    calculateCoefficients_hw_stub_wrapper(__xlx_apatb_param_lowerCutoff, __xlx_apatb_param_upperCutoff, __xlx_apatb_param_samplingRate, __xlx_apatb_param_bram);
+    CodeState = DUMP_OUTPUTS;
+    dump(port4, port4.owriter, tcl.AESL_transaction);
     tcl.AESL_transaction++;
 #endif
   } catch (const hls::sim::SimException &e) {

@@ -1,3 +1,3 @@
-relativeroot=C:/Temp/mlangweil/Motor-Simulator/HLS/Audio-Filtering
-original_argv=--mode hls --csim --config C:\TEMP\mlangweil\Motor-Simulator\HLS\Audio-Filtering\hls_config.cfg --work_dir Audio-Filtering 
+relativeroot=F:/Motor-Simulator/HLS/Audio-Filtering
+original_argv=--mode hls --csim --config F:\Motor-Simulator\HLS\Audio-Filtering\hls_config.cfg --work_dir Audio-Filtering 
 

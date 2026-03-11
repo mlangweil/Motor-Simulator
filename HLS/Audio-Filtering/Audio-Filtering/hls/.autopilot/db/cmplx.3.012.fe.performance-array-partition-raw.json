@@ -1,33 +1,23 @@
 {
   "0": {
-    "basicblocks": 221,
+    "basicblocks": 5,
     "calls": "1 1",
-    "file": "Config.cpp",
-    "fileloc": 5,
-    "instructions": 1268,
-    "loads": {
-      "L": 24
-    },
+    "file": "Coefficients.cpp",
+    "fileloc": 4,
+    "instructions": 45,
     "name": "calculateCoefficients",
-    "stores": {
-      "L": 199
-    },
-    "total_instructions": 1885
+    "total_instructions": 459
   },
   "1": {
-    "basicblocks": 22,
+    "basicblocks": 12,
     "calls": "",
     "file": "hls_hotbm.h",
     "fileloc": 209,
-    "instructions": 258,
+    "instructions": 207,
     "loads": {
-      "G": 4,
-      "L": 4
+      "G": 4
     },
     "name": "sin_or_cos<float>",
-    "stores": {
-      "L": 6
-    },
-    "total_instructions": 258
+    "total_instructions": 207
   }
 }

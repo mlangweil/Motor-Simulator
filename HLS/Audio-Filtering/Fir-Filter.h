@@ -8,5 +8,5 @@
 using namespace std;
 
 
-void fir_top(hls::stream< ap_axis<32,2,5,6> > &in, float *coef, hls::stream< ap_axis<32,2,5,6> > &out);
+void fir_top(float coefficients[TAPS], float coef[TAPS], hls::stream< ap_axis<32,2,5,6> > &out); 
 

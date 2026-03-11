@@ -1,38 +1,38 @@
 [
   {
-    "directory": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering",
+    "directory": "F:\\Motor-Simulator\\HLS\\Audio-Filtering",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
       "-fhls",
       "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
       "",
       "-c",
-      "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients.cpp"
+      "F:\\Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp"
     ],
-    "file": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients.cpp"
+    "file": "F:\\Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp"
   },
   {
-    "directory": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering",
+    "directory": "F:\\Motor-Simulator\\HLS\\Audio-Filtering",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
       "-fhls",
       "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
       "",
       "-c",
-      "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp"
+      "F:\\Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients.cpp"
     ],
-    "file": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp"
+    "file": "F:\\Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients.cpp"
   },
   {
-    "directory": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering",
+    "directory": "F:\\Motor-Simulator\\HLS\\Audio-Filtering",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
-      "-fhls",
-      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
       "",
       "-c",
-      "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients_tb.cpp"
+      "F:\\Motor-Simulator\\HLS\\Audio-Filtering\\tb_coefficients.cpp"
     ],
-    "file": "C:\\TEMP\\mlangweil\\Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients_tb.cpp"
+    "file": "F:\\Motor-Simulator\\HLS\\Audio-Filtering\\tb_coefficients.cpp"
   }
 ]

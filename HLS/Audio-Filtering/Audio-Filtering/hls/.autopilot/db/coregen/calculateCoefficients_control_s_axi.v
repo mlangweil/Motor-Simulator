@@ -33,7 +33,8 @@ module calculateCoefficients_control_s_axi
     input  wire                          RREADY,
     output wire [31:0]                   lowerCutoff,
     output wire [31:0]                   upperCutoff,
-    output wire [31:0]                   samplingRate
+    output wire [31:0]                   samplingRate,
+    output wire [63:0]                   bram
 );
 //------------------------Address Info-------------------
 // Protocol Used: ap_ctrl_none
@@ -51,6 +52,11 @@ module calculateCoefficients_control_s_axi
 // 0x20 : Data signal of samplingRate
 //        bit 31~0 - samplingRate[31:0] (Read/Write)
 // 0x24 : reserved
+// 0x28 : Data signal of bram
+//        bit 31~0 - bram[31:0] (Read/Write)
+// 0x2c : Data signal of bram
+//        bit 31~0 - bram[63:32] (Read/Write)
+// 0x30 : reserved
 // (SC = Self Clear, COR = Clear on Read, TOW = Toggle on Write, COH = Clear on Handshake)
 
 //------------------------Parameter----------------------
@@ -61,6 +67,9 @@ localparam
     ADDR_UPPERCUTOFF_CTRL    = 6'h1c,
     ADDR_SAMPLINGRATE_DATA_0 = 6'h20,
     ADDR_SAMPLINGRATE_CTRL   = 6'h24,
+    ADDR_BRAM_DATA_0         = 6'h28,
+    ADDR_BRAM_DATA_1         = 6'h2c,
+    ADDR_BRAM_CTRL           = 6'h30,
     WRIDLE                   = 2'd0,
     WRDATA                   = 2'd1,
     WRRESP                   = 2'd2,
@@ -86,6 +95,7 @@ localparam
     reg  [31:0]                   int_lowerCutoff = 'b0;
     reg  [31:0]                   int_upperCutoff = 'b0;
     reg  [31:0]                   int_samplingRate = 'b0;
+    reg  [63:0]                   int_bram = 'b0;
 
 //------------------------Instantiation------------------
 
@@ -187,6 +197,12 @@ always @(posedge ACLK) begin
                 ADDR_SAMPLINGRATE_DATA_0: begin
                     rdata <= int_samplingRate[31:0];
                 end
+                ADDR_BRAM_DATA_0: begin
+                    rdata <= int_bram[31:0];
+                end
+                ADDR_BRAM_DATA_1: begin
+                    rdata <= int_bram[63:32];
+                end
             endcase
         end
     end
@@ -197,6 +213,7 @@ end
 assign lowerCutoff  = int_lowerCutoff;
 assign upperCutoff  = int_upperCutoff;
 assign samplingRate = int_samplingRate;
+assign bram         = int_bram;
 // int_lowerCutoff[31:0]
 always @(posedge ACLK) begin
     if (ARESET)
@@ -224,6 +241,26 @@ always @(posedge ACLK) begin
     else if (ACLK_EN) begin
         if (w_hs && waddr == ADDR_SAMPLINGRATE_DATA_0)
             int_samplingRate[31:0] <= (WDATA[31:0] & wmask) | (int_samplingRate[31:0] & ~wmask);
+    end
+end
+
+// int_bram[31:0]
+always @(posedge ACLK) begin
+    if (ARESET)
+        int_bram[31:0] <= 0;
+    else if (ACLK_EN) begin
+        if (w_hs && waddr == ADDR_BRAM_DATA_0)
+            int_bram[31:0] <= (WDATA[31:0] & wmask) | (int_bram[31:0] & ~wmask);
+    end
+end
+
+// int_bram[63:32]
+always @(posedge ACLK) begin
+    if (ARESET)
+        int_bram[63:32] <= 0;
+    else if (ACLK_EN) begin
+        if (w_hs && waddr == ADDR_BRAM_DATA_1)
+            int_bram[63:32] <= (WDATA[31:0] & wmask) | (int_bram[63:32] & ~wmask);
     end
 end
 

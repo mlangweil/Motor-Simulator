@@ -72,3 +72,22 @@ u32 XCalculatecoefficients_Get_samplingRate(XCalculatecoefficients *InstancePtr)
     return Data;
 }
 
+void XCalculatecoefficients_Set_bram(XCalculatecoefficients *InstancePtr, u64 Data) {
+    Xil_AssertVoid(InstancePtr != NULL);
+    Xil_AssertVoid(InstancePtr->IsReady == XIL_COMPONENT_IS_READY);
+
+    XCalculatecoefficients_WriteReg(InstancePtr->Control_BaseAddress, XCALCULATECOEFFICIENTS_CONTROL_ADDR_BRAM_DATA, (u32)(Data));
+    XCalculatecoefficients_WriteReg(InstancePtr->Control_BaseAddress, XCALCULATECOEFFICIENTS_CONTROL_ADDR_BRAM_DATA + 4, (u32)(Data >> 32));
+}
+
+u64 XCalculatecoefficients_Get_bram(XCalculatecoefficients *InstancePtr) {
+    u64 Data;
+
+    Xil_AssertNonvoid(InstancePtr != NULL);
+    Xil_AssertNonvoid(InstancePtr->IsReady == XIL_COMPONENT_IS_READY);
+
+    Data = XCalculatecoefficients_ReadReg(InstancePtr->Control_BaseAddress, XCALCULATECOEFFICIENTS_CONTROL_ADDR_BRAM_DATA);
+    Data += (u64)XCalculatecoefficients_ReadReg(InstancePtr->Control_BaseAddress, XCALCULATECOEFFICIENTS_CONTROL_ADDR_BRAM_DATA + 4) << 32;
+    return Data;
+}
+

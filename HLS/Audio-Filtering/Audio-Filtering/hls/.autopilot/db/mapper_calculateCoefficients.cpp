@@ -242,59 +242,22 @@ class AESL_RUNTIME_BC {
     fstream file_token;
     string mName;
 };
-unsigned int ap_apatb_coefficients_V_data_V_cap_bc;
-static AESL_RUNTIME_BC __xlx_coefficients_V_data_V_V_size_Reader("../tv/stream_size/stream_size_out_coefficients_V_data_V.dat");
-unsigned int ap_apatb_coefficients_V_keep_V_cap_bc;
-static AESL_RUNTIME_BC __xlx_coefficients_V_keep_V_V_size_Reader("../tv/stream_size/stream_size_out_coefficients_V_keep_V.dat");
-unsigned int ap_apatb_coefficients_V_strb_V_cap_bc;
-static AESL_RUNTIME_BC __xlx_coefficients_V_strb_V_V_size_Reader("../tv/stream_size/stream_size_out_coefficients_V_strb_V.dat");
-unsigned int ap_apatb_coefficients_V_user_V_cap_bc;
-static AESL_RUNTIME_BC __xlx_coefficients_V_user_V_V_size_Reader("../tv/stream_size/stream_size_out_coefficients_V_user_V.dat");
-unsigned int ap_apatb_coefficients_V_last_V_cap_bc;
-static AESL_RUNTIME_BC __xlx_coefficients_V_last_V_V_size_Reader("../tv/stream_size/stream_size_out_coefficients_V_last_V.dat");
-unsigned int ap_apatb_coefficients_V_id_V_cap_bc;
-static AESL_RUNTIME_BC __xlx_coefficients_V_id_V_V_size_Reader("../tv/stream_size/stream_size_out_coefficients_V_id_V.dat");
-unsigned int ap_apatb_coefficients_V_dest_V_cap_bc;
-static AESL_RUNTIME_BC __xlx_coefficients_V_dest_V_V_size_Reader("../tv/stream_size/stream_size_out_coefficients_V_dest_V.dat");
 using hls::sim::Byte;
-extern "C" void calculateCoefficients(int, int, float, volatile void *, volatile void *, volatile void *, volatile void *, volatile void *, volatile void *, volatile void *);
-extern "C" void apatb_calculateCoefficients_hw(int __xlx_apatb_param_lowerCutoff, int __xlx_apatb_param_upperCutoff, float __xlx_apatb_param_samplingRate, volatile void * __xlx_apatb_param_coefficients_V_data_V, volatile void * __xlx_apatb_param_coefficients_V_keep_V, volatile void * __xlx_apatb_param_coefficients_V_strb_V, volatile void * __xlx_apatb_param_coefficients_V_user_V, volatile void * __xlx_apatb_param_coefficients_V_last_V, volatile void * __xlx_apatb_param_coefficients_V_id_V, volatile void * __xlx_apatb_param_coefficients_V_dest_V) {
+extern "C" void calculateCoefficients(Byte<4>*, int, int, float, int);
+extern "C" void apatb_calculateCoefficients_hw(int __xlx_apatb_param_lowerCutoff, int __xlx_apatb_param_upperCutoff, float __xlx_apatb_param_samplingRate, volatile void * __xlx_apatb_param_bram) {
 using hls::sim::createStream;
-  //Create input buffer for coefficients_V_data_V
-  ap_apatb_coefficients_V_data_V_cap_bc = __xlx_coefficients_V_data_V_V_size_Reader.read_size();
-  int* __xlx_coefficients_V_data_V_input_buffer= new int[ap_apatb_coefficients_V_data_V_cap_bc];
-auto* scoefficients_V_data_V = createStream((hls::stream<int>*)__xlx_apatb_param_coefficients_V_data_V);
-  //Create input buffer for coefficients_V_keep_V
-  ap_apatb_coefficients_V_keep_V_cap_bc = __xlx_coefficients_V_keep_V_V_size_Reader.read_size();
-  char* __xlx_coefficients_V_keep_V_input_buffer= new char[ap_apatb_coefficients_V_keep_V_cap_bc];
-auto* scoefficients_V_keep_V = createStream((hls::stream<char>*)__xlx_apatb_param_coefficients_V_keep_V);
-  //Create input buffer for coefficients_V_strb_V
-  ap_apatb_coefficients_V_strb_V_cap_bc = __xlx_coefficients_V_strb_V_V_size_Reader.read_size();
-  char* __xlx_coefficients_V_strb_V_input_buffer= new char[ap_apatb_coefficients_V_strb_V_cap_bc];
-auto* scoefficients_V_strb_V = createStream((hls::stream<char>*)__xlx_apatb_param_coefficients_V_strb_V);
-  //Create input buffer for coefficients_V_user_V
-  ap_apatb_coefficients_V_user_V_cap_bc = __xlx_coefficients_V_user_V_V_size_Reader.read_size();
-  char* __xlx_coefficients_V_user_V_input_buffer= new char[ap_apatb_coefficients_V_user_V_cap_bc];
-auto* scoefficients_V_user_V = createStream((hls::stream<char>*)__xlx_apatb_param_coefficients_V_user_V);
-  //Create input buffer for coefficients_V_last_V
-  ap_apatb_coefficients_V_last_V_cap_bc = __xlx_coefficients_V_last_V_V_size_Reader.read_size();
-  char* __xlx_coefficients_V_last_V_input_buffer= new char[ap_apatb_coefficients_V_last_V_cap_bc];
-auto* scoefficients_V_last_V = createStream((hls::stream<char>*)__xlx_apatb_param_coefficients_V_last_V);
-  //Create input buffer for coefficients_V_id_V
-  ap_apatb_coefficients_V_id_V_cap_bc = __xlx_coefficients_V_id_V_V_size_Reader.read_size();
-  char* __xlx_coefficients_V_id_V_input_buffer= new char[ap_apatb_coefficients_V_id_V_cap_bc];
-auto* scoefficients_V_id_V = createStream((hls::stream<char>*)__xlx_apatb_param_coefficients_V_id_V);
-  //Create input buffer for coefficients_V_dest_V
-  ap_apatb_coefficients_V_dest_V_cap_bc = __xlx_coefficients_V_dest_V_V_size_Reader.read_size();
-  char* __xlx_coefficients_V_dest_V_input_buffer= new char[ap_apatb_coefficients_V_dest_V_cap_bc];
-auto* scoefficients_V_dest_V = createStream((hls::stream<char>*)__xlx_apatb_param_coefficients_V_dest_V);
+  // Collect __xlx_bram__tmp_vec
+std::vector<Byte<4>> __xlx_bram__tmp_vec;
+for (size_t i = 0; i < 1; ++i){
+__xlx_bram__tmp_vec.push_back(((Byte<4>*)__xlx_apatb_param_bram)[i]);
+}
+  int __xlx_size_param_bram = 1;
+  int __xlx_offset_param_bram = 0;
+  int __xlx_offset_byte_param_bram = 0*4;
   // DUT call
-  calculateCoefficients(__xlx_apatb_param_lowerCutoff, __xlx_apatb_param_upperCutoff, __xlx_apatb_param_samplingRate, scoefficients_V_data_V->data<int>(), scoefficients_V_keep_V->data<char>(), scoefficients_V_strb_V->data<char>(), scoefficients_V_user_V->data<char>(), scoefficients_V_last_V->data<char>(), scoefficients_V_id_V->data<char>(), scoefficients_V_dest_V->data<char>());
-scoefficients_V_data_V->transfer((hls::stream<int>*)__xlx_apatb_param_coefficients_V_data_V);
-scoefficients_V_keep_V->transfer((hls::stream<char>*)__xlx_apatb_param_coefficients_V_keep_V);
-scoefficients_V_strb_V->transfer((hls::stream<char>*)__xlx_apatb_param_coefficients_V_strb_V);
-scoefficients_V_user_V->transfer((hls::stream<char>*)__xlx_apatb_param_coefficients_V_user_V);
-scoefficients_V_last_V->transfer((hls::stream<char>*)__xlx_apatb_param_coefficients_V_last_V);
-scoefficients_V_id_V->transfer((hls::stream<char>*)__xlx_apatb_param_coefficients_V_id_V);
-scoefficients_V_dest_V->transfer((hls::stream<char>*)__xlx_apatb_param_coefficients_V_dest_V);
+  calculateCoefficients(__xlx_bram__tmp_vec.data(), __xlx_apatb_param_lowerCutoff, __xlx_apatb_param_upperCutoff, __xlx_apatb_param_samplingRate, __xlx_offset_byte_param_bram);
+// print __xlx_apatb_param_bram
+for (size_t i = 0; i < __xlx_size_param_bram; ++i) {
+((Byte<4>*)__xlx_apatb_param_bram)[i] = __xlx_bram__tmp_vec[__xlx_offset_param_bram+i];
+}
 }

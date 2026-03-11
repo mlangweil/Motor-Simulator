@@ -1,58 +1,35 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../tb_coefficients.cpp in debug mode
    Compiling ../../../../Coefficients.cpp in debug mode
-   Compiling ../../../../coefficients_tb.cpp in debug mode
+   Compiling ../../../../Fir-Filter.cpp in debug mode
    Generating csim.exe
-Testbench started
-1.26527e-09
-0.0289372
-6.45086e-08
--0.0353678
-1.39138e-08
-0.0454728
-3.79581e-09
--0.063662
-1.39138e-08
-0.106103
-4.17413e-08
--0.31831
-nan
--0.31831
-4.17413e-08
-0.106103
-1.39138e-08
--0.063662
-3.79581e-09
-0.0454728
-1.39138e-08
--0.0353678
-6.45086e-08
-0.0289372
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 0
-Data 2
-INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 25
+FIR Coefficients:
+bram[0] = -0
+bram[1] = -0.00573223
+bram[2] = -0.0225079
+bram[3] = -0.0462102
+bram[4] = -0.0689161
+bram[5] = -0.0811598
+bram[6] = -0.0750264
+bram[7] = -0.0470645
+bram[8] = 4.74319e-09
+bram[9] = 0.0574227
+bram[10] = 0.11254
+bram[11] = 0.152227
+bram[12] = 0.166667
+bram[13] = 0.152227
+bram[14] = 0.11254
+bram[15] = 0.0574227
+bram[16] = 4.74319e-09
+bram[17] = -0.0470645
+bram[18] = -0.0750264
+bram[19] = -0.0811598
+bram[20] = -0.0689161
+bram[21] = -0.0462102
+bram[22] = -0.0225079
+bram[23] = -0.00573223
+bram[24] = 0
+Sum of coefficients: 0.117811
 INFO: [SIM 1] CSim done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************

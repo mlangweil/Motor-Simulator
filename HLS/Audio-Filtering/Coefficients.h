@@ -8,5 +8,6 @@
 #define TAPS 25
 using namespace std;
 
-void calculateCoefficients(int lowCutoff, int highCutoff, float samplingRate,
-                           hls::stream<ap_axis<32, 2, 5, 6>> &coefficients);
+
+void calculateCoefficients(int lowerCutoff, int upperCutoff, float samplingRate,
+                          int *bram);

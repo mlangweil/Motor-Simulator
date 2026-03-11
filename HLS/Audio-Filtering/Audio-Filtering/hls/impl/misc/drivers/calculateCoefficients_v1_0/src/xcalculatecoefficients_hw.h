@@ -19,6 +19,11 @@
 // 0x20 : Data signal of samplingRate
 //        bit 31~0 - samplingRate[31:0] (Read/Write)
 // 0x24 : reserved
+// 0x28 : Data signal of bram
+//        bit 31~0 - bram[31:0] (Read/Write)
+// 0x2c : Data signal of bram
+//        bit 31~0 - bram[63:32] (Read/Write)
+// 0x30 : reserved
 // (SC = Self Clear, COR = Clear on Read, TOW = Toggle on Write, COH = Clear on Handshake)
 
 #define XCALCULATECOEFFICIENTS_CONTROL_ADDR_LOWERCUTOFF_DATA  0x10
@@ -27,4 +32,6 @@
 #define XCALCULATECOEFFICIENTS_CONTROL_BITS_UPPERCUTOFF_DATA  32
 #define XCALCULATECOEFFICIENTS_CONTROL_ADDR_SAMPLINGRATE_DATA 0x20
 #define XCALCULATECOEFFICIENTS_CONTROL_BITS_SAMPLINGRATE_DATA 32
+#define XCALCULATECOEFFICIENTS_CONTROL_ADDR_BRAM_DATA         0x28
+#define XCALCULATECOEFFICIENTS_CONTROL_BITS_BRAM_DATA         64
 

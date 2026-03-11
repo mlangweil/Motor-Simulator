@@ -29433,17 +29433,19 @@ private:
 using namespace std;
 
 
-void fir_top(hls::stream< ap_axis<32,2,5,6> > &in, float *coef, hls::stream< ap_axis<32,2,5,6> > &out);
+void fir_top(float coefficients[25], float coef[25], hls::stream< ap_axis<32,2,5,6> > &out);
 # 2 "Fir-Filter.cpp" 2
 
-void fir_top(hls::stream<ap_axis<32, 2, 5, 6>> &in, float *coef,
-             hls::stream<ap_axis<32, 2, 5, 6>> &out) {
-#pragma HLS INTERFACE mode = axis port = out
-#pragma HLS INTERFACE mode = s_axilite port = coef
-#pragma HLS INTERFACE axis port = in
 
- ap_axis<32, 2, 5, 6> tmp;
-  VITIS_LOOP_10_1: while (1) {
+void fir_top(hls::stream< ap_axis<32,2,5,6> > &in, float coef[25], hls::stream< ap_axis<32,2,5,6> > &out)
+{
+#pragma HLS INTERFACE mode=bram port=coef
+#pragma HLS INTERFACE mode=axis port=out
+#pragma HLS INTERFACE axis port=in
+
+ ap_axis<32,2,5,6> tmp;
+
+VITIS_LOOP_12_1: while (1) {
     in.read(tmp);
     tmp.data = tmp.data.to_int();
     out.write(tmp);

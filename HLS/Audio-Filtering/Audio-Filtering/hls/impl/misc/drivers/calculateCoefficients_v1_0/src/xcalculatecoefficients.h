@@ -99,6 +99,8 @@ void XCalculatecoefficients_Set_upperCutoff(XCalculatecoefficients *InstancePtr,
 u32 XCalculatecoefficients_Get_upperCutoff(XCalculatecoefficients *InstancePtr);
 void XCalculatecoefficients_Set_samplingRate(XCalculatecoefficients *InstancePtr, u32 Data);
 u32 XCalculatecoefficients_Get_samplingRate(XCalculatecoefficients *InstancePtr);
+void XCalculatecoefficients_Set_bram(XCalculatecoefficients *InstancePtr, u64 Data);
+u64 XCalculatecoefficients_Get_bram(XCalculatecoefficients *InstancePtr);
 
 #ifdef __cplusplus
 }

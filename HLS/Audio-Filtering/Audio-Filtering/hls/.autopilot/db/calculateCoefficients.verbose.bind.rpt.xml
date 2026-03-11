@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'calculateCoefficients'" level="0">
-<item name = "Date">Mon Feb 23 19:16:58 2026
+<item name = "Date">Wed Mar 11 18:27:52 2026
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">Audio-Filtering</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.042 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 7.300 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,21 +24,18 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">?, ?, ?, ?, ?, ?, no</column>
+<column name="">137, 137, 1.370 us, 1.370 us, 138, 138, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_calculateCoefficients_Pipeline_VITIS_LOOP_23_2_fu_284">calculateCoefficients_Pipeline_VITIS_LOOP_23_2, ?, ?, ?, ?, ?, ?, no</column>
-<column name="grp_sin_or_cos_float_s_fu_518">sin_or_cos_float_s, 15, 16, 0.150 us, 0.160 us, 15, 16, no</column>
-<column name="grp_sin_or_cos_float_s_fu_531">sin_or_cos_float_s, 15, 16, 0.150 us, 0.160 us, 15, 16, no</column>
+<column name="grp_calculateCoefficients_Pipeline_VITIS_LOOP_16_1_fu_116">calculateCoefficients_Pipeline_VITIS_LOOP_16_1, 70, 70, 0.700 us, 0.700 us, 25, 25, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_19_1">1296, 1320, 54 ~ 55, -, -, 24, no</column>
 </table>
 </item>
 </section>

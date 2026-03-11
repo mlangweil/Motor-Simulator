@@ -36,7 +36,8 @@ port (
     RREADY                :in   STD_LOGIC;
     lowerCutoff           :out  STD_LOGIC_VECTOR(31 downto 0);
     upperCutoff           :out  STD_LOGIC_VECTOR(31 downto 0);
-    samplingRate          :out  STD_LOGIC_VECTOR(31 downto 0)
+    samplingRate          :out  STD_LOGIC_VECTOR(31 downto 0);
+    bram                  :out  STD_LOGIC_VECTOR(63 downto 0)
 );
 end entity calculateCoefficients_control_s_axi;
 
@@ -56,6 +57,11 @@ end entity calculateCoefficients_control_s_axi;
 -- 0x20 : Data signal of samplingRate
 --        bit 31~0 - samplingRate[31:0] (Read/Write)
 -- 0x24 : reserved
+-- 0x28 : Data signal of bram
+--        bit 31~0 - bram[31:0] (Read/Write)
+-- 0x2c : Data signal of bram
+--        bit 31~0 - bram[63:32] (Read/Write)
+-- 0x30 : reserved
 -- (SC = Self Clear, COR = Clear on Read, TOW = Toggle on Write, COH = Clear on Handshake)
 
 architecture behave of calculateCoefficients_control_s_axi is
@@ -69,6 +75,9 @@ architecture behave of calculateCoefficients_control_s_axi is
     constant ADDR_UPPERCUTOFF_CTRL    : INTEGER := 16#1c#;
     constant ADDR_SAMPLINGRATE_DATA_0 : INTEGER := 16#20#;
     constant ADDR_SAMPLINGRATE_CTRL   : INTEGER := 16#24#;
+    constant ADDR_BRAM_DATA_0         : INTEGER := 16#28#;
+    constant ADDR_BRAM_DATA_1         : INTEGER := 16#2c#;
+    constant ADDR_BRAM_CTRL           : INTEGER := 16#30#;
     constant ADDR_BITS         : INTEGER := 6;
 
     signal waddr               : UNSIGNED(ADDR_BITS-1 downto 0);
@@ -86,6 +95,7 @@ architecture behave of calculateCoefficients_control_s_axi is
     signal int_lowerCutoff     : UNSIGNED(31 downto 0) := (others => '0');
     signal int_upperCutoff     : UNSIGNED(31 downto 0) := (others => '0');
     signal int_samplingRate    : UNSIGNED(31 downto 0) := (others => '0');
+    signal int_bram            : UNSIGNED(63 downto 0) := (others => '0');
 
 
 begin
@@ -207,6 +217,10 @@ begin
                         rdata_data <= RESIZE(int_upperCutoff(31 downto 0), 32);
                     when ADDR_SAMPLINGRATE_DATA_0 =>
                         rdata_data <= RESIZE(int_samplingRate(31 downto 0), 32);
+                    when ADDR_BRAM_DATA_0 =>
+                        rdata_data <= RESIZE(int_bram(31 downto 0), 32);
+                    when ADDR_BRAM_DATA_1 =>
+                        rdata_data <= RESIZE(int_bram(63 downto 32), 32);
                     when others =>
                         NULL;
                     end case;
@@ -219,6 +233,7 @@ begin
     lowerCutoff          <= STD_LOGIC_VECTOR(int_lowerCutoff);
     upperCutoff          <= STD_LOGIC_VECTOR(int_upperCutoff);
     samplingRate         <= STD_LOGIC_VECTOR(int_samplingRate);
+    bram                 <= STD_LOGIC_VECTOR(int_bram);
 
     process (ACLK)
     begin
@@ -254,6 +269,32 @@ begin
             elsif (ACLK_EN = '1') then
                 if (w_hs = '1' and waddr = ADDR_SAMPLINGRATE_DATA_0) then
                     int_samplingRate(31 downto 0) <= (UNSIGNED(WDATA(31 downto 0)) and wmask(31 downto 0)) or ((not wmask(31 downto 0)) and int_samplingRate(31 downto 0));
+                end if;
+            end if;
+        end if;
+    end process;
+
+    process (ACLK)
+    begin
+        if (ACLK'event and ACLK = '1') then
+            if (ARESET = '1') then
+                int_bram(31 downto 0) <= (others => '0');
+            elsif (ACLK_EN = '1') then
+                if (w_hs = '1' and waddr = ADDR_BRAM_DATA_0) then
+                    int_bram(31 downto 0) <= (UNSIGNED(WDATA(31 downto 0)) and wmask(31 downto 0)) or ((not wmask(31 downto 0)) and int_bram(31 downto 0));
+                end if;
+            end if;
+        end if;
+    end process;
+
+    process (ACLK)
+    begin
+        if (ACLK'event and ACLK = '1') then
+            if (ARESET = '1') then
+                int_bram(63 downto 32) <= (others => '0');
+            elsif (ACLK_EN = '1') then
+                if (w_hs = '1' and waddr = ADDR_BRAM_DATA_1) then
+                    int_bram(63 downto 32) <= (UNSIGNED(WDATA(31 downto 0)) and wmask(31 downto 0)) or ((not wmask(31 downto 0)) and int_bram(63 downto 32));
                 end if;
             end if;
         end if;

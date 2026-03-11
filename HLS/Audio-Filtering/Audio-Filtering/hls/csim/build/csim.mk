@@ -23,7 +23,7 @@ __USE_VCXX_CLANG__ = 1
 
 ObjDir = obj
 
-HLS_SOURCES = ../../../../Coefficients.cpp ../../../../coefficients_tb.cpp ../../../../Fir-Filter.cpp
+HLS_SOURCES = ../../../../tb_coefficients.cpp ../../../../Coefficients.cpp ../../../../Fir-Filter.cpp
 
 override TARGET := csim.exe
 
@@ -84,17 +84,17 @@ all: $(TARGET)
 
 
 
+$(ObjDir)/tb_coefficients.o: ../../../../tb_coefficients.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling ../../../../tb_coefficients.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
+
+-include $(ObjDir)/tb_coefficients.d
+
 $(ObjDir)/Coefficients.o: ../../../../Coefficients.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../../Coefficients.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
+	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/Coefficients.d
-
-$(ObjDir)/coefficients_tb.o: ../../../../coefficients_tb.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling ../../../../coefficients_tb.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
-
--include $(ObjDir)/coefficients_tb.d
 
 $(ObjDir)/Fir-Filter.o: ../../../../Fir-Filter.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../../Fir-Filter.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)

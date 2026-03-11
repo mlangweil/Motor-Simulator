@@ -26,6 +26,14 @@ samplingRate {
 	offset 32
 	offset_end 39
 }
+bram { 
+	dir I
+	width 64
+	depth 1
+	mode ap_none
+	offset 40
+	offset_end 51
+}
 }
 dict set axilite_register_dict control $port_control
 

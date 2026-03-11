@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'sin_or_cos_float_s'" level="0">
-<item name = "Date">Mon Feb 23 19:16:53 2026
+<item name = "Date">Wed Mar 11 18:27:47 2026
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">Audio-Filtering</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 6.303 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 7.002 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,15 +24,13 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">15, 16, 0.150 us, 0.160 us, 15, 16, no</column>
+<column name="">5, 5, 50.000 ns, 50.000 ns, 1, 1, yes</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_sin_or_cos_float_Pipeline_1_fu_302">sin_or_cos_float_Pipeline_1, 4, 4, 40.000 ns, 40.000 ns, 3, 3, loop auto-rewind stp(delay=0 clock cycles(s))</column>
-<column name="grp_sin_or_cos_float_Pipeline_2_fu_310">sin_or_cos_float_Pipeline_2, 2, 3, 20.000 ns, 30.000 ns, 1, 2, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

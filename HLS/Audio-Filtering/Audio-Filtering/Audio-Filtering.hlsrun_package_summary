@@ -1,0 +1,162 @@
+<ENTRY>
+{
+ "thisFile": "F:/Motor-Simulator\\HLS\\Audio-Filtering\\Audio-Filtering\\Audio-Filtering.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/11/26 18:29:27",
+ "timestampMillis": "3741641313",
+ "buildStep": {
+  "cmdId": "61e78f62-e8a9-4fcd-bdf7-b8776f08cf93",
+  "name": "vitis-run",
+  "logFile": "F:/Motor-Simulator\\HLS\\Audio-Filtering\\Audio-Filtering\\logs\\Audio-Filtering.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config F:\\Motor-Simulator\\HLS\\Audio-Filtering\\hls_config.cfg --work_dir Audio-Filtering ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "F:\\Motor-Simulator\\HLS\\Audio-Filtering\\hls_config.cfg",
+   "--work_dir",
+   "Audio-Filtering"
+  ],
+  "iniFiles": [],
+  "cwd": "F:\\Motor-Simulator\\HLS\\Audio-Filtering"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/11/26 18:29:27",
+ "timestampMillis": "3741641315",
+ "status": {
+  "cmdId": "61e78f62-e8a9-4fcd-bdf7-b8776f08cf93",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/11/26 18:29:33",
+ "timestampMillis": "3741647210",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "calculateCoefficients",
+     "file": "F:/Motor-Simulator\\HLS\\Audio-Filtering\\Audio-Filtering\\calculateCoefficients.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "F:/Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.cpp",
+     "F:/Motor-Simulator\\HLS\\Audio-Filtering\\Fir-Filter.h",
+     "F:/Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients.h",
+     "F:/Motor-Simulator\\HLS\\Audio-Filtering\\Coefficients.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/11/26 18:29:33",
+ "timestampMillis": "3741647211",
+ "buildStep": {
+  "cmdId": "cbdb0ab4-6ec6-4743-914d-54f7877a66b3",
+  "name": "export_design",
+  "logFile": "F:/Motor-Simulator\\HLS\\Audio-Filtering\\Audio-Filtering\\hls\\hls.log",
+  "commandLine": "export_design -flow none",
+  "args": [
+   "-flow",
+   "none"
+  ],
+  "iniFiles": [],
+  "cwd": "F:\\Motor-Simulator\\HLS\\Audio-Filtering"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/11/26 18:29:33",
+ "timestampMillis": "3741647213",
+ "status": {
+  "cmdId": "cbdb0ab4-6ec6-4743-914d-54f7877a66b3",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/11/26 18:31:48",
+ "timestampMillis": "3741782508",
+ "status": {
+  "cmdId": "cbdb0ab4-6ec6-4743-914d-54f7877a66b3",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/11/26 18:31:48",
+ "timestampMillis": "3741782808",
+ "status": {
+  "cmdId": "61e78f62-e8a9-4fcd-bdf7-b8776f08cf93",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/11/26 18:31:48",
+ "timestampMillis": "3741782809",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/11/26 18:31:48",
+ "timestampMillis": "3741782809",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
