@@ -1,0 +1,108 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_zynq_ultra_ps_e_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_ddiv_64ns_64ns_64_22_no_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_ddiv_64ns_64ns_64_22_no_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_dmul_64ns_64ns_64_5_max_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_dmul_64ns_64ns_64_5_max_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_fpext_32ns_64_2_no_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_fpext_32ns_64_2_no_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_fptrunc_64ns_32_2_no_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_fptrunc_64ns_32_2_no_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_sitodp_32ns_64_4_no_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sitodp_32ns_64_4_no_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_control_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_ddiv_64ns_64ns_64_22_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_ddiv_64ns_64ns_64_22_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_dmul_64ns_64ns_64_5_max_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_dmul_64ns_64ns_64_5_max_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_fpext_32ns_64_2_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_fpext_32ns_64_2_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_fptrunc_64ns_32_2_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_fptrunc_64ns_32_2_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_gmem_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_load
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_store
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_read
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_write
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_burst_converter
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_throttle
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_srl
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_gmem_m_axi_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_15ns_15ns_30_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_mul_15ns_15ns_30_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_15ns_15s_30_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_mul_15ns_15s_30_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_23s_22ns_45_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_mul_23s_22ns_45_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_30s_29ns_58_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_mul_30s_29ns_58_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_80s_24ns_80_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_mul_80s_24ns_80_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_Pipeline_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sin_or_cos_float_Pipeline_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_Pipeline_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sin_or_cos_float_Pipeline_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sin_or_cos_float_s
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sitodp_32ns_64_4_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sitodp_32ns_64_4_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sitofp_32s_32_4_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sitofp_32s_32_4_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sparsemux_17_3_1_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sparsemux_17_3_1_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sparsemux_33_4_1_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients_sparsemux_33_4_1_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculateCoefficients
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_calculateCoefficients_0_0/sim/Motor_Simulator_calculateCoefficients_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_calculateCoefficients_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_xbar_1/sim/Motor_Simulator_xbar_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_xbar_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_auto_pc_0/sim/Motor_Simulator_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_xbar_0/sim/Motor_Simulator_xbar_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_xbar_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_blk_mem_gen_0_0/sim/Motor_Simulator_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/sim/Motor_Simulator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Motor_Simulator
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_axi_interconnect_0_0
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_ps8_0_axi_periph_0
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1IUKU9L
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_SP2EGI
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_1I2UU9O
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1RJH0KH
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_JWTRXM
+INFO: [VRFC 10-311] analyzing module s01_couplers_imp_HWP8OF
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.gen/sources_1/bd/Motor_Simulator/hdl/Motor_Simulator_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Motor_Simulator_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_proc_sys_reset_0_0/sim/Motor_Simulator_proc_sys_reset_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Motor_Simulator_proc_sys_reset_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_axi_bram_ctrl_0_0/sim/Motor_Simulator_axi_bram_ctrl_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Motor_Simulator_axi_bram_ctrl_0_0'

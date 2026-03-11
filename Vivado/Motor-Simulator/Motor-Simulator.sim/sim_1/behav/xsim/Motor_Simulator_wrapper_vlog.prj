@@ -1,0 +1,50 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/ec67/hdl" --include "../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/a317/hdl" --include "C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_ddiv_64ns_64ns_64_22_no_dsp_1_ip.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_dmul_64ns_64ns_64_5_max_dsp_1_ip.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_fpext_32ns_64_2_no_dsp_1_ip.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_fptrunc_64ns_32_2_no_dsp_1_ip.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_sitodp_32ns_64_4_no_dsp_1_ip.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/ip/calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_control_s_axi.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_ddiv_64ns_64ns_64_22_no_dsp_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_dmul_64ns_64ns_64_5_max_dsp_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_flow_control_loop_pipe_sequential_init.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_fpext_32ns_64_2_no_dsp_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_fptrunc_64ns_32_2_no_dsp_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_gmem_m_axi.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_15ns_15ns_30_1_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_15ns_15s_30_1_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_23s_22ns_45_1_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_30s_29ns_58_1_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_mul_80s_24ns_80_1_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_Pipeline_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_Pipeline_2.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sitodp_32ns_64_4_no_dsp_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sitofp_32s_32_4_no_dsp_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sparsemux_17_3_1_1_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients_sparsemux_33_4_1_1_1.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ipshared/fb1a/hdl/verilog/calculateCoefficients.v" \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_calculateCoefficients_0_0/sim/Motor_Simulator_calculateCoefficients_0_0.v" \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_xbar_1/sim/Motor_Simulator_xbar_1.v" \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_auto_pc_0/sim/Motor_Simulator_auto_pc_0.v" \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_xbar_0/sim/Motor_Simulator_xbar_0.v" \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_blk_mem_gen_0_0/sim/Motor_Simulator_blk_mem_gen_0_0.v" \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/sim/Motor_Simulator.v" \
+"../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/hdl/Motor_Simulator_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

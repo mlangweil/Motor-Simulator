@@ -1,0 +1,772 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L axi_infrastructure_v1_1_0 -L axi_vip_v1_1_17 -L zynq_ultra_ps_e_vip_v1_0_17 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_15 -L xbip_utils_v3_0_13 -L axi_utils_v2_0_9 -L xbip_pipe_v3_0_9 -L xbip_dsp48_wrapper_v3_0_6 -L xbip_dsp48_addsub_v3_0_9 -L xbip_dsp48_multadd_v3_0_9 -L xbip_bram18k_v3_0_9 -L mult_gen_v12_0_21 -L floating_point_v7_1_18 -L generic_baseblocks_v2_1_2 -L axi_register_slice_v2_1_31 -L fifo_generator_v13_2_10 -L axi_data_fifo_v2_1_30 -L axi_crossbar_v2_1_32 -L axi_protocol_converter_v2_1_31 -L axi_bram_ctrl_v4_1_10 -L blk_mem_gen_v8_4_8 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Motor_Simulator_wrapper_behav xil_defaultlib.Motor_Simulator_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'm_axi_arregion' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/sim/Motor_Simulator.v:2258]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'm_axi_awregion' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/sim/Motor_Simulator.v:2271]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'MAXIGP0BID' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:248]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'MAXIGP0RID' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:249]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'MAXIGP0RDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:252]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'MAXIGP1BID' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:288]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'MAXIGP1RID' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:289]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'MAXIGP1RDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:292]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'MAXIGP2WDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:313]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'MAXIGP2WSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:321]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'MAXIGP2RDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:333]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP0ARLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:361]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP0AWLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:364]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP0ARADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:368]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP0AWADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:369]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP0WDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:370]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP0ARLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:372]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP0AWLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:375]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP0WSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:377]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP1ARLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:406]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP1AWLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:409]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP1ARADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:413]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP1AWADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:414]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP1WDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:415]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP1ARLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:417]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP1AWLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:420]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP1WSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:422]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP2ARLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:451]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP2AWLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:454]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP2ARADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:458]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP2AWADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:459]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP2WDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:460]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP2ARLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:462]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP2AWLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:465]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP2WSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:467]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP3ARLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:496]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP3AWLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:499]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP3ARADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:503]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP3AWADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:504]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP3WDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:505]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP3ARLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:507]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP3AWLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:510]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP3WSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:512]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP4ARLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:541]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP4AWLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:544]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP4ARADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:548]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP4AWADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:549]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP4WDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:550]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP4ARLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:552]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP4AWLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:555]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP4WSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:557]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP5ARLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:586]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP5AWLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:589]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP5ARADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:593]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP5AWADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:594]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP5WDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:595]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP5ARLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:597]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP5AWLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:600]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP5WSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:602]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP6ARLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:631]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIGP6AWLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:634]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP6ARADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:638]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIGP6AWADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:639]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'SAXIGP6WDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:640]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP6ARLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:642]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIGP6AWLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:645]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 'SAXIGP6WSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:647]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 5 for port 'SAXIACPARID' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:668]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 5 for port 'SAXIACPAWID' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:670]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIACPARADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:672]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 'SAXIACPAWADDR' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:673]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIACPARLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:675]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 'SAXIACPAWLEN' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:678]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIACPARLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:681]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'SAXIACPAWLOCK' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:684]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 2 for port 'SAXIACPARUSER' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:686]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 2 for port 'SAXIACPAWUSER' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:687]
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 128 for port 'SAXIACPWDATA' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:688]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'SAXIACPWSTRB' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:689]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'PLPSIRQ0' [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:755]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_acp.sv:71]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_acp.sv:72]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_acp.sv:74]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's_axi_awuser' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6300]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 's_axi_wid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6303]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's_axi_aruser' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6325]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 5 for port 'm_axi_bid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6355]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 5 for port 'm_axi_rid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6373]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'm_axi_rdata' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6374]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'S_RRESP' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_ace.sv:64]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'S_AWUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_ace.sv:73]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'S_ARUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_ace.sv:76]
+WARNING: [VRFC 10-3091] actual bit length 15 differs from formal bit length 1 for port 's_axi_awuser' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4835]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 6 for port 's_axi_wid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4838]
+WARNING: [VRFC 10-3091] actual bit length 15 differs from formal bit length 1 for port 's_axi_aruser' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4860]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 6 for port 'm_axi_bid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4890]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 6 for port 'm_axi_rid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4908]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'm_axi_rdata' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:4909]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:72]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:73]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:75]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:166]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:167]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:169]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:260]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:261]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:263]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:354]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:355]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:357]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:448]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:449]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:451]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:542]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:543]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:545]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_AWREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:636]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_ARREGION' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:637]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'S_WUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:639]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_AWUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:733]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_BUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:735]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_ARUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:736]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_RUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:737]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 's_axi_awid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7822]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 's_axi_awaddr' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7823]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 's_axi_awlen' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7824]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's_axi_awlock' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7827]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 's_axi_wid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7835]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 's_axi_wdata' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7836]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 16 for port 's_axi_wstrb' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7837]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 's_axi_arid' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7847]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 40 for port 's_axi_araddr' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7848]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 8 for port 's_axi_arlen' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7849]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's_axi_arlock' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7852]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_AWUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:804]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_BUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:806]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_ARUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:807]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_RUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:808]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 32 for port 'M_WDATA' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:842]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 4 for port 'M_WSTRB' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:843]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 32 for port 'M_RDATA' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:865]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_AWUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:875]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_BUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:877]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 1 for port 'M_ARUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:878]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'M_RUSER' [/scratch/proj/xbuilds/SWIP/2024.1_0522_2023/infra/XSIM/lin/.cxl.ip/incl/zynq_ultra_ps_e_vip_v1_0_17_axi_gp.sv:879]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wr_qos' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3798]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'rd_qos' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3805]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'wr_qos_1' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3818]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'rd_qos_1' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3825]
+WARNING: [VRFC 10-5021] port 'mb_reset' is not connected on this instance [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/sim/Motor_Simulator.v:446]
+WARNING: [VRFC 10-5021] port 'aclk2x' is not connected on this instance [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v:3097]
+WARNING: [VRFC 10-5021] port 'aclk2x' is not connected on this instance [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/axi_protocol_converter_v2_1/hdl/axi_protocol_converter_v2_1_vl_rfs.v:4855]
+WARNING: [VRFC 10-5021] port 'aclk2x' is not connected on this instance [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/axi_protocol_converter_v2_1/hdl/axi_protocol_converter_v2_1_vl_rfs.v:5110]
+WARNING: [VRFC 10-5021] port 'PSS_ALTO_CORE_PAD_CLK' is not connected on this instance [F:/Motor-Simulator/Vivado2/Motor-Simulator/Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_zynq_ultra_ps_e_0_0/sim/Motor_Simulator_zynq_ultra_ps_e_0_0_vip_wrapper.v:185]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_ddr_acp' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3714]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_ddr_ace' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3728]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_ddr_gp0' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3776]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_ddr_gp1' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3790]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_ddr_gp6' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3838]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_ddr_gp3' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3888]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_ddr_gp4' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3902]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_acp' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3004]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_ace' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3018]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_gp0' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3052]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_gp1' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3066]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_gp3' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3115]
+WARNING: [VRFC 10-3129] assignment to input 'wr_dv_gp4' [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:3129]
+WARNING: [VRFC 10-3705] select index 4096 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6968]
+WARNING: [VRFC 10-3705] select index 2 into 'wr_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7181]
+WARNING: [VRFC 10-3705] select index 3 into 'ar_cnt' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7320]
+WARNING: [VRFC 10-3705] select index 3 into 'wr_rresp_cnt' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7417]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_fifo_wr_ptr' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7436]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_cnt' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7577]
+WARNING: [VRFC 10-3705] select index 3 into 'rresp_time_cnt' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7582]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7587]
+WARNING: [VRFC 10-3705] select index 4096 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:5492]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xpm.vcomponents
+Compiling package axi_bram_ctrl_v4_1_10.axi_bram_ctrl_funcs
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package unisim.vcomponents
+Compiling package floating_point_v7_1_18.floating_point_v7_1_18_viv_comp
+Compiling package xbip_utils_v3_0_13.xbip_utils_v3_0_13_pkg
+Compiling package axi_utils_v2_0_9.axi_utils_v2_0_9_pkg
+Compiling package floating_point_v7_1_18.floating_point_v7_1_18_consts
+Compiling package ieee.math_real
+Compiling package floating_point_v7_1_18.floating_point_v7_1_18_exp_table...
+Compiling package mult_gen_v12_0_21.mult_gen_v12_0_21_pkg
+Compiling package ieee.std_logic_signed
+Compiling package floating_point_v7_1_18.floating_point_v7_1_18_pkg
+Compiling package floating_point_v7_1_18.flt_utils
+Compiling package xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv_comp
+Compiling package floating_point_v7_1_18.vt2mutils
+Compiling package floating_point_v7_1_18.vt2mcomps
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package std.std
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_10.ua_narrow [\ua_narrow(c_bram_addr_adjust_fa...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_10.wrap_brst [\wrap_brst(c_axi_addr_width=13,c...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture imp of entity axi_bram_ctrl_v4_1_10.SRL_FIFO [\SRL_FIFO(c_data_bits=17,c_depth...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_10.wr_chnl [\wr_chnl(c_axi_addr_width=13,c_a...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_10.rd_chnl [\rd_chnl(c_axi_addr_width=13,c_a...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_10.full_axi [\full_axi(c_s_axi_addr_width=13,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_10.axi_bram_ctrl_top [\axi_bram_ctrl_top(c_bram_addr_w...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_10.axi_bram_ctrl [\axi_bram_ctrl(c_memory_depth=20...]
+Compiling architecture motor_simulator_axi_bram_ctrl_0_0_arch of entity xil_defaultlib.Motor_Simulator_axi_bram_ctrl_0_0 [motor_simulator_axi_bram_ctrl_0_...]
+Compiling module xil_defaultlib.m00_couplers_imp_1IUKU9L
+Compiling module xil_defaultlib.s00_couplers_imp_1RJH0KH
+Compiling module xil_defaultlib.s01_couplers_imp_HWP8OF
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_carry_...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_compar...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_addr_decode...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_arbiter_res...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_mux_en...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_ndeep_srl(...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_srl_f...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_si_transact...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_splitter
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_ndeep_srl(...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_reg_s...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_wdata_route...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_mux_en...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_srl_f...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_si_transact...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_si_transact...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_ndeep_srl(...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_reg_s...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_wdata_route...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_compar...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_addr_decode...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_compar...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_addr_decode...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_reg_s...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_mux_en...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_wdata_mux(C...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_axi2ve...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_vector...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axi_r...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_ndeep_srl(...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_reg_s...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_wdata_mux(C...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_srl_f...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_mux_en...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_mux_en...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_addr_arbite...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_decerr_slav...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_crossbar(C_...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_axi_crossba...
+Compiling module xil_defaultlib.Motor_Simulator_xbar_0
+Compiling module xil_defaultlib.Motor_Simulator_axi_interconnect...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="zyn...
+Compiling module xil_defaultlib.Motor_Simulator_blk_mem_gen_0_0
+Compiling module xil_defaultlib.calculateCoefficients_sin_or_cos...
+Compiling module xil_defaultlib.calculateCoefficients_sin_or_cos...
+Compiling module xil_defaultlib.calculateCoefficients_sin_or_cos...
+Compiling module xil_defaultlib.calculateCoefficients_sin_or_cos...
+Compiling module xil_defaultlib.calculateCoefficients_flow_contr...
+Compiling module xil_defaultlib.calculateCoefficients_sin_or_cos...
+Compiling module xil_defaultlib.calculateCoefficients_sin_or_cos...
+Compiling module xil_defaultlib.calculateCoefficients_mul_23s_22...
+Compiling module xil_defaultlib.calculateCoefficients_mul_30s_29...
+Compiling module xil_defaultlib.calculateCoefficients_mul_80s_24...
+Compiling module xil_defaultlib.calculateCoefficients_sparsemux_...
+Compiling module xil_defaultlib.calculateCoefficients_sparsemux_...
+Compiling module xil_defaultlib.calculateCoefficients_mul_15ns_1...
+Compiling module xil_defaultlib.calculateCoefficients_mul_15ns_1...
+Compiling module xil_defaultlib.calculateCoefficients_sin_or_cos...
+Compiling module xil_defaultlib.calculateCoefficients_control_s_...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling module xil_defaultlib.calculateCoefficients_gmem_m_axi...
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=7,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=24,length=0,fast_in...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=16,length=0)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=4,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=48,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=24,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e1_wrapper [\dsp48e1_wrapper(c_part="xczu3eg...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=13,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=27,length=0)\]
+Compiling architecture synth of entity floating_point_v7_1_18.align_add_dsp48e1_sgl [\align_add_dsp48e1_sgl(c_xdevice...]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000001111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=27)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [delay_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=5,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.lead_zero_encode_shift [\lead_zero_encode_shift(ab_fw=24...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=4)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=3)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111110010101001011...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00010001010111110000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11101110101000001111...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=2,length=0)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=25,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,c_wi...]
+Compiling architecture rtl of entity floating_point_v7_1_18.norm_and_round_dsp48e1_sgl [\norm_and_round_dsp48e1_sgl(c_mu...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10011001100110011001...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111000000001111...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=9,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=8,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=10,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=4,length=0,fast_inp...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(fast_input=true)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare_gt [\compare_gt(c_xdevicefamily="zyn...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare [\compare(c_xdevicefamily="zynqup...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=8)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=9)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=2,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(length=0,fast_input=true)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=2,length=0,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=12,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_add_exp_sp [\flt_add_exp_sp(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=23)\]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_dec_op [\flt_dec_op(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_add_dsp [\flt_add_dsp(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_add [\flt_add(c_xdevicefamily="zynqup...]
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=32,length=0)\]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18_viv [\floating_point_v7_1_18_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18 [\floating_point_v7_1_18(c_xdevic...]
+Compiling module xil_defaultlib.calculateCoefficients_fsub_32ns_...
+Compiling module xil_defaultlib.calculateCoefficients_fsub_32ns_...
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=17,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,b_wi...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,b_wi...]
+Compiling architecture struct of entity floating_point_v7_1_18.fix_mult_dsp48e1_sgl [\fix_mult_dsp48e1_sgl(registers=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.fix_mult [\fix_mult(c_xdevicefamily="zynqu...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=8,length=0,fast_inp...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_18.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=3,length=0,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=14,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_mult_exp [\flt_mult_exp(c_xdevicefamily="z...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=30,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=18,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=30,b_wi...]
+Compiling architecture struct of entity floating_point_v7_1_18.flt_round_dsp_opt_full [\flt_round_dsp_opt_full(c_xdevic...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_mult_round [\flt_mult_round(c_xdevicefamily=...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_dec_op_lat [\flt_dec_op_lat(c_xdevicefamily=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_mult [\flt_mult(c_xdevicefamily="zynqu...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18_viv [\floating_point_v7_1_18_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18 [\floating_point_v7_1_18(c_xdevic...]
+Compiling module xil_defaultlib.calculateCoefficients_fmul_32ns_...
+Compiling module xil_defaultlib.calculateCoefficients_fmul_32ns_...
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_18.norm_zero_det [\norm_zero_det(data_width=7,norm...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=4,fast_input=true)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.mux4 [\mux4(c_xdevicefamily="zynquplus...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=2)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.mux4 [\mux4(c_xdevicefamily="zynquplus...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_18.lead_zero_encode [\lead_zero_encode(c_xdevicefamil...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=32)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.shift_msb_first [\shift_msb_first(a_width=32,resu...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=3,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_round_bit [\flt_round_bit(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_18.renorm_and_round_logic [\renorm_and_round_logic(c_xdevic...]
+Compiling architecture synth of entity floating_point_v7_1_18.fix_to_flt_conv_exp [\fix_to_flt_conv_exp(c_xdevicefa...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_dec_op [\flt_dec_op(c_xdevicefamily="zyn...]
+Compiling architecture struct of entity floating_point_v7_1_18.fix_to_flt_conv [\fix_to_flt_conv(c_xdevicefamily...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18_viv [\floating_point_v7_1_18_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18 [\floating_point_v7_1_18(c_xdevic...]
+Compiling module xil_defaultlib.calculateCoefficients_sitofp_32s...
+Compiling module xil_defaultlib.calculateCoefficients_sitofp_32s...
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare_ne_im [\compare_ne_im(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=12,length=0,fast_in...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=25,length=0,fast_in...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_round_bit [\flt_round_bit(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_18.renorm_and_round_logic [\renorm_and_round_logic(c_xdevic...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_18.special_detect [\special_detect(a_w=64,a_fw=53,o...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_to_flt_conv_exp [\flt_to_flt_conv_exp(a_w=64,a_ew...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_dec_op [\flt_dec_op(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_to_flt_conv [\flt_to_flt_conv(c_xdevicefamily...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18_viv [\floating_point_v7_1_18_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18 [\floating_point_v7_1_18(c_xdevic...]
+Compiling module xil_defaultlib.calculateCoefficients_fptrunc_64...
+Compiling module xil_defaultlib.calculateCoefficients_fptrunc_64...
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=23,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_18.special_detect [\special_detect(a_fw=24,op_delay...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_to_flt_conv_exp [\flt_to_flt_conv_exp(r_w=64,r_ew...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_dec_op [\flt_dec_op(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_to_flt_conv [\flt_to_flt_conv(c_xdevicefamily...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=64,length=0)\]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18_viv [\floating_point_v7_1_18_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18 [\floating_point_v7_1_18(c_xdevic...]
+Compiling module xil_defaultlib.calculateCoefficients_fpext_32ns...
+Compiling module xil_defaultlib.calculateCoefficients_fpext_32ns...
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e2_wrapper [\dsp48e2_wrapper(a_width=30,b_wi...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=45,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=26,length=0)\]
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e2_wrapper [\dsp48e2_wrapper(a_width=26,b_wi...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=34,length=0)\]
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e2_wrapper [\dsp48e2_wrapper(a_width=26,b_wi...]
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e2_wrapper [\dsp48e2_wrapper(a_width=26,b_wi...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=17)\]
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(adreg=0,alumodereg=0,ca...]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e2_wrapper [\dsp48e2_wrapper(a_width=26,b_wi...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=38,length=0)\]
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e2_wrapper [\dsp48e2_wrapper(a_width=26,b_wi...]
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e2_wrapper [\dsp48e2_wrapper(a_width=26,b_wi...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(length=2)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=17,length=2)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=9,length=2)\]
+Compiling architecture struct of entity floating_point_v7_1_18.fix_mult_dsp48e2_dbl [\fix_mult_dsp48e2_dbl(mult_usage...]
+Compiling architecture rtl of entity floating_point_v7_1_18.fix_mult [\fix_mult(c_xdevicefamily="zynqu...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=11,length=0,fast_in...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_18.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_18.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=2,length=2,fast_inp...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(length=2,fast_input=true)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=4,length=2,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=11,length=2)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_mult_exp [\flt_mult_exp(c_xdevicefamily="z...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=11,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.dsp48e1_wrapper [\dsp48e1_wrapper(b_width=18,c_wi...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=19,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=28,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=29,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=54,length=0,fast_in...]
+Compiling architecture rtl of entity floating_point_v7_1_18.renorm_and_round_logic [\renorm_and_round_logic(c_xdevic...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_mult_round [\flt_mult_round(c_xdevicefamily=...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_dec_op_lat [\flt_dec_op_lat(c_xdevicefamily=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_mult [\flt_mult(c_xdevicefamily="zynqu...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18_viv [\floating_point_v7_1_18_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18 [\floating_point_v7_1_18(c_xdevic...]
+Compiling module xil_defaultlib.calculateCoefficients_dmul_64ns_...
+Compiling module xil_defaultlib.calculateCoefficients_dmul_64ns_...
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=52,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_div_mant_addsub [\flt_div_mant_addsub(c_xdevicefa...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=55,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=52)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=53,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=54,fast_input=true)...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_div_mant_addsub [\flt_div_mant_addsub(c_xdevicefa...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=55)\]
+Compiling architecture virtex of entity floating_point_v7_1_18.flt_div_mant [\flt_div_mant(c_xdevicefamily="z...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=13,length=0,fast_in...]
+Compiling architecture rtl of entity floating_point_v7_1_18.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(length=19,fast_input=true...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=11,length=19)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(length=18,fast_input=true...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=3,length=18,fast_in...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=4,length=18,fast_in...]
+Compiling architecture rtl of entity floating_point_v7_1_18.flt_div_exp [\flt_div_exp(c_xdevicefamily="no...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=26,length=0,fast_in...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=27,length=0,fast_in...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_18.renorm_and_round_logic [\renorm_and_round_logic(c_xdevic...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_dec_op_lat [\flt_dec_op_lat(c_xdevicefamily=...]
+Compiling architecture virtex of entity floating_point_v7_1_18.flt_div [\flt_div(c_xdevicefamily="zynqup...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_latency=...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18_viv [\floating_point_v7_1_18_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18 [\floating_point_v7_1_18(c_xdevic...]
+Compiling module xil_defaultlib.calculateCoefficients_ddiv_64ns_...
+Compiling module xil_defaultlib.calculateCoefficients_ddiv_64ns_...
+Compiling architecture rtl of entity floating_point_v7_1_18.lead_zero_encode [\lead_zero_encode(c_xdevicefamil...]
+Compiling architecture rtl of entity floating_point_v7_1_18.shift_msb_first [\shift_msb_first(a_width=32,dist...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_18.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_9.xbip_pipe_v3_0_9_viv [\xbip_pipe_v3_0_9_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_18.delay [\delay(width=54,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_18.renorm_and_round_logic [\renorm_and_round_logic(c_xdevic...]
+Compiling architecture synth of entity floating_point_v7_1_18.fix_to_flt_conv_exp [\fix_to_flt_conv_exp(c_xdevicefa...]
+Compiling architecture synth of entity floating_point_v7_1_18.flt_dec_op [\flt_dec_op(c_xdevicefamily="zyn...]
+Compiling architecture struct of entity floating_point_v7_1_18.fix_to_flt_conv [\fix_to_flt_conv(c_xdevicefamily...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18_viv [\floating_point_v7_1_18_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_18.floating_point_v7_1_18 [\floating_point_v7_1_18(c_xdevic...]
+Compiling module xil_defaultlib.calculateCoefficients_sitodp_32n...
+Compiling module xil_defaultlib.calculateCoefficients_sitodp_32n...
+Compiling module xil_defaultlib.calculateCoefficients(C_M_AXI_GM...
+Compiling module xil_defaultlib.Motor_Simulator_calculateCoeffic...
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture implementation of entity lib_cdc_v1_0_3.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_15.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_15.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_15.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_15.proc_sys_reset [\proc_sys_reset(c_family="zynqup...]
+Compiling architecture motor_simulator_proc_sys_reset_0_0_arch of entity xil_defaultlib.Motor_Simulator_proc_sys_reset_0_0 [motor_simulator_proc_sys_reset_0...]
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_axi2ve...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_vector...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axi_r...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_axi2ve...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_vector...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axi_r...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_b...
+Compiling module axi_protocol_converter_v2_1_31.axi_protocol_converter_v2_1_31_a...
+Compiling module xil_defaultlib.Motor_Simulator_auto_pc_0
+Compiling module xil_defaultlib.m00_couplers_imp_SP2EGI
+Compiling module xil_defaultlib.m01_couplers_imp_1I2UU9O
+Compiling module xil_defaultlib.s00_couplers_imp_JWTRXM
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_compar...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_compar...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_addr_decode...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_arbiter_res...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_mux_en...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_si_transact...
+Compiling module generic_baseblocks_v2_1_2.generic_baseblocks_v2_1_2_mux_en...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_si_transact...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_reg_s...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_wdata_route...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_wdata_mux(C...
+Compiling module axi_data_fifo_v2_1_30.axi_data_fifo_v2_1_30_axic_srl_f...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_axi2ve...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_vector...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axic_...
+Compiling module axi_register_slice_v2_1_31.axi_register_slice_v2_1_31_axi_r...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_wdata_mux(C...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_addr_arbite...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_decerr_slav...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_crossbar(C_...
+Compiling module axi_crossbar_v2_1_32.axi_crossbar_v2_1_32_axi_crossba...
+Compiling module xil_defaultlib.Motor_Simulator_xbar_1
+Compiling module xil_defaultlib.Motor_Simulator_ps8_0_axi_periph...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_gen_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_gen_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_arb_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_arb_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_spar...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_ddrc...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_ocm_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_ocmc...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_reg_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_regc...
+Compiling module xilinx_vip.axi_vip_axi4pc(WADDR_WIDTH=40,RA...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_ADDR_WIDTH=40,C...
+Compiling module axi_vip_v1_1_17.axi_vip_v1_1_17_top(C_AXI_ADDR_W...
+WARNING: [VRFC 10-3705] select index 4096 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:6968]
+WARNING: [VRFC 10-3705] select index 2 into 'wr_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7181]
+WARNING: [VRFC 10-3705] select index 3 into 'ar_cnt' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7320]
+WARNING: [VRFC 10-3705] select index 3 into 'wr_rresp_cnt' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7417]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_fifo_wr_ptr' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7436]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_cnt' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7577]
+WARNING: [VRFC 10-3705] select index 3 into 'rresp_time_cnt' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7582]
+WARNING: [VRFC 10-3705] select index 3 into 'rd_fifo_rd_ptr' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:7587]
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module xilinx_vip.axi_vip_axi4pc(WADDR_WIDTH=40,RA...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_ADDR_WIDTH=40,C...
+Compiling module axi_vip_v1_1_17.axi_vip_v1_1_17_top(C_AXI_ADDR_W...
+WARNING: [VRFC 10-3705] select index 4096 into 'wrp_strb' is out of bounds [/wrk/ci/prod/2024.1/sw/continuous/35389/packages/customer/vivado/data/ip/xilinx/zynq_ultra_ps_e_vip_v1_0/hdl/zynq_ultra_ps_e_vip_v1_0_vl_rfs.sv:5492]
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module xilinx_vip.axi_vip_axi4pc(WADDR_WIDTH=40,RA...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_ADDR_WIDTH=40,C...
+Compiling module axi_vip_v1_1_17.axi_vip_v1_1_17_top(C_AXI_ADDR_W...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module xilinx_vip.axi_vip_axi4pc(WADDR_WIDTH=40,RA...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_ADDR_WIDTH=40,C...
+Compiling module axi_vip_v1_1_17.axi_vip_v1_1_17_top(C_AXI_ADDR_W...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_axi_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_arb_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_arb_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_arb_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_ddr_...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17_inte...
+Compiling module zynq_ultra_ps_e_vip_v1_0_17.zynq_ultra_ps_e_vip_v1_0_17(C_FC...
+Compiling module xil_defaultlib.Motor_Simulator_zynq_ultra_ps_e_...
+Compiling module xil_defaultlib.Motor_Simulator
+Compiling module xil_defaultlib.Motor_Simulator_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Motor_Simulator_wrapper_behav

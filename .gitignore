@@ -1,20 +1,17 @@
-# Ignore build output directory
-/build
-/export
+# HLS generated files
+hls/impl/
+hls/syn/
+hls/ip/
+hls/.autopilot/
+hls/*.log
+hls/*.jou
+hls/*.str
 
-# Ignore object files and dependent files
-.o
-.d
+# Vivado/Vitis generated IP
+*.gen/
+*.cache/
+*.runs/
+*.ip_user_files/
 
-#Ignore logs folder and log files
-/logs
-.log
-
-#Ignore lock files
-.lock
-
-.bin
-.pdi
-.peers.ini
-.repo.yaml
-.vitisWorkspace.json
+# temporary
+*.tmp

@@ -1,0 +1,403 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Wed Mar 11 18:32:49 2026
+| Host         : WFXA4BB6DBB67AF running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_calculateCoefficients_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Motor_Simulator_calculateCoefficients_0_4 (xilinx.com:hls:calculateCoefficients:1.0) from (Rev. 2114516575) to (Rev. 2114516609)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Wed Mar 11 18:00:12 2026
+| Host         : WFXA4BB6DBB67AF running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_calculateCoefficients_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Motor_Simulator_calculateCoefficients_0_4 (xilinx.com:hls:calculateCoefficients:1.0) from (Rev. 2114516548) to (Rev. 2114516575)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Motor_Simulator_calculateCoefficients_0_4'.
+
+
+-Upgrade has removed interface 'ap_ctrl'
+
+-Upgrade has removed interface 'bram_PORT_PORTB'
+
+-Upgrade has added interface 'm_axi_gmem' (xilinx.com:interface:aximm:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Motor_Simulator_calculateCoefficients_0_4'. These changes may impact your design.
+
+
+-Upgrade has removed port 'ap_done'
+
+-Upgrade has removed port 'ap_idle'
+
+-Upgrade has removed port 'ap_ready'
+
+-Upgrade has removed port 'ap_start'
+
+-Upgrade has removed port 'bram_PORT_Addr_B'
+
+-Upgrade has removed port 'bram_PORT_Clk_B'
+
+-Upgrade has removed port 'bram_PORT_Din_B'
+
+-Upgrade has removed port 'bram_PORT_Dout_B'
+
+-Upgrade has removed port 'bram_PORT_EN_B'
+
+-Upgrade has removed port 'bram_PORT_Rst_B'
+
+-Upgrade has removed port 'bram_PORT_WEN_B'
+
+-Upgrade has added port 'm_axi_gmem_ARADDR'
+
+-Upgrade has added port 'm_axi_gmem_ARBURST'
+
+-Upgrade has added port 'm_axi_gmem_ARCACHE'
+
+-Upgrade has added port 'm_axi_gmem_ARID'
+
+-Upgrade has added port 'm_axi_gmem_ARLEN'
+
+-Upgrade has added port 'm_axi_gmem_ARLOCK'
+
+-Upgrade has added port 'm_axi_gmem_ARPROT'
+
+-Upgrade has added port 'm_axi_gmem_ARQOS'
+
+-Upgrade has added port 'm_axi_gmem_ARREADY'
+
+-Upgrade has added port 'm_axi_gmem_ARREGION'
+
+-Upgrade has added port 'm_axi_gmem_ARSIZE'
+
+-Upgrade has added port 'm_axi_gmem_ARVALID'
+
+-Upgrade has added port 'm_axi_gmem_AWADDR'
+
+-Upgrade has added port 'm_axi_gmem_AWBURST'
+
+-Upgrade has added port 'm_axi_gmem_AWCACHE'
+
+-Upgrade has added port 'm_axi_gmem_AWID'
+
+-Upgrade has added port 'm_axi_gmem_AWLEN'
+
+-Upgrade has added port 'm_axi_gmem_AWLOCK'
+
+-Upgrade has added port 'm_axi_gmem_AWPROT'
+
+-Upgrade has added port 'm_axi_gmem_AWQOS'
+
+-Upgrade has added port 'm_axi_gmem_AWREADY'
+
+-Upgrade has added port 'm_axi_gmem_AWREGION'
+
+-Upgrade has added port 'm_axi_gmem_AWSIZE'
+
+-Upgrade has added port 'm_axi_gmem_AWVALID'
+
+-Upgrade has added port 'm_axi_gmem_BID'
+
+-Upgrade has added port 'm_axi_gmem_BREADY'
+
+-Upgrade has added port 'm_axi_gmem_BRESP'
+
+-Upgrade has added port 'm_axi_gmem_BVALID'
+
+-Upgrade has added port 'm_axi_gmem_RDATA'
+
+-Upgrade has added port 'm_axi_gmem_RID'
+
+-Upgrade has added port 'm_axi_gmem_RLAST'
+
+-Upgrade has added port 'm_axi_gmem_RREADY'
+
+-Upgrade has added port 'm_axi_gmem_RRESP'
+
+-Upgrade has added port 'm_axi_gmem_RVALID'
+
+-Upgrade has added port 'm_axi_gmem_WDATA'
+
+-Upgrade has added port 'm_axi_gmem_WID'
+
+-Upgrade has added port 'm_axi_gmem_WLAST'
+
+-Upgrade has added port 'm_axi_gmem_WREADY'
+
+-Upgrade has added port 'm_axi_gmem_WSTRB'
+
+-Upgrade has added port 'm_axi_gmem_WVALID'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Wed Mar 11 17:28:37 2026
+| Host         : WFXA4BB6DBB67AF running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_calculateCoefficients_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Motor_Simulator_calculateCoefficients_0_4 (xilinx.com:hls:calculateCoefficients:1.0) from (Rev. 2114516536) to (Rev. 2114516548)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'Motor_Simulator_calculateCoefficients_0_4'.
+
+
+-Upgrade has removed interface 'm_axi_gmem'
+
+-Upgrade has added interface 'ap_ctrl' (xilinx.com:interface:acc_handshake:1.0)
+
+-Upgrade has added interface 'bram_PORT_PORTB' (xilinx.com:interface:bram:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Motor_Simulator_calculateCoefficients_0_4'. These changes may impact your design.
+
+
+-Upgrade has removed port 'm_axi_gmem_ARADDR'
+
+-Upgrade has removed port 'm_axi_gmem_ARBURST'
+
+-Upgrade has removed port 'm_axi_gmem_ARCACHE'
+
+-Upgrade has removed port 'm_axi_gmem_ARID'
+
+-Upgrade has removed port 'm_axi_gmem_ARLEN'
+
+-Upgrade has removed port 'm_axi_gmem_ARLOCK'
+
+-Upgrade has removed port 'm_axi_gmem_ARPROT'
+
+-Upgrade has removed port 'm_axi_gmem_ARQOS'
+
+-Upgrade has removed port 'm_axi_gmem_ARREADY'
+
+-Upgrade has removed port 'm_axi_gmem_ARREGION'
+
+-Upgrade has removed port 'm_axi_gmem_ARSIZE'
+
+-Upgrade has removed port 'm_axi_gmem_ARVALID'
+
+-Upgrade has removed port 'm_axi_gmem_AWADDR'
+
+-Upgrade has removed port 'm_axi_gmem_AWBURST'
+
+-Upgrade has removed port 'm_axi_gmem_AWCACHE'
+
+-Upgrade has removed port 'm_axi_gmem_AWID'
+
+-Upgrade has removed port 'm_axi_gmem_AWLEN'
+
+-Upgrade has removed port 'm_axi_gmem_AWLOCK'
+
+-Upgrade has removed port 'm_axi_gmem_AWPROT'
+
+-Upgrade has removed port 'm_axi_gmem_AWQOS'
+
+-Upgrade has removed port 'm_axi_gmem_AWREADY'
+
+-Upgrade has removed port 'm_axi_gmem_AWREGION'
+
+-Upgrade has removed port 'm_axi_gmem_AWSIZE'
+
+-Upgrade has removed port 'm_axi_gmem_AWVALID'
+
+-Upgrade has removed port 'm_axi_gmem_BID'
+
+-Upgrade has removed port 'm_axi_gmem_BREADY'
+
+-Upgrade has removed port 'm_axi_gmem_BRESP'
+
+-Upgrade has removed port 'm_axi_gmem_BVALID'
+
+-Upgrade has removed port 'm_axi_gmem_RDATA'
+
+-Upgrade has removed port 'm_axi_gmem_RID'
+
+-Upgrade has removed port 'm_axi_gmem_RLAST'
+
+-Upgrade has removed port 'm_axi_gmem_RREADY'
+
+-Upgrade has removed port 'm_axi_gmem_RRESP'
+
+-Upgrade has removed port 'm_axi_gmem_RVALID'
+
+-Upgrade has removed port 'm_axi_gmem_WDATA'
+
+-Upgrade has removed port 'm_axi_gmem_WID'
+
+-Upgrade has removed port 'm_axi_gmem_WLAST'
+
+-Upgrade has removed port 'm_axi_gmem_WREADY'
+
+-Upgrade has removed port 'm_axi_gmem_WSTRB'
+
+-Upgrade has removed port 'm_axi_gmem_WVALID'
+
+-Upgrade has added port 'ap_done'
+
+-Upgrade has added port 'ap_idle'
+
+-Upgrade has added port 'ap_ready'
+
+-Upgrade has added port 'ap_start'
+
+-Upgrade has added port 'bram_PORT_Addr_B'
+
+-Upgrade has added port 'bram_PORT_Clk_B'
+
+-Upgrade has added port 'bram_PORT_Din_B'
+
+-Upgrade has added port 'bram_PORT_Dout_B'
+
+-Upgrade has added port 'bram_PORT_EN_B'
+
+-Upgrade has added port 'bram_PORT_Rst_B'
+
+-Upgrade has added port 'bram_PORT_WEN_B'
+
+
+4. Addressing Information
+-------------------------
+
+Detected addressing differences while upgrading 'Motor_Simulator_calculateCoefficients_0_4'. These changes may impact your design.
+
+
+-Upgrade has removed address space 'Data_m_axi_gmem'
+
+
+5. Customization warnings
+-------------------------
+
+Parameter 'C_M_AXI_GMEM_ENABLE_ID_PORTS' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to 'true'
+
+Parameter 'C_M_AXI_GMEM_ID_WIDTH' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '1'
+
+Parameter 'C_M_AXI_GMEM_DATA_WIDTH' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '32'
+
+Parameter 'C_M_AXI_GMEM_ENABLE_USER_PORTS' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to 'false'
+
+Parameter 'C_M_AXI_GMEM_AWUSER_WIDTH' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '1'
+
+Parameter 'C_M_AXI_GMEM_WUSER_WIDTH' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '1'
+
+Parameter 'C_M_AXI_GMEM_BUSER_WIDTH' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '1'
+
+Parameter 'C_M_AXI_GMEM_ARUSER_WIDTH' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '1'
+
+Parameter 'C_M_AXI_GMEM_RUSER_WIDTH' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '1'
+
+Parameter 'C_M_AXI_GMEM_USER_VALUE' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '0x00000000'
+
+Parameter 'C_M_AXI_GMEM_PROT_VALUE' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '"000"'
+
+Parameter 'C_M_AXI_GMEM_CACHE_VALUE' is no longer present on the upgraded IP 'Motor_Simulator_calculateCoefficients_0_4', and cannot be set to '"0011"'
+
+
+6. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:hls:calculateCoefficients:1.0 -user_name Motor_Simulator_calculateCoefficients_0_4
+set_property -dict "\
+  CONFIG.Component_Name {Motor_Simulator_calculateCoefficients_0_4} \
+  CONFIG.II {1359 ~ 1383} \
+  CONFIG.ap_clk.ASSOCIATED_BUSIF {s_axi_control:m_axi_gmem} \
+  CONFIG.ap_clk.ASSOCIATED_PORT {} \
+  CONFIG.ap_clk.ASSOCIATED_RESET {ap_rst_n} \
+  CONFIG.ap_clk.CLK_DOMAIN {} \
+  CONFIG.ap_clk.FREQ_HZ {100000000} \
+  CONFIG.ap_clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.ap_clk.INSERT_VIP {0} \
+  CONFIG.ap_clk.PHASE {0.0} \
+  CONFIG.ap_rst_n.INSERT_VIP {0} \
+  CONFIG.ap_rst_n.POLARITY {ACTIVE_LOW} \
+  CONFIG.clk_period {10} \
+  CONFIG.combinational {0} \
+  CONFIG.latency {1358} \
+  CONFIG.machine {64} \
+  CONFIG.s_axi_control.ADDR_WIDTH {6} \
+  CONFIG.s_axi_control.ARUSER_WIDTH {0} \
+  CONFIG.s_axi_control.AWUSER_WIDTH {0} \
+  CONFIG.s_axi_control.BUSER_WIDTH {0} \
+  CONFIG.s_axi_control.CLK_DOMAIN {} \
+  CONFIG.s_axi_control.DATA_WIDTH {32} \
+  CONFIG.s_axi_control.FREQ_HZ {100000000} \
+  CONFIG.s_axi_control.HAS_BRESP {1} \
+  CONFIG.s_axi_control.HAS_BURST {0} \
+  CONFIG.s_axi_control.HAS_CACHE {0} \
+  CONFIG.s_axi_control.HAS_LOCK {0} \
+  CONFIG.s_axi_control.HAS_PROT {0} \
+  CONFIG.s_axi_control.HAS_QOS {0} \
+  CONFIG.s_axi_control.HAS_REGION {0} \
+  CONFIG.s_axi_control.HAS_RRESP {1} \
+  CONFIG.s_axi_control.HAS_WSTRB {1} \
+  CONFIG.s_axi_control.ID_WIDTH {0} \
+  CONFIG.s_axi_control.INSERT_VIP {0} \
+  CONFIG.s_axi_control.MAX_BURST_LENGTH {1} \
+  CONFIG.s_axi_control.NUM_READ_OUTSTANDING {1} \
+  CONFIG.s_axi_control.NUM_READ_THREADS {1} \
+  CONFIG.s_axi_control.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.s_axi_control.NUM_WRITE_THREADS {1} \
+  CONFIG.s_axi_control.PHASE {0.0} \
+  CONFIG.s_axi_control.PROTOCOL {AXI4LITE} \
+  CONFIG.s_axi_control.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.s_axi_control.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_control.RUSER_WIDTH {0} \
+  CONFIG.s_axi_control.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.s_axi_control.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.s_axi_control.WUSER_WIDTH {0} " [get_ips Motor_Simulator_calculateCoefficients_0_4]
+
+

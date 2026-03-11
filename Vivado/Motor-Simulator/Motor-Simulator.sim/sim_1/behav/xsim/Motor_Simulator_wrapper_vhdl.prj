@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_proc_sys_reset_0_0/sim/Motor_Simulator_proc_sys_reset_0_0.vhd" \
+"../../../../Motor-Simulator.ip_user_files/bd/Motor_Simulator/ip/Motor_Simulator_axi_bram_ctrl_0_0/sim/Motor_Simulator_axi_bram_ctrl_0_0.vhd" \
+
+# Do not sort compile order
+nosort

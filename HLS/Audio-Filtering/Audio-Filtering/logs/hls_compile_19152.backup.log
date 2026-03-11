@@ -1,0 +1,99 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering\Audio-Filtering.hlscompile_summary, at 03/11/26 17:24:40
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering -config F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg -cmdlineconfig F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Mar 11 17:24:42 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'langweil.m' on host 'wfxa4bb6dbb67af.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Wed Mar 11 17:24:43 -0400 2026
+INFO: [HLS 200-10] In directory 'F:/Motor-Simulator/HLS/Audio-Filtering'
+INFO: [HLS 200-2005] Using work_dir F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.cpp' from F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'F:/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Fir-Filter.h' from F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'F:/Motor-Simulator/HLS/Audio-Filtering/Fir-Filter.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'F:/Motor-Simulator/HLS/Audio-Filtering/Coefficients.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'F:/Motor-Simulator/HLS/Audio-Filtering/Coefficients.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from F:/Motor-Simulator/HLS/Audio-Filtering/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 16.901 seconds; current allocated memory: 245.230 MB.
+INFO: [HLS 200-10] Analyzing design file 'Coefficients.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'Fir-Filter.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 29.303 seconds; current allocated memory: 252.406 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 15 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 13 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 13 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 13 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 14 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 21 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 26 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: F:/Motor-Simulator/HLS/Audio-Filtering/Audio-Filtering/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_20_1> at Coefficients.cpp:20:20 
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 9.768 seconds; current allocated memory: 253.418 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.005 seconds; current allocated memory: 253.418 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.247 seconds; current allocated memory: 258.598 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.172 seconds; current allocated memory: 261.027 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.196 seconds; current allocated memory: 282.707 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 282.719 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'calculateCoefficients' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'calculateCoefficients' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_20_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_20_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.21 seconds; current allocated memory: 282.719 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.462 seconds; current allocated memory: 282.891 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'calculateCoefficients' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/lowerCutoff' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/upperCutoff' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/samplingRate' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/bram_PORT' to 'bram'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'calculateCoefficients' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'lowerCutoff', 'upperCutoff' and 'samplingRate' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'calculateCoefficients'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.391 seconds; current allocated memory: 284.410 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 4.45 seconds; current allocated memory: 287.527 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 3.642 seconds; current allocated memory: 290.086 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for calculateCoefficients.
+INFO: [VLOG 209-307] Generating Verilog RTL for calculateCoefficients.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 600.96 MHz
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 5 seconds. Total elapsed time: 68.868 seconds; peak allocated memory: 290.395 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 13s

@@ -1,0 +1,7 @@
+Running: xsim.dir/Motor_Simulator_wrapper_behav/xsimk.exe -simmode gui -wdb Motor_Simulator_wrapper_behav.wdb -simrunnum 0 -socket 63262
+Design successfully loaded
+Design Loading Memory Usage: 52352 KB (Peak: 52352 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 74860 KB (Peak: 74860 KB)
+Simulation CPU Usage: 343 ms
