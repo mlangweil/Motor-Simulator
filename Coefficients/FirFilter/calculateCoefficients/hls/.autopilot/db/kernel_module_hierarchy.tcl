@@ -1,0 +1,10 @@
+set ModuleHierarchy {[{
+"Name" : "calculateCoefficients","ID" : "0","Type" : "sequential",
+"SubInsts" : [
+	{"Name" : "grp_calculateCoefficients_Pipeline_VITIS_LOOP_22_1_fu_114","ID" : "1","Type" : "sequential",
+		"SubLoops" : [
+		{"Name" : "VITIS_LOOP_22_1","ID" : "2","Type" : "pipeline",
+		"SubInsts" : [
+		{"Name" : "grp_sin_or_cos_float_s_fu_150","ID" : "3","Type" : "pipeline"},
+		{"Name" : "grp_sin_or_cos_float_s_fu_163","ID" : "4","Type" : "pipeline"},]},]},]
+}]}

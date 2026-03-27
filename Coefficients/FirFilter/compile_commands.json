@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "C:\\Motor-Simulator\\Coefficients\\FirFilter",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "C:\\Motor-Simulator\\Coefficients\\FirFilter\\Coefficients.cpp"
+    ],
+    "file": "C:\\Motor-Simulator\\Coefficients\\FirFilter\\Coefficients.cpp"
+  },
+  {
+    "directory": "C:\\Motor-Simulator\\Coefficients\\FirFilter",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
+      "",
+      "-c",
+      "C:\\Motor-Simulator\\Coefficients\\FirFilter\\tb_coefficients.cpp"
+    ],
+    "file": "C:\\Motor-Simulator\\Coefficients\\FirFilter\\tb_coefficients.cpp"
+  }
+]

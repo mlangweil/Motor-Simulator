@@ -1,0 +1,246 @@
+<ENTRY>
+{
+ "thisFile": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\calculateCoefficients.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/27/26 14:35:25",
+ "timestampMillis": "815031992",
+ "buildStep": {
+  "cmdId": "3b7a9141-4134-4bdb-b7d9-3864ed2df1d0",
+  "name": "v++",
+  "logFile": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\logs\\calculateCoefficients.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Motor-Simulator\\Coefficients\\FirFilter\\hls_config.cfg --work_dir calculateCoefficients ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\Motor-Simulator\\Coefficients\\FirFilter\\hls_config.cfg",
+   "--work_dir",
+   "calculateCoefficients"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\hls_config.cfg",
+    "content": "part=xczu3eg-sfvc784-2-e\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=calculateCoefficients\nsyn.file=Coefficients.cpp\nsyn.file=Coefficients.h"
+   }
+  ],
+  "cwd": "C:\\Motor-Simulator\\Coefficients\\FirFilter"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/27/26 14:35:25",
+ "timestampMillis": "815031993",
+ "status": {
+  "cmdId": "3b7a9141-4134-4bdb-b7d9-3864ed2df1d0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/27/26 14:35:29",
+ "timestampMillis": "815036003",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "calculateCoefficients",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Motor-Simulator\\Coefficients\\FirFilter\\Coefficients.cpp",
+     "C:/Motor-Simulator\\Coefficients\\FirFilter\\Coefficients.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/27/26 14:35:29",
+ "timestampMillis": "815036005",
+ "buildStep": {
+  "cmdId": "c96ad709-cdf8-4207-a2ec-36984956c42c",
+  "name": "csynth_design",
+  "logFile": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\hls\\hls.log",
+  "commandLine": "csynth_design",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Motor-Simulator\\Coefficients\\FirFilter"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/27/26 14:35:29",
+ "timestampMillis": "815036006",
+ "status": {
+  "cmdId": "c96ad709-cdf8-4207-a2ec-36984956c42c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/27/26 14:35:29",
+ "timestampMillis": "815036006",
+ "report": {
+  "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/27/26 14:35:29",
+ "timestampMillis": "815036007",
+ "report": {
+  "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/27/26 14:35:29",
+ "timestampMillis": "815036008",
+ "report": {
+  "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/27/26 14:36:07",
+ "timestampMillis": "815074382",
+ "report": {
+  "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/27/26 14:36:07",
+ "timestampMillis": "815074382",
+ "report": {
+  "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/27/26 14:36:07",
+ "timestampMillis": "815074383",
+ "report": {
+  "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/27/26 14:36:07",
+ "timestampMillis": "815074383",
+ "status": {
+  "cmdId": "c96ad709-cdf8-4207-a2ec-36984956c42c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/27/26 14:36:07",
+ "timestampMillis": "815074511",
+ "status": {
+  "cmdId": "3b7a9141-4134-4bdb-b7d9-3864ed2df1d0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/27/26 14:36:07",
+ "timestampMillis": "815074530",
+ "report": {
+  "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\reports\\v++_compile_calculateCoefficients_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/27/26 14:36:07",
+ "timestampMillis": "815074531",
+ "report": {
+  "path": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\reports\\.db\\v++_compile_calculateCoefficients_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

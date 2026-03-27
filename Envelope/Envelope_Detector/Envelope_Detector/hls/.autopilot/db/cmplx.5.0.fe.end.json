@@ -1,0 +1,20 @@
+{
+    "0": {
+        "name": "hilbert_envelope_axis",
+        "file": "hilbert.cpp",
+        "fileloc": "58",
+        "instructions": "60",
+        "total_instructions": "60",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "G": "12"
+        },
+        "stores": {
+            "G": "13"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

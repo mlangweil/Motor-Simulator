@@ -1,0 +1,183 @@
+
+
+================================================================
+== Vitis HLS Report for 'hilbert_envelope_axis'
+================================================================
+* Date:           Fri Mar 27 14:10:34 2026
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        Envelope_Detector
+* Solution:       hls (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xczu3eg-sfvc784-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  0.576 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+-----------------------------------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                   |
+    |   min   |   max   |    min   |    max   | min | max |                      Type                     |
+    +---------+---------+----------+----------+-----+-----+-----------------------------------------------+
+    |        ?|        ?|         ?|         ?|    0|    0|  loop auto-rewind stp(delay=0 clock cycles(s))|
+    +---------+---------+----------+----------+-----+-----+-----------------------------------------------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_66_1  |        ?|        ?|         2|          1|          1|     ?|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 1 2 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.57>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%spectopmodule_ln58 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_4" [hilbert.cpp:58]   --->   Operation 5 'spectopmodule' 'spectopmodule_ln58' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln58 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_5, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0" [hilbert.cpp:58]   --->   Operation 6 'specinterface' 'specinterface_ln58' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %in_stream_V_data_V, i4 %in_stream_V_keep_V, i4 %in_stream_V_strb_V, i2 %in_stream_V_user_V, i1 %in_stream_V_last_V, i5 %in_stream_V_id_V, i6 %in_stream_V_dest_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %in_stream_V_data_V"   --->   Operation 8 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i4 %in_stream_V_keep_V"   --->   Operation 9 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i4 %in_stream_V_strb_V"   --->   Operation 10 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i2 %in_stream_V_user_V"   --->   Operation 11 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %in_stream_V_last_V"   --->   Operation 12 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i5 %in_stream_V_id_V"   --->   Operation 13 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i6 %in_stream_V_dest_V"   --->   Operation 14 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %out_stream_V_data_V, i4 %out_stream_V_keep_V, i4 %out_stream_V_strb_V, i2 %out_stream_V_user_V, i1 %out_stream_V_last_V, i5 %out_stream_V_id_V, i6 %out_stream_V_dest_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0, i32 0"   --->   Operation 15 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %out_stream_V_data_V"   --->   Operation 16 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i4 %out_stream_V_keep_V"   --->   Operation 17 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i4 %out_stream_V_strb_V"   --->   Operation 18 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i2 %out_stream_V_user_V"   --->   Operation 19 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %out_stream_V_last_V"   --->   Operation 20 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i5 %out_stream_V_id_V"   --->   Operation 21 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i6 %out_stream_V_dest_V"   --->   Operation 22 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln66 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i32 %out_stream_V_data_V, i4 %out_stream_V_keep_V, i4 %out_stream_V_strb_V, i2 %out_stream_V_user_V, i1 %out_stream_V_last_V, i5 %out_stream_V_id_V, i6 %out_stream_V_dest_V, void @empty_2" [hilbert.cpp:66]   --->   Operation 23 'specaxissidechannel' 'specaxissidechannel_ln66' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%specaxissidechannel_ln66 = specaxissidechannel void @_ssdm_op_SpecAXISSideChannel, i32 %in_stream_V_data_V, i4 %in_stream_V_keep_V, i4 %in_stream_V_strb_V, i2 %in_stream_V_user_V, i1 %in_stream_V_last_V, i5 %in_stream_V_id_V, i6 %in_stream_V_dest_V, void @empty_3" [hilbert.cpp:66]   --->   Operation 24 'specaxissidechannel' 'specaxissidechannel_ln66' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%br_ln66 = br void %while.body" [hilbert.cpp:66]   --->   Operation 25 'br' 'br_ln66' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.07ns)   --->   "%empty = read i54 @_ssdm_op_Read.axis.volatile.i32P0A.i4P0A.i4P0A.i2P0A.i1P0A.i5P0A.i6P0A, i32 %in_stream_V_data_V, i4 %in_stream_V_keep_V, i4 %in_stream_V_strb_V, i2 %in_stream_V_user_V, i1 %in_stream_V_last_V, i5 %in_stream_V_id_V, i6 %in_stream_V_dest_V" [hilbert.cpp:69]   --->   Operation 26 'read' 'empty' <Predicate = true> <Delay = 0.07> <CoreInst = "regslice">   --->   Core 148 'regslice' <Latency = 0> <II = 1> <Delay = 0.65> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%tmp_data = extractvalue i54 %empty" [hilbert.cpp:69]   --->   Operation 27 'extractvalue' 'tmp_data' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%tmp_keep = extractvalue i54 %empty" [hilbert.cpp:69]   --->   Operation 28 'extractvalue' 'tmp_keep' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%tmp_strb = extractvalue i54 %empty" [hilbert.cpp:69]   --->   Operation 29 'extractvalue' 'tmp_strb' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%tmp_user = extractvalue i54 %empty" [hilbert.cpp:69]   --->   Operation 30 'extractvalue' 'tmp_user' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%tmp_last = extractvalue i54 %empty" [hilbert.cpp:69]   --->   Operation 31 'extractvalue' 'tmp_last' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%tmp_id = extractvalue i54 %empty" [hilbert.cpp:69]   --->   Operation 32 'extractvalue' 'tmp_id' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%tmp_dest = extractvalue i54 %empty" [hilbert.cpp:69]   --->   Operation 33 'extractvalue' 'tmp_dest' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x = load i32 %p_ZZL7hilbertxRxE1x_11" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 34 'load' 'hilbert_long_long_long_long_x' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x, i32 %p_ZZL7hilbertxRxE1x_12" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 35 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%p_ZZL7hilbertxRxE1x_10_load = load i32 %p_ZZL7hilbertxRxE1x_10" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 36 'load' 'p_ZZL7hilbertxRxE1x_10_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %p_ZZL7hilbertxRxE1x_10_load, i32 %p_ZZL7hilbertxRxE1x_11" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 37 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_9_load = load i32 %hilbert_long_long_long_long_x_9" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 38 'load' 'hilbert_long_long_long_long_x_9_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_9_load, i32 %p_ZZL7hilbertxRxE1x_10" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 39 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_8_load = load i32 %hilbert_long_long_long_long_x_8" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 40 'load' 'hilbert_long_long_long_long_x_8_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_8_load, i32 %hilbert_long_long_long_long_x_9" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 41 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_7_load = load i32 %hilbert_long_long_long_long_x_7" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 42 'load' 'hilbert_long_long_long_long_x_7_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_7_load, i32 %hilbert_long_long_long_long_x_8" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 43 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_6_load = load i32 %hilbert_long_long_long_long_x_6" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 44 'load' 'hilbert_long_long_long_long_x_6_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_6_load, i32 %hilbert_long_long_long_long_x_7" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 45 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_5_load = load i32 %hilbert_long_long_long_long_x_5" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 46 'load' 'hilbert_long_long_long_long_x_5_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_5_load, i32 %hilbert_long_long_long_long_x_6" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 47 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_4_load = load i32 %hilbert_long_long_long_long_x_4" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 48 'load' 'hilbert_long_long_long_long_x_4_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_4_load, i32 %hilbert_long_long_long_long_x_5" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 49 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_3_load = load i32 %hilbert_long_long_long_long_x_3" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 50 'load' 'hilbert_long_long_long_long_x_3_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_3_load, i32 %hilbert_long_long_long_long_x_4" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 51 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_2_load = load i32 %hilbert_long_long_long_long_x_2" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 52 'load' 'hilbert_long_long_long_long_x_2_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_2_load, i32 %hilbert_long_long_long_long_x_3" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 53 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_1_load = load i32 %hilbert_long_long_long_long_x_1" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 54 'load' 'hilbert_long_long_long_long_x_1_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 55 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_1_load, i32 %hilbert_long_long_long_long_x_2" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 55 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "%hilbert_long_long_long_long_x_load = load i32 %hilbert_long_long_long_long_x" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 56 'load' 'hilbert_long_long_long_long_x_load' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%store_ln34 = store i32 %hilbert_long_long_long_long_x_load, i32 %hilbert_long_long_long_long_x_1" [hilbert.cpp:34->hilbert.cpp:74]   --->   Operation 57 'store' 'store_ln34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (0.00ns)   --->   "%store_ln36 = store i32 %tmp_data, i32 %hilbert_long_long_long_long_x" [hilbert.cpp:36->hilbert.cpp:74]   --->   Operation 58 'store' 'store_ln36' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 59 [2/2] (0.49ns)   --->   "%write_ln80 = write void @_ssdm_op_Write.axis.volatile.i32P0A.i4P0A.i4P0A.i2P0A.i1P0A.i5P0A.i6P0A, i32 %out_stream_V_data_V, i4 %out_stream_V_keep_V, i4 %out_stream_V_strb_V, i2 %out_stream_V_user_V, i1 %out_stream_V_last_V, i5 %out_stream_V_id_V, i6 %out_stream_V_dest_V, i32 1, i4 %tmp_keep, i4 %tmp_strb, i2 %tmp_user, i1 %tmp_last, i5 %tmp_id, i6 %tmp_dest" [hilbert.cpp:80]   --->   Operation 59 'write' 'write_ln80' <Predicate = true> <Delay = 0.49> <CoreInst = "regslice">   --->   Core 148 'regslice' <Latency = 0> <II = 1> <Delay = 0.65> <Adapter> <Opcode : 'read' 'write'>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%br_ln69 = br i1 %tmp_last, void %cleanup.cont, void %while.end" [hilbert.cpp:69]   --->   Operation 60 'br' 'br_ln69' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%specpipeline_ln67 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1" [hilbert.cpp:67]   --->   Operation 61 'specpipeline' 'specpipeline_ln67' <Predicate = (!tmp_last)> <Delay = 0.00>
+ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%specloopname_ln66 = specloopname void @_ssdm_op_SpecLoopName, void @empty_6" [hilbert.cpp:66]   --->   Operation 62 'specloopname' 'specloopname_ln66' <Predicate = (!tmp_last)> <Delay = 0.00>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%br_ln66 = br void %while.body" [hilbert.cpp:66]   --->   Operation 63 'br' 'br_ln66' <Predicate = (!tmp_last)> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 0.49>
+ST_2 : Operation 64 [1/2] (0.49ns)   --->   "%write_ln80 = write void @_ssdm_op_Write.axis.volatile.i32P0A.i4P0A.i4P0A.i2P0A.i1P0A.i5P0A.i6P0A, i32 %out_stream_V_data_V, i4 %out_stream_V_keep_V, i4 %out_stream_V_strb_V, i2 %out_stream_V_user_V, i1 %out_stream_V_last_V, i5 %out_stream_V_id_V, i6 %out_stream_V_dest_V, i32 1, i4 %tmp_keep, i4 %tmp_strb, i2 %tmp_user, i1 %tmp_last, i5 %tmp_id, i6 %tmp_dest" [hilbert.cpp:80]   --->   Operation 64 'write' 'write_ln80' <Predicate = true> <Delay = 0.49> <CoreInst = "regslice">   --->   Core 148 'regslice' <Latency = 0> <II = 1> <Delay = 0.65> <Adapter> <Opcode : 'read' 'write'>
+ST_2 : Operation 65 [1/1] (0.42ns)   --->   "%ret_ln86 = ret" [hilbert.cpp:86]   --->   Operation 65 'ret' 'ret_ln86' <Predicate = (tmp_last)> <Delay = 0.42>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 2.700ns.
+
+ <State 1>: 0.576ns
+The critical path consists of the following:
+	axis read operation ('empty', hilbert.cpp:69) on port 'in_stream_V_data_V' (hilbert.cpp:69) [50]  (0.079 ns)
+	axis write operation ('write_ln80', hilbert.cpp:80) on port 'out_stream_V_data_V' (hilbert.cpp:80) [83]  (0.497 ns)
+
+ <State 2>: 0.497ns
+The critical path consists of the following:
+	axis write operation ('write_ln80', hilbert.cpp:80) on port 'out_stream_V_data_V' (hilbert.cpp:80) [83]  (0.497 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

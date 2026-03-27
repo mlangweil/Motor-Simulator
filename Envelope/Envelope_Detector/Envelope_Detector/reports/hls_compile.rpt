@@ -1,0 +1,100 @@
+
+
+================================================================
+== Synthesis Summary Report of 'hilbert_envelope_axis'
+================================================================
++ General Information: 
+    * Date:           Fri Mar 27 14:10:36 2026
+    * Version:        2024.1 (Build 5069499 on May 21 2024)
+    * Project:        Envelope_Detector
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xczu3eg-sfvc784-2-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----------+-----+
+    |         Modules         | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |         |          |     |
+    |         & Loops         | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|    FF   |    LUT   | URAM|
+    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----------+-----+
+    |+ hilbert_envelope_axis  |     -|  6.72|        -|       -|         -|        0|     -|    rewind|     -|   -|  2 (~0%)|  30 (~0%)|    -|
+    | o VITIS_LOOP_66_1       |     -|  7.30|        -|       -|         2|        1|     -|       yes|     -|   -|        -|         -|    -|
+    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++------------+-----------+---------------+-------+-------+-----+-------+-------+--------+-------+-------+--------+
+| Interface  | Direction | Register Mode | TDATA | TDEST | TID | TKEEP | TLAST | TREADY | TSTRB | TUSER | TVALID |
++------------+-----------+---------------+-------+-------+-----+-------+-------+--------+-------+-------+--------+
+| in_stream  | in        | both          | 32    | 6     | 5   | 4     | 1     | 1      | 4     | 2     | 1      |
+| out_stream | out       | both          | 32    | 6     | 5   | 4     | 1     | 1      | 4     | 2     | 1      |
++------------+-----------+---------------+-------+-------+-----+-------+-------+--------+-------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++------------+-----------+--------------------------------------------------------+
+| Argument   | Direction | Datatype                                               |
++------------+-----------+--------------------------------------------------------+
+| in_stream  | in        | stream<hls::axis<ap_int<32>, 2, 5, 6, '8', false>, 0>& |
+| out_stream | out       | stream<hls::axis<ap_int<32>, 2, 5, 6, '8', false>, 0>& |
++------------+-----------+--------------------------------------------------------+
+
+* SW-to-HW Mapping
++------------+--------------+-----------+
+| Argument   | HW Interface | HW Type   |
++------------+--------------+-----------+
+| in_stream  | in_stream    | interface |
+| out_stream | out_stream   | interface |
++------------+--------------+-----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------------+---------------------------+-----------------------------------------------------+
+| Type            | Options                   | Location                                            |
++-----------------+---------------------------+-----------------------------------------------------+
+| inline          |                           | hilbert.cpp:15 in hilbert                           |
+| array_partition | variable=x complete dim=1 | hilbert.cpp:29 in hilbert, x                        |
+| unroll          |                           | hilbert.cpp:33 in hilbert                           |
+| interface       | axis port=in_stream       | hilbert.cpp:60 in hilbert_envelope_axis, in_stream  |
+| interface       | axis port=out_stream      | hilbert.cpp:61 in hilbert_envelope_axis, out_stream |
+| interface       | ap_ctrl_none port=return  | hilbert.cpp:62 in hilbert_envelope_axis, return     |
+| pipeline        | II=1                      | hilbert.cpp:67 in hilbert_envelope_axis             |
++-----------------+---------------------------+-----------------------------------------------------+
+
+

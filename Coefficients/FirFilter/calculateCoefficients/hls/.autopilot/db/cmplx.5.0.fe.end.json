@@ -1,0 +1,41 @@
+{
+    "1": {
+        "name": "calculateCoefficients_Pipeline_VITIS_LOOP_22_1",
+        "file": "Coefficients.cpp",
+        "fileloc": "22",
+        "instructions": "57",
+        "total_instructions": "327",
+        "calls": "2 2",
+        "basicblocks": "5",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "sin_or_cos<float>",
+        "file": "hls_hotbm.h",
+        "fileloc": "209",
+        "instructions": "135",
+        "total_instructions": "135",
+        "calls": "",
+        "basicblocks": "1",
+        "loads": {
+            "G": "4"
+        }
+    },
+    "0": {
+        "name": "calculateCoefficients",
+        "file": "Coefficients.cpp",
+        "fileloc": "6",
+        "instructions": "35",
+        "total_instructions": "362",
+        "calls": "1",
+        "basicblocks": "1"
+    }
+}

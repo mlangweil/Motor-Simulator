@@ -1,0 +1,308 @@
+
+
+================================================================
+== Synthesis Summary Report of 'calculateCoefficients'
+================================================================
++ General Information: 
+    * Date:           Fri Mar 27 14:36:05 2026
+    * Version:        2024.1 (Build 5069499 on May 21 2024)
+    * Project:        calculateCoefficients
+    * Solution:       hls (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xczu3eg-sfvc784-2-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +---------------------------------------------------+------+------+---------+---------+----------+---------+------+----------+---------+----------+-----------+------------+-----+
+    |                      Modules                      | Issue|      | Latency | Latency | Iteration|         | Trip |          |         |          |           |            |     |
+    |                      & Loops                      | Type | Slack| (cycles)|   (ns)  |  Latency | Interval| Count| Pipelined|  BRAM   |    DSP   |     FF    |     LUT    | URAM|
+    +---------------------------------------------------+------+------+---------+---------+----------+---------+------+----------+---------+----------+-----------+------------+-----+
+    |+ calculateCoefficients                            |     -|  0.00|       93|  930.000|         -|       94|     -|        no|  4 (~0%)|  40 (11%)|  5436 (3%)|  8613 (12%)|    -|
+    | + calculateCoefficients_Pipeline_VITIS_LOOP_22_1  |     -|  0.00|       58|  580.000|         -|       58|     -|        no|        -|   32 (8%)|  3628 (2%)|   6530 (9%)|    -|
+    |  o VITIS_LOOP_22_1                                |     -|  7.30|       56|  560.000|        33|        1|    25|       yes|        -|         -|          -|           -|    -|
+    |   + sin_or_cos_float_s                            |    II|  0.30|        5|   50.000|         -|        1|     -|       yes|        -|   13 (3%)|  962 (~0%)|   2557 (3%)|    -|
+    |   + sin_or_cos_float_s                            |    II|  0.30|        5|   50.000|         -|        1|     -|       yes|        -|   13 (3%)|  962 (~0%)|   2557 (3%)|    -|
+    +---------------------------------------------------+------+------+---------+---------+----------+---------+------+----------+---------+----------+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* M_AXI
++------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| Interface  | Read/Write | Data Width | Address Width | Latency | Offset | Register | Max Widen | Max Read     | Max Write    | Num Read    | Num Write   | Resource Estimate |
+|            |            | (SW->HW)   |               |         |        |          | Bitwidth  | Burst Length | Burst Length | Outstanding | Outstanding |                   |
++------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+| m_axi_gmem | WRITE_ONLY | 64 -> 64   | 64            | 0       | slave  | 0        | 0         | 16           | 16           | 16          | 16          | BRAM=4            |
++------------+------------+------------+---------------+---------+--------+----------+-----------+--------------+--------------+-------------+-------------+-------------------+
+
+* S_AXILITE Interfaces
++---------------+------------+---------------+--------+----------+
+| Interface     | Data Width | Address Width | Offset | Register |
++---------------+------------+---------------+--------+----------+
+| s_axi_control | 32         | 6             | 16     | 0        |
++---------------+------------+---------------+--------+----------+
+
+* S_AXILITE Registers
++---------------+--------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| Interface     | Register     | Offset | Width | Access | Description                      | Bit Fields                                                           |
++---------------+--------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+| s_axi_control | CTRL         | 0x00   | 32    | RW     | Control signals                  | 0=AP_START 1=AP_DONE 2=AP_IDLE 3=AP_READY 7=AUTO_RESTART 9=INTERRUPT |
+| s_axi_control | GIER         | 0x04   | 32    | RW     | Global Interrupt Enable Register | 0=Enable                                                             |
+| s_axi_control | IP_IER       | 0x08   | 32    | RW     | IP Interrupt Enable Register     | 0=CHAN0_INT_EN 1=CHAN1_INT_EN                                        |
+| s_axi_control | IP_ISR       | 0x0c   | 32    | RW     | IP Interrupt Status Register     | 0=CHAN0_INT_ST 1=CHAN1_INT_ST                                        |
+| s_axi_control | lowerCutoff  | 0x10   | 32    | W      | Data signal of lowerCutoff       |                                                                      |
+| s_axi_control | upperCutoff  | 0x18   | 32    | W      | Data signal of upperCutoff       |                                                                      |
+| s_axi_control | samplingRate | 0x20   | 32    | W      | Data signal of samplingRate      |                                                                      |
+| s_axi_control | bram_1       | 0x28   | 32    | W      | Data signal of bram              |                                                                      |
+| s_axi_control | bram_2       | 0x2c   | 32    | W      | Data signal of bram              |                                                                      |
++---------------+--------------+--------+-------+--------+----------------------------------+----------------------------------------------------------------------+
+
+* TOP LEVEL CONTROL
++-----------+------------+-----------+
+| Interface | Type       | Ports     |
++-----------+------------+-----------+
+| ap_clk    | clock      | ap_clk    |
+| ap_rst_n  | reset      | ap_rst_n  |
+| interrupt | interrupt  | interrupt |
+| ap_ctrl   | ap_ctrl_hs |           |
++-----------+------------+-----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++--------------+-----------+----------------+
+| Argument     | Direction | Datatype       |
++--------------+-----------+----------------+
+| lowerCutoff  | in        | int            |
+| upperCutoff  | in        | int            |
+| samplingRate | in        | int            |
+| bram         | out       | long long int* |
++--------------+-----------+----------------+
+
+* SW-to-HW Mapping
++--------------+---------------+-----------+----------+----------------------------------------+
+| Argument     | HW Interface  | HW Type   | HW Usage | HW Info                                |
++--------------+---------------+-----------+----------+----------------------------------------+
+| lowerCutoff  | s_axi_control | register  |          | name=lowerCutoff offset=0x10 range=32  |
+| upperCutoff  | s_axi_control | register  |          | name=upperCutoff offset=0x18 range=32  |
+| samplingRate | s_axi_control | register  |          | name=samplingRate offset=0x20 range=32 |
+| bram         | m_axi_gmem    | interface |          | channel=0                              |
+| bram         | s_axi_control | register  | offset   | name=bram_1 offset=0x28 range=32       |
+| bram         | s_axi_control | register  | offset   | name=bram_2 offset=0x2c range=32       |
++--------------+---------------+-----------+----------+----------------------------------------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+* Inferred Burst Summary
++--------------+-----------+--------+-------+-----------------+------------------------+
+| HW Interface | Direction | Length | Width | Loop            | Loop Location          |
++--------------+-----------+--------+-------+-----------------+------------------------+
+| m_axi_gmem   | write     | 25     | 64    | VITIS_LOOP_22_1 | Coefficients.cpp:22:22 |
++--------------+-----------+--------+-------+-----------------+------------------------+
+
+* All M_AXI Variable Accesses
++--------------+----------+------------------------+-----------+--------------+--------+-----------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
+| HW Interface | Variable | Access Location        | Direction | Burst Status | Length | Loop            | Loop Location          | Resolution | Problem                                                                                               |
++--------------+----------+------------------------+-----------+--------------+--------+-----------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
+| m_axi_gmem   | bram     | Coefficients.cpp:35:16 | write     | Widen Fail   |        | VITIS_LOOP_22_1 | Coefficients.cpp:22:22 | 214-353    | Could not widen since type i64 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | bram     | Coefficients.cpp:35:16 | write     | Inferred     | 25     | VITIS_LOOP_22_1 | Coefficients.cpp:22:22 |            |                                                                                                       |
++--------------+----------+------------------------+-----------+--------------+--------+-----------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
+
+    * Resolution URL: docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
+
+================================================================
+== Bind Op Report
+================================================================
++--------------------------------------------------------+-----+--------+----------------+-----------+-----------+---------+
+| Name                                                   | DSP | Pragma | Variable       | Op        | Impl      | Latency |
++--------------------------------------------------------+-----+--------+----------------+-----------+-----------+---------+
+| + calculateCoefficients                                | 40  |        |                |           |           |         |
+|   sitofp_32ns_32_4_no_dsp_1_U41                        |     |        | conv           | sitofp    | auto      | 3       |
+|   fmul_32ns_32ns_32_3_max_dsp_1_U37                    | 3   |        | mul            | fmul      | maxdsp    | 2       |
+|   sitofp_32ns_32_4_no_dsp_1_U41                        |     |        | conv1          | sitofp    | auto      | 3       |
+|   fdiv_32ns_32ns_32_9_no_dsp_1_U39                     |     |        | omegaLower     | fdiv      | fabric    | 8       |
+|   sitofp_32ns_32_4_no_dsp_1_U42                        |     |        | conv2          | sitofp    | auto      | 3       |
+|   fmul_32ns_32ns_32_3_max_dsp_1_U38                    | 3   |        | mul3           | fmul      | maxdsp    | 2       |
+|   fdiv_32ns_32ns_32_9_no_dsp_1_U40                     |     |        | omegaUpper     | fdiv      | fabric    | 8       |
+|   fsub_32ns_32ns_32_4_full_dsp_1_U36                   | 2   |        | sub7           | fsub      | fulldsp   | 3       |
+|   fdiv_32ns_32ns_32_9_no_dsp_1_U39                     |     |        | div8           | fdiv      | fabric    | 8       |
+|  + calculateCoefficients_Pipeline_VITIS_LOOP_22_1      | 32  |        |                |           |           |         |
+|    add_ln28_fu_218_p2                                  |     |        | add_ln28       | add       | fabric    | 0       |
+|    icmp_ln28_fu_224_p2                                 |     |        | icmp_ln28      | seteq     | auto      | 0       |
+|    i_fu_230_p2                                         |     |        | i              | add       | fabric    | 0       |
+|    sitofp_32s_32_4_no_dsp_1_U28                        |     |        | conv9          | sitofp    | auto      | 3       |
+|    fmul_32ns_32ns_32_3_max_dsp_1_U25                   | 3   |        | mul4           | fmul      | maxdsp    | 2       |
+|    fmul_32ns_32ns_32_3_max_dsp_1_U26                   | 3   |        | dc             | fmul      | maxdsp    | 2       |
+|    add_ln317_fu_295_p2                                 |     |        | add_ln317      | add       | fabric    | 0       |
+|    sub_ln18_fu_309_p2                                  |     |        | sub_ln18       | sub       | fabric    | 0       |
+|    select_ln18_fu_319_p3                               |     |        | select_ln18    | select    | auto_sel  | 0       |
+|    lshr_ln18_fu_335_p2                                 |     |        | lshr_ln18      | lshr      | auto_pipe | 0       |
+|    shl_ln18_fu_341_p2                                  |     |        | shl_ln18       | shl       | auto_pipe | 0       |
+|    val_3_fu_367_p3                                     |     |        | val_3          | select    | auto_sel  | 0       |
+|    result_1_fu_375_p2                                  |     |        | result_1       | sub       | fabric    | 0       |
+|    result_2_fu_381_p3                                  |     |        | result_2       | select    | auto_sel  | 0       |
+|    icmp_ln22_fu_241_p2                                 |     |        | icmp_ln22      | seteq     | auto      | 0       |
+|   + sin_or_cos_float_s (grp_sin_or_cos_float_s_fu_150) | 13  |        |                |           |           |         |
+|     closepath_fu_310_p2                                |     |        | closepath      | setlt     | auto      | 0       |
+|     Ex_fu_650_p2                                       |     |        | Ex             | add       | fabric    | 0       |
+|     select_ln453_fu_655_p3                             |     |        | select_ln453   | select    | auto_sel  | 0       |
+|     add_ln376_fu_316_p2                                |     |        | add_ln376      | add       | fabric    | 0       |
+|     addr_fu_322_p3                                     |     |        | addr           | select    | auto_sel  | 0       |
+|     shl_ln379_fu_352_p2                                |     |        | shl_ln379      | shl       | auto_pipe | 0       |
+|     mul_80s_24ns_80_1_0_U3                             | 5   |        | h              | mul       | auto      | 0       |
+|     k_1_fu_400_p3                                      |     |        | k_1            | select    | auto_sel  | 0       |
+|     Mx_bits_1_fu_662_p2                                |     |        | Mx_bits_1      | sub       | fabric    | 0       |
+|     Mx_bits_2_fu_667_p3                                |     |        | Mx_bits_2      | select    | auto_sel  | 0       |
+|     tmp_1_fu_713_p3                                    |     |        | tmp_1          | cttz      | auto      | 0       |
+|     shl_ln504_fu_729_p2                                |     |        | shl_ln504      | shl       | auto_pipe | 0       |
+|     Ex_1_fu_749_p2                                     |     |        | Ex_1           | sub       | fabric    | 0       |
+|     sub_ln506_fu_763_p2                                |     |        | sub_ln506      | sub       | fabric    | 0       |
+|     select_ln506_fu_769_p3                             |     |        | select_ln506   | select    | auto_sel  | 0       |
+|     lshr_ln506_fu_785_p2                               |     |        | lshr_ln506     | lshr      | auto_pipe | 0       |
+|     shl_ln506_fu_791_p2                                |     |        | shl_ln506      | shl       | auto_pipe | 0       |
+|     select_ln506_1_fu_797_p3                           |     |        | select_ln506_1 | select    | auto_sel  | 0       |
+|     sparsemux_17_3_1_1_0_U4                            |     |        | cos_basis      | sparsemux | auto      | 0       |
+|     Mx_1_fu_849_p3                                     |     |        | Mx_1           | select    | auto_sel  | 0       |
+|     Ex_2_fu_951_p3                                     |     |        | Ex_2           | select    | auto_sel  | 0       |
+|     mul_15ns_15ns_30_1_0_U7                            | 1   |        | mul_ln23       | mul       | auto      | 0       |
+|     sin_basis_fu_829_p2                                |     |        | sin_basis      | xor       | auto      | 0       |
+|     mul_23s_22ns_45_1_0_U1                             | 2   |        | mul_ln29       | mul       | auto      | 0       |
+|     mul_15ns_15s_30_1_0_U8                             | 1   |        | mul_ln30       | mul       | auto      | 0       |
+|     mul_30s_29ns_58_1_0_U2                             | 4   |        | mul_ln32       | mul       | auto      | 0       |
+|     c_fu_1025_p3                                       |     |        | c              | cttz      | auto      | 0       |
+|     c_1_fu_1043_p3                                     |     |        | c_1            | cttz      | auto      | 0       |
+|     shl_ln291_fu_1055_p2                               |     |        | shl_ln291      | shl       | auto_pipe | 0       |
+|     icmp_ln292_fu_1065_p2                              |     |        | icmp_ln292     | seteq     | auto      | 0       |
+|     shift_1_fu_1071_p2                                 |     |        | shift_1        | add       | fabric    | 0       |
+|     shl_ln291_1_fu_1081_p2                             |     |        | shl_ln291_1    | shl       | auto_pipe | 0       |
+|     shift_2_fu_1087_p3                                 |     |        | shift_2        | select    | auto_sel  | 0       |
+|     add_ln300_fu_1095_p2                               |     |        | add_ln300      | add       | fabric    | 0       |
+|     newexp_fu_1105_p2                                  |     |        | newexp         | sub       | fabric    | 0       |
+|     icmp_ln306_fu_1119_p2                              |     |        | icmp_ln306     | seteq     | auto      | 0       |
+|     or_ln306_fu_1125_p2                                |     |        | or_ln306       | or        | auto      | 0       |
+|     empty_37_fu_1155_p3                                |     |        | empty_37       | select    | auto_sel  | 0       |
+|     sparsemux_33_4_1_1_0_U5                            |     |        | tmp_11         | sparsemux | auto      | 0       |
+|     sparsemux_33_4_1_1_0_U6                            |     |        | tmp_12         | sparsemux | auto      | 0       |
+|     results_sign_fu_602_p3                             |     |        | results_sign   | select    | auto_sel  | 0       |
+|     icmp_ln271_fu_610_p2                               |     |        | icmp_ln271     | seteq     | auto      | 0       |
+|     icmp_ln271_1_fu_615_p2                             |     |        | icmp_ln271_1   | seteq     | auto      | 0       |
+|     and_ln271_fu_620_p2                                |     |        | and_ln271      | and       | auto      | 0       |
+|     icmp_ln282_fu_626_p2                               |     |        | icmp_ln282     | seteq     | auto      | 0       |
+|     xor_ln282_fu_631_p2                                |     |        | xor_ln282      | xor       | auto      | 0       |
+|     results_sign_1_fu_637_p2                           |     |        | results_sign_1 | and       | auto      | 0       |
+|     select_ln282_fu_1163_p3                            |     |        | select_ln282   | select    | auto_sel  | 0       |
+|     or_ln282_fu_1170_p2                                |     |        | or_ln282       | or        | auto      | 0       |
+|     results_exp_fu_1175_p3                             |     |        | results_exp    | select    | auto_sel  | 0       |
+|     select_ln282_2_fu_1183_p3                          |     |        | select_ln282_2 | select    | auto_sel  | 0       |
+|     results_sig_fu_1190_p3                             |     |        | results_sig    | select    | auto_sel  | 0       |
+|     results_sign_2_fu_643_p3                           |     |        | results_sign_2 | select    | auto_sel  | 0       |
+|     results_exp_1_fu_1198_p3                           |     |        | results_exp_1  | select    | auto_sel  | 0       |
+|     results_sig_1_fu_1205_p3                           |     |        | results_sig_1  | select    | auto_sel  | 0       |
+|   + sin_or_cos_float_s (grp_sin_or_cos_float_s_fu_163) | 13  |        |                |           |           |         |
+|     closepath_fu_310_p2                                |     |        | closepath      | setlt     | auto      | 0       |
+|     Ex_fu_650_p2                                       |     |        | Ex             | add       | fabric    | 0       |
+|     select_ln453_fu_655_p3                             |     |        | select_ln453   | select    | auto_sel  | 0       |
+|     add_ln376_fu_316_p2                                |     |        | add_ln376      | add       | fabric    | 0       |
+|     addr_fu_322_p3                                     |     |        | addr           | select    | auto_sel  | 0       |
+|     shl_ln379_fu_352_p2                                |     |        | shl_ln379      | shl       | auto_pipe | 0       |
+|     mul_80s_24ns_80_1_0_U3                             | 5   |        | h              | mul       | auto      | 0       |
+|     k_1_fu_400_p3                                      |     |        | k_1            | select    | auto_sel  | 0       |
+|     Mx_bits_1_fu_662_p2                                |     |        | Mx_bits_1      | sub       | fabric    | 0       |
+|     Mx_bits_2_fu_667_p3                                |     |        | Mx_bits_2      | select    | auto_sel  | 0       |
+|     tmp_1_fu_713_p3                                    |     |        | tmp_1          | cttz      | auto      | 0       |
+|     shl_ln504_fu_729_p2                                |     |        | shl_ln504      | shl       | auto_pipe | 0       |
+|     Ex_1_fu_749_p2                                     |     |        | Ex_1           | sub       | fabric    | 0       |
+|     sub_ln506_fu_763_p2                                |     |        | sub_ln506      | sub       | fabric    | 0       |
+|     select_ln506_fu_769_p3                             |     |        | select_ln506   | select    | auto_sel  | 0       |
+|     lshr_ln506_fu_785_p2                               |     |        | lshr_ln506     | lshr      | auto_pipe | 0       |
+|     shl_ln506_fu_791_p2                                |     |        | shl_ln506      | shl       | auto_pipe | 0       |
+|     select_ln506_1_fu_797_p3                           |     |        | select_ln506_1 | select    | auto_sel  | 0       |
+|     sparsemux_17_3_1_1_0_U4                            |     |        | cos_basis      | sparsemux | auto      | 0       |
+|     Mx_1_fu_849_p3                                     |     |        | Mx_1           | select    | auto_sel  | 0       |
+|     Ex_2_fu_951_p3                                     |     |        | Ex_2           | select    | auto_sel  | 0       |
+|     mul_15ns_15ns_30_1_0_U7                            | 1   |        | mul_ln23       | mul       | auto      | 0       |
+|     sin_basis_fu_829_p2                                |     |        | sin_basis      | xor       | auto      | 0       |
+|     mul_23s_22ns_45_1_0_U1                             | 2   |        | mul_ln29       | mul       | auto      | 0       |
+|     mul_15ns_15s_30_1_0_U8                             | 1   |        | mul_ln30       | mul       | auto      | 0       |
+|     mul_30s_29ns_58_1_0_U2                             | 4   |        | mul_ln32       | mul       | auto      | 0       |
+|     c_fu_1025_p3                                       |     |        | c              | cttz      | auto      | 0       |
+|     c_1_fu_1043_p3                                     |     |        | c_1            | cttz      | auto      | 0       |
+|     shl_ln291_fu_1055_p2                               |     |        | shl_ln291      | shl       | auto_pipe | 0       |
+|     icmp_ln292_fu_1065_p2                              |     |        | icmp_ln292     | seteq     | auto      | 0       |
+|     shift_1_fu_1071_p2                                 |     |        | shift_1        | add       | fabric    | 0       |
+|     shl_ln291_1_fu_1081_p2                             |     |        | shl_ln291_1    | shl       | auto_pipe | 0       |
+|     shift_2_fu_1087_p3                                 |     |        | shift_2        | select    | auto_sel  | 0       |
+|     add_ln300_fu_1095_p2                               |     |        | add_ln300      | add       | fabric    | 0       |
+|     newexp_fu_1105_p2                                  |     |        | newexp         | sub       | fabric    | 0       |
+|     icmp_ln306_fu_1119_p2                              |     |        | icmp_ln306     | seteq     | auto      | 0       |
+|     or_ln306_fu_1125_p2                                |     |        | or_ln306       | or        | auto      | 0       |
+|     empty_37_fu_1155_p3                                |     |        | empty_37       | select    | auto_sel  | 0       |
+|     sparsemux_33_4_1_1_0_U5                            |     |        | tmp_11         | sparsemux | auto      | 0       |
+|     sparsemux_33_4_1_1_0_U6                            |     |        | tmp_12         | sparsemux | auto      | 0       |
+|     results_sign_fu_602_p3                             |     |        | results_sign   | select    | auto_sel  | 0       |
+|     icmp_ln271_fu_610_p2                               |     |        | icmp_ln271     | seteq     | auto      | 0       |
+|     icmp_ln271_1_fu_615_p2                             |     |        | icmp_ln271_1   | seteq     | auto      | 0       |
+|     and_ln271_fu_620_p2                                |     |        | and_ln271      | and       | auto      | 0       |
+|     icmp_ln282_fu_626_p2                               |     |        | icmp_ln282     | seteq     | auto      | 0       |
+|     xor_ln282_fu_631_p2                                |     |        | xor_ln282      | xor       | auto      | 0       |
+|     results_sign_1_fu_637_p2                           |     |        | results_sign_1 | and       | auto      | 0       |
+|     select_ln282_fu_1163_p3                            |     |        | select_ln282   | select    | auto_sel  | 0       |
+|     or_ln282_fu_1170_p2                                |     |        | or_ln282       | or        | auto      | 0       |
+|     results_exp_fu_1175_p3                             |     |        | results_exp    | select    | auto_sel  | 0       |
+|     select_ln282_2_fu_1183_p3                          |     |        | select_ln282_2 | select    | auto_sel  | 0       |
+|     results_sig_fu_1190_p3                             |     |        | results_sig    | select    | auto_sel  | 0       |
+|     results_sign_2_fu_643_p3                           |     |        | results_sign_2 | select    | auto_sel  | 0       |
+|     results_exp_1_fu_1198_p3                           |     |        | results_exp_1  | select    | auto_sel  | 0       |
+|     results_sig_1_fu_1205_p3                           |     |        | results_sig_1  | select    | auto_sel  | 0       |
++--------------------------------------------------------+-----+--------+----------------+-----------+-----------+---------+
+
+
+================================================================
+== Storage Report
+================================================================
++--------------------------------------------------------+-----------+-----------+------+------+--------+-------------------------------+--------+---------+------------------+
+| Name                                                   | Usage     | Type      | BRAM | URAM | Pragma | Variable                      | Impl   | Latency | Bitwidth, Depth, |
+|                                                        |           |           |      |      |        |                               |        |         | Banks            |
++--------------------------------------------------------+-----------+-----------+------+------+--------+-------------------------------+--------+---------+------------------+
+| + calculateCoefficients                                |           |           | 4    | 0    |        |                               |        |         |                  |
+|   control_s_axi_U                                      | interface | s_axilite |      |      |        |                               |        |         |                  |
+|   gmem_m_axi_U                                         | interface | m_axi     | 4    |      |        |                               |        |         |                  |
+|  + calculateCoefficients_Pipeline_VITIS_LOOP_22_1      |           |           | 0    | 0    |        |                               |        |         |                  |
+|   + sin_or_cos_float_s (grp_sin_or_cos_float_s_fu_150) |           |           | 0    | 0    |        |                               |        |         |                  |
+|     ref_4oPi_table_100_U                               | rom_1p    |           |      |      | pragma | ref_4oPi_table_100            | lutram | 1       | 100, 13, 1       |
+|     second_order_float_sin_cos_K0_U                    | rom_1p    |           |      |      | pragma | second_order_float_sin_cos_K0 | lutram | 1       | 30, 256, 1       |
+|     second_order_float_sin_cos_K1_U                    | rom_1p    |           |      |      | pragma | second_order_float_sin_cos_K1 | lutram | 1       | 23, 256, 1       |
+|     second_order_float_sin_cos_K2_U                    | rom_1p    |           |      |      | pragma | second_order_float_sin_cos_K2 | lutram | 1       | 15, 256, 1       |
+|   + sin_or_cos_float_s (grp_sin_or_cos_float_s_fu_163) |           |           | 0    | 0    |        |                               |        |         |                  |
+|     ref_4oPi_table_100_U                               | rom_1p    |           |      |      | pragma | ref_4oPi_table_100            | lutram | 1       | 100, 13, 1       |
+|     second_order_float_sin_cos_K0_U                    | rom_1p    |           |      |      | pragma | second_order_float_sin_cos_K0 | lutram | 1       | 30, 256, 1       |
+|     second_order_float_sin_cos_K1_U                    | rom_1p    |           |      |      | pragma | second_order_float_sin_cos_K1 | lutram | 1       | 23, 256, 1       |
+|     second_order_float_sin_cos_K2_U                    | rom_1p    |           |      |      | pragma | second_order_float_sin_cos_K2 | lutram | 1       | 15, 256, 1       |
++--------------------------------------------------------+-----------+-----------+------+------+--------+-------------------------------+--------+---------+------------------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+---------------------------------------+------------------------------------------------------------+
+| Type      | Options                               | Location                                                   |
++-----------+---------------------------------------+------------------------------------------------------------+
+| interface | s_axilite port=return                 | Coefficients.cpp:9 in calculatecoefficients, return        |
+| interface | m_axi port=bram depth=25 offset=slave | Coefficients.cpp:10 in calculatecoefficients, bram         |
+| interface | s_axilite port=upperCutoff            | Coefficients.cpp:11 in calculatecoefficients, upperCutoff  |
+| interface | s_axilite port=lowerCutoff            | Coefficients.cpp:12 in calculatecoefficients, lowerCutoff  |
+| interface | s_axilite port=samplingRate           | Coefficients.cpp:13 in calculatecoefficients, samplingRate |
+| pipeline  |                                       | Coefficients.cpp:23 in calculatecoefficients               |
++-----------+---------------------------------------+------------------------------------------------------------+
+
+

@@ -1,0 +1,995 @@
+INFO-FLOW: Workspace C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls opened at Fri Mar 27 14:35:27 -0400 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(8)
+Execute     add_files C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(9)
+Execute     add_files C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 1.08 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 1.22 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 1.241 sec.
+Execute   apply_ini C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/config.cmdline 
+Execute   csynth_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.348 seconds; current allocated memory: 175.766 MB.
+Execute       set_directive_top calculateCoefficients -name=calculateCoefficients 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+INFO: [HLS 200-10] Analyzing design file 'Coefficients.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling Coefficients.cpp as C++
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang Coefficients.cpp -foptimization-record-file=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt -fhls -fno-exceptions -insert-hls-directive=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/all.directive.json -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.cpp.clang.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.cpp.clang.err.log
+INFO-FLOW: Done: GCC PP 39 time: 0.4 seconds per iteration
+INFO-FLOW: Source syntax check for synthesis
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/clang.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/clang.err.log
+Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/.systemc_flag -fix-errors C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 2.092 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/all.directive.json 
+INFO-FLOW: exec C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/all.directive.json -fix-errors C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 2.522 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 2.5 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.clang-tidy.loop-label.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.clang-tidy.loop-label.err.log
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Command       clang_tidy done; 4.553 sec.
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.xilinx-dataflow-lawyer.err.log
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+INFO-FLOW: compiling source code to llvm bc
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.bc {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.clang.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp.clang.err.log
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 16.792 seconds; current allocated memory: 183.418 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute       run_link_or_opt -out C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.0.bc -args  "C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.g.bc"  
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.g.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.0.bc > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.1.lower.bc -args C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.1.lower.bc > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+INFO-FLOW: Linking math bc lib
+Execute       run_link_or_opt -out C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.2.m1.bc -args C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsm_39.bc C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsm_39.bc C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsmc++_39.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.2.m1.bc > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+INFO-FLOW: 
+Command       run_link_or_opt done; 1.207 sec.
+Execute       run_link_or_opt -opt -out C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.3.fpc.bc -args C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=calculateCoefficients -reflow-float-conversion 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=calculateCoefficients -reflow-float-conversion -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.3.fpc.bc > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Command       run_link_or_opt done; 0.67 sec.
+Execute       run_link_or_opt -out C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.4.m2.bc -args C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libfloatconversion_39.bc 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libfloatconversion_39.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.4.m2.bc > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.5.gdce.bc -args C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=calculateCoefficients 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=calculateCoefficients -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.5.gdce.bc > C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
+INFO-FLOW: 
+INFO-FLOW: Running: gen_design_size_report post-opt
+INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
+Execute       send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute       is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+INFO-FLOW: run_clang (background poll_ms 5000) exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=calculateCoefficients -mllvm -hls-db-dir -mllvm C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -enable-fp-thr=0 -mllvm -reflow-bdd-simplify-threshold=1048576 -mllvm -reflow-fanout-threshold=16 -mllvm -reflow-complete-threshold=4 -mllvm -reflow-array-promotion-threshold=64 -mllvm -assume-maxi-align=1 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-small-array-partition=true -mllvm -reflow-enable-auto-array-partition-for-flatten=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=0 -mllvm -enable-reflow-auto-loop-pipeline -mllvm -reflow-max-unroll-threshold=409600 -mllvm -auto-unroll-tripcount-threshold=0 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -reflow-emit-hint-scope=true -mllvm -reflow-enable-codegen-with-if=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=10 -mllvm -use_read_first_ram_in_loop=1 -mllvm -default-clock-uncertainty=2.7 -x ir C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.5.gdce.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.lto.bc {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e 2> C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log bg_poll_cmd: ::AP::poll_clang_39_closed_source
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 21,748 Compile/Link C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 21,748 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,611 Unroll/Inline (step 1) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,611 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 863 Unroll/Inline (step 2) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 863 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 799 Unroll/Inline (step 3) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 799 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 497 Unroll/Inline (step 4) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 497 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 584 Array/Struct (step 1) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 584 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 476 Array/Struct (step 2) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 476 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 476 Array/Struct (step 3) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 476 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 476 Array/Struct (step 4) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 476 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 478 Array/Struct (step 5) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 478 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 477 Performance (step 1) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 477 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 477 Performance (step 2) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 477 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 477 Performance (step 3) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 477 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 477 Performance (step 4) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 477 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 486 HW Transforms (step 1) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 486 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 491 HW Transforms (step 2) C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 491 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+Command       send_msg_by_id done; 0.781 sec.
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:289:5)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:282:5)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:269:5)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:268:41)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:289:5) in function 'scaled_fixed2ieee<29, 1>' completely with a factor of 2 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:257:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:282:5) in function 'scaled_fixed2ieee<29, 1>' completely with a factor of 2 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:257:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:269:5) in function 'scaled_fixed2ieee<29, 1>' completely with a factor of 1 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:257:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:268:41) in function 'scaled_fixed2ieee<29, 1>' completely with a factor of 2 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:257:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' () in function 'scaled_fixed2ieee<29, 1>' completely with a factor of 1 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:257:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:437:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::expv() const' into 'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:437:0)
+INFO: [HLS 214-178] Inlining function 'ap_uint<(((2) * ((23) + (1))) + (29)) + (3)> table_lookup_4oPi_hotbm<23, 29>(int, float)' into 'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:437:0)
+INFO: [HLS 214-178] Inlining function 'unsigned int clz<29, 58, 0>(ap_ufixed<58, 0, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:437:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::data() const (.62.71.82.91)' into 'fp_struct<float>::to_float() const (.59.68.79.88)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:322:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_float() const (.59.68.79.88)' into 'fp_struct<float>::to_ieee() const' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:346:0)
+INFO: [HLS 214-178] Inlining function 'clz(int)' into 'void scaled_fixed2ieee<29, 1>(ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0>, float&, int)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:257:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::set_mantissa(ap_ufixed<24, 1, (ap_q_mode)5, (ap_o_mode)3, 0>)' into 'void scaled_fixed2ieee<29, 1>(ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0>, float&, int)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:257:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_ieee() const' into 'void scaled_fixed2ieee<29, 1>(ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0>, float&, int)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:257:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'float hotbm_::sin_or_cos<float>(float, bool, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:210:0)
+INFO: [HLS 214-178] Inlining function 'void range_redux_payne_hanek_hotbm<29, float, 29, 29>(float, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<float>::EXP_BITS>&)' into 'float hotbm_::sin_or_cos<float>(float, bool, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:210:0)
+INFO: [HLS 214-178] Inlining function 'ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0> hotbm_::value_list<float>::sin_or_cos_approximation<29, 29>(bool, ap_uint<3>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<29, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<8>&)' into 'float hotbm_::sin_or_cos<float>(float, bool, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:210:0)
+INFO: [HLS 214-178] Inlining function 'void scaled_fixed2ieee<29, 1>(ap_ufixed<29, 1, (ap_q_mode)5, (ap_o_mode)3, 0>, float&, int)' into 'float hotbm_::sin_or_cos<float>(float, bool, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:210:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::to_ieee() const' into 'float hotbm_::sin_or_cos<float>(float, bool, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:210:0)
+INFO: [HLS 214-178] Inlining function 'hotbm_::sin(float)' into 'hls::hotbm::sin(float)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:9:0)
+INFO: [HLS 214-178] Inlining function 'hls::hotbm::sin(float)' into 'hls::sinf(float)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp:41:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::mantissa() const' into 'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::expv() const' into 'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'fp_struct<float>::__signbit() const' into 'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
+INFO: [HLS 214-178] Inlining function 'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)' into 'long long generic_cast_IEEE754<long long, float>(float, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116:0)
+INFO: [HLS 214-178] Inlining function 'long long generic_cast_IEEE754<long long, float>(float, bool)' into '__hls_fptosi_float_i64' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:52:0)
+INFO: [HLS 214-178] Inlining function 'hls::sinf(float)' into 'calculateCoefficients(int, int, int, long long*)' (Coefficients.cpp:7:0)
+INFO: [HLS 214-178] Inlining function '__hls_fptosi_float_i64' into 'calculateCoefficients(int, int, int, long long*)' (Coefficients.cpp:7:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZN6hotbm_10value_listIfE24sin_or_cos_approximationILi29ELi29EEE9ap_ufixedIXT_ELi1EL9ap_q_mode5EL9ap_o_mode3ELi0EEbR7ap_uintILi3EERS3_IXT_ELi0ELS4_5ELS5_3ELi0EERS3_IXT0_ELi0ELS4_5ELS5_3ELi0EER6ap_intILi8EEE10swap_table': Complete partitioning on dimension 1. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:14:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZN6hotbm_10sin_or_cosIfEET_S1_bbE13neg_cos_table': Complete partitioning on dimension 1. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:217:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZN6hotbm_10sin_or_cosIfEET_S1_bbE13neg_sin_table': Complete partitioning on dimension 1. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:216:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZN6hotbm_10sin_or_cosIfEET_S1_bbE10swap_table': Complete partitioning on dimension 1. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:215:0)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:242:45)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:25:67)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:267:8)
+INFO: [HLS 214-115] Multiple burst writes of length 25 and bit width 64 in loop 'VITIS_LOOP_22_1'(Coefficients.cpp:22:22) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (Coefficients.cpp:22:22)
+INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/kernel.internal.xml
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 12.439 seconds; current allocated memory: 184.852 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 184.852 MB.
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top calculateCoefficients -deadargelim -mem2reg -instcombine -dce -presyn-prepare -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -promote-dbg-pointer -norm-name C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.0.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.098 seconds; current allocated memory: 193.098 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.1.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.2.prechk.bc -f 
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.2.prechk.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 200.957 MB.
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.g.1.bc to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -lcssa -loop-simplify -phi-select-elim -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -canonicalize-dataflow -dce -globaldce -scalar-preprocessing -scalar-propagation2 -scalar-stream -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -clean-array-spec -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.1.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.1.tmp.bc -f 
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.1.tmp.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:288:31) to (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:287:5) in function 'hotbm_::sin_or_cos<float>'... converting 12 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 226.180 MB.
+Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -inst-simplify -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -inst-simplify -inst-rectify -instcombine -adce -deadargelim -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -mul2addshift -deadargelim -inst-simplify -dce -mem2reg -instcombine -gvn -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -inst-clarity -bitwidth -dce -validate-dataflow -dump-loop-dep-to-ir -check-all-ssdm -dump-complexity-metric C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.2.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Execute           auto_get_db
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -cdfg-build C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.3.bc -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.119 seconds; current allocated memory: 241.020 MB.
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 2.195 sec.
+Command     elaborate done; 31.452 sec.
+Execute     ap_eval exec zip -j C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'calculateCoefficients' ...
+Execute       ap_set_top_model calculateCoefficients 
+WARNING: [SYN 201-103] Legalizing function name 'sin_or_cos<float>' to 'sin_or_cos_float_s'.
+Execute       get_model_list calculateCoefficients -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model calculateCoefficients 
+Execute       preproc_iomode -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       preproc_iomode -model sin_or_cos<float> 
+Execute       create_clock 
+Execute         ap_set_clock -name default -period 10 -unit ns -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute       get_model_list calculateCoefficients -filter all-wo-channel 
+INFO-FLOW: Model list for configure: sin_or_cos<float> calculateCoefficients_Pipeline_VITIS_LOOP_22_1 calculateCoefficients
+INFO-FLOW: Configuring Module : sin_or_cos<float> ...
+Execute       set_default_model sin_or_cos<float> 
+Execute       apply_spec_resource_limit sin_or_cos<float> 
+INFO-FLOW: Configuring Module : calculateCoefficients_Pipeline_VITIS_LOOP_22_1 ...
+Execute       set_default_model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       apply_spec_resource_limit calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+INFO-FLOW: Configuring Module : calculateCoefficients ...
+Execute       set_default_model calculateCoefficients 
+Execute       apply_spec_resource_limit calculateCoefficients 
+INFO-FLOW: Model list for preprocess: sin_or_cos<float> calculateCoefficients_Pipeline_VITIS_LOOP_22_1 calculateCoefficients
+INFO-FLOW: Preprocessing Module: sin_or_cos<float> ...
+Execute       set_default_model sin_or_cos<float> 
+Execute       cdfg_preprocess -model sin_or_cos<float> 
+Execute       rtl_gen_preprocess sin_or_cos<float> 
+INFO-FLOW: Preprocessing Module: calculateCoefficients_Pipeline_VITIS_LOOP_22_1 ...
+Execute       set_default_model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       cdfg_preprocess -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       rtl_gen_preprocess calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+INFO-FLOW: Preprocessing Module: calculateCoefficients ...
+Execute       set_default_model calculateCoefficients 
+Execute       cdfg_preprocess -model calculateCoefficients 
+Execute       rtl_gen_preprocess calculateCoefficients 
+INFO-FLOW: Model list for synthesis: sin_or_cos<float> calculateCoefficients_Pipeline_VITIS_LOOP_22_1 calculateCoefficients
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sin_or_cos_float_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model sin_or_cos<float> 
+Execute       schedule -model sin_or_cos<float> 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'sin_or_cos<float>'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 6, function 'sin_or_cos<float>'
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.157 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.427 seconds; current allocated memory: 244.930 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.verbose.sched.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.sched.adb -f 
+INFO-FLOW: Finish scheduling sin_or_cos<float>.
+Execute       set_default_model sin_or_cos<float> 
+Execute       bind -model sin_or_cos<float> 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.128 seconds; current allocated memory: 246.145 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.verbose.bind.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.bind.adb -f 
+INFO-FLOW: Finish binding sin_or_cos<float>.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       schedule -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_22_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 33, loop 'VITIS_LOOP_22_1'
+INFO: [SCHED 204-11] Finished scheduling.
+Command       schedule done; 0.123 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.211 seconds; current allocated memory: 246.484 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.verbose.sched.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.sched.adb -f 
+INFO-FLOW: Finish scheduling calculateCoefficients_Pipeline_VITIS_LOOP_22_1.
+Execute       set_default_model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       bind -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.109 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.129 seconds; current allocated memory: 246.699 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.verbose.bind.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.bind.adb -f 
+INFO-FLOW: Finish binding calculateCoefficients_Pipeline_VITIS_LOOP_22_1.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'calculateCoefficients' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model calculateCoefficients 
+Execute       schedule -model calculateCoefficients 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.138 seconds; current allocated memory: 247.047 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.verbose.sched.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.sched.adb -f 
+INFO-FLOW: Finish scheduling calculateCoefficients.
+Execute       set_default_model calculateCoefficients 
+Execute       bind -model calculateCoefficients 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+Command       bind done; 0.536 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.555 seconds; current allocated memory: 247.254 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.verbose.bind.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.bind.adb -f 
+INFO-FLOW: Finish binding calculateCoefficients.
+Execute       get_model_list calculateCoefficients -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess sin_or_cos<float> 
+Execute       rtl_gen_preprocess calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       rtl_gen_preprocess calculateCoefficients 
+INFO-FLOW: Model list for RTL generation: sin_or_cos<float> calculateCoefficients_Pipeline_VITIS_LOOP_22_1 calculateCoefficients
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sin_or_cos_float_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model sin_or_cos<float> -top_prefix calculateCoefficients_ -sub_prefix calculateCoefficients_ -mg_file C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.compgen.tcl 
+INFO: [RTGEN 206-100] Generating core module 'mul_15ns_15ns_30_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_15ns_15s_30_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_23s_22ns_45_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_30s_29ns_58_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_80s_24ns_80_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_17_3_1_1_0': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_1_1_0': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sin_or_cos_float_s'.
+INFO: [RTMG 210-279] Implementing memory 'calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R' using distributed ROMs.
+Command       create_rtl_model done; 0.304 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.387 seconds; current allocated memory: 250.699 MB.
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.rtl_wrap.cfg.tcl 
+Execute       gen_rtl sin_or_cos<float> -style xilinx -f -lang vhdl -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/vhdl/calculateCoefficients_sin_or_cos_float_s 
+Execute       gen_rtl sin_or_cos<float> -style xilinx -f -lang vlog -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/verilog/calculateCoefficients_sin_or_cos_float_s 
+Execute       syn_report -csynth -model sin_or_cos<float> -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/sin_or_cos_float_s_csynth.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -rtlxml -model sin_or_cos<float> -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/sin_or_cos_float_s_csynth.xml 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -verbosereport -model sin_or_cos<float> -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.verbose.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -model sin_or_cos<float> -f -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.adb 
+Execute       db_write -model sin_or_cos<float> -bindview -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info sin_or_cos<float> -p C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -top_prefix calculateCoefficients_ -sub_prefix calculateCoefficients_ -mg_file C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.compgen.tcl 
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1' pipeline 'VITIS_LOOP_22_1' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWVALID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWADDR' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWID' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWLEN' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWSIZE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWBURST' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWLOCK' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWCACHE' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWPROT' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWQOS' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWREGION' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_AWUSER' to 0.
+WARNING: [RTGEN 206-101] Setting dangling out port 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1/m_axi_gmem_BREADY' to 0.
+INFO: [RTGEN 206-100] Generating core module 'fdiv_32ns_32ns_32_9_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_3_max_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fsub_32ns_32ns_32_4_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitofp_32s_32_4_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'calculateCoefficients_Pipeline_VITIS_LOOP_22_1'.
+Command       create_rtl_model done; 1.352 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.622 seconds; current allocated memory: 255.723 MB.
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.rtl_wrap.cfg.tcl 
+Execute       gen_rtl calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -style xilinx -f -lang vhdl -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/vhdl/calculateCoefficients_calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       gen_rtl calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -style xilinx -f -lang vlog -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/verilog/calculateCoefficients_calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+Execute       syn_report -csynth -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/calculateCoefficients_Pipeline_VITIS_LOOP_22_1_csynth.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -rtlxml -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/calculateCoefficients_Pipeline_VITIS_LOOP_22_1_csynth.xml 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -verbosereport -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.verbose.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -f -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.adb 
+Execute       db_write -model calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -bindview -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info calculateCoefficients_Pipeline_VITIS_LOOP_22_1 -p C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'calculateCoefficients' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model calculateCoefficients -top_prefix  -sub_prefix calculateCoefficients_ -mg_file C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.tcl 
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/lowerCutoff' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/upperCutoff' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/samplingRate' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'calculateCoefficients/bram' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'calculateCoefficients' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'lowerCutoff', 'upperCutoff', 'samplingRate', 'bram' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Generating core module 'fdiv_32ns_32ns_32_9_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_3_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fsub_32ns_32ns_32_4_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sitofp_32ns_32_4_no_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'calculateCoefficients'.
+Command       create_rtl_model done; 0.356 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.555 seconds; current allocated memory: 259.016 MB.
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.rtl_wrap.cfg.tcl 
+Execute       gen_rtl calculateCoefficients -istop -style xilinx -f -lang vhdl -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/vhdl/calculateCoefficients 
+Execute       gen_rtl calculateCoefficients -istop -style xilinx -f -lang vlog -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/verilog/calculateCoefficients 
+Execute       syn_report -csynth -model calculateCoefficients -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/calculateCoefficients_csynth.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -rtlxml -model calculateCoefficients -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/calculateCoefficients_csynth.xml 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -verbosereport -model calculateCoefficients -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.verbose.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -model calculateCoefficients -f -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.adb 
+Execute       db_write -model calculateCoefficients -bindview -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info calculateCoefficients -p C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients 
+Execute       export_constraint_db -f -tool general -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.constraint.tcl 
+Execute       syn_report -designview -model calculateCoefficients -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.design.xml 
+Execute       syn_report -csynthDesign -model calculateCoefficients -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth.rpt -MHOut C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/kernel_module_hierarchy.tcl 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -wcfg -model calculateCoefficients -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_dataflow_ana.wcfg 
+Execute       syn_report -protoinst -model calculateCoefficients -o C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.protoinst 
+Execute       sc_get_clocks calculateCoefficients 
+Execute       sc_get_portdomain calculateCoefficients 
+INFO-FLOW: Model list for RTL component generation: sin_or_cos<float> calculateCoefficients_Pipeline_VITIS_LOOP_22_1 calculateCoefficients
+INFO-FLOW: Handling components in module [sin_or_cos_float_s] ... 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.compgen.tcl 
+INFO-FLOW: Found component calculateCoefficients_mul_23s_22ns_45_1_0.
+INFO-FLOW: Append model calculateCoefficients_mul_23s_22ns_45_1_0
+INFO-FLOW: Found component calculateCoefficients_mul_30s_29ns_58_1_0.
+INFO-FLOW: Append model calculateCoefficients_mul_30s_29ns_58_1_0
+INFO-FLOW: Found component calculateCoefficients_mul_80s_24ns_80_1_0.
+INFO-FLOW: Append model calculateCoefficients_mul_80s_24ns_80_1_0
+INFO-FLOW: Found component calculateCoefficients_sparsemux_17_3_1_1_0.
+INFO-FLOW: Append model calculateCoefficients_sparsemux_17_3_1_1_0
+INFO-FLOW: Found component calculateCoefficients_sparsemux_33_4_1_1_0.
+INFO-FLOW: Append model calculateCoefficients_sparsemux_33_4_1_1_0
+INFO-FLOW: Found component calculateCoefficients_sparsemux_33_4_1_1_0.
+INFO-FLOW: Append model calculateCoefficients_sparsemux_33_4_1_1_0
+INFO-FLOW: Found component calculateCoefficients_mul_15ns_15ns_30_1_0.
+INFO-FLOW: Append model calculateCoefficients_mul_15ns_15ns_30_1_0
+INFO-FLOW: Found component calculateCoefficients_mul_15ns_15s_30_1_0.
+INFO-FLOW: Append model calculateCoefficients_mul_15ns_15s_30_1_0
+INFO-FLOW: Found component calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R.
+INFO-FLOW: Append model calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R
+INFO-FLOW: Found component calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R.
+INFO-FLOW: Append model calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R
+INFO-FLOW: Found component calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R.
+INFO-FLOW: Append model calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R
+INFO-FLOW: Found component calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R.
+INFO-FLOW: Append model calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R
+INFO-FLOW: Handling components in module [calculateCoefficients_Pipeline_VITIS_LOOP_22_1] ... 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.compgen.tcl 
+INFO-FLOW: Found component calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1.
+INFO-FLOW: Append model calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+INFO-FLOW: Found component calculateCoefficients_sitofp_32s_32_4_no_dsp_1.
+INFO-FLOW: Append model calculateCoefficients_sitofp_32s_32_4_no_dsp_1
+INFO-FLOW: Found component calculateCoefficients_flow_control_loop_pipe_sequential_init.
+INFO-FLOW: Append model calculateCoefficients_flow_control_loop_pipe_sequential_init
+INFO-FLOW: Handling components in module [calculateCoefficients] ... 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.tcl 
+INFO-FLOW: Found component calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1.
+INFO-FLOW: Append model calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1
+INFO-FLOW: Found component calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1.
+INFO-FLOW: Append model calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+INFO-FLOW: Found component calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1.
+INFO-FLOW: Append model calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+INFO-FLOW: Found component calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1.
+INFO-FLOW: Append model calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1
+INFO-FLOW: Found component calculateCoefficients_sitofp_32ns_32_4_no_dsp_1.
+INFO-FLOW: Append model calculateCoefficients_sitofp_32ns_32_4_no_dsp_1
+INFO-FLOW: Found component calculateCoefficients_gmem_m_axi.
+INFO-FLOW: Append model calculateCoefficients_gmem_m_axi
+INFO-FLOW: Found component calculateCoefficients_control_s_axi.
+INFO-FLOW: Append model calculateCoefficients_control_s_axi
+INFO-FLOW: Append model sin_or_cos_float_s
+INFO-FLOW: Append model calculateCoefficients_Pipeline_VITIS_LOOP_22_1
+INFO-FLOW: Append model calculateCoefficients
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: calculateCoefficients_mul_23s_22ns_45_1_0 calculateCoefficients_mul_30s_29ns_58_1_0 calculateCoefficients_mul_80s_24ns_80_1_0 calculateCoefficients_sparsemux_17_3_1_1_0 calculateCoefficients_sparsemux_33_4_1_1_0 calculateCoefficients_sparsemux_33_4_1_1_0 calculateCoefficients_mul_15ns_15ns_30_1_0 calculateCoefficients_mul_15ns_15s_30_1_0 calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1 calculateCoefficients_sitofp_32s_32_4_no_dsp_1 calculateCoefficients_flow_control_loop_pipe_sequential_init calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1 calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1 calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1 calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1 calculateCoefficients_sitofp_32ns_32_4_no_dsp_1 calculateCoefficients_gmem_m_axi calculateCoefficients_control_s_axi sin_or_cos_float_s calculateCoefficients_Pipeline_VITIS_LOOP_22_1 calculateCoefficients
+INFO-FLOW: Generating C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/autopilot.rtl.models.txt file...
+INFO-FLOW: To file: write model calculateCoefficients_mul_23s_22ns_45_1_0
+INFO-FLOW: To file: write model calculateCoefficients_mul_30s_29ns_58_1_0
+INFO-FLOW: To file: write model calculateCoefficients_mul_80s_24ns_80_1_0
+INFO-FLOW: To file: write model calculateCoefficients_sparsemux_17_3_1_1_0
+INFO-FLOW: To file: write model calculateCoefficients_sparsemux_33_4_1_1_0
+INFO-FLOW: To file: write model calculateCoefficients_sparsemux_33_4_1_1_0
+INFO-FLOW: To file: write model calculateCoefficients_mul_15ns_15ns_30_1_0
+INFO-FLOW: To file: write model calculateCoefficients_mul_15ns_15s_30_1_0
+INFO-FLOW: To file: write model calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R
+INFO-FLOW: To file: write model calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R
+INFO-FLOW: To file: write model calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R
+INFO-FLOW: To file: write model calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R
+INFO-FLOW: To file: write model calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+INFO-FLOW: To file: write model calculateCoefficients_sitofp_32s_32_4_no_dsp_1
+INFO-FLOW: To file: write model calculateCoefficients_flow_control_loop_pipe_sequential_init
+INFO-FLOW: To file: write model calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1
+INFO-FLOW: To file: write model calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+INFO-FLOW: To file: write model calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+INFO-FLOW: To file: write model calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1
+INFO-FLOW: To file: write model calculateCoefficients_sitofp_32ns_32_4_no_dsp_1
+INFO-FLOW: To file: write model calculateCoefficients_gmem_m_axi
+INFO-FLOW: To file: write model calculateCoefficients_control_s_axi
+INFO-FLOW: To file: write model sin_or_cos_float_s
+INFO-FLOW: To file: write model calculateCoefficients_Pipeline_VITIS_LOOP_22_1
+INFO-FLOW: To file: write model calculateCoefficients
+INFO-FLOW: Generating C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/autopilot.rtl.models.tcl file...
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate_csynth_design
+INFO-FLOW: DBG:PUTS: read_platform_lib C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/common.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/interface.gen 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/vhdl' dstVlogDir='C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/vlog' tclDir='C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db' modelList='calculateCoefficients_mul_23s_22ns_45_1_0
+calculateCoefficients_mul_30s_29ns_58_1_0
+calculateCoefficients_mul_80s_24ns_80_1_0
+calculateCoefficients_sparsemux_17_3_1_1_0
+calculateCoefficients_sparsemux_33_4_1_1_0
+calculateCoefficients_sparsemux_33_4_1_1_0
+calculateCoefficients_mul_15ns_15ns_30_1_0
+calculateCoefficients_mul_15ns_15s_30_1_0
+calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_sitofp_32s_32_4_no_dsp_1
+calculateCoefficients_flow_control_loop_pipe_sequential_init
+calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1
+calculateCoefficients_sitofp_32ns_32_4_no_dsp_1
+calculateCoefficients_gmem_m_axi
+calculateCoefficients_control_s_axi
+sin_or_cos_float_s
+calculateCoefficients_Pipeline_VITIS_LOOP_22_1
+calculateCoefficients
+' expOnly='0'
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.compgen.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.compgen.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.tcl 
+Execute         source ./control.slave.tcl 
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.897 seconds; current allocated memory: 262.160 MB.
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='calculateCoefficients_' outfile=''
+INFO-FLOW: Running: create_csynth_xml read xml data
+INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml bind info
+INFO-FLOW: Done: create_csynth_xml bind info time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml config info
+INFO-FLOW: Done: create_csynth_xml config info time: 0.2 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml write xml
+INFO-FLOW: Done: create_csynth_xml write xml time: 0 seconds per iteration
+INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth.xml
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='0' modelList='calculateCoefficients_mul_23s_22ns_45_1_0
+calculateCoefficients_mul_30s_29ns_58_1_0
+calculateCoefficients_mul_80s_24ns_80_1_0
+calculateCoefficients_sparsemux_17_3_1_1_0
+calculateCoefficients_sparsemux_33_4_1_1_0
+calculateCoefficients_sparsemux_33_4_1_1_0
+calculateCoefficients_mul_15ns_15ns_30_1_0
+calculateCoefficients_mul_15ns_15s_30_1_0
+calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_sitofp_32s_32_4_no_dsp_1
+calculateCoefficients_flow_control_loop_pipe_sequential_init
+calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1
+calculateCoefficients_sitofp_32ns_32_4_no_dsp_1
+calculateCoefficients_gmem_m_axi
+calculateCoefficients_control_s_axi
+sin_or_cos_float_s
+calculateCoefficients_Pipeline_VITIS_LOOP_22_1
+calculateCoefficients
+' rtl_lang='both' bootstrap_tcl='false' outdir='' outfilename=''
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/top-io-be.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.dataonly.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.dataonly.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.rtl_wrap.cfg.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.dataonly.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.tbgen.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.tbgen.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.constraint.tcl 
+Execute       sc_get_clocks calculateCoefficients 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip.tcl 
+Execute       source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip.tcl 
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {{BINDTYPE adapter ID {} IMPL {} LATENCY {} OPTYPE {} PRAGMA {} RTLNAME control_s_axi_U SOURCE {} VARIABLE {} LOOP {} BUNDLEDNAME control DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE s_axilite STORAGESIZE {} STORAGEUSAGE interface DISPNAME {bind_adapter }} {BINDTYPE adapter ID {} IMPL {} LATENCY {} OPTYPE {} PRAGMA {} RTLNAME gmem_m_axi_U SOURCE {} VARIABLE {} LOOP {} BUNDLEDNAME gmem DSP 0 BRAM 4 URAM 0 STORAGESUBTYPE m_axi STORAGESIZE {} STORAGEUSAGE interface DISPNAME {bind_adapter }}} cache_nodes {} report_dict {TOPINST calculateCoefficients MODULE2INSTS {calculateCoefficients calculateCoefficients calculateCoefficients_Pipeline_VITIS_LOOP_22_1 grp_calculateCoefficients_Pipeline_VITIS_LOOP_22_1_fu_114 sin_or_cos_float_s {grp_sin_or_cos_float_s_fu_150 grp_sin_or_cos_float_s_fu_163}} INST2MODULE {calculateCoefficients calculateCoefficients grp_calculateCoefficients_Pipeline_VITIS_LOOP_22_1_fu_114 calculateCoefficients_Pipeline_VITIS_LOOP_22_1 grp_sin_or_cos_float_s_fu_150 sin_or_cos_float_s grp_sin_or_cos_float_s_fu_163 sin_or_cos_float_s} INSTDATA {calculateCoefficients {DEPTH 1 CHILDREN grp_calculateCoefficients_Pipeline_VITIS_LOOP_22_1_fu_114} grp_calculateCoefficients_Pipeline_VITIS_LOOP_22_1_fu_114 {DEPTH 2 CHILDREN {grp_sin_or_cos_float_s_fu_150 grp_sin_or_cos_float_s_fu_163}} grp_sin_or_cos_float_s_fu_150 {DEPTH 3 CHILDREN {}} grp_sin_or_cos_float_s_fu_163 {DEPTH 3 CHILDREN {}}} MODULEDATA {sin_or_cos_float_s {BINDINFO {{BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE setlt PRAGMA {} RTLNAME closepath_fu_310_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:451} VARIABLE closepath LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op setlt} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME Ex_fu_650_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:454} VARIABLE Ex LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln453_fu_655_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:453} VARIABLE select_ln453 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln376_fu_316_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:376} VARIABLE add_ln376 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME addr_fu_322_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:376} VARIABLE addr LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE shl PRAGMA {} RTLNAME shl_ln379_fu_352_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:379} VARIABLE shl_ln379 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op shl} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_80s_24ns_80_1_0_U3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:468} VARIABLE h LOOP {} BUNDLEDNAME {} DSP 5 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME k_1_fu_400_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:451} VARIABLE k_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME Mx_bits_1_fu_662_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:492} VARIABLE Mx_bits_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME Mx_bits_2_fu_667_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:491} VARIABLE Mx_bits_2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE cttz PRAGMA {} RTLNAME tmp_1_fu_713_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_normalize.h:75} VARIABLE tmp_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op cttz} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE shl PRAGMA {} RTLNAME shl_ln504_fu_729_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:504} VARIABLE shl_ln504 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op shl} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME Ex_1_fu_749_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:505} VARIABLE Ex_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln506_fu_763_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:506} VARIABLE sub_ln506 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln506_fu_769_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:506} VARIABLE select_ln506 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE lshr PRAGMA {} RTLNAME lshr_ln506_fu_785_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:506} VARIABLE lshr_ln506 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op lshr} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE shl PRAGMA {} RTLNAME shl_ln506_fu_791_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:506} VARIABLE shl_ln506 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op shl} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln506_1_fu_797_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:506} VARIABLE select_ln506_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE sparsemux PRAGMA {} RTLNAME sparsemux_17_3_1_1_0_U4 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:242} VARIABLE cos_basis LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sparsemux} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME Mx_1_fu_849_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:243} VARIABLE Mx_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME Ex_2_fu_951_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:243} VARIABLE Ex_2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_15ns_15ns_30_1_0_U7 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:23} VARIABLE mul_ln23 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME sin_basis_fu_829_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:25} VARIABLE sin_basis LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_23s_22ns_45_1_0_U1 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:29} VARIABLE mul_ln29 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_15ns_15s_30_1_0_U8 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:30} VARIABLE mul_ln30 LOOP {} BUNDLEDNAME {} DSP 1 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_30s_29ns_58_1_0_U2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp:32} VARIABLE mul_ln32 LOOP {} BUNDLEDNAME {} DSP 4 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE cttz PRAGMA {} RTLNAME c_fu_1025_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_normalize.h:81} VARIABLE c LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op cttz} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE cttz PRAGMA {} RTLNAME c_1_fu_1043_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_normalize.h:81} VARIABLE c_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op cttz} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE shl PRAGMA {} RTLNAME shl_ln291_fu_1055_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:291} VARIABLE shl_ln291 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op shl} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln292_fu_1065_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:292} VARIABLE icmp_ln292 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME shift_1_fu_1071_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:290} VARIABLE shift_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE shl PRAGMA {} RTLNAME shl_ln291_1_fu_1081_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:291} VARIABLE shl_ln291_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op shl} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME shift_2_fu_1087_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:292} VARIABLE shift_2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln300_fu_1095_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:300} VARIABLE add_ln300 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME newexp_fu_1105_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:300} VARIABLE newexp LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln306_fu_1119_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:306} VARIABLE icmp_ln306 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE or PRAGMA {} RTLNAME or_ln306_fu_1125_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:306} VARIABLE or_ln306 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op or} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME empty_37_fu_1155_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:292} VARIABLE empty_37 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE sparsemux PRAGMA {} RTLNAME sparsemux_33_4_1_1_0_U5 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:267} VARIABLE tmp_11 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sparsemux} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE sparsemux PRAGMA {} RTLNAME sparsemux_33_4_1_1_0_U6 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:267} VARIABLE tmp_12 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sparsemux} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME results_sign_fu_602_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:242} VARIABLE results_sign LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln271_fu_610_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:271} VARIABLE icmp_ln271 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln271_1_fu_615_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:271} VARIABLE icmp_ln271_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE and PRAGMA {} RTLNAME and_ln271_fu_620_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:271} VARIABLE and_ln271 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op and} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln282_fu_626_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282} VARIABLE icmp_ln282 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE xor PRAGMA {} RTLNAME xor_ln282_fu_631_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282} VARIABLE xor_ln282 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op xor} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE and PRAGMA {} RTLNAME results_sign_1_fu_637_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282} VARIABLE results_sign_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op and} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln282_fu_1163_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282} VARIABLE select_ln282 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE or PRAGMA {} RTLNAME or_ln282_fu_1170_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282} VARIABLE or_ln282 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op or} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME results_exp_fu_1175_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282} VARIABLE results_exp LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln282_2_fu_1183_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282} VARIABLE select_ln282_2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME results_sig_fu_1190_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:282} VARIABLE results_sig LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME results_sign_2_fu_643_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:271} VARIABLE results_sign_2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME results_exp_1_fu_1198_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:271} VARIABLE results_exp_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME results_sig_1_fu_1205_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:271} VARIABLE results_sig_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE storage ID {} IMPL lutram LATENCY 1 OPTYPE rom_1p PRAGMA pragma RTLNAME ref_4oPi_table_100_U SOURCE {} VARIABLE ref_4oPi_table_100 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} STORAGESIZE {100 13 1} STORAGEUSAGE rom_1p DISPNAME {bind_storage rom_1p} VISIBLE true} {BINDTYPE storage ID {} IMPL lutram LATENCY 1 OPTYPE rom_1p PRAGMA pragma RTLNAME second_order_float_sin_cos_K0_U SOURCE {} VARIABLE second_order_float_sin_cos_K0 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} STORAGESIZE {30 256 1} STORAGEUSAGE rom_1p DISPNAME {bind_storage rom_1p} VISIBLE true} {BINDTYPE storage ID {} IMPL lutram LATENCY 1 OPTYPE rom_1p PRAGMA pragma RTLNAME second_order_float_sin_cos_K1_U SOURCE {} VARIABLE second_order_float_sin_cos_K1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} STORAGESIZE {23 256 1} STORAGEUSAGE rom_1p DISPNAME {bind_storage rom_1p} VISIBLE true} {BINDTYPE storage ID {} IMPL lutram LATENCY 1 OPTYPE rom_1p PRAGMA pragma RTLNAME second_order_float_sin_cos_K2_U SOURCE {} VARIABLE second_order_float_sin_cos_K2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} STORAGESIZE {15 256 1} STORAGEUSAGE rom_1p DISPNAME {bind_storage rom_1p} VISIBLE true}} AREA {DSP 13 BRAM 0 URAM 0}} calculateCoefficients_Pipeline_VITIS_LOOP_22_1 {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln28_fu_218_p2 SOURCE Coefficients.cpp:28 VARIABLE add_ln28 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln28_fu_224_p2 SOURCE Coefficients.cpp:28 VARIABLE icmp_ln28 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME i_fu_230_p2 SOURCE Coefficients.cpp:22 VARIABLE i LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 3 OPTYPE sitofp PRAGMA {} RTLNAME sitofp_32s_32_4_no_dsp_1_U28 SOURCE Coefficients.cpp:31 VARIABLE conv9 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sitofp} VISIBLE false} {BINDTYPE op ID {} IMPL maxdsp LATENCY 2 OPTYPE fmul PRAGMA {} RTLNAME fmul_32ns_32ns_32_3_max_dsp_1_U25 SOURCE Coefficients.cpp:31 VARIABLE mul4 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 3 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fmul} VISIBLE true} {BINDTYPE op ID {} IMPL maxdsp LATENCY 2 OPTYPE fmul PRAGMA {} RTLNAME fmul_32ns_32ns_32_3_max_dsp_1_U26 SOURCE Coefficients.cpp:35 VARIABLE dc LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 3 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fmul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln317_fu_295_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:317} VARIABLE add_ln317 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln18_fu_309_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE sub_ln18 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln18_fu_319_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE select_ln18 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE lshr PRAGMA {} RTLNAME lshr_ln18_fu_335_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE lshr_ln18 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op lshr} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE shl PRAGMA {} RTLNAME shl_ln18_fu_341_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE shl_ln18 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op shl} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME val_3_fu_367_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE val_3 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME result_1_fu_375_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59} VARIABLE result_1 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME result_2_fu_381_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59} VARIABLE result_2 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln22_fu_241_p2 SOURCE Coefficients.cpp:22 VARIABLE icmp_ln22 LOOP VITIS_LOOP_22_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false}} AREA {DSP 32 BRAM 0 URAM 0}} calculateCoefficients {BINDINFO {{BINDTYPE op ID {} IMPL auto LATENCY 3 OPTYPE sitofp PRAGMA {} RTLNAME sitofp_32ns_32_4_no_dsp_1_U41 SOURCE Coefficients.cpp:19 VARIABLE conv LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sitofp} VISIBLE false} {BINDTYPE op ID {} IMPL maxdsp LATENCY 2 OPTYPE fmul PRAGMA {} RTLNAME fmul_32ns_32ns_32_3_max_dsp_1_U37 SOURCE Coefficients.cpp:19 VARIABLE mul LOOP {} BUNDLEDNAME {} DSP 3 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fmul} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 3 OPTYPE sitofp PRAGMA {} RTLNAME sitofp_32ns_32_4_no_dsp_1_U41 SOURCE Coefficients.cpp:19 VARIABLE conv1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sitofp} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 8 OPTYPE fdiv PRAGMA {} RTLNAME fdiv_32ns_32ns_32_9_no_dsp_1_U39 SOURCE Coefficients.cpp:19 VARIABLE omegaLower LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fdiv} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 3 OPTYPE sitofp PRAGMA {} RTLNAME sitofp_32ns_32_4_no_dsp_1_U42 SOURCE Coefficients.cpp:20 VARIABLE conv2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sitofp} VISIBLE false} {BINDTYPE op ID {} IMPL maxdsp LATENCY 2 OPTYPE fmul PRAGMA {} RTLNAME fmul_32ns_32ns_32_3_max_dsp_1_U38 SOURCE Coefficients.cpp:20 VARIABLE mul3 LOOP {} BUNDLEDNAME {} DSP 3 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fmul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 8 OPTYPE fdiv PRAGMA {} RTLNAME fdiv_32ns_32ns_32_9_no_dsp_1_U40 SOURCE Coefficients.cpp:20 VARIABLE omegaUpper LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fdiv} VISIBLE true} {BINDTYPE op ID {} IMPL fulldsp LATENCY 3 OPTYPE fsub PRAGMA {} RTLNAME fsub_32ns_32ns_32_4_full_dsp_1_U36 SOURCE Coefficients.cpp:20 VARIABLE sub7 LOOP {} BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fsub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 8 OPTYPE fdiv PRAGMA {} RTLNAME fdiv_32ns_32ns_32_9_no_dsp_1_U39 SOURCE Coefficients.cpp:20 VARIABLE div8 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fdiv} VISIBLE true}} AREA {DSP 40 BRAM 4 URAM 0}}}}'
+INFO-FLOW: DBG:PUTS:      update_csynth_reports json2rpt_hw_sw_interfaces
+Execute       send_msg_by_id INFO @200-1603@%s  and missed bursts 
+INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
+INFO-FLOW: Running: gen_csynth_sec_pragma
+INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.1 seconds per iteration
+INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
+INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.487 seconds; current allocated memory: 268.926 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for calculateCoefficients.
+INFO: [VLOG 209-307] Generating Verilog RTL for calculateCoefficients.
+Execute       syn_report -model calculateCoefficients -printsummary 
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 136.99 MHz
+Command     autosyn done; 6.715 sec.
+Command   csynth_design done; 38.375 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls opened at Fri Mar 27 14:36:22 -0400 2026
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 1.25 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 1.343 sec.
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Command   open_solution done; 1.359 sec.
+Execute   apply_ini C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(8)
+Execute     add_files C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(9)
+Execute     add_files C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+Command       create_platform done; 0.124 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 0.214 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 0.235 sec.
+Execute   apply_ini C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/config.cmdline 
+Execute   export_design -flow none 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::get_vpp_package_output_file
+Execute     config_export -flow=none 
+INFO-FLOW: DBG:PUTS: export_design_wrap: -format ip_catalog -rtl verilog
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS:   auto_impl: pack: -export -rtl verilog
+INFO-FLOW: DBG:PROC: ::AESL_AUTOIMPL::auto_impl args='-export -rtl verilog'
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO-FLOW: DBG:PUTS: automg_wrap -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate args='-export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag'
+INFO-FLOW: DBG:PUTS:     auto_generate -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS: read_platform_lib C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:PUTS:       initCTypeInfo top_module=calculateCoefficients xml_exists=0
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.rtl_wrap.cfg.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.rtl_wrap.cfg.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.rtl_wrap.cfg.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+INFO-FLOW: DBG:PUTS:       cosim_export_main adding deadlock detection to calculateCoefficients
+INFO-FLOW: DBG:PUTS:       generate_datafile_ip_script ip_types={vitis sysgen} #gSsdmPorts=0
+INFO-FLOW: DBG:PUTS: Skipping loadAnalyze_DB, #g_database=5
+INFO-FLOW: DBG:PUTS:       generate_json generate_bd_files=0 generate_xo_files=false #modelList=25 #gSsdmPorts=0
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='false' modelList='calculateCoefficients_mul_23s_22ns_45_1_0
+calculateCoefficients_mul_30s_29ns_58_1_0
+calculateCoefficients_mul_80s_24ns_80_1_0
+calculateCoefficients_sparsemux_17_3_1_1_0
+calculateCoefficients_sparsemux_33_4_1_1_0
+calculateCoefficients_sparsemux_33_4_1_1_0
+calculateCoefficients_mul_15ns_15ns_30_1_0
+calculateCoefficients_mul_15ns_15s_30_1_0
+calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R
+calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_sitofp_32s_32_4_no_dsp_1
+calculateCoefficients_flow_control_loop_pipe_sequential_init
+calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1
+calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1
+calculateCoefficients_sitofp_32ns_32_4_no_dsp_1
+calculateCoefficients_gmem_m_axi
+calculateCoefficients_control_s_axi
+sin_or_cos_float_s
+calculateCoefficients_Pipeline_VITIS_LOOP_22_1
+calculateCoefficients
+' rtl_lang='vlog' bootstrap_tcl='false' outdir='' outfilename=''
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/top-io-be.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.dataonly.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.dataonly.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.rtl_wrap.cfg.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.compgen.dataonly.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/sin_or_cos_float_s.tbgen.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients_Pipeline_VITIS_LOOP_22_1.tbgen.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.constraint.tcl 
+Execute     sc_get_clocks calculateCoefficients 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/misc/calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip.tcl 
+INFO-FLOW: DBG:PUTS:       generate_syn_sh
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS:       generate_imp_constraints
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.constraint.tcl 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/calculateCoefficients.tbgen.tcl 
+INFO-FLOW: DBG:PUTS:       delete-temp-dirs (skipped for debug)
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
+INFO-FLOW: DBG:PUTS: read_platform_lib C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/common.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op.gen 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/interface.gen 
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+INFO-FLOW: DBG:PUTS:     IP package: exec C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/pack.bat
+INFO-FLOW: DBG:PUTS:     IP package: success C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/pack.bat
+Execute     send_msg_by_id INFO @200-802@%s calculateCoefficients/calculateCoefficients.zip 
+INFO: [HLS 200-802] Generated output file calculateCoefficients/calculateCoefficients.zip
+Command   export_design done; 21.171 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 
+INFO-FLOW: Workspace C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls opened at Fri Mar 27 14:54:42 -0400 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(8)
+Execute     add_files C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=Coefficients.h' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(9)
+Execute     add_files C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.h 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=tb_coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(10)
+Execute     add_files -tb C:/Motor-Simulator/Coefficients/FirFilter/tb_coefficients.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Coefficients/FirFilter/tb_coefficients.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=calculateCoefficients' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=calculateCoefficients' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(7)
+Execute     set_top calculateCoefficients 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(1)
+Execute     set_part xczu3eg-sfvc784-2-e 
+Execute       create_platform xczu3eg-sfvc784-2-e -board  
+DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+Command       create_platform done; 1.048 sec.
+Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
+Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
+Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute       config_compile -quiet -complex-mul-dsp=0 
+Command     set_part done; 1.154 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(5)
+Execute     config_export -format=ip_catalog 
+Command   apply_ini done; 1.173 sec.
+Execute   apply_ini C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/config.cmdline 
+Execute   csim_design 
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
+INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
+Execute     source C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/global.setting.tcl 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+Execute     send_msg_by_id INFO @200-2036@%s debug 
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
+Execute     source run_sim.tcl 
+Command     ap_source done; 0.418 sec.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; 18.189 sec.
+Execute   close_project 
+Execute     close_solution 
+Execute       cleanup_all 
+Execute       cleanup_all 

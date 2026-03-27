@@ -1,0 +1,3 @@
+relativeroot=C:/Motor-Simulator/Coefficients/FirFilter
+original_argv=--mode hls --csim --config C:\Motor-Simulator\Coefficients\FirFilter\hls_config.cfg --work_dir calculateCoefficients 
+

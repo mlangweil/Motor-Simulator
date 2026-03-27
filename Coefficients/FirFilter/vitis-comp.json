@@ -1,0 +1,11 @@
+{
+  "name": "FirFilter",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "calculateCoefficients"
+  }
+}

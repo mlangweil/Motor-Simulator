@@ -1,0 +1,34 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../tb_coefficients.cpp in debug mode
+   Compiling ../../../../Coefficients.cpp in debug mode
+   Generating csim.exe
+FIR Coefficients:
+bram[0] = 0
+bram[1] = -5732213
+bram[2] = -22507890
+bram[3] = -46210192
+bram[4] = -68916096
+bram[5] = -81159840
+bram[6] = -75026360
+bram[7] = -47064524
+bram[8] = -14
+bram[9] = 57422680
+bram[10] = 112539536
+bram[11] = 152226992
+bram[12] = 166666672
+bram[13] = 152226992
+bram[14] = 112539536
+bram[15] = 57422680
+bram[16] = -14
+bram[17] = -47064524
+bram[18] = -75026360
+bram[19] = -81159840
+bram[20] = -68916096
+bram[21] = -46210192
+bram[22] = -22507890
+bram[23] = -5732213
+bram[24] = 0
+Sum of coefficients: 1.17811e+08
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
