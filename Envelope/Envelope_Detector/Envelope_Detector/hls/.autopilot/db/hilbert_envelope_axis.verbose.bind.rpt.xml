@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'hilbert_envelope_axis'" level="0">
-<item name = "Date">Fri Mar 27 14:10:34 2026
+<item name = "Date">Mon Apr 13 17:25:39 2026
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">Envelope_Detector</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 0.576 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 6.624 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_66_1">?, ?, 2, 1, 1, ?, yes</column>
+<column name="- VITIS_LOOP_59_1">?, ?, 17, 1, 1, ?, yes</column>
 </table>
 </item>
 </section>

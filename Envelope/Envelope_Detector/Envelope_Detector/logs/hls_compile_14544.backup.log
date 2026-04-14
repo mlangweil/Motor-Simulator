@@ -1,0 +1,146 @@
+INFO: [v++ 60-1548] Creating build summary session with primary output C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector\Envelope_Detector.hlscompile_summary, at 04/13/26 15:20:26
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector -config C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg -cmdlineconfig C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Mon Apr 13 15:20:28 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'langweil.m' on host 'wfxa4bb6dbb67af.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Mon Apr 13 15:20:29 -0400 2026
+INFO: [HLS 200-10] In directory 'C:/Motor-Simulator-main/Envelope/Envelope_Detector'
+INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 3.281 seconds; current allocated memory: 245.805 MB.
+INFO: [HLS 200-10] Analyzing design file 'hilbert.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 20.116 seconds; current allocated memory: 252.656 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 312 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 236 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 193 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 187 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 181 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 180 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 180 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 180 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 180 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 292 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 306 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 292 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 194 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 194 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 140 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 129 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'hilbert(float, float&)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:98:9)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_46_1' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:46:19)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:16:5)
+INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:22:5)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_46_1' (hilbert.cpp:46:19) in function 'hilbert_envelope_axis' completely with a factor of 24 (hilbert.cpp:73:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (hilbert.cpp:16:5) in function 'float_to_bits' completely with a factor of 1 (hilbert.cpp:14:0)
+INFO: [HLS 214-186] Unrolling loop 'anonymous' (hilbert.cpp:22:5) in function 'bits_to_float' completely with a factor of 1 (hilbert.cpp:20:0)
+INFO: [HLS 214-178] Inlining function 'bits_to_float(ap_uint<32>)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:73:0)
+INFO: [HLS 214-178] Inlining function 'hls::sqrt(float)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:73:0)
+INFO: [HLS 214-178] Inlining function 'float_to_bits(float)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:73:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZZL7hilbertfRfE1x': Complete partitioning on dimension 1. (hilbert.cpp:42:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.198 seconds; current allocated memory: 254.031 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 254.031 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.036 seconds; current allocated memory: 258.078 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.024 seconds; current allocated memory: 259.570 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.058 seconds; current allocated memory: 281.023 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.046 seconds; current allocated memory: 281.031 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'hilbert_envelope_axis' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'hilbert_envelope_axis' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_80_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 47, loop 'VITIS_LOOP_80_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.283 seconds; current allocated memory: 281.031 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.408 seconds; current allocated memory: 281.031 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'hilbert_envelope_axis' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'hilbert_envelope_axis' to 'ap_ctrl_none'.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_23' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_22' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_21' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_20' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_19' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_18' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_17' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_16' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_15' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_14' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_13' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_12' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_11' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertfRfE1x_10' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_9' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_8' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_7' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_6' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_5' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_4' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'hilbert_float_float_x' is power-on initialization.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'hilbert_envelope_axis' pipeline 'VITIS_LOOP_80_1' pipeline type 'loop pipeline'
+INFO: [HLS 200-1553] Disabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_80_1' in module 'hilbert_envelope_axis', because the estimated Stream Port Number is 22, which is bigger than the frp_stream_port_number threshold of 20.
+Resolution: For help on HLS 200-1553 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1553.html
+INFO: [RTGEN 206-100] Generating core module 'fadd_32ns_32ns_32_4_full_dsp_1': 7 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_3_max_dsp_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fsqrt_32ns_32ns_32_8_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fsub_32ns_32ns_32_4_full_dsp_1': 6 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'hilbert_envelope_axis'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.144 seconds; current allocated memory: 284.879 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.455 seconds; current allocated memory: 290.355 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.689 seconds; current allocated memory: 293.535 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for hilbert_envelope_axis.
+INFO: [VLOG 209-307] Generating Verilog RTL for hilbert_envelope_axis.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 141.36 MHz
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 2 seconds. Total elapsed time: 36.829 seconds; peak allocated memory: 293.586 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 41s

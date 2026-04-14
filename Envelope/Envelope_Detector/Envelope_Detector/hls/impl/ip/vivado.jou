@@ -3,22 +3,22 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Mar 27 14:11:28 2026
-# Process ID: 33528
-# Current directory: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/ip
+# Start of session at: Mon Apr 13 17:36:15 2026
+# Process ID: 12708
+# Current directory: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/ip
 # Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
-# Log file: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/ip/vivado.log
-# Journal file: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/ip\vivado.jou
-# Running On        :Max-Zbk
+# Log file: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/ip/vivado.log
+# Journal file: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/ip\vivado.jou
+# Running On        :WFXA4BB6DBB67AF
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26200
-# Processor Detail  :13th Gen Intel(R) Core(TM) i9-13900H
-# CPU Frequency     :2995 MHz
-# CPU Physical cores:14
-# CPU Logical cores :20
-# Host memory       :33947 MB
-# Swap memory       :4308 MB
-# Total Virtual     :38256 MB
-# Available Virtual :5258 MB
+# Processor Detail  :Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+# CPU Frequency     :2904 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :34059 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36207 MB
+# Available Virtual :15090 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace

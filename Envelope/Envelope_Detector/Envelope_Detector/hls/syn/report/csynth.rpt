@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'hilbert_envelope_axis'
 ================================================================
 + General Information: 
-    * Date:           Fri Mar 27 14:10:36 2026
+    * Date:           Mon Apr 13 17:25:41 2026
     * Version:        2024.1 (Build 5069499 on May 21 2024)
     * Project:        Envelope_Detector
     * Solution:       hls (Vivado IP Flow Target)
@@ -15,13 +15,13 @@
 + Performance & Resource Estimates: 
     
     PS: '+' for module; 'o' for loop; '*' for dataflow
-    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----------+-----+
-    |         Modules         | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |         |          |     |
-    |         & Loops         | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|    FF   |    LUT   | URAM|
-    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----------+-----+
-    |+ hilbert_envelope_axis  |     -|  6.72|        -|       -|         -|        0|     -|    rewind|     -|   -|  2 (~0%)|  30 (~0%)|    -|
-    | o VITIS_LOOP_66_1       |     -|  7.30|        -|       -|         2|        1|     -|       yes|     -|   -|        -|         -|    -|
-    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+----------+-----+
+    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
+    |         Modules         | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |         |           |           |     |
+    |         & Loops         | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM |   DSP   |     FF    |    LUT    | URAM|
+    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
+    |+ hilbert_envelope_axis  |     -|  0.68|        -|       -|         -|        0|     -|    rewind|     -|  17 (4%)|  1540 (1%)|  2595 (3%)|    -|
+    | o VITIS_LOOP_59_1       |     -|  7.30|        -|       -|        17|        1|     -|       yes|     -|        -|          -|          -|    -|
+    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
 
 
 ================================================================
@@ -74,7 +74,38 @@
 ================================================================
 == Bind Op Report
 ================================================================
-  No bind op info in design
++------------------------------------+-----+--------+---------------+--------+-----------+---------+
+| Name                               | DSP | Pragma | Variable      | Op     | Impl      | Latency |
++------------------------------------+-----+--------+---------------+--------+-----------+---------+
+| + hilbert_envelope_axis            | 17  |        |               |        |           |         |
+|   sub_ln37_fu_540_p2               |     |        | sub_ln37      | sub    | fabric    | 0       |
+|   sub_ln38_fu_550_p2               |     |        | sub_ln38      | sub    | fabric    | 0       |
+|   sub_ln39_fu_560_p2               |     |        | sub_ln39      | sub    | fabric    | 0       |
+|   sub_ln40_fu_570_p2               |     |        | sub_ln40      | sub    | fabric    | 0       |
+|   sub_ln41_fu_580_p2               |     |        | sub_ln41      | sub    | fabric    | 0       |
+|   sub_ln42_fu_586_p2               |     |        | sub_ln42      | sub    | fabric    | 0       |
+|   sub_ln45_2_fu_616_p2             |     |        | sub_ln45_2    | sub    | fabric    | 0       |
+|   add_ln45_7_fu_688_p2             |     |        | add_ln45_7    | add    | fabric    | 0       |
+|   mul_46s_48ns_93_1_1_U5           | 9   |        | mul_ln45      | mul    | auto      | 0       |
+|   sub_ln45_fu_1052_p2              |     |        | sub_ln45      | sub    | fabric    | 0       |
+|   select_ln45_1_fu_1082_p3         |     |        | select_ln45_1 | select | auto_sel  | 0       |
+|   sub_ln45_1_fu_1093_p2            |     |        | sub_ln45_1    | sub    | fabric    | 0       |
+|   Q_path_fu_1099_p3                |     |        | Q_path        | select | auto_sel  | 0       |
+|   mul_32s_32s_64_1_1_U3            | 4   |        | mul_ln47      | mul    | auto      | 0       |
+|   mul_35s_35s_64_1_1_U4            | 4   |        | mul_ln47_1    | mul    | auto      | 0       |
+|   grp_fu_251_p0                    |     |        | mag_sq        | add    | fabric    | 0       |
+|   sitofp_64ns_32_4_no_dsp_1_U1     |     |        | x_assign      | sitofp | auto      | 3       |
+|   fsqrt_32ns_32ns_32_8_no_dsp_1_U2 |     |        | dc            | fsqrt  | fabric    | 7       |
+|   add_ln317_fu_1164_p2             |     |        | add_ln317     | add    | fabric    | 0       |
+|   sub_ln18_fu_1178_p2              |     |        | sub_ln18      | sub    | fabric    | 0       |
+|   select_ln18_fu_1188_p3           |     |        | select_ln18   | select | auto_sel  | 0       |
+|   lshr_ln18_fu_1204_p2             |     |        | lshr_ln18     | lshr   | auto_pipe | 0       |
+|   shl_ln18_fu_1210_p2              |     |        | shl_ln18      | shl    | auto_pipe | 0       |
+|   val_fu_1236_p3                   |     |        | val           | select | auto_sel  | 0       |
+|   result_1_fu_1244_p2              |     |        | result_1      | sub    | fabric    | 0       |
+|   out_stream_TDATA_int_regslice    |     |        | result        | select | auto_sel  | 0       |
++------------------------------------+-----+--------+---------------+--------+-----------+---------+
+
 
 ================================================================
 == Storage Report
@@ -88,13 +119,13 @@
 +-----------------+---------------------------+-----------------------------------------------------+
 | Type            | Options                   | Location                                            |
 +-----------------+---------------------------+-----------------------------------------------------+
-| inline          |                           | hilbert.cpp:15 in hilbert                           |
-| array_partition | variable=x complete dim=1 | hilbert.cpp:29 in hilbert, x                        |
-| unroll          |                           | hilbert.cpp:33 in hilbert                           |
-| interface       | axis port=in_stream       | hilbert.cpp:60 in hilbert_envelope_axis, in_stream  |
-| interface       | axis port=out_stream      | hilbert.cpp:61 in hilbert_envelope_axis, out_stream |
-| interface       | ap_ctrl_none port=return  | hilbert.cpp:62 in hilbert_envelope_axis, return     |
-| pipeline        | II=1                      | hilbert.cpp:67 in hilbert_envelope_axis             |
+| inline          |                           | hilbert.cpp:12 in hilbert                           |
+| array_partition | variable=x complete dim=1 | hilbert.cpp:26 in hilbert, x                        |
+| unroll          |                           | hilbert.cpp:29 in hilbert                           |
+| interface       | axis port=in_stream       | hilbert.cpp:53 in hilbert_envelope_axis, in_stream  |
+| interface       | axis port=out_stream      | hilbert.cpp:54 in hilbert_envelope_axis, out_stream |
+| interface       | ap_ctrl_none port=return  | hilbert.cpp:55 in hilbert_envelope_axis, return     |
+| pipeline        | II=1                      | hilbert.cpp:60 in hilbert_envelope_axis             |
 +-----------------+---------------------------+-----------------------------------------------------+
 
 

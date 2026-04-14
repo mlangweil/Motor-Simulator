@@ -1,7 +1,8 @@
 {
-  "workspaceRoot": "C:\\Motor-Simulator\\Coefficients",
+  "workspaceRoot": "C:\\Motor-Simulator-main\\Coefficients",
   "mapping": {
     "FirFilter\\tb_coefficients.cpp": "FirFilter",
+    "FirFilter\\Coefficients.h": "FirFilter",
     "FirFilter\\Coefficients.cpp": "FirFilter"
   }
 }

@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date         : Fri Mar 27 14:15:45 2026
-| Host         : Max-Zbk running 64-bit major release  (build 9200)
+| Date         : Mon Apr 13 17:38:41 2026
+| Host         : WFXA4BB6DBB67AF running 64-bit major release  (build 9200)
 | Command      : upgrade_ip
 | Device       : xczu3eg-sfvc784-2-e
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -12,5 +12,89 @@ Upgrade Log for IP 'Motor_Simulator_hilbert_envelope_axis_0_4'
 1. Summary
 ----------
 
-SUCCESS in the upgrade of Motor_Simulator_hilbert_envelope_axis_0_4 (xilinx.com:hls:hilbert_envelope_axis:1.0) from (Rev. 2114539356) to (Rev. 2114539391)
+SUCCESS in the upgrade of Motor_Simulator_hilbert_envelope_axis_0_4 (xilinx.com:hls:hilbert_envelope_axis:1.0) from (Rev. 2114563941) to (Rev. 2114564076)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Apr 13 17:38:41 2026
+| Host         : WFXA4BB6DBB67AF running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_firTop_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Motor_Simulator_firTop_0_0 (xilinx.com:hls:firTop:1.0) from (Rev. 2114564021) to (Rev. 2114564078)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Apr 13 16:41:46 2026
+| Host         : WFXA4BB6DBB67AF running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_firTop_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Motor_Simulator_firTop_0_0 (xilinx.com:hls:firTop:1.0) from (Rev. 2114563935) to (Rev. 2114564021)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Apr 13 15:21:52 2026
+| Host         : WFXA4BB6DBB67AF running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_hilbert_envelope_axis_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Motor_Simulator_hilbert_envelope_axis_0_5 (xilinx.com:hls:hilbert_envelope_axis:1.0) from (Rev. 2114563925) to (Rev. 2114563941)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Apr 13 15:21:52 2026
+| Host         : WFXA4BB6DBB67AF running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_hilbert_envelope_axis_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Motor_Simulator_hilbert_envelope_axis_0_4 (xilinx.com:hls:hilbert_envelope_axis:1.0) from (Rev. 2114563925) to (Rev. 2114563941)
 

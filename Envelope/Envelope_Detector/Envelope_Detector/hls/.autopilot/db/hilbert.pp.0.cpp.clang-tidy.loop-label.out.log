@@ -1,738 +1,738 @@
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:1322:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:1313:7: warning: Added loop label VITIS_LOOP_1223_1:   [xilinx-label-all-loops]
       for (i = 0; i < __N - 1; ++i) {
       ^~~
       VITIS_LOOP_1223_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:1322:7: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2296:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:1313:7: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2287:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_676_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2296:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2310:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2287:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2301:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_690_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2310:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2324:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2301:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2315:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
     for (unsigned i = low; i != high; ++i) {
     ^~~
     VITIS_LOOP_704_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2324:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:3941:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:2315:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:3944:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
       for (i = 0; i < __N - 1; ++i) {
       ^~~
       VITIS_LOOP_1247_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:3941:7: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12683:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:3944:7: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15640:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                        ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12684:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15641:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                        ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12685:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15642:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K2 type=ROM_1P impl=LUTRAM
                                                                        ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12686:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15643:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K3 type=ROM_1P impl=LUTRAM
                                                                        ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12687:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15644:72: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_cos_K4 type=ROM_1P impl=LUTRAM
                                                                        ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12717:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15674:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K0 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12718:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15675:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K1 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12719:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15676:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K2 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12720:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15677:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K3 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12721:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15678:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::cos_K4 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12722:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15679:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K0 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12723:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15680:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K1 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12724:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15681:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K2 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12725:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15682:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K3 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12726:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15683:68: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=fourth_order_double::sin_K4 type=ROM_1P impl=LUTRAM
                                                                    ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12776:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15733:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                       ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12777:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15734:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                       ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12778:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15735:71: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_cos_K2 type=ROM_1P impl=LUTRAM
                                                                       ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12805:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15762:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K0 type=ROM_1P impl=LUTRAM
                                                                   ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12806:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15763:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K1 type=ROM_1P impl=LUTRAM
                                                                   ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12807:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15764:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::cos_K2 type=ROM_1P impl=LUTRAM
                                                                   ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12808:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15765:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K0 type=ROM_1P impl=LUTRAM
                                                                   ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12809:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15766:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K1 type=ROM_1P impl=LUTRAM
                                                                   ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12810:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15767:67: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=second_order_float::sin_K2 type=ROM_1P impl=LUTRAM
                                                                   ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12846:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15803:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K0 type=ROM_1P impl=LUTRAM
                                                                         ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:12847:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15804:73: error: Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
 #pragma HLS BIND_STORAGE variable=first_order_fixed_16::sin_cos_K1 type=ROM_1P impl=LUTRAM
                                                                         ^
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13121:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16078:5: warning: Added loop label VITIS_LOOP_61_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_61_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13121:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13167:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16078:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16124:5: warning: Added loop label VITIS_LOOP_117_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_117_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13167:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13330:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16124:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16287:9: warning: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
         for(int i=0;i<W-1;i++){
         ^~~
         VITIS_LOOP_289_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13330:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13482:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16287:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16439:9: warning: Added loop label VITIS_LOOP_449_1:   [xilinx-label-all-loops]
         for(int i=0;i<W-1;i++){
         ^~~
         VITIS_LOOP_449_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13482:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13662:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16439:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16619:5: warning: Added loop label VITIS_LOOP_629_1:   [xilinx-label-all-loops]
     for(int i=0;i<W+1;i++){
     ^~~
     VITIS_LOOP_629_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13662:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13666:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16619:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16623:5: warning: Added loop label VITIS_LOOP_633_2:   [xilinx-label-all-loops]
     for(int i=0;i<W+1;i++){
     ^~~
     VITIS_LOOP_633_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13666:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13776:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16623:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16733:5: warning: Added loop label VITIS_LOOP_743_1:   [xilinx-label-all-loops]
     for (int n=0; n<Nmax; n++){
     ^~~
     VITIS_LOOP_743_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13776:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13866:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16733:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16823:7: warning: Added loop label VITIS_LOOP_840_1:   [xilinx-label-all-loops]
       for(int i=0;i<W-1;i++){
       ^~~
       VITIS_LOOP_840_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13866:7: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13885:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16823:7: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16842:7: warning: Added loop label VITIS_LOOP_859_2:   [xilinx-label-all-loops]
       for(int i=0;i<W-1;i++){
       ^~~
       VITIS_LOOP_859_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:13885:7: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14175:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16842:7: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17132:5: warning: Added loop label VITIS_LOOP_1173_1:   [xilinx-label-all-loops]
     for(int i=0; i<Nmax; i++) {
     ^~~
     VITIS_LOOP_1173_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14175:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14258:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17132:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17215:5: warning: Added loop label VITIS_LOOP_1256_1:   [xilinx-label-all-loops]
     for(int i=0; i<Nmax; i++) {
     ^~~
     VITIS_LOOP_1256_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14258:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14664:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17215:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17621:13: warning: Added loop label VITIS_LOOP_68_1:   [xilinx-label-all-loops]
             for (int j = 3; j >= I_+1; j--) {
             ^~~
             VITIS_LOOP_68_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14664:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14670:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17621:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17627:17: warning: Added loop label VITIS_LOOP_74_2:   [xilinx-label-all-loops]
                 for (int j = 3; j >= I_+1; j--){
                 ^~~
                 VITIS_LOOP_74_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14670:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14674:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17627:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17631:17: warning: Added loop label VITIS_LOOP_78_3:   [xilinx-label-all-loops]
                 for (int j = I_; j >= 0; j--){
                 ^~~
                 VITIS_LOOP_78_3: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14674:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14722:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17631:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17679:13: warning: Added loop label VITIS_LOOP_145_4:   [xilinx-label-all-loops]
             for (int j = 9; j >= I_+4; j--) {
             ^~~
             VITIS_LOOP_145_4: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14722:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14728:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17679:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17685:17: warning: Added loop label VITIS_LOOP_151_5:   [xilinx-label-all-loops]
                 for (int j = 9; j >= I_+4; j--){
                 ^~~
                 VITIS_LOOP_151_5: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14728:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14732:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17685:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17689:17: warning: Added loop label VITIS_LOOP_155_6:   [xilinx-label-all-loops]
                 for (int j = I_+3; j >= 0; j--){
                 ^~~
                 VITIS_LOOP_155_6: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14732:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14747:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17689:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17704:9: warning: Added loop label VITIS_LOOP_170_7:   [xilinx-label-all-loops]
         for (int j = 14; j < 22; j++){
         ^~~
         VITIS_LOOP_170_7: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14747:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14755:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17704:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17712:17: warning: Added loop label VITIS_LOOP_178_8:   [xilinx-label-all-loops]
                 for (int j = 0; j < 22; j++){
                 ^~~
                 VITIS_LOOP_178_8: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14755:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14820:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17712:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17777:13: warning: Added loop label VITIS_LOOP_243_9:   [xilinx-label-all-loops]
             for (int j = 21; j >= I_+10; j--) {
             ^~~
             VITIS_LOOP_243_9: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14820:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14826:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17777:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17783:17: warning: Added loop label VITIS_LOOP_249_10:   [xilinx-label-all-loops]
                 for (int j = 21; j >= I_+10; j--) {
                 ^~~
                 VITIS_LOOP_249_10: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14826:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14830:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17783:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17787:17: warning: Added loop label VITIS_LOOP_253_11:   [xilinx-label-all-loops]
                 for (int j = I_+9; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_253_11: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14830:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14845:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17787:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17802:9: warning: Added loop label VITIS_LOOP_268_12:   [xilinx-label-all-loops]
         for (int j = 27; j < 46; j++){
         ^~~
         VITIS_LOOP_268_12: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14845:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14853:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17802:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17810:17: warning: Added loop label VITIS_LOOP_276_13:   [xilinx-label-all-loops]
                 for (int j = 0; j < 46; j++) {
                 ^~~
                 VITIS_LOOP_276_13: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:14853:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15082:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17810:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18039:13: warning: Added loop label VITIS_LOOP_505_14:   [xilinx-label-all-loops]
             for (int j = 45; j >= I_+22; j--) {
             ^~~
             VITIS_LOOP_505_14: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15082:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15088:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18039:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18045:17: warning: Added loop label VITIS_LOOP_511_15:   [xilinx-label-all-loops]
                 for (int j = 45; j >= I_+22; j--){
                 ^~~
                 VITIS_LOOP_511_15: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15088:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15092:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18045:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18049:17: warning: Added loop label VITIS_LOOP_515_16:   [xilinx-label-all-loops]
                 for (int j = I_+21; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_515_16: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15092:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15102:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18049:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18059:9: warning: Added loop label VITIS_LOOP_525_17:   [xilinx-label-all-loops]
         for (int j = 32-F_; j < 32+I_; j++){
         ^~~
         VITIS_LOOP_525_17: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15102:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15106:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18059:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18063:9: warning: Added loop label VITIS_LOOP_529_18:   [xilinx-label-all-loops]
         for (int j = 32+I_; j <= 64; j++){
         ^~~
         VITIS_LOOP_529_18: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15106:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15116:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18063:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18073:9: warning: Added loop label VITIS_LOOP_539_19:   [xilinx-label-all-loops]
         for (int j = 37; j < 64; j++) {
         ^~~
         VITIS_LOOP_539_19: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15116:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15124:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18073:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18081:17: warning: Added loop label VITIS_LOOP_547_20:   [xilinx-label-all-loops]
                 for (int j = 0; j < 64; j++){
                 ^~~
                 VITIS_LOOP_547_20: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15124:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15485:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18081:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18442:13: warning: Added loop label VITIS_LOOP_908_21:   [xilinx-label-all-loops]
             for (int j = 63; j >= I_+31; j--) {
             ^~~
             VITIS_LOOP_908_21: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15485:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15491:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18442:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18448:17: warning: Added loop label VITIS_LOOP_914_22:   [xilinx-label-all-loops]
                 for (int j = 63; j >= I_+31; j--) {
                 ^~~
                 VITIS_LOOP_914_22: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15491:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15495:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18448:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18452:17: warning: Added loop label VITIS_LOOP_918_23:   [xilinx-label-all-loops]
                 for (int j = I_+30; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_918_23: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15495:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15611:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18452:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18568:13: warning: Added loop label VITIS_LOOP_1034_1:   [xilinx-label-all-loops]
             for (int j = 4; j >= I_+1; j--) {
             ^~~
             VITIS_LOOP_1034_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15611:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15617:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18568:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18574:17: warning: Added loop label VITIS_LOOP_1040_2:   [xilinx-label-all-loops]
                 for (int j = 4; j >= I_+1; j--) {
                 ^~~
                 VITIS_LOOP_1040_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15617:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15621:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18574:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18578:17: warning: Added loop label VITIS_LOOP_1044_3:   [xilinx-label-all-loops]
                 for (int j = I_; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1044_3: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15621:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15708:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18578:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18665:13: warning: Added loop label VITIS_LOOP_1131_4:   [xilinx-label-all-loops]
             for (int j = 10; j >= I_+4; j--) {
             ^~~
             VITIS_LOOP_1131_4: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15708:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15714:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18665:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18671:17: warning: Added loop label VITIS_LOOP_1137_5:   [xilinx-label-all-loops]
                 for (int j = 10; j >= I_+4; j--) {
                 ^~~
                 VITIS_LOOP_1137_5: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15714:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15718:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18671:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18675:17: warning: Added loop label VITIS_LOOP_1141_6:   [xilinx-label-all-loops]
                 for (int j = I_+3; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1141_6: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15718:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15737:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18675:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18694:9: warning: Added loop label VITIS_LOOP_1160_7:   [xilinx-label-all-loops]
         for (int j = wf+3; j < w-1; j++) {
         ^~~
         VITIS_LOOP_1160_7: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15737:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15744:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18694:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18701:17: warning: Added loop label VITIS_LOOP_1167_8:   [xilinx-label-all-loops]
                 for (int j = 0; j < 22; j++) {
                 ^~~
                 VITIS_LOOP_1167_8: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15744:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15860:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18701:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18817:13: warning: Added loop label VITIS_LOOP_1283_9:   [xilinx-label-all-loops]
             for (int j = 22; j >= I_+10; j--) {
             ^~~
             VITIS_LOOP_1283_9: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15860:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15866:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18817:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18823:17: warning: Added loop label VITIS_LOOP_1289_10:   [xilinx-label-all-loops]
                 for (int j = 22; j >= I_+10; j--){
                 ^~~
                 VITIS_LOOP_1289_10: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15866:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15870:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18823:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18827:17: warning: Added loop label VITIS_LOOP_1293_11:   [xilinx-label-all-loops]
                 for (int j = I_+9; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1293_11: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15870:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15890:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18827:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18847:9: warning: Added loop label VITIS_LOOP_1313_12:   [xilinx-label-all-loops]
         for (int j = wf+4; j < w-1; j++){
         ^~~
         VITIS_LOOP_1313_12: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15890:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15897:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18847:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18854:17: warning: Added loop label VITIS_LOOP_1320_13:   [xilinx-label-all-loops]
                 for (int j = 0; j < 46; j++) {
                 ^~~
                 VITIS_LOOP_1320_13: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:15897:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16159:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18854:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19116:13: warning: Added loop label VITIS_LOOP_1582_14:   [xilinx-label-all-loops]
             for (int j = 46; j >= I_+22; j--) {
             ^~~
             VITIS_LOOP_1582_14: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16159:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16165:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19116:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19122:17: warning: Added loop label VITIS_LOOP_1588_15:   [xilinx-label-all-loops]
                 for (int j = 46; j >= I_+22; j--) {
                 ^~~
                 VITIS_LOOP_1588_15: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16165:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16169:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19122:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19126:17: warning: Added loop label VITIS_LOOP_1592_16:   [xilinx-label-all-loops]
                 for (int j = I_+21; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_1592_16: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16169:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16193:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19126:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19150:9: warning: Added loop label VITIS_LOOP_1616_17:   [xilinx-label-all-loops]
         for (int j = wf+5; j < w-1; j++){
         ^~~
         VITIS_LOOP_1616_17: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16193:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16200:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19150:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19157:17: warning: Added loop label VITIS_LOOP_1623_18:   [xilinx-label-all-loops]
                 for (int j = 0; j < 64; j++) {
                 ^~~
                 VITIS_LOOP_1623_18: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16200:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16630:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19157:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19587:13: warning: Added loop label VITIS_LOOP_2053_19:   [xilinx-label-all-loops]
             for (int j = 64; j >= I_+31; j--) {
             ^~~
             VITIS_LOOP_2053_19: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16630:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16636:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19587:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19593:17: warning: Added loop label VITIS_LOOP_2059_20:   [xilinx-label-all-loops]
                 for (int j = 64; j >= I_+31; j--) {
                 ^~~
                 VITIS_LOOP_2059_20: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16636:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16640:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19593:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19597:17: warning: Added loop label VITIS_LOOP_2063_21:   [xilinx-label-all-loops]
                 for (int j = I_+30; j >= 0; j--) {
                 ^~~
                 VITIS_LOOP_2063_21: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16640:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16770:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19597:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19727:13: warning: Added loop label VITIS_LOOP_2193_1:   [xilinx-label-all-loops]
             for(int j=3; j>=I+1; j--) {
             ^~~
             VITIS_LOOP_2193_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16770:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16777:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19727:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19734:17: warning: Added loop label VITIS_LOOP_2200_2:   [xilinx-label-all-loops]
                 for(int j=3; j>=I+1; j--) {
                 ^~~
                 VITIS_LOOP_2200_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16777:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16781:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19734:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19738:17: warning: Added loop label VITIS_LOOP_2204_3:   [xilinx-label-all-loops]
                 for(int j=I; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2204_3: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16781:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16828:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19738:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19785:13: warning: Added loop label VITIS_LOOP_2251_4:   [xilinx-label-all-loops]
             for(int j=7; j>=3+I; j--) {
             ^~~
             VITIS_LOOP_2251_4: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16828:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16835:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19785:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19792:17: warning: Added loop label VITIS_LOOP_2258_5:   [xilinx-label-all-loops]
                 for(int j=7; j>=3+I; j--) {
                 ^~~
                 VITIS_LOOP_2258_5: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16835:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16839:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19792:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19796:17: warning: Added loop label VITIS_LOOP_2262_6:   [xilinx-label-all-loops]
                 for(int j=I+2; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2262_6: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16839:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16857:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19796:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19814:9: warning: Added loop label VITIS_LOOP_2280_7:   [xilinx-label-all-loops]
         for(int j=11; j<16; j++) {
         ^~~
         VITIS_LOOP_2280_7: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16857:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16912:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19814:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19869:13: warning: Added loop label VITIS_LOOP_2335_8:   [xilinx-label-all-loops]
             for(int j=15; j>=7+I; j--) {
             ^~~
             VITIS_LOOP_2335_8: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16912:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16919:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19869:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19876:17: warning: Added loop label VITIS_LOOP_2342_9:   [xilinx-label-all-loops]
                 for(int j=15; j>=7+I; j--) {
                 ^~~
                 VITIS_LOOP_2342_9: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16919:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16923:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19876:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19880:17: warning: Added loop label VITIS_LOOP_2346_10:   [xilinx-label-all-loops]
                 for(int j=6+I; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2346_10: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16923:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16941:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19880:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19898:9: warning: Added loop label VITIS_LOOP_2364_11:   [xilinx-label-all-loops]
         for(int j=20; j<32; j++) {
         ^~~
         VITIS_LOOP_2364_11: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:16941:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17030:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19898:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19987:13: warning: Added loop label VITIS_LOOP_2453_12:   [xilinx-label-all-loops]
             for(int j=31; j>=I+15; j--) {
             ^~~
             VITIS_LOOP_2453_12: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17030:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17037:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19987:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19994:17: warning: Added loop label VITIS_LOOP_2460_13:   [xilinx-label-all-loops]
                 for(int j=31; j>=I+15; j--) {
                 ^~~
                 VITIS_LOOP_2460_13: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17037:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17041:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19994:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19998:17: warning: Added loop label VITIS_LOOP_2464_14:   [xilinx-label-all-loops]
                 for(int j=I+14; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2464_14: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17041:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17051:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19998:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20008:9: warning: Added loop label VITIS_LOOP_2474_15:   [xilinx-label-all-loops]
         for(int j=32-F; j<32+I; j++) {
         ^~~
         VITIS_LOOP_2474_15: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17051:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17055:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20008:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20012:9: warning: Added loop label VITIS_LOOP_2478_16:   [xilinx-label-all-loops]
         for(int j=32+I; j<=64; j++) {
         ^~~
         VITIS_LOOP_2478_16: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17055:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17066:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20012:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20023:9: warning: Added loop label VITIS_LOOP_2489_17:   [xilinx-label-all-loops]
         for(int j=37; j<64; j++) {
         ^~~
         VITIS_LOOP_2489_17: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17066:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17074:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20023:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20031:17: warning: Added loop label VITIS_LOOP_2497_18:   [xilinx-label-all-loops]
                 for(int j=0; j<64; j++) {
                 ^~~
                 VITIS_LOOP_2497_18: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17074:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17399:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20031:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20356:13: warning: Added loop label VITIS_LOOP_2822_19:   [xilinx-label-all-loops]
             for(int j=63; j>=I+31; j--) {
             ^~~
             VITIS_LOOP_2822_19: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17399:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17406:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20356:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20363:17: warning: Added loop label VITIS_LOOP_2829_20:   [xilinx-label-all-loops]
                 for(int j=63; j>=I+31; j--) {
                 ^~~
                 VITIS_LOOP_2829_20: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17406:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17410:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20363:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20367:17: warning: Added loop label VITIS_LOOP_2833_21:   [xilinx-label-all-loops]
                 for(int j=I+30; j>=0; j--) {
                 ^~~
                 VITIS_LOOP_2833_21: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17410:17: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17498:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20367:17: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20455:4: warning: Added loop label VITIS_LOOP_2921_1:   [xilinx-label-all-loops]
    for(int j = 5; j>=I_+2; j--) {
    ^~~
    VITIS_LOOP_2921_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17498:4: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17505:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20455:4: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20462:5: warning: Added loop label VITIS_LOOP_2928_2:   [xilinx-label-all-loops]
     for(int j = 5; j>=I_+2; j--) {
     ^~~
     VITIS_LOOP_2928_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17505:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17509:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20462:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20466:5: warning: Added loop label VITIS_LOOP_2932_3:   [xilinx-label-all-loops]
     for(int j = I_+1; j>=0; j--) {
     ^~~
     VITIS_LOOP_2932_3: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17509:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17524:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20466:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20481:3: warning: Added loop label VITIS_LOOP_2947_4:   [xilinx-label-all-loops]
   for(int j = 11; j >=7; j--) {
   ^~~
   VITIS_LOOP_2947_4: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17524:3: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17556:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20481:3: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20513:4: warning: Added loop label VITIS_LOOP_2979_5:   [xilinx-label-all-loops]
    for(int j = 11; j >= I_+5; j--) {
    ^~~
    VITIS_LOOP_2979_5: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17556:4: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17563:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20513:4: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20520:5: warning: Added loop label VITIS_LOOP_2986_6:   [xilinx-label-all-loops]
     for(int j = 11; j>= I_+5; j--) {
     ^~~
     VITIS_LOOP_2986_6: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17563:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17567:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20520:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20524:5: warning: Added loop label VITIS_LOOP_2990_7:   [xilinx-label-all-loops]
     for(int j = I_+4; j>=0; j--) {
     ^~~
     VITIS_LOOP_2990_7: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17567:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17582:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20524:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20539:3: warning: Added loop label VITIS_LOOP_3005_8:   [xilinx-label-all-loops]
   for(int j = 25; j>=15; j--) {
   ^~~
   VITIS_LOOP_3005_8: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17582:3: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17632:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20539:3: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20589:4: warning: Added loop label VITIS_LOOP_3055_9:   [xilinx-label-all-loops]
    for(int j = 25; j>= I_+12; j--) {
    ^~~
    VITIS_LOOP_3055_9: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17632:4: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17639:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20589:4: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20596:5: warning: Added loop label VITIS_LOOP_3062_10:   [xilinx-label-all-loops]
     for(int j = 25; j>=I_+12; j--) {
     ^~~
     VITIS_LOOP_3062_10: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17639:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17643:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20596:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20600:5: warning: Added loop label VITIS_LOOP_3066_11:   [xilinx-label-all-loops]
     for(int j = I_+11; j>=0; j--) {
     ^~~
     VITIS_LOOP_3066_11: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17643:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17658:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20600:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20615:3: warning: Added loop label VITIS_LOOP_3081_12:   [xilinx-label-all-loops]
   for(int j = 51; j >= 29; j--) {
   ^~~
   VITIS_LOOP_3081_12: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17658:3: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17795:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20615:3: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20752:4: warning: Added loop label VITIS_LOOP_3218_13:   [xilinx-label-all-loops]
    for(int j = 51; j >= 25 + I_; j--) {
    ^~~
    VITIS_LOOP_3218_13: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17795:4: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17802:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20752:4: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20759:5: warning: Added loop label VITIS_LOOP_3225_14:   [xilinx-label-all-loops]
     for(int j = 51; j>=25 + I_; j--) {
     ^~~
     VITIS_LOOP_3225_14: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17802:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17806:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20759:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20763:5: warning: Added loop label VITIS_LOOP_3229_15:   [xilinx-label-all-loops]
     for(int j = 24 + I_; j >= 0; j--) {
     ^~~
     VITIS_LOOP_3229_15: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17806:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17821:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20763:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20778:3: warning: Added loop label VITIS_LOOP_3244_16:   [xilinx-label-all-loops]
   for(int j = 63; j >= 36; j--) {
   ^~~
   VITIS_LOOP_3244_16: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17821:3: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17981:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20778:3: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20938:4: warning: Added loop label VITIS_LOOP_3404_17:   [xilinx-label-all-loops]
    for(int j = 63; j >= 31 + I_; j--) {
    ^~~
    VITIS_LOOP_3404_17: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17981:4: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17988:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20938:4: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20945:5: warning: Added loop label VITIS_LOOP_3411_18:   [xilinx-label-all-loops]
     for(int j = 63; j >= 31 + I_; j--) {
     ^~~
     VITIS_LOOP_3411_18: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17988:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17992:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20945:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20949:5: warning: Added loop label VITIS_LOOP_3415_19:   [xilinx-label-all-loops]
     for(int j = 30 + I_; j >= 0; j--) {
     ^~~
     VITIS_LOOP_3415_19: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:17992:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18707:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20949:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21664:13: warning: Added loop label VITIS_LOOP_703_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_703_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18707:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18925:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21664:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21882:13: warning: Added loop label VITIS_LOOP_921_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_921_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:18925:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19342:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21882:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:22299:13: warning: Added loop label VITIS_LOOP_1345_1:   [xilinx-label-all-loops]
             for (b_exp = I_-1; b_exp >= -F_; b_exp--) {
             ^~~
             VITIS_LOOP_1345_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19342:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19662:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:22299:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:22619:9: warning: Added loop label VITIS_LOOP_240_1:   [xilinx-label-all-loops]
         for ( int pos = msbr-1; pos >= 0; pos-- ) {
         ^~~
         VITIS_LOOP_240_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19662:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19690:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:22619:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:22647:9: warning: Added loop label VITIS_LOOP_268_2:   [xilinx-label-all-loops]
         for ( int pos = -1; pos >= -F_-1; pos-- ) {
         ^~~
         VITIS_LOOP_268_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:19690:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20392:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:22647:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23349:13: warning: Added loop label VITIS_LOOP_48_1:   [xilinx-label-all-loops]
             for (int j = 0; j < W_-1; j++){
             ^~~
             VITIS_LOOP_48_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20392:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20445:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23349:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23402:5: warning: Added loop label VITIS_LOOP_109_2:   [xilinx-label-all-loops]
     for (int j = F_l+F_+I_m-1; j < F_l+W_+5; j++){
     ^~~
     VITIS_LOOP_109_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20445:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20459:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23402:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23416:13: warning: Added loop label VITIS_LOOP_123_3:   [xilinx-label-all-loops]
             for (int j = WO_m-1; j >= W_-1; j--) {
             ^~~
             VITIS_LOOP_123_3: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20459:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20489:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23416:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23446:13: warning: Added loop label VITIS_LOOP_153_4:   [xilinx-label-all-loops]
             for (int j = W_-2; j >= 0; j--){
             ^~~
             VITIS_LOOP_153_4: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20489:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20574:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23446:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23531:12: warning: Added loop label VITIS_LOOP_281_1:   [xilinx-label-all-loops]
            for(int i = wf_log+we_log-2; i > WI_e - 2; --i) {
            ^~~
            VITIS_LOOP_281_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20574:12: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20594:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23531:12: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23551:16: warning: Added loop label VITIS_LOOP_301_2:   [xilinx-label-all-loops]
                for (int j = WO_e-1; j >= W_-1; j--) {
                ^~~
                VITIS_LOOP_301_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20594:16: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20608:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23551:16: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23565:20: warning: Added loop label VITIS_LOOP_315_3:   [xilinx-label-all-loops]
                    for(int i = 0; i < W_-1; ++i) {
                    ^~~
                    VITIS_LOOP_315_3: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20608:20: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20701:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23565:20: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23658:12: warning: Added loop label VITIS_LOOP_433_1:   [xilinx-label-all-loops]
            for (int j =WO_d-1; j >= W_-1; j--) {
            ^~~
            VITIS_LOOP_433_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20701:12: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20715:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23658:12: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23672:15: warning: Added loop label VITIS_LOOP_447_2:   [xilinx-label-all-loops]
               for(int i = 0; i < W_-1; ++i) {
               ^~~
               VITIS_LOOP_447_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20715:15: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20835:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23672:15: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23792:13: warning: Added loop label VITIS_LOOP_33_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_33_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20835:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20959:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23792:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23916:13: warning: Added loop label VITIS_LOOP_183_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_183_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:20959:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21014:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23916:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23971:13: warning: Added loop label VITIS_LOOP_248_1:   [xilinx-label-all-loops]
             for (int i = 0; i < W_-1; i++){
             ^~~
             VITIS_LOOP_248_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21014:13: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21533:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23971:13: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24490:2: warning: Added loop label VITIS_LOOP_16_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_16_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21533:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21544:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24490:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24501:2: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_27_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21544:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21555:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24501:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24512:2: warning: Added loop label VITIS_LOOP_38_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_38_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21555:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21566:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24512:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24523:2: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_49_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21566:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21577:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24523:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24534:2: warning: Added loop label VITIS_LOOP_60_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_60_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21577:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21588:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24534:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24545:2: warning: Added loop label VITIS_LOOP_71_1:   [xilinx-label-all-loops]
  for (int i=0; i<W_;i++)
  ^~~
  VITIS_LOOP_71_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21588:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21599:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24545:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24556:2: warning: Added loop label VITIS_LOOP_82_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_82_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21599:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21610:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24556:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24567:2: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
  for (int i=0; i<I_;i++)
  ^~~
  VITIS_LOOP_93_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:21610:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23970:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24567:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:26927:12: warning: Added loop label VITIS_LOOP_26_1:   [xilinx-label-all-loops]
            for(int i = 0; i < W_-1; ++i) {
            ^~~
            VITIS_LOOP_26_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:23970:12: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24034:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:26927:12: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:26991:7: warning: Added loop label VITIS_LOOP_40_1:   [xilinx-label-all-loops]
       for(int pos = msbr - 1 ; pos >= -F-1; pos--) {
       ^~~
       VITIS_LOOP_40_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24034:7: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24151:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:26991:7: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:27108:9: warning: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
         for(int pos = msbr - 1; pos >= 0; pos--) {
         ^~~
         VITIS_LOOP_49_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24151:9: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24176:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:27108:9: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:27133:5: warning: Added loop label VITIS_LOOP_81_2:   [xilinx-label-all-loops]
     for(int pos = -1; pos >= -F-1; pos--) {
     ^~~
     VITIS_LOOP_81_2: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24176:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24246:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:27133:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:27203:8: warning: Added loop label VITIS_LOOP_169_3:   [xilinx-label-all-loops]
        for(int i = 0; i < W - 1; ++i) {
        ^~~
        VITIS_LOOP_169_3: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:24246:8: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29454:2: warning: Added loop label VITIS_LOOP_32_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:27203:8: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29447:2: warning: Added loop label VITIS_LOOP_28_1:   [xilinx-label-all-loops]
  for (int i = NTAPS - 1; i > 0; i--) {
  ^~~
- VITIS_LOOP_32_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29454:2: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29492:5: warning: Added loop label VITIS_LOOP_66_1:   [xilinx-label-all-loops]
+ VITIS_LOOP_28_1: 
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29447:2: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29482:5: warning: Added loop label VITIS_LOOP_59_1:   [xilinx-label-all-loops]
     while (1) {
     ^~~~~
-    VITIS_LOOP_66_1: 
-C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29492:5: note: FIX-IT applied suggested code changes
+    VITIS_LOOP_59_1: 
+C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29482:5: note: FIX-IT applied suggested code changes

@@ -1,0 +1,41 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../Coefficients.cpp in debug mode
+   Generating csim.exe
+Filtered output:
+-72
+0
+-73
+2
+-65
+17
+-42
+48
+-6
+83
+23
+103
+30
+96
+9
+66
+-25
+31
+-55
+7
+-70
+0
+-73
+0
+-73
+73
+-73
+73
+-73
+73
+-73
+73
+Testbench finished.
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 32
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

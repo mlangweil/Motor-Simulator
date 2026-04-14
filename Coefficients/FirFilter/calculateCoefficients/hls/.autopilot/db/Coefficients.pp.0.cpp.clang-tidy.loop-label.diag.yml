@@ -1,13 +1,13 @@
 ---
-MainSourceFile:  'C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp'
+MainSourceFile:  'C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp'
 Diagnostics:     
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1223_1:  '
     FileOffset:      1223
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_base.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          802781
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          55315
         Length:          0
         ReplacementText: 'VITIS_LOOP_1223_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -15,8 +15,8 @@ Diagnostics:
     FileOffset:      676
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1030146
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          282680
         Length:          0
         ReplacementText: 'VITIS_LOOP_676_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -24,8 +24,8 @@ Diagnostics:
     FileOffset:      690
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1030610
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          283144
         Length:          0
         ReplacementText: 'VITIS_LOOP_690_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -33,8 +33,8 @@ Diagnostics:
     FileOffset:      704
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1031075
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          283609
         Length:          0
         ReplacementText: 'VITIS_LOOP_704_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -42,8 +42,8 @@ Diagnostics:
     FileOffset:      1247
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_fixed_base.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1314390
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          566924
         Length:          0
         ReplacementText: 'VITIS_LOOP_1247_1: '
   - DiagnosticName:  clang-diagnostic-error
@@ -181,8 +181,8 @@ Diagnostics:
     FileOffset:      61
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1856012
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1227290
         Length:          0
         ReplacementText: 'VITIS_LOOP_61_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -190,8 +190,8 @@ Diagnostics:
     FileOffset:      117
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1856826
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1228104
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -199,8 +199,8 @@ Diagnostics:
     FileOffset:      289
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1859473
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1230751
         Length:          0
         ReplacementText: 'VITIS_LOOP_289_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -208,8 +208,8 @@ Diagnostics:
     FileOffset:      449
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1862196
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1233474
         Length:          0
         ReplacementText: 'VITIS_LOOP_449_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -217,8 +217,8 @@ Diagnostics:
     FileOffset:      629
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1865357
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1236635
         Length:          0
         ReplacementText: 'VITIS_LOOP_629_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -226,8 +226,8 @@ Diagnostics:
     FileOffset:      633
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1865438
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1236716
         Length:          0
         ReplacementText: 'VITIS_LOOP_633_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -235,8 +235,8 @@ Diagnostics:
     FileOffset:      743
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1867747
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1239025
         Length:          0
         ReplacementText: 'VITIS_LOOP_743_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -244,8 +244,8 @@ Diagnostics:
     FileOffset:      840
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1869241
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1240519
         Length:          0
         ReplacementText: 'VITIS_LOOP_840_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -253,8 +253,8 @@ Diagnostics:
     FileOffset:      859
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1869471
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1240749
         Length:          0
         ReplacementText: 'VITIS_LOOP_859_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -262,8 +262,8 @@ Diagnostics:
     FileOffset:      1173
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1875653
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1246931
         Length:          0
         ReplacementText: 'VITIS_LOOP_1173_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -271,8 +271,8 @@ Diagnostics:
     FileOffset:      1256
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1877256
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1248534
         Length:          0
         ReplacementText: 'VITIS_LOOP_1256_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -280,8 +280,8 @@ Diagnostics:
     FileOffset:      68
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1885104
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1256382
         Length:          0
         ReplacementText: 'VITIS_LOOP_68_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -289,8 +289,8 @@ Diagnostics:
     FileOffset:      74
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1885254
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1256532
         Length:          0
         ReplacementText: 'VITIS_LOOP_74_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -298,8 +298,8 @@ Diagnostics:
     FileOffset:      78
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1885351
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1256629
         Length:          0
         ReplacementText: 'VITIS_LOOP_78_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -307,8 +307,8 @@ Diagnostics:
     FileOffset:      145
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1887211
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1258489
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -316,8 +316,8 @@ Diagnostics:
     FileOffset:      151
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1887361
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1258639
         Length:          0
         ReplacementText: 'VITIS_LOOP_151_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -325,8 +325,8 @@ Diagnostics:
     FileOffset:      155
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1887458
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1258736
         Length:          0
         ReplacementText: 'VITIS_LOOP_155_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -334,8 +334,8 @@ Diagnostics:
     FileOffset:      170
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1887839
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1259117
         Length:          0
         ReplacementText: 'VITIS_LOOP_170_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -343,8 +343,8 @@ Diagnostics:
     FileOffset:      178
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1888070
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1259348
         Length:          0
         ReplacementText: 'VITIS_LOOP_178_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -352,8 +352,8 @@ Diagnostics:
     FileOffset:      243
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1891517
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1262795
         Length:          0
         ReplacementText: 'VITIS_LOOP_243_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -361,8 +361,8 @@ Diagnostics:
     FileOffset:      249
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1891669
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1262947
         Length:          0
         ReplacementText: 'VITIS_LOOP_249_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -370,8 +370,8 @@ Diagnostics:
     FileOffset:      253
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1891769
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1263047
         Length:          0
         ReplacementText: 'VITIS_LOOP_253_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -379,8 +379,8 @@ Diagnostics:
     FileOffset:      268
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1892151
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1263429
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -388,8 +388,8 @@ Diagnostics:
     FileOffset:      276
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1892389
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1263667
         Length:          0
         ReplacementText: 'VITIS_LOOP_276_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -397,8 +397,8 @@ Diagnostics:
     FileOffset:      505
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1907944
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1279222
         Length:          0
         ReplacementText: 'VITIS_LOOP_505_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -406,8 +406,8 @@ Diagnostics:
     FileOffset:      511
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1908096
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1279374
         Length:          0
         ReplacementText: 'VITIS_LOOP_511_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -415,8 +415,8 @@ Diagnostics:
     FileOffset:      515
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1908195
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1279473
         Length:          0
         ReplacementText: 'VITIS_LOOP_515_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -424,8 +424,8 @@ Diagnostics:
     FileOffset:      525
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1908372
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1279650
         Length:          0
         ReplacementText: 'VITIS_LOOP_525_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -433,8 +433,8 @@ Diagnostics:
     FileOffset:      529
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1908470
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1279748
         Length:          0
         ReplacementText: 'VITIS_LOOP_529_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -442,8 +442,8 @@ Diagnostics:
     FileOffset:      539
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1908755
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1280033
         Length:          0
         ReplacementText: 'VITIS_LOOP_539_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -451,8 +451,8 @@ Diagnostics:
     FileOffset:      547
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1909010
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1280288
         Length:          0
         ReplacementText: 'VITIS_LOOP_547_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -460,8 +460,8 @@ Diagnostics:
     FileOffset:      908
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1941249
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1312527
         Length:          0
         ReplacementText: 'VITIS_LOOP_908_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -469,8 +469,8 @@ Diagnostics:
     FileOffset:      914
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1941401
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1312679
         Length:          0
         ReplacementText: 'VITIS_LOOP_914_22: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -478,8 +478,8 @@ Diagnostics:
     FileOffset:      918
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1941501
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1312779
         Length:          0
         ReplacementText: 'VITIS_LOOP_918_23: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -487,8 +487,8 @@ Diagnostics:
     FileOffset:      1034
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1944177
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1315455
         Length:          0
         ReplacementText: 'VITIS_LOOP_1034_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -496,8 +496,8 @@ Diagnostics:
     FileOffset:      1040
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1944327
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1315605
         Length:          0
         ReplacementText: 'VITIS_LOOP_1040_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -505,8 +505,8 @@ Diagnostics:
     FileOffset:      1044
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1944425
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1315703
         Length:          0
         ReplacementText: 'VITIS_LOOP_1044_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -514,8 +514,8 @@ Diagnostics:
     FileOffset:      1131
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1947895
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1319173
         Length:          0
         ReplacementText: 'VITIS_LOOP_1131_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -523,8 +523,8 @@ Diagnostics:
     FileOffset:      1137
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1948046
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1319324
         Length:          0
         ReplacementText: 'VITIS_LOOP_1137_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -532,8 +532,8 @@ Diagnostics:
     FileOffset:      1141
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1948145
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1319423
         Length:          0
         ReplacementText: 'VITIS_LOOP_1141_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -541,8 +541,8 @@ Diagnostics:
     FileOffset:      1160
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1948625
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1319903
         Length:          0
         ReplacementText: 'VITIS_LOOP_1160_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -550,8 +550,8 @@ Diagnostics:
     FileOffset:      1167
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1948867
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1320145
         Length:          0
         ReplacementText: 'VITIS_LOOP_1167_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -559,8 +559,8 @@ Diagnostics:
     FileOffset:      1283
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1954439
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1325717
         Length:          0
         ReplacementText: 'VITIS_LOOP_1283_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -568,8 +568,8 @@ Diagnostics:
     FileOffset:      1289
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1954591
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1325869
         Length:          0
         ReplacementText: 'VITIS_LOOP_1289_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -577,8 +577,8 @@ Diagnostics:
     FileOffset:      1293
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1954690
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1325968
         Length:          0
         ReplacementText: 'VITIS_LOOP_1293_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -586,8 +586,8 @@ Diagnostics:
     FileOffset:      1313
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1955199
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1326477
         Length:          0
         ReplacementText: 'VITIS_LOOP_1313_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -595,8 +595,8 @@ Diagnostics:
     FileOffset:      1320
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1955448
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1326726
         Length:          0
         ReplacementText: 'VITIS_LOOP_1320_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -604,8 +604,8 @@ Diagnostics:
     FileOffset:      1582
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1972805
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1344083
         Length:          0
         ReplacementText: 'VITIS_LOOP_1582_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -613,8 +613,8 @@ Diagnostics:
     FileOffset:      1588
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1972957
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1344235
         Length:          0
         ReplacementText: 'VITIS_LOOP_1588_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -622,8 +622,8 @@ Diagnostics:
     FileOffset:      1592
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1973057
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1344335
         Length:          0
         ReplacementText: 'VITIS_LOOP_1592_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -631,8 +631,8 @@ Diagnostics:
     FileOffset:      1616
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1973531
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1344809
         Length:          0
         ReplacementText: 'VITIS_LOOP_1616_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -640,8 +640,8 @@ Diagnostics:
     FileOffset:      1623
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          1973798
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1345076
         Length:          0
         ReplacementText: 'VITIS_LOOP_1623_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -649,8 +649,8 @@ Diagnostics:
     FileOffset:      2053
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2012369
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1383647
         Length:          0
         ReplacementText: 'VITIS_LOOP_2053_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -658,8 +658,8 @@ Diagnostics:
     FileOffset:      2059
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2012521
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1383799
         Length:          0
         ReplacementText: 'VITIS_LOOP_2059_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -667,8 +667,8 @@ Diagnostics:
     FileOffset:      2063
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2012621
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1383899
         Length:          0
         ReplacementText: 'VITIS_LOOP_2063_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -676,8 +676,8 @@ Diagnostics:
     FileOffset:      2193
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2015241
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1386519
         Length:          0
         ReplacementText: 'VITIS_LOOP_2193_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -685,8 +685,8 @@ Diagnostics:
     FileOffset:      2200
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2015404
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1386682
         Length:          0
         ReplacementText: 'VITIS_LOOP_2200_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -694,8 +694,8 @@ Diagnostics:
     FileOffset:      2204
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2015496
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1386774
         Length:          0
         ReplacementText: 'VITIS_LOOP_2204_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -703,8 +703,8 @@ Diagnostics:
     FileOffset:      2251
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2017105
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1388383
         Length:          0
         ReplacementText: 'VITIS_LOOP_2251_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -712,8 +712,8 @@ Diagnostics:
     FileOffset:      2258
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2017267
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1388545
         Length:          0
         ReplacementText: 'VITIS_LOOP_2258_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -721,8 +721,8 @@ Diagnostics:
     FileOffset:      2262
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2017359
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1388637
         Length:          0
         ReplacementText: 'VITIS_LOOP_2262_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -730,8 +730,8 @@ Diagnostics:
     FileOffset:      2280
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2017732
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1389010
         Length:          0
         ReplacementText: 'VITIS_LOOP_2280_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -739,8 +739,8 @@ Diagnostics:
     FileOffset:      2335
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2020198
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1391476
         Length:          0
         ReplacementText: 'VITIS_LOOP_2335_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -748,8 +748,8 @@ Diagnostics:
     FileOffset:      2342
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2020365
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1391643
         Length:          0
         ReplacementText: 'VITIS_LOOP_2342_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -757,8 +757,8 @@ Diagnostics:
     FileOffset:      2346
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2020458
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1391736
         Length:          0
         ReplacementText: 'VITIS_LOOP_2346_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -766,8 +766,8 @@ Diagnostics:
     FileOffset:      2364
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2020839
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1392117
         Length:          0
         ReplacementText: 'VITIS_LOOP_2364_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -775,8 +775,8 @@ Diagnostics:
     FileOffset:      2453
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2026280
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1397558
         Length:          0
         ReplacementText: 'VITIS_LOOP_2453_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -784,8 +784,8 @@ Diagnostics:
     FileOffset:      2460
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2026448
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1397726
         Length:          0
         ReplacementText: 'VITIS_LOOP_2460_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -793,8 +793,8 @@ Diagnostics:
     FileOffset:      2464
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2026542
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1397820
         Length:          0
         ReplacementText: 'VITIS_LOOP_2464_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -802,8 +802,8 @@ Diagnostics:
     FileOffset:      2474
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2026713
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1397991
         Length:          0
         ReplacementText: 'VITIS_LOOP_2474_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -811,8 +811,8 @@ Diagnostics:
     FileOffset:      2478
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2026804
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1398082
         Length:          0
         ReplacementText: 'VITIS_LOOP_2478_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -820,8 +820,8 @@ Diagnostics:
     FileOffset:      2489
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2027086
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1398364
         Length:          0
         ReplacementText: 'VITIS_LOOP_2489_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -829,8 +829,8 @@ Diagnostics:
     FileOffset:      2497
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2027273
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1398551
         Length:          0
         ReplacementText: 'VITIS_LOOP_2497_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -838,8 +838,8 @@ Diagnostics:
     FileOffset:      2822
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2061743
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1433021
         Length:          0
         ReplacementText: 'VITIS_LOOP_2822_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -847,8 +847,8 @@ Diagnostics:
     FileOffset:      2829
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2061911
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1433189
         Length:          0
         ReplacementText: 'VITIS_LOOP_2829_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -856,8 +856,8 @@ Diagnostics:
     FileOffset:      2833
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2062005
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1433283
         Length:          0
         ReplacementText: 'VITIS_LOOP_2833_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -865,8 +865,8 @@ Diagnostics:
     FileOffset:      2921
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2063807
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1435085
         Length:          0
         ReplacementText: 'VITIS_LOOP_2921_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -874,8 +874,8 @@ Diagnostics:
     FileOffset:      2928
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2063915
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1435193
         Length:          0
         ReplacementText: 'VITIS_LOOP_2928_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -883,8 +883,8 @@ Diagnostics:
     FileOffset:      2932
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2063986
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1435264
         Length:          0
         ReplacementText: 'VITIS_LOOP_2932_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -892,8 +892,8 @@ Diagnostics:
     FileOffset:      2947
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2064274
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1435552
         Length:          0
         ReplacementText: 'VITIS_LOOP_2947_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -901,8 +901,8 @@ Diagnostics:
     FileOffset:      2979
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2065488
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1436766
         Length:          0
         ReplacementText: 'VITIS_LOOP_2979_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -910,8 +910,8 @@ Diagnostics:
     FileOffset:      2986
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2065599
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1436877
         Length:          0
         ReplacementText: 'VITIS_LOOP_2986_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -919,8 +919,8 @@ Diagnostics:
     FileOffset:      2990
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2065672
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1436950
         Length:          0
         ReplacementText: 'VITIS_LOOP_2990_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -928,8 +928,8 @@ Diagnostics:
     FileOffset:      3005
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2065967
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1437245
         Length:          0
         ReplacementText: 'VITIS_LOOP_3005_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -937,8 +937,8 @@ Diagnostics:
     FileOffset:      3055
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2069300
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1440578
         Length:          0
         ReplacementText: 'VITIS_LOOP_3055_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -946,8 +946,8 @@ Diagnostics:
     FileOffset:      3062
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2069411
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1440689
         Length:          0
         ReplacementText: 'VITIS_LOOP_3062_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -955,8 +955,8 @@ Diagnostics:
     FileOffset:      3066
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2069484
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1440762
         Length:          0
         ReplacementText: 'VITIS_LOOP_3066_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -964,8 +964,8 @@ Diagnostics:
     FileOffset:      3081
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2069780
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1441058
         Length:          0
         ReplacementText: 'VITIS_LOOP_3081_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -973,8 +973,8 @@ Diagnostics:
     FileOffset:      3218
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2089092
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1460370
         Length:          0
         ReplacementText: 'VITIS_LOOP_3218_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -982,8 +982,8 @@ Diagnostics:
     FileOffset:      3225
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2089206
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1460484
         Length:          0
         ReplacementText: 'VITIS_LOOP_3225_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -991,8 +991,8 @@ Diagnostics:
     FileOffset:      3229
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2089281
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1460559
         Length:          0
         ReplacementText: 'VITIS_LOOP_3229_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1000,8 +1000,8 @@ Diagnostics:
     FileOffset:      3244
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2089568
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1460846
         Length:          0
         ReplacementText: 'VITIS_LOOP_3244_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1009,8 +1009,8 @@ Diagnostics:
     FileOffset:      3404
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2115178
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1486456
         Length:          0
         ReplacementText: 'VITIS_LOOP_3404_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1018,8 +1018,8 @@ Diagnostics:
     FileOffset:      3411
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2115292
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1486570
         Length:          0
         ReplacementText: 'VITIS_LOOP_3411_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1027,8 +1027,8 @@ Diagnostics:
     FileOffset:      3415
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2115369
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1486647
         Length:          0
         ReplacementText: 'VITIS_LOOP_3415_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1036,8 +1036,8 @@ Diagnostics:
     FileOffset:      703
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2149437
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1520715
         Length:          0
         ReplacementText: 'VITIS_LOOP_703_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1045,8 +1045,8 @@ Diagnostics:
     FileOffset:      921
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2157826
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1529104
         Length:          0
         ReplacementText: 'VITIS_LOOP_921_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1054,8 +1054,8 @@ Diagnostics:
     FileOffset:      1345
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2176799
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1548077
         Length:          0
         ReplacementText: 'VITIS_LOOP_1345_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1063,8 +1063,8 @@ Diagnostics:
     FileOffset:      240
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2191655
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1562933
         Length:          0
         ReplacementText: 'VITIS_LOOP_240_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1072,8 +1072,8 @@ Diagnostics:
     FileOffset:      268
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2192176
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1563454
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1081,8 +1081,8 @@ Diagnostics:
     FileOffset:      48
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2208090
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1579368
         Length:          0
         ReplacementText: 'VITIS_LOOP_48_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1090,8 +1090,8 @@ Diagnostics:
     FileOffset:      109
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2209240
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1580518
         Length:          0
         ReplacementText: 'VITIS_LOOP_109_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1099,8 +1099,8 @@ Diagnostics:
     FileOffset:      123
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2209549
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1580827
         Length:          0
         ReplacementText: 'VITIS_LOOP_123_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1108,8 +1108,8 @@ Diagnostics:
     FileOffset:      153
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2210059
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1581337
         Length:          0
         ReplacementText: 'VITIS_LOOP_153_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1117,8 +1117,8 @@ Diagnostics:
     FileOffset:      281
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2211973
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1583251
         Length:          0
         ReplacementText: 'VITIS_LOOP_281_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1126,8 +1126,8 @@ Diagnostics:
     FileOffset:      301
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2212338
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1583616
         Length:          0
         ReplacementText: 'VITIS_LOOP_301_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1135,8 +1135,8 @@ Diagnostics:
     FileOffset:      315
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2212646
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1583924
         Length:          0
         ReplacementText: 'VITIS_LOOP_315_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1144,8 +1144,8 @@ Diagnostics:
     FileOffset:      433
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2214474
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1585752
         Length:          0
         ReplacementText: 'VITIS_LOOP_433_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1153,8 +1153,8 @@ Diagnostics:
     FileOffset:      447
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2214799
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1586077
         Length:          0
         ReplacementText: 'VITIS_LOOP_447_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1162,8 +1162,8 @@ Diagnostics:
     FileOffset:      33
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2217452
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1588730
         Length:          0
         ReplacementText: 'VITIS_LOOP_33_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1171,8 +1171,8 @@ Diagnostics:
     FileOffset:      183
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2220344
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1591622
         Length:          0
         ReplacementText: 'VITIS_LOOP_183_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1180,8 +1180,8 @@ Diagnostics:
     FileOffset:      248
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2221631
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1592909
         Length:          0
         ReplacementText: 'VITIS_LOOP_248_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1189,8 +1189,8 @@ Diagnostics:
     FileOffset:      16
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2232530
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1603808
         Length:          0
         ReplacementText: 'VITIS_LOOP_16_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1198,8 +1198,8 @@ Diagnostics:
     FileOffset:      27
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2232705
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1603983
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1207,8 +1207,8 @@ Diagnostics:
     FileOffset:      38
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2232866
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1604144
         Length:          0
         ReplacementText: 'VITIS_LOOP_38_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1216,8 +1216,8 @@ Diagnostics:
     FileOffset:      49
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2233028
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1604306
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1225,8 +1225,8 @@ Diagnostics:
     FileOffset:      60
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2233202
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1604480
         Length:          0
         ReplacementText: 'VITIS_LOOP_60_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1234,8 +1234,8 @@ Diagnostics:
     FileOffset:      71
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2233377
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1604655
         Length:          0
         ReplacementText: 'VITIS_LOOP_71_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1243,8 +1243,8 @@ Diagnostics:
     FileOffset:      82
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2233538
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1604816
         Length:          0
         ReplacementText: 'VITIS_LOOP_82_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1252,8 +1252,8 @@ Diagnostics:
     FileOffset:      93
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2233700
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1604978
         Length:          0
         ReplacementText: 'VITIS_LOOP_93_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1261,8 +1261,8 @@ Diagnostics:
     FileOffset:      26
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_mad_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2305190
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1676468
         Length:          0
         ReplacementText: 'VITIS_LOOP_26_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1270,8 +1270,8 @@ Diagnostics:
     FileOffset:      40
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cbrt_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2306934
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1678212
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1279,8 +1279,8 @@ Diagnostics:
     FileOffset:      49
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2311441
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1682719
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1288,8 +1288,8 @@ Diagnostics:
     FileOffset:      81
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2312172
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1683450
         Length:          0
         ReplacementText: 'VITIS_LOOP_81_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1297,17 +1297,44 @@ Diagnostics:
     FileOffset:      169
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2313857
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          1685135
         Length:          0
         ReplacementText: 'VITIS_LOOP_169_3: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_22_1:  '
-    FileOffset:      22
+    Message:         'Added loop label VITIS_LOOP_13_1:  '
+    FileOffset:      13
     FilePath:        Coefficients.cpp
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2367335
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          2390920
         Length:          0
-        ReplacementText: 'VITIS_LOOP_22_1: '
+        ReplacementText: 'VITIS_LOOP_13_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_2:  '
+    FileOffset:      31
+    FilePath:        Coefficients.cpp
+    Replacements:    
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          2391297
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_1:  '
+    FileOffset:      82
+    FilePath:        Coefficients.cpp
+    Replacements:    
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          2392230
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_2:  '
+    FileOffset:      102
+    FilePath:        Coefficients.cpp
+    Replacements:    
+      - FilePath:        'C:\Motor-Simulator-main\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
+        Offset:          2392621
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_2: '
 ...

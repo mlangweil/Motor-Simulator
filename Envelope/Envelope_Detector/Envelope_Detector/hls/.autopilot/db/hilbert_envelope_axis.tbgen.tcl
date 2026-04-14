@@ -96,7 +96,7 @@ set NewPortList {[
  	{ "name": "out_stream_TDEST", "direction": "out", "datatype": "sc_lv", "bitwidth":6, "type": "signal", "bundle":{"name": "out_stream_V_dest_V", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"],
 		"CDFG" : "hilbert_envelope_axis",
 		"Protocol" : "ap_ctrl_none",
 		"ControlExist" : "0", "ap_start" : "0", "ap_ready" : "0", "ap_done" : "0", "ap_continue" : "0", "ap_idle" : "0", "real_start" : "0",
@@ -129,37 +129,53 @@ set RtlHierarchyInfo {[
 			{"Name" : "out_stream_V_last_V", "Type" : "Axis", "Direction" : "O", "BaseName" : "out_stream"},
 			{"Name" : "out_stream_V_id_V", "Type" : "Axis", "Direction" : "O", "BaseName" : "out_stream"},
 			{"Name" : "out_stream_V_dest_V", "Type" : "Axis", "Direction" : "O", "BaseName" : "out_stream"},
-			{"Name" : "p_ZZL7hilbertxRxE1x_11", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZL7hilbertxRxE1x_12", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZL7hilbertxRxE1x_10", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_9", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_8", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_7", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_6", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_5", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_4", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_3", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_2", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x_1", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "hilbert_long_long_long_long_x", "Type" : "OVld", "Direction" : "IO"}],
+			{"Name" : "p_ZZL7hilbertiRiE1x_23", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_22", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_21", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_20", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_19", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_18", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_17", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_16", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_15", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_14", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_13", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_12", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_11", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZL7hilbertiRiE1x_10", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_9", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_8", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_7", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_6", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_5", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_4", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_3", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_2", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x_1", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "hilbert_int_int_x", "Type" : "OVld", "Direction" : "IO"}],
 		"Loop" : [
-			{"Name" : "VITIS_LOOP_66_1", "PipelineType" : "UPC",
-				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "0", "has_continue" : "0"}}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_no_ap_cont_U", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_data_V_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_keep_V_U", "Parent" : "0"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_strb_V_U", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_user_V_U", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_last_V_U", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_id_V_U", "Parent" : "0"},
-	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_dest_V_U", "Parent" : "0"},
-	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_data_V_U", "Parent" : "0"},
-	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_keep_V_U", "Parent" : "0"},
-	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_strb_V_U", "Parent" : "0"},
-	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_user_V_U", "Parent" : "0"},
-	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_last_V_U", "Parent" : "0"},
-	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_id_V_U", "Parent" : "0"},
-	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_dest_V_U", "Parent" : "0"}]}
+			{"Name" : "VITIS_LOOP_59_1", "PipelineType" : "UPC",
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter16", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter16", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "0", "has_continue" : "0"}}]},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sitofp_64ns_32_4_no_dsp_1_U1", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.fsqrt_32ns_32ns_32_8_no_dsp_1_U2", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_32s_32s_64_1_1_U3", "Parent" : "0"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_35s_35s_64_1_1_U4", "Parent" : "0"},
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_46s_48ns_93_1_1_U5", "Parent" : "0"},
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_no_ap_cont_U", "Parent" : "0"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_data_V_U", "Parent" : "0"},
+	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_keep_V_U", "Parent" : "0"},
+	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_strb_V_U", "Parent" : "0"},
+	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_user_V_U", "Parent" : "0"},
+	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_last_V_U", "Parent" : "0"},
+	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_id_V_U", "Parent" : "0"},
+	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_in_stream_V_dest_V_U", "Parent" : "0"},
+	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_data_V_U", "Parent" : "0"},
+	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_keep_V_U", "Parent" : "0"},
+	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_strb_V_U", "Parent" : "0"},
+	{"ID" : "17", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_user_V_U", "Parent" : "0"},
+	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_last_V_U", "Parent" : "0"},
+	{"ID" : "19", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_id_V_U", "Parent" : "0"},
+	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_out_stream_V_dest_V_U", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -171,26 +187,37 @@ set ArgLastReadFirstWriteLatency {
 		in_stream_V_last_V {Type I LastRead 0 FirstWrite -1}
 		in_stream_V_id_V {Type I LastRead 0 FirstWrite -1}
 		in_stream_V_dest_V {Type I LastRead 0 FirstWrite -1}
-		out_stream_V_data_V {Type O LastRead -1 FirstWrite 0}
-		out_stream_V_keep_V {Type O LastRead -1 FirstWrite 0}
-		out_stream_V_strb_V {Type O LastRead -1 FirstWrite 0}
-		out_stream_V_user_V {Type O LastRead -1 FirstWrite 0}
-		out_stream_V_last_V {Type O LastRead -1 FirstWrite 0}
-		out_stream_V_id_V {Type O LastRead -1 FirstWrite 0}
-		out_stream_V_dest_V {Type O LastRead -1 FirstWrite 0}
-		p_ZZL7hilbertxRxE1x_11 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZL7hilbertxRxE1x_12 {Type O LastRead -1 FirstWrite -1}
-		p_ZZL7hilbertxRxE1x_10 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_9 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_8 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_7 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_6 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_5 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_4 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_3 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_2 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x_1 {Type IO LastRead -1 FirstWrite -1}
-		hilbert_long_long_long_long_x {Type IO LastRead -1 FirstWrite -1}}}
+		out_stream_V_data_V {Type O LastRead -1 FirstWrite 15}
+		out_stream_V_keep_V {Type O LastRead -1 FirstWrite 15}
+		out_stream_V_strb_V {Type O LastRead -1 FirstWrite 15}
+		out_stream_V_user_V {Type O LastRead -1 FirstWrite 15}
+		out_stream_V_last_V {Type O LastRead -1 FirstWrite 15}
+		out_stream_V_id_V {Type O LastRead -1 FirstWrite 15}
+		out_stream_V_dest_V {Type O LastRead -1 FirstWrite 15}
+		p_ZZL7hilbertiRiE1x_23 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_22 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_21 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_20 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_19 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_18 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_17 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_16 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_15 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_14 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_13 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_12 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_11 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZL7hilbertiRiE1x_10 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_9 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_8 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_7 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_6 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_5 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_4 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_3 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_2 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x_1 {Type IO LastRead -1 FirstWrite -1}
+		hilbert_int_int_x {Type IO LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 

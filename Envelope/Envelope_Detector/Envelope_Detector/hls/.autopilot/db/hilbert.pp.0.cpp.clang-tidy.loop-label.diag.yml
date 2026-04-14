@@ -1,13 +1,13 @@
 ---
-MainSourceFile:  'C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp'
+MainSourceFile:  'C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp'
 Diagnostics:     
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1223_1:  '
     FileOffset:      1223
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_base.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          55377
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          55279
         Length:          0
         ReplacementText: 'VITIS_LOOP_1223_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -15,8 +15,8 @@ Diagnostics:
     FileOffset:      676
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          282743
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          282644
         Length:          0
         ReplacementText: 'VITIS_LOOP_676_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -24,8 +24,8 @@ Diagnostics:
     FileOffset:      690
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          283207
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          283108
         Length:          0
         ReplacementText: 'VITIS_LOOP_690_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -33,8 +33,8 @@ Diagnostics:
     FileOffset:      704
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          283672
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          283573
         Length:          0
         ReplacementText: 'VITIS_LOOP_704_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -42,8 +42,8 @@ Diagnostics:
     FileOffset:      1247
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_fixed_base.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          566596
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          566888
         Length:          0
         ReplacementText: 'VITIS_LOOP_1247_1: '
   - DiagnosticName:  clang-diagnostic-error
@@ -181,8 +181,8 @@ Diagnostics:
     FileOffset:      61
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1144851
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1227342
         Length:          0
         ReplacementText: 'VITIS_LOOP_61_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -190,8 +190,8 @@ Diagnostics:
     FileOffset:      117
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1145665
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1228156
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -199,8 +199,8 @@ Diagnostics:
     FileOffset:      289
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1148312
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1230803
         Length:          0
         ReplacementText: 'VITIS_LOOP_289_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -208,8 +208,8 @@ Diagnostics:
     FileOffset:      449
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1151035
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1233526
         Length:          0
         ReplacementText: 'VITIS_LOOP_449_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -217,8 +217,8 @@ Diagnostics:
     FileOffset:      629
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1154196
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1236687
         Length:          0
         ReplacementText: 'VITIS_LOOP_629_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -226,8 +226,8 @@ Diagnostics:
     FileOffset:      633
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1154277
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1236768
         Length:          0
         ReplacementText: 'VITIS_LOOP_633_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -235,8 +235,8 @@ Diagnostics:
     FileOffset:      743
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1156586
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1239077
         Length:          0
         ReplacementText: 'VITIS_LOOP_743_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -244,8 +244,8 @@ Diagnostics:
     FileOffset:      840
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1158080
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1240571
         Length:          0
         ReplacementText: 'VITIS_LOOP_840_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -253,8 +253,8 @@ Diagnostics:
     FileOffset:      859
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1158310
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1240801
         Length:          0
         ReplacementText: 'VITIS_LOOP_859_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -262,8 +262,8 @@ Diagnostics:
     FileOffset:      1173
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1164492
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1246983
         Length:          0
         ReplacementText: 'VITIS_LOOP_1173_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -271,8 +271,8 @@ Diagnostics:
     FileOffset:      1256
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1166095
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1248586
         Length:          0
         ReplacementText: 'VITIS_LOOP_1256_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -280,8 +280,8 @@ Diagnostics:
     FileOffset:      68
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1173943
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1256434
         Length:          0
         ReplacementText: 'VITIS_LOOP_68_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -289,8 +289,8 @@ Diagnostics:
     FileOffset:      74
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1174093
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1256584
         Length:          0
         ReplacementText: 'VITIS_LOOP_74_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -298,8 +298,8 @@ Diagnostics:
     FileOffset:      78
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1174190
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1256681
         Length:          0
         ReplacementText: 'VITIS_LOOP_78_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -307,8 +307,8 @@ Diagnostics:
     FileOffset:      145
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1176050
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1258541
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -316,8 +316,8 @@ Diagnostics:
     FileOffset:      151
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1176200
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1258691
         Length:          0
         ReplacementText: 'VITIS_LOOP_151_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -325,8 +325,8 @@ Diagnostics:
     FileOffset:      155
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1176297
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1258788
         Length:          0
         ReplacementText: 'VITIS_LOOP_155_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -334,8 +334,8 @@ Diagnostics:
     FileOffset:      170
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1176678
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1259169
         Length:          0
         ReplacementText: 'VITIS_LOOP_170_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -343,8 +343,8 @@ Diagnostics:
     FileOffset:      178
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1176909
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1259400
         Length:          0
         ReplacementText: 'VITIS_LOOP_178_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -352,8 +352,8 @@ Diagnostics:
     FileOffset:      243
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1180356
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1262847
         Length:          0
         ReplacementText: 'VITIS_LOOP_243_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -361,8 +361,8 @@ Diagnostics:
     FileOffset:      249
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1180508
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1262999
         Length:          0
         ReplacementText: 'VITIS_LOOP_249_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -370,8 +370,8 @@ Diagnostics:
     FileOffset:      253
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1180608
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1263099
         Length:          0
         ReplacementText: 'VITIS_LOOP_253_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -379,8 +379,8 @@ Diagnostics:
     FileOffset:      268
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1180990
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1263481
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -388,8 +388,8 @@ Diagnostics:
     FileOffset:      276
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1181228
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1263719
         Length:          0
         ReplacementText: 'VITIS_LOOP_276_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -397,8 +397,8 @@ Diagnostics:
     FileOffset:      505
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1196783
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1279274
         Length:          0
         ReplacementText: 'VITIS_LOOP_505_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -406,8 +406,8 @@ Diagnostics:
     FileOffset:      511
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1196935
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1279426
         Length:          0
         ReplacementText: 'VITIS_LOOP_511_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -415,8 +415,8 @@ Diagnostics:
     FileOffset:      515
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1197034
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1279525
         Length:          0
         ReplacementText: 'VITIS_LOOP_515_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -424,8 +424,8 @@ Diagnostics:
     FileOffset:      525
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1197211
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1279702
         Length:          0
         ReplacementText: 'VITIS_LOOP_525_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -433,8 +433,8 @@ Diagnostics:
     FileOffset:      529
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1197309
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1279800
         Length:          0
         ReplacementText: 'VITIS_LOOP_529_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -442,8 +442,8 @@ Diagnostics:
     FileOffset:      539
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1197594
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1280085
         Length:          0
         ReplacementText: 'VITIS_LOOP_539_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -451,8 +451,8 @@ Diagnostics:
     FileOffset:      547
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1197849
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1280340
         Length:          0
         ReplacementText: 'VITIS_LOOP_547_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -460,8 +460,8 @@ Diagnostics:
     FileOffset:      908
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1230088
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1312579
         Length:          0
         ReplacementText: 'VITIS_LOOP_908_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -469,8 +469,8 @@ Diagnostics:
     FileOffset:      914
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1230240
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1312731
         Length:          0
         ReplacementText: 'VITIS_LOOP_914_22: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -478,8 +478,8 @@ Diagnostics:
     FileOffset:      918
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1230340
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1312831
         Length:          0
         ReplacementText: 'VITIS_LOOP_918_23: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -487,8 +487,8 @@ Diagnostics:
     FileOffset:      1034
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1233016
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1315507
         Length:          0
         ReplacementText: 'VITIS_LOOP_1034_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -496,8 +496,8 @@ Diagnostics:
     FileOffset:      1040
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1233166
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1315657
         Length:          0
         ReplacementText: 'VITIS_LOOP_1040_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -505,8 +505,8 @@ Diagnostics:
     FileOffset:      1044
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1233264
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1315755
         Length:          0
         ReplacementText: 'VITIS_LOOP_1044_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -514,8 +514,8 @@ Diagnostics:
     FileOffset:      1131
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1236734
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1319225
         Length:          0
         ReplacementText: 'VITIS_LOOP_1131_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -523,8 +523,8 @@ Diagnostics:
     FileOffset:      1137
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1236885
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1319376
         Length:          0
         ReplacementText: 'VITIS_LOOP_1137_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -532,8 +532,8 @@ Diagnostics:
     FileOffset:      1141
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1236984
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1319475
         Length:          0
         ReplacementText: 'VITIS_LOOP_1141_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -541,8 +541,8 @@ Diagnostics:
     FileOffset:      1160
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1237464
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1319955
         Length:          0
         ReplacementText: 'VITIS_LOOP_1160_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -550,8 +550,8 @@ Diagnostics:
     FileOffset:      1167
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1237706
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1320197
         Length:          0
         ReplacementText: 'VITIS_LOOP_1167_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -559,8 +559,8 @@ Diagnostics:
     FileOffset:      1283
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1243278
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1325769
         Length:          0
         ReplacementText: 'VITIS_LOOP_1283_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -568,8 +568,8 @@ Diagnostics:
     FileOffset:      1289
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1243430
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1325921
         Length:          0
         ReplacementText: 'VITIS_LOOP_1289_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -577,8 +577,8 @@ Diagnostics:
     FileOffset:      1293
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1243529
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1326020
         Length:          0
         ReplacementText: 'VITIS_LOOP_1293_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -586,8 +586,8 @@ Diagnostics:
     FileOffset:      1313
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1244038
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1326529
         Length:          0
         ReplacementText: 'VITIS_LOOP_1313_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -595,8 +595,8 @@ Diagnostics:
     FileOffset:      1320
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1244287
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1326778
         Length:          0
         ReplacementText: 'VITIS_LOOP_1320_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -604,8 +604,8 @@ Diagnostics:
     FileOffset:      1582
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1261644
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1344135
         Length:          0
         ReplacementText: 'VITIS_LOOP_1582_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -613,8 +613,8 @@ Diagnostics:
     FileOffset:      1588
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1261796
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1344287
         Length:          0
         ReplacementText: 'VITIS_LOOP_1588_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -622,8 +622,8 @@ Diagnostics:
     FileOffset:      1592
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1261896
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1344387
         Length:          0
         ReplacementText: 'VITIS_LOOP_1592_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -631,8 +631,8 @@ Diagnostics:
     FileOffset:      1616
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1262370
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1344861
         Length:          0
         ReplacementText: 'VITIS_LOOP_1616_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -640,8 +640,8 @@ Diagnostics:
     FileOffset:      1623
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1262637
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1345128
         Length:          0
         ReplacementText: 'VITIS_LOOP_1623_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -649,8 +649,8 @@ Diagnostics:
     FileOffset:      2053
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1301208
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1383699
         Length:          0
         ReplacementText: 'VITIS_LOOP_2053_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -658,8 +658,8 @@ Diagnostics:
     FileOffset:      2059
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1301360
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1383851
         Length:          0
         ReplacementText: 'VITIS_LOOP_2059_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -667,8 +667,8 @@ Diagnostics:
     FileOffset:      2063
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1301460
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1383951
         Length:          0
         ReplacementText: 'VITIS_LOOP_2063_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -676,8 +676,8 @@ Diagnostics:
     FileOffset:      2193
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1304080
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1386571
         Length:          0
         ReplacementText: 'VITIS_LOOP_2193_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -685,8 +685,8 @@ Diagnostics:
     FileOffset:      2200
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1304243
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1386734
         Length:          0
         ReplacementText: 'VITIS_LOOP_2200_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -694,8 +694,8 @@ Diagnostics:
     FileOffset:      2204
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1304335
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1386826
         Length:          0
         ReplacementText: 'VITIS_LOOP_2204_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -703,8 +703,8 @@ Diagnostics:
     FileOffset:      2251
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1305944
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1388435
         Length:          0
         ReplacementText: 'VITIS_LOOP_2251_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -712,8 +712,8 @@ Diagnostics:
     FileOffset:      2258
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1306106
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1388597
         Length:          0
         ReplacementText: 'VITIS_LOOP_2258_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -721,8 +721,8 @@ Diagnostics:
     FileOffset:      2262
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1306198
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1388689
         Length:          0
         ReplacementText: 'VITIS_LOOP_2262_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -730,8 +730,8 @@ Diagnostics:
     FileOffset:      2280
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1306571
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1389062
         Length:          0
         ReplacementText: 'VITIS_LOOP_2280_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -739,8 +739,8 @@ Diagnostics:
     FileOffset:      2335
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1309037
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1391528
         Length:          0
         ReplacementText: 'VITIS_LOOP_2335_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -748,8 +748,8 @@ Diagnostics:
     FileOffset:      2342
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1309204
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1391695
         Length:          0
         ReplacementText: 'VITIS_LOOP_2342_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -757,8 +757,8 @@ Diagnostics:
     FileOffset:      2346
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1309297
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1391788
         Length:          0
         ReplacementText: 'VITIS_LOOP_2346_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -766,8 +766,8 @@ Diagnostics:
     FileOffset:      2364
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1309678
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1392169
         Length:          0
         ReplacementText: 'VITIS_LOOP_2364_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -775,8 +775,8 @@ Diagnostics:
     FileOffset:      2453
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1315119
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1397610
         Length:          0
         ReplacementText: 'VITIS_LOOP_2453_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -784,8 +784,8 @@ Diagnostics:
     FileOffset:      2460
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1315287
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1397778
         Length:          0
         ReplacementText: 'VITIS_LOOP_2460_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -793,8 +793,8 @@ Diagnostics:
     FileOffset:      2464
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1315381
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1397872
         Length:          0
         ReplacementText: 'VITIS_LOOP_2464_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -802,8 +802,8 @@ Diagnostics:
     FileOffset:      2474
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1315552
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1398043
         Length:          0
         ReplacementText: 'VITIS_LOOP_2474_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -811,8 +811,8 @@ Diagnostics:
     FileOffset:      2478
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1315643
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1398134
         Length:          0
         ReplacementText: 'VITIS_LOOP_2478_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -820,8 +820,8 @@ Diagnostics:
     FileOffset:      2489
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1315925
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1398416
         Length:          0
         ReplacementText: 'VITIS_LOOP_2489_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -829,8 +829,8 @@ Diagnostics:
     FileOffset:      2497
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1316112
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1398603
         Length:          0
         ReplacementText: 'VITIS_LOOP_2497_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -838,8 +838,8 @@ Diagnostics:
     FileOffset:      2822
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1350582
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1433073
         Length:          0
         ReplacementText: 'VITIS_LOOP_2822_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -847,8 +847,8 @@ Diagnostics:
     FileOffset:      2829
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1350750
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1433241
         Length:          0
         ReplacementText: 'VITIS_LOOP_2829_20: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -856,8 +856,8 @@ Diagnostics:
     FileOffset:      2833
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1350844
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1433335
         Length:          0
         ReplacementText: 'VITIS_LOOP_2833_21: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -865,8 +865,8 @@ Diagnostics:
     FileOffset:      2921
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1352646
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1435137
         Length:          0
         ReplacementText: 'VITIS_LOOP_2921_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -874,8 +874,8 @@ Diagnostics:
     FileOffset:      2928
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1352754
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1435245
         Length:          0
         ReplacementText: 'VITIS_LOOP_2928_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -883,8 +883,8 @@ Diagnostics:
     FileOffset:      2932
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1352825
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1435316
         Length:          0
         ReplacementText: 'VITIS_LOOP_2932_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -892,8 +892,8 @@ Diagnostics:
     FileOffset:      2947
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1353113
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1435604
         Length:          0
         ReplacementText: 'VITIS_LOOP_2947_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -901,8 +901,8 @@ Diagnostics:
     FileOffset:      2979
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1354327
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1436818
         Length:          0
         ReplacementText: 'VITIS_LOOP_2979_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -910,8 +910,8 @@ Diagnostics:
     FileOffset:      2986
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1354438
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1436929
         Length:          0
         ReplacementText: 'VITIS_LOOP_2986_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -919,8 +919,8 @@ Diagnostics:
     FileOffset:      2990
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1354511
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1437002
         Length:          0
         ReplacementText: 'VITIS_LOOP_2990_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -928,8 +928,8 @@ Diagnostics:
     FileOffset:      3005
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1354806
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1437297
         Length:          0
         ReplacementText: 'VITIS_LOOP_3005_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -937,8 +937,8 @@ Diagnostics:
     FileOffset:      3055
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1358139
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1440630
         Length:          0
         ReplacementText: 'VITIS_LOOP_3055_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -946,8 +946,8 @@ Diagnostics:
     FileOffset:      3062
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1358250
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1440741
         Length:          0
         ReplacementText: 'VITIS_LOOP_3062_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -955,8 +955,8 @@ Diagnostics:
     FileOffset:      3066
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1358323
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1440814
         Length:          0
         ReplacementText: 'VITIS_LOOP_3066_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -964,8 +964,8 @@ Diagnostics:
     FileOffset:      3081
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1358619
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1441110
         Length:          0
         ReplacementText: 'VITIS_LOOP_3081_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -973,8 +973,8 @@ Diagnostics:
     FileOffset:      3218
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1377931
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1460422
         Length:          0
         ReplacementText: 'VITIS_LOOP_3218_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -982,8 +982,8 @@ Diagnostics:
     FileOffset:      3225
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1378045
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1460536
         Length:          0
         ReplacementText: 'VITIS_LOOP_3225_14: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -991,8 +991,8 @@ Diagnostics:
     FileOffset:      3229
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1378120
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1460611
         Length:          0
         ReplacementText: 'VITIS_LOOP_3229_15: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1000,8 +1000,8 @@ Diagnostics:
     FileOffset:      3244
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1378407
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1460898
         Length:          0
         ReplacementText: 'VITIS_LOOP_3244_16: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1009,8 +1009,8 @@ Diagnostics:
     FileOffset:      3404
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1404017
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1486508
         Length:          0
         ReplacementText: 'VITIS_LOOP_3404_17: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1018,8 +1018,8 @@ Diagnostics:
     FileOffset:      3411
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1404131
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1486622
         Length:          0
         ReplacementText: 'VITIS_LOOP_3411_18: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1027,8 +1027,8 @@ Diagnostics:
     FileOffset:      3415
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1404208
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1486699
         Length:          0
         ReplacementText: 'VITIS_LOOP_3415_19: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1036,8 +1036,8 @@ Diagnostics:
     FileOffset:      703
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1438276
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1520767
         Length:          0
         ReplacementText: 'VITIS_LOOP_703_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1045,8 +1045,8 @@ Diagnostics:
     FileOffset:      921
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1446665
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1529156
         Length:          0
         ReplacementText: 'VITIS_LOOP_921_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1054,8 +1054,8 @@ Diagnostics:
     FileOffset:      1345
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1465638
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1548129
         Length:          0
         ReplacementText: 'VITIS_LOOP_1345_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1063,8 +1063,8 @@ Diagnostics:
     FileOffset:      240
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1480494
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1562985
         Length:          0
         ReplacementText: 'VITIS_LOOP_240_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1072,8 +1072,8 @@ Diagnostics:
     FileOffset:      268
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1481015
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1563506
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1081,8 +1081,8 @@ Diagnostics:
     FileOffset:      48
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1496929
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1579420
         Length:          0
         ReplacementText: 'VITIS_LOOP_48_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1090,8 +1090,8 @@ Diagnostics:
     FileOffset:      109
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1498079
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1580570
         Length:          0
         ReplacementText: 'VITIS_LOOP_109_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1099,8 +1099,8 @@ Diagnostics:
     FileOffset:      123
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1498388
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1580879
         Length:          0
         ReplacementText: 'VITIS_LOOP_123_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1108,8 +1108,8 @@ Diagnostics:
     FileOffset:      153
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1498898
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1581389
         Length:          0
         ReplacementText: 'VITIS_LOOP_153_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1117,8 +1117,8 @@ Diagnostics:
     FileOffset:      281
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1500812
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1583303
         Length:          0
         ReplacementText: 'VITIS_LOOP_281_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1126,8 +1126,8 @@ Diagnostics:
     FileOffset:      301
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1501177
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1583668
         Length:          0
         ReplacementText: 'VITIS_LOOP_301_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1135,8 +1135,8 @@ Diagnostics:
     FileOffset:      315
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1501485
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1583976
         Length:          0
         ReplacementText: 'VITIS_LOOP_315_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1144,8 +1144,8 @@ Diagnostics:
     FileOffset:      433
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1503313
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1585804
         Length:          0
         ReplacementText: 'VITIS_LOOP_433_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1153,8 +1153,8 @@ Diagnostics:
     FileOffset:      447
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1503638
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1586129
         Length:          0
         ReplacementText: 'VITIS_LOOP_447_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1162,8 +1162,8 @@ Diagnostics:
     FileOffset:      33
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1506291
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1588782
         Length:          0
         ReplacementText: 'VITIS_LOOP_33_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1171,8 +1171,8 @@ Diagnostics:
     FileOffset:      183
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1509183
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1591674
         Length:          0
         ReplacementText: 'VITIS_LOOP_183_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1180,8 +1180,8 @@ Diagnostics:
     FileOffset:      248
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1510470
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1592961
         Length:          0
         ReplacementText: 'VITIS_LOOP_248_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1189,8 +1189,8 @@ Diagnostics:
     FileOffset:      16
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1521369
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1603860
         Length:          0
         ReplacementText: 'VITIS_LOOP_16_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1198,8 +1198,8 @@ Diagnostics:
     FileOffset:      27
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1521544
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1604035
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1207,8 +1207,8 @@ Diagnostics:
     FileOffset:      38
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1521705
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1604196
         Length:          0
         ReplacementText: 'VITIS_LOOP_38_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1216,8 +1216,8 @@ Diagnostics:
     FileOffset:      49
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1521867
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1604358
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1225,8 +1225,8 @@ Diagnostics:
     FileOffset:      60
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1522041
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1604532
         Length:          0
         ReplacementText: 'VITIS_LOOP_60_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1234,8 +1234,8 @@ Diagnostics:
     FileOffset:      71
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1522216
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1604707
         Length:          0
         ReplacementText: 'VITIS_LOOP_71_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1243,8 +1243,8 @@ Diagnostics:
     FileOffset:      82
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1522377
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1604868
         Length:          0
         ReplacementText: 'VITIS_LOOP_82_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1252,8 +1252,8 @@ Diagnostics:
     FileOffset:      93
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1522539
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1605030
         Length:          0
         ReplacementText: 'VITIS_LOOP_93_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1261,8 +1261,8 @@ Diagnostics:
     FileOffset:      26
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_mad_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1594029
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1676520
         Length:          0
         ReplacementText: 'VITIS_LOOP_26_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1270,8 +1270,8 @@ Diagnostics:
     FileOffset:      40
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cbrt_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1595773
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1678264
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1279,8 +1279,8 @@ Diagnostics:
     FileOffset:      49
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1600280
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1682771
         Length:          0
         ReplacementText: 'VITIS_LOOP_49_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1288,8 +1288,8 @@ Diagnostics:
     FileOffset:      81
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1601011
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1683502
         Length:          0
         ReplacementText: 'VITIS_LOOP_81_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1297,26 +1297,26 @@ Diagnostics:
     FileOffset:      169
     FilePath:        'C:\Xilinx\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1602696
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1685187
         Length:          0
         ReplacementText: 'VITIS_LOOP_169_3: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_32_1:  '
-    FileOffset:      32
+    Message:         'Added loop label VITIS_LOOP_28_1:  '
+    FileOffset:      28
     FilePath:        hilbert.cpp
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1737780
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1738160
         Length:          0
-        ReplacementText: 'VITIS_LOOP_32_1: '
+        ReplacementText: 'VITIS_LOOP_28_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_66_1:  '
-    FileOffset:      66
+    Message:         'Added loop label VITIS_LOOP_59_1:  '
+    FileOffset:      59
     FilePath:        hilbert.cpp
     Replacements:    
-      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1738685
+      - FilePath:        'C:\Motor-Simulator-main\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1739171
         Length:          0
-        ReplacementText: 'VITIS_LOOP_66_1: '
+        ReplacementText: 'VITIS_LOOP_59_1: '
 ...

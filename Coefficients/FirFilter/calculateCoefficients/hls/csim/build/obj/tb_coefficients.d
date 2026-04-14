@@ -1,6 +1,5 @@
 obj/tb_coefficients.o: ../../../../tb_coefficients.cpp \
   ../../../../Coefficients.h \
-  C:/Xilinx/Vitis_HLS/2024.1/include/hls_stream.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h \
@@ -20,6 +19,7 @@ obj/tb_coefficients.o: ../../../../tb_coefficients.cpp \
   C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_fixed_base.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_fixed_ref.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_fixed_special.h \
+  C:/Xilinx/Vitis_HLS/2024.1/include/hls_stream.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/hls_math.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_hotbm_apfixed.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/utils/x_hls_defines.h \
@@ -48,4 +48,5 @@ obj/tb_coefficients.o: ../../../../tb_coefficients.cpp \
   C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_mad_apfixed.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_cbrt_apfixed.h \
   C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_hypot_apfixed.h \
-  C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_ldexp_apfixed.h
+  C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_ldexp_apfixed.h \
+  C:/Xilinx/Vitis_HLS/2024.1/include/ap_float.h

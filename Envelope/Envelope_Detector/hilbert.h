@@ -13,8 +13,8 @@ typedef ap_axis<32,2,5,6> axis_pkt_t;
 typedef hls::stream<axis_pkt_t> axis_t;
 
 // Top-level function prototype
-void hilbert_envelope_axis(hls::stream<axis_t> &in_stream,
-                           hls::stream<axis_t> &out_stream);
+void hilbert_envelope_axis(hls::stream<ap_axis<32,2,5,6>> &in_stream,
+                           hls::stream<ap_axis<32,2,5,6>> &out_stream);
 
 #endif
 

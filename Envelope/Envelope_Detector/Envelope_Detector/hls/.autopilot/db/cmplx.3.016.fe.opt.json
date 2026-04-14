@@ -3,8 +3,8 @@
     "basicblocks": 4,
     "calls": "",
     "file": "hilbert.cpp",
-    "fileloc": 58,
-    "instructions": 106,
+    "fileloc": 51,
+    "instructions": 158,
     "loads": {
       "G": 24,
       "L": 7
@@ -14,6 +14,6 @@
       "G": 25,
       "L": 7
     },
-    "total_instructions": 106
+    "total_instructions": 158
   }
 }

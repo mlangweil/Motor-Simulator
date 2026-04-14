@@ -3,80 +3,99 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Mar 27 14:36:26 2026
-# Process ID: 36828
-# Current directory: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip
+# Start of session at: Mon Apr 13 17:38:08 2026
+# Process ID: 8432
+# Current directory: C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip
 # Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
-# Log file: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/vivado.log
-# Journal file: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip\vivado.jou
-# Running On        :Max-Zbk
+# Log file: C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/vivado.log
+# Journal file: C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip\vivado.jou
+# Running On        :WFXA4BB6DBB67AF
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26200
-# Processor Detail  :13th Gen Intel(R) Core(TM) i9-13900H
-# CPU Frequency     :2995 MHz
-# CPU Physical cores:14
-# CPU Logical cores :20
-# Host memory       :33947 MB
-# Swap memory       :6294 MB
-# Total Virtual     :40242 MB
-# Available Virtual :6758 MB
+# Processor Detail  :Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+# CPU Frequency     :2904 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :34059 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36207 MB
+# Available Virtual :15733 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace
-INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/hls_data.json outdir=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip srcdir=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls sort_interfaces_ports=false
-INFO: Copied 1 ipmisc file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/misc
-INFO: Copied 26 verilog file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/verilog
-INFO: Copied 22 vhdl file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/vhdl
-INFO: Copied 10 swdriver file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/drivers
-Generating 5 subcores in C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/ip.tmp:
-impl/misc/calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip.tcl
-impl/misc/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
-impl/misc/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip.tcl
-impl/misc/calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip.tcl
-impl/misc/calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip.tcl
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/hls_data.json outdir=C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip srcdir=C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls sort_interfaces_ports=false
+INFO: Copied 1 ipmisc file(s) to C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/misc
+INFO: Copied 37 verilog file(s) to C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/verilog
+INFO: Copied 30 vhdl file(s) to C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/vhdl
+INFO: Copied 10 swdriver file(s) to C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/drivers
+Generating 8 subcores in C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/ip.tmp:
+impl/misc/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.tcl
+impl/misc/firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip.tcl
+impl/misc/firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip.tcl
+impl/misc/firTop_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
+impl/misc/firTop_fpext_32ns_64_2_no_dsp_1_ip.tcl
+impl/misc/firTop_fptrunc_64ns_32_2_no_dsp_1_ip.tcl
+impl/misc/firTop_fsub_32ns_32ns_32_4_full_dsp_1_ip.tcl
+impl/misc/firTop_sitodp_32ns_64_4_no_dsp_1_ip.tcl
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/ip.tmp'
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 551.559 ; gain = 199.766
-INFO: Using COE_DIR=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/verilog
-INFO: Generating calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip via file impl/misc/calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip.tcl
+Current project path is 'C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/ip.tmp'
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 648.422 ; gain = 202.555
+INFO: Using COE_DIR=C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/verilog
+INFO: Generating firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip via file impl/misc/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.tcl
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
-WARNING: [IP_Flow 19-4832] The IP name 'calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip'...
-INFO: Done generating calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip via file impl/misc/calculateCoefficients_fdiv_32ns_32ns_32_9_no_dsp_1_ip.tcl
-INFO: Generating calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip via file impl/misc/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
-WARNING: [IP_Flow 19-4832] The IP name 'calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip'...
-INFO: Done generating calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip via file impl/misc/calculateCoefficients_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
-INFO: Generating calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip via file impl/misc/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip.tcl
-WARNING: [IP_Flow 19-4832] The IP name 'calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip'...
-INFO: Done generating calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip via file impl/misc/calculateCoefficients_fsub_32ns_32ns_32_4_full_dsp_1_ip.tcl
-INFO: Generating calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip via file impl/misc/calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip.tcl
-WARNING: [IP_Flow 19-4832] The IP name 'calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip'...
-INFO: Done generating calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip via file impl/misc/calculateCoefficients_sitofp_32ns_32_4_no_dsp_1_ip.tcl
-INFO: Generating calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip via file impl/misc/calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip.tcl
-WARNING: [IP_Flow 19-4832] The IP name 'calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip'...
-INFO: Done generating calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip via file impl/misc/calculateCoefficients_sitofp_32s_32_4_no_dsp_1_ip.tcl
-INFO: Import ports from HDL: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/vhdl/calculateCoefficients.vhd (calculateCoefficients)
+WARNING: [IP_Flow 19-4832] The IP name 'firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip'...
+INFO: Done generating firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip via file impl/misc/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.tcl
+INFO: Generating firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip via file impl/misc/firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip'...
+INFO: Done generating firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip via file impl/misc/firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip.tcl
+INFO: Generating firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip via file impl/misc/firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip'...
+INFO: Done generating firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip via file impl/misc/firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip.tcl
+INFO: Generating firTop_fmul_32ns_32ns_32_3_max_dsp_1_ip via file impl/misc/firTop_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'firTop_fmul_32ns_32ns_32_3_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_fmul_32ns_32ns_32_3_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_fmul_32ns_32ns_32_3_max_dsp_1_ip'...
+INFO: Done generating firTop_fmul_32ns_32ns_32_3_max_dsp_1_ip via file impl/misc/firTop_fmul_32ns_32ns_32_3_max_dsp_1_ip.tcl
+INFO: Generating firTop_fpext_32ns_64_2_no_dsp_1_ip via file impl/misc/firTop_fpext_32ns_64_2_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'firTop_fpext_32ns_64_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: Done generating firTop_fpext_32ns_64_2_no_dsp_1_ip via file impl/misc/firTop_fpext_32ns_64_2_no_dsp_1_ip.tcl
+INFO: Generating firTop_fptrunc_64ns_32_2_no_dsp_1_ip via file impl/misc/firTop_fptrunc_64ns_32_2_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'firTop_fptrunc_64ns_32_2_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_fptrunc_64ns_32_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_fptrunc_64ns_32_2_no_dsp_1_ip'...
+INFO: Done generating firTop_fptrunc_64ns_32_2_no_dsp_1_ip via file impl/misc/firTop_fptrunc_64ns_32_2_no_dsp_1_ip.tcl
+INFO: Generating firTop_fsub_32ns_32ns_32_4_full_dsp_1_ip via file impl/misc/firTop_fsub_32ns_32ns_32_4_full_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'firTop_fsub_32ns_32ns_32_4_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_fsub_32ns_32ns_32_4_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_fsub_32ns_32ns_32_4_full_dsp_1_ip'...
+INFO: Done generating firTop_fsub_32ns_32ns_32_4_full_dsp_1_ip via file impl/misc/firTop_fsub_32ns_32ns_32_4_full_dsp_1_ip.tcl
+INFO: Generating firTop_sitodp_32ns_64_4_no_dsp_1_ip via file impl/misc/firTop_sitodp_32ns_64_4_no_dsp_1_ip.tcl
+WARNING: [IP_Flow 19-4832] The IP name 'firTop_sitodp_32ns_64_4_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_sitodp_32ns_64_4_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_sitodp_32ns_64_4_no_dsp_1_ip'...
+INFO: Done generating firTop_sitodp_32ns_64_4_no_dsp_1_ip via file impl/misc/firTop_sitodp_32ns_64_4_no_dsp_1_ip.tcl
+INFO: Import ports from HDL: C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/vhdl/firTop.vhd (firTop)
 INFO: Add axi4lite interface s_axi_control
 INFO: Add clock interface ap_clk
 INFO: Add reset interface ap_rst_n
-INFO: Add interrupt interface interrupt
+INFO: Add axi4full interface m_axi_gmem
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
-INFO: Add axi4full interface m_axi_gmem
+INFO: Add axi4stream interface in_stream
+INFO: Add axi4stream interface out_stream
 INFO: Calling post_process_vitis to specialize IP
 INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
-INFO: Created IP C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/component.xml
-INFO: Created IP archive C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/xilinx_com_hls_calculateCoefficients_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 27 14:36:44 2026...
+INFO: Created IP C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/component.xml
+INFO: Created IP archive C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/xilinx_com_hls_firTop_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 17:38:27 2026...

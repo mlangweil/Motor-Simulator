@@ -1,67 +1,67 @@
 # This script segment is generated automatically by AutoPilot
 
-set name calculateCoefficients_mul_23s_22ns_45_1_0
+set name firTop_mul_23s_22ns_45_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name calculateCoefficients_mul_30s_29ns_58_1_0
+set name firTop_mul_30s_29ns_58_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name calculateCoefficients_mul_80s_24ns_80_1_0
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
-}
-
-
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler calculateCoefficients_sparsemux_17_3_1_1_0 BINDTYPE {op} TYPE {sparsemux} IMPL {auto}
-}
-
-
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler calculateCoefficients_sparsemux_33_4_1_1_0 BINDTYPE {op} TYPE {sparsemux} IMPL {auto}
-}
-
-
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler calculateCoefficients_sparsemux_33_4_1_1_0 BINDTYPE {op} TYPE {sparsemux} IMPL {auto}
-}
-
-
-set name calculateCoefficients_mul_15ns_15ns_30_1_0
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
-}
-
-
-set name calculateCoefficients_mul_15ns_15s_30_1_0
+set name firTop_mul_80s_24ns_80_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler calculateCoefficients_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R BINDTYPE {storage} TYPE {rom_1p} IMPL {lutram} LATENCY 2 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler firTop_sparsemux_17_3_1_1_0 BINDTYPE {op} TYPE {sparsemux} IMPL {auto}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R BINDTYPE {storage} TYPE {rom_1p} IMPL {lutram} LATENCY 2 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler firTop_sparsemux_33_4_1_1_0 BINDTYPE {op} TYPE {sparsemux} IMPL {auto}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R BINDTYPE {storage} TYPE {rom_1p} IMPL {lutram} LATENCY 2 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler firTop_sparsemux_33_4_1_1_0 BINDTYPE {op} TYPE {sparsemux} IMPL {auto}
+}
+
+
+set name firTop_mul_15ns_15ns_30_1_0
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
+}
+
+
+set name firTop_mul_15ns_15s_30_1_0
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler calculateCoefficients_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R BINDTYPE {storage} TYPE {rom_1p} IMPL {lutram} LATENCY 2 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler firTop_sin_or_cos_float_s_ref_4oPi_table_100_ROM_1P_LUTRAM_1R BINDTYPE {storage} TYPE {rom_1p} IMPL {lutram} LATENCY 2 ALLOW_PRAGMA 1
+}
+
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler firTop_sin_or_cos_float_s_second_order_float_sin_cos_K0_ROM_1P_LUTRAM_1R BINDTYPE {storage} TYPE {rom_1p} IMPL {lutram} LATENCY 2 ALLOW_PRAGMA 1
+}
+
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler firTop_sin_or_cos_float_s_second_order_float_sin_cos_K1_ROM_1P_LUTRAM_1R BINDTYPE {storage} TYPE {rom_1p} IMPL {lutram} LATENCY 2 ALLOW_PRAGMA 1
+}
+
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler firTop_sin_or_cos_float_s_second_order_float_sin_cos_K2_ROM_1P_LUTRAM_1R BINDTYPE {storage} TYPE {rom_1p} IMPL {lutram} LATENCY 2 ALLOW_PRAGMA 1
 }
 
 
@@ -75,7 +75,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 21 \
+    id 27 \
     name t_in \
     type other \
     dir I \
@@ -84,6 +84,21 @@ eval "cg_default_interface_gen_dc { \
     corename dc_t_in \
     op interface \
     ports { t_in { I 32 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 28 \
+    name do_cos \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_do_cos \
+    op interface \
+    ports { do_cos { I 1 vector } } \
 } "
 }
 

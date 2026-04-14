@@ -17,19 +17,22 @@ set C_modelType { float 32 }
 set ap_memory_interface_dict [dict create]
 set C_modelArgList {
 	{ t_in float 32 regular  }
+	{ do_cos uint 1 regular  }
 }
 set hasAXIMCache 0
 set hasAXIML2Cache 0
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
 	{ "Name" : "t_in", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "do_cos", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY"} , 
  	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 32} ]}
 # RTL Port declarations: 
-set portNum 5
+set portNum 6
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
 	{ t_in sc_in sc_lv 32 signal 0 } 
+	{ do_cos sc_in sc_lv 1 signal 1 } 
 	{ ap_return sc_out sc_lv 32 signal -1 } 
 	{ ap_ce sc_in sc_logic 1 ce -1 } 
 }
@@ -37,6 +40,7 @@ set NewPortList {[
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
  	{ "name": "ap_rst", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "reset", "bundle":{"name": "ap_rst", "role": "default" }} , 
  	{ "name": "t_in", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "t_in", "role": "default" }} , 
+ 	{ "name": "do_cos", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "do_cos", "role": "default" }} , 
  	{ "name": "ap_return", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "ap_return", "role": "default" }} , 
  	{ "name": "ap_ce", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "ce", "bundle":{"name": "ap_ce", "role": "default" }}  ]}
 
@@ -57,6 +61,7 @@ set RtlHierarchyInfo {[
 		"IsBlackBox" : "0",
 		"Port" : [
 			{"Name" : "t_in", "Type" : "None", "Direction" : "I"},
+			{"Name" : "do_cos", "Type" : "None", "Direction" : "I"},
 			{"Name" : "ref_4oPi_table_100", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "second_order_float_sin_cos_K0", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "second_order_float_sin_cos_K1", "Type" : "Memory", "Direction" : "I"},
@@ -65,19 +70,20 @@ set RtlHierarchyInfo {[
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.second_order_float_sin_cos_K0_U", "Parent" : "0"},
 	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.second_order_float_sin_cos_K1_U", "Parent" : "0"},
 	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.second_order_float_sin_cos_K2_U", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_23s_22ns_45_1_0_U1", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_30s_29ns_58_1_0_U2", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_80s_24ns_80_1_0_U3", "Parent" : "0"},
-	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sparsemux_17_3_1_1_0_U4", "Parent" : "0"},
-	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sparsemux_33_4_1_1_0_U5", "Parent" : "0"},
-	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sparsemux_33_4_1_1_0_U6", "Parent" : "0"},
-	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_15ns_15ns_30_1_0_U7", "Parent" : "0"},
-	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_15ns_15s_30_1_0_U8", "Parent" : "0"}]}
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_23s_22ns_45_1_0_U7", "Parent" : "0"},
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_30s_29ns_58_1_0_U8", "Parent" : "0"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_80s_24ns_80_1_0_U9", "Parent" : "0"},
+	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sparsemux_17_3_1_1_0_U10", "Parent" : "0"},
+	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sparsemux_33_4_1_1_0_U11", "Parent" : "0"},
+	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sparsemux_33_4_1_1_0_U12", "Parent" : "0"},
+	{"ID" : "11", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_15ns_15ns_30_1_0_U13", "Parent" : "0"},
+	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_15ns_15s_30_1_0_U14", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	sin_or_cos_float_s {
 		t_in {Type I LastRead 0 FirstWrite -1}
+		do_cos {Type I LastRead 0 FirstWrite -1}
 		ref_4oPi_table_100 {Type I LastRead -1 FirstWrite -1}
 		second_order_float_sin_cos_K0 {Type I LastRead -1 FirstWrite -1}
 		second_order_float_sin_cos_K1 {Type I LastRead -1 FirstWrite -1}
@@ -95,4 +101,5 @@ set PipelineEnableSignalInfo {[
 
 set Spec2ImplPortList { 
 	t_in { ap_none {  { t_in in_data 0 32 } } }
+	do_cos { ap_none {  { do_cos in_data 0 1 } } }
 }

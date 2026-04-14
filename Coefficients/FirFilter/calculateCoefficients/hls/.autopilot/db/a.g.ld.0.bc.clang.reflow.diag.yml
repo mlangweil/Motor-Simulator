@@ -1,3 +1,23 @@
+--- !Failure
+Pass:            generate-ir-wrapper
+Name:            MAXIDepthUnspecified
+DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'A depth specification is required for MAXI interface port '''
+  - Name:            bram
+  - String:          ''' for cosimulation.'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: Coefficients.cpp, Line: 56, Column: 3 }
+Function:        _Z3firPdS_di
+Args:            
+  - String:          'Loop '''
+  - LoopName:        Shift_Accum_Loop
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
@@ -226,14 +246,14 @@ Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
                    Line: 322, Column: 0 }
-Function:        _ZNK9fp_structIfE8to_floatEv.59.68.79.88
+Function:        _ZNK9fp_structIfE8to_floatEv.44.53.64.73
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'fp_struct<float>::data() const (.62.71.82.91)'
+  - Callee:          'fp_struct<float>::data() const (.47.56.67.76)'
     DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
                        Line: 309, Column: 0 }
   - String:          ''' into '''
-  - Caller:          'fp_struct<float>::to_float() const (.59.68.79.88)'
+  - Caller:          'fp_struct<float>::to_float() const (.44.53.64.73)'
     DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
                        Line: 322, Column: 0 }
   - String:          ''''
@@ -246,7 +266,7 @@ DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hl
 Function:        _ZNK9fp_structIfE7to_ieeeEv
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'fp_struct<float>::to_float() const (.59.68.79.88)'
+  - Callee:          'fp_struct<float>::to_float() const (.44.53.64.73)'
     DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
                        Line: 322, Column: 0 }
   - String:          ''' into '''
@@ -428,133 +448,93 @@ Args:
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
                    Line: 12, Column: 0 }
-Function:        _Z20generic_cast_IEEE754IxL9ap_q_mode6EfET_T1_bN3hls9enable_ifIXsr3std14numeric_limitsIS1_EE9is_signedEbE4typeE
+Function:        _ZN3hls5hotbm3cosEf
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'fp_struct<float>::fp_struct(float)'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
-                       Line: 283, Column: 0 }
+  - Callee:          'hotbm_::cos(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_float.cpp', 
+                       Line: 126, Column: 0 }
   - String:          ''' into '''
-  - Caller:          'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
+  - Caller:          'hls::hotbm::cos(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
                        Line: 12, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                   Line: 12, Column: 0 }
-Function:        _Z20generic_cast_IEEE754IxL9ap_q_mode6EfET_T1_bN3hls9enable_ifIXsr3std14numeric_limitsIS1_EE9is_signedEbE4typeE
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                   Line: 44, Column: 0 }
+Function:        _ZN3hls4cosfEf
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'fp_struct<float>::mantissa() const'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
-                       Line: 340, Column: 0 }
-  - String:          ''' into '''
-  - Caller:          'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                       Line: 12, Column: 0 }
-  - String:          ''''
-...
---- !Passed
-Pass:            reflow-inliner
-Name:            Inline
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                   Line: 12, Column: 0 }
-Function:        _Z20generic_cast_IEEE754IxL9ap_q_mode6EfET_T1_bN3hls9enable_ifIXsr3std14numeric_limitsIS1_EE9is_signedEbE4typeE
-Args:            
-  - String:          'Inlining function '''
-  - Callee:          'fp_struct<float>::expv() const'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
-                       Line: 316, Column: 0 }
-  - String:          ''' into '''
-  - Caller:          'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                       Line: 12, Column: 0 }
-  - String:          ''''
-...
---- !Passed
-Pass:            reflow-inliner
-Name:            Inline
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                   Line: 12, Column: 0 }
-Function:        _Z20generic_cast_IEEE754IxL9ap_q_mode6EfET_T1_bN3hls9enable_ifIXsr3std14numeric_limitsIS1_EE9is_signedEbE4typeE
-Args:            
-  - String:          'Inlining function '''
-  - Callee:          'fp_struct<float>::__signbit() const'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h', 
-                       Line: 349, Column: 0 }
-  - String:          ''' into '''
-  - Caller:          'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                       Line: 12, Column: 0 }
-  - String:          ''''
-...
---- !Passed
-Pass:            reflow-inliner
-Name:            Inline
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                   Line: 116, Column: 0 }
-Function:        _Z20generic_cast_IEEE754IxfET_T0_b
-Args:            
-  - String:          'Inlining function '''
-  - Callee:          'long long generic_cast_IEEE754<long long, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<long long>::is_signed, bool>::type)'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
+  - Callee:          'hls::hotbm::cos(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
                        Line: 12, Column: 0 }
   - String:          ''' into '''
-  - Caller:          'long long generic_cast_IEEE754<long long, float>(float, bool)'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                       Line: 116, Column: 0 }
+  - Caller:          'hls::cosf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 44, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp', 
-                   Line: 52, Column: 0 }
-Function:        __hls_fptosi_float_i64
-Args:            
-  - String:          'Inlining function '''
-  - Callee:          'long long generic_cast_IEEE754<long long, float>(float, bool)'
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h', 
-                       Line: 116, Column: 0 }
-  - String:          ''' into '''
-  - Caller:          __hls_fptosi_float_i64
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp', 
-                       Line: 52, Column: 0 }
-  - String:          ''''
-...
---- !Passed
-Pass:            reflow-inliner
-Name:            Inline
-DebugLoc:        { File: Coefficients.cpp, Line: 7, Column: 0 }
-Function:        _Z21calculateCoefficientsiiiPx
+DebugLoc:        { File: Coefficients.cpp, Line: 71, Column: 0 }
+Function:        _Z21calculateCoefficientsiiiiPd
 Args:            
   - String:          'Inlining function '''
   - Callee:          'hls::sinf(float)'
     DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
                        Line: 41, Column: 0 }
   - String:          ''' into '''
-  - Caller:          'calculateCoefficients(int, int, int, long long*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 7, Column: 0 }
+  - Caller:          'calculateCoefficients(int, int, int, int, double*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 71, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: Coefficients.cpp, Line: 7, Column: 0 }
-Function:        _Z21calculateCoefficientsiiiPx
+DebugLoc:        { File: Coefficients.cpp, Line: 71, Column: 0 }
+Function:        _Z21calculateCoefficientsiiiiPd
 Args:            
   - String:          'Inlining function '''
-  - Callee:          __hls_fptosi_float_i64
-    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp', 
-                       Line: 52, Column: 0 }
+  - Callee:          'hls::cosf(float)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmfloat.cpp', 
+                       Line: 44, Column: 0 }
   - String:          ''' into '''
-  - Caller:          'calculateCoefficients(int, int, int, long long*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 7, Column: 0 }
+  - Caller:          'calculateCoefficients(int, int, int, int, double*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 71, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'calculateCoefficients(int, int, int, int, double*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 71, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'fir(double*, double*, double, int)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 50, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
@@ -637,7 +617,7 @@ Args:
 Pass:            reflow-array-partition
 Name:            WarnArrayXFORMOnIndexCast
 DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
-                   Line: 242, Column: 45 }
+                   Line: 242, Column: 30 }
 Function:        _ZN6hotbm_10sin_or_cosIfEET_S1_bb
 Args:            
   - String:          Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations.
@@ -672,72 +652,196 @@ Args:
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: Coefficients.cpp, Line: 22, Column: 22 }
-Function:        _Z21calculateCoefficientsiiiPx
+DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 20 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
 Args:            
   - String:          'Sequential '
-  - Direction:       write
+  - Direction:       read
   - String:          ' of length '
-  - Length:          '25'
+  - Length:          '4'
   - String:          ' has been inferred'
   - String:          ' _XLX_SEP_ '
-  - AccessID:        bram2seq
+  - AccessID:        bramseq
   - ArrayName:       bram
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_22_1
+  - LoopName:        VITIS_LOOP_13_1
   - String:          ' '
-  - LoopLoc:         'Coefficients.cpp:22:22'
+  - LoopLoc:         'Coefficients.cpp:13:20'
   - String:          ' '
-  - Function:        'calculateCoefficients(int, int, int, long long*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 7, Column: 0 }
+  - Function:        'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
-  - OrigAccess:      store
-    DebugLoc:        { File: Coefficients.cpp, Line: 35, Column: 16 }
-  - OrigDirection:   write
-  - OrigID:          for.inc.store.46
+  - OrigAccess:      load
+    DebugLoc:        { File: Coefficients.cpp, Line: 14, Column: 18 }
+  - OrigDirection:   read
+  - OrigID:          for.inc.load.4
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: Coefficients.cpp, Line: 31, Column: 20 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        VITIS_LOOP_31_2
+  - String:          ' '
+  - LoopLoc:         'Coefficients.cpp:31:20'
+  - String:          ' '
+  - Function:        'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
+  - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: Coefficients.cpp, Line: 22, Column: 22 }
-Function:        _Z21calculateCoefficientsiiiPx
+DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 20 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
 Args:            
   - String:          'Could not widen since type '
-  - Type:            i64
+  - Type:            i32
   - String:          ' size is greater than or equal to the max_widen_bitwidth threshold of '
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: Coefficients.cpp, Line: 22, Column: 22 }
-  - OrigDirection:   write
-  - OrigID:          bram2seq
+    DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 20 }
+  - OrigDirection:   read
+  - OrigID:          bramseq
   - ArrayName:       bram
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_22_1
+  - LoopName:        VITIS_LOOP_13_1
   - String:          ' '
-  - LoopLoc:         'Coefficients.cpp:22:22'
+  - LoopLoc:         'Coefficients.cpp:13:20'
   - String:          ' '
-  - Function:        'calculateCoefficients(int, int, int, long long*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 7, Column: 0 }
+  - Function:        'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
   - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: Coefficients.cpp, Line: 31, Column: 20 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        VITIS_LOOP_31_2
+  - String:          '''('
+  - LoopLoc:         'Coefficients.cpp:31:20'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: Coefficients.cpp, Line: 56, Column: 3 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Loop '''
+  - LoopName:        Shift_Accum_Loop
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_13_1
+  - String:          '> at '
+  - LoopLoc:         'Coefficients.cpp:13:20'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: Coefficients.cpp, Line: 56, Column: 3 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Loop '''
+  - LoopName:        Shift_Accum_Loop
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoSmallArrayPartition
+DebugLoc:        { File: Coefficients.cpp, Line: 12, Column: 12 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Automatically partitioning small array '''
+  - Value:           bramVal
+  - String:          ''' completely based on array size.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: Coefficients.cpp, Line: 12, Column: 12 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=bramVal'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  firTop
+  - String:          ' '
+  - varLoc:          'Coefficients.cpp:12:12'
+  - String:          ' '
+  - VarName:         bramVal
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: Coefficients.cpp, Line: 12, Column: 12 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            bramVal
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: Coefficients.cpp, Line: 12, Column: 12 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          bramVal
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
 ...
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: Coefficients.cpp, Line: 22, Column: 22 }
-Function:        _Z21calculateCoefficientsiiiPx
+DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 20 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
 Args:            
   - String:          'Multiple burst '
-  - Direction:       writes
+  - Direction:       reads
   - String:          ' of length '
-  - Length:          '25'
+  - Length:          '4'
   - String:          ' and bit width '
-  - Width:           '64'
+  - Width:           '32'
   - String:          ' has been inferred.'
   - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
   - String:          ' _XLX_SEP_ '
@@ -746,33 +850,58 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_22_1
+  - LoopName:        VITIS_LOOP_13_1
   - String:          ' '
-  - LoopLoc:         'Coefficients.cpp:22:22'
+  - LoopLoc:         'Coefficients.cpp:13:20'
   - String:          ' '
-  - Function:        'calculateCoefficients(int, int, int, long long*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 7, Column: 0 }
+  - Function:        'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
+    DebugLoc:        { File: Coefficients.cpp, Line: 4, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: Coefficients.cpp, Line: 22, Column: 22 }
-Function:        _Z21calculateCoefficientsiiiPx
+DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 20 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
 Args:            
   - String:          'Multiple burst '
-  - Direction:       writes
+  - Direction:       reads
   - String:          ' of length '
-  - Length:          '25'
+  - Length:          '4'
   - String:          ' and bit width '
-  - Width:           '64'
+  - Width:           '32'
   - String:          ' in loop '''
-  - LoopName:        VITIS_LOOP_22_1
+  - LoopName:        VITIS_LOOP_13_1
   - String:          '''('
-  - LoopLoc:         'Coefficients.cpp:22:22'
+  - LoopLoc:         'Coefficients.cpp:13:20'
   - String:          ')'
   - String:          ' has been inferred on bundle '''
   - BundleName:      gmem
   - String:          '''.'
   - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: Coefficients.cpp, Line: 56, Column: 3 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Loop '''
+  - LoopName:        Shift_Accum_Loop
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Missed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFailFullyUnroll
+DebugLoc:        { File: Coefficients.cpp, Line: 56, Column: 3 }
+Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+Args:            
+  - String:          'Cannot unroll loop '''
+  - LoopName:        Shift_Accum_Loop
+  - String:          ''' ('
+  - LoopLoc:         'Coefficients.cpp:56:3'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          firTop
+  - String:          ''' as it has a variable trip count'
 ...

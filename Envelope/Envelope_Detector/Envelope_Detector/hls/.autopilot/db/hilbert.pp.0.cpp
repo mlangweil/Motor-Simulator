@@ -153,15 +153,10 @@ extern "C" {
 }
 # 2 "<built-in>" 2
 # 1 "hilbert.cpp" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_fixed.h" 1
-
-
-
-
-
-
-
-
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 1
+# 15 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h" 1
+# 10 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h"
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_common.h" 1
 # 41 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_common.h"
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_decl.h" 1
@@ -408,11 +403,7 @@ inline __attribute__((always_inline)) half rawBitsToHalf(unsigned short pi) {
 
 
 }
-# 10 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_fixed.h" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_fixed_base.h" 1
-# 16 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_fixed_base.h"
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h" 1
-# 11 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h"
+# 11 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h" 2
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_int_base.h" 1
 # 56 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_int_base.h"
 template <int _AP_N, bool _AP_S>
@@ -1686,7 +1677,7 @@ template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, 
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) __attribute__((nodebug)) bool operator >=( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 >= op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) __attribute__((nodebug)) bool operator >=( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() >= op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) __attribute__((nodebug)) bool operator <( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 < op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) __attribute__((nodebug)) bool operator <( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() < op2; }
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) __attribute__((nodebug)) bool operator <=( const ap_int_base<_AP_W3, _AP_S3>& op1, const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op2) { return op1 <= op2.get(); } template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2, int _AP_W3, bool _AP_S3> inline __attribute__((always_inline)) __attribute__((nodebug)) bool operator <=( const ap_concat_ref<_AP_W1, _AP_T1, _AP_W2, _AP_T2>& op1, const ap_int_base<_AP_W3, _AP_S3>& op2) { return op1.get() <= op2; }
-# 12 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h" 2
+# 12 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h" 2
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_int_ref.h" 1
 # 27 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_int_ref.h"
 template <int _AP_W1, typename _AP_T1, int _AP_W2, typename _AP_T2>
@@ -2658,7 +2649,7 @@ template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attri
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) __attribute__((nodebug)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, unsigned long rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) __attribute__((nodebug)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, ap_slong rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
 template <int _AP_W, typename _AP_T, int _AP_W1, typename _AP_T1> inline __attribute__((always_inline)) __attribute__((nodebug)) ap_uint<_AP_W + _AP_W1> operator >>( const ap_concat_ref<_AP_W, _AP_T, _AP_W1, _AP_T1> lhs, ap_ulong rhs) { return ap_uint<_AP_W + _AP_W1>(lhs).get() >> int(rhs); }
-# 13 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h" 2
+# 13 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h" 2
 
 
 
@@ -2799,7 +2790,7 @@ struct ap_int : ap_int_base<_AP_W, true> {
 
 
   ap_int &operator=(const ap_int<_AP_W> &op2) = default;
-# 161 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h"
+# 161 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h"
   inline __attribute__((always_inline)) __attribute__((nodebug)) ap_int& operator=(const volatile ap_int<_AP_W>& op2) {
     Base::V = op2.V;
     return *this;
@@ -2947,7 +2938,7 @@ struct ap_uint : ap_int_base<_AP_W, false> {
 
 
   ap_uint &operator=(const ap_uint<_AP_W> &op2) = default;
-# 317 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h"
+# 317 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h"
   inline __attribute__((always_inline)) __attribute__((nodebug)) ap_uint& operator=(const volatile ap_uint<_AP_W>& op2) {
     Base::V = op2.V;
     return *this;
@@ -2963,7 +2954,7 @@ struct ap_uint : ap_int_base<_AP_W, false> {
   }
 
 };
-# 352 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h"
+# 352 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h"
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_int_special.h" 1
 # 20 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_int_special.h"
 namespace std {
@@ -3131,7 +3122,19 @@ inline __attribute__((nodebug)) bool operator!=(const ap_int<_AP_W> &__x, const 
 }
 
 }
-# 353 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h" 2
+# 353 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h" 2
+
+
+
+
+
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_fixed.h" 1
+# 10 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_fixed.h"
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_fixed_base.h" 1
+# 16 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_fixed_base.h"
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h" 1
 # 17 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_fixed_base.h" 2
 # 87 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\etc/ap_fixed_base.h"
 template <int _AP_W2, int _AP_I2, bool _AP_S2>
@@ -5711,11 +5714,140 @@ inline __attribute__((nodebug)) bool operator!=(
 
 }
 # 366 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_fixed.h" 2
-# 2 "hilbert.cpp" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_math.h" 1
-# 26 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_math.h"
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cmath" 1 3
-# 40 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cmath" 3
+# 361 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h" 2
+# 16 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream.h" 1
+# 12 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream.h"
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream_39.h" 1
+# 23 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream_39.h"
+namespace hls {
+# 49 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream_39.h"
+template<typename __STREAM_T__, int DEPTH=0>
+class stream;
+
+template<typename __STREAM_T__>
+class stream<__STREAM_T__, 0>
+{
+  public:
+    using value_type = __STREAM_T__;
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) stream() {
+    }
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const char* name) {
+      (void)(name);
+    }
+
+
+  private:
+    inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const stream< __STREAM_T__ >& chn):V(chn.V) {
+    }
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) stream& operator= (const stream< __STREAM_T__ >& chn) {
+        V = chn.V;
+        return *this;
+    }
+
+  public:
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) void operator >> (__STREAM_T__& rdata) {
+        read(rdata);
+    }
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) void operator << (const __STREAM_T__& wdata) {
+        write(wdata);
+    }
+
+
+  public:
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) bool empty() const {
+        return !__fpga_fifo_not_empty(&V);
+    }
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) bool full() const {
+        return !__fpga_fifo_not_full(&V);
+    }
+
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) void read(__STREAM_T__& dout) {
+        __fpga_fifo_pop(&V, &dout);
+    }
+
+
+    inline __attribute__((noinline)) __attribute__((nodebug)) bool read_dep(__STREAM_T__& dout, volatile bool flag) {
+        __fpga_fifo_pop(&V, &dout);
+        return flag;
+    }
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) __STREAM_T__ read() {
+        __STREAM_T__ tmp;
+        read(tmp);
+        return tmp;
+    }
+
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) bool read_nb(__STREAM_T__& dout) {
+        __STREAM_T__ tmp;
+
+        if (__fpga_fifo_nb_pop(&V, &tmp)) {
+            dout = tmp;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) void write(const __STREAM_T__& din) {
+        __fpga_fifo_push(&V, &din);
+    }
+
+
+    inline __attribute__((noinline)) __attribute__((nodebug)) bool write_dep(const __STREAM_T__& din, volatile bool flag) {
+        __fpga_fifo_push(&V, &din);
+        return flag;
+    }
+
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) bool write_nb(const __STREAM_T__& din) {
+        return __fpga_fifo_nb_push(&V, &din);
+    }
+
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) unsigned size() const {
+        return __fpga_fifo_size(&V);
+    }
+
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) unsigned capacity() const {
+        return __fpga_fifo_capacity(&V);
+    }
+
+
+    void set_name(const char* name) { (void)(name); }
+
+  public:
+    __STREAM_T__ V __attribute__((no_ctor));
+};
+
+template<typename __STREAM_T__, int DEPTH>
+class stream : public stream<__STREAM_T__, 0> {
+  public:
+    inline __attribute__((always_inline)) __attribute__((nodebug)) stream() {
+#pragma HLS stream variable=this depth=DEPTH
+ }
+
+    inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const char* name) {
+#pragma HLS stream variable=this depth=DEPTH
+ (void)(name);
+    }
+};
+}
+# 13 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream.h" 2
+# 17 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 1 3
+# 42 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 3
 
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 1 3
 # 236 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 3
@@ -5744,7 +5876,3889 @@ namespace __gnu_cxx
 
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/cpu_defines.h" 1 3
 # 512 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\x86_64-w64-mingw32\\bits/c++config.h" 2 3
-# 42 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cmath" 2 3
+# 44 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 1 3
+# 15 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 1 3
+# 10 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 1 3
+# 12 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_mac.h" 1 3
+# 13 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_secapi.h" 1 3
+# 44 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_secapi.h" 3
+extern "C++" {
+template <bool __test, typename __dsttype>
+  struct __if_array;
+template <typename __dsttype>
+  struct __if_array <true, __dsttype> {
+    typedef __dsttype __type;
+};
+}
+# 14 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 282 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 1 3
+# 26 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 1 3
+
+
+
+
+
+
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 1 3
+# 595 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/sdks/_mingw_directx.h" 1 3
+# 596 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/sdks/_mingw_ddk.h" 1 3
+# 597 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 10 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 2 3
+
+
+
+
+#pragma pack(push,_CRT_PACKING)
+
+
+
+extern "C" {
+
+
+
+
+
+  typedef __builtin_va_list __gnuc_va_list;
+
+
+
+
+
+
+  typedef __gnuc_va_list va_list;
+# 99 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 3
+}
+
+
+
+#pragma pack(pop)
+# 27 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 2 3
+# 283 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
+# 558 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+extern "C" {
+# 569 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
+void __attribute__((__cdecl__)) __debugbreak(void);
+extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __debugbreak(void)
+{
+  __asm__ __volatile__("int {$}3":);
+}
+
+
+
+
+const char *__mingw_get_crt_info (void);
+
+
+}
+# 11 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 2 3
+
+
+
+
+#pragma pack(push,_CRT_PACKING)
+# 35 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef unsigned long size_t;
+# 45 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef long ssize_t;
+
+
+
+
+
+
+typedef size_t rsize_t;
+# 62 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef long intptr_t;
+# 75 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef unsigned long uintptr_t;
+# 88 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+__extension__ typedef long ptrdiff_t;
+# 106 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+typedef unsigned short wint_t;
+typedef unsigned short wctype_t;
+
+
+
+
+
+typedef int errno_t;
+
+
+
+
+typedef long __time32_t;
+
+
+
+
+__extension__ typedef long __time64_t;
+# 138 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+typedef __time64_t time_t;
+# 422 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
+struct threadlocaleinfostruct;
+struct threadmbcinfostruct;
+typedef struct threadlocaleinfostruct *pthreadlocinfo;
+typedef struct threadmbcinfostruct *pthreadmbcinfo;
+struct __lc_time_data;
+
+typedef struct localeinfo_struct {
+  pthreadlocinfo locinfo;
+  pthreadmbcinfo mbcinfo;
+} _locale_tstruct,*_locale_t;
+
+
+
+typedef struct tagLC_ID {
+  unsigned short wLanguage;
+  unsigned short wCountry;
+  unsigned short wCodePage;
+} LC_ID,*LPLC_ID;
+
+
+
+
+typedef struct threadlocaleinfostruct {
+  int refcount;
+  unsigned int lc_codepage;
+  unsigned int lc_collate_cp;
+  unsigned long lc_handle[6];
+  LC_ID lc_id[6];
+  struct {
+    char *locale;
+    wchar_t *wlocale;
+    int *refcount;
+    int *wrefcount;
+  } lc_category[6];
+  int lc_clike;
+  int mb_cur_max;
+  int *lconv_intl_refcount;
+  int *lconv_num_refcount;
+  int *lconv_mon_refcount;
+  struct lconv *lconv;
+  int *ctype1_refcount;
+  unsigned short *ctype1;
+  const unsigned short *pctype;
+  const unsigned char *pclmap;
+  const unsigned char *pcumap;
+  struct __lc_time_data *lc_time_curr;
+} threadlocinfo;
+
+
+
+
+
+
+
+#pragma pack(pop)
+# 16 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 2 3
+
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 1 3
+# 36 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+# 75 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 1 3
+# 10 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 1 3
+# 37 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\limits.h" 1 3
+# 38 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 2 3
+# 11 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
+# 25 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+#pragma pack(push,_CRT_PACKING)
+
+
+extern "C" {
+# 49 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  typedef int (__attribute__((__cdecl__)) *_onexit_t)(void);
+# 59 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  typedef struct _div_t {
+    int quot;
+    int rem;
+  } div_t;
+
+  typedef struct _ldiv_t {
+    long quot;
+    long rem;
+  } ldiv_t;
+
+
+
+
+
+#pragma pack(4)
+ typedef struct {
+    unsigned char ld[10];
+  } _LDOUBLE;
+#pragma pack()
+
+
+
+ typedef struct {
+    double x;
+  } _CRT_DOUBLE;
+
+  typedef struct {
+    float f;
+  } _CRT_FLOAT;
+
+
+
+
+  typedef struct {
+    long double x;
+  } _LONGDOUBLE;
+
+
+
+#pragma pack(4)
+ typedef struct {
+    unsigned char ld12[12];
+  } _LDBL12;
+#pragma pack()
+# 115 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+ extern int * __imp___mb_cur_max;
+
+
+
+
+__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_func(void);
+# 142 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  typedef void (__attribute__((__cdecl__)) *_purecall_handler)(void);
+
+  __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _set_purecall_handler(_purecall_handler _Handler);
+  __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _get_purecall_handler(void);
+
+  typedef void (__attribute__((__cdecl__)) *_invalid_parameter_handler)(const wchar_t *,const wchar_t *,const wchar_t *,unsigned int,uintptr_t);
+  __attribute__ ((__dllimport__)) _invalid_parameter_handler __attribute__((__cdecl__)) _set_invalid_parameter_handler(_invalid_parameter_handler _Handler);
+  __attribute__ ((__dllimport__)) _invalid_parameter_handler __attribute__((__cdecl__)) _get_invalid_parameter_handler(void);
+
+
+
+  __attribute__ ((__dllimport__)) extern int *__attribute__((__cdecl__)) _errno(void);
+
+  errno_t __attribute__((__cdecl__)) _set_errno(int _Value);
+  errno_t __attribute__((__cdecl__)) _get_errno(int *_Value);
+
+  __attribute__ ((__dllimport__)) unsigned long *__attribute__((__cdecl__)) __doserrno(void);
+
+  errno_t __attribute__((__cdecl__)) _set_doserrno(unsigned long _Value);
+  errno_t __attribute__((__cdecl__)) _get_doserrno(unsigned long *_Value);
+# 172 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  extern __attribute__((dllimport)) char *_sys_errlist[1];
+  extern __attribute__((dllimport)) int _sys_nerr;
+
+
+
+
+
+  __attribute__ ((__dllimport__)) char ***__attribute__((__cdecl__)) __p___argv(void);
+  __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __p__fmode(void);
+# 190 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  errno_t __attribute__((__cdecl__)) _get_pgmptr(char **_Value);
+  errno_t __attribute__((__cdecl__)) _get_wpgmptr(wchar_t **_Value);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_fmode(int _Mode);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_fmode(int *_PMode);
+# 281 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  extern int * __imp___argc;
+
+
+
+  extern char *** __imp___argv;
+
+
+
+  extern wchar_t *** __imp___wargv;
+
+
+
+
+
+  extern char *** __imp__environ;
+
+
+
+
+  extern wchar_t *** __imp__wenviron;
+
+
+
+
+
+  extern char ** __imp__pgmptr;
+
+
+
+
+  extern wchar_t ** __imp__wpgmptr;
+
+
+
+
+  extern unsigned int * __imp__osplatform;
+
+
+
+
+  extern unsigned int * __imp__osver;
+
+
+
+
+  extern unsigned int * __imp__winver;
+
+
+
+
+  extern unsigned int * __imp__winmajor;
+
+
+
+
+  extern unsigned int * __imp__winminor;
+
+
+
+
+
+  errno_t __attribute__((__cdecl__)) _get_osplatform(unsigned int *_Value);
+  errno_t __attribute__((__cdecl__)) _get_osver(unsigned int *_Value);
+  errno_t __attribute__((__cdecl__)) _get_winver(unsigned int *_Value);
+  errno_t __attribute__((__cdecl__)) _get_winmajor(unsigned int *_Value);
+  errno_t __attribute__((__cdecl__)) _get_winminor(unsigned int *_Value);
+
+
+
+
+  extern "C++" {
+    template <typename _CountofType,size_t _SizeOfArray> char (*__countof_helper( _CountofType (&_Array)[_SizeOfArray]))[_SizeOfArray];
+
+  }
+
+
+
+
+
+  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) exit(int _Code) __attribute__ ((__noreturn__));
+  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) _exit(int _Code) __attribute__ ((__noreturn__));
+
+
+
+  void __attribute__((__cdecl__)) _Exit(int) __attribute__ ((__noreturn__));
+# 374 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) abort(void);
+
+
+
+
+  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _set_abort_behavior(unsigned int _Flags,unsigned int _Mask);
+
+
+
+  int __attribute__((__cdecl__)) abs(int _X);
+  long __attribute__((__cdecl__)) labs(long _X);
+
+
+  __extension__ long __attribute__((__cdecl__)) _abs64(long);
+
+  extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) long __attribute__((__cdecl__)) _abs64(long x) {
+    return __builtin_llabs(x);
+  }
+
+
+  int __attribute__((__cdecl__)) atexit(void (__attribute__((__cdecl__)) *)(void));
+
+
+  double __attribute__((__cdecl__)) atof(const char *_String);
+  double __attribute__((__cdecl__)) _atof_l(const char *_String,_locale_t _Locale);
+
+  int __attribute__((__cdecl__)) atoi(const char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoi_l(const char *_Str,_locale_t _Locale);
+  long __attribute__((__cdecl__)) atol(const char *_Str);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atol_l(const char *_Str,_locale_t _Locale);
+
+
+  void *__attribute__((__cdecl__)) bsearch(const void *_Key,const void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(const void *,const void *));
+  void __attribute__((__cdecl__)) qsort(void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(const void *,const void *));
+
+  unsigned short __attribute__((__cdecl__)) _byteswap_ushort(unsigned short _Short);
+  unsigned long __attribute__((__cdecl__)) _byteswap_ulong (unsigned long _Long);
+  __extension__ unsigned long __attribute__((__cdecl__)) _byteswap_uint64(unsigned long _Int64);
+  div_t __attribute__((__cdecl__)) div(int _Numerator,int _Denominator);
+  char *__attribute__((__cdecl__)) getenv(const char *_VarName) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _itoa(int _Value,char *_Dest,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _i64toa(long _Val,char *_DstBuf,int _Radix) ;
+  __extension__ __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ui64toa(unsigned long _Val,char *_DstBuf,int _Radix) ;
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atoi64(const char *_String);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atoi64_l(const char *_String,_locale_t _Locale);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtoi64(const char *_String,char **_EndPtr,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtoi64_l(const char *_String,char **_EndPtr,int _Radix,_locale_t _Locale);
+  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoui64(const char *_String,char **_EndPtr,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoui64_l(const char *_String,char **_EndPtr,int _Radix,_locale_t _Locale);
+  ldiv_t __attribute__((__cdecl__)) ldiv(long _Numerator,long _Denominator);
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ltoa(long _Value,char *_Dest,int _Radix) ;
+  int __attribute__((__cdecl__)) mblen(const char *_Ch,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _mblen_l(const char *_Ch,size_t _MaxCount,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrlen(const char *_Str);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrlen_l(const char *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrnlen(const char *_Str,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrnlen_l(const char *_Str,size_t _MaxCount,_locale_t _Locale);
+  int __attribute__((__cdecl__)) mbtowc(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SrcSizeInBytes);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _mbtowc_l(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SrcSizeInBytes,_locale_t _Locale);
+  size_t __attribute__((__cdecl__)) mbstowcs(wchar_t * __restrict__ _Dest,const char * __restrict__ _Source,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstowcs_l(wchar_t * __restrict__ _Dest,const char * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale);
+  int __attribute__((__cdecl__)) mkstemp(char *template_name);
+  int __attribute__((__cdecl__)) rand(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_error_mode(int _Mode);
+  void __attribute__((__cdecl__)) srand(unsigned int _Seed);
+# 449 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+inline __attribute__((__cdecl__))
+double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtod(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
+{
+  double __attribute__((__cdecl__)) __mingw_strtod (const char * __restrict__, char ** __restrict__);
+  return __mingw_strtod( _Str, _EndPtr);
+}
+
+inline __attribute__((__cdecl__))
+float __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtof(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
+{
+  float __attribute__((__cdecl__)) __mingw_strtof (const char * __restrict__, char ** __restrict__);
+  return __mingw_strtof( _Str, _EndPtr);
+}
+
+
+
+
+
+
+  long double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtold(const char * __restrict__ , char ** __restrict__ );
+
+
+  extern double __attribute__((__cdecl__)) __attribute__ ((__nothrow__))
+  __strtod (const char * __restrict__ , char ** __restrict__);
+
+
+
+
+
+
+
+  float __attribute__((__cdecl__)) __mingw_strtof (const char * __restrict__, char ** __restrict__);
+  double __attribute__((__cdecl__)) __mingw_strtod (const char * __restrict__, char ** __restrict__);
+  long double __attribute__((__cdecl__)) __mingw_strtold(const char * __restrict__, char ** __restrict__);
+
+  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _strtod_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,_locale_t _Locale);
+  long __attribute__((__cdecl__)) strtol(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtol_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
+  unsigned long __attribute__((__cdecl__)) strtoul(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix);
+  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoul_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
+
+
+  int __attribute__((__cdecl__)) system(const char *_Command);
+
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ultoa(unsigned long _Value,char *_Dest,int _Radix) ;
+  int __attribute__((__cdecl__)) wctomb(char *_MbCh,wchar_t _WCh) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wctomb_l(char *_MbCh,wchar_t _WCh,_locale_t _Locale) ;
+  size_t __attribute__((__cdecl__)) wcstombs(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount) ;
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcstombs_l(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale) ;
+
+
+
+  void *__attribute__((__cdecl__)) calloc(size_t _NumOfElements,size_t _SizeOfElements);
+  void __attribute__((__cdecl__)) free(void *_Memory);
+  void *__attribute__((__cdecl__)) malloc(size_t _Size);
+  void *__attribute__((__cdecl__)) realloc(void *_Memory,size_t _NewSize);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _recalloc(void *_Memory,size_t _Count,size_t _Size);
+
+
+
+
+
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _aligned_free(void *_Memory);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_malloc(size_t _Size,size_t _Alignment);
+
+
+
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_malloc(size_t _Size,size_t _Alignment,size_t _Offset);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_realloc(void *_Memory,size_t _Size,size_t _Alignment);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_realloc(void *_Memory,size_t _Size,size_t _Alignment,size_t _Offset);
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment,size_t _Offset);
+
+
+
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _itow(int _Value,wchar_t *_Dest,int _Radix) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ltow(long _Value,wchar_t *_Dest,int _Radix) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ultow(unsigned long _Value,wchar_t *_Dest,int _Radix) ;
+
+  double __attribute__((__cdecl__)) __mingw_wcstod(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr);
+  float __attribute__((__cdecl__)) __mingw_wcstof(const wchar_t * __restrict__ nptr, wchar_t ** __restrict__ endptr);
+  long double __attribute__((__cdecl__)) __mingw_wcstold(const wchar_t * __restrict__, wchar_t ** __restrict__);
+
+
+  inline __attribute__((__cdecl__))
+  double __attribute__((__cdecl__)) wcstod(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr){
+    return __mingw_wcstod(_Str,_EndPtr);
+  }
+  inline __attribute__((__cdecl__))
+  float __attribute__((__cdecl__)) wcstof(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr){
+    return __mingw_wcstof(_Str,_EndPtr);
+  }
+
+
+
+
+
+
+  long double __attribute__((__cdecl__)) wcstold(const wchar_t * __restrict__, wchar_t ** __restrict__);
+
+  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wcstod_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,_locale_t _Locale);
+  long __attribute__((__cdecl__)) wcstol(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstol_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
+  unsigned long __attribute__((__cdecl__)) wcstoul(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix);
+  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoul_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetenv(const wchar_t *_VarName) ;
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wsystem(const wchar_t *_Command);
+
+  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wtof(const wchar_t *_Str);
+  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wtof_l(const wchar_t *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wtoi(const wchar_t *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wtoi_l(const wchar_t *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtol(const wchar_t *_Str);
+  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtol_l(const wchar_t *_Str,_locale_t _Locale);
+
+  __extension__ __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _i64tow(long _Val,wchar_t *_DstBuf,int _Radix) ;
+  __extension__ __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ui64tow(unsigned long _Val,wchar_t *_DstBuf,int _Radix) ;
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtoi64(const wchar_t *_Str);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtoi64_l(const wchar_t *_Str,_locale_t _Locale);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstoi64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstoi64_l(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
+  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoui64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
+  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoui64_l(const wchar_t *_Str ,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putenv(const char *_EnvString);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wputenv(const wchar_t *_EnvString);
+
+
+
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fullpath(char *_FullPath,const char *_Path,size_t _SizeInBytes);
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl(_CRT_DOUBLE *_Result,char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl(_LDOUBLE *_Result,char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt(_CRT_FLOAT *_Result,char *_Str);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl_l(_CRT_DOUBLE *_Result,char *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl_l(_LDOUBLE *_Result,char *_Str,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt_l(_CRT_FLOAT *_Result,char *_Str,_locale_t _Locale);
+# 609 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+unsigned long __attribute__((__cdecl__)) _lrotl(unsigned long,int);
+unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
+
+
+
+
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _makepath(char *_Path,const char *_Drive,const char *_Dir,const char *_Filename,const char *_Ext);
+  _onexit_t __attribute__((__cdecl__)) _onexit(_onexit_t _Func);
+
+
+
+  void __attribute__((__cdecl__)) perror(const char *_ErrMsg);
+
+
+
+
+
+  __extension__ unsigned long __attribute__((__cdecl__)) _rotl64(unsigned long _Val,int _Shift);
+  __extension__ unsigned long __attribute__((__cdecl__)) _rotr64(unsigned long Value,int Shift);
+
+
+
+
+
+
+  unsigned int __attribute__((__cdecl__)) _rotr(unsigned int _Val,int _Shift);
+  unsigned int __attribute__((__cdecl__)) _rotl(unsigned int _Val,int _Shift);
+
+
+  __extension__ unsigned long __attribute__((__cdecl__)) _rotr64(unsigned long _Val,int _Shift);
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _searchenv(const char *_Filename,const char *_EnvVar,char *_ResultPath) ;
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _splitpath(const char *_FullPath,char *_Drive,char *_Dir,char *_Filename,char *_Ext) ;
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _swab(char *_Buf1,char *_Buf2,int _SizeInBytes);
+
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wfullpath(wchar_t *_FullPath,const wchar_t *_Path,size_t _SizeInWords);
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wmakepath(wchar_t *_ResultPath,const wchar_t *_Drive,const wchar_t *_Dir,const wchar_t *_Filename,const wchar_t *_Ext);
+
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wperror(const wchar_t *_ErrMsg);
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsearchenv(const wchar_t *_Filename,const wchar_t *_EnvVar,wchar_t *_ResultPath) ;
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsplitpath(const wchar_t *_FullPath,wchar_t *_Drive,wchar_t *_Dir,wchar_t *_Filename,wchar_t *_Ext) ;
+
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _beep(unsigned _Frequency,unsigned _Duration) __attribute__ ((__deprecated__));
+
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _seterrormode(int _Mode) __attribute__ ((__deprecated__));
+  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _sleep(unsigned long _Duration) __attribute__ ((__deprecated__));
+# 680 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+  char *__attribute__((__cdecl__)) ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
+  char *__attribute__((__cdecl__)) fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
+  char *__attribute__((__cdecl__)) gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
+  char *__attribute__((__cdecl__)) itoa(int _Val,char *_DstBuf,int _Radix) ;
+  char *__attribute__((__cdecl__)) ltoa(long _Val,char *_DstBuf,int _Radix) ;
+  int __attribute__((__cdecl__)) putenv(const char *_EnvString) ;
+
+
+
+  void __attribute__((__cdecl__)) swab(char *_Buf1,char *_Buf2,int _SizeInBytes) ;
+
+
+  char *__attribute__((__cdecl__)) ultoa(unsigned long _Val,char *_Dstbuf,int _Radix) ;
+  _onexit_t __attribute__((__cdecl__)) onexit(_onexit_t _Func);
+
+
+
+
+
+  typedef struct { __extension__ long long quot, rem; } lldiv_t;
+
+  __extension__ lldiv_t __attribute__((__cdecl__)) lldiv(long long, long long);
+
+  __extension__ long long __attribute__((__cdecl__)) llabs(long long);
+
+
+
+
+  __extension__ long long __attribute__((__cdecl__)) strtoll(const char * __restrict__, char ** __restrict, int);
+  __extension__ unsigned long long __attribute__((__cdecl__)) strtoull(const char * __restrict__, char ** __restrict__, int);
+
+
+  __extension__ long long __attribute__((__cdecl__)) atoll (const char *);
+
+
+  __extension__ long long __attribute__((__cdecl__)) wtoll (const wchar_t *);
+  __extension__ char *__attribute__((__cdecl__)) lltoa (long long, char *, int);
+  __extension__ char *__attribute__((__cdecl__)) ulltoa (unsigned long long , char *, int);
+  __extension__ wchar_t *__attribute__((__cdecl__)) lltow (long long, wchar_t *, int);
+  __extension__ wchar_t *__attribute__((__cdecl__)) ulltow (unsigned long long, wchar_t *, int);
+# 735 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
+}
+
+
+#pragma pack(pop)
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/stdlib_s.h" 1 3
+
+
+
+
+
+
+
+
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 1 3
+# 30 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 1 3
+# 31 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 2 3
+# 10 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/stdlib_s.h" 2 3
+# 741 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 1 3
+# 11 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+#pragma pack(push,_CRT_PACKING)
+
+
+extern "C" {
+# 46 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+  typedef struct _heapinfo {
+    int *_pentry;
+    size_t _size;
+    int _useflag;
+  } _HEAPINFO;
+
+
+  extern unsigned int _amblksiz;
+# 103 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+void * __mingw_aligned_malloc (size_t _Size, size_t _Alignment);
+void __mingw_aligned_free (void *_Memory);
+void * __mingw_aligned_offset_realloc (void *_Memory, size_t _Size, size_t _Alignment, size_t _Offset);
+void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
+
+
+
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _resetstkoflw (void);
+  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _set_malloc_crt_max_wait(unsigned long _NewValue);
+
+  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _expand(void *_Memory,size_t _NewSize);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _msize(void *_Memory);
+
+
+
+
+
+
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _get_sbh_threshold(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_sbh_threshold(size_t _NewValue);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_amblksiz(size_t _Value);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_amblksiz(size_t *_Value);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapadd(void *_Memory,size_t _Size);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapchk(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapmin(void);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapset(unsigned int _Fill);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapwalk(_HEAPINFO *_EntryInfo);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _heapused(size_t *_Used,size_t *_Commit);
+  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _get_heap_handle(void);
+# 144 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+  static __inline void *_MarkAllocaS(void *_Ptr,unsigned int _Marker) {
+    if(_Ptr) {
+      *((unsigned int*)_Ptr) = _Marker;
+      _Ptr = (char*)_Ptr + 16;
+    }
+    return _Ptr;
+  }
+# 163 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+  static __inline void __attribute__((__cdecl__)) _freea(void *_Memory) {
+    unsigned int _Marker;
+    if(_Memory) {
+      _Memory = (char*)_Memory - 16;
+      _Marker = *(unsigned int *)_Memory;
+      if(_Marker==0xDDDD) {
+ free(_Memory);
+      }
+
+
+
+
+
+    }
+  }
+# 206 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
+}
+
+
+#pragma pack(pop)
+# 742 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
+# 76 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 2 3
+
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 1 3
+# 34 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 3
+# 46 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 3
+extern "C++"
+{
+namespace std
+{
+
+
+  using ::abs;
+
+
+  inline long
+  abs(long __i) { return __builtin_labs(__i); }
+
+
+
+  inline long long
+  abs(long long __x) { return __builtin_llabs (__x); }
+
+
+
+
+
+
+
+  inline constexpr double
+  abs(double __x)
+  { return __builtin_fabs(__x); }
+
+  inline constexpr float
+  abs(float __x)
+  { return __builtin_fabsf(__x); }
+
+  inline constexpr long double
+  abs(long double __x)
+  { return __builtin_fabsl(__x); }
+
+
+
+  inline constexpr __int128
+  abs(__int128 __x) { return __x >= 0 ? __x : -__x; }
+# 107 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 3
+}
+}
+# 78 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 2 3
+# 121 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+extern "C++"
+{
+namespace std
+{
+
+
+  using ::div_t;
+  using ::ldiv_t;
+
+  using ::abort;
+
+
+
+  using ::atexit;
+
+
+
+
+
+  using ::atof;
+  using ::atoi;
+  using ::atol;
+  using ::bsearch;
+  using ::calloc;
+  using ::div;
+  using ::exit;
+  using ::free;
+  using ::getenv;
+  using ::labs;
+  using ::ldiv;
+  using ::malloc;
+
+  using ::mblen;
+  using ::mbstowcs;
+  using ::mbtowc;
+
+  using ::qsort;
+
+
+
+
+
+  using ::rand;
+  using ::realloc;
+  using ::srand;
+  using ::strtod;
+  using ::strtol;
+  using ::strtoul;
+  using ::system;
+
+  using ::wcstombs;
+  using ::wctomb;
+
+
+
+  inline ldiv_t
+  div(long __i, long __j) { return ldiv(__i, __j); }
+
+
+
+
+}
+# 195 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+namespace __gnu_cxx
+{
+
+
+
+  using ::lldiv_t;
+
+
+
+
+
+  using ::_Exit;
+
+
+
+  using ::llabs;
+
+  inline lldiv_t
+  div(long long __n, long long __d)
+  { lldiv_t __q; __q.quot = __n / __d; __q.rem = __n % __d; return __q; }
+
+  using ::lldiv;
+# 227 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+  using ::atoll;
+  using ::strtoll;
+  using ::strtoull;
+
+  using ::strtof;
+  using ::strtold;
+
+
+}
+
+namespace std
+{
+
+  using ::__gnu_cxx::lldiv_t;
+
+  using ::__gnu_cxx::_Exit;
+
+  using ::__gnu_cxx::llabs;
+  using ::__gnu_cxx::div;
+  using ::__gnu_cxx::lldiv;
+
+  using ::__gnu_cxx::atoll;
+  using ::__gnu_cxx::strtof;
+  using ::__gnu_cxx::strtoll;
+  using ::__gnu_cxx::strtoull;
+  using ::__gnu_cxx::strtold;
+}
+
+
+
+}
+# 37 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 2 3
+
+using std::abort;
+using std::atexit;
+using std::exit;
+# 51 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
+using std::div_t;
+using std::ldiv_t;
+
+using std::abs;
+using std::atof;
+using std::atoi;
+using std::atol;
+using std::bsearch;
+using std::calloc;
+using std::div;
+using std::free;
+using std::getenv;
+using std::labs;
+using std::ldiv;
+using std::malloc;
+
+using std::mblen;
+using std::mbstowcs;
+using std::mbtowc;
+
+using std::qsort;
+using std::rand;
+using std::realloc;
+using std::srand;
+using std::strtod;
+using std::strtol;
+using std::strtoul;
+using std::system;
+
+using std::wcstombs;
+using std::wctomb;
+# 18 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 2 3
+
+
+
+extern "C" {
+# 45 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
+extern void __attribute__((__cdecl__))
+_wassert(const wchar_t *_Message,const wchar_t *_File,unsigned _Line);
+extern void __attribute__((__cdecl__))
+_assert (const char *_Message, const char *_File, unsigned _Line);
+
+
+}
+# 45 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 2 3
+# 18 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\climits" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\climits" 3
+# 19 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 3
+
+
+
+
+
+
+
+
+# 1 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 1 3
+# 63 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 3
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 1 3
+# 32 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 3
+# 1 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stddef.h" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 2 3
+
+
+typedef signed char int8_t;
+typedef unsigned char uint8_t;
+typedef short int16_t;
+typedef unsigned short uint16_t;
+typedef int int32_t;
+typedef unsigned uint32_t;
+__extension__ typedef long long int64_t;
+__extension__ typedef unsigned long long uint64_t;
+
+
+typedef signed char int_least8_t;
+typedef unsigned char uint_least8_t;
+typedef short int_least16_t;
+typedef unsigned short uint_least16_t;
+typedef int int_least32_t;
+typedef unsigned uint_least32_t;
+__extension__ typedef long long int_least64_t;
+__extension__ typedef unsigned long long uint_least64_t;
+
+
+
+
+
+typedef signed char int_fast8_t;
+typedef unsigned char uint_fast8_t;
+typedef short int_fast16_t;
+typedef unsigned short uint_fast16_t;
+typedef int int_fast32_t;
+typedef unsigned int uint_fast32_t;
+__extension__ typedef long long int_fast64_t;
+__extension__ typedef unsigned long long uint_fast64_t;
+
+
+__extension__ typedef long long intmax_t;
+__extension__ typedef unsigned long long uintmax_t;
+# 64 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 2 3
+# 42 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 2 3
+
+
+
+
+namespace std
+{
+  using ::int8_t;
+  using ::int16_t;
+  using ::int32_t;
+  using ::int64_t;
+
+  using ::int_fast8_t;
+  using ::int_fast16_t;
+  using ::int_fast32_t;
+  using ::int_fast64_t;
+
+  using ::int_least8_t;
+  using ::int_least16_t;
+  using ::int_least32_t;
+  using ::int_least64_t;
+
+  using ::intmax_t;
+  using ::intptr_t;
+
+  using ::uint8_t;
+  using ::uint16_t;
+  using ::uint32_t;
+  using ::uint64_t;
+
+  using ::uint_fast8_t;
+  using ::uint_fast16_t;
+  using ::uint_fast32_t;
+  using ::uint_fast64_t;
+
+  using ::uint_least8_t;
+  using ::uint_least16_t;
+  using ::uint_least32_t;
+  using ::uint_least64_t;
+
+  using ::uintmax_t;
+  using ::uintptr_t;
+}
+# 20 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 1 3
+# 33 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+
+
+
+
+
+
+
+namespace std
+{
+# 56 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<typename _Tp, _Tp __v>
+    struct integral_constant
+    {
+      static constexpr _Tp value = __v;
+      typedef _Tp value_type;
+      typedef integral_constant<_Tp, __v> type;
+      constexpr operator value_type() const noexcept { return value; }
+
+
+
+
+      constexpr value_type operator()() const noexcept { return value; }
+
+    };
+
+  template<typename _Tp, _Tp __v>
+    constexpr _Tp integral_constant<_Tp, __v>::value;
+
+
+  typedef integral_constant<bool, true> true_type;
+
+
+  typedef integral_constant<bool, false> false_type;
+
+  template<bool __v>
+    using __bool_constant = integral_constant<bool, __v>;
+# 91 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<bool, typename, typename>
+    struct conditional;
+
+  template<typename...>
+    struct __or_;
+
+  template<>
+    struct __or_<>
+    : public false_type
+    { };
+
+  template<typename _B1>
+    struct __or_<_B1>
+    : public _B1
+    { };
+
+  template<typename _B1, typename _B2>
+    struct __or_<_B1, _B2>
+    : public conditional<_B1::value, _B1, _B2>::type
+    { };
+
+  template<typename _B1, typename _B2, typename _B3, typename... _Bn>
+    struct __or_<_B1, _B2, _B3, _Bn...>
+    : public conditional<_B1::value, _B1, __or_<_B2, _B3, _Bn...>>::type
+    { };
+
+  template<typename...>
+    struct __and_;
+
+  template<>
+    struct __and_<>
+    : public true_type
+    { };
+
+  template<typename _B1>
+    struct __and_<_B1>
+    : public _B1
+    { };
+
+  template<typename _B1, typename _B2>
+    struct __and_<_B1, _B2>
+    : public conditional<_B1::value, _B2, _B1>::type
+    { };
+
+  template<typename _B1, typename _B2, typename _B3, typename... _Bn>
+    struct __and_<_B1, _B2, _B3, _Bn...>
+    : public conditional<_B1::value, __and_<_B2, _B3, _Bn...>, _B1>::type
+    { };
+
+  template<typename _Pp>
+    struct __not_
+    : public __bool_constant<!bool(_Pp::value)>
+    { };
+# 180 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<typename _Tp>
+    struct __success_type
+    { typedef _Tp type; };
+
+  struct __failure_type
+  { };
+
+
+
+  template<typename>
+    struct remove_cv;
+
+  template<typename>
+    struct __is_void_helper
+    : public false_type { };
+
+  template<>
+    struct __is_void_helper<void>
+    : public true_type { };
+
+
+  template<typename _Tp>
+    struct is_void
+    : public __is_void_helper<typename remove_cv<_Tp>::type>::type
+    { };
+
+  template<typename>
+    struct __is_integral_helper
+    : public false_type { };
+
+  template<>
+    struct __is_integral_helper<bool>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<char>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<signed char>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<unsigned char>
+    : public true_type { };
+
+
+  template<>
+    struct __is_integral_helper<wchar_t>
+    : public true_type { };
+
+
+  template<>
+    struct __is_integral_helper<char16_t>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<char32_t>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<short>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<unsigned short>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<int>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<unsigned int>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<long>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<unsigned long>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<long long>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<unsigned long long>
+    : public true_type { };
+
+
+
+
+  template<>
+    struct __is_integral_helper<__int128>
+    : public true_type { };
+
+  template<>
+    struct __is_integral_helper<unsigned __int128>
+    : public true_type { };
+# 312 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<typename _Tp>
+    struct is_integral
+    : public __is_integral_helper<typename remove_cv<_Tp>::type>::type
+    { };
+
+  template<typename>
+    struct __is_floating_point_helper
+    : public false_type { };
+
+  template<>
+    struct __is_floating_point_helper<float>
+    : public true_type { };
+
+  template<>
+    struct __is_floating_point_helper<double>
+    : public true_type { };
+
+  template<>
+    struct __is_floating_point_helper<long double>
+    : public true_type { };
+# 340 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<typename _Tp>
+    struct is_floating_point
+    : public __is_floating_point_helper<typename remove_cv<_Tp>::type>::type
+    { };
+
+
+  template<typename>
+    struct is_array
+    : public false_type { };
+
+  template<typename _Tp, std::size_t _Size>
+    struct is_array<_Tp[_Size]>
+    : public true_type { };
+
+  template<typename _Tp>
+    struct is_array<_Tp[]>
+    : public true_type { };
+
+  template<typename>
+    struct __is_pointer_helper
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_pointer_helper<_Tp*>
+    : public true_type { };
+
+
+  template<typename _Tp>
+    struct is_pointer
+    : public __is_pointer_helper<typename remove_cv<_Tp>::type>::type
+    { };
+
+
+  template<typename>
+    struct is_lvalue_reference
+    : public false_type { };
+
+  template<typename _Tp>
+    struct is_lvalue_reference<_Tp&>
+    : public true_type { };
+
+
+  template<typename>
+    struct is_rvalue_reference
+    : public false_type { };
+
+  template<typename _Tp>
+    struct is_rvalue_reference<_Tp&&>
+    : public true_type { };
+
+  template<typename>
+    struct is_function;
+
+  template<typename>
+    struct __is_member_object_pointer_helper
+    : public false_type { };
+
+  template<typename _Tp, typename _Cp>
+    struct __is_member_object_pointer_helper<_Tp _Cp::*>
+    : public integral_constant<bool, !is_function<_Tp>::value> { };
+
+
+  template<typename _Tp>
+    struct is_member_object_pointer
+    : public __is_member_object_pointer_helper<
+    typename remove_cv<_Tp>::type>::type
+    { };
+
+  template<typename>
+    struct __is_member_function_pointer_helper
+    : public false_type { };
+
+  template<typename _Tp, typename _Cp>
+    struct __is_member_function_pointer_helper<_Tp _Cp::*>
+    : public integral_constant<bool, is_function<_Tp>::value> { };
+
+
+  template<typename _Tp>
+    struct is_member_function_pointer
+    : public __is_member_function_pointer_helper<
+    typename remove_cv<_Tp>::type>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_enum
+    : public integral_constant<bool, __is_enum(_Tp)>
+    { };
+
+
+  template<typename _Tp>
+    struct is_union
+    : public integral_constant<bool, __is_union(_Tp)>
+    { };
+
+
+  template<typename _Tp>
+    struct is_class
+    : public integral_constant<bool, __is_class(_Tp)>
+    { };
+
+
+  template<typename>
+    struct is_function
+    : public false_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) & >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) && >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) & >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) && >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) const >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) const & >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) const && >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) const >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) const & >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) const && >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) volatile >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) volatile & >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) volatile && >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) volatile >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) volatile & >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) volatile && >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) const volatile >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) const volatile & >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes...) const volatile && >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) const volatile >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) const volatile & >
+    : public true_type { };
+
+  template<typename _Res, typename... _ArgTypes >
+    struct is_function<_Res(_ArgTypes......) const volatile && >
+    : public true_type { };
+
+
+
+  template<typename>
+    struct __is_null_pointer_helper
+    : public false_type { };
+
+  template<>
+    struct __is_null_pointer_helper<std::nullptr_t>
+    : public true_type { };
+
+
+  template<typename _Tp>
+    struct is_null_pointer
+    : public __is_null_pointer_helper<typename remove_cv<_Tp>::type>::type
+    { };
+
+
+  template<typename _Tp>
+    struct __is_nullptr_t
+    : public is_null_pointer<_Tp>
+    { };
+
+
+
+
+  template<typename _Tp>
+    struct is_reference
+    : public __or_<is_lvalue_reference<_Tp>,
+                   is_rvalue_reference<_Tp>>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_arithmetic
+    : public __or_<is_integral<_Tp>, is_floating_point<_Tp>>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_fundamental
+    : public __or_<is_arithmetic<_Tp>, is_void<_Tp>,
+     is_null_pointer<_Tp>>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_object
+    : public __not_<__or_<is_function<_Tp>, is_reference<_Tp>,
+                          is_void<_Tp>>>::type
+    { };
+
+  template<typename>
+    struct is_member_pointer;
+
+
+  template<typename _Tp>
+    struct is_scalar
+    : public __or_<is_arithmetic<_Tp>, is_enum<_Tp>, is_pointer<_Tp>,
+                   is_member_pointer<_Tp>, is_null_pointer<_Tp>>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_compound
+    : public integral_constant<bool, !is_fundamental<_Tp>::value> { };
+
+  template<typename _Tp>
+    struct __is_member_pointer_helper
+    : public false_type { };
+
+  template<typename _Tp, typename _Cp>
+    struct __is_member_pointer_helper<_Tp _Cp::*>
+    : public true_type { };
+
+
+  template<typename _Tp>
+    struct is_member_pointer
+    : public __is_member_pointer_helper<typename remove_cv<_Tp>::type>::type
+    { };
+
+
+
+  template<typename _Tp>
+    struct __is_referenceable
+    : public __or_<is_object<_Tp>, is_reference<_Tp>>::type
+    { };
+
+  template<typename _Res, typename... _Args >
+    struct __is_referenceable<_Res(_Args...) >
+    : public true_type
+    { };
+
+  template<typename _Res, typename... _Args >
+    struct __is_referenceable<_Res(_Args......) >
+    : public true_type
+    { };
+
+
+
+
+  template<typename>
+    struct is_const
+    : public false_type { };
+
+  template<typename _Tp>
+    struct is_const<_Tp const>
+    : public true_type { };
+
+
+  template<typename>
+    struct is_volatile
+    : public false_type { };
+
+  template<typename _Tp>
+    struct is_volatile<_Tp volatile>
+    : public true_type { };
+
+
+  template<typename _Tp>
+    struct is_trivial
+    : public integral_constant<bool, __is_trivial(_Tp)>
+    { };
+
+
+  template<typename _Tp>
+    struct is_trivially_copyable
+    : public integral_constant<bool, __is_trivially_copyable(_Tp)>
+    { };
+
+
+  template<typename _Tp>
+    struct is_standard_layout
+    : public integral_constant<bool, __is_standard_layout(_Tp)>
+    { };
+
+
+
+  template<typename _Tp>
+    struct is_pod
+    : public integral_constant<bool, __is_pod(_Tp)>
+    { };
+
+
+  template<typename _Tp>
+    struct is_literal_type
+    : public integral_constant<bool, __is_literal_type(_Tp)>
+    { };
+
+
+  template<typename _Tp>
+    struct is_empty
+    : public integral_constant<bool, __is_empty(_Tp)>
+    { };
+
+
+  template<typename _Tp>
+    struct is_polymorphic
+    : public integral_constant<bool, __is_polymorphic(_Tp)>
+    { };
+
+
+
+
+  template<typename _Tp>
+    struct is_final
+    : public integral_constant<bool, __is_final(_Tp)>
+    { };
+
+
+
+  template<typename _Tp>
+    struct is_abstract
+    : public integral_constant<bool, __is_abstract(_Tp)>
+    { };
+
+  template<typename _Tp,
+    bool = is_arithmetic<_Tp>::value>
+    struct __is_signed_helper
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_signed_helper<_Tp, true>
+    : public integral_constant<bool, _Tp(-1) < _Tp(0)>
+    { };
+
+
+  template<typename _Tp>
+    struct is_signed
+    : public __is_signed_helper<_Tp>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_unsigned
+    : public __and_<is_arithmetic<_Tp>, __not_<is_signed<_Tp>>>
+    { };
+# 747 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<typename _Tp, typename _Up = _Tp&&>
+    _Up
+    __declval(int);
+
+  template<typename _Tp>
+    _Tp
+    __declval(long);
+
+  template<typename _Tp>
+    auto declval() noexcept -> decltype(__declval<_Tp>(0));
+
+  template<typename, unsigned = 0>
+    struct extent;
+
+  template<typename>
+    struct remove_all_extents;
+
+  template<typename _Tp>
+    struct __is_array_known_bounds
+    : public integral_constant<bool, (extent<_Tp>::value > 0)>
+    { };
+
+  template<typename _Tp>
+    struct __is_array_unknown_bounds
+    : public __and_<is_array<_Tp>, __not_<extent<_Tp>>>
+    { };
+
+
+
+
+
+
+  struct __do_is_destructible_impl
+  {
+    template<typename _Tp, typename = decltype(declval<_Tp&>().~_Tp())>
+      static true_type __test(int);
+
+    template<typename>
+      static false_type __test(...);
+  };
+
+  template<typename _Tp>
+    struct __is_destructible_impl
+    : public __do_is_destructible_impl
+    {
+      typedef decltype(__test<_Tp>(0)) type;
+    };
+
+  template<typename _Tp,
+           bool = __or_<is_void<_Tp>,
+                        __is_array_unknown_bounds<_Tp>,
+                        is_function<_Tp>>::value,
+           bool = __or_<is_reference<_Tp>, is_scalar<_Tp>>::value>
+    struct __is_destructible_safe;
+
+  template<typename _Tp>
+    struct __is_destructible_safe<_Tp, false, false>
+    : public __is_destructible_impl<typename
+               remove_all_extents<_Tp>::type>::type
+    { };
+
+  template<typename _Tp>
+    struct __is_destructible_safe<_Tp, true, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_destructible_safe<_Tp, false, true>
+    : public true_type { };
+
+
+  template<typename _Tp>
+    struct is_destructible
+    : public __is_destructible_safe<_Tp>::type
+    { };
+
+
+
+
+
+  struct __do_is_nt_destructible_impl
+  {
+    template<typename _Tp>
+      static integral_constant<bool, noexcept(declval<_Tp&>().~_Tp())>
+        __test(int);
+
+    template<typename>
+      static false_type __test(...);
+  };
+
+  template<typename _Tp>
+    struct __is_nt_destructible_impl
+    : public __do_is_nt_destructible_impl
+    {
+      typedef decltype(__test<_Tp>(0)) type;
+    };
+
+  template<typename _Tp,
+           bool = __or_<is_void<_Tp>,
+                        __is_array_unknown_bounds<_Tp>,
+                        is_function<_Tp>>::value,
+           bool = __or_<is_reference<_Tp>, is_scalar<_Tp>>::value>
+    struct __is_nt_destructible_safe;
+
+  template<typename _Tp>
+    struct __is_nt_destructible_safe<_Tp, false, false>
+    : public __is_nt_destructible_impl<typename
+               remove_all_extents<_Tp>::type>::type
+    { };
+
+  template<typename _Tp>
+    struct __is_nt_destructible_safe<_Tp, true, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_nt_destructible_safe<_Tp, false, true>
+    : public true_type { };
+
+
+  template<typename _Tp>
+    struct is_nothrow_destructible
+    : public __is_nt_destructible_safe<_Tp>::type
+    { };
+
+  struct __do_is_default_constructible_impl
+  {
+    template<typename _Tp, typename = decltype(_Tp())>
+      static true_type __test(int);
+
+    template<typename>
+      static false_type __test(...);
+  };
+
+  template<typename _Tp>
+    struct __is_default_constructible_impl
+    : public __do_is_default_constructible_impl
+    {
+      typedef decltype(__test<_Tp>(0)) type;
+    };
+
+  template<typename _Tp>
+    struct __is_default_constructible_atom
+    : public __and_<__not_<is_void<_Tp>>,
+                    __is_default_constructible_impl<_Tp>>
+    { };
+
+  template<typename _Tp, bool = is_array<_Tp>::value>
+    struct __is_default_constructible_safe;
+
+
+
+
+
+
+  template<typename _Tp>
+    struct __is_default_constructible_safe<_Tp, true>
+    : public __and_<__is_array_known_bounds<_Tp>,
+      __is_default_constructible_atom<typename
+                      remove_all_extents<_Tp>::type>>
+    { };
+
+  template<typename _Tp>
+    struct __is_default_constructible_safe<_Tp, false>
+    : public __is_default_constructible_atom<_Tp>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_default_constructible
+    : public __is_default_constructible_safe<_Tp>::type
+    { };
+
+
+  template<typename _Tp, typename... _Args>
+    struct is_constructible
+      : public __bool_constant<__is_constructible(_Tp, _Args...)>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_copy_constructible_impl;
+
+  template<typename _Tp>
+    struct __is_copy_constructible_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_copy_constructible_impl<_Tp, true>
+    : public is_constructible<_Tp, const _Tp&>
+    { };
+
+
+  template<typename _Tp>
+    struct is_copy_constructible
+    : public __is_copy_constructible_impl<_Tp>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_move_constructible_impl;
+
+  template<typename _Tp>
+    struct __is_move_constructible_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_move_constructible_impl<_Tp, true>
+    : public is_constructible<_Tp, _Tp&&>
+    { };
+
+
+  template<typename _Tp>
+    struct is_move_constructible
+    : public __is_move_constructible_impl<_Tp>
+    { };
+
+  template<typename _Tp>
+    struct __is_nt_default_constructible_atom
+    : public integral_constant<bool, noexcept(_Tp())>
+    { };
+
+  template<typename _Tp, bool = is_array<_Tp>::value>
+    struct __is_nt_default_constructible_impl;
+
+  template<typename _Tp>
+    struct __is_nt_default_constructible_impl<_Tp, true>
+    : public __and_<__is_array_known_bounds<_Tp>,
+      __is_nt_default_constructible_atom<typename
+                      remove_all_extents<_Tp>::type>>
+    { };
+
+  template<typename _Tp>
+    struct __is_nt_default_constructible_impl<_Tp, false>
+    : public __is_nt_default_constructible_atom<_Tp>
+    { };
+
+
+  template<typename _Tp>
+    struct is_nothrow_default_constructible
+    : public __and_<is_default_constructible<_Tp>,
+                    __is_nt_default_constructible_impl<_Tp>>
+    { };
+
+  template<typename _Tp, typename... _Args>
+    struct __is_nt_constructible_impl
+    : public integral_constant<bool, noexcept(_Tp(declval<_Args>()...))>
+    { };
+
+  template<typename _Tp, typename _Arg>
+    struct __is_nt_constructible_impl<_Tp, _Arg>
+    : public integral_constant<bool,
+                               noexcept(static_cast<_Tp>(declval<_Arg>()))>
+    { };
+
+  template<typename _Tp>
+    struct __is_nt_constructible_impl<_Tp>
+    : public is_nothrow_default_constructible<_Tp>
+    { };
+
+
+  template<typename _Tp, typename... _Args>
+    struct is_nothrow_constructible
+    : public __and_<is_constructible<_Tp, _Args...>,
+      __is_nt_constructible_impl<_Tp, _Args...>>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_nothrow_copy_constructible_impl;
+
+  template<typename _Tp>
+    struct __is_nothrow_copy_constructible_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_nothrow_copy_constructible_impl<_Tp, true>
+    : public is_nothrow_constructible<_Tp, const _Tp&>
+    { };
+
+
+  template<typename _Tp>
+    struct is_nothrow_copy_constructible
+    : public __is_nothrow_copy_constructible_impl<_Tp>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_nothrow_move_constructible_impl;
+
+  template<typename _Tp>
+    struct __is_nothrow_move_constructible_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_nothrow_move_constructible_impl<_Tp, true>
+    : public is_nothrow_constructible<_Tp, _Tp&&>
+    { };
+
+
+  template<typename _Tp>
+    struct is_nothrow_move_constructible
+    : public __is_nothrow_move_constructible_impl<_Tp>
+    { };
+
+
+  template<typename _Tp, typename _Up>
+    struct is_assignable
+      : public __bool_constant<__is_assignable(_Tp, _Up)>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_copy_assignable_impl;
+
+  template<typename _Tp>
+    struct __is_copy_assignable_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_copy_assignable_impl<_Tp, true>
+    : public is_assignable<_Tp&, const _Tp&>
+    { };
+
+
+  template<typename _Tp>
+    struct is_copy_assignable
+    : public __is_copy_assignable_impl<_Tp>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_move_assignable_impl;
+
+  template<typename _Tp>
+    struct __is_move_assignable_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_move_assignable_impl<_Tp, true>
+    : public is_assignable<_Tp&, _Tp&&>
+    { };
+
+
+  template<typename _Tp>
+    struct is_move_assignable
+    : public __is_move_assignable_impl<_Tp>
+    { };
+
+  template<typename _Tp, typename _Up>
+    struct __is_nt_assignable_impl
+    : public integral_constant<bool, noexcept(declval<_Tp>() = declval<_Up>())>
+    { };
+
+
+  template<typename _Tp, typename _Up>
+    struct is_nothrow_assignable
+    : public __and_<is_assignable<_Tp, _Up>,
+      __is_nt_assignable_impl<_Tp, _Up>>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_nt_copy_assignable_impl;
+
+  template<typename _Tp>
+    struct __is_nt_copy_assignable_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_nt_copy_assignable_impl<_Tp, true>
+    : public is_nothrow_assignable<_Tp&, const _Tp&>
+    { };
+
+
+  template<typename _Tp>
+    struct is_nothrow_copy_assignable
+    : public __is_nt_copy_assignable_impl<_Tp>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_nt_move_assignable_impl;
+
+  template<typename _Tp>
+    struct __is_nt_move_assignable_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_nt_move_assignable_impl<_Tp, true>
+    : public is_nothrow_assignable<_Tp&, _Tp&&>
+    { };
+
+
+  template<typename _Tp>
+    struct is_nothrow_move_assignable
+    : public __is_nt_move_assignable_impl<_Tp>
+    { };
+
+
+  template<typename _Tp, typename... _Args>
+    struct is_trivially_constructible
+    : public __and_<is_constructible<_Tp, _Args...>, __bool_constant<
+        __is_trivially_constructible(_Tp, _Args...)>>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_trivially_default_constructible
+    : public is_trivially_constructible<_Tp>::type
+    { };
+
+  struct __do_is_implicitly_default_constructible_impl
+  {
+    template <typename _Tp>
+    static void __helper(const _Tp&);
+
+    template <typename _Tp>
+    static true_type __test(const _Tp&,
+                            decltype(__helper<const _Tp&>({}))* = 0);
+
+    static false_type __test(...);
+  };
+
+  template<typename _Tp>
+    struct __is_implicitly_default_constructible_impl
+    : public __do_is_implicitly_default_constructible_impl
+    {
+      typedef decltype(__test(declval<_Tp>())) type;
+    };
+
+  template<typename _Tp>
+    struct __is_implicitly_default_constructible_safe
+    : public __is_implicitly_default_constructible_impl<_Tp>::type
+    { };
+
+  template <typename _Tp>
+    struct __is_implicitly_default_constructible
+    : public __and_<is_default_constructible<_Tp>,
+      __is_implicitly_default_constructible_safe<_Tp>>
+    { };
+
+
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_trivially_copy_constructible_impl;
+
+  template<typename _Tp>
+    struct __is_trivially_copy_constructible_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_trivially_copy_constructible_impl<_Tp, true>
+    : public __and_<is_copy_constructible<_Tp>,
+      integral_constant<bool,
+   __is_trivially_constructible(_Tp, const _Tp&)>>
+    { };
+
+  template<typename _Tp>
+    struct is_trivially_copy_constructible
+    : public __is_trivially_copy_constructible_impl<_Tp>
+    { };
+
+
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_trivially_move_constructible_impl;
+
+  template<typename _Tp>
+    struct __is_trivially_move_constructible_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_trivially_move_constructible_impl<_Tp, true>
+    : public __and_<is_move_constructible<_Tp>,
+      integral_constant<bool,
+   __is_trivially_constructible(_Tp, _Tp&&)>>
+    { };
+
+  template<typename _Tp>
+    struct is_trivially_move_constructible
+    : public __is_trivially_move_constructible_impl<_Tp>
+    { };
+
+
+  template<typename _Tp, typename _Up>
+    struct is_trivially_assignable
+    : public __bool_constant<__is_trivially_assignable(_Tp, _Up)>
+    { };
+
+
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_trivially_copy_assignable_impl;
+
+  template<typename _Tp>
+    struct __is_trivially_copy_assignable_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_trivially_copy_assignable_impl<_Tp, true>
+    : public __and_<is_copy_assignable<_Tp>,
+      integral_constant<bool,
+   __is_trivially_assignable(_Tp&, const _Tp&)>>
+    { };
+
+  template<typename _Tp>
+    struct is_trivially_copy_assignable
+    : public __is_trivially_copy_assignable_impl<_Tp>
+    { };
+
+
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __is_trivially_move_assignable_impl;
+
+  template<typename _Tp>
+    struct __is_trivially_move_assignable_impl<_Tp, false>
+    : public false_type { };
+
+  template<typename _Tp>
+    struct __is_trivially_move_assignable_impl<_Tp, true>
+    : public __and_<is_move_assignable<_Tp>,
+      integral_constant<bool,
+   __is_trivially_assignable(_Tp&, _Tp&&)>>
+    { };
+
+  template<typename _Tp>
+    struct is_trivially_move_assignable
+    : public __is_trivially_move_assignable_impl<_Tp>
+    { };
+
+
+  template<typename _Tp>
+    struct is_trivially_destructible
+    : public __and_<is_destructible<_Tp>, integral_constant<bool,
+         __has_trivial_destructor(_Tp)>>
+    { };
+
+
+
+  template<typename _Tp>
+    struct has_virtual_destructor
+    : public integral_constant<bool, __has_virtual_destructor(_Tp)>
+    { };
+
+
+
+
+
+  template<typename _Tp>
+    struct alignment_of
+    : public integral_constant<std::size_t, alignof(_Tp)> { };
+
+
+  template<typename>
+    struct rank
+    : public integral_constant<std::size_t, 0> { };
+
+  template<typename _Tp, std::size_t _Size>
+    struct rank<_Tp[_Size]>
+    : public integral_constant<std::size_t, 1 + rank<_Tp>::value> { };
+
+  template<typename _Tp>
+    struct rank<_Tp[]>
+    : public integral_constant<std::size_t, 1 + rank<_Tp>::value> { };
+
+
+  template<typename, unsigned _Uint>
+    struct extent
+    : public integral_constant<std::size_t, 0> { };
+
+  template<typename _Tp, unsigned _Uint, std::size_t _Size>
+    struct extent<_Tp[_Size], _Uint>
+    : public integral_constant<std::size_t,
+          _Uint == 0 ? _Size : extent<_Tp,
+          _Uint - 1>::value>
+    { };
+
+  template<typename _Tp, unsigned _Uint>
+    struct extent<_Tp[], _Uint>
+    : public integral_constant<std::size_t,
+          _Uint == 0 ? 0 : extent<_Tp,
+             _Uint - 1>::value>
+    { };
+
+
+
+
+
+  template<typename, typename>
+    struct is_same
+    : public false_type { };
+
+  template<typename _Tp>
+    struct is_same<_Tp, _Tp>
+    : public true_type { };
+
+
+  template<typename _Base, typename _Derived>
+    struct is_base_of
+    : public integral_constant<bool, __is_base_of(_Base, _Derived)>
+    { };
+
+  template<typename _From, typename _To,
+           bool = __or_<is_void<_From>, is_function<_To>,
+                        is_array<_To>>::value>
+    struct __is_convertible_helper
+    { typedef typename is_void<_To>::type type; };
+
+  template<typename _From, typename _To>
+    class __is_convertible_helper<_From, _To, false>
+    {
+       template<typename _To1>
+ static void __test_aux(_To1);
+
+      template<typename _From1, typename _To1,
+        typename = decltype(__test_aux<_To1>(std::declval<_From1>()))>
+ static true_type
+ __test(int);
+
+      template<typename, typename>
+ static false_type
+ __test(...);
+
+    public:
+      typedef decltype(__test<_From, _To>(0)) type;
+    };
+
+
+
+  template<typename _From, typename _To>
+    struct is_convertible
+    : public __is_convertible_helper<_From, _To>::type
+    { };
+
+
+
+
+
+  template<typename _Tp>
+    struct remove_const
+    { typedef _Tp type; };
+
+  template<typename _Tp>
+    struct remove_const<_Tp const>
+    { typedef _Tp type; };
+
+
+  template<typename _Tp>
+    struct remove_volatile
+    { typedef _Tp type; };
+
+  template<typename _Tp>
+    struct remove_volatile<_Tp volatile>
+    { typedef _Tp type; };
+
+
+  template<typename _Tp>
+    struct remove_cv
+    {
+      typedef typename
+      remove_const<typename remove_volatile<_Tp>::type>::type type;
+    };
+
+
+  template<typename _Tp>
+    struct add_const
+    { typedef _Tp const type; };
+
+
+  template<typename _Tp>
+    struct add_volatile
+    { typedef _Tp volatile type; };
+
+
+  template<typename _Tp>
+    struct add_cv
+    {
+      typedef typename
+      add_const<typename add_volatile<_Tp>::type>::type type;
+    };
+
+
+
+
+
+
+  template<typename _Tp>
+    using remove_const_t = typename remove_const<_Tp>::type;
+
+
+  template<typename _Tp>
+    using remove_volatile_t = typename remove_volatile<_Tp>::type;
+
+
+  template<typename _Tp>
+    using remove_cv_t = typename remove_cv<_Tp>::type;
+
+
+  template<typename _Tp>
+    using add_const_t = typename add_const<_Tp>::type;
+
+
+  template<typename _Tp>
+    using add_volatile_t = typename add_volatile<_Tp>::type;
+
+
+  template<typename _Tp>
+    using add_cv_t = typename add_cv<_Tp>::type;
+
+
+
+
+
+  template<typename _Tp>
+    struct remove_reference
+    { typedef _Tp type; };
+
+  template<typename _Tp>
+    struct remove_reference<_Tp&>
+    { typedef _Tp type; };
+
+  template<typename _Tp>
+    struct remove_reference<_Tp&&>
+    { typedef _Tp type; };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __add_lvalue_reference_helper
+    { typedef _Tp type; };
+
+  template<typename _Tp>
+    struct __add_lvalue_reference_helper<_Tp, true>
+    { typedef _Tp& type; };
+
+
+  template<typename _Tp>
+    struct add_lvalue_reference
+    : public __add_lvalue_reference_helper<_Tp>
+    { };
+
+  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
+    struct __add_rvalue_reference_helper
+    { typedef _Tp type; };
+
+  template<typename _Tp>
+    struct __add_rvalue_reference_helper<_Tp, true>
+    { typedef _Tp&& type; };
+
+
+  template<typename _Tp>
+    struct add_rvalue_reference
+    : public __add_rvalue_reference_helper<_Tp>
+    { };
+
+
+
+  template<typename _Tp>
+    using remove_reference_t = typename remove_reference<_Tp>::type;
+
+
+  template<typename _Tp>
+    using add_lvalue_reference_t = typename add_lvalue_reference<_Tp>::type;
+
+
+  template<typename _Tp>
+    using add_rvalue_reference_t = typename add_rvalue_reference<_Tp>::type;
+
+
+
+
+
+  template<typename _Unqualified, bool _IsConst, bool _IsVol>
+    struct __cv_selector;
+
+  template<typename _Unqualified>
+    struct __cv_selector<_Unqualified, false, false>
+    { typedef _Unqualified __type; };
+
+  template<typename _Unqualified>
+    struct __cv_selector<_Unqualified, false, true>
+    { typedef volatile _Unqualified __type; };
+
+  template<typename _Unqualified>
+    struct __cv_selector<_Unqualified, true, false>
+    { typedef const _Unqualified __type; };
+
+  template<typename _Unqualified>
+    struct __cv_selector<_Unqualified, true, true>
+    { typedef const volatile _Unqualified __type; };
+
+  template<typename _Qualified, typename _Unqualified,
+    bool _IsConst = is_const<_Qualified>::value,
+    bool _IsVol = is_volatile<_Qualified>::value>
+    class __match_cv_qualifiers
+    {
+      typedef __cv_selector<_Unqualified, _IsConst, _IsVol> __match;
+
+    public:
+      typedef typename __match::__type __type;
+    };
+
+
+  template<typename _Tp>
+    struct __make_unsigned
+    { typedef _Tp __type; };
+
+  template<>
+    struct __make_unsigned<char>
+    { typedef unsigned char __type; };
+
+  template<>
+    struct __make_unsigned<signed char>
+    { typedef unsigned char __type; };
+
+  template<>
+    struct __make_unsigned<short>
+    { typedef unsigned short __type; };
+
+  template<>
+    struct __make_unsigned<int>
+    { typedef unsigned int __type; };
+
+  template<>
+    struct __make_unsigned<long>
+    { typedef unsigned long __type; };
+
+  template<>
+    struct __make_unsigned<long long>
+    { typedef unsigned long long __type; };
+
+
+  template<>
+    struct __make_unsigned<__int128>
+    { typedef unsigned __int128 __type; };
+# 1590 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<typename _Tp,
+    bool _IsInt = is_integral<_Tp>::value,
+    bool _IsEnum = is_enum<_Tp>::value>
+    class __make_unsigned_selector;
+
+  template<typename _Tp>
+    class __make_unsigned_selector<_Tp, true, false>
+    {
+      typedef __make_unsigned<typename remove_cv<_Tp>::type> __unsignedt;
+      typedef typename __unsignedt::__type __unsigned_type;
+      typedef __match_cv_qualifiers<_Tp, __unsigned_type> __cv_unsigned;
+
+    public:
+      typedef typename __cv_unsigned::__type __type;
+    };
+
+  template<typename _Tp>
+    class __make_unsigned_selector<_Tp, false, true>
+    {
+
+      typedef unsigned char __smallest;
+      static const bool __b0 = sizeof(_Tp) <= sizeof(__smallest);
+      static const bool __b1 = sizeof(_Tp) <= sizeof(unsigned short);
+      static const bool __b2 = sizeof(_Tp) <= sizeof(unsigned int);
+      static const bool __b3 = sizeof(_Tp) <= sizeof(unsigned long);
+      typedef conditional<__b3, unsigned long, unsigned long long> __cond3;
+      typedef typename __cond3::type __cond3_type;
+      typedef conditional<__b2, unsigned int, __cond3_type> __cond2;
+      typedef typename __cond2::type __cond2_type;
+      typedef conditional<__b1, unsigned short, __cond2_type> __cond1;
+      typedef typename __cond1::type __cond1_type;
+
+      typedef typename conditional<__b0, __smallest, __cond1_type>::type
+ __unsigned_type;
+      typedef __match_cv_qualifiers<_Tp, __unsigned_type> __cv_unsigned;
+
+    public:
+      typedef typename __cv_unsigned::__type __type;
+    };
+
+
+
+
+
+  template<typename _Tp>
+    struct make_unsigned
+    { typedef typename __make_unsigned_selector<_Tp>::__type type; };
+
+
+  template<>
+    struct make_unsigned<bool>;
+
+
+
+  template<typename _Tp>
+    struct __make_signed
+    { typedef _Tp __type; };
+
+  template<>
+    struct __make_signed<char>
+    { typedef signed char __type; };
+
+  template<>
+    struct __make_signed<unsigned char>
+    { typedef signed char __type; };
+
+  template<>
+    struct __make_signed<unsigned short>
+    { typedef signed short __type; };
+
+  template<>
+    struct __make_signed<unsigned int>
+    { typedef signed int __type; };
+
+  template<>
+    struct __make_signed<unsigned long>
+    { typedef signed long __type; };
+
+  template<>
+    struct __make_signed<unsigned long long>
+    { typedef signed long long __type; };
+
+
+  template<>
+    struct __make_signed<unsigned __int128>
+    { typedef __int128 __type; };
+# 1694 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<typename _Tp,
+    bool _IsInt = is_integral<_Tp>::value,
+    bool _IsEnum = is_enum<_Tp>::value>
+    class __make_signed_selector;
+
+  template<typename _Tp>
+    class __make_signed_selector<_Tp, true, false>
+    {
+      typedef __make_signed<typename remove_cv<_Tp>::type> __signedt;
+      typedef typename __signedt::__type __signed_type;
+      typedef __match_cv_qualifiers<_Tp, __signed_type> __cv_signed;
+
+    public:
+      typedef typename __cv_signed::__type __type;
+    };
+
+  template<typename _Tp>
+    class __make_signed_selector<_Tp, false, true>
+    {
+      typedef typename __make_unsigned_selector<_Tp>::__type __unsigned_type;
+
+    public:
+      typedef typename __make_signed_selector<__unsigned_type>::__type __type;
+    };
+
+
+
+
+
+  template<typename _Tp>
+    struct make_signed
+    { typedef typename __make_signed_selector<_Tp>::__type type; };
+
+
+  template<>
+    struct make_signed<bool>;
+
+
+
+  template<typename _Tp>
+    using make_signed_t = typename make_signed<_Tp>::type;
+
+
+  template<typename _Tp>
+    using make_unsigned_t = typename make_unsigned<_Tp>::type;
+
+
+
+
+
+  template<typename _Tp>
+    struct remove_extent
+    { typedef _Tp type; };
+
+  template<typename _Tp, std::size_t _Size>
+    struct remove_extent<_Tp[_Size]>
+    { typedef _Tp type; };
+
+  template<typename _Tp>
+    struct remove_extent<_Tp[]>
+    { typedef _Tp type; };
+
+
+  template<typename _Tp>
+    struct remove_all_extents
+    { typedef _Tp type; };
+
+  template<typename _Tp, std::size_t _Size>
+    struct remove_all_extents<_Tp[_Size]>
+    { typedef typename remove_all_extents<_Tp>::type type; };
+
+  template<typename _Tp>
+    struct remove_all_extents<_Tp[]>
+    { typedef typename remove_all_extents<_Tp>::type type; };
+
+
+
+  template<typename _Tp>
+    using remove_extent_t = typename remove_extent<_Tp>::type;
+
+
+  template<typename _Tp>
+    using remove_all_extents_t = typename remove_all_extents<_Tp>::type;
+
+
+
+
+  template<typename _Tp, typename>
+    struct __remove_pointer_helper
+    { typedef _Tp type; };
+
+  template<typename _Tp, typename _Up>
+    struct __remove_pointer_helper<_Tp, _Up*>
+    { typedef _Up type; };
+
+
+  template<typename _Tp>
+    struct remove_pointer
+    : public __remove_pointer_helper<_Tp, typename remove_cv<_Tp>::type>
+    { };
+
+
+  template<typename _Tp, bool = __or_<__is_referenceable<_Tp>,
+          is_void<_Tp>>::value>
+    struct __add_pointer_helper
+    { typedef _Tp type; };
+
+  template<typename _Tp>
+    struct __add_pointer_helper<_Tp, true>
+    { typedef typename remove_reference<_Tp>::type* type; };
+
+  template<typename _Tp>
+    struct add_pointer
+    : public __add_pointer_helper<_Tp>
+    { };
+
+
+
+  template<typename _Tp>
+    using remove_pointer_t = typename remove_pointer<_Tp>::type;
+
+
+  template<typename _Tp>
+    using add_pointer_t = typename add_pointer<_Tp>::type;
+
+
+  template<std::size_t _Len>
+    struct __aligned_storage_msa
+    {
+      union __type
+      {
+ unsigned char __data[_Len];
+ struct __attribute__((__aligned__)) { } __align;
+      };
+    };
+# 1840 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<std::size_t _Len, std::size_t _Align =
+    __alignof__(typename __aligned_storage_msa<_Len>::__type)>
+    struct aligned_storage
+    {
+      union type
+      {
+ unsigned char __data[_Len];
+ struct __attribute__((__aligned__((_Align)))) { } __align;
+      };
+    };
+
+  template <typename... _Types>
+    struct __strictest_alignment
+    {
+      static const size_t _S_alignment = 0;
+      static const size_t _S_size = 0;
+    };
+
+  template <typename _Tp, typename... _Types>
+    struct __strictest_alignment<_Tp, _Types...>
+    {
+      static const size_t _S_alignment =
+        alignof(_Tp) > __strictest_alignment<_Types...>::_S_alignment
+ ? alignof(_Tp) : __strictest_alignment<_Types...>::_S_alignment;
+      static const size_t _S_size =
+        sizeof(_Tp) > __strictest_alignment<_Types...>::_S_size
+ ? sizeof(_Tp) : __strictest_alignment<_Types...>::_S_size;
+    };
+# 1879 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template <size_t _Len, typename... _Types>
+    struct aligned_union
+    {
+    private:
+      static_assert(sizeof...(_Types) != 0, "At least one type is required");
+
+      using __strictest = __strictest_alignment<_Types...>;
+      static const size_t _S_len = _Len > __strictest::_S_size
+ ? _Len : __strictest::_S_size;
+    public:
+
+      static const size_t alignment_value = __strictest::_S_alignment;
+
+      typedef typename aligned_storage<_S_len, alignment_value>::type type;
+    };
+
+  template <size_t _Len, typename... _Types>
+    const size_t aligned_union<_Len, _Types...>::alignment_value;
+
+
+
+  template<typename _Up,
+    bool _IsArray = is_array<_Up>::value,
+    bool _IsFunction = is_function<_Up>::value>
+    struct __decay_selector;
+
+
+  template<typename _Up>
+    struct __decay_selector<_Up, false, false>
+    { typedef typename remove_cv<_Up>::type __type; };
+
+  template<typename _Up>
+    struct __decay_selector<_Up, true, false>
+    { typedef typename remove_extent<_Up>::type* __type; };
+
+  template<typename _Up>
+    struct __decay_selector<_Up, false, true>
+    { typedef typename add_pointer<_Up>::type __type; };
+
+
+  template<typename _Tp>
+    class decay
+    {
+      typedef typename remove_reference<_Tp>::type __remove_type;
+
+    public:
+      typedef typename __decay_selector<__remove_type>::__type type;
+    };
+
+  template<typename _Tp>
+    class reference_wrapper;
+
+
+  template<typename _Tp>
+    struct __strip_reference_wrapper
+    {
+      typedef _Tp __type;
+    };
+
+  template<typename _Tp>
+    struct __strip_reference_wrapper<reference_wrapper<_Tp> >
+    {
+      typedef _Tp& __type;
+    };
+
+  template<typename _Tp>
+    struct __decay_and_strip
+    {
+      typedef typename __strip_reference_wrapper<
+ typename decay<_Tp>::type>::__type __type;
+    };
+
+
+
+
+  template<bool, typename _Tp = void>
+    struct enable_if
+    { };
+
+
+  template<typename _Tp>
+    struct enable_if<true, _Tp>
+    { typedef _Tp type; };
+
+  template<typename... _Cond>
+    using _Require = typename enable_if<__and_<_Cond...>::value>::type;
+
+
+
+  template<bool _Cond, typename _Iftrue, typename _Iffalse>
+    struct conditional
+    { typedef _Iftrue type; };
+
+
+  template<typename _Iftrue, typename _Iffalse>
+    struct conditional<false, _Iftrue, _Iffalse>
+    { typedef _Iffalse type; };
+
+
+  template<typename... _Tp>
+    struct common_type;
+
+
+
+  struct __do_common_type_impl
+  {
+    template<typename _Tp, typename _Up>
+      static __success_type<typename decay<decltype
+       (true ? std::declval<_Tp>()
+        : std::declval<_Up>())>::type> _S_test(int);
+
+    template<typename, typename>
+      static __failure_type _S_test(...);
+  };
+
+  template<typename _Tp, typename _Up>
+    struct __common_type_impl
+    : private __do_common_type_impl
+    {
+      typedef decltype(_S_test<_Tp, _Up>(0)) type;
+    };
+
+  struct __do_member_type_wrapper
+  {
+    template<typename _Tp>
+      static __success_type<typename _Tp::type> _S_test(int);
+
+    template<typename>
+      static __failure_type _S_test(...);
+  };
+
+  template<typename _Tp>
+    struct __member_type_wrapper
+    : private __do_member_type_wrapper
+    {
+      typedef decltype(_S_test<_Tp>(0)) type;
+    };
+
+  template<typename _CTp, typename... _Args>
+    struct __expanded_common_type_wrapper
+    {
+      typedef common_type<typename _CTp::type, _Args...> type;
+    };
+
+  template<typename... _Args>
+    struct __expanded_common_type_wrapper<__failure_type, _Args...>
+    { typedef __failure_type type; };
+
+  template<typename _Tp>
+    struct common_type<_Tp>
+    { typedef typename decay<_Tp>::type type; };
+
+  template<typename _Tp, typename _Up>
+    struct common_type<_Tp, _Up>
+    : public __common_type_impl<_Tp, _Up>::type
+    { };
+
+  template<typename _Tp, typename _Up, typename... _Vp>
+    struct common_type<_Tp, _Up, _Vp...>
+    : public __expanded_common_type_wrapper<typename __member_type_wrapper<
+               common_type<_Tp, _Up>>::type, _Vp...>::type
+    { };
+
+
+  template<typename _Tp>
+    struct underlying_type
+    {
+      typedef __underlying_type(_Tp) type;
+    };
+
+  template<typename _Tp>
+    struct __declval_protector
+    {
+      static const bool __stop = false;
+    };
+
+  template<typename _Tp>
+    auto declval() noexcept -> decltype(__declval<_Tp>(0))
+    {
+      static_assert(__declval_protector<_Tp>::__stop,
+      "declval() must not be used!");
+      return __declval<_Tp>(0);
+    }
+# 2072 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template<>
+    struct __make_unsigned<wchar_t>
+    {
+      using __type
+ = typename __make_unsigned_selector<wchar_t, false, true>::__type;
+    };
+
+  template<>
+    struct __make_signed<wchar_t>
+    {
+      using __type
+ = typename __make_signed_selector<wchar_t, false, true>::__type;
+    };
+
+
+  template<>
+    struct __make_unsigned<char16_t>
+    {
+      using __type
+ = typename __make_unsigned_selector<char16_t, false, true>::__type;
+    };
+
+  template<>
+    struct __make_signed<char16_t>
+    {
+      using __type
+ = typename __make_signed_selector<char16_t, false, true>::__type;
+    };
+
+  template<>
+    struct __make_unsigned<char32_t>
+    {
+      using __type
+ = typename __make_unsigned_selector<char32_t, false, true>::__type;
+    };
+
+  template<>
+    struct __make_signed<char32_t>
+    {
+      using __type
+ = typename __make_signed_selector<char32_t, false, true>::__type;
+    };
+
+
+
+  template<typename _Signature>
+    class result_of;
+
+
+
+
+
+  struct __invoke_memfun_ref { };
+  struct __invoke_memfun_deref { };
+  struct __invoke_memobj_ref { };
+  struct __invoke_memobj_deref { };
+  struct __invoke_other { };
+
+
+  template<typename _Tp, typename _Tag>
+    struct __result_of_success : __success_type<_Tp>
+    { using __invoke_type = _Tag; };
+
+
+  struct __result_of_memfun_ref_impl
+  {
+    template<typename _Fp, typename _Tp1, typename... _Args>
+      static __result_of_success<decltype(
+      (std::declval<_Tp1>().*std::declval<_Fp>())(std::declval<_Args>()...)
+      ), __invoke_memfun_ref> _S_test(int);
+
+    template<typename...>
+      static __failure_type _S_test(...);
+  };
+
+  template<typename _MemPtr, typename _Arg, typename... _Args>
+    struct __result_of_memfun_ref
+    : private __result_of_memfun_ref_impl
+    {
+      typedef decltype(_S_test<_MemPtr, _Arg, _Args...>(0)) type;
+    };
+
+
+  struct __result_of_memfun_deref_impl
+  {
+    template<typename _Fp, typename _Tp1, typename... _Args>
+      static __result_of_success<decltype(
+      ((*std::declval<_Tp1>()).*std::declval<_Fp>())(std::declval<_Args>()...)
+      ), __invoke_memfun_deref> _S_test(int);
+
+    template<typename...>
+      static __failure_type _S_test(...);
+  };
+
+  template<typename _MemPtr, typename _Arg, typename... _Args>
+    struct __result_of_memfun_deref
+    : private __result_of_memfun_deref_impl
+    {
+      typedef decltype(_S_test<_MemPtr, _Arg, _Args...>(0)) type;
+    };
+
+
+  struct __result_of_memobj_ref_impl
+  {
+    template<typename _Fp, typename _Tp1>
+      static __result_of_success<decltype(
+      std::declval<_Tp1>().*std::declval<_Fp>()
+      ), __invoke_memobj_ref> _S_test(int);
+
+    template<typename, typename>
+      static __failure_type _S_test(...);
+  };
+
+  template<typename _MemPtr, typename _Arg>
+    struct __result_of_memobj_ref
+    : private __result_of_memobj_ref_impl
+    {
+      typedef decltype(_S_test<_MemPtr, _Arg>(0)) type;
+    };
+
+
+  struct __result_of_memobj_deref_impl
+  {
+    template<typename _Fp, typename _Tp1>
+      static __result_of_success<decltype(
+      (*std::declval<_Tp1>()).*std::declval<_Fp>()
+      ), __invoke_memobj_deref> _S_test(int);
+
+    template<typename, typename>
+      static __failure_type _S_test(...);
+  };
+
+  template<typename _MemPtr, typename _Arg>
+    struct __result_of_memobj_deref
+    : private __result_of_memobj_deref_impl
+    {
+      typedef decltype(_S_test<_MemPtr, _Arg>(0)) type;
+    };
+
+  template<typename _MemPtr, typename _Arg>
+    struct __result_of_memobj;
+
+  template<typename _Res, typename _Class, typename _Arg>
+    struct __result_of_memobj<_Res _Class::*, _Arg>
+    {
+      typedef typename remove_cv<typename remove_reference<
+        _Arg>::type>::type _Argval;
+      typedef _Res _Class::* _MemPtr;
+      typedef typename conditional<__or_<is_same<_Argval, _Class>,
+        is_base_of<_Class, _Argval>>::value,
+        __result_of_memobj_ref<_MemPtr, _Arg>,
+        __result_of_memobj_deref<_MemPtr, _Arg>
+      >::type::type type;
+    };
+
+  template<typename _MemPtr, typename _Arg, typename... _Args>
+    struct __result_of_memfun;
+
+  template<typename _Res, typename _Class, typename _Arg, typename... _Args>
+    struct __result_of_memfun<_Res _Class::*, _Arg, _Args...>
+    {
+      typedef typename remove_cv<typename remove_reference<
+        _Arg>::type>::type _Argval;
+      typedef _Res _Class::* _MemPtr;
+      typedef typename conditional<__or_<is_same<_Argval, _Class>,
+        is_base_of<_Class, _Argval>>::value,
+        __result_of_memfun_ref<_MemPtr, _Arg, _Args...>,
+        __result_of_memfun_deref<_MemPtr, _Arg, _Args...>
+      >::type::type type;
+    };
+
+
+
+
+
+
+  template<typename _Tp, typename _Up = typename decay<_Tp>::type>
+    struct __inv_unwrap
+    {
+      using type = _Tp;
+    };
+
+  template<typename _Tp, typename _Up>
+    struct __inv_unwrap<_Tp, reference_wrapper<_Up>>
+    {
+      using type = _Up&;
+    };
+
+  template<bool, bool, typename _Functor, typename... _ArgTypes>
+    struct __result_of_impl
+    {
+      typedef __failure_type type;
+    };
+
+  template<typename _MemPtr, typename _Arg>
+    struct __result_of_impl<true, false, _MemPtr, _Arg>
+    : public __result_of_memobj<typename decay<_MemPtr>::type,
+    typename __inv_unwrap<_Arg>::type>
+    { };
+
+  template<typename _MemPtr, typename _Arg, typename... _Args>
+    struct __result_of_impl<false, true, _MemPtr, _Arg, _Args...>
+    : public __result_of_memfun<typename decay<_MemPtr>::type,
+    typename __inv_unwrap<_Arg>::type, _Args...>
+    { };
+
+
+  struct __result_of_other_impl
+  {
+    template<typename _Fn, typename... _Args>
+      static __result_of_success<decltype(
+      std::declval<_Fn>()(std::declval<_Args>()...)
+      ), __invoke_other> _S_test(int);
+
+    template<typename...>
+      static __failure_type _S_test(...);
+  };
+
+  template<typename _Functor, typename... _ArgTypes>
+    struct __result_of_impl<false, false, _Functor, _ArgTypes...>
+    : private __result_of_other_impl
+    {
+      typedef decltype(_S_test<_Functor, _ArgTypes...>(0)) type;
+    };
+
+
+  template<typename _Functor, typename... _ArgTypes>
+    struct __invoke_result
+    : public __result_of_impl<
+        is_member_object_pointer<
+          typename remove_reference<_Functor>::type
+        >::value,
+        is_member_function_pointer<
+          typename remove_reference<_Functor>::type
+        >::value,
+ _Functor, _ArgTypes...
+      >::type
+    { };
+
+  template<typename _Functor, typename... _ArgTypes>
+    struct result_of<_Functor(_ArgTypes...)>
+    : public __invoke_result<_Functor, _ArgTypes...>
+    { };
+
+
+
+  template<size_t _Len, size_t _Align =
+     __alignof__(typename __aligned_storage_msa<_Len>::__type)>
+    using aligned_storage_t = typename aligned_storage<_Len, _Align>::type;
+
+  template <size_t _Len, typename... _Types>
+    using aligned_union_t = typename aligned_union<_Len, _Types...>::type;
+
+
+  template<typename _Tp>
+    using decay_t = typename decay<_Tp>::type;
+
+
+  template<bool _Cond, typename _Tp = void>
+    using enable_if_t = typename enable_if<_Cond, _Tp>::type;
+
+
+  template<bool _Cond, typename _Iftrue, typename _Iffalse>
+    using conditional_t = typename conditional<_Cond, _Iftrue, _Iffalse>::type;
+
+
+  template<typename... _Tp>
+    using common_type_t = typename common_type<_Tp...>::type;
+
+
+  template<typename _Tp>
+    using underlying_type_t = typename underlying_type<_Tp>::type;
+
+
+  template<typename _Tp>
+    using result_of_t = typename result_of<_Tp>::type;
+
+
+
+  template<bool _Cond, typename _Tp = void>
+    using __enable_if_t = typename enable_if<_Cond, _Tp>::type;
+
+
+  template<typename...> using __void_t = void;
+
+
+
+
+  template<typename...> using void_t = void;
+
+
+
+  template<typename _Default, typename _AlwaysVoid,
+    template<typename...> class _Op, typename... _Args>
+    struct __detector
+    {
+      using value_t = false_type;
+      using type = _Default;
+    };
+
+
+  template<typename _Default, template<typename...> class _Op,
+     typename... _Args>
+    struct __detector<_Default, __void_t<_Op<_Args...>>, _Op, _Args...>
+    {
+      using value_t = true_type;
+      using type = _Op<_Args...>;
+    };
+
+
+  template<typename _Default, template<typename...> class _Op,
+    typename... _Args>
+    using __detected_or = __detector<_Default, void, _Op, _Args...>;
+
+
+  template<typename _Default, template<typename...> class _Op,
+    typename... _Args>
+    using __detected_or_t
+      = typename __detected_or<_Default, _Op, _Args...>::type;
+# 2408 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+  template <typename _Tp>
+    struct __is_swappable;
+
+  template <typename _Tp>
+    struct __is_nothrow_swappable;
+
+  template<typename... _Elements>
+    class tuple;
+
+  template<typename>
+    struct __is_tuple_like_impl : false_type
+    { };
+
+  template<typename... _Tps>
+    struct __is_tuple_like_impl<tuple<_Tps...>> : true_type
+    { };
+
+
+  template<typename _Tp>
+    struct __is_tuple_like
+    : public __is_tuple_like_impl<typename remove_cv<
+      typename remove_reference<_Tp>::type>::type>::type
+    { };
+
+  template<typename _Tp>
+    inline
+    typename enable_if<__and_<__not_<__is_tuple_like<_Tp>>,
+         is_move_constructible<_Tp>,
+         is_move_assignable<_Tp>>::value>::type
+    swap(_Tp&, _Tp&)
+    noexcept(__and_<is_nothrow_move_constructible<_Tp>,
+             is_nothrow_move_assignable<_Tp>>::value);
+
+  template<typename _Tp, size_t _Nm>
+    inline
+    typename enable_if<__is_swappable<_Tp>::value>::type
+    swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
+    noexcept(__is_nothrow_swappable<_Tp>::value);
+
+  namespace __swappable_details {
+    using std::swap;
+
+    struct __do_is_swappable_impl
+    {
+      template<typename _Tp, typename
+               = decltype(swap(std::declval<_Tp&>(), std::declval<_Tp&>()))>
+        static true_type __test(int);
+
+      template<typename>
+        static false_type __test(...);
+    };
+
+    struct __do_is_nothrow_swappable_impl
+    {
+      template<typename _Tp>
+        static __bool_constant<
+          noexcept(swap(std::declval<_Tp&>(), std::declval<_Tp&>()))
+        > __test(int);
+
+      template<typename>
+        static false_type __test(...);
+    };
+
+  }
+
+  template<typename _Tp>
+    struct __is_swappable_impl
+    : public __swappable_details::__do_is_swappable_impl
+    {
+      typedef decltype(__test<_Tp>(0)) type;
+    };
+
+  template<typename _Tp>
+    struct __is_nothrow_swappable_impl
+    : public __swappable_details::__do_is_nothrow_swappable_impl
+    {
+      typedef decltype(__test<_Tp>(0)) type;
+    };
+
+  template<typename _Tp>
+    struct __is_swappable
+    : public __is_swappable_impl<_Tp>::type
+    { };
+
+  template<typename _Tp>
+    struct __is_nothrow_swappable
+    : public __is_nothrow_swappable_impl<_Tp>::type
+    { };
+
+
+
+
+
+
+  template<typename _Tp>
+    struct is_swappable
+    : public __is_swappable_impl<_Tp>::type
+    { };
+
+
+  template<typename _Tp>
+    struct is_nothrow_swappable
+    : public __is_nothrow_swappable_impl<_Tp>::type
+    { };
+
+
+
+  template<typename _Tp>
+                      constexpr bool is_swappable_v =
+      is_swappable<_Tp>::value;
+
+
+  template<typename _Tp>
+                      constexpr bool is_nothrow_swappable_v =
+      is_nothrow_swappable<_Tp>::value;
+
+
+  namespace __swappable_with_details {
+    using std::swap;
+
+    struct __do_is_swappable_with_impl
+    {
+      template<typename _Tp, typename _Up, typename
+               = decltype(swap(std::declval<_Tp>(), std::declval<_Up>())),
+               typename
+               = decltype(swap(std::declval<_Up>(), std::declval<_Tp>()))>
+        static true_type __test(int);
+
+      template<typename, typename>
+        static false_type __test(...);
+    };
+
+    struct __do_is_nothrow_swappable_with_impl
+    {
+      template<typename _Tp, typename _Up>
+        static __bool_constant<
+          noexcept(swap(std::declval<_Tp>(), std::declval<_Up>()))
+          &&
+          noexcept(swap(std::declval<_Up>(), std::declval<_Tp>()))
+        > __test(int);
+
+      template<typename, typename>
+        static false_type __test(...);
+    };
+
+  }
+
+  template<typename _Tp, typename _Up>
+    struct __is_swappable_with_impl
+    : public __swappable_with_details::__do_is_swappable_with_impl
+    {
+      typedef decltype(__test<_Tp, _Up>(0)) type;
+    };
+
+
+  template<typename _Tp>
+    struct __is_swappable_with_impl<_Tp&, _Tp&>
+    : public __swappable_details::__do_is_swappable_impl
+    {
+      typedef decltype(__test<_Tp&>(0)) type;
+    };
+
+  template<typename _Tp, typename _Up>
+    struct __is_nothrow_swappable_with_impl
+    : public __swappable_with_details::__do_is_nothrow_swappable_with_impl
+    {
+      typedef decltype(__test<_Tp, _Up>(0)) type;
+    };
+
+
+  template<typename _Tp>
+    struct __is_nothrow_swappable_with_impl<_Tp&, _Tp&>
+    : public __swappable_details::__do_is_nothrow_swappable_impl
+    {
+      typedef decltype(__test<_Tp&>(0)) type;
+    };
+
+
+  template<typename _Tp, typename _Up>
+    struct is_swappable_with
+    : public __is_swappable_with_impl<_Tp, _Up>::type
+    { };
+
+
+  template<typename _Tp, typename _Up>
+    struct is_nothrow_swappable_with
+    : public __is_nothrow_swappable_with_impl<_Tp, _Up>::type
+    { };
+
+
+
+  template<typename _Tp, typename _Up>
+                      constexpr bool is_swappable_with_v =
+      is_swappable_with<_Tp, _Up>::value;
+
+
+  template<typename _Tp, typename _Up>
+                      constexpr bool is_nothrow_swappable_with_v =
+      is_nothrow_swappable_with<_Tp, _Up>::value;
+
+
+
+
+
+
+  template<typename _Result, typename _Ret, typename = void>
+    struct __is_invocable_impl : false_type { };
+
+  template<typename _Result, typename _Ret>
+    struct __is_invocable_impl<_Result, _Ret, __void_t<typename _Result::type>>
+    : __or_<is_void<_Ret>, is_convertible<typename _Result::type, _Ret>>::type
+    { };
+
+  template<typename _Fn, typename... _ArgTypes>
+    struct __is_invocable
+    : __is_invocable_impl<__invoke_result<_Fn, _ArgTypes...>, void>::type
+    { };
+
+  template<typename _Fn, typename _Tp, typename... _Args>
+    constexpr bool __call_is_nt(__invoke_memfun_ref)
+    {
+      using _Up = typename __inv_unwrap<_Tp>::type;
+      return noexcept((std::declval<_Up>().*std::declval<_Fn>())(
+     std::declval<_Args>()...));
+    }
+
+  template<typename _Fn, typename _Tp, typename... _Args>
+    constexpr bool __call_is_nt(__invoke_memfun_deref)
+    {
+      return noexcept(((*std::declval<_Tp>()).*std::declval<_Fn>())(
+     std::declval<_Args>()...));
+    }
+
+  template<typename _Fn, typename _Tp>
+    constexpr bool __call_is_nt(__invoke_memobj_ref)
+    {
+      using _Up = typename __inv_unwrap<_Tp>::type;
+      return noexcept(std::declval<_Up>().*std::declval<_Fn>());
+    }
+
+  template<typename _Fn, typename _Tp>
+    constexpr bool __call_is_nt(__invoke_memobj_deref)
+    {
+      return noexcept((*std::declval<_Tp>()).*std::declval<_Fn>());
+    }
+
+  template<typename _Fn, typename... _Args>
+    constexpr bool __call_is_nt(__invoke_other)
+    {
+      return noexcept(std::declval<_Fn>()(std::declval<_Args>()...));
+    }
+
+  template<typename _Result, typename _Fn, typename... _Args>
+    struct __call_is_nothrow
+    : __bool_constant<
+ std::__call_is_nt<_Fn, _Args...>(typename _Result::__invoke_type{})
+      >
+    { };
+
+  template<typename _Fn, typename... _Args>
+    using __call_is_nothrow_
+      = __call_is_nothrow<__invoke_result<_Fn, _Args...>, _Fn, _Args...>;
+
+
+  template<typename _Fn, typename... _Args>
+    struct __is_nothrow_invocable
+    : __and_<__is_invocable<_Fn, _Args...>,
+             __call_is_nothrow_<_Fn, _Args...>>::type
+    { };
+
+  struct __nonesuch {
+    __nonesuch() = delete;
+    ~__nonesuch() = delete;
+    __nonesuch(__nonesuch const&) = delete;
+    void operator=(__nonesuch const&) = delete;
+  };
+# 2974 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
+}
+# 21 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
+
+
+
+
+
+
+template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
+struct ap_fixed;
+template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
+struct ap_ufixed;
+
+namespace hls {
+
+template <typename T> constexpr std::size_t bitwidth = sizeof(T) * 8;
+
+
+
+template <> constexpr std::size_t bitwidth<void> = 1 * 8;
+
+
+template <std::size_t W> constexpr std::size_t bitwidth<ap_int<W>> = W;
+template <std::size_t W> constexpr std::size_t bitwidth<ap_uint<W>> = W;
+template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
+constexpr std::size_t bitwidth<ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N>> =
+    _AP_W;
+template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
+constexpr std::size_t bitwidth<ap_ufixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N>> =
+    _AP_W;
+
+template <typename T>
+constexpr std::size_t bytewidth = (bitwidth<T> + 8 - 1) / 8;
+
+
+
+template <> constexpr std::size_t bytewidth<void> = 1;
+
+
+struct axis_disabled_signal {};
+# 93 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
+template <typename T, std::size_t WUser = 0, std::size_t WId = 0,
+          std::size_t WDest = 0,
+          uint8_t EnableSignals =
+              (0b00001000 | 0b00010000 | 0b00100000),
+          bool StrictEnablement = false>
+struct axis {
+  static_assert((EnableSignals & 0b10000000) == 0,
+                "Template parameter 'EnableSignals' is invalid only "
+                "low 7 bits can be set!");
+  friend class stream<
+      axis<T, WUser, WId, WDest, EnableSignals, StrictEnablement>>;
+
+  static constexpr bool has_data = !std::is_void<T>::value;
+  static constexpr bool has_user = WUser > 0;
+  static constexpr bool has_id = WId > 0;
+  static constexpr bool has_dest = WDest > 0;
+  static constexpr bool has_keep = EnableSignals & 0b00001000;
+  static constexpr bool has_strb = EnableSignals & 0b00100000;
+  static constexpr bool has_last = EnableSignals & 0b00010000;
+
+  static constexpr std::size_t width_user = has_user ? WUser : 1;
+  static constexpr std::size_t width_id = has_id ? WId : 1;
+  static constexpr std::size_t width_dest = has_dest ? WDest : 1;
+  static constexpr std::size_t width_keep = bytewidth<T>;
+  static constexpr std::size_t width_strb = bytewidth<T>;
+  static constexpr std::size_t width_last = 1;
+
+  static_assert(has_data || has_user || has_id || has_dest || has_keep ||
+                    has_strb || has_last,
+                "No axis signals are enabled");
+
+  static_assert(StrictEnablement
+                    ? has_data == (bool)(EnableSignals & 0b00000001)
+                    : true,
+                "Found mismatched enablement for DATA signal");
+  static_assert(StrictEnablement
+                    ? has_user == (bool)(EnableSignals & 0b01000000)
+                    : true,
+                "Found mismatched enablement for USER signal");
+  static_assert(StrictEnablement
+                    ? has_id == (bool)(EnableSignals & 0b00000100)
+                    : true,
+                "Found mismatched enablement for ID signal");
+  static_assert(StrictEnablement
+                    ? has_dest == (bool)(EnableSignals & 0b00000010)
+                    : true,
+                "Found mismatched enablement for DEST signal");
+
+  typedef typename std::conditional<has_data, T, axis_disabled_signal>::type
+      Type_data;
+  Type_data data;
+
+
+
+  __attribute__((nodebug)) Type_data get_data() const {
+#pragma HLS inline
+ ({ bool _AssertPred = has_data; __builtin_assume(_AssertPred); });
+    return data;
+  }
+  __attribute__((nodebug)) void set_data(Type_data d) {
+#pragma HLS inline
+ ({ bool _AssertPred = has_data; __builtin_assume(_AssertPred); });
+    data = d;
+  }
+# 205 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
+  typedef typename std::conditional<has_keep, ap_uint<width_keep>, axis_disabled_signal>::type Type_keep; Type_keep keep; __attribute__((nodebug)) __attribute__((always_inline)) Type_keep get_keep() const { ({ bool _AssertPred = has_keep; __builtin_assume(_AssertPred); }); return keep; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_keep(Type_keep value) { ({ bool _AssertPred = has_keep; __builtin_assume(_AssertPred); }); keep = value; }
+  typedef typename std::conditional<has_strb, ap_uint<width_strb>, axis_disabled_signal>::type Type_strb; Type_strb strb; __attribute__((nodebug)) __attribute__((always_inline)) Type_strb get_strb() const { ({ bool _AssertPred = has_strb; __builtin_assume(_AssertPred); }); return strb; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_strb(Type_strb value) { ({ bool _AssertPred = has_strb; __builtin_assume(_AssertPred); }); strb = value; }
+  typedef typename std::conditional<has_user, ap_uint<width_user>, axis_disabled_signal>::type Type_user; Type_user user; __attribute__((nodebug)) __attribute__((always_inline)) Type_user get_user() const { ({ bool _AssertPred = has_user; __builtin_assume(_AssertPred); }); return user; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_user(Type_user value) { ({ bool _AssertPred = has_user; __builtin_assume(_AssertPred); }); user = value; }
+  typedef typename std::conditional<has_last, ap_uint<width_last>, axis_disabled_signal>::type Type_last; Type_last last; __attribute__((nodebug)) __attribute__((always_inline)) Type_last get_last() const { ({ bool _AssertPred = has_last; __builtin_assume(_AssertPred); }); return last; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_last(Type_last value) { ({ bool _AssertPred = has_last; __builtin_assume(_AssertPred); }); last = value; }
+  typedef typename std::conditional<has_id, ap_uint<width_id>, axis_disabled_signal>::type Type_id; Type_id id; __attribute__((nodebug)) __attribute__((always_inline)) Type_id get_id() const { ({ bool _AssertPred = has_id; __builtin_assume(_AssertPred); }); return id; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_id(Type_id value) { ({ bool _AssertPred = has_id; __builtin_assume(_AssertPred); }); id = value; }
+  typedef typename std::conditional<has_dest, ap_uint<width_dest>, axis_disabled_signal>::type Type_dest; Type_dest dest; __attribute__((nodebug)) __attribute__((always_inline)) Type_dest get_dest() const { ({ bool _AssertPred = has_dest; __builtin_assume(_AssertPred); }); return dest; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_dest(Type_dest value) { ({ bool _AssertPred = has_dest; __builtin_assume(_AssertPred); }); dest = value; }
+
+
+
+
+  __attribute__((nodebug))
+
+  void keep_all() {
+#pragma HLS inline
+
+ ({ bool _AssertPred = has_keep; __builtin_assume(_AssertPred); });
+
+
+
+
+    ap_uint<width_keep> k = 0;
+    keep = ~k;
+  }
+
+private:
+
+
+
+
+
+
+
+  __attribute__((nodebug)) __attribute__((always_inline)) Type_data *get_data_ptr() { return (!has_data) ? nullptr : &data; }
+  __attribute__((nodebug)) __attribute__((always_inline)) Type_keep *get_keep_ptr() { return (!has_keep) ? nullptr : &keep; }
+  __attribute__((nodebug)) __attribute__((always_inline)) Type_strb *get_strb_ptr() { return (!has_strb) ? nullptr : &strb; }
+  __attribute__((nodebug)) __attribute__((always_inline)) Type_user *get_user_ptr() { return (!has_user) ? nullptr : &user; }
+  __attribute__((nodebug)) __attribute__((always_inline)) Type_last *get_last_ptr() { return (!has_last) ? nullptr : &last; }
+  __attribute__((nodebug)) __attribute__((always_inline)) Type_id *get_id_ptr() { return (!has_id) ? nullptr : &id; }
+  __attribute__((nodebug)) __attribute__((always_inline)) Type_dest *get_dest_ptr() { return (!has_dest) ? nullptr : &dest; }
+
+
+};
+# 258 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
+template <typename TData, uint8_t EnableSignals = 0b00000001,
+          std::size_t WUser = 0, std::size_t WId = 0, std::size_t WDest = 0,
+          bool StrictEnablement = true>
+using axis_data = axis<TData, WUser, WId, WDest,
+                       (EnableSignals | 0b00000001), StrictEnablement>;
+# 271 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
+template <std::size_t WUser, uint8_t EnableSignals = 0b01000000,
+          std::size_t WId = 0, std::size_t WDest = 0,
+          bool StrictEnablement = true>
+using axis_user = axis<void, WUser, WId, WDest,
+                       (EnableSignals & (0b11111111 ^ 0b00000001) & (0b11111111 ^ 0b00001000) & (0b11111111 ^ 0b00100000)), StrictEnablement>;
+
+}
+
+template <std::size_t WData, std::size_t WUser, std::size_t WId,
+          std::size_t WDest,
+          uint8_t EnableSignals =
+              (0b00001000 | 0b00010000 | 0b00100000),
+          bool StrictEnablement = false>
+using ap_axis = hls::axis<ap_int<WData>, WUser, WId, WDest, EnableSignals,
+                          StrictEnablement>;
+
+template <std::size_t WData, std::size_t WUser, std::size_t WId,
+          std::size_t WDest,
+          uint8_t EnableSignals =
+              (0b00001000 | 0b00010000 | 0b00100000),
+          bool StrictEnablement = false>
+using ap_axiu = hls::axis<ap_uint<WData>, WUser, WId, WDest, EnableSignals,
+                          StrictEnablement>;
+
+
+template <std::size_t WData, std::size_t WUser, std::size_t WId,
+          std::size_t WDest>
+using qdma_axis = hls::axis<ap_uint<WData>, WUser, WId, WDest,
+                            0b01111111 ^ 0b00100000, false>;
+
+
+
+namespace hls {
+
+template <typename T, std::size_t WUser, std::size_t WId, std::size_t WDest,
+          uint8_t EnableSignals, bool StrictEnablement>
+class stream<axis<T, WUser, WId, WDest, EnableSignals, StrictEnablement>>
+    final {
+  typedef axis<T, WUser, WId, WDest, EnableSignals, StrictEnablement>
+      __STREAM_T__;
+
+public:
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) stream() {}
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const char *name) { (void)name; }
+
+
+private:
+  inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const stream<__STREAM_T__> &chn) : V(chn.V) {}
+
+public:
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) void operator>>(__STREAM_T__ &rdata) { read(rdata); }
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) void operator<<(const __STREAM_T__ &wdata) { write(wdata); }
+
+
+  __attribute__((nodebug)) bool empty() {
+#pragma HLS inline
+ bool tmp = __fpga_axis_valid(
+        V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(), V.get_user_ptr(),
+        V.get_last_ptr(), V.get_id_ptr(), V.get_dest_ptr());
+    return !tmp;
+  }
+
+  __attribute__((nodebug)) bool full() {
+#pragma HLS inline
+ bool tmp = __fpga_axis_ready(
+        V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(), V.get_user_ptr(),
+        V.get_last_ptr(), V.get_id_ptr(), V.get_dest_ptr());
+    return !tmp;
+  }
+
+
+  __attribute__((nodebug)) void read(__STREAM_T__ &dout) {
+#pragma HLS inline
+ __STREAM_T__ tmp;
+    __fpga_axis_pop(V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(),
+                    V.get_user_ptr(), V.get_last_ptr(), V.get_id_ptr(),
+                    V.get_dest_ptr(), tmp.get_data_ptr(), tmp.get_keep_ptr(),
+                    tmp.get_strb_ptr(), tmp.get_user_ptr(), tmp.get_last_ptr(),
+                    tmp.get_id_ptr(), tmp.get_dest_ptr());
+    dout = tmp;
+  }
+
+  __attribute__((nodebug)) __STREAM_T__ read() {
+#pragma HLS inline
+ __STREAM_T__ tmp;
+    __fpga_axis_pop(V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(),
+                    V.get_user_ptr(), V.get_last_ptr(), V.get_id_ptr(),
+                    V.get_dest_ptr(), tmp.get_data_ptr(), tmp.get_keep_ptr(),
+                    tmp.get_strb_ptr(), tmp.get_user_ptr(), tmp.get_last_ptr(),
+                    tmp.get_id_ptr(), tmp.get_dest_ptr());
+    return tmp;
+  }
+
+
+  __attribute__((nodebug)) void write(const __STREAM_T__ &din) {
+#pragma HLS inline
+ __STREAM_T__ tmp = din;
+    __fpga_axis_push(V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(),
+                     V.get_user_ptr(), V.get_last_ptr(), V.get_id_ptr(),
+                     V.get_dest_ptr(), tmp.get_data_ptr(), tmp.get_keep_ptr(),
+                     tmp.get_strb_ptr(), tmp.get_user_ptr(), tmp.get_last_ptr(),
+                     tmp.get_id_ptr(), tmp.get_dest_ptr());
+  }
+
+
+  __attribute__((nodebug)) bool read_nb(__STREAM_T__ &dout) {
+#pragma HLS inline
+ __STREAM_T__ tmp;
+    if (__fpga_axis_nb_pop(V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(),
+                           V.get_user_ptr(), V.get_last_ptr(), V.get_id_ptr(),
+                           V.get_dest_ptr(), tmp.get_data_ptr(),
+                           tmp.get_keep_ptr(), tmp.get_strb_ptr(),
+                           tmp.get_user_ptr(), tmp.get_last_ptr(),
+                           tmp.get_id_ptr(), tmp.get_dest_ptr())) {
+      dout = tmp;
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+
+  __attribute__((nodebug)) bool write_nb(const __STREAM_T__ &in) {
+#pragma HLS inline
+ __STREAM_T__ tmp = in;
+    bool full_n = __fpga_axis_nb_push(
+        V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(), V.get_user_ptr(),
+        V.get_last_ptr(), V.get_id_ptr(), V.get_dest_ptr(), tmp.get_data_ptr(),
+        tmp.get_keep_ptr(), tmp.get_strb_ptr(), tmp.get_user_ptr(),
+        tmp.get_last_ptr(), tmp.get_id_ptr(), tmp.get_dest_ptr());
+    return full_n;
+  }
+
+private:
+  __STREAM_T__ V __attribute__((no_ctor));
+};
+
+}
+# 2 "hilbert.cpp" 2
+
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_int.h" 1
+# 4 "hilbert.cpp" 2
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_math.h" 1
+# 26 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_math.h"
+# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cmath" 1 3
+# 40 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cmath" 3
+
+
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 1 3
 # 36 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 3
 # 67 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/cpp_type_traits.h" 3
@@ -6258,189 +10272,7 @@ namespace __gnu_cxx
 # 11 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\math.h" 3
 
 
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 1 3
-# 10 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 1 3
-# 12 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_mac.h" 1 3
-# 13 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_secapi.h" 1 3
-# 44 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/_mingw_secapi.h" 3
-extern "C++" {
-template <bool __test, typename __dsttype>
-  struct __if_array;
-template <typename __dsttype>
-  struct __if_array <true, __dsttype> {
-    typedef __dsttype __type;
-};
-}
-# 14 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
-# 282 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
-# 1 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 1 3
-# 26 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 1 3
 
-
-
-
-
-
-
-
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 1 3
-# 595 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/sdks/_mingw_directx.h" 1 3
-# 596 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include/sdks/_mingw_ddk.h" 1 3
-# 597 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
-# 10 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 2 3
-
-
-
-
-#pragma pack(push,_CRT_PACKING)
-
-
-
-extern "C" {
-
-
-
-
-
-  typedef __builtin_va_list __gnuc_va_list;
-
-
-
-
-
-
-  typedef __gnuc_va_list va_list;
-# 99 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\vadefs.h" 3
-}
-
-
-
-#pragma pack(pop)
-# 27 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\vadefs.h" 2 3
-# 283 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 2 3
-# 558 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
-extern "C" {
-# 569 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\_mingw.h" 3
-void __attribute__((__cdecl__)) __debugbreak(void);
-extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __debugbreak(void)
-{
-  __asm__ __volatile__("int {$}3":);
-}
-
-
-
-
-const char *__mingw_get_crt_info (void);
-
-
-}
-# 11 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 2 3
-
-
-
-
-#pragma pack(push,_CRT_PACKING)
-# 35 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-__extension__ typedef unsigned long size_t;
-# 45 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-__extension__ typedef long ssize_t;
-
-
-
-
-
-
-typedef size_t rsize_t;
-# 62 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-__extension__ typedef long intptr_t;
-# 75 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-__extension__ typedef unsigned long uintptr_t;
-# 88 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-__extension__ typedef long ptrdiff_t;
-# 106 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-typedef unsigned short wint_t;
-typedef unsigned short wctype_t;
-
-
-
-
-
-typedef int errno_t;
-
-
-
-
-typedef long __time32_t;
-
-
-
-
-__extension__ typedef long __time64_t;
-# 138 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-typedef __time64_t time_t;
-# 422 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\crtdefs.h" 3
-struct threadlocaleinfostruct;
-struct threadmbcinfostruct;
-typedef struct threadlocaleinfostruct *pthreadlocinfo;
-typedef struct threadmbcinfostruct *pthreadmbcinfo;
-struct __lc_time_data;
-
-typedef struct localeinfo_struct {
-  pthreadlocinfo locinfo;
-  pthreadmbcinfo mbcinfo;
-} _locale_tstruct,*_locale_t;
-
-
-
-typedef struct tagLC_ID {
-  unsigned short wLanguage;
-  unsigned short wCountry;
-  unsigned short wCodePage;
-} LC_ID,*LPLC_ID;
-
-
-
-
-typedef struct threadlocaleinfostruct {
-  int refcount;
-  unsigned int lc_codepage;
-  unsigned int lc_collate_cp;
-  unsigned long lc_handle[6];
-  LC_ID lc_id[6];
-  struct {
-    char *locale;
-    wchar_t *wlocale;
-    int *refcount;
-    int *wrefcount;
-  } lc_category[6];
-  int lc_clike;
-  int mb_cur_max;
-  int *lconv_intl_refcount;
-  int *lconv_num_refcount;
-  int *lconv_mon_refcount;
-  struct lconv *lconv;
-  int *ctype1_refcount;
-  unsigned short *ctype1;
-  const unsigned short *pctype;
-  const unsigned char *pclmap;
-  const unsigned char *pcumap;
-  struct __lc_time_data *lc_time_curr;
-} threadlocinfo;
-
-
-
-
-
-
-
-#pragma pack(pop)
-# 14 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\math.h" 2 3
 
 struct _exception;
 
@@ -6557,16 +10389,6 @@ extern "C" {
   void __attribute__((__cdecl__)) sincos (double __x, double *p_sin, double *p_cos);
   void __attribute__((__cdecl__)) sincosl (long double __x, long double *p_sin, long double *p_cos);
   void __attribute__((__cdecl__)) sincosf (float __x, float *p_sin, float *p_cos);
-
-
-
-  int __attribute__((__cdecl__)) abs(int _X);
-  long __attribute__((__cdecl__)) labs(long _X);
-
-
-
-  double __attribute__((__cdecl__)) atof(const char *_String);
-  double __attribute__((__cdecl__)) _atof_l(const char *_String,_locale_t _Locale);
 # 270 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\math.h" 3
   struct _complex {
     double x;
@@ -6928,654 +10750,6 @@ __extension__ long long __attribute__((__cdecl__)) llrintl (long double);
 
 #pragma pack(pop)
 # 46 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cmath" 2 3
-
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 1 3
-# 34 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 3
-
-
-
-
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 1 3
-# 10 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-# 1 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 1 3
-# 37 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\limits.h" 1 3
-# 38 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\limits.h" 2 3
-# 11 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
-# 25 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-#pragma pack(push,_CRT_PACKING)
-
-
-extern "C" {
-# 49 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-  typedef int (__attribute__((__cdecl__)) *_onexit_t)(void);
-# 59 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-  typedef struct _div_t {
-    int quot;
-    int rem;
-  } div_t;
-
-  typedef struct _ldiv_t {
-    long quot;
-    long rem;
-  } ldiv_t;
-
-
-
-
-
-#pragma pack(4)
- typedef struct {
-    unsigned char ld[10];
-  } _LDOUBLE;
-#pragma pack()
-
-
-
- typedef struct {
-    double x;
-  } _CRT_DOUBLE;
-
-  typedef struct {
-    float f;
-  } _CRT_FLOAT;
-
-
-
-
-  typedef struct {
-    long double x;
-  } _LONGDOUBLE;
-
-
-
-#pragma pack(4)
- typedef struct {
-    unsigned char ld12[12];
-  } _LDBL12;
-#pragma pack()
-# 115 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
- extern int * __imp___mb_cur_max;
-
-
-
-
-__attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) ___mb_cur_max_func(void);
-# 142 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-  typedef void (__attribute__((__cdecl__)) *_purecall_handler)(void);
-
-  __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _set_purecall_handler(_purecall_handler _Handler);
-  __attribute__ ((__dllimport__)) _purecall_handler __attribute__((__cdecl__)) _get_purecall_handler(void);
-
-  typedef void (__attribute__((__cdecl__)) *_invalid_parameter_handler)(const wchar_t *,const wchar_t *,const wchar_t *,unsigned int,uintptr_t);
-  __attribute__ ((__dllimport__)) _invalid_parameter_handler __attribute__((__cdecl__)) _set_invalid_parameter_handler(_invalid_parameter_handler _Handler);
-  __attribute__ ((__dllimport__)) _invalid_parameter_handler __attribute__((__cdecl__)) _get_invalid_parameter_handler(void);
-
-
-
-  __attribute__ ((__dllimport__)) extern int *__attribute__((__cdecl__)) _errno(void);
-
-  errno_t __attribute__((__cdecl__)) _set_errno(int _Value);
-  errno_t __attribute__((__cdecl__)) _get_errno(int *_Value);
-
-  __attribute__ ((__dllimport__)) unsigned long *__attribute__((__cdecl__)) __doserrno(void);
-
-  errno_t __attribute__((__cdecl__)) _set_doserrno(unsigned long _Value);
-  errno_t __attribute__((__cdecl__)) _get_doserrno(unsigned long *_Value);
-# 172 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-  extern __attribute__((dllimport)) char *_sys_errlist[1];
-  extern __attribute__((dllimport)) int _sys_nerr;
-
-
-
-
-
-  __attribute__ ((__dllimport__)) char ***__attribute__((__cdecl__)) __p___argv(void);
-  __attribute__ ((__dllimport__)) int *__attribute__((__cdecl__)) __p__fmode(void);
-# 190 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-  errno_t __attribute__((__cdecl__)) _get_pgmptr(char **_Value);
-  errno_t __attribute__((__cdecl__)) _get_wpgmptr(wchar_t **_Value);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_fmode(int _Mode);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_fmode(int *_PMode);
-# 281 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-  extern int * __imp___argc;
-
-
-
-  extern char *** __imp___argv;
-
-
-
-  extern wchar_t *** __imp___wargv;
-
-
-
-
-
-  extern char *** __imp__environ;
-
-
-
-
-  extern wchar_t *** __imp__wenviron;
-
-
-
-
-
-  extern char ** __imp__pgmptr;
-
-
-
-
-  extern wchar_t ** __imp__wpgmptr;
-
-
-
-
-  extern unsigned int * __imp__osplatform;
-
-
-
-
-  extern unsigned int * __imp__osver;
-
-
-
-
-  extern unsigned int * __imp__winver;
-
-
-
-
-  extern unsigned int * __imp__winmajor;
-
-
-
-
-  extern unsigned int * __imp__winminor;
-
-
-
-
-
-  errno_t __attribute__((__cdecl__)) _get_osplatform(unsigned int *_Value);
-  errno_t __attribute__((__cdecl__)) _get_osver(unsigned int *_Value);
-  errno_t __attribute__((__cdecl__)) _get_winver(unsigned int *_Value);
-  errno_t __attribute__((__cdecl__)) _get_winmajor(unsigned int *_Value);
-  errno_t __attribute__((__cdecl__)) _get_winminor(unsigned int *_Value);
-
-
-
-
-  extern "C++" {
-    template <typename _CountofType,size_t _SizeOfArray> char (*__countof_helper( _CountofType (&_Array)[_SizeOfArray]))[_SizeOfArray];
-
-  }
-
-
-
-
-
-  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) exit(int _Code) __attribute__ ((__noreturn__));
-  void __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) _exit(int _Code) __attribute__ ((__noreturn__));
-
-
-
-  void __attribute__((__cdecl__)) _Exit(int) __attribute__ ((__noreturn__));
-# 374 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-  void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) abort(void);
-
-
-
-
-  __attribute__ ((__dllimport__)) unsigned int __attribute__((__cdecl__)) _set_abort_behavior(unsigned int _Flags,unsigned int _Mask);
-
-
-
-
-
-
-
-  __extension__ long __attribute__((__cdecl__)) _abs64(long);
-
-  extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) long __attribute__((__cdecl__)) _abs64(long x) {
-    return __builtin_llabs(x);
-  }
-
-
-  int __attribute__((__cdecl__)) atexit(void (__attribute__((__cdecl__)) *)(void));
-
-
-
-
-
-  int __attribute__((__cdecl__)) atoi(const char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoi_l(const char *_Str,_locale_t _Locale);
-  long __attribute__((__cdecl__)) atol(const char *_Str);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atol_l(const char *_Str,_locale_t _Locale);
-
-
-  void *__attribute__((__cdecl__)) bsearch(const void *_Key,const void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(const void *,const void *));
-  void __attribute__((__cdecl__)) qsort(void *_Base,size_t _NumOfElements,size_t _SizeOfElements,int (__attribute__((__cdecl__)) *_PtFuncCompare)(const void *,const void *));
-
-  unsigned short __attribute__((__cdecl__)) _byteswap_ushort(unsigned short _Short);
-  unsigned long __attribute__((__cdecl__)) _byteswap_ulong (unsigned long _Long);
-  __extension__ unsigned long __attribute__((__cdecl__)) _byteswap_uint64(unsigned long _Int64);
-  div_t __attribute__((__cdecl__)) div(int _Numerator,int _Denominator);
-  char *__attribute__((__cdecl__)) getenv(const char *_VarName) ;
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _itoa(int _Value,char *_Dest,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _i64toa(long _Val,char *_DstBuf,int _Radix) ;
-  __extension__ __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ui64toa(unsigned long _Val,char *_DstBuf,int _Radix) ;
-  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atoi64(const char *_String);
-  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _atoi64_l(const char *_String,_locale_t _Locale);
-  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtoi64(const char *_String,char **_EndPtr,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtoi64_l(const char *_String,char **_EndPtr,int _Radix,_locale_t _Locale);
-  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoui64(const char *_String,char **_EndPtr,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoui64_l(const char *_String,char **_EndPtr,int _Radix,_locale_t _Locale);
-  ldiv_t __attribute__((__cdecl__)) ldiv(long _Numerator,long _Denominator);
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ltoa(long _Value,char *_Dest,int _Radix) ;
-  int __attribute__((__cdecl__)) mblen(const char *_Ch,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _mblen_l(const char *_Ch,size_t _MaxCount,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrlen(const char *_Str);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrlen_l(const char *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrnlen(const char *_Str,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstrnlen_l(const char *_Str,size_t _MaxCount,_locale_t _Locale);
-  int __attribute__((__cdecl__)) mbtowc(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SrcSizeInBytes);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _mbtowc_l(wchar_t * __restrict__ _DstCh,const char * __restrict__ _SrcCh,size_t _SrcSizeInBytes,_locale_t _Locale);
-  size_t __attribute__((__cdecl__)) mbstowcs(wchar_t * __restrict__ _Dest,const char * __restrict__ _Source,size_t _MaxCount);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _mbstowcs_l(wchar_t * __restrict__ _Dest,const char * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale);
-  int __attribute__((__cdecl__)) mkstemp(char *template_name);
-  int __attribute__((__cdecl__)) rand(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_error_mode(int _Mode);
-  void __attribute__((__cdecl__)) srand(unsigned int _Seed);
-# 449 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-inline __attribute__((__cdecl__))
-double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtod(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
-{
-  double __attribute__((__cdecl__)) __mingw_strtod (const char * __restrict__, char ** __restrict__);
-  return __mingw_strtod( _Str, _EndPtr);
-}
-
-inline __attribute__((__cdecl__))
-float __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtof(const char * __restrict__ _Str,char ** __restrict__ _EndPtr)
-{
-  float __attribute__((__cdecl__)) __mingw_strtof (const char * __restrict__, char ** __restrict__);
-  return __mingw_strtof( _Str, _EndPtr);
-}
-
-
-
-
-
-
-  long double __attribute__((__cdecl__)) __attribute__ ((__nothrow__)) strtold(const char * __restrict__ , char ** __restrict__ );
-
-
-  extern double __attribute__((__cdecl__)) __attribute__ ((__nothrow__))
-  __strtod (const char * __restrict__ , char ** __restrict__);
-
-
-
-
-
-
-
-  float __attribute__((__cdecl__)) __mingw_strtof (const char * __restrict__, char ** __restrict__);
-  double __attribute__((__cdecl__)) __mingw_strtod (const char * __restrict__, char ** __restrict__);
-  long double __attribute__((__cdecl__)) __mingw_strtold(const char * __restrict__, char ** __restrict__);
-
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _strtod_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,_locale_t _Locale);
-  long __attribute__((__cdecl__)) strtol(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _strtol_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
-  unsigned long __attribute__((__cdecl__)) strtoul(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix);
-  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _strtoul_l(const char * __restrict__ _Str,char ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
-
-
-  int __attribute__((__cdecl__)) system(const char *_Command);
-
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ultoa(unsigned long _Value,char *_Dest,int _Radix) ;
-  int __attribute__((__cdecl__)) wctomb(char *_MbCh,wchar_t _WCh) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wctomb_l(char *_MbCh,wchar_t _WCh,_locale_t _Locale) ;
-  size_t __attribute__((__cdecl__)) wcstombs(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount) ;
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcstombs_l(char * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _MaxCount,_locale_t _Locale) ;
-
-
-
-  void *__attribute__((__cdecl__)) calloc(size_t _NumOfElements,size_t _SizeOfElements);
-  void __attribute__((__cdecl__)) free(void *_Memory);
-  void *__attribute__((__cdecl__)) malloc(size_t _Size);
-  void *__attribute__((__cdecl__)) realloc(void *_Memory,size_t _NewSize);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _recalloc(void *_Memory,size_t _Count,size_t _Size);
-
-
-
-
-
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _aligned_free(void *_Memory);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_malloc(size_t _Size,size_t _Alignment);
-
-
-
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_malloc(size_t _Size,size_t _Alignment,size_t _Offset);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_realloc(void *_Memory,size_t _Size,size_t _Alignment);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_realloc(void *_Memory,size_t _Size,size_t _Alignment,size_t _Offset);
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _aligned_offset_recalloc(void *_Memory,size_t _Count,size_t _Size,size_t _Alignment,size_t _Offset);
-
-
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _itow(int _Value,wchar_t *_Dest,int _Radix) ;
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ltow(long _Value,wchar_t *_Dest,int _Radix) ;
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ultow(unsigned long _Value,wchar_t *_Dest,int _Radix) ;
-
-  double __attribute__((__cdecl__)) __mingw_wcstod(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr);
-  float __attribute__((__cdecl__)) __mingw_wcstof(const wchar_t * __restrict__ nptr, wchar_t ** __restrict__ endptr);
-  long double __attribute__((__cdecl__)) __mingw_wcstold(const wchar_t * __restrict__, wchar_t ** __restrict__);
-
-
-  inline __attribute__((__cdecl__))
-  double __attribute__((__cdecl__)) wcstod(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr){
-    return __mingw_wcstod(_Str,_EndPtr);
-  }
-  inline __attribute__((__cdecl__))
-  float __attribute__((__cdecl__)) wcstof(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr){
-    return __mingw_wcstof(_Str,_EndPtr);
-  }
-
-
-
-
-
-
-  long double __attribute__((__cdecl__)) wcstold(const wchar_t * __restrict__, wchar_t ** __restrict__);
-
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wcstod_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,_locale_t _Locale);
-  long __attribute__((__cdecl__)) wcstol(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstol_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
-  unsigned long __attribute__((__cdecl__)) wcstoul(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix);
-  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoul_l(const wchar_t * __restrict__ _Str,wchar_t ** __restrict__ _EndPtr,int _Radix,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wgetenv(const wchar_t *_VarName) ;
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wsystem(const wchar_t *_Command);
-
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wtof(const wchar_t *_Str);
-  __attribute__ ((__dllimport__)) double __attribute__((__cdecl__)) _wtof_l(const wchar_t *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wtoi(const wchar_t *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wtoi_l(const wchar_t *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtol(const wchar_t *_Str);
-  __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtol_l(const wchar_t *_Str,_locale_t _Locale);
-
-  __extension__ __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _i64tow(long _Val,wchar_t *_DstBuf,int _Radix) ;
-  __extension__ __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _ui64tow(unsigned long _Val,wchar_t *_DstBuf,int _Radix) ;
-  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtoi64(const wchar_t *_Str);
-  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wtoi64_l(const wchar_t *_Str,_locale_t _Locale);
-  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstoi64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) long __attribute__((__cdecl__)) _wcstoi64_l(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
-  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoui64(const wchar_t *_Str,wchar_t **_EndPtr,int _Radix);
-  __extension__ __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _wcstoui64_l(const wchar_t *_Str ,wchar_t **_EndPtr,int _Radix,_locale_t _Locale);
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _putenv(const char *_EnvString);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wputenv(const wchar_t *_EnvString);
-
-
-
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fullpath(char *_FullPath,const char *_Path,size_t _SizeInBytes);
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
-  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl(_CRT_DOUBLE *_Result,char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl(_LDOUBLE *_Result,char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt(_CRT_FLOAT *_Result,char *_Str);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atodbl_l(_CRT_DOUBLE *_Result,char *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoldbl_l(_LDOUBLE *_Result,char *_Str,_locale_t _Locale);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _atoflt_l(_CRT_FLOAT *_Result,char *_Str,_locale_t _Locale);
-# 609 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-unsigned long __attribute__((__cdecl__)) _lrotl(unsigned long,int);
-unsigned long __attribute__((__cdecl__)) _lrotr(unsigned long,int);
-
-
-
-
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _makepath(char *_Path,const char *_Drive,const char *_Dir,const char *_Filename,const char *_Ext);
-  _onexit_t __attribute__((__cdecl__)) _onexit(_onexit_t _Func);
-
-
-
-  void __attribute__((__cdecl__)) perror(const char *_ErrMsg);
-
-
-
-
-
-  __extension__ unsigned long __attribute__((__cdecl__)) _rotl64(unsigned long _Val,int _Shift);
-  __extension__ unsigned long __attribute__((__cdecl__)) _rotr64(unsigned long Value,int Shift);
-
-
-
-
-
-
-  unsigned int __attribute__((__cdecl__)) _rotr(unsigned int _Val,int _Shift);
-  unsigned int __attribute__((__cdecl__)) _rotl(unsigned int _Val,int _Shift);
-
-
-  __extension__ unsigned long __attribute__((__cdecl__)) _rotr64(unsigned long _Val,int _Shift);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _searchenv(const char *_Filename,const char *_EnvVar,char *_ResultPath) ;
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _splitpath(const char *_FullPath,char *_Drive,char *_Dir,char *_Filename,char *_Ext) ;
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _swab(char *_Buf1,char *_Buf2,int _SizeInBytes);
-
-
-
-  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wfullpath(wchar_t *_FullPath,const wchar_t *_Path,size_t _SizeInWords);
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wmakepath(wchar_t *_ResultPath,const wchar_t *_Drive,const wchar_t *_Dir,const wchar_t *_Filename,const wchar_t *_Ext);
-
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wperror(const wchar_t *_ErrMsg);
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsearchenv(const wchar_t *_Filename,const wchar_t *_EnvVar,wchar_t *_ResultPath) ;
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wsplitpath(const wchar_t *_FullPath,wchar_t *_Drive,wchar_t *_Dir,wchar_t *_Filename,wchar_t *_Ext) ;
-
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _beep(unsigned _Frequency,unsigned _Duration) __attribute__ ((__deprecated__));
-
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _seterrormode(int _Mode) __attribute__ ((__deprecated__));
-  __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _sleep(unsigned long _Duration) __attribute__ ((__deprecated__));
-# 680 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-  char *__attribute__((__cdecl__)) ecvt(double _Val,int _NumOfDigits,int *_PtDec,int *_PtSign) ;
-  char *__attribute__((__cdecl__)) fcvt(double _Val,int _NumOfDec,int *_PtDec,int *_PtSign) ;
-  char *__attribute__((__cdecl__)) gcvt(double _Val,int _NumOfDigits,char *_DstBuf) ;
-  char *__attribute__((__cdecl__)) itoa(int _Val,char *_DstBuf,int _Radix) ;
-  char *__attribute__((__cdecl__)) ltoa(long _Val,char *_DstBuf,int _Radix) ;
-  int __attribute__((__cdecl__)) putenv(const char *_EnvString) ;
-
-
-
-  void __attribute__((__cdecl__)) swab(char *_Buf1,char *_Buf2,int _SizeInBytes) ;
-
-
-  char *__attribute__((__cdecl__)) ultoa(unsigned long _Val,char *_Dstbuf,int _Radix) ;
-  _onexit_t __attribute__((__cdecl__)) onexit(_onexit_t _Func);
-
-
-
-
-
-  typedef struct { __extension__ long long quot, rem; } lldiv_t;
-
-  __extension__ lldiv_t __attribute__((__cdecl__)) lldiv(long long, long long);
-
-  __extension__ long long __attribute__((__cdecl__)) llabs(long long);
-
-
-
-
-  __extension__ long long __attribute__((__cdecl__)) strtoll(const char * __restrict__, char ** __restrict, int);
-  __extension__ unsigned long long __attribute__((__cdecl__)) strtoull(const char * __restrict__, char ** __restrict__, int);
-
-
-  __extension__ long long __attribute__((__cdecl__)) atoll (const char *);
-
-
-  __extension__ long long __attribute__((__cdecl__)) wtoll (const wchar_t *);
-  __extension__ char *__attribute__((__cdecl__)) lltoa (long long, char *, int);
-  __extension__ char *__attribute__((__cdecl__)) ulltoa (unsigned long long , char *, int);
-  __extension__ wchar_t *__attribute__((__cdecl__)) lltow (long long, wchar_t *, int);
-  __extension__ wchar_t *__attribute__((__cdecl__)) ulltow (unsigned long long, wchar_t *, int);
-# 735 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 3
-}
-
-
-#pragma pack(pop)
-
-
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/stdlib_s.h" 1 3
-
-
-
-
-
-
-
-
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 1 3
-# 30 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 1 3
-# 31 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 2 3
-# 10 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\sec_api/stdlib_s.h" 2 3
-# 741 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 1 3
-# 11 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
-#pragma pack(push,_CRT_PACKING)
-
-
-extern "C" {
-# 46 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
-  typedef struct _heapinfo {
-    int *_pentry;
-    size_t _size;
-    int _useflag;
-  } _HEAPINFO;
-
-
-  extern unsigned int _amblksiz;
-# 103 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
-void * __mingw_aligned_malloc (size_t _Size, size_t _Alignment);
-void __mingw_aligned_free (void *_Memory);
-void * __mingw_aligned_offset_realloc (void *_Memory, size_t _Size, size_t _Alignment, size_t _Offset);
-void * __mingw_aligned_realloc (void *_Memory, size_t _Size, size_t _Offset);
-
-
-
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _resetstkoflw (void);
-  __attribute__ ((__dllimport__)) unsigned long __attribute__((__cdecl__)) _set_malloc_crt_max_wait(unsigned long _NewValue);
-
-  __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _expand(void *_Memory,size_t _NewSize);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _msize(void *_Memory);
-
-
-
-
-
-
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _get_sbh_threshold(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _set_sbh_threshold(size_t _NewValue);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _set_amblksiz(size_t _Value);
-  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _get_amblksiz(size_t *_Value);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapadd(void *_Memory,size_t _Size);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapchk(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapmin(void);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapset(unsigned int _Fill);
-  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _heapwalk(_HEAPINFO *_EntryInfo);
-  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _heapused(size_t *_Used,size_t *_Commit);
-  __attribute__ ((__dllimport__)) intptr_t __attribute__((__cdecl__)) _get_heap_handle(void);
-# 144 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
-  static __inline void *_MarkAllocaS(void *_Ptr,unsigned int _Marker) {
-    if(_Ptr) {
-      *((unsigned int*)_Ptr) = _Marker;
-      _Ptr = (char*)_Ptr + 16;
-    }
-    return _Ptr;
-  }
-# 163 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
-  static __inline void __attribute__((__cdecl__)) _freea(void *_Memory) {
-    unsigned int _Marker;
-    if(_Memory) {
-      _Memory = (char*)_Memory - 16;
-      _Marker = *(unsigned int *)_Memory;
-      if(_Marker==0xDDDD) {
- free(_Memory);
-      }
-
-
-
-
-
-    }
-  }
-# 206 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\malloc.h" 3
-}
-
-
-#pragma pack(pop)
-# 742 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdlib.h" 2 3
-# 39 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 2 3
-
-
-
-
-
-
-
-extern "C++"
-{
-namespace std
-{
-
-
-  using ::abs;
-
-
-  inline long
-  abs(long __i) { return __builtin_labs(__i); }
-
-
-
-  inline long long
-  abs(long long __x) { return __builtin_llabs (__x); }
-
-
-
-
-
-
-
-  inline constexpr double
-  abs(double __x)
-  { return __builtin_fabs(__x); }
-
-  inline constexpr float
-  abs(float __x)
-  { return __builtin_fabsf(__x); }
-
-  inline constexpr long double
-  abs(long double __x)
-  { return __builtin_fabsl(__x); }
-
-
-
-  inline constexpr __int128
-  abs(__int128 __x) { return __x >= 0 ? __x : -__x; }
-# 107 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\bits/std_abs.h" 3
-}
-}
-# 48 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cmath" 2 3
 # 77 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cmath" 3
 extern "C++"
 {
@@ -9090,226 +12264,9 @@ namespace std
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fpo.h" 1
 # 14 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fpo.h"
 # 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 1 3
-# 17 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 1 3
-# 36 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 1 3
-# 40 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
-# 121 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
-extern "C++"
-{
-namespace std
-{
-
-
-  using ::div_t;
-  using ::ldiv_t;
-
-  using ::abort;
-
-
-
-  using ::atexit;
-
-
-
-
-
-  using ::atof;
-  using ::atoi;
-  using ::atol;
-  using ::bsearch;
-  using ::calloc;
-  using ::div;
-  using ::exit;
-  using ::free;
-  using ::getenv;
-  using ::labs;
-  using ::ldiv;
-  using ::malloc;
-
-  using ::mblen;
-  using ::mbstowcs;
-  using ::mbtowc;
-
-  using ::qsort;
-
-
-
-
-
-  using ::rand;
-  using ::realloc;
-  using ::srand;
-  using ::strtod;
-  using ::strtol;
-  using ::strtoul;
-  using ::system;
-
-  using ::wcstombs;
-  using ::wctomb;
-
-
-
-  inline ldiv_t
-  div(long __i, long __j) { return ldiv(__i, __j); }
-
-
-
-
-}
-# 195 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
-namespace __gnu_cxx
-{
-
-
-
-  using ::lldiv_t;
-
-
-
-
-
-  using ::_Exit;
-
-
-
-  using ::llabs;
-
-  inline lldiv_t
-  div(long long __n, long long __d)
-  { lldiv_t __q; __q.quot = __n / __d; __q.rem = __n % __d; return __q; }
-
-  using ::lldiv;
-# 227 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
-  using ::atoll;
-  using ::strtoll;
-  using ::strtoull;
-
-  using ::strtof;
-  using ::strtold;
-
-
-}
-
-namespace std
-{
-
-  using ::__gnu_cxx::lldiv_t;
-
-  using ::__gnu_cxx::_Exit;
-
-  using ::__gnu_cxx::llabs;
-  using ::__gnu_cxx::div;
-  using ::__gnu_cxx::lldiv;
-
-  using ::__gnu_cxx::atoll;
-  using ::__gnu_cxx::strtof;
-  using ::__gnu_cxx::strtoll;
-  using ::__gnu_cxx::strtoull;
-  using ::__gnu_cxx::strtold;
-}
-
-
-
-}
-# 37 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 2 3
-
-using std::abort;
-using std::atexit;
-using std::exit;
-# 51 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
-using std::div_t;
-using std::ldiv_t;
-
-using std::abs;
-using std::atof;
-using std::atoi;
-using std::atol;
-using std::bsearch;
-using std::calloc;
-using std::div;
-using std::free;
-using std::getenv;
-using std::labs;
-using std::ldiv;
-using std::malloc;
-
-using std::mblen;
-using std::mbstowcs;
-using std::mbtowc;
-
-using std::qsort;
-using std::rand;
-using std::realloc;
-using std::srand;
-using std::strtod;
-using std::strtol;
-using std::strtoul;
-using std::system;
-
-using std::wcstombs;
-using std::wctomb;
-# 18 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 2 3
-
-
-
-extern "C" {
-# 45 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
-extern void __attribute__((__cdecl__))
-_wassert(const wchar_t *_Message,const wchar_t *_File,unsigned _Line);
-extern void __attribute__((__cdecl__))
-_assert (const char *_Message, const char *_File, unsigned _Line);
-
-
-}
 # 15 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_fpo.h" 2
 # 29 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_math.h" 2
-# 1 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 1 3
-# 63 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 3
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 1 3
-# 32 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 3
-# 1 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stddef.h" 1 3
-# 33 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\stdint.h" 2 3
 
-
-typedef signed char int8_t;
-typedef unsigned char uint8_t;
-typedef short int16_t;
-typedef unsigned short uint16_t;
-typedef int int32_t;
-typedef unsigned uint32_t;
-__extension__ typedef long long int64_t;
-__extension__ typedef unsigned long long uint64_t;
-
-
-typedef signed char int_least8_t;
-typedef unsigned char uint_least8_t;
-typedef short int_least16_t;
-typedef unsigned short uint_least16_t;
-typedef int int_least32_t;
-typedef unsigned uint_least32_t;
-__extension__ typedef long long int_least64_t;
-__extension__ typedef unsigned long long uint_least64_t;
-
-
-
-
-
-typedef signed char int_fast8_t;
-typedef unsigned char uint_fast8_t;
-typedef short int_fast16_t;
-typedef unsigned short uint_fast16_t;
-typedef int int_fast32_t;
-typedef unsigned int uint_fast32_t;
-__extension__ typedef long long int_fast64_t;
-__extension__ typedef unsigned long long uint_fast64_t;
-
-
-__extension__ typedef long long intmax_t;
-__extension__ typedef unsigned long long uintmax_t;
-# 64 "C:\\Xilinx\\Vitis_HLS\\2024.1\\win64\\tools\\clang-3.9-csynth\\lib\\clang\\7.0.0\\include\\stdint.h" 2 3
-# 30 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_math.h" 2
 
 namespace hls {
 
@@ -26463,2975 +29420,12 @@ namespace hls {
     uint32_t logb(uint32_t);
 
 };
-# 3 "hilbert.cpp" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_stream.h" 1
-# 12 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_stream.h"
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream_39.h" 1
-# 23 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream_39.h"
-namespace hls {
-# 49 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/hls_stream_39.h"
-template<typename __STREAM_T__, int DEPTH=0>
-class stream;
-
-template<typename __STREAM_T__>
-class stream<__STREAM_T__, 0>
-{
-  public:
-    using value_type = __STREAM_T__;
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) stream() {
-    }
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const char* name) {
-      (void)(name);
-    }
-
-
-  private:
-    inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const stream< __STREAM_T__ >& chn):V(chn.V) {
-    }
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) stream& operator= (const stream< __STREAM_T__ >& chn) {
-        V = chn.V;
-        return *this;
-    }
-
-  public:
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) void operator >> (__STREAM_T__& rdata) {
-        read(rdata);
-    }
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) void operator << (const __STREAM_T__& wdata) {
-        write(wdata);
-    }
-
-
-  public:
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) bool empty() const {
-        return !__fpga_fifo_not_empty(&V);
-    }
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) bool full() const {
-        return !__fpga_fifo_not_full(&V);
-    }
-
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) void read(__STREAM_T__& dout) {
-        __fpga_fifo_pop(&V, &dout);
-    }
-
-
-    inline __attribute__((noinline)) __attribute__((nodebug)) bool read_dep(__STREAM_T__& dout, volatile bool flag) {
-        __fpga_fifo_pop(&V, &dout);
-        return flag;
-    }
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) __STREAM_T__ read() {
-        __STREAM_T__ tmp;
-        read(tmp);
-        return tmp;
-    }
-
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) bool read_nb(__STREAM_T__& dout) {
-        __STREAM_T__ tmp;
-
-        if (__fpga_fifo_nb_pop(&V, &tmp)) {
-            dout = tmp;
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) void write(const __STREAM_T__& din) {
-        __fpga_fifo_push(&V, &din);
-    }
-
-
-    inline __attribute__((noinline)) __attribute__((nodebug)) bool write_dep(const __STREAM_T__& din, volatile bool flag) {
-        __fpga_fifo_push(&V, &din);
-        return flag;
-    }
-
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) bool write_nb(const __STREAM_T__& din) {
-        return __fpga_fifo_nb_push(&V, &din);
-    }
-
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) unsigned size() const {
-        return __fpga_fifo_size(&V);
-    }
-
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) unsigned capacity() const {
-        return __fpga_fifo_capacity(&V);
-    }
-
-
-    void set_name(const char* name) { (void)(name); }
-
-  public:
-    __STREAM_T__ V __attribute__((no_ctor));
-};
-
-template<typename __STREAM_T__, int DEPTH>
-class stream : public stream<__STREAM_T__, 0> {
-  public:
-    inline __attribute__((always_inline)) __attribute__((nodebug)) stream() {
-#pragma HLS stream variable=this depth=DEPTH
- }
-
-    inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const char* name) {
-#pragma HLS stream variable=this depth=DEPTH
- (void)(name);
-    }
-};
-}
-# 13 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\hls_stream.h" 2
-# 4 "hilbert.cpp" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 1
-# 15 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_int.h" 1
-# 16 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
-
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 1 3
-# 42 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 3
-
-
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 1 3
-# 45 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 2 3
-# 18 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\climits" 1 3
-# 40 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\climits" 3
-# 19 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 1 3
-# 33 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 3
-# 46 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdint" 3
-namespace std
-{
-  using ::int8_t;
-  using ::int16_t;
-  using ::int32_t;
-  using ::int64_t;
-
-  using ::int_fast8_t;
-  using ::int_fast16_t;
-  using ::int_fast32_t;
-  using ::int_fast64_t;
-
-  using ::int_least8_t;
-  using ::int_least16_t;
-  using ::int_least32_t;
-  using ::int_least64_t;
-
-  using ::intmax_t;
-  using ::intptr_t;
-
-  using ::uint8_t;
-  using ::uint16_t;
-  using ::uint32_t;
-  using ::uint64_t;
-
-  using ::uint_fast8_t;
-  using ::uint_fast16_t;
-  using ::uint_fast32_t;
-  using ::uint_fast64_t;
-
-  using ::uint_least8_t;
-  using ::uint_least16_t;
-  using ::uint_least32_t;
-  using ::uint_least64_t;
-
-  using ::uintmax_t;
-  using ::uintptr_t;
-}
-# 20 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
-# 1 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 1 3
-# 33 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-
-
-
-
-
-
-
-namespace std
-{
-# 56 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<typename _Tp, _Tp __v>
-    struct integral_constant
-    {
-      static constexpr _Tp value = __v;
-      typedef _Tp value_type;
-      typedef integral_constant<_Tp, __v> type;
-      constexpr operator value_type() const noexcept { return value; }
-
-
-
-
-      constexpr value_type operator()() const noexcept { return value; }
-
-    };
-
-  template<typename _Tp, _Tp __v>
-    constexpr _Tp integral_constant<_Tp, __v>::value;
-
-
-  typedef integral_constant<bool, true> true_type;
-
-
-  typedef integral_constant<bool, false> false_type;
-
-  template<bool __v>
-    using __bool_constant = integral_constant<bool, __v>;
-# 91 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<bool, typename, typename>
-    struct conditional;
-
-  template<typename...>
-    struct __or_;
-
-  template<>
-    struct __or_<>
-    : public false_type
-    { };
-
-  template<typename _B1>
-    struct __or_<_B1>
-    : public _B1
-    { };
-
-  template<typename _B1, typename _B2>
-    struct __or_<_B1, _B2>
-    : public conditional<_B1::value, _B1, _B2>::type
-    { };
-
-  template<typename _B1, typename _B2, typename _B3, typename... _Bn>
-    struct __or_<_B1, _B2, _B3, _Bn...>
-    : public conditional<_B1::value, _B1, __or_<_B2, _B3, _Bn...>>::type
-    { };
-
-  template<typename...>
-    struct __and_;
-
-  template<>
-    struct __and_<>
-    : public true_type
-    { };
-
-  template<typename _B1>
-    struct __and_<_B1>
-    : public _B1
-    { };
-
-  template<typename _B1, typename _B2>
-    struct __and_<_B1, _B2>
-    : public conditional<_B1::value, _B2, _B1>::type
-    { };
-
-  template<typename _B1, typename _B2, typename _B3, typename... _Bn>
-    struct __and_<_B1, _B2, _B3, _Bn...>
-    : public conditional<_B1::value, __and_<_B2, _B3, _Bn...>, _B1>::type
-    { };
-
-  template<typename _Pp>
-    struct __not_
-    : public __bool_constant<!bool(_Pp::value)>
-    { };
-# 180 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<typename _Tp>
-    struct __success_type
-    { typedef _Tp type; };
-
-  struct __failure_type
-  { };
-
-
-
-  template<typename>
-    struct remove_cv;
-
-  template<typename>
-    struct __is_void_helper
-    : public false_type { };
-
-  template<>
-    struct __is_void_helper<void>
-    : public true_type { };
-
-
-  template<typename _Tp>
-    struct is_void
-    : public __is_void_helper<typename remove_cv<_Tp>::type>::type
-    { };
-
-  template<typename>
-    struct __is_integral_helper
-    : public false_type { };
-
-  template<>
-    struct __is_integral_helper<bool>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<char>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<signed char>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<unsigned char>
-    : public true_type { };
-
-
-  template<>
-    struct __is_integral_helper<wchar_t>
-    : public true_type { };
-
-
-  template<>
-    struct __is_integral_helper<char16_t>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<char32_t>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<short>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<unsigned short>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<int>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<unsigned int>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<long>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<unsigned long>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<long long>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<unsigned long long>
-    : public true_type { };
-
-
-
-
-  template<>
-    struct __is_integral_helper<__int128>
-    : public true_type { };
-
-  template<>
-    struct __is_integral_helper<unsigned __int128>
-    : public true_type { };
-# 312 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<typename _Tp>
-    struct is_integral
-    : public __is_integral_helper<typename remove_cv<_Tp>::type>::type
-    { };
-
-  template<typename>
-    struct __is_floating_point_helper
-    : public false_type { };
-
-  template<>
-    struct __is_floating_point_helper<float>
-    : public true_type { };
-
-  template<>
-    struct __is_floating_point_helper<double>
-    : public true_type { };
-
-  template<>
-    struct __is_floating_point_helper<long double>
-    : public true_type { };
-# 340 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<typename _Tp>
-    struct is_floating_point
-    : public __is_floating_point_helper<typename remove_cv<_Tp>::type>::type
-    { };
-
-
-  template<typename>
-    struct is_array
-    : public false_type { };
-
-  template<typename _Tp, std::size_t _Size>
-    struct is_array<_Tp[_Size]>
-    : public true_type { };
-
-  template<typename _Tp>
-    struct is_array<_Tp[]>
-    : public true_type { };
-
-  template<typename>
-    struct __is_pointer_helper
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_pointer_helper<_Tp*>
-    : public true_type { };
-
-
-  template<typename _Tp>
-    struct is_pointer
-    : public __is_pointer_helper<typename remove_cv<_Tp>::type>::type
-    { };
-
-
-  template<typename>
-    struct is_lvalue_reference
-    : public false_type { };
-
-  template<typename _Tp>
-    struct is_lvalue_reference<_Tp&>
-    : public true_type { };
-
-
-  template<typename>
-    struct is_rvalue_reference
-    : public false_type { };
-
-  template<typename _Tp>
-    struct is_rvalue_reference<_Tp&&>
-    : public true_type { };
-
-  template<typename>
-    struct is_function;
-
-  template<typename>
-    struct __is_member_object_pointer_helper
-    : public false_type { };
-
-  template<typename _Tp, typename _Cp>
-    struct __is_member_object_pointer_helper<_Tp _Cp::*>
-    : public integral_constant<bool, !is_function<_Tp>::value> { };
-
-
-  template<typename _Tp>
-    struct is_member_object_pointer
-    : public __is_member_object_pointer_helper<
-    typename remove_cv<_Tp>::type>::type
-    { };
-
-  template<typename>
-    struct __is_member_function_pointer_helper
-    : public false_type { };
-
-  template<typename _Tp, typename _Cp>
-    struct __is_member_function_pointer_helper<_Tp _Cp::*>
-    : public integral_constant<bool, is_function<_Tp>::value> { };
-
-
-  template<typename _Tp>
-    struct is_member_function_pointer
-    : public __is_member_function_pointer_helper<
-    typename remove_cv<_Tp>::type>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_enum
-    : public integral_constant<bool, __is_enum(_Tp)>
-    { };
-
-
-  template<typename _Tp>
-    struct is_union
-    : public integral_constant<bool, __is_union(_Tp)>
-    { };
-
-
-  template<typename _Tp>
-    struct is_class
-    : public integral_constant<bool, __is_class(_Tp)>
-    { };
-
-
-  template<typename>
-    struct is_function
-    : public false_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) volatile >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) volatile & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) volatile && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) volatile >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) volatile & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) volatile && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const volatile >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const volatile & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes...) const volatile && >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const volatile >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const volatile & >
-    : public true_type { };
-
-  template<typename _Res, typename... _ArgTypes >
-    struct is_function<_Res(_ArgTypes......) const volatile && >
-    : public true_type { };
-
-
-
-  template<typename>
-    struct __is_null_pointer_helper
-    : public false_type { };
-
-  template<>
-    struct __is_null_pointer_helper<std::nullptr_t>
-    : public true_type { };
-
-
-  template<typename _Tp>
-    struct is_null_pointer
-    : public __is_null_pointer_helper<typename remove_cv<_Tp>::type>::type
-    { };
-
-
-  template<typename _Tp>
-    struct __is_nullptr_t
-    : public is_null_pointer<_Tp>
-    { };
-
-
-
-
-  template<typename _Tp>
-    struct is_reference
-    : public __or_<is_lvalue_reference<_Tp>,
-                   is_rvalue_reference<_Tp>>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_arithmetic
-    : public __or_<is_integral<_Tp>, is_floating_point<_Tp>>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_fundamental
-    : public __or_<is_arithmetic<_Tp>, is_void<_Tp>,
-     is_null_pointer<_Tp>>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_object
-    : public __not_<__or_<is_function<_Tp>, is_reference<_Tp>,
-                          is_void<_Tp>>>::type
-    { };
-
-  template<typename>
-    struct is_member_pointer;
-
-
-  template<typename _Tp>
-    struct is_scalar
-    : public __or_<is_arithmetic<_Tp>, is_enum<_Tp>, is_pointer<_Tp>,
-                   is_member_pointer<_Tp>, is_null_pointer<_Tp>>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_compound
-    : public integral_constant<bool, !is_fundamental<_Tp>::value> { };
-
-  template<typename _Tp>
-    struct __is_member_pointer_helper
-    : public false_type { };
-
-  template<typename _Tp, typename _Cp>
-    struct __is_member_pointer_helper<_Tp _Cp::*>
-    : public true_type { };
-
-
-  template<typename _Tp>
-    struct is_member_pointer
-    : public __is_member_pointer_helper<typename remove_cv<_Tp>::type>::type
-    { };
-
-
-
-  template<typename _Tp>
-    struct __is_referenceable
-    : public __or_<is_object<_Tp>, is_reference<_Tp>>::type
-    { };
-
-  template<typename _Res, typename... _Args >
-    struct __is_referenceable<_Res(_Args...) >
-    : public true_type
-    { };
-
-  template<typename _Res, typename... _Args >
-    struct __is_referenceable<_Res(_Args......) >
-    : public true_type
-    { };
-
-
-
-
-  template<typename>
-    struct is_const
-    : public false_type { };
-
-  template<typename _Tp>
-    struct is_const<_Tp const>
-    : public true_type { };
-
-
-  template<typename>
-    struct is_volatile
-    : public false_type { };
-
-  template<typename _Tp>
-    struct is_volatile<_Tp volatile>
-    : public true_type { };
-
-
-  template<typename _Tp>
-    struct is_trivial
-    : public integral_constant<bool, __is_trivial(_Tp)>
-    { };
-
-
-  template<typename _Tp>
-    struct is_trivially_copyable
-    : public integral_constant<bool, __is_trivially_copyable(_Tp)>
-    { };
-
-
-  template<typename _Tp>
-    struct is_standard_layout
-    : public integral_constant<bool, __is_standard_layout(_Tp)>
-    { };
-
-
-
-  template<typename _Tp>
-    struct is_pod
-    : public integral_constant<bool, __is_pod(_Tp)>
-    { };
-
-
-  template<typename _Tp>
-    struct is_literal_type
-    : public integral_constant<bool, __is_literal_type(_Tp)>
-    { };
-
-
-  template<typename _Tp>
-    struct is_empty
-    : public integral_constant<bool, __is_empty(_Tp)>
-    { };
-
-
-  template<typename _Tp>
-    struct is_polymorphic
-    : public integral_constant<bool, __is_polymorphic(_Tp)>
-    { };
-
-
-
-
-  template<typename _Tp>
-    struct is_final
-    : public integral_constant<bool, __is_final(_Tp)>
-    { };
-
-
-
-  template<typename _Tp>
-    struct is_abstract
-    : public integral_constant<bool, __is_abstract(_Tp)>
-    { };
-
-  template<typename _Tp,
-    bool = is_arithmetic<_Tp>::value>
-    struct __is_signed_helper
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_signed_helper<_Tp, true>
-    : public integral_constant<bool, _Tp(-1) < _Tp(0)>
-    { };
-
-
-  template<typename _Tp>
-    struct is_signed
-    : public __is_signed_helper<_Tp>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_unsigned
-    : public __and_<is_arithmetic<_Tp>, __not_<is_signed<_Tp>>>
-    { };
-# 747 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<typename _Tp, typename _Up = _Tp&&>
-    _Up
-    __declval(int);
-
-  template<typename _Tp>
-    _Tp
-    __declval(long);
-
-  template<typename _Tp>
-    auto declval() noexcept -> decltype(__declval<_Tp>(0));
-
-  template<typename, unsigned = 0>
-    struct extent;
-
-  template<typename>
-    struct remove_all_extents;
-
-  template<typename _Tp>
-    struct __is_array_known_bounds
-    : public integral_constant<bool, (extent<_Tp>::value > 0)>
-    { };
-
-  template<typename _Tp>
-    struct __is_array_unknown_bounds
-    : public __and_<is_array<_Tp>, __not_<extent<_Tp>>>
-    { };
-
-
-
-
-
-
-  struct __do_is_destructible_impl
-  {
-    template<typename _Tp, typename = decltype(declval<_Tp&>().~_Tp())>
-      static true_type __test(int);
-
-    template<typename>
-      static false_type __test(...);
-  };
-
-  template<typename _Tp>
-    struct __is_destructible_impl
-    : public __do_is_destructible_impl
-    {
-      typedef decltype(__test<_Tp>(0)) type;
-    };
-
-  template<typename _Tp,
-           bool = __or_<is_void<_Tp>,
-                        __is_array_unknown_bounds<_Tp>,
-                        is_function<_Tp>>::value,
-           bool = __or_<is_reference<_Tp>, is_scalar<_Tp>>::value>
-    struct __is_destructible_safe;
-
-  template<typename _Tp>
-    struct __is_destructible_safe<_Tp, false, false>
-    : public __is_destructible_impl<typename
-               remove_all_extents<_Tp>::type>::type
-    { };
-
-  template<typename _Tp>
-    struct __is_destructible_safe<_Tp, true, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_destructible_safe<_Tp, false, true>
-    : public true_type { };
-
-
-  template<typename _Tp>
-    struct is_destructible
-    : public __is_destructible_safe<_Tp>::type
-    { };
-
-
-
-
-
-  struct __do_is_nt_destructible_impl
-  {
-    template<typename _Tp>
-      static integral_constant<bool, noexcept(declval<_Tp&>().~_Tp())>
-        __test(int);
-
-    template<typename>
-      static false_type __test(...);
-  };
-
-  template<typename _Tp>
-    struct __is_nt_destructible_impl
-    : public __do_is_nt_destructible_impl
-    {
-      typedef decltype(__test<_Tp>(0)) type;
-    };
-
-  template<typename _Tp,
-           bool = __or_<is_void<_Tp>,
-                        __is_array_unknown_bounds<_Tp>,
-                        is_function<_Tp>>::value,
-           bool = __or_<is_reference<_Tp>, is_scalar<_Tp>>::value>
-    struct __is_nt_destructible_safe;
-
-  template<typename _Tp>
-    struct __is_nt_destructible_safe<_Tp, false, false>
-    : public __is_nt_destructible_impl<typename
-               remove_all_extents<_Tp>::type>::type
-    { };
-
-  template<typename _Tp>
-    struct __is_nt_destructible_safe<_Tp, true, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_nt_destructible_safe<_Tp, false, true>
-    : public true_type { };
-
-
-  template<typename _Tp>
-    struct is_nothrow_destructible
-    : public __is_nt_destructible_safe<_Tp>::type
-    { };
-
-  struct __do_is_default_constructible_impl
-  {
-    template<typename _Tp, typename = decltype(_Tp())>
-      static true_type __test(int);
-
-    template<typename>
-      static false_type __test(...);
-  };
-
-  template<typename _Tp>
-    struct __is_default_constructible_impl
-    : public __do_is_default_constructible_impl
-    {
-      typedef decltype(__test<_Tp>(0)) type;
-    };
-
-  template<typename _Tp>
-    struct __is_default_constructible_atom
-    : public __and_<__not_<is_void<_Tp>>,
-                    __is_default_constructible_impl<_Tp>>
-    { };
-
-  template<typename _Tp, bool = is_array<_Tp>::value>
-    struct __is_default_constructible_safe;
-
-
-
-
-
-
-  template<typename _Tp>
-    struct __is_default_constructible_safe<_Tp, true>
-    : public __and_<__is_array_known_bounds<_Tp>,
-      __is_default_constructible_atom<typename
-                      remove_all_extents<_Tp>::type>>
-    { };
-
-  template<typename _Tp>
-    struct __is_default_constructible_safe<_Tp, false>
-    : public __is_default_constructible_atom<_Tp>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_default_constructible
-    : public __is_default_constructible_safe<_Tp>::type
-    { };
-
-
-  template<typename _Tp, typename... _Args>
-    struct is_constructible
-      : public __bool_constant<__is_constructible(_Tp, _Args...)>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_copy_constructible_impl;
-
-  template<typename _Tp>
-    struct __is_copy_constructible_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_copy_constructible_impl<_Tp, true>
-    : public is_constructible<_Tp, const _Tp&>
-    { };
-
-
-  template<typename _Tp>
-    struct is_copy_constructible
-    : public __is_copy_constructible_impl<_Tp>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_move_constructible_impl;
-
-  template<typename _Tp>
-    struct __is_move_constructible_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_move_constructible_impl<_Tp, true>
-    : public is_constructible<_Tp, _Tp&&>
-    { };
-
-
-  template<typename _Tp>
-    struct is_move_constructible
-    : public __is_move_constructible_impl<_Tp>
-    { };
-
-  template<typename _Tp>
-    struct __is_nt_default_constructible_atom
-    : public integral_constant<bool, noexcept(_Tp())>
-    { };
-
-  template<typename _Tp, bool = is_array<_Tp>::value>
-    struct __is_nt_default_constructible_impl;
-
-  template<typename _Tp>
-    struct __is_nt_default_constructible_impl<_Tp, true>
-    : public __and_<__is_array_known_bounds<_Tp>,
-      __is_nt_default_constructible_atom<typename
-                      remove_all_extents<_Tp>::type>>
-    { };
-
-  template<typename _Tp>
-    struct __is_nt_default_constructible_impl<_Tp, false>
-    : public __is_nt_default_constructible_atom<_Tp>
-    { };
-
-
-  template<typename _Tp>
-    struct is_nothrow_default_constructible
-    : public __and_<is_default_constructible<_Tp>,
-                    __is_nt_default_constructible_impl<_Tp>>
-    { };
-
-  template<typename _Tp, typename... _Args>
-    struct __is_nt_constructible_impl
-    : public integral_constant<bool, noexcept(_Tp(declval<_Args>()...))>
-    { };
-
-  template<typename _Tp, typename _Arg>
-    struct __is_nt_constructible_impl<_Tp, _Arg>
-    : public integral_constant<bool,
-                               noexcept(static_cast<_Tp>(declval<_Arg>()))>
-    { };
-
-  template<typename _Tp>
-    struct __is_nt_constructible_impl<_Tp>
-    : public is_nothrow_default_constructible<_Tp>
-    { };
-
-
-  template<typename _Tp, typename... _Args>
-    struct is_nothrow_constructible
-    : public __and_<is_constructible<_Tp, _Args...>,
-      __is_nt_constructible_impl<_Tp, _Args...>>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_nothrow_copy_constructible_impl;
-
-  template<typename _Tp>
-    struct __is_nothrow_copy_constructible_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_nothrow_copy_constructible_impl<_Tp, true>
-    : public is_nothrow_constructible<_Tp, const _Tp&>
-    { };
-
-
-  template<typename _Tp>
-    struct is_nothrow_copy_constructible
-    : public __is_nothrow_copy_constructible_impl<_Tp>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_nothrow_move_constructible_impl;
-
-  template<typename _Tp>
-    struct __is_nothrow_move_constructible_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_nothrow_move_constructible_impl<_Tp, true>
-    : public is_nothrow_constructible<_Tp, _Tp&&>
-    { };
-
-
-  template<typename _Tp>
-    struct is_nothrow_move_constructible
-    : public __is_nothrow_move_constructible_impl<_Tp>
-    { };
-
-
-  template<typename _Tp, typename _Up>
-    struct is_assignable
-      : public __bool_constant<__is_assignable(_Tp, _Up)>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_copy_assignable_impl;
-
-  template<typename _Tp>
-    struct __is_copy_assignable_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_copy_assignable_impl<_Tp, true>
-    : public is_assignable<_Tp&, const _Tp&>
-    { };
-
-
-  template<typename _Tp>
-    struct is_copy_assignable
-    : public __is_copy_assignable_impl<_Tp>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_move_assignable_impl;
-
-  template<typename _Tp>
-    struct __is_move_assignable_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_move_assignable_impl<_Tp, true>
-    : public is_assignable<_Tp&, _Tp&&>
-    { };
-
-
-  template<typename _Tp>
-    struct is_move_assignable
-    : public __is_move_assignable_impl<_Tp>
-    { };
-
-  template<typename _Tp, typename _Up>
-    struct __is_nt_assignable_impl
-    : public integral_constant<bool, noexcept(declval<_Tp>() = declval<_Up>())>
-    { };
-
-
-  template<typename _Tp, typename _Up>
-    struct is_nothrow_assignable
-    : public __and_<is_assignable<_Tp, _Up>,
-      __is_nt_assignable_impl<_Tp, _Up>>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_nt_copy_assignable_impl;
-
-  template<typename _Tp>
-    struct __is_nt_copy_assignable_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_nt_copy_assignable_impl<_Tp, true>
-    : public is_nothrow_assignable<_Tp&, const _Tp&>
-    { };
-
-
-  template<typename _Tp>
-    struct is_nothrow_copy_assignable
-    : public __is_nt_copy_assignable_impl<_Tp>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_nt_move_assignable_impl;
-
-  template<typename _Tp>
-    struct __is_nt_move_assignable_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_nt_move_assignable_impl<_Tp, true>
-    : public is_nothrow_assignable<_Tp&, _Tp&&>
-    { };
-
-
-  template<typename _Tp>
-    struct is_nothrow_move_assignable
-    : public __is_nt_move_assignable_impl<_Tp>
-    { };
-
-
-  template<typename _Tp, typename... _Args>
-    struct is_trivially_constructible
-    : public __and_<is_constructible<_Tp, _Args...>, __bool_constant<
-        __is_trivially_constructible(_Tp, _Args...)>>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_trivially_default_constructible
-    : public is_trivially_constructible<_Tp>::type
-    { };
-
-  struct __do_is_implicitly_default_constructible_impl
-  {
-    template <typename _Tp>
-    static void __helper(const _Tp&);
-
-    template <typename _Tp>
-    static true_type __test(const _Tp&,
-                            decltype(__helper<const _Tp&>({}))* = 0);
-
-    static false_type __test(...);
-  };
-
-  template<typename _Tp>
-    struct __is_implicitly_default_constructible_impl
-    : public __do_is_implicitly_default_constructible_impl
-    {
-      typedef decltype(__test(declval<_Tp>())) type;
-    };
-
-  template<typename _Tp>
-    struct __is_implicitly_default_constructible_safe
-    : public __is_implicitly_default_constructible_impl<_Tp>::type
-    { };
-
-  template <typename _Tp>
-    struct __is_implicitly_default_constructible
-    : public __and_<is_default_constructible<_Tp>,
-      __is_implicitly_default_constructible_safe<_Tp>>
-    { };
-
-
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_trivially_copy_constructible_impl;
-
-  template<typename _Tp>
-    struct __is_trivially_copy_constructible_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_trivially_copy_constructible_impl<_Tp, true>
-    : public __and_<is_copy_constructible<_Tp>,
-      integral_constant<bool,
-   __is_trivially_constructible(_Tp, const _Tp&)>>
-    { };
-
-  template<typename _Tp>
-    struct is_trivially_copy_constructible
-    : public __is_trivially_copy_constructible_impl<_Tp>
-    { };
-
-
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_trivially_move_constructible_impl;
-
-  template<typename _Tp>
-    struct __is_trivially_move_constructible_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_trivially_move_constructible_impl<_Tp, true>
-    : public __and_<is_move_constructible<_Tp>,
-      integral_constant<bool,
-   __is_trivially_constructible(_Tp, _Tp&&)>>
-    { };
-
-  template<typename _Tp>
-    struct is_trivially_move_constructible
-    : public __is_trivially_move_constructible_impl<_Tp>
-    { };
-
-
-  template<typename _Tp, typename _Up>
-    struct is_trivially_assignable
-    : public __bool_constant<__is_trivially_assignable(_Tp, _Up)>
-    { };
-
-
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_trivially_copy_assignable_impl;
-
-  template<typename _Tp>
-    struct __is_trivially_copy_assignable_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_trivially_copy_assignable_impl<_Tp, true>
-    : public __and_<is_copy_assignable<_Tp>,
-      integral_constant<bool,
-   __is_trivially_assignable(_Tp&, const _Tp&)>>
-    { };
-
-  template<typename _Tp>
-    struct is_trivially_copy_assignable
-    : public __is_trivially_copy_assignable_impl<_Tp>
-    { };
-
-
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __is_trivially_move_assignable_impl;
-
-  template<typename _Tp>
-    struct __is_trivially_move_assignable_impl<_Tp, false>
-    : public false_type { };
-
-  template<typename _Tp>
-    struct __is_trivially_move_assignable_impl<_Tp, true>
-    : public __and_<is_move_assignable<_Tp>,
-      integral_constant<bool,
-   __is_trivially_assignable(_Tp&, _Tp&&)>>
-    { };
-
-  template<typename _Tp>
-    struct is_trivially_move_assignable
-    : public __is_trivially_move_assignable_impl<_Tp>
-    { };
-
-
-  template<typename _Tp>
-    struct is_trivially_destructible
-    : public __and_<is_destructible<_Tp>, integral_constant<bool,
-         __has_trivial_destructor(_Tp)>>
-    { };
-
-
-
-  template<typename _Tp>
-    struct has_virtual_destructor
-    : public integral_constant<bool, __has_virtual_destructor(_Tp)>
-    { };
-
-
-
-
-
-  template<typename _Tp>
-    struct alignment_of
-    : public integral_constant<std::size_t, alignof(_Tp)> { };
-
-
-  template<typename>
-    struct rank
-    : public integral_constant<std::size_t, 0> { };
-
-  template<typename _Tp, std::size_t _Size>
-    struct rank<_Tp[_Size]>
-    : public integral_constant<std::size_t, 1 + rank<_Tp>::value> { };
-
-  template<typename _Tp>
-    struct rank<_Tp[]>
-    : public integral_constant<std::size_t, 1 + rank<_Tp>::value> { };
-
-
-  template<typename, unsigned _Uint>
-    struct extent
-    : public integral_constant<std::size_t, 0> { };
-
-  template<typename _Tp, unsigned _Uint, std::size_t _Size>
-    struct extent<_Tp[_Size], _Uint>
-    : public integral_constant<std::size_t,
-          _Uint == 0 ? _Size : extent<_Tp,
-          _Uint - 1>::value>
-    { };
-
-  template<typename _Tp, unsigned _Uint>
-    struct extent<_Tp[], _Uint>
-    : public integral_constant<std::size_t,
-          _Uint == 0 ? 0 : extent<_Tp,
-             _Uint - 1>::value>
-    { };
-
-
-
-
-
-  template<typename, typename>
-    struct is_same
-    : public false_type { };
-
-  template<typename _Tp>
-    struct is_same<_Tp, _Tp>
-    : public true_type { };
-
-
-  template<typename _Base, typename _Derived>
-    struct is_base_of
-    : public integral_constant<bool, __is_base_of(_Base, _Derived)>
-    { };
-
-  template<typename _From, typename _To,
-           bool = __or_<is_void<_From>, is_function<_To>,
-                        is_array<_To>>::value>
-    struct __is_convertible_helper
-    { typedef typename is_void<_To>::type type; };
-
-  template<typename _From, typename _To>
-    class __is_convertible_helper<_From, _To, false>
-    {
-       template<typename _To1>
- static void __test_aux(_To1);
-
-      template<typename _From1, typename _To1,
-        typename = decltype(__test_aux<_To1>(std::declval<_From1>()))>
- static true_type
- __test(int);
-
-      template<typename, typename>
- static false_type
- __test(...);
-
-    public:
-      typedef decltype(__test<_From, _To>(0)) type;
-    };
-
-
-
-  template<typename _From, typename _To>
-    struct is_convertible
-    : public __is_convertible_helper<_From, _To>::type
-    { };
-
-
-
-
-
-  template<typename _Tp>
-    struct remove_const
-    { typedef _Tp type; };
-
-  template<typename _Tp>
-    struct remove_const<_Tp const>
-    { typedef _Tp type; };
-
-
-  template<typename _Tp>
-    struct remove_volatile
-    { typedef _Tp type; };
-
-  template<typename _Tp>
-    struct remove_volatile<_Tp volatile>
-    { typedef _Tp type; };
-
-
-  template<typename _Tp>
-    struct remove_cv
-    {
-      typedef typename
-      remove_const<typename remove_volatile<_Tp>::type>::type type;
-    };
-
-
-  template<typename _Tp>
-    struct add_const
-    { typedef _Tp const type; };
-
-
-  template<typename _Tp>
-    struct add_volatile
-    { typedef _Tp volatile type; };
-
-
-  template<typename _Tp>
-    struct add_cv
-    {
-      typedef typename
-      add_const<typename add_volatile<_Tp>::type>::type type;
-    };
-
-
-
-
-
-
-  template<typename _Tp>
-    using remove_const_t = typename remove_const<_Tp>::type;
-
-
-  template<typename _Tp>
-    using remove_volatile_t = typename remove_volatile<_Tp>::type;
-
-
-  template<typename _Tp>
-    using remove_cv_t = typename remove_cv<_Tp>::type;
-
-
-  template<typename _Tp>
-    using add_const_t = typename add_const<_Tp>::type;
-
-
-  template<typename _Tp>
-    using add_volatile_t = typename add_volatile<_Tp>::type;
-
-
-  template<typename _Tp>
-    using add_cv_t = typename add_cv<_Tp>::type;
-
-
-
-
-
-  template<typename _Tp>
-    struct remove_reference
-    { typedef _Tp type; };
-
-  template<typename _Tp>
-    struct remove_reference<_Tp&>
-    { typedef _Tp type; };
-
-  template<typename _Tp>
-    struct remove_reference<_Tp&&>
-    { typedef _Tp type; };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __add_lvalue_reference_helper
-    { typedef _Tp type; };
-
-  template<typename _Tp>
-    struct __add_lvalue_reference_helper<_Tp, true>
-    { typedef _Tp& type; };
-
-
-  template<typename _Tp>
-    struct add_lvalue_reference
-    : public __add_lvalue_reference_helper<_Tp>
-    { };
-
-  template<typename _Tp, bool = __is_referenceable<_Tp>::value>
-    struct __add_rvalue_reference_helper
-    { typedef _Tp type; };
-
-  template<typename _Tp>
-    struct __add_rvalue_reference_helper<_Tp, true>
-    { typedef _Tp&& type; };
-
-
-  template<typename _Tp>
-    struct add_rvalue_reference
-    : public __add_rvalue_reference_helper<_Tp>
-    { };
-
-
-
-  template<typename _Tp>
-    using remove_reference_t = typename remove_reference<_Tp>::type;
-
-
-  template<typename _Tp>
-    using add_lvalue_reference_t = typename add_lvalue_reference<_Tp>::type;
-
-
-  template<typename _Tp>
-    using add_rvalue_reference_t = typename add_rvalue_reference<_Tp>::type;
-
-
-
-
-
-  template<typename _Unqualified, bool _IsConst, bool _IsVol>
-    struct __cv_selector;
-
-  template<typename _Unqualified>
-    struct __cv_selector<_Unqualified, false, false>
-    { typedef _Unqualified __type; };
-
-  template<typename _Unqualified>
-    struct __cv_selector<_Unqualified, false, true>
-    { typedef volatile _Unqualified __type; };
-
-  template<typename _Unqualified>
-    struct __cv_selector<_Unqualified, true, false>
-    { typedef const _Unqualified __type; };
-
-  template<typename _Unqualified>
-    struct __cv_selector<_Unqualified, true, true>
-    { typedef const volatile _Unqualified __type; };
-
-  template<typename _Qualified, typename _Unqualified,
-    bool _IsConst = is_const<_Qualified>::value,
-    bool _IsVol = is_volatile<_Qualified>::value>
-    class __match_cv_qualifiers
-    {
-      typedef __cv_selector<_Unqualified, _IsConst, _IsVol> __match;
-
-    public:
-      typedef typename __match::__type __type;
-    };
-
-
-  template<typename _Tp>
-    struct __make_unsigned
-    { typedef _Tp __type; };
-
-  template<>
-    struct __make_unsigned<char>
-    { typedef unsigned char __type; };
-
-  template<>
-    struct __make_unsigned<signed char>
-    { typedef unsigned char __type; };
-
-  template<>
-    struct __make_unsigned<short>
-    { typedef unsigned short __type; };
-
-  template<>
-    struct __make_unsigned<int>
-    { typedef unsigned int __type; };
-
-  template<>
-    struct __make_unsigned<long>
-    { typedef unsigned long __type; };
-
-  template<>
-    struct __make_unsigned<long long>
-    { typedef unsigned long long __type; };
-
-
-  template<>
-    struct __make_unsigned<__int128>
-    { typedef unsigned __int128 __type; };
-# 1590 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<typename _Tp,
-    bool _IsInt = is_integral<_Tp>::value,
-    bool _IsEnum = is_enum<_Tp>::value>
-    class __make_unsigned_selector;
-
-  template<typename _Tp>
-    class __make_unsigned_selector<_Tp, true, false>
-    {
-      typedef __make_unsigned<typename remove_cv<_Tp>::type> __unsignedt;
-      typedef typename __unsignedt::__type __unsigned_type;
-      typedef __match_cv_qualifiers<_Tp, __unsigned_type> __cv_unsigned;
-
-    public:
-      typedef typename __cv_unsigned::__type __type;
-    };
-
-  template<typename _Tp>
-    class __make_unsigned_selector<_Tp, false, true>
-    {
-
-      typedef unsigned char __smallest;
-      static const bool __b0 = sizeof(_Tp) <= sizeof(__smallest);
-      static const bool __b1 = sizeof(_Tp) <= sizeof(unsigned short);
-      static const bool __b2 = sizeof(_Tp) <= sizeof(unsigned int);
-      static const bool __b3 = sizeof(_Tp) <= sizeof(unsigned long);
-      typedef conditional<__b3, unsigned long, unsigned long long> __cond3;
-      typedef typename __cond3::type __cond3_type;
-      typedef conditional<__b2, unsigned int, __cond3_type> __cond2;
-      typedef typename __cond2::type __cond2_type;
-      typedef conditional<__b1, unsigned short, __cond2_type> __cond1;
-      typedef typename __cond1::type __cond1_type;
-
-      typedef typename conditional<__b0, __smallest, __cond1_type>::type
- __unsigned_type;
-      typedef __match_cv_qualifiers<_Tp, __unsigned_type> __cv_unsigned;
-
-    public:
-      typedef typename __cv_unsigned::__type __type;
-    };
-
-
-
-
-
-  template<typename _Tp>
-    struct make_unsigned
-    { typedef typename __make_unsigned_selector<_Tp>::__type type; };
-
-
-  template<>
-    struct make_unsigned<bool>;
-
-
-
-  template<typename _Tp>
-    struct __make_signed
-    { typedef _Tp __type; };
-
-  template<>
-    struct __make_signed<char>
-    { typedef signed char __type; };
-
-  template<>
-    struct __make_signed<unsigned char>
-    { typedef signed char __type; };
-
-  template<>
-    struct __make_signed<unsigned short>
-    { typedef signed short __type; };
-
-  template<>
-    struct __make_signed<unsigned int>
-    { typedef signed int __type; };
-
-  template<>
-    struct __make_signed<unsigned long>
-    { typedef signed long __type; };
-
-  template<>
-    struct __make_signed<unsigned long long>
-    { typedef signed long long __type; };
-
-
-  template<>
-    struct __make_signed<unsigned __int128>
-    { typedef __int128 __type; };
-# 1694 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<typename _Tp,
-    bool _IsInt = is_integral<_Tp>::value,
-    bool _IsEnum = is_enum<_Tp>::value>
-    class __make_signed_selector;
-
-  template<typename _Tp>
-    class __make_signed_selector<_Tp, true, false>
-    {
-      typedef __make_signed<typename remove_cv<_Tp>::type> __signedt;
-      typedef typename __signedt::__type __signed_type;
-      typedef __match_cv_qualifiers<_Tp, __signed_type> __cv_signed;
-
-    public:
-      typedef typename __cv_signed::__type __type;
-    };
-
-  template<typename _Tp>
-    class __make_signed_selector<_Tp, false, true>
-    {
-      typedef typename __make_unsigned_selector<_Tp>::__type __unsigned_type;
-
-    public:
-      typedef typename __make_signed_selector<__unsigned_type>::__type __type;
-    };
-
-
-
-
-
-  template<typename _Tp>
-    struct make_signed
-    { typedef typename __make_signed_selector<_Tp>::__type type; };
-
-
-  template<>
-    struct make_signed<bool>;
-
-
-
-  template<typename _Tp>
-    using make_signed_t = typename make_signed<_Tp>::type;
-
-
-  template<typename _Tp>
-    using make_unsigned_t = typename make_unsigned<_Tp>::type;
-
-
-
-
-
-  template<typename _Tp>
-    struct remove_extent
-    { typedef _Tp type; };
-
-  template<typename _Tp, std::size_t _Size>
-    struct remove_extent<_Tp[_Size]>
-    { typedef _Tp type; };
-
-  template<typename _Tp>
-    struct remove_extent<_Tp[]>
-    { typedef _Tp type; };
-
-
-  template<typename _Tp>
-    struct remove_all_extents
-    { typedef _Tp type; };
-
-  template<typename _Tp, std::size_t _Size>
-    struct remove_all_extents<_Tp[_Size]>
-    { typedef typename remove_all_extents<_Tp>::type type; };
-
-  template<typename _Tp>
-    struct remove_all_extents<_Tp[]>
-    { typedef typename remove_all_extents<_Tp>::type type; };
-
-
-
-  template<typename _Tp>
-    using remove_extent_t = typename remove_extent<_Tp>::type;
-
-
-  template<typename _Tp>
-    using remove_all_extents_t = typename remove_all_extents<_Tp>::type;
-
-
-
-
-  template<typename _Tp, typename>
-    struct __remove_pointer_helper
-    { typedef _Tp type; };
-
-  template<typename _Tp, typename _Up>
-    struct __remove_pointer_helper<_Tp, _Up*>
-    { typedef _Up type; };
-
-
-  template<typename _Tp>
-    struct remove_pointer
-    : public __remove_pointer_helper<_Tp, typename remove_cv<_Tp>::type>
-    { };
-
-
-  template<typename _Tp, bool = __or_<__is_referenceable<_Tp>,
-          is_void<_Tp>>::value>
-    struct __add_pointer_helper
-    { typedef _Tp type; };
-
-  template<typename _Tp>
-    struct __add_pointer_helper<_Tp, true>
-    { typedef typename remove_reference<_Tp>::type* type; };
-
-  template<typename _Tp>
-    struct add_pointer
-    : public __add_pointer_helper<_Tp>
-    { };
-
-
-
-  template<typename _Tp>
-    using remove_pointer_t = typename remove_pointer<_Tp>::type;
-
-
-  template<typename _Tp>
-    using add_pointer_t = typename add_pointer<_Tp>::type;
-
-
-  template<std::size_t _Len>
-    struct __aligned_storage_msa
-    {
-      union __type
-      {
- unsigned char __data[_Len];
- struct __attribute__((__aligned__)) { } __align;
-      };
-    };
-# 1840 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<std::size_t _Len, std::size_t _Align =
-    __alignof__(typename __aligned_storage_msa<_Len>::__type)>
-    struct aligned_storage
-    {
-      union type
-      {
- unsigned char __data[_Len];
- struct __attribute__((__aligned__((_Align)))) { } __align;
-      };
-    };
-
-  template <typename... _Types>
-    struct __strictest_alignment
-    {
-      static const size_t _S_alignment = 0;
-      static const size_t _S_size = 0;
-    };
-
-  template <typename _Tp, typename... _Types>
-    struct __strictest_alignment<_Tp, _Types...>
-    {
-      static const size_t _S_alignment =
-        alignof(_Tp) > __strictest_alignment<_Types...>::_S_alignment
- ? alignof(_Tp) : __strictest_alignment<_Types...>::_S_alignment;
-      static const size_t _S_size =
-        sizeof(_Tp) > __strictest_alignment<_Types...>::_S_size
- ? sizeof(_Tp) : __strictest_alignment<_Types...>::_S_size;
-    };
-# 1879 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template <size_t _Len, typename... _Types>
-    struct aligned_union
-    {
-    private:
-      static_assert(sizeof...(_Types) != 0, "At least one type is required");
-
-      using __strictest = __strictest_alignment<_Types...>;
-      static const size_t _S_len = _Len > __strictest::_S_size
- ? _Len : __strictest::_S_size;
-    public:
-
-      static const size_t alignment_value = __strictest::_S_alignment;
-
-      typedef typename aligned_storage<_S_len, alignment_value>::type type;
-    };
-
-  template <size_t _Len, typename... _Types>
-    const size_t aligned_union<_Len, _Types...>::alignment_value;
-
-
-
-  template<typename _Up,
-    bool _IsArray = is_array<_Up>::value,
-    bool _IsFunction = is_function<_Up>::value>
-    struct __decay_selector;
-
-
-  template<typename _Up>
-    struct __decay_selector<_Up, false, false>
-    { typedef typename remove_cv<_Up>::type __type; };
-
-  template<typename _Up>
-    struct __decay_selector<_Up, true, false>
-    { typedef typename remove_extent<_Up>::type* __type; };
-
-  template<typename _Up>
-    struct __decay_selector<_Up, false, true>
-    { typedef typename add_pointer<_Up>::type __type; };
-
-
-  template<typename _Tp>
-    class decay
-    {
-      typedef typename remove_reference<_Tp>::type __remove_type;
-
-    public:
-      typedef typename __decay_selector<__remove_type>::__type type;
-    };
-
-  template<typename _Tp>
-    class reference_wrapper;
-
-
-  template<typename _Tp>
-    struct __strip_reference_wrapper
-    {
-      typedef _Tp __type;
-    };
-
-  template<typename _Tp>
-    struct __strip_reference_wrapper<reference_wrapper<_Tp> >
-    {
-      typedef _Tp& __type;
-    };
-
-  template<typename _Tp>
-    struct __decay_and_strip
-    {
-      typedef typename __strip_reference_wrapper<
- typename decay<_Tp>::type>::__type __type;
-    };
-
-
-
-
-  template<bool, typename _Tp = void>
-    struct enable_if
-    { };
-
-
-  template<typename _Tp>
-    struct enable_if<true, _Tp>
-    { typedef _Tp type; };
-
-  template<typename... _Cond>
-    using _Require = typename enable_if<__and_<_Cond...>::value>::type;
-
-
-
-  template<bool _Cond, typename _Iftrue, typename _Iffalse>
-    struct conditional
-    { typedef _Iftrue type; };
-
-
-  template<typename _Iftrue, typename _Iffalse>
-    struct conditional<false, _Iftrue, _Iffalse>
-    { typedef _Iffalse type; };
-
-
-  template<typename... _Tp>
-    struct common_type;
-
-
-
-  struct __do_common_type_impl
-  {
-    template<typename _Tp, typename _Up>
-      static __success_type<typename decay<decltype
-       (true ? std::declval<_Tp>()
-        : std::declval<_Up>())>::type> _S_test(int);
-
-    template<typename, typename>
-      static __failure_type _S_test(...);
-  };
-
-  template<typename _Tp, typename _Up>
-    struct __common_type_impl
-    : private __do_common_type_impl
-    {
-      typedef decltype(_S_test<_Tp, _Up>(0)) type;
-    };
-
-  struct __do_member_type_wrapper
-  {
-    template<typename _Tp>
-      static __success_type<typename _Tp::type> _S_test(int);
-
-    template<typename>
-      static __failure_type _S_test(...);
-  };
-
-  template<typename _Tp>
-    struct __member_type_wrapper
-    : private __do_member_type_wrapper
-    {
-      typedef decltype(_S_test<_Tp>(0)) type;
-    };
-
-  template<typename _CTp, typename... _Args>
-    struct __expanded_common_type_wrapper
-    {
-      typedef common_type<typename _CTp::type, _Args...> type;
-    };
-
-  template<typename... _Args>
-    struct __expanded_common_type_wrapper<__failure_type, _Args...>
-    { typedef __failure_type type; };
-
-  template<typename _Tp>
-    struct common_type<_Tp>
-    { typedef typename decay<_Tp>::type type; };
-
-  template<typename _Tp, typename _Up>
-    struct common_type<_Tp, _Up>
-    : public __common_type_impl<_Tp, _Up>::type
-    { };
-
-  template<typename _Tp, typename _Up, typename... _Vp>
-    struct common_type<_Tp, _Up, _Vp...>
-    : public __expanded_common_type_wrapper<typename __member_type_wrapper<
-               common_type<_Tp, _Up>>::type, _Vp...>::type
-    { };
-
-
-  template<typename _Tp>
-    struct underlying_type
-    {
-      typedef __underlying_type(_Tp) type;
-    };
-
-  template<typename _Tp>
-    struct __declval_protector
-    {
-      static const bool __stop = false;
-    };
-
-  template<typename _Tp>
-    auto declval() noexcept -> decltype(__declval<_Tp>(0))
-    {
-      static_assert(__declval_protector<_Tp>::__stop,
-      "declval() must not be used!");
-      return __declval<_Tp>(0);
-    }
-# 2072 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template<>
-    struct __make_unsigned<wchar_t>
-    {
-      using __type
- = typename __make_unsigned_selector<wchar_t, false, true>::__type;
-    };
-
-  template<>
-    struct __make_signed<wchar_t>
-    {
-      using __type
- = typename __make_signed_selector<wchar_t, false, true>::__type;
-    };
-
-
-  template<>
-    struct __make_unsigned<char16_t>
-    {
-      using __type
- = typename __make_unsigned_selector<char16_t, false, true>::__type;
-    };
-
-  template<>
-    struct __make_signed<char16_t>
-    {
-      using __type
- = typename __make_signed_selector<char16_t, false, true>::__type;
-    };
-
-  template<>
-    struct __make_unsigned<char32_t>
-    {
-      using __type
- = typename __make_unsigned_selector<char32_t, false, true>::__type;
-    };
-
-  template<>
-    struct __make_signed<char32_t>
-    {
-      using __type
- = typename __make_signed_selector<char32_t, false, true>::__type;
-    };
-
-
-
-  template<typename _Signature>
-    class result_of;
-
-
-
-
-
-  struct __invoke_memfun_ref { };
-  struct __invoke_memfun_deref { };
-  struct __invoke_memobj_ref { };
-  struct __invoke_memobj_deref { };
-  struct __invoke_other { };
-
-
-  template<typename _Tp, typename _Tag>
-    struct __result_of_success : __success_type<_Tp>
-    { using __invoke_type = _Tag; };
-
-
-  struct __result_of_memfun_ref_impl
-  {
-    template<typename _Fp, typename _Tp1, typename... _Args>
-      static __result_of_success<decltype(
-      (std::declval<_Tp1>().*std::declval<_Fp>())(std::declval<_Args>()...)
-      ), __invoke_memfun_ref> _S_test(int);
-
-    template<typename...>
-      static __failure_type _S_test(...);
-  };
-
-  template<typename _MemPtr, typename _Arg, typename... _Args>
-    struct __result_of_memfun_ref
-    : private __result_of_memfun_ref_impl
-    {
-      typedef decltype(_S_test<_MemPtr, _Arg, _Args...>(0)) type;
-    };
-
-
-  struct __result_of_memfun_deref_impl
-  {
-    template<typename _Fp, typename _Tp1, typename... _Args>
-      static __result_of_success<decltype(
-      ((*std::declval<_Tp1>()).*std::declval<_Fp>())(std::declval<_Args>()...)
-      ), __invoke_memfun_deref> _S_test(int);
-
-    template<typename...>
-      static __failure_type _S_test(...);
-  };
-
-  template<typename _MemPtr, typename _Arg, typename... _Args>
-    struct __result_of_memfun_deref
-    : private __result_of_memfun_deref_impl
-    {
-      typedef decltype(_S_test<_MemPtr, _Arg, _Args...>(0)) type;
-    };
-
-
-  struct __result_of_memobj_ref_impl
-  {
-    template<typename _Fp, typename _Tp1>
-      static __result_of_success<decltype(
-      std::declval<_Tp1>().*std::declval<_Fp>()
-      ), __invoke_memobj_ref> _S_test(int);
-
-    template<typename, typename>
-      static __failure_type _S_test(...);
-  };
-
-  template<typename _MemPtr, typename _Arg>
-    struct __result_of_memobj_ref
-    : private __result_of_memobj_ref_impl
-    {
-      typedef decltype(_S_test<_MemPtr, _Arg>(0)) type;
-    };
-
-
-  struct __result_of_memobj_deref_impl
-  {
-    template<typename _Fp, typename _Tp1>
-      static __result_of_success<decltype(
-      (*std::declval<_Tp1>()).*std::declval<_Fp>()
-      ), __invoke_memobj_deref> _S_test(int);
-
-    template<typename, typename>
-      static __failure_type _S_test(...);
-  };
-
-  template<typename _MemPtr, typename _Arg>
-    struct __result_of_memobj_deref
-    : private __result_of_memobj_deref_impl
-    {
-      typedef decltype(_S_test<_MemPtr, _Arg>(0)) type;
-    };
-
-  template<typename _MemPtr, typename _Arg>
-    struct __result_of_memobj;
-
-  template<typename _Res, typename _Class, typename _Arg>
-    struct __result_of_memobj<_Res _Class::*, _Arg>
-    {
-      typedef typename remove_cv<typename remove_reference<
-        _Arg>::type>::type _Argval;
-      typedef _Res _Class::* _MemPtr;
-      typedef typename conditional<__or_<is_same<_Argval, _Class>,
-        is_base_of<_Class, _Argval>>::value,
-        __result_of_memobj_ref<_MemPtr, _Arg>,
-        __result_of_memobj_deref<_MemPtr, _Arg>
-      >::type::type type;
-    };
-
-  template<typename _MemPtr, typename _Arg, typename... _Args>
-    struct __result_of_memfun;
-
-  template<typename _Res, typename _Class, typename _Arg, typename... _Args>
-    struct __result_of_memfun<_Res _Class::*, _Arg, _Args...>
-    {
-      typedef typename remove_cv<typename remove_reference<
-        _Arg>::type>::type _Argval;
-      typedef _Res _Class::* _MemPtr;
-      typedef typename conditional<__or_<is_same<_Argval, _Class>,
-        is_base_of<_Class, _Argval>>::value,
-        __result_of_memfun_ref<_MemPtr, _Arg, _Args...>,
-        __result_of_memfun_deref<_MemPtr, _Arg, _Args...>
-      >::type::type type;
-    };
-
-
-
-
-
-
-  template<typename _Tp, typename _Up = typename decay<_Tp>::type>
-    struct __inv_unwrap
-    {
-      using type = _Tp;
-    };
-
-  template<typename _Tp, typename _Up>
-    struct __inv_unwrap<_Tp, reference_wrapper<_Up>>
-    {
-      using type = _Up&;
-    };
-
-  template<bool, bool, typename _Functor, typename... _ArgTypes>
-    struct __result_of_impl
-    {
-      typedef __failure_type type;
-    };
-
-  template<typename _MemPtr, typename _Arg>
-    struct __result_of_impl<true, false, _MemPtr, _Arg>
-    : public __result_of_memobj<typename decay<_MemPtr>::type,
-    typename __inv_unwrap<_Arg>::type>
-    { };
-
-  template<typename _MemPtr, typename _Arg, typename... _Args>
-    struct __result_of_impl<false, true, _MemPtr, _Arg, _Args...>
-    : public __result_of_memfun<typename decay<_MemPtr>::type,
-    typename __inv_unwrap<_Arg>::type, _Args...>
-    { };
-
-
-  struct __result_of_other_impl
-  {
-    template<typename _Fn, typename... _Args>
-      static __result_of_success<decltype(
-      std::declval<_Fn>()(std::declval<_Args>()...)
-      ), __invoke_other> _S_test(int);
-
-    template<typename...>
-      static __failure_type _S_test(...);
-  };
-
-  template<typename _Functor, typename... _ArgTypes>
-    struct __result_of_impl<false, false, _Functor, _ArgTypes...>
-    : private __result_of_other_impl
-    {
-      typedef decltype(_S_test<_Functor, _ArgTypes...>(0)) type;
-    };
-
-
-  template<typename _Functor, typename... _ArgTypes>
-    struct __invoke_result
-    : public __result_of_impl<
-        is_member_object_pointer<
-          typename remove_reference<_Functor>::type
-        >::value,
-        is_member_function_pointer<
-          typename remove_reference<_Functor>::type
-        >::value,
- _Functor, _ArgTypes...
-      >::type
-    { };
-
-  template<typename _Functor, typename... _ArgTypes>
-    struct result_of<_Functor(_ArgTypes...)>
-    : public __invoke_result<_Functor, _ArgTypes...>
-    { };
-
-
-
-  template<size_t _Len, size_t _Align =
-     __alignof__(typename __aligned_storage_msa<_Len>::__type)>
-    using aligned_storage_t = typename aligned_storage<_Len, _Align>::type;
-
-  template <size_t _Len, typename... _Types>
-    using aligned_union_t = typename aligned_union<_Len, _Types...>::type;
-
-
-  template<typename _Tp>
-    using decay_t = typename decay<_Tp>::type;
-
-
-  template<bool _Cond, typename _Tp = void>
-    using enable_if_t = typename enable_if<_Cond, _Tp>::type;
-
-
-  template<bool _Cond, typename _Iftrue, typename _Iffalse>
-    using conditional_t = typename conditional<_Cond, _Iftrue, _Iffalse>::type;
-
-
-  template<typename... _Tp>
-    using common_type_t = typename common_type<_Tp...>::type;
-
-
-  template<typename _Tp>
-    using underlying_type_t = typename underlying_type<_Tp>::type;
-
-
-  template<typename _Tp>
-    using result_of_t = typename result_of<_Tp>::type;
-
-
-
-  template<bool _Cond, typename _Tp = void>
-    using __enable_if_t = typename enable_if<_Cond, _Tp>::type;
-
-
-  template<typename...> using __void_t = void;
-
-
-
-
-  template<typename...> using void_t = void;
-
-
-
-  template<typename _Default, typename _AlwaysVoid,
-    template<typename...> class _Op, typename... _Args>
-    struct __detector
-    {
-      using value_t = false_type;
-      using type = _Default;
-    };
-
-
-  template<typename _Default, template<typename...> class _Op,
-     typename... _Args>
-    struct __detector<_Default, __void_t<_Op<_Args...>>, _Op, _Args...>
-    {
-      using value_t = true_type;
-      using type = _Op<_Args...>;
-    };
-
-
-  template<typename _Default, template<typename...> class _Op,
-    typename... _Args>
-    using __detected_or = __detector<_Default, void, _Op, _Args...>;
-
-
-  template<typename _Default, template<typename...> class _Op,
-    typename... _Args>
-    using __detected_or_t
-      = typename __detected_or<_Default, _Op, _Args...>::type;
-# 2408 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-  template <typename _Tp>
-    struct __is_swappable;
-
-  template <typename _Tp>
-    struct __is_nothrow_swappable;
-
-  template<typename... _Elements>
-    class tuple;
-
-  template<typename>
-    struct __is_tuple_like_impl : false_type
-    { };
-
-  template<typename... _Tps>
-    struct __is_tuple_like_impl<tuple<_Tps...>> : true_type
-    { };
-
-
-  template<typename _Tp>
-    struct __is_tuple_like
-    : public __is_tuple_like_impl<typename remove_cv<
-      typename remove_reference<_Tp>::type>::type>::type
-    { };
-
-  template<typename _Tp>
-    inline
-    typename enable_if<__and_<__not_<__is_tuple_like<_Tp>>,
-         is_move_constructible<_Tp>,
-         is_move_assignable<_Tp>>::value>::type
-    swap(_Tp&, _Tp&)
-    noexcept(__and_<is_nothrow_move_constructible<_Tp>,
-             is_nothrow_move_assignable<_Tp>>::value);
-
-  template<typename _Tp, size_t _Nm>
-    inline
-    typename enable_if<__is_swappable<_Tp>::value>::type
-    swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])
-    noexcept(__is_nothrow_swappable<_Tp>::value);
-
-  namespace __swappable_details {
-    using std::swap;
-
-    struct __do_is_swappable_impl
-    {
-      template<typename _Tp, typename
-               = decltype(swap(std::declval<_Tp&>(), std::declval<_Tp&>()))>
-        static true_type __test(int);
-
-      template<typename>
-        static false_type __test(...);
-    };
-
-    struct __do_is_nothrow_swappable_impl
-    {
-      template<typename _Tp>
-        static __bool_constant<
-          noexcept(swap(std::declval<_Tp&>(), std::declval<_Tp&>()))
-        > __test(int);
-
-      template<typename>
-        static false_type __test(...);
-    };
-
-  }
-
-  template<typename _Tp>
-    struct __is_swappable_impl
-    : public __swappable_details::__do_is_swappable_impl
-    {
-      typedef decltype(__test<_Tp>(0)) type;
-    };
-
-  template<typename _Tp>
-    struct __is_nothrow_swappable_impl
-    : public __swappable_details::__do_is_nothrow_swappable_impl
-    {
-      typedef decltype(__test<_Tp>(0)) type;
-    };
-
-  template<typename _Tp>
-    struct __is_swappable
-    : public __is_swappable_impl<_Tp>::type
-    { };
-
-  template<typename _Tp>
-    struct __is_nothrow_swappable
-    : public __is_nothrow_swappable_impl<_Tp>::type
-    { };
-
-
-
-
-
-
-  template<typename _Tp>
-    struct is_swappable
-    : public __is_swappable_impl<_Tp>::type
-    { };
-
-
-  template<typename _Tp>
-    struct is_nothrow_swappable
-    : public __is_nothrow_swappable_impl<_Tp>::type
-    { };
-
-
-
-  template<typename _Tp>
-                      constexpr bool is_swappable_v =
-      is_swappable<_Tp>::value;
-
-
-  template<typename _Tp>
-                      constexpr bool is_nothrow_swappable_v =
-      is_nothrow_swappable<_Tp>::value;
-
-
-  namespace __swappable_with_details {
-    using std::swap;
-
-    struct __do_is_swappable_with_impl
-    {
-      template<typename _Tp, typename _Up, typename
-               = decltype(swap(std::declval<_Tp>(), std::declval<_Up>())),
-               typename
-               = decltype(swap(std::declval<_Up>(), std::declval<_Tp>()))>
-        static true_type __test(int);
-
-      template<typename, typename>
-        static false_type __test(...);
-    };
-
-    struct __do_is_nothrow_swappable_with_impl
-    {
-      template<typename _Tp, typename _Up>
-        static __bool_constant<
-          noexcept(swap(std::declval<_Tp>(), std::declval<_Up>()))
-          &&
-          noexcept(swap(std::declval<_Up>(), std::declval<_Tp>()))
-        > __test(int);
-
-      template<typename, typename>
-        static false_type __test(...);
-    };
-
-  }
-
-  template<typename _Tp, typename _Up>
-    struct __is_swappable_with_impl
-    : public __swappable_with_details::__do_is_swappable_with_impl
-    {
-      typedef decltype(__test<_Tp, _Up>(0)) type;
-    };
-
-
-  template<typename _Tp>
-    struct __is_swappable_with_impl<_Tp&, _Tp&>
-    : public __swappable_details::__do_is_swappable_impl
-    {
-      typedef decltype(__test<_Tp&>(0)) type;
-    };
-
-  template<typename _Tp, typename _Up>
-    struct __is_nothrow_swappable_with_impl
-    : public __swappable_with_details::__do_is_nothrow_swappable_with_impl
-    {
-      typedef decltype(__test<_Tp, _Up>(0)) type;
-    };
-
-
-  template<typename _Tp>
-    struct __is_nothrow_swappable_with_impl<_Tp&, _Tp&>
-    : public __swappable_details::__do_is_nothrow_swappable_impl
-    {
-      typedef decltype(__test<_Tp&>(0)) type;
-    };
-
-
-  template<typename _Tp, typename _Up>
-    struct is_swappable_with
-    : public __is_swappable_with_impl<_Tp, _Up>::type
-    { };
-
-
-  template<typename _Tp, typename _Up>
-    struct is_nothrow_swappable_with
-    : public __is_nothrow_swappable_with_impl<_Tp, _Up>::type
-    { };
-
-
-
-  template<typename _Tp, typename _Up>
-                      constexpr bool is_swappable_with_v =
-      is_swappable_with<_Tp, _Up>::value;
-
-
-  template<typename _Tp, typename _Up>
-                      constexpr bool is_nothrow_swappable_with_v =
-      is_nothrow_swappable_with<_Tp, _Up>::value;
-
-
-
-
-
-
-  template<typename _Result, typename _Ret, typename = void>
-    struct __is_invocable_impl : false_type { };
-
-  template<typename _Result, typename _Ret>
-    struct __is_invocable_impl<_Result, _Ret, __void_t<typename _Result::type>>
-    : __or_<is_void<_Ret>, is_convertible<typename _Result::type, _Ret>>::type
-    { };
-
-  template<typename _Fn, typename... _ArgTypes>
-    struct __is_invocable
-    : __is_invocable_impl<__invoke_result<_Fn, _ArgTypes...>, void>::type
-    { };
-
-  template<typename _Fn, typename _Tp, typename... _Args>
-    constexpr bool __call_is_nt(__invoke_memfun_ref)
-    {
-      using _Up = typename __inv_unwrap<_Tp>::type;
-      return noexcept((std::declval<_Up>().*std::declval<_Fn>())(
-     std::declval<_Args>()...));
-    }
-
-  template<typename _Fn, typename _Tp, typename... _Args>
-    constexpr bool __call_is_nt(__invoke_memfun_deref)
-    {
-      return noexcept(((*std::declval<_Tp>()).*std::declval<_Fn>())(
-     std::declval<_Args>()...));
-    }
-
-  template<typename _Fn, typename _Tp>
-    constexpr bool __call_is_nt(__invoke_memobj_ref)
-    {
-      using _Up = typename __inv_unwrap<_Tp>::type;
-      return noexcept(std::declval<_Up>().*std::declval<_Fn>());
-    }
-
-  template<typename _Fn, typename _Tp>
-    constexpr bool __call_is_nt(__invoke_memobj_deref)
-    {
-      return noexcept((*std::declval<_Tp>()).*std::declval<_Fn>());
-    }
-
-  template<typename _Fn, typename... _Args>
-    constexpr bool __call_is_nt(__invoke_other)
-    {
-      return noexcept(std::declval<_Fn>()(std::declval<_Args>()...));
-    }
-
-  template<typename _Result, typename _Fn, typename... _Args>
-    struct __call_is_nothrow
-    : __bool_constant<
- std::__call_is_nt<_Fn, _Args...>(typename _Result::__invoke_type{})
-      >
-    { };
-
-  template<typename _Fn, typename... _Args>
-    using __call_is_nothrow_
-      = __call_is_nothrow<__invoke_result<_Fn, _Args...>, _Fn, _Args...>;
-
-
-  template<typename _Fn, typename... _Args>
-    struct __is_nothrow_invocable
-    : __and_<__is_invocable<_Fn, _Args...>,
-             __call_is_nothrow_<_Fn, _Args...>>::type
-    { };
-
-  struct __nonesuch {
-    __nonesuch() = delete;
-    ~__nonesuch() = delete;
-    __nonesuch(__nonesuch const&) = delete;
-    void operator=(__nonesuch const&) = delete;
-  };
-# 2974 "C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\type_traits" 3
-}
-# 21 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h" 2
-
-
-
-
-
-
-template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
-struct ap_fixed;
-template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
-struct ap_ufixed;
-
-namespace hls {
-
-template <typename T> constexpr std::size_t bitwidth = sizeof(T) * 8;
-
-
-
-template <> constexpr std::size_t bitwidth<void> = 1 * 8;
-
-
-template <std::size_t W> constexpr std::size_t bitwidth<ap_int<W>> = W;
-template <std::size_t W> constexpr std::size_t bitwidth<ap_uint<W>> = W;
-template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
-constexpr std::size_t bitwidth<ap_fixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N>> =
-    _AP_W;
-template <int _AP_W, int _AP_I, ap_q_mode _AP_Q, ap_o_mode _AP_O, int _AP_N>
-constexpr std::size_t bitwidth<ap_ufixed<_AP_W, _AP_I, _AP_Q, _AP_O, _AP_N>> =
-    _AP_W;
-
-template <typename T>
-constexpr std::size_t bytewidth = (bitwidth<T> + 8 - 1) / 8;
-
-
-
-template <> constexpr std::size_t bytewidth<void> = 1;
-
-
-struct axis_disabled_signal {};
-# 93 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
-template <typename T, std::size_t WUser = 0, std::size_t WId = 0,
-          std::size_t WDest = 0,
-          uint8_t EnableSignals =
-              (0b00001000 | 0b00010000 | 0b00100000),
-          bool StrictEnablement = false>
-struct axis {
-  static_assert((EnableSignals & 0b10000000) == 0,
-                "Template parameter 'EnableSignals' is invalid only "
-                "low 7 bits can be set!");
-  friend class stream<
-      axis<T, WUser, WId, WDest, EnableSignals, StrictEnablement>>;
-
-  static constexpr bool has_data = !std::is_void<T>::value;
-  static constexpr bool has_user = WUser > 0;
-  static constexpr bool has_id = WId > 0;
-  static constexpr bool has_dest = WDest > 0;
-  static constexpr bool has_keep = EnableSignals & 0b00001000;
-  static constexpr bool has_strb = EnableSignals & 0b00100000;
-  static constexpr bool has_last = EnableSignals & 0b00010000;
-
-  static constexpr std::size_t width_user = has_user ? WUser : 1;
-  static constexpr std::size_t width_id = has_id ? WId : 1;
-  static constexpr std::size_t width_dest = has_dest ? WDest : 1;
-  static constexpr std::size_t width_keep = bytewidth<T>;
-  static constexpr std::size_t width_strb = bytewidth<T>;
-  static constexpr std::size_t width_last = 1;
-
-  static_assert(has_data || has_user || has_id || has_dest || has_keep ||
-                    has_strb || has_last,
-                "No axis signals are enabled");
-
-  static_assert(StrictEnablement
-                    ? has_data == (bool)(EnableSignals & 0b00000001)
-                    : true,
-                "Found mismatched enablement for DATA signal");
-  static_assert(StrictEnablement
-                    ? has_user == (bool)(EnableSignals & 0b01000000)
-                    : true,
-                "Found mismatched enablement for USER signal");
-  static_assert(StrictEnablement
-                    ? has_id == (bool)(EnableSignals & 0b00000100)
-                    : true,
-                "Found mismatched enablement for ID signal");
-  static_assert(StrictEnablement
-                    ? has_dest == (bool)(EnableSignals & 0b00000010)
-                    : true,
-                "Found mismatched enablement for DEST signal");
-
-  typedef typename std::conditional<has_data, T, axis_disabled_signal>::type
-      Type_data;
-  Type_data data;
-
-
-
-  __attribute__((nodebug)) Type_data get_data() const {
-#pragma HLS inline
- ({ bool _AssertPred = has_data; __builtin_assume(_AssertPred); });
-    return data;
-  }
-  __attribute__((nodebug)) void set_data(Type_data d) {
-#pragma HLS inline
- ({ bool _AssertPred = has_data; __builtin_assume(_AssertPred); });
-    data = d;
-  }
-# 205 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
-  typedef typename std::conditional<has_keep, ap_uint<width_keep>, axis_disabled_signal>::type Type_keep; Type_keep keep; __attribute__((nodebug)) __attribute__((always_inline)) Type_keep get_keep() const { ({ bool _AssertPred = has_keep; __builtin_assume(_AssertPred); }); return keep; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_keep(Type_keep value) { ({ bool _AssertPred = has_keep; __builtin_assume(_AssertPred); }); keep = value; }
-  typedef typename std::conditional<has_strb, ap_uint<width_strb>, axis_disabled_signal>::type Type_strb; Type_strb strb; __attribute__((nodebug)) __attribute__((always_inline)) Type_strb get_strb() const { ({ bool _AssertPred = has_strb; __builtin_assume(_AssertPred); }); return strb; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_strb(Type_strb value) { ({ bool _AssertPred = has_strb; __builtin_assume(_AssertPred); }); strb = value; }
-  typedef typename std::conditional<has_user, ap_uint<width_user>, axis_disabled_signal>::type Type_user; Type_user user; __attribute__((nodebug)) __attribute__((always_inline)) Type_user get_user() const { ({ bool _AssertPred = has_user; __builtin_assume(_AssertPred); }); return user; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_user(Type_user value) { ({ bool _AssertPred = has_user; __builtin_assume(_AssertPred); }); user = value; }
-  typedef typename std::conditional<has_last, ap_uint<width_last>, axis_disabled_signal>::type Type_last; Type_last last; __attribute__((nodebug)) __attribute__((always_inline)) Type_last get_last() const { ({ bool _AssertPred = has_last; __builtin_assume(_AssertPred); }); return last; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_last(Type_last value) { ({ bool _AssertPred = has_last; __builtin_assume(_AssertPred); }); last = value; }
-  typedef typename std::conditional<has_id, ap_uint<width_id>, axis_disabled_signal>::type Type_id; Type_id id; __attribute__((nodebug)) __attribute__((always_inline)) Type_id get_id() const { ({ bool _AssertPred = has_id; __builtin_assume(_AssertPred); }); return id; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_id(Type_id value) { ({ bool _AssertPred = has_id; __builtin_assume(_AssertPred); }); id = value; }
-  typedef typename std::conditional<has_dest, ap_uint<width_dest>, axis_disabled_signal>::type Type_dest; Type_dest dest; __attribute__((nodebug)) __attribute__((always_inline)) Type_dest get_dest() const { ({ bool _AssertPred = has_dest; __builtin_assume(_AssertPred); }); return dest; } __attribute__((nodebug)) __attribute__( (always_inline)) void set_dest(Type_dest value) { ({ bool _AssertPred = has_dest; __builtin_assume(_AssertPred); }); dest = value; }
-
-
-
-
-  __attribute__((nodebug))
-
-  void keep_all() {
-#pragma HLS inline
-
- ({ bool _AssertPred = has_keep; __builtin_assume(_AssertPred); });
-
-
-
-
-    ap_uint<width_keep> k = 0;
-    keep = ~k;
-  }
-
-private:
-
-
-
-
-
-
-
-  __attribute__((nodebug)) __attribute__((always_inline)) Type_data *get_data_ptr() { return (!has_data) ? nullptr : &data; }
-  __attribute__((nodebug)) __attribute__((always_inline)) Type_keep *get_keep_ptr() { return (!has_keep) ? nullptr : &keep; }
-  __attribute__((nodebug)) __attribute__((always_inline)) Type_strb *get_strb_ptr() { return (!has_strb) ? nullptr : &strb; }
-  __attribute__((nodebug)) __attribute__((always_inline)) Type_user *get_user_ptr() { return (!has_user) ? nullptr : &user; }
-  __attribute__((nodebug)) __attribute__((always_inline)) Type_last *get_last_ptr() { return (!has_last) ? nullptr : &last; }
-  __attribute__((nodebug)) __attribute__((always_inline)) Type_id *get_id_ptr() { return (!has_id) ? nullptr : &id; }
-  __attribute__((nodebug)) __attribute__((always_inline)) Type_dest *get_dest_ptr() { return (!has_dest) ? nullptr : &dest; }
-
-
-};
-# 258 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
-template <typename TData, uint8_t EnableSignals = 0b00000001,
-          std::size_t WUser = 0, std::size_t WId = 0, std::size_t WDest = 0,
-          bool StrictEnablement = true>
-using axis_data = axis<TData, WUser, WId, WDest,
-                       (EnableSignals | 0b00000001), StrictEnablement>;
-# 271 "C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\\ap_axi_sdata.h"
-template <std::size_t WUser, uint8_t EnableSignals = 0b01000000,
-          std::size_t WId = 0, std::size_t WDest = 0,
-          bool StrictEnablement = true>
-using axis_user = axis<void, WUser, WId, WDest,
-                       (EnableSignals & (0b11111111 ^ 0b00000001) & (0b11111111 ^ 0b00001000) & (0b11111111 ^ 0b00100000)), StrictEnablement>;
-
-}
-
-template <std::size_t WData, std::size_t WUser, std::size_t WId,
-          std::size_t WDest,
-          uint8_t EnableSignals =
-              (0b00001000 | 0b00010000 | 0b00100000),
-          bool StrictEnablement = false>
-using ap_axis = hls::axis<ap_int<WData>, WUser, WId, WDest, EnableSignals,
-                          StrictEnablement>;
-
-template <std::size_t WData, std::size_t WUser, std::size_t WId,
-          std::size_t WDest,
-          uint8_t EnableSignals =
-              (0b00001000 | 0b00010000 | 0b00100000),
-          bool StrictEnablement = false>
-using ap_axiu = hls::axis<ap_uint<WData>, WUser, WId, WDest, EnableSignals,
-                          StrictEnablement>;
-
-
-template <std::size_t WData, std::size_t WUser, std::size_t WId,
-          std::size_t WDest>
-using qdma_axis = hls::axis<ap_uint<WData>, WUser, WId, WDest,
-                            0b01111111 ^ 0b00100000, false>;
-
-
-
-namespace hls {
-
-template <typename T, std::size_t WUser, std::size_t WId, std::size_t WDest,
-          uint8_t EnableSignals, bool StrictEnablement>
-class stream<axis<T, WUser, WId, WDest, EnableSignals, StrictEnablement>>
-    final {
-  typedef axis<T, WUser, WId, WDest, EnableSignals, StrictEnablement>
-      __STREAM_T__;
-
-public:
-
-  inline __attribute__((always_inline)) __attribute__((nodebug)) stream() {}
-
-  inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const char *name) { (void)name; }
-
-
-private:
-  inline __attribute__((always_inline)) __attribute__((nodebug)) stream(const stream<__STREAM_T__> &chn) : V(chn.V) {}
-
-public:
-
-  inline __attribute__((always_inline)) __attribute__((nodebug)) void operator>>(__STREAM_T__ &rdata) { read(rdata); }
-
-  inline __attribute__((always_inline)) __attribute__((nodebug)) void operator<<(const __STREAM_T__ &wdata) { write(wdata); }
-
-
-  __attribute__((nodebug)) bool empty() {
-#pragma HLS inline
- bool tmp = __fpga_axis_valid(
-        V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(), V.get_user_ptr(),
-        V.get_last_ptr(), V.get_id_ptr(), V.get_dest_ptr());
-    return !tmp;
-  }
-
-  __attribute__((nodebug)) bool full() {
-#pragma HLS inline
- bool tmp = __fpga_axis_ready(
-        V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(), V.get_user_ptr(),
-        V.get_last_ptr(), V.get_id_ptr(), V.get_dest_ptr());
-    return !tmp;
-  }
-
-
-  __attribute__((nodebug)) void read(__STREAM_T__ &dout) {
-#pragma HLS inline
- __STREAM_T__ tmp;
-    __fpga_axis_pop(V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(),
-                    V.get_user_ptr(), V.get_last_ptr(), V.get_id_ptr(),
-                    V.get_dest_ptr(), tmp.get_data_ptr(), tmp.get_keep_ptr(),
-                    tmp.get_strb_ptr(), tmp.get_user_ptr(), tmp.get_last_ptr(),
-                    tmp.get_id_ptr(), tmp.get_dest_ptr());
-    dout = tmp;
-  }
-
-  __attribute__((nodebug)) __STREAM_T__ read() {
-#pragma HLS inline
- __STREAM_T__ tmp;
-    __fpga_axis_pop(V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(),
-                    V.get_user_ptr(), V.get_last_ptr(), V.get_id_ptr(),
-                    V.get_dest_ptr(), tmp.get_data_ptr(), tmp.get_keep_ptr(),
-                    tmp.get_strb_ptr(), tmp.get_user_ptr(), tmp.get_last_ptr(),
-                    tmp.get_id_ptr(), tmp.get_dest_ptr());
-    return tmp;
-  }
-
-
-  __attribute__((nodebug)) void write(const __STREAM_T__ &din) {
-#pragma HLS inline
- __STREAM_T__ tmp = din;
-    __fpga_axis_push(V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(),
-                     V.get_user_ptr(), V.get_last_ptr(), V.get_id_ptr(),
-                     V.get_dest_ptr(), tmp.get_data_ptr(), tmp.get_keep_ptr(),
-                     tmp.get_strb_ptr(), tmp.get_user_ptr(), tmp.get_last_ptr(),
-                     tmp.get_id_ptr(), tmp.get_dest_ptr());
-  }
-
-
-  __attribute__((nodebug)) bool read_nb(__STREAM_T__ &dout) {
-#pragma HLS inline
- __STREAM_T__ tmp;
-    if (__fpga_axis_nb_pop(V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(),
-                           V.get_user_ptr(), V.get_last_ptr(), V.get_id_ptr(),
-                           V.get_dest_ptr(), tmp.get_data_ptr(),
-                           tmp.get_keep_ptr(), tmp.get_strb_ptr(),
-                           tmp.get_user_ptr(), tmp.get_last_ptr(),
-                           tmp.get_id_ptr(), tmp.get_dest_ptr())) {
-      dout = tmp;
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-
-  __attribute__((nodebug)) bool write_nb(const __STREAM_T__ &in) {
-#pragma HLS inline
- __STREAM_T__ tmp = in;
-    bool full_n = __fpga_axis_nb_push(
-        V.get_data_ptr(), V.get_keep_ptr(), V.get_strb_ptr(), V.get_user_ptr(),
-        V.get_last_ptr(), V.get_id_ptr(), V.get_dest_ptr(), tmp.get_data_ptr(),
-        tmp.get_keep_ptr(), tmp.get_strb_ptr(), tmp.get_user_ptr(),
-        tmp.get_last_ptr(), tmp.get_id_ptr(), tmp.get_dest_ptr());
-    return full_n;
-  }
-
-private:
-  __STREAM_T__ V __attribute__((no_ctor));
-};
-
-}
 # 5 "hilbert.cpp" 2
 
-typedef int64_t data_t;
+typedef int32_t data_t;
 typedef int64_t acc_t;
 typedef ap_axis<32,2,5,6> axis_pkt_t;
 typedef hls::stream<axis_pkt_t> axis_t;
-
-
-
 
 static void hilbert(data_t in, data_t &envelope) {
 #pragma HLS INLINE
@@ -29440,48 +29434,44 @@ static void hilbert(data_t in, data_t &envelope) {
     const int CENTER = NTAPS / 2;
 
 
-    const data_t h1 = data_t(0.6366);
-    const data_t h3 = data_t(0.2122);
-    const data_t h5 = data_t(0.1273);
-    const data_t h7 = data_t(0.0909);
-    const data_t h9 = data_t(0.0707);
-    const data_t h11 = data_t(0.0579);
+    const int32_t h1 = 6366;
+    const int32_t h3 = 2122;
+    const int32_t h5 = 1273;
+    const int32_t h7 = 909;
+    const int32_t h9 = 707;
+    const int32_t h11 = 579;
 
-    static data_t x[NTAPS] = {0};
+    static int32_t x[NTAPS] = {0};
 #pragma HLS ARRAY_PARTITION variable=x complete dim=1
 
-
- VITIS_LOOP_32_1: for (int i = NTAPS - 1; i > 0; i--) {
+ VITIS_LOOP_28_1: for (int i = NTAPS - 1; i > 0; i--) {
 #pragma HLS UNROLL
  x[i] = x[i - 1];
     }
     x[0] = in;
 
-
-    data_t I_path = x[CENTER];
-
+    int32_t I_path = x[CENTER];
 
     acc_t Q_path = 0;
-    Q_path += h11 * (x[24] - x[0]);
-    Q_path += h9 * (x[22] - x[2]);
-    Q_path += h7 * (x[20] - x[4]);
-    Q_path += h5 * (x[18] - x[6]);
-    Q_path += h3 * (x[16] - x[8]);
-    Q_path += h1 * (x[14] - x[10]);
+    Q_path += h11 * (int64_t)(x[24] - x[0]);
+    Q_path += h9 * (int64_t)(x[22] - x[2]);
+    Q_path += h7 * (int64_t)(x[20] - x[4]);
+    Q_path += h5 * (int64_t)(x[18] - x[6]);
+    Q_path += h3 * (int64_t)(x[16] - x[8]);
+    Q_path += h1 * (int64_t)(x[14] - x[10]);
 
-    acc_t mag_sq = (acc_t)I_path * I_path + Q_path * Q_path;
 
-    envelope = 1;
+    Q_path /= 10000;
+
+    acc_t mag_sq = (acc_t)I_path * I_path + (Q_path * Q_path);
+    envelope = (int32_t)hls::sqrt((float)mag_sq);
 }
-
-
-
 
 __attribute__((sdx_kernel("hilbert_envelope_axis", 0))) void hilbert_envelope_axis(hls::stream<ap_axis<32,2,5,6>> &in_stream,
                            hls::stream<ap_axis<32,2,5,6>> &out_stream) {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=hilbert_envelope_axis
-# 59 "hilbert.cpp"
+# 52 "hilbert.cpp"
 
 #pragma HLS INTERFACE axis port=in_stream
 #pragma HLS INTERFACE axis port=out_stream
@@ -29489,22 +29479,18 @@ __attribute__((sdx_kernel("hilbert_envelope_axis", 0))) void hilbert_envelope_ax
 
  ap_axis<32,2,5,6> tmp;
 
-    VITIS_LOOP_66_1: while (1) {
+    VITIS_LOOP_59_1: while (1) {
 #pragma HLS PIPELINE II=1
 
  in_stream.read(tmp);
 
-
-        data_t in_sample = tmp.data.to_int();
+        data_t in_sample = (int32_t)tmp.data;
         data_t env_sample;
         hilbert(in_sample, env_sample);
 
-
         tmp.data = env_sample;
 
-
         out_stream.write(tmp);
-
         if (tmp.last) {
             break;
         }

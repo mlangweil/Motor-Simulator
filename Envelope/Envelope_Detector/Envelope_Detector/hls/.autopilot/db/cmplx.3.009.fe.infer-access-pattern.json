@@ -3,17 +3,17 @@
     "basicblocks": 4,
     "calls": "",
     "file": "hilbert.cpp",
-    "fileloc": 58,
-    "instructions": 207,
+    "fileloc": 51,
+    "instructions": 265,
     "loads": {
-      "G": 25,
-      "L": 20
+      "G": 24,
+      "L": 21
     },
     "name": "hilbert_envelope_axis",
     "stores": {
       "G": 25,
-      "L": 20
+      "L": 21
     },
-    "total_instructions": 263
+    "total_instructions": 321
   }
 }
