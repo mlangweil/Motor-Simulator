@@ -3,39 +3,56 @@
 #include <ap_axi_sdata.h>
 #include <iostream>
 #include <cstdint>
+#include <cmath>
 
-#define NUM_SAMPLES 32
+#define NUM_SAMPLES 64
+
+#define PI 3.14159265358979323846
 
 int main() {
-    // AXIS streams
     hls::stream<ap_axis<32, 2, 5, 6>> in_stream;
     hls::stream<ap_axis<32, 2, 5, 6>> out_stream;
+    double fs = 20000.0;
 
-    // BRAM configuration
-    uint32_t bram[4];
-    bram[NUM_TAPS_OFFSET] = 25;         // number of FIR taps
-    bram[LOWER_CUTOFF_OFFSET] = 1000;   // Hz
-    bram[UPPER_CUTOFF_OFFSET] = 5000;   // Hz
-    bram[SAMPLING_RATE_OFFSET] = 600; // Hz
+    uint32_t bram[SIZE_OFFSET];
+    bram[NUM_TAPS_OFFSET]      = 25;
+    bram[LOWER_CUTOFF_OFFSET]  = 1000;
+    bram[UPPER_CUTOFF_OFFSET]  = 5000;
+    bram[SAMPLING_RATE_OFFSET] = (uint32_t) fs;
 
-    // Generate input samples
+
+    // --- Pick ONE test case at a time ---
+
+    // TEST A: 3000 Hz — center of passband, should PASS THROUGH
+    //double f_test = 3000.0;
+
+    // TEST B: 100 Hz — below passband, should be REJECTED (~0 output)
+    //double f_test = 100.0;
+
+    // TEST C: 8000 Hz — above passband, should be REJECTED (~0 output)
+     double f_test = 8000.0;
+
     for (int i = 0; i < NUM_SAMPLES; i++) {
         ap_axis<32, 2, 5, 6> sample;
-        sample.data = (i % 2 == 0) ? 2500 : -2500; // simple alternating waveform
+
+        double s = 2500.0 * std::sin(2.0 * PI * f_test / fs * i);
+        sample.data = (int32_t)s;
         sample.last = (i == NUM_SAMPLES - 1) ? 1 : 0;
         in_stream.write(sample);
     }
 
-    // Call the FIR top function
     firTop(in_stream, out_stream, bram);
 
-    // Read and print output
-    std::cout << "Filtered output:\n";
+    std::cout << "Filtered output (f_test=" << f_test << " Hz):\n";
     for (int i = 0; i < NUM_SAMPLES; i++) {
         ap_axis<32, 2, 5, 6> out_sample = out_stream.read();
-        std::cout << out_sample.data.to_double() << "\n";
+
+        // Skip startup transient (first N-1 samples)
+        if (i >= 24) {
+            std::cout << "sample[" << i << "] = "
+                      << out_sample.data.to_double() << "\n";
+        }
     }
 
-    std::cout << "Testbench finished.\n";
     return 0;
 }

@@ -1,33 +1,33 @@
-INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients\calculateCoefficients.hlsrun_csim_summary, at 04/13/26 17:26:39
-INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients -config C:/Motor-Simulator-main/Coefficients/FirFilter/hls_config.cfg -cmdlineconfig C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/config.cmdline
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients\calculateCoefficients.hlsrun_csim_summary, at 04/14/26 18:07:17
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients -config C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg -cmdlineconfig C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/config.cmdline
 
 ****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
   **** SW Build 5069499 on May 21 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Mon Apr 13 17:26:40 2026
+  **** Start of session at: Tue Apr 14 18:07:18 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'langweil.m' on host 'wfxa4bb6dbb67af.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Mon Apr 13 17:26:41 -0400 2026
-INFO: [HLS 200-10] In directory 'C:/Motor-Simulator-main/Coefficients/FirFilter'
-INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients 
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Apr 14 18:07:19 -0400 2026
+INFO: [HLS 200-10] In directory 'C:/Motor-Simulator/Coefficients/FirFilter'
+INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
-INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Motor-Simulator-main/Coefficients/FirFilter/hls_config.cfg(8)
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Coefficients/FirFilter/Coefficients.cpp' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Motor-Simulator-main/Coefficients/FirFilter/hls_config.cfg(9)
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Coefficients/FirFilter/Coefficients.h' to the project
-INFO: [HLS 200-1465] Applying ini 'tb.file=tb_coefficients.cpp' from C:/Motor-Simulator-main/Coefficients/FirFilter/hls_config.cfg(10)
-INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator-main/Coefficients/FirFilter/tb_coefficients.cpp' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.top=firTop' from C:/Motor-Simulator-main/Coefficients/FirFilter/hls_config.cfg(7)
-INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator-main/Coefficients/FirFilter/hls_config.cfg(4)
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=Coefficients.h' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_coefficients.cpp' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Coefficients/FirFilter/tb_coefficients.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=firTop' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(4)
 INFO: [HLS 200-1505] Using flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
-INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Coefficients/FirFilter/hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(1)
 INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
-INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Coefficients/FirFilter/hls_config.cfg(5)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(5)
 INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
 INFO: [HLS 200-2036] Building debug C Simulation binaries
@@ -50,42 +50,49 @@ C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: no
 #define __GMP_LIBGMP_DLL 1
         ^
 1 warning generated.
-Filtered output:
--72
-0
--73
-2
--65
-17
--42
-48
--6
-83
-23
-103
-30
-96
-9
-66
--25
-31
--55
-7
--70
-0
--73
-0
--73
-73
--73
-73
--73
-73
--73
-73
-Testbench finished.
-INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 32
+Filtered output (f_test=8000 Hz):
+sample[24] = -1
+sample[25] = 1
+sample[26] = 0
+sample[27] = 0
+sample[28] = 0
+sample[29] = -1
+sample[30] = 1
+sample[31] = 0
+sample[32] = 0
+sample[33] = 0
+sample[34] = -1
+sample[35] = 1
+sample[36] = 0
+sample[37] = 0
+sample[38] = 0
+sample[39] = -1
+sample[40] = 1
+sample[41] = 0
+sample[42] = 0
+sample[43] = 0
+sample[44] = -1
+sample[45] = 1
+sample[46] = 0
+sample[47] = 0
+sample[48] = 0
+sample[49] = -1
+sample[50] = 1
+sample[51] = 0
+sample[52] = 0
+sample[53] = 0
+sample[54] = -1
+sample[55] = 1
+sample[56] = 0
+sample[57] = 0
+sample[58] = 0
+sample[59] = -1
+sample[60] = 1
+sample[61] = 0
+sample[62] = 0
+sample[63] = 0
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 64
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 10.589 seconds; peak allocated memory: 246.918 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 15s
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 7.396 seconds; peak allocated memory: 175.207 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 11s

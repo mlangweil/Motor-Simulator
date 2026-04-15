@@ -34,7 +34,7 @@
         }
       },
       "blk_mem_gen_0": "",
-      "envelope": "",
+      "envelopeDetector": "",
       "ps7_0_axi_periph": {
         "xbar": "",
         "s00_couplers": {
@@ -52,7 +52,7 @@
       },
       "rst_ps7_0_100M": "",
       "zynq_ultra_ps_e_0": "",
-      "firTop_0": ""
+      "firFilter": ""
     },
     "components": {
       "axi_bram_ctrl_0": {
@@ -1034,12 +1034,12 @@
           }
         }
       },
-      "envelope": {
+      "envelopeDetector": {
         "vlnv": "xilinx.com:hls:hilbert_envelope_axis:1.0",
-        "ip_revision": "2114564076",
+        "ip_revision": "2114565549",
         "xci_name": "Motor_Simulator_hilbert_envelope_axis_0_4",
         "xci_path": "ip\\Motor_Simulator_hilbert_envelope_axis_0_4\\Motor_Simulator_hilbert_envelope_axis_0_4.xci",
-        "inst_hier_path": "envelope"
+        "inst_hier_path": "envelopeDetector"
       },
       "ps7_0_axi_periph": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
@@ -1828,12 +1828,12 @@
           }
         }
       },
-      "firTop_0": {
+      "firFilter": {
         "vlnv": "xilinx.com:hls:firTop:1.0",
-        "ip_revision": "2114564078",
+        "ip_revision": "2114565549",
         "xci_name": "Motor_Simulator_firTop_0_0",
         "xci_path": "ip\\Motor_Simulator_firTop_0_0\\Motor_Simulator_firTop_0_0.xci",
-        "inst_hier_path": "firTop_0",
+        "inst_hier_path": "firFilter",
         "interface_ports": {
           "m_axi_gmem": {
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
@@ -1872,7 +1872,7 @@
       "axi_dma_M_AXIS_MM2S": {
         "interface_ports": [
           "axi_dma/M_AXIS_MM2S",
-          "firTop_0/in_stream"
+          "firFilter/in_stream"
         ]
       },
       "axi_dma_M_AXI_MM2S": {
@@ -1907,20 +1907,20 @@
       },
       "envelope_out_stream": {
         "interface_ports": [
-          "envelope/out_stream",
+          "envelopeDetector/out_stream",
           "axi_dma/S_AXIS_S2MM"
         ]
       },
       "firTop_0_m_axi_gmem": {
         "interface_ports": [
-          "firTop_0/m_axi_gmem",
+          "firFilter/m_axi_gmem",
           "axi_interconnect_0/S01_AXI"
         ]
       },
       "firTop_0_out_stream": {
         "interface_ports": [
-          "firTop_0/out_stream",
-          "envelope/in_stream"
+          "firFilter/out_stream",
+          "envelopeDetector/in_stream"
         ]
       },
       "ps7_0_axi_periph_M00_AXI": {
@@ -1938,7 +1938,7 @@
       "ps7_0_axi_periph_M02_AXI": {
         "interface_ports": [
           "ps7_0_axi_periph/M02_AXI",
-          "firTop_0/s_axi_control"
+          "firFilter/s_axi_control"
         ]
       },
       "zynq_ultra_ps_e_0_M_AXI_HPM0_LPD": {
@@ -1969,8 +1969,8 @@
           "axi_interconnect_0/S00_ARESETN",
           "ps7_0_axi_periph/M01_ARESETN",
           "ps7_0_axi_periph/M02_ARESETN",
-          "firTop_0/ap_rst_n",
-          "envelope/ap_rst_n"
+          "firFilter/ap_rst_n",
+          "envelopeDetector/ap_rst_n"
         ]
       },
       "zynq_ultra_ps_e_0_pl_clk0": {
@@ -1999,8 +1999,8 @@
           "zynq_ultra_ps_e_0/maxihpm0_lpd_aclk",
           "zynq_ultra_ps_e_0/saxihp0_fpd_aclk",
           "zynq_ultra_ps_e_0/saxihp1_fpd_aclk",
-          "firTop_0/ap_clk",
-          "envelope/ap_clk"
+          "firFilter/ap_clk",
+          "envelopeDetector/ap_clk"
         ]
       },
       "zynq_ultra_ps_e_0_pl_resetn0": {
@@ -2060,7 +2060,7 @@
                 "range": "64K"
               },
               "SEG_firTop_0_Reg": {
-                "address_block": "/firTop_0/s_axi_control/Reg",
+                "address_block": "/firFilter/s_axi_control/Reg",
                 "offset": "0x0080020000",
                 "range": "64K",
                 "offset_base_param": "C_S_AXI_CONTROL_BASEADDR",
@@ -2070,7 +2070,7 @@
           }
         }
       },
-      "/firTop_0": {
+      "/firFilter": {
         "address_spaces": {
           "Data_m_axi_gmem": {
             "segments": {

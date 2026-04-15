@@ -9,15 +9,18 @@
 
 using namespace std;
 typedef ap_axis<32, 2, 5, 6> axis_pkt_t;
-#define MAX_TAPS 100
+#define MAX_TAPS 101
 typedef enum {
   NUM_TAPS_OFFSET = 0,
   LOWER_CUTOFF_OFFSET = 1,
   UPPER_CUTOFF_OFFSET = 2,
   SAMPLING_RATE_OFFSET = 3,
-  READ_SUCCESS = 4
+  READ_SUCCESS_OFFSET = 4,
+  RESET_OFFSET = 5,
+  SIZE_OFFSET = 6
 } registers;
-void fir(double *y, double c[MAX_TAPS], double x, int N);
+
+void fir(double *y, double c[MAX_TAPS], double x, int N, bool reset);
 
 void calculateCoefficients(int N, int lowerCutoff, int upperCutoff,
                            int samplingRate, double *taps);

@@ -2,9 +2,9 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "Motor_Simulator_firTop_0_0",
-    "cell_name": "firTop_0",
+    "cell_name": "firFilter",
     "component_reference": "xilinx.com:hls:firTop:1.0",
-    "ip_revision": "2114564078",
+    "ip_revision": "2114565549",
     "gen_directory": "../../../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ip/Motor_Simulator_firTop_0_0",
     "parameters": {
       "component_parameters": {
@@ -58,7 +58,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "2114564078" } ],
+        "IPREVISION": [ { "value": "2114565549" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ip/Motor_Simulator_firTop_0_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

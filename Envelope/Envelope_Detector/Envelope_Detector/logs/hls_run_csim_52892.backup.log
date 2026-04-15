@@ -1,0 +1,159 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector\Envelope_Detector.hlsrun_csim_summary, at 04/14/26 16:59:51
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector -config C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg -cmdlineconfig C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Apr 14 16:59:53 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Apr 14 16:59:53 -0400 2026
+INFO: [HLS 200-10] In directory 'C:/Motor-Simulator/Envelope/Envelope_Detector'
+INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../tb_hilbert.cpp in debug mode
+   Generating csim.exe
+In file included from ../../../../tb_hilbert.cpp:5:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h:15:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h:10:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h:658:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+     n       input    envelope    last
+--------------------------------------
+     0           0           0       0
+     1        5126           0       0
+     2       10126          66       0
+     3       14876         131       0
+     4       19260         262       0
+     5       23170         387       0
+     6       26509         575       0
+     7       29196         748       0
+     8       31163         980       0
+     9       32364        1186       0
+    10       32767        1444       0
+    11       32364        1665       0
+    12       31163        1930       0
+    13       29196        2147       0
+    14       26509        2399       0
+    15       23170        2592       0
+    16       19260        2815       0
+    17       14876        2968       0
+    18       10126        3147       0
+    19        5126        3248       0
+    20           0        3375       0
+    21       -5126        3419       0
+    22      -10126        3491       0
+    23      -14876        3477       0
+    24      -19260        3498       0
+    25      -23170        3433       0
+    26      -26509        3414       0
+    27      -29196        3311       0
+    28      -31163        3268       0
+    29      -32364        3145       0
+    30      -32767        3100       0
+    31      -32364        2978       0
+    32      -31163        2955       0
+    33      -29196        2859       0
+    34      -26509        2885       0
+    35      -23170        2839       0
+    36      -19260        2941       0
+    37      -14876        2971       0
+    38      -10126        3178       0
+    39       -5126        3308       0
+    40           0        3652       0
+    41        5126        3907       0
+    42       10126        4428       0
+    43       14876        4840       0
+    44       19260        5599       0
+    45       23170        6220       0
+    46       26509        7340       0
+    47       29196        8280       0
+    48       31163       10103       0
+    49       32364       11678       0
+    50       32767       16229       0
+    51       32364       21014       0
+    52       31163       23103       0
+    53       29196       25442       0
+    54       26509       26997       0
+    55       23170       28579       0
+    56       19260       29739       0
+    57       14876       30827       0
+    58       10126       31662       0
+    59        5126       32385       0
+    60           0       32969       0
+    61       -5126       33432       0
+    62      -10126       33846       0
+    63      -14876       34145       0
+    64      -19260       34461       0
+    65      -23170       34669       0
+    66      -26509       34933       0
+    67      -29196       35089       0
+    68      -31163       35308       0
+    69      -32364       35410       0
+    70      -32767       35559       0
+    71      -32364       35575       0
+    72      -31163       35609       0
+    73      -29196       35499       0
+    74      -26509       35376       0
+    75      -23170       35114       0
+    76      -19260       34820       0
+    77      -14876       34410       0
+    78      -10126       33969       0
+    79       -5126       33460       0
+    80           0       32940       0
+    81        5126       32415       0
+    82       10126       31913       0
+    83       14876       31478       0
+    84       19260       31100       0
+    85       23170       30843       0
+    86       26509       30663       0
+    87       29196       30628       0
+    88       31163       30659       0
+    89       32364       30822       0
+    90       32767       31014       0
+    91       32364       31294       0
+    92       31163       31558       0
+    93       29196       31857       0
+    94       26509       32103       0
+    95       23170       32340       0
+    96       19260       32507       0
+    97       14876       32644       0
+    98       10126       32716       0
+    99        5126       32759       0
+   100           0       32767       1
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 101
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.451 seconds; peak allocated memory: 177.406 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 9s

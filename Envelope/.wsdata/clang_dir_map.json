@@ -1,7 +1,8 @@
 {
-  "workspaceRoot": "C:\\Motor-Simulator-main\\Envelope",
+  "workspaceRoot": "C:\\Motor-Simulator\\Envelope",
   "mapping": {
     "Envelope_Detector\\hilbert.h": "Envelope_Detector",
+    "Envelope_Detector\\tb_all.cpp": "Envelope_Detector",
     "Envelope_Detector\\tb_hilbert.cpp": "Envelope_Detector",
     "Envelope_Detector\\hilbert.cpp": "Envelope_Detector"
   }

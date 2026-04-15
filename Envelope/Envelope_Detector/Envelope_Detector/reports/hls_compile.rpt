@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'hilbert_envelope_axis'
 ================================================================
 + General Information: 
-    * Date:           Mon Apr 13 17:25:41 2026
+    * Date:           Tue Apr 14 18:39:52 2026
     * Version:        2024.1 (Build 5069499 on May 21 2024)
     * Project:        Envelope_Detector
     * Solution:       hls (Vivado IP Flow Target)
@@ -15,13 +15,14 @@
 + Performance & Resource Estimates: 
     
     PS: '+' for module; 'o' for loop; '*' for dataflow
-    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
-    |         Modules         | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |         |           |           |     |
-    |         & Loops         | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM |   DSP   |     FF    |    LUT    | URAM|
-    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
-    |+ hilbert_envelope_axis  |     -|  0.68|        -|       -|         -|        0|     -|    rewind|     -|  17 (4%)|  1540 (1%)|  2595 (3%)|    -|
-    | o VITIS_LOOP_59_1       |     -|  7.30|        -|       -|        17|        1|     -|       yes|     -|        -|          -|          -|    -|
-    +-------------------------+------+------+---------+--------+----------+---------+------+----------+------+---------+-----------+-----------+-----+
+    +----------------------------+------+------+---------+--------+----------+---------+------+----------+------+--------+-----------+-----------+-----+
+    |           Modules          | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |        |           |           |     |
+    |           & Loops          | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM |   DSP  |     FF    |    LUT    | URAM|
+    +----------------------------+------+------+---------+--------+----------+---------+------+----------+------+--------+-----------+-----------+-----+
+    |+ hilbert_envelope_axis     |     -|  0.72|        -|       -|         -|        0|     -|    rewind|     -|  8 (2%)|  3894 (2%)|  6940 (9%)|    -|
+    | o VITIS_LOOP_69_1          |     -|  7.30|        -|       -|        16|        1|     -|       yes|     -|       -|          -|          -|    -|
+    |  + p_hls_fptosi_float_i32  |     -|  2.83|        0|   0.000|         -|        1|     -|       yes|     -|       -|          -|  623 (~0%)|    -|
+    +----------------------------+------+------+---------+--------+----------+---------+------+----------+------+--------+-----------+-----------+-----+
 
 
 ================================================================
@@ -74,37 +75,67 @@
 ================================================================
 == Bind Op Report
 ================================================================
-+------------------------------------+-----+--------+---------------+--------+-----------+---------+
-| Name                               | DSP | Pragma | Variable      | Op     | Impl      | Latency |
-+------------------------------------+-----+--------+---------------+--------+-----------+---------+
-| + hilbert_envelope_axis            | 17  |        |               |        |           |         |
-|   sub_ln37_fu_540_p2               |     |        | sub_ln37      | sub    | fabric    | 0       |
-|   sub_ln38_fu_550_p2               |     |        | sub_ln38      | sub    | fabric    | 0       |
-|   sub_ln39_fu_560_p2               |     |        | sub_ln39      | sub    | fabric    | 0       |
-|   sub_ln40_fu_570_p2               |     |        | sub_ln40      | sub    | fabric    | 0       |
-|   sub_ln41_fu_580_p2               |     |        | sub_ln41      | sub    | fabric    | 0       |
-|   sub_ln42_fu_586_p2               |     |        | sub_ln42      | sub    | fabric    | 0       |
-|   sub_ln45_2_fu_616_p2             |     |        | sub_ln45_2    | sub    | fabric    | 0       |
-|   add_ln45_7_fu_688_p2             |     |        | add_ln45_7    | add    | fabric    | 0       |
-|   mul_46s_48ns_93_1_1_U5           | 9   |        | mul_ln45      | mul    | auto      | 0       |
-|   sub_ln45_fu_1052_p2              |     |        | sub_ln45      | sub    | fabric    | 0       |
-|   select_ln45_1_fu_1082_p3         |     |        | select_ln45_1 | select | auto_sel  | 0       |
-|   sub_ln45_1_fu_1093_p2            |     |        | sub_ln45_1    | sub    | fabric    | 0       |
-|   Q_path_fu_1099_p3                |     |        | Q_path        | select | auto_sel  | 0       |
-|   mul_32s_32s_64_1_1_U3            | 4   |        | mul_ln47      | mul    | auto      | 0       |
-|   mul_35s_35s_64_1_1_U4            | 4   |        | mul_ln47_1    | mul    | auto      | 0       |
-|   grp_fu_251_p0                    |     |        | mag_sq        | add    | fabric    | 0       |
-|   sitofp_64ns_32_4_no_dsp_1_U1     |     |        | x_assign      | sitofp | auto      | 3       |
-|   fsqrt_32ns_32ns_32_8_no_dsp_1_U2 |     |        | dc            | fsqrt  | fabric    | 7       |
-|   add_ln317_fu_1164_p2             |     |        | add_ln317     | add    | fabric    | 0       |
-|   sub_ln18_fu_1178_p2              |     |        | sub_ln18      | sub    | fabric    | 0       |
-|   select_ln18_fu_1188_p3           |     |        | select_ln18   | select | auto_sel  | 0       |
-|   lshr_ln18_fu_1204_p2             |     |        | lshr_ln18     | lshr   | auto_pipe | 0       |
-|   shl_ln18_fu_1210_p2              |     |        | shl_ln18      | shl    | auto_pipe | 0       |
-|   val_fu_1236_p3                   |     |        | val           | select | auto_sel  | 0       |
-|   result_1_fu_1244_p2              |     |        | result_1      | sub    | fabric    | 0       |
-|   out_stream_TDATA_int_regslice    |     |        | result        | select | auto_sel  | 0       |
-+------------------------------------+-----+--------+---------------+--------+-----------+---------+
++------------------------------------+-----+--------+-------------+--------+-----------+---------+
+| Name                               | DSP | Pragma | Variable    | Op     | Impl      | Latency |
++------------------------------------+-----+--------+-------------+--------+-----------+---------+
+| + hilbert_envelope_axis            | 8   |        |             |        |           |         |
+|   sub_ln50_fu_1429_p2              |     |        | sub_ln50    | sub    | fabric    | 0       |
+|   sub_ln50_1_fu_1447_p2            |     |        | sub_ln50_1  | sub    | fabric    | 0       |
+|   sub_ln50_2_fu_1461_p2            |     |        | sub_ln50_2  | sub    | fabric    | 0       |
+|   sub_ln50_3_fu_1475_p2            |     |        | sub_ln50_3  | sub    | fabric    | 0       |
+|   sub_ln50_4_fu_1489_p2            |     |        | sub_ln50_4  | sub    | fabric    | 0       |
+|   sub_ln50_5_fu_1503_p2            |     |        | sub_ln50_5  | sub    | fabric    | 0       |
+|   sub_ln50_6_fu_1517_p2            |     |        | sub_ln50_6  | sub    | fabric    | 0       |
+|   sub_ln50_7_fu_1535_p2            |     |        | sub_ln50_7  | sub    | fabric    | 0       |
+|   sub_ln50_8_fu_1553_p2            |     |        | sub_ln50_8  | sub    | fabric    | 0       |
+|   sub_ln50_9_fu_1571_p2            |     |        | sub_ln50_9  | sub    | fabric    | 0       |
+|   sub_ln50_10_fu_1585_p2           |     |        | sub_ln50_10 | sub    | fabric    | 0       |
+|   sub_ln50_11_fu_1603_p2           |     |        | sub_ln50_11 | sub    | fabric    | 0       |
+|   sub_ln50_12_fu_1621_p2           |     |        | sub_ln50_12 | sub    | fabric    | 0       |
+|   sub_ln50_13_fu_1635_p2           |     |        | sub_ln50_13 | sub    | fabric    | 0       |
+|   sub_ln50_14_fu_1653_p2           |     |        | sub_ln50_14 | sub    | fabric    | 0       |
+|   sub_ln50_15_fu_1671_p2           |     |        | sub_ln50_15 | sub    | fabric    | 0       |
+|   sub_ln50_16_fu_1689_p2           |     |        | sub_ln50_16 | sub    | fabric    | 0       |
+|   sub_ln50_17_fu_1703_p2           |     |        | sub_ln50_17 | sub    | fabric    | 0       |
+|   sub_ln50_18_fu_1717_p2           |     |        | sub_ln50_18 | sub    | fabric    | 0       |
+|   sub_ln50_19_fu_1731_p2           |     |        | sub_ln50_19 | sub    | fabric    | 0       |
+|   sub_ln50_20_fu_1749_p2           |     |        | sub_ln50_20 | sub    | fabric    | 0       |
+|   sub_ln50_21_fu_1767_p2           |     |        | sub_ln50_21 | sub    | fabric    | 0       |
+|   sub_ln50_22_fu_1785_p2           |     |        | sub_ln50_22 | sub    | fabric    | 0       |
+|   sub_ln50_23_fu_1799_p2           |     |        | sub_ln50_23 | sub    | fabric    | 0       |
+|   sub_ln50_24_fu_1813_p2           |     |        | sub_ln50_24 | sub    | fabric    | 0       |
+|   sub_ln50_26_fu_1909_p2           |     |        | sub_ln50_26 | sub    | fabric    | 0       |
+|   sub_ln50_29_fu_1993_p2           |     |        | sub_ln50_29 | sub    | fabric    | 0       |
+|   sub_ln50_33_fu_2131_p2           |     |        | sub_ln50_33 | sub    | fabric    | 0       |
+|   sub_ln50_34_fu_2201_p2           |     |        | sub_ln50_34 | sub    | fabric    | 0       |
+|   sub_ln50_36_fu_2271_p2           |     |        | sub_ln50_36 | sub    | fabric    | 0       |
+|   add_ln50_35_fu_2377_p2           |     |        | add_ln50_35 | add    | fabric    | 0       |
+|   add_ln50_37_fu_2447_p2           |     |        | add_ln50_37 | add    | fabric    | 0       |
+|   sub_ln50_46_fu_2763_p2           |     |        | sub_ln50_46 | sub    | fabric    | 0       |
+|   add_ln50_56_fu_3167_p2           |     |        | add_ln50_56 | add    | fabric    | 0       |
+|   add_ln50_1_fu_3493_p2            |     |        | add_ln50_1  | add    | fabric    | 0       |
+|   add_ln50_4_fu_3519_p2            |     |        | add_ln50_4  | add    | fabric    | 0       |
+|   add_ln50_6_fu_3539_p2            |     |        | add_ln50_6  | add    | fabric    | 0       |
+|   add_ln50_15_fu_3613_p2           |     |        | add_ln50_15 | add    | fabric    | 0       |
+|   add_ln50_20_fu_3655_p2           |     |        | add_ln50_20 | add    | fabric    | 0       |
+|   sub_ln53_fu_3713_p2              |     |        | sub_ln53    | sub    | fabric    | 0       |
+|   sub_ln53_1_fu_3728_p2            |     |        | sub_ln53_1  | sub    | fabric    | 0       |
+|   Q_path_fu_3734_p3                |     |        | Q_path      | select | auto_sel  | 0       |
+|   mul_32s_32s_64_1_1_U4            | 4   |        | mul_ln56    | mul    | auto      | 0       |
+|   mul_32s_32s_64_1_1_U5            | 4   |        | mul_ln56_1  | mul    | auto      | 0       |
+|   grp_fu_387_p0                    |     |        | mag_sq      | add    | fabric    | 0       |
+|   sitofp_64ns_32_4_no_dsp_1_U2     |     |        | x_assign    | sitofp | auto      | 3       |
+|   fsqrt_32ns_32ns_32_8_no_dsp_1_U3 |     |        | tmp         | fsqrt  | fabric    | 7       |
+|  + p_hls_fptosi_float_i32          | 0   |        |             |        |           |         |
+|    add_ln317_fu_86_p2              |     |        | add_ln317   | add    | fabric    | 0       |
+|    sub_ln18_fu_100_p2              |     |        | sub_ln18    | sub    | fabric    | 0       |
+|    select_ln18_fu_110_p3           |     |        | select_ln18 | select | auto_sel  | 0       |
+|    lshr_ln18_fu_126_p2             |     |        | lshr_ln18   | lshr   | auto_pipe | 0       |
+|    shl_ln18_fu_132_p2              |     |        | shl_ln18    | shl    | auto_pipe | 0       |
+|    val_fu_158_p3                   |     |        | val         | select | auto_sel  | 0       |
+|    result_1_fu_166_p2              |     |        | result_1    | sub    | fabric    | 0       |
+|    ap_return                       |     |        | result_2    | select | auto_sel  | 0       |
++------------------------------------+-----+--------+-------------+--------+-----------+---------+
 
 
 ================================================================
@@ -116,16 +147,23 @@
 == Pragma Report
 ================================================================
 * Valid Pragma Syntax
-+-----------------+---------------------------+-----------------------------------------------------+
-| Type            | Options                   | Location                                            |
-+-----------------+---------------------------+-----------------------------------------------------+
-| inline          |                           | hilbert.cpp:12 in hilbert                           |
-| array_partition | variable=x complete dim=1 | hilbert.cpp:26 in hilbert, x                        |
-| unroll          |                           | hilbert.cpp:29 in hilbert                           |
-| interface       | axis port=in_stream       | hilbert.cpp:53 in hilbert_envelope_axis, in_stream  |
-| interface       | axis port=out_stream      | hilbert.cpp:54 in hilbert_envelope_axis, out_stream |
-| interface       | ap_ctrl_none port=return  | hilbert.cpp:55 in hilbert_envelope_axis, return     |
-| pipeline        | II=1                      | hilbert.cpp:60 in hilbert_envelope_axis             |
-+-----------------+---------------------------+-----------------------------------------------------+
++-----------+--------------------------+-----------------------------------------------------+
+| Type      | Options                  | Location                                            |
++-----------+--------------------------+-----------------------------------------------------+
+| inline    |                          | hilbert.cpp:24 in hilbert                           |
+| unroll    |                          | hilbert.cpp:28 in hilbert                           |
+| unroll    |                          | hilbert.cpp:41 in hilbert                           |
+| interface | axis port=in_stream      | hilbert.cpp:63 in hilbert_envelope_axis, in_stream  |
+| interface | axis port=out_stream     | hilbert.cpp:64 in hilbert_envelope_axis, out_stream |
+| interface | ap_ctrl_none port=return | hilbert.cpp:65 in hilbert_envelope_axis, return     |
+| pipeline  | II=1                     | hilbert.cpp:70 in hilbert_envelope_axis             |
++-----------+--------------------------+-----------------------------------------------------+
+
+* Inferred Pragmas
++-------------------------+-----------------+-------------------------------------+-------------------------------------+
+| Source Pragma           | Inferred Pragma | Options                             | Location                            |
++-------------------------+-----------------+-------------------------------------+-------------------------------------+
+| pipeline hilbert.cpp:70 | array_partition | dim=1 type=complete  variable=_ZL1x | variable x in hilbert_envelope_axis |
++-------------------------+-----------------+-------------------------------------+-------------------------------------+
 
 

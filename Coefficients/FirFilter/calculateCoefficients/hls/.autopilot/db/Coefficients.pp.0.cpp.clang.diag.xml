@@ -1,6 +1,6 @@
 <dict>
   <key>main-file</key>
-  <string>C:/Motor-Simulator-main/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp</string>
+  <string>C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/.autopilot/db/Coefficients.pp.0.cpp</string>
   <key>diagnostics</key>
   <array>
     <dict>
@@ -3401,27 +3401,11 @@
       <key>filename</key>
       <string>Coefficients.cpp</string>
       <key>line</key>
-      <integer>5</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=mode=m_axi port=bram_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>Coefficients.cpp</string>
-      <key>line</key>
       <integer>6</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=s_axilite port = return_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=mode = m_axi port = bram_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -3437,7 +3421,7 @@
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=axis port = in_stream_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=s_axilite port = return_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -3453,7 +3437,7 @@
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=axis port = out_stream_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=axis port = in_stream_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -3466,6 +3450,22 @@
       <string>Coefficients.cpp</string>
       <key>line</key>
       <integer>9</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=axis port = out_stream_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>Coefficients.cpp</string>
+      <key>line</key>
+      <integer>10</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3481,7 +3481,7 @@
       <key>filename</key>
       <string>Coefficients.cpp</string>
       <key>line</key>
-      <integer>33</integer>
+      <integer>27</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3497,7 +3497,23 @@
       <key>filename</key>
       <string>Coefficients.cpp</string>
       <key>line</key>
-      <integer>83</integer>
+      <integer>62</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=fir_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>Coefficients.cpp</string>
+      <key>line</key>
+      <integer>93</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3513,7 +3529,23 @@
       <key>filename</key>
       <string>Coefficients.cpp</string>
       <key>line</key>
-      <integer>103</integer>
+      <integer>114</integer>
+      <key>column</key>
+      <integer>9</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=calculateCoefficients_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>5471</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>Coefficients.cpp</string>
+      <key>line</key>
+      <integer>120</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>

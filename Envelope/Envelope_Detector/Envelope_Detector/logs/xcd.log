@@ -498,3 +498,817 @@
 04/13/26 17:38:18: SERVER: destructor for server bound to port 58679
 04/13/26 17:38:18: Server exiting with status 0.
 04/13/26 17:38:18: Closing log file.
+04/14/26 13:15:11: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 13:15:11: Server was asked to start on port: '49296'
+04/14/26 13:15:11: Server is using token UUID: '0d29347c-103e-43ae-86df-b9f5e9eeacbf'
+04/14/26 13:15:11: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 13:15:11: Attempting to start server on port '49296'
+04/14/26 13:15:11: Running Dispatch Server
+04/14/26 13:15:11: Version 2.2.0
+04/14/26 13:15:12: Dispatch Server: Accepted socket connection from client
+04/14/26 13:15:12: Starting Socket connection
+04/14/26 13:15:12: EXCHANGE_TOKEN received, server token: 0d29347c-103e-43ae-86df-b9f5e9eeacbf, passed token: 0d29347c-103e-43ae-86df-b9f5e9eeacbf
+04/14/26 13:15:12: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 13:15:12: SESSION_MGR: creating session with session uuid: '7c9f0bd6-2bda-41e7-a8be-16eae63f2b6c' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:15:12: KERNEL_SVC: creating session with uuid: '7c9f0bd6-2bda-41e7-a8be-16eae63f2b6c' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:15:12: GUIDANCE_SMGR: creating guidance session with uuid: '7c9f0bd6-2bda-41e7-a8be-16eae63f2b6c' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:15:20: Dispatch Server: Accepted socket connection from client
+04/14/26 13:15:20: Starting Socket connection
+04/14/26 13:15:32: SESSION_MGR: closing session for UUID '7c9f0bd6-2bda-41e7-a8be-16eae63f2b6c' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:15:32: KERNEL_SVC: closing session for UUID '7c9f0bd6-2bda-41e7-a8be-16eae63f2b6c' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:15:32: GUIDANCE_SMGR: closing session for UUID '7c9f0bd6-2bda-41e7-a8be-16eae63f2b6c' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:15:32: STOP_SERVER received, server token: 0d29347c-103e-43ae-86df-b9f5e9eeacbf, passed token: 0d29347c-103e-43ae-86df-b9f5e9eeacbf
+04/14/26 13:15:32: Socket received request to stop server.
+04/14/26 13:15:32: Dispatch Server: do_await_stop
+04/14/26 13:15:32: SERVER: destructor for server bound to port 49296
+04/14/26 13:15:32: Server exiting with status 0.
+04/14/26 13:15:32: Closing log file.
+04/14/26 13:36:23: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 13:36:23: Server was asked to start on port: '65310'
+04/14/26 13:36:23: Server is using token UUID: '4d0e02d4-7fec-418a-b75b-e7c3c1a45c3e'
+04/14/26 13:36:23: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 13:36:23: Attempting to start server on port '65310'
+04/14/26 13:36:23: Running Dispatch Server
+04/14/26 13:36:23: Version 2.2.0
+04/14/26 13:36:25: Dispatch Server: Accepted socket connection from client
+04/14/26 13:36:25: Starting Socket connection
+04/14/26 13:36:25: EXCHANGE_TOKEN received, server token: 4d0e02d4-7fec-418a-b75b-e7c3c1a45c3e, passed token: 4d0e02d4-7fec-418a-b75b-e7c3c1a45c3e
+04/14/26 13:36:25: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 13:36:25: SESSION_MGR: creating session with session uuid: 'ccccb62a-ef89-49c1-9006-8410c1e3558f' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:36:25: KERNEL_SVC: creating session with uuid: 'ccccb62a-ef89-49c1-9006-8410c1e3558f' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:36:25: GUIDANCE_SMGR: creating guidance session with uuid: 'ccccb62a-ef89-49c1-9006-8410c1e3558f' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:36:28: Dispatch Server: Accepted socket connection from client
+04/14/26 13:36:28: Starting Socket connection
+04/14/26 13:36:36: SESSION_MGR: closing session for UUID 'ccccb62a-ef89-49c1-9006-8410c1e3558f' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:36:36: KERNEL_SVC: closing session for UUID 'ccccb62a-ef89-49c1-9006-8410c1e3558f' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:36:36: GUIDANCE_SMGR: closing session for UUID 'ccccb62a-ef89-49c1-9006-8410c1e3558f' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:36:36: STOP_SERVER received, server token: 4d0e02d4-7fec-418a-b75b-e7c3c1a45c3e, passed token: 4d0e02d4-7fec-418a-b75b-e7c3c1a45c3e
+04/14/26 13:36:36: Socket received request to stop server.
+04/14/26 13:36:36: Dispatch Server: do_await_stop
+04/14/26 13:36:36: SERVER: destructor for server bound to port 65310
+04/14/26 13:36:36: Server exiting with status 0.
+04/14/26 13:36:36: Closing log file.
+04/14/26 13:37:10: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 13:37:10: Server was asked to start on port: '59345'
+04/14/26 13:37:10: Server is using token UUID: '861257ac-48b3-4276-9397-ca4524993c5e'
+04/14/26 13:37:10: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 13:37:10: Attempting to start server on port '59345'
+04/14/26 13:37:10: Running Dispatch Server
+04/14/26 13:37:10: Version 2.2.0
+04/14/26 13:37:12: Dispatch Server: Accepted socket connection from client
+04/14/26 13:37:12: Starting Socket connection
+04/14/26 13:37:12: EXCHANGE_TOKEN received, server token: 861257ac-48b3-4276-9397-ca4524993c5e, passed token: 861257ac-48b3-4276-9397-ca4524993c5e
+04/14/26 13:37:12: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 13:37:12: SESSION_MGR: creating session with session uuid: '2d964f19-90b2-4c1e-941a-4472c659da5c' and name 'v++_compile_Envelope_Detector'
+04/14/26 13:37:12: KERNEL_SVC: creating session with uuid: '2d964f19-90b2-4c1e-941a-4472c659da5c' and name 'v++_compile_Envelope_Detector'
+04/14/26 13:37:12: GUIDANCE_SMGR: creating guidance session with uuid: '2d964f19-90b2-4c1e-941a-4472c659da5c' and name 'v++_compile_Envelope_Detector'
+04/14/26 13:37:15: Dispatch Server: Accepted socket connection from client
+04/14/26 13:37:15: Starting Socket connection
+04/14/26 13:37:45: SESSION_MGR: closing session for UUID '2d964f19-90b2-4c1e-941a-4472c659da5c' with name 'v++_compile_Envelope_Detector'
+04/14/26 13:37:45: KERNEL_SVC: closing session for UUID '2d964f19-90b2-4c1e-941a-4472c659da5c' with name 'v++_compile_Envelope_Detector'
+04/14/26 13:37:45: GUIDANCE_SMGR: closing session for UUID '2d964f19-90b2-4c1e-941a-4472c659da5c' with name 'v++_compile_Envelope_Detector'
+04/14/26 13:37:45: STOP_SERVER received, server token: 861257ac-48b3-4276-9397-ca4524993c5e, passed token: 861257ac-48b3-4276-9397-ca4524993c5e
+04/14/26 13:37:45: Socket received request to stop server.
+04/14/26 13:37:45: Dispatch Server: do_await_stop
+04/14/26 13:37:45: SERVER: destructor for server bound to port 59345
+04/14/26 13:37:45: Server exiting with status 0.
+04/14/26 13:37:45: Closing log file.
+04/14/26 13:37:58: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 13:37:58: Server was asked to start on port: '57772'
+04/14/26 13:37:58: Server is using token UUID: 'eb6b71a9-585a-4026-baac-b2ed6bb1d74e'
+04/14/26 13:37:58: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 13:37:58: Attempting to start server on port '57772'
+04/14/26 13:37:58: Running Dispatch Server
+04/14/26 13:37:58: Version 2.2.0
+04/14/26 13:38:00: Dispatch Server: Accepted socket connection from client
+04/14/26 13:38:00: Starting Socket connection
+04/14/26 13:38:00: EXCHANGE_TOKEN received, server token: eb6b71a9-585a-4026-baac-b2ed6bb1d74e, passed token: eb6b71a9-585a-4026-baac-b2ed6bb1d74e
+04/14/26 13:38:00: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 13:38:00: SESSION_MGR: creating session with session uuid: '0a70cfce-d202-4b78-b17e-a4148552ccd7' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:38:00: KERNEL_SVC: creating session with uuid: '0a70cfce-d202-4b78-b17e-a4148552ccd7' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:38:00: GUIDANCE_SMGR: creating guidance session with uuid: '0a70cfce-d202-4b78-b17e-a4148552ccd7' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:38:03: Dispatch Server: Accepted socket connection from client
+04/14/26 13:38:03: Starting Socket connection
+04/14/26 13:38:42: SESSION_MGR: closing session for UUID '0a70cfce-d202-4b78-b17e-a4148552ccd7' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:38:42: KERNEL_SVC: closing session for UUID '0a70cfce-d202-4b78-b17e-a4148552ccd7' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:38:42: GUIDANCE_SMGR: closing session for UUID '0a70cfce-d202-4b78-b17e-a4148552ccd7' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 13:38:42: STOP_SERVER received, server token: eb6b71a9-585a-4026-baac-b2ed6bb1d74e, passed token: eb6b71a9-585a-4026-baac-b2ed6bb1d74e
+04/14/26 13:38:42: Socket received request to stop server.
+04/14/26 13:38:42: Dispatch Server: do_await_stop
+04/14/26 13:38:42: SERVER: destructor for server bound to port 57772
+04/14/26 13:38:42: Server exiting with status 0.
+04/14/26 13:38:42: Closing log file.
+04/14/26 14:15:18: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 14:15:18: Server was asked to start on port: '61554'
+04/14/26 14:15:18: Server is using token UUID: 'a01ee95c-5450-4827-b9e1-7421c80e4e2a'
+04/14/26 14:15:18: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 14:15:18: Attempting to start server on port '61554'
+04/14/26 14:15:18: Running Dispatch Server
+04/14/26 14:15:18: Version 2.2.0
+04/14/26 14:15:20: Dispatch Server: Accepted socket connection from client
+04/14/26 14:15:20: Starting Socket connection
+04/14/26 14:15:20: EXCHANGE_TOKEN received, server token: a01ee95c-5450-4827-b9e1-7421c80e4e2a, passed token: a01ee95c-5450-4827-b9e1-7421c80e4e2a
+04/14/26 14:15:20: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 14:15:20: SESSION_MGR: creating session with session uuid: '2519953a-dd52-4d77-8bf5-6e98c95195de' and name 'v++_compile_Envelope_Detector'
+04/14/26 14:15:20: KERNEL_SVC: creating session with uuid: '2519953a-dd52-4d77-8bf5-6e98c95195de' and name 'v++_compile_Envelope_Detector'
+04/14/26 14:15:20: GUIDANCE_SMGR: creating guidance session with uuid: '2519953a-dd52-4d77-8bf5-6e98c95195de' and name 'v++_compile_Envelope_Detector'
+04/14/26 14:15:26: Dispatch Server: Accepted socket connection from client
+04/14/26 14:15:26: Starting Socket connection
+04/14/26 14:16:13: SESSION_MGR: closing session for UUID '2519953a-dd52-4d77-8bf5-6e98c95195de' with name 'v++_compile_Envelope_Detector'
+04/14/26 14:16:13: KERNEL_SVC: closing session for UUID '2519953a-dd52-4d77-8bf5-6e98c95195de' with name 'v++_compile_Envelope_Detector'
+04/14/26 14:16:13: GUIDANCE_SMGR: closing session for UUID '2519953a-dd52-4d77-8bf5-6e98c95195de' with name 'v++_compile_Envelope_Detector'
+04/14/26 14:16:13: STOP_SERVER received, server token: a01ee95c-5450-4827-b9e1-7421c80e4e2a, passed token: a01ee95c-5450-4827-b9e1-7421c80e4e2a
+04/14/26 14:16:13: Socket received request to stop server.
+04/14/26 14:16:13: Dispatch Server: do_await_stop
+04/14/26 14:16:13: SERVER: destructor for server bound to port 61554
+04/14/26 14:16:13: Server exiting with status 0.
+04/14/26 14:16:13: Closing log file.
+04/14/26 14:16:19: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 14:16:19: Server was asked to start on port: '60537'
+04/14/26 14:16:19: Server is using token UUID: 'c7ec079d-24d8-49c2-9eb3-77588a52e25b'
+04/14/26 14:16:19: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 14:16:19: Attempting to start server on port '60537'
+04/14/26 14:16:19: Running Dispatch Server
+04/14/26 14:16:19: Version 2.2.0
+04/14/26 14:16:21: Dispatch Server: Accepted socket connection from client
+04/14/26 14:16:21: Starting Socket connection
+04/14/26 14:16:21: EXCHANGE_TOKEN received, server token: c7ec079d-24d8-49c2-9eb3-77588a52e25b, passed token: c7ec079d-24d8-49c2-9eb3-77588a52e25b
+04/14/26 14:16:21: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 14:16:21: SESSION_MGR: creating session with session uuid: 'b488088b-fa0c-473d-aa35-4fe4c5011f85' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:16:21: KERNEL_SVC: creating session with uuid: 'b488088b-fa0c-473d-aa35-4fe4c5011f85' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:16:21: GUIDANCE_SMGR: creating guidance session with uuid: 'b488088b-fa0c-473d-aa35-4fe4c5011f85' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:16:29: Dispatch Server: Accepted socket connection from client
+04/14/26 14:16:29: Starting Socket connection
+04/14/26 14:17:12: SESSION_MGR: closing session for UUID 'b488088b-fa0c-473d-aa35-4fe4c5011f85' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:17:12: KERNEL_SVC: closing session for UUID 'b488088b-fa0c-473d-aa35-4fe4c5011f85' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:17:12: GUIDANCE_SMGR: closing session for UUID 'b488088b-fa0c-473d-aa35-4fe4c5011f85' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:17:12: STOP_SERVER received, server token: c7ec079d-24d8-49c2-9eb3-77588a52e25b, passed token: c7ec079d-24d8-49c2-9eb3-77588a52e25b
+04/14/26 14:17:12: Socket received request to stop server.
+04/14/26 14:17:12: Dispatch Server: do_await_stop
+04/14/26 14:17:12: SERVER: destructor for server bound to port 60537
+04/14/26 14:17:12: Server exiting with status 0.
+04/14/26 14:17:12: Closing log file.
+04/14/26 14:31:03: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 14:31:03: Server was asked to start on port: '52242'
+04/14/26 14:31:03: Server is using token UUID: 'ba93d24e-bf17-4b67-a00a-efdf23e22c8f'
+04/14/26 14:31:03: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 14:31:03: Attempting to start server on port '52242'
+04/14/26 14:31:03: Running Dispatch Server
+04/14/26 14:31:03: Version 2.2.0
+04/14/26 14:31:05: Dispatch Server: Accepted socket connection from client
+04/14/26 14:31:05: Starting Socket connection
+04/14/26 14:31:05: EXCHANGE_TOKEN received, server token: ba93d24e-bf17-4b67-a00a-efdf23e22c8f, passed token: ba93d24e-bf17-4b67-a00a-efdf23e22c8f
+04/14/26 14:31:05: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 14:31:05: SESSION_MGR: creating session with session uuid: 'f9f8dfa6-8dff-4c53-92a6-dc8b2f48ac86' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:31:05: KERNEL_SVC: creating session with uuid: 'f9f8dfa6-8dff-4c53-92a6-dc8b2f48ac86' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:31:05: GUIDANCE_SMGR: creating guidance session with uuid: 'f9f8dfa6-8dff-4c53-92a6-dc8b2f48ac86' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:31:12: Dispatch Server: Accepted socket connection from client
+04/14/26 14:31:12: Starting Socket connection
+04/14/26 14:31:31: SESSION_MGR: closing session for UUID 'f9f8dfa6-8dff-4c53-92a6-dc8b2f48ac86' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:31:31: KERNEL_SVC: closing session for UUID 'f9f8dfa6-8dff-4c53-92a6-dc8b2f48ac86' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:31:31: GUIDANCE_SMGR: closing session for UUID 'f9f8dfa6-8dff-4c53-92a6-dc8b2f48ac86' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 14:31:31: STOP_SERVER received, server token: ba93d24e-bf17-4b67-a00a-efdf23e22c8f, passed token: ba93d24e-bf17-4b67-a00a-efdf23e22c8f
+04/14/26 14:31:31: Socket received request to stop server.
+04/14/26 14:31:31: Dispatch Server: do_await_stop
+04/14/26 14:31:31: SERVER: destructor for server bound to port 52242
+04/14/26 14:31:31: Server exiting with status 0.
+04/14/26 14:31:31: Closing log file.
+04/14/26 14:51:08: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 14:51:08: Server was asked to start on port: '50320'
+04/14/26 14:51:08: Server is using token UUID: '266a685b-ed57-4b52-9220-a6ad92b0836e'
+04/14/26 14:51:08: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 14:51:08: Attempting to start server on port '50320'
+04/14/26 14:51:08: Running Dispatch Server
+04/14/26 14:51:08: Version 2.2.0
+04/14/26 14:51:09: Dispatch Server: Accepted socket connection from client
+04/14/26 14:51:09: Starting Socket connection
+04/14/26 14:51:09: EXCHANGE_TOKEN received, server token: 266a685b-ed57-4b52-9220-a6ad92b0836e, passed token: 266a685b-ed57-4b52-9220-a6ad92b0836e
+04/14/26 14:51:09: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 14:51:09: SESSION_MGR: creating session with session uuid: 'd7910940-009f-44af-b9cb-2eb37cdcbbe9' and name 'v++_compile_Envelope_Detector'
+04/14/26 14:51:09: KERNEL_SVC: creating session with uuid: 'd7910940-009f-44af-b9cb-2eb37cdcbbe9' and name 'v++_compile_Envelope_Detector'
+04/14/26 14:51:09: GUIDANCE_SMGR: creating guidance session with uuid: 'd7910940-009f-44af-b9cb-2eb37cdcbbe9' and name 'v++_compile_Envelope_Detector'
+04/14/26 14:51:16: Dispatch Server: Accepted socket connection from client
+04/14/26 14:51:16: Starting Socket connection
+04/14/26 14:52:11: SESSION_MGR: closing session for UUID 'd7910940-009f-44af-b9cb-2eb37cdcbbe9' with name 'v++_compile_Envelope_Detector'
+04/14/26 14:52:11: KERNEL_SVC: closing session for UUID 'd7910940-009f-44af-b9cb-2eb37cdcbbe9' with name 'v++_compile_Envelope_Detector'
+04/14/26 14:52:11: GUIDANCE_SMGR: closing session for UUID 'd7910940-009f-44af-b9cb-2eb37cdcbbe9' with name 'v++_compile_Envelope_Detector'
+04/14/26 14:52:11: STOP_SERVER received, server token: 266a685b-ed57-4b52-9220-a6ad92b0836e, passed token: 266a685b-ed57-4b52-9220-a6ad92b0836e
+04/14/26 14:52:11: Socket received request to stop server.
+04/14/26 14:52:11: Dispatch Server: do_await_stop
+04/14/26 14:52:11: SERVER: destructor for server bound to port 50320
+04/14/26 14:52:11: Server exiting with status 0.
+04/14/26 14:52:11: Closing log file.
+04/14/26 16:29:13: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 16:29:13: Server was asked to start on port: '64001'
+04/14/26 16:29:13: Server is using token UUID: 'b5bb9f5d-d062-4c02-aea8-331fb896193d'
+04/14/26 16:29:13: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 16:29:13: Attempting to start server on port '64001'
+04/14/26 16:29:13: Running Dispatch Server
+04/14/26 16:29:13: Version 2.2.0
+04/14/26 16:29:14: Dispatch Server: Accepted socket connection from client
+04/14/26 16:29:14: Starting Socket connection
+04/14/26 16:29:14: EXCHANGE_TOKEN received, server token: b5bb9f5d-d062-4c02-aea8-331fb896193d, passed token: b5bb9f5d-d062-4c02-aea8-331fb896193d
+04/14/26 16:29:14: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 16:29:14: SESSION_MGR: creating session with session uuid: '2edf212f-c763-41c1-a87b-b23dc7e53e8b' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:14: KERNEL_SVC: creating session with uuid: '2edf212f-c763-41c1-a87b-b23dc7e53e8b' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:14: GUIDANCE_SMGR: creating guidance session with uuid: '2edf212f-c763-41c1-a87b-b23dc7e53e8b' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:20: Dispatch Server: Accepted socket connection from client
+04/14/26 16:29:20: Starting Socket connection
+04/14/26 16:29:31: SESSION_MGR: closing session for UUID '2edf212f-c763-41c1-a87b-b23dc7e53e8b' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:31: KERNEL_SVC: closing session for UUID '2edf212f-c763-41c1-a87b-b23dc7e53e8b' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:31: GUIDANCE_SMGR: closing session for UUID '2edf212f-c763-41c1-a87b-b23dc7e53e8b' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:31: STOP_SERVER received, server token: b5bb9f5d-d062-4c02-aea8-331fb896193d, passed token: b5bb9f5d-d062-4c02-aea8-331fb896193d
+04/14/26 16:29:31: Socket received request to stop server.
+04/14/26 16:29:31: Dispatch Server: do_await_stop
+04/14/26 16:29:31: SERVER: destructor for server bound to port 64001
+04/14/26 16:29:31: Server exiting with status 0.
+04/14/26 16:29:31: Closing log file.
+04/14/26 16:29:51: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 16:29:51: Server was asked to start on port: '51149'
+04/14/26 16:29:51: Server is using token UUID: '15b9af5c-d7f7-4fb3-9eaa-06d5d5002e1d'
+04/14/26 16:29:51: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 16:29:51: Attempting to start server on port '51149'
+04/14/26 16:29:51: Running Dispatch Server
+04/14/26 16:29:51: Version 2.2.0
+04/14/26 16:29:53: Dispatch Server: Accepted socket connection from client
+04/14/26 16:29:53: Starting Socket connection
+04/14/26 16:29:53: EXCHANGE_TOKEN received, server token: 15b9af5c-d7f7-4fb3-9eaa-06d5d5002e1d, passed token: 15b9af5c-d7f7-4fb3-9eaa-06d5d5002e1d
+04/14/26 16:29:53: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 16:29:53: SESSION_MGR: creating session with session uuid: '60d7acc6-f064-4392-839c-f02e81e28abe' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:53: KERNEL_SVC: creating session with uuid: '60d7acc6-f064-4392-839c-f02e81e28abe' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:53: GUIDANCE_SMGR: creating guidance session with uuid: '60d7acc6-f064-4392-839c-f02e81e28abe' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:29:59: Dispatch Server: Accepted socket connection from client
+04/14/26 16:29:59: Starting Socket connection
+04/14/26 16:30:08: SESSION_MGR: closing session for UUID '60d7acc6-f064-4392-839c-f02e81e28abe' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:30:08: KERNEL_SVC: closing session for UUID '60d7acc6-f064-4392-839c-f02e81e28abe' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:30:08: GUIDANCE_SMGR: closing session for UUID '60d7acc6-f064-4392-839c-f02e81e28abe' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:30:08: STOP_SERVER received, server token: 15b9af5c-d7f7-4fb3-9eaa-06d5d5002e1d, passed token: 15b9af5c-d7f7-4fb3-9eaa-06d5d5002e1d
+04/14/26 16:30:08: Socket received request to stop server.
+04/14/26 16:30:08: Dispatch Server: do_await_stop
+04/14/26 16:30:08: SERVER: destructor for server bound to port 51149
+04/14/26 16:30:08: Server exiting with status 0.
+04/14/26 16:30:08: Closing log file.
+04/14/26 16:53:23: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 16:53:23: Server was asked to start on port: '60687'
+04/14/26 16:53:23: Server is using token UUID: '96594be6-5f39-4c2f-ad48-c45fb24fa61d'
+04/14/26 16:53:23: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 16:53:23: Attempting to start server on port '60687'
+04/14/26 16:53:23: Running Dispatch Server
+04/14/26 16:53:23: Version 2.2.0
+04/14/26 16:53:25: Dispatch Server: Accepted socket connection from client
+04/14/26 16:53:25: Starting Socket connection
+04/14/26 16:53:25: EXCHANGE_TOKEN received, server token: 96594be6-5f39-4c2f-ad48-c45fb24fa61d, passed token: 96594be6-5f39-4c2f-ad48-c45fb24fa61d
+04/14/26 16:53:25: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 16:53:25: SESSION_MGR: creating session with session uuid: '53a3630a-f061-4bf8-af8b-3a4f7866e58f' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:53:25: KERNEL_SVC: creating session with uuid: '53a3630a-f061-4bf8-af8b-3a4f7866e58f' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:53:25: GUIDANCE_SMGR: creating guidance session with uuid: '53a3630a-f061-4bf8-af8b-3a4f7866e58f' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:53:29: Dispatch Server: Accepted socket connection from client
+04/14/26 16:53:29: Starting Socket connection
+04/14/26 16:53:36: SESSION_MGR: closing session for UUID '53a3630a-f061-4bf8-af8b-3a4f7866e58f' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:53:36: KERNEL_SVC: closing session for UUID '53a3630a-f061-4bf8-af8b-3a4f7866e58f' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:53:36: GUIDANCE_SMGR: closing session for UUID '53a3630a-f061-4bf8-af8b-3a4f7866e58f' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:53:36: STOP_SERVER received, server token: 96594be6-5f39-4c2f-ad48-c45fb24fa61d, passed token: 96594be6-5f39-4c2f-ad48-c45fb24fa61d
+04/14/26 16:53:36: Socket received request to stop server.
+04/14/26 16:53:36: Dispatch Server: do_await_stop
+04/14/26 16:53:36: SERVER: destructor for server bound to port 60687
+04/14/26 16:53:36: Server exiting with status 0.
+04/14/26 16:53:36: Closing log file.
+04/14/26 16:54:09: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 16:54:09: Server was asked to start on port: '50178'
+04/14/26 16:54:09: Server is using token UUID: '1dd115af-dfff-469d-bb77-cab4d45b7b3a'
+04/14/26 16:54:09: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 16:54:09: Attempting to start server on port '50178'
+04/14/26 16:54:09: Running Dispatch Server
+04/14/26 16:54:09: Version 2.2.0
+04/14/26 16:54:11: Dispatch Server: Accepted socket connection from client
+04/14/26 16:54:11: Starting Socket connection
+04/14/26 16:54:11: EXCHANGE_TOKEN received, server token: 1dd115af-dfff-469d-bb77-cab4d45b7b3a, passed token: 1dd115af-dfff-469d-bb77-cab4d45b7b3a
+04/14/26 16:54:11: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 16:54:11: SESSION_MGR: creating session with session uuid: 'b62e5f8e-ef1a-4278-8954-7502e8021c80' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:54:11: KERNEL_SVC: creating session with uuid: 'b62e5f8e-ef1a-4278-8954-7502e8021c80' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:54:11: GUIDANCE_SMGR: creating guidance session with uuid: 'b62e5f8e-ef1a-4278-8954-7502e8021c80' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:54:15: Dispatch Server: Accepted socket connection from client
+04/14/26 16:54:15: Starting Socket connection
+04/14/26 16:54:23: SESSION_MGR: closing session for UUID 'b62e5f8e-ef1a-4278-8954-7502e8021c80' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:54:23: KERNEL_SVC: closing session for UUID 'b62e5f8e-ef1a-4278-8954-7502e8021c80' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:54:23: GUIDANCE_SMGR: closing session for UUID 'b62e5f8e-ef1a-4278-8954-7502e8021c80' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:54:23: STOP_SERVER received, server token: 1dd115af-dfff-469d-bb77-cab4d45b7b3a, passed token: 1dd115af-dfff-469d-bb77-cab4d45b7b3a
+04/14/26 16:54:23: Socket received request to stop server.
+04/14/26 16:54:23: Dispatch Server: do_await_stop
+04/14/26 16:54:23: SERVER: destructor for server bound to port 50178
+04/14/26 16:54:23: Server exiting with status 0.
+04/14/26 16:54:23: Closing log file.
+04/14/26 16:55:01: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 16:55:01: Server was asked to start on port: '57286'
+04/14/26 16:55:01: Server is using token UUID: '9632c385-07b4-4beb-a6ad-b7cdef148af3'
+04/14/26 16:55:01: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 16:55:01: Attempting to start server on port '57286'
+04/14/26 16:55:01: Running Dispatch Server
+04/14/26 16:55:01: Version 2.2.0
+04/14/26 16:55:03: Dispatch Server: Accepted socket connection from client
+04/14/26 16:55:03: Starting Socket connection
+04/14/26 16:55:03: EXCHANGE_TOKEN received, server token: 9632c385-07b4-4beb-a6ad-b7cdef148af3, passed token: 9632c385-07b4-4beb-a6ad-b7cdef148af3
+04/14/26 16:55:03: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 16:55:03: SESSION_MGR: creating session with session uuid: 'af367bb6-d828-4896-9ef0-c8534f91608a' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:55:03: KERNEL_SVC: creating session with uuid: 'af367bb6-d828-4896-9ef0-c8534f91608a' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:55:03: GUIDANCE_SMGR: creating guidance session with uuid: 'af367bb6-d828-4896-9ef0-c8534f91608a' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:55:07: Dispatch Server: Accepted socket connection from client
+04/14/26 16:55:07: Starting Socket connection
+04/14/26 16:55:15: SESSION_MGR: closing session for UUID 'af367bb6-d828-4896-9ef0-c8534f91608a' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:55:15: KERNEL_SVC: closing session for UUID 'af367bb6-d828-4896-9ef0-c8534f91608a' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:55:15: GUIDANCE_SMGR: closing session for UUID 'af367bb6-d828-4896-9ef0-c8534f91608a' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:55:15: STOP_SERVER received, server token: 9632c385-07b4-4beb-a6ad-b7cdef148af3, passed token: 9632c385-07b4-4beb-a6ad-b7cdef148af3
+04/14/26 16:55:15: Socket received request to stop server.
+04/14/26 16:55:15: Dispatch Server: do_await_stop
+04/14/26 16:55:15: SERVER: destructor for server bound to port 57286
+04/14/26 16:55:15: Server exiting with status 0.
+04/14/26 16:55:15: Closing log file.
+04/14/26 16:58:20: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 16:58:20: Server was asked to start on port: '63511'
+04/14/26 16:58:20: Server is using token UUID: 'cdd5cb9f-a09b-431f-b9ff-c9c72ea9646a'
+04/14/26 16:58:20: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 16:58:20: Attempting to start server on port '63511'
+04/14/26 16:58:20: Running Dispatch Server
+04/14/26 16:58:20: Version 2.2.0
+04/14/26 16:58:22: Dispatch Server: Accepted socket connection from client
+04/14/26 16:58:22: Starting Socket connection
+04/14/26 16:58:22: EXCHANGE_TOKEN received, server token: cdd5cb9f-a09b-431f-b9ff-c9c72ea9646a, passed token: cdd5cb9f-a09b-431f-b9ff-c9c72ea9646a
+04/14/26 16:58:22: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 16:58:22: SESSION_MGR: creating session with session uuid: '745d52ba-8431-42fc-9b39-0b1abd54b11d' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:58:22: KERNEL_SVC: creating session with uuid: '745d52ba-8431-42fc-9b39-0b1abd54b11d' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:58:22: GUIDANCE_SMGR: creating guidance session with uuid: '745d52ba-8431-42fc-9b39-0b1abd54b11d' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:58:26: Dispatch Server: Accepted socket connection from client
+04/14/26 16:58:26: Starting Socket connection
+04/14/26 16:58:33: SESSION_MGR: closing session for UUID '745d52ba-8431-42fc-9b39-0b1abd54b11d' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:58:33: KERNEL_SVC: closing session for UUID '745d52ba-8431-42fc-9b39-0b1abd54b11d' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:58:33: GUIDANCE_SMGR: closing session for UUID '745d52ba-8431-42fc-9b39-0b1abd54b11d' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:58:33: STOP_SERVER received, server token: cdd5cb9f-a09b-431f-b9ff-c9c72ea9646a, passed token: cdd5cb9f-a09b-431f-b9ff-c9c72ea9646a
+04/14/26 16:58:33: Socket received request to stop server.
+04/14/26 16:58:33: Dispatch Server: do_await_stop
+04/14/26 16:58:33: SERVER: destructor for server bound to port 63511
+04/14/26 16:58:33: Server exiting with status 0.
+04/14/26 16:58:33: Closing log file.
+04/14/26 16:59:49: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 16:59:49: Server was asked to start on port: '61247'
+04/14/26 16:59:49: Server is using token UUID: '668a0cd7-6484-47c4-bf3d-8065559e178c'
+04/14/26 16:59:49: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 16:59:49: Attempting to start server on port '61247'
+04/14/26 16:59:49: Running Dispatch Server
+04/14/26 16:59:49: Version 2.2.0
+04/14/26 16:59:51: Dispatch Server: Accepted socket connection from client
+04/14/26 16:59:51: Starting Socket connection
+04/14/26 16:59:51: EXCHANGE_TOKEN received, server token: 668a0cd7-6484-47c4-bf3d-8065559e178c, passed token: 668a0cd7-6484-47c4-bf3d-8065559e178c
+04/14/26 16:59:51: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 16:59:51: SESSION_MGR: creating session with session uuid: 'fe1055f3-b665-48e3-9a5d-ba85dc4862f3' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:59:51: KERNEL_SVC: creating session with uuid: 'fe1055f3-b665-48e3-9a5d-ba85dc4862f3' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:59:51: GUIDANCE_SMGR: creating guidance session with uuid: 'fe1055f3-b665-48e3-9a5d-ba85dc4862f3' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:59:55: Dispatch Server: Accepted socket connection from client
+04/14/26 16:59:55: Starting Socket connection
+04/14/26 16:59:58: SESSION_MGR: closing session for UUID 'fe1055f3-b665-48e3-9a5d-ba85dc4862f3' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:59:58: KERNEL_SVC: closing session for UUID 'fe1055f3-b665-48e3-9a5d-ba85dc4862f3' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:59:58: GUIDANCE_SMGR: closing session for UUID 'fe1055f3-b665-48e3-9a5d-ba85dc4862f3' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 16:59:58: STOP_SERVER received, server token: 668a0cd7-6484-47c4-bf3d-8065559e178c, passed token: 668a0cd7-6484-47c4-bf3d-8065559e178c
+04/14/26 16:59:58: Socket received request to stop server.
+04/14/26 16:59:58: Dispatch Server: do_await_stop
+04/14/26 16:59:58: SERVER: destructor for server bound to port 61247
+04/14/26 16:59:58: Server exiting with status 0.
+04/14/26 16:59:58: Closing log file.
+04/14/26 17:04:35: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:04:35: Server was asked to start on port: '54421'
+04/14/26 17:04:35: Server is using token UUID: '686610b6-93e0-4155-9786-c60a0c8114e7'
+04/14/26 17:04:35: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:04:35: Attempting to start server on port '54421'
+04/14/26 17:04:35: Running Dispatch Server
+04/14/26 17:04:35: Version 2.2.0
+04/14/26 17:04:37: Dispatch Server: Accepted socket connection from client
+04/14/26 17:04:37: Starting Socket connection
+04/14/26 17:04:37: EXCHANGE_TOKEN received, server token: 686610b6-93e0-4155-9786-c60a0c8114e7, passed token: 686610b6-93e0-4155-9786-c60a0c8114e7
+04/14/26 17:04:37: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:04:37: SESSION_MGR: creating session with session uuid: 'fb85e01a-e6a2-4709-8596-7c938b4bd18b' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:04:37: KERNEL_SVC: creating session with uuid: 'fb85e01a-e6a2-4709-8596-7c938b4bd18b' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:04:37: GUIDANCE_SMGR: creating guidance session with uuid: 'fb85e01a-e6a2-4709-8596-7c938b4bd18b' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:04:41: Dispatch Server: Accepted socket connection from client
+04/14/26 17:04:41: Starting Socket connection
+04/14/26 17:04:43: SESSION_MGR: closing session for UUID 'fb85e01a-e6a2-4709-8596-7c938b4bd18b' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:04:43: KERNEL_SVC: closing session for UUID 'fb85e01a-e6a2-4709-8596-7c938b4bd18b' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:04:43: GUIDANCE_SMGR: closing session for UUID 'fb85e01a-e6a2-4709-8596-7c938b4bd18b' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:04:43: STOP_SERVER received, server token: 686610b6-93e0-4155-9786-c60a0c8114e7, passed token: 686610b6-93e0-4155-9786-c60a0c8114e7
+04/14/26 17:04:43: Socket received request to stop server.
+04/14/26 17:04:43: Dispatch Server: do_await_stop
+04/14/26 17:04:43: SERVER: destructor for server bound to port 54421
+04/14/26 17:04:43: Server exiting with status 0.
+04/14/26 17:04:43: Closing log file.
+04/14/26 17:06:41: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:06:41: Server was asked to start on port: '56874'
+04/14/26 17:06:41: Server is using token UUID: '4ddc62f7-3e4f-409b-a0f9-4f3599961bfa'
+04/14/26 17:06:41: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:06:41: Attempting to start server on port '56874'
+04/14/26 17:06:41: Running Dispatch Server
+04/14/26 17:06:41: Version 2.2.0
+04/14/26 17:06:43: Dispatch Server: Accepted socket connection from client
+04/14/26 17:06:43: Starting Socket connection
+04/14/26 17:06:43: EXCHANGE_TOKEN received, server token: 4ddc62f7-3e4f-409b-a0f9-4f3599961bfa, passed token: 4ddc62f7-3e4f-409b-a0f9-4f3599961bfa
+04/14/26 17:06:43: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:06:43: SESSION_MGR: creating session with session uuid: '59b54714-b287-4290-8213-79b4836dbbc0' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:06:43: KERNEL_SVC: creating session with uuid: '59b54714-b287-4290-8213-79b4836dbbc0' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:06:43: GUIDANCE_SMGR: creating guidance session with uuid: '59b54714-b287-4290-8213-79b4836dbbc0' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:06:47: Dispatch Server: Accepted socket connection from client
+04/14/26 17:06:47: Starting Socket connection
+04/14/26 17:06:49: SESSION_MGR: closing session for UUID '59b54714-b287-4290-8213-79b4836dbbc0' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:06:49: KERNEL_SVC: closing session for UUID '59b54714-b287-4290-8213-79b4836dbbc0' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:06:49: GUIDANCE_SMGR: closing session for UUID '59b54714-b287-4290-8213-79b4836dbbc0' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:06:49: STOP_SERVER received, server token: 4ddc62f7-3e4f-409b-a0f9-4f3599961bfa, passed token: 4ddc62f7-3e4f-409b-a0f9-4f3599961bfa
+04/14/26 17:06:49: Socket received request to stop server.
+04/14/26 17:06:49: Dispatch Server: do_await_stop
+04/14/26 17:06:49: SERVER: destructor for server bound to port 56874
+04/14/26 17:06:49: Server exiting with status 0.
+04/14/26 17:06:49: Closing log file.
+04/14/26 17:08:19: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:08:19: Server was asked to start on port: '57404'
+04/14/26 17:08:19: Server is using token UUID: 'ca5437ae-789f-46f3-8a62-86578363858d'
+04/14/26 17:08:19: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:08:19: Attempting to start server on port '57404'
+04/14/26 17:08:19: Running Dispatch Server
+04/14/26 17:08:19: Version 2.2.0
+04/14/26 17:08:21: Dispatch Server: Accepted socket connection from client
+04/14/26 17:08:21: Starting Socket connection
+04/14/26 17:08:21: EXCHANGE_TOKEN received, server token: ca5437ae-789f-46f3-8a62-86578363858d, passed token: ca5437ae-789f-46f3-8a62-86578363858d
+04/14/26 17:08:21: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:08:21: SESSION_MGR: creating session with session uuid: '2efc4c2b-2c80-4281-9a2c-e81f1503e6a2' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:08:21: KERNEL_SVC: creating session with uuid: '2efc4c2b-2c80-4281-9a2c-e81f1503e6a2' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:08:21: GUIDANCE_SMGR: creating guidance session with uuid: '2efc4c2b-2c80-4281-9a2c-e81f1503e6a2' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:08:25: Dispatch Server: Accepted socket connection from client
+04/14/26 17:08:25: Starting Socket connection
+04/14/26 17:08:35: SESSION_MGR: closing session for UUID '2efc4c2b-2c80-4281-9a2c-e81f1503e6a2' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:08:35: KERNEL_SVC: closing session for UUID '2efc4c2b-2c80-4281-9a2c-e81f1503e6a2' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:08:35: GUIDANCE_SMGR: closing session for UUID '2efc4c2b-2c80-4281-9a2c-e81f1503e6a2' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:08:36: STOP_SERVER received, server token: ca5437ae-789f-46f3-8a62-86578363858d, passed token: ca5437ae-789f-46f3-8a62-86578363858d
+04/14/26 17:08:36: Socket received request to stop server.
+04/14/26 17:08:36: Dispatch Server: do_await_stop
+04/14/26 17:08:36: SERVER: destructor for server bound to port 57404
+04/14/26 17:08:36: Server exiting with status 0.
+04/14/26 17:08:36: Closing log file.
+04/14/26 17:10:12: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:10:12: Server was asked to start on port: '56769'
+04/14/26 17:10:12: Server is using token UUID: '4b0d8a94-16ee-49a1-af48-f43f0e0223c7'
+04/14/26 17:10:12: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:10:12: Attempting to start server on port '56769'
+04/14/26 17:10:12: Running Dispatch Server
+04/14/26 17:10:12: Version 2.2.0
+04/14/26 17:10:14: Dispatch Server: Accepted socket connection from client
+04/14/26 17:10:14: Starting Socket connection
+04/14/26 17:10:14: EXCHANGE_TOKEN received, server token: 4b0d8a94-16ee-49a1-af48-f43f0e0223c7, passed token: 4b0d8a94-16ee-49a1-af48-f43f0e0223c7
+04/14/26 17:10:14: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:10:14: SESSION_MGR: creating session with session uuid: '7efd70c1-df9b-4b8d-9bd9-73fa224fc057' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:14: KERNEL_SVC: creating session with uuid: '7efd70c1-df9b-4b8d-9bd9-73fa224fc057' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:14: GUIDANCE_SMGR: creating guidance session with uuid: '7efd70c1-df9b-4b8d-9bd9-73fa224fc057' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:17: Dispatch Server: Accepted socket connection from client
+04/14/26 17:10:17: Starting Socket connection
+04/14/26 17:10:23: SESSION_MGR: closing session for UUID '7efd70c1-df9b-4b8d-9bd9-73fa224fc057' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:23: KERNEL_SVC: closing session for UUID '7efd70c1-df9b-4b8d-9bd9-73fa224fc057' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:23: GUIDANCE_SMGR: closing session for UUID '7efd70c1-df9b-4b8d-9bd9-73fa224fc057' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:23: STOP_SERVER received, server token: 4b0d8a94-16ee-49a1-af48-f43f0e0223c7, passed token: 4b0d8a94-16ee-49a1-af48-f43f0e0223c7
+04/14/26 17:10:23: Socket received request to stop server.
+04/14/26 17:10:23: Dispatch Server: do_await_stop
+04/14/26 17:10:23: SERVER: destructor for server bound to port 56769
+04/14/26 17:10:23: Server exiting with status 0.
+04/14/26 17:10:23: Closing log file.
+04/14/26 17:10:43: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:10:43: Server was asked to start on port: '56773'
+04/14/26 17:10:43: Server is using token UUID: '1720e9f9-83ac-441d-af02-68d1b63e14e4'
+04/14/26 17:10:43: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:10:43: Attempting to start server on port '56773'
+04/14/26 17:10:43: Running Dispatch Server
+04/14/26 17:10:43: Version 2.2.0
+04/14/26 17:10:45: Dispatch Server: Accepted socket connection from client
+04/14/26 17:10:45: Starting Socket connection
+04/14/26 17:10:45: EXCHANGE_TOKEN received, server token: 1720e9f9-83ac-441d-af02-68d1b63e14e4, passed token: 1720e9f9-83ac-441d-af02-68d1b63e14e4
+04/14/26 17:10:45: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:10:45: SESSION_MGR: creating session with session uuid: '5a31953c-a614-4144-bd11-34e3ef58947a' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:45: KERNEL_SVC: creating session with uuid: '5a31953c-a614-4144-bd11-34e3ef58947a' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:45: GUIDANCE_SMGR: creating guidance session with uuid: '5a31953c-a614-4144-bd11-34e3ef58947a' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:48: Dispatch Server: Accepted socket connection from client
+04/14/26 17:10:48: Starting Socket connection
+04/14/26 17:10:49: SESSION_MGR: closing session for UUID '5a31953c-a614-4144-bd11-34e3ef58947a' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:49: KERNEL_SVC: closing session for UUID '5a31953c-a614-4144-bd11-34e3ef58947a' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:49: GUIDANCE_SMGR: closing session for UUID '5a31953c-a614-4144-bd11-34e3ef58947a' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:10:49: STOP_SERVER received, server token: 1720e9f9-83ac-441d-af02-68d1b63e14e4, passed token: 1720e9f9-83ac-441d-af02-68d1b63e14e4
+04/14/26 17:10:49: Socket received request to stop server.
+04/14/26 17:10:49: Dispatch Server: do_await_stop
+04/14/26 17:10:49: SERVER: destructor for server bound to port 56773
+04/14/26 17:10:49: Server exiting with status 0.
+04/14/26 17:10:49: Closing log file.
+04/14/26 17:11:14: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:11:14: Server was asked to start on port: '56778'
+04/14/26 17:11:14: Server is using token UUID: 'd5f5a5db-a436-4f61-ad7b-337978a470cf'
+04/14/26 17:11:14: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:11:14: Attempting to start server on port '56778'
+04/14/26 17:11:14: Running Dispatch Server
+04/14/26 17:11:14: Version 2.2.0
+04/14/26 17:11:16: Dispatch Server: Accepted socket connection from client
+04/14/26 17:11:16: Starting Socket connection
+04/14/26 17:11:16: EXCHANGE_TOKEN received, server token: d5f5a5db-a436-4f61-ad7b-337978a470cf, passed token: d5f5a5db-a436-4f61-ad7b-337978a470cf
+04/14/26 17:11:16: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:11:16: SESSION_MGR: creating session with session uuid: 'f30e8eb3-dec7-4254-ab41-a6d685757bf8' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:11:16: KERNEL_SVC: creating session with uuid: 'f30e8eb3-dec7-4254-ab41-a6d685757bf8' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:11:16: GUIDANCE_SMGR: creating guidance session with uuid: 'f30e8eb3-dec7-4254-ab41-a6d685757bf8' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:11:20: Dispatch Server: Accepted socket connection from client
+04/14/26 17:11:20: Starting Socket connection
+04/14/26 17:11:28: SESSION_MGR: closing session for UUID 'f30e8eb3-dec7-4254-ab41-a6d685757bf8' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:11:28: KERNEL_SVC: closing session for UUID 'f30e8eb3-dec7-4254-ab41-a6d685757bf8' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:11:28: GUIDANCE_SMGR: closing session for UUID 'f30e8eb3-dec7-4254-ab41-a6d685757bf8' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:11:28: STOP_SERVER received, server token: d5f5a5db-a436-4f61-ad7b-337978a470cf, passed token: d5f5a5db-a436-4f61-ad7b-337978a470cf
+04/14/26 17:11:28: Socket received request to stop server.
+04/14/26 17:11:28: Dispatch Server: do_await_stop
+04/14/26 17:11:28: SERVER: destructor for server bound to port 56778
+04/14/26 17:11:28: Server exiting with status 0.
+04/14/26 17:11:28: Closing log file.
+04/14/26 17:12:15: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:12:15: Server was asked to start on port: '64799'
+04/14/26 17:12:15: Server is using token UUID: '77dacb67-a36a-49e2-b0d9-71e45e1f485b'
+04/14/26 17:12:15: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:12:15: Attempting to start server on port '64799'
+04/14/26 17:12:15: Running Dispatch Server
+04/14/26 17:12:15: Version 2.2.0
+04/14/26 17:12:17: Dispatch Server: Accepted socket connection from client
+04/14/26 17:12:17: Starting Socket connection
+04/14/26 17:12:17: EXCHANGE_TOKEN received, server token: 77dacb67-a36a-49e2-b0d9-71e45e1f485b, passed token: 77dacb67-a36a-49e2-b0d9-71e45e1f485b
+04/14/26 17:12:17: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:12:17: SESSION_MGR: creating session with session uuid: 'cb7f831a-2ae8-41a3-9ab3-e9d4c1ef05c7' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:12:17: KERNEL_SVC: creating session with uuid: 'cb7f831a-2ae8-41a3-9ab3-e9d4c1ef05c7' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:12:17: GUIDANCE_SMGR: creating guidance session with uuid: 'cb7f831a-2ae8-41a3-9ab3-e9d4c1ef05c7' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:12:20: Dispatch Server: Accepted socket connection from client
+04/14/26 17:12:20: Starting Socket connection
+04/14/26 17:12:23: SESSION_MGR: closing session for UUID 'cb7f831a-2ae8-41a3-9ab3-e9d4c1ef05c7' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:12:23: KERNEL_SVC: closing session for UUID 'cb7f831a-2ae8-41a3-9ab3-e9d4c1ef05c7' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:12:23: GUIDANCE_SMGR: closing session for UUID 'cb7f831a-2ae8-41a3-9ab3-e9d4c1ef05c7' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:12:23: STOP_SERVER received, server token: 77dacb67-a36a-49e2-b0d9-71e45e1f485b, passed token: 77dacb67-a36a-49e2-b0d9-71e45e1f485b
+04/14/26 17:12:23: Socket received request to stop server.
+04/14/26 17:12:23: Dispatch Server: do_await_stop
+04/14/26 17:12:23: SERVER: destructor for server bound to port 64799
+04/14/26 17:12:23: Server exiting with status 0.
+04/14/26 17:12:23: Closing log file.
+04/14/26 17:12:56: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:12:56: Server was asked to start on port: '64803'
+04/14/26 17:12:56: Server is using token UUID: 'ab15d2fe-4e82-41b3-98bc-63c3aa6a0c97'
+04/14/26 17:12:56: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:12:56: Attempting to start server on port '64803'
+04/14/26 17:12:56: Running Dispatch Server
+04/14/26 17:12:56: Version 2.2.0
+04/14/26 17:12:58: Dispatch Server: Accepted socket connection from client
+04/14/26 17:12:58: Starting Socket connection
+04/14/26 17:12:58: EXCHANGE_TOKEN received, server token: ab15d2fe-4e82-41b3-98bc-63c3aa6a0c97, passed token: ab15d2fe-4e82-41b3-98bc-63c3aa6a0c97
+04/14/26 17:12:58: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:12:58: SESSION_MGR: creating session with session uuid: '32754ffd-69f2-4136-af67-260955fc2590' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:12:58: KERNEL_SVC: creating session with uuid: '32754ffd-69f2-4136-af67-260955fc2590' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:12:58: GUIDANCE_SMGR: creating guidance session with uuid: '32754ffd-69f2-4136-af67-260955fc2590' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:13:02: Dispatch Server: Accepted socket connection from client
+04/14/26 17:13:02: Starting Socket connection
+04/14/26 17:13:09: SESSION_MGR: closing session for UUID '32754ffd-69f2-4136-af67-260955fc2590' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:13:09: KERNEL_SVC: closing session for UUID '32754ffd-69f2-4136-af67-260955fc2590' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:13:09: GUIDANCE_SMGR: closing session for UUID '32754ffd-69f2-4136-af67-260955fc2590' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:13:09: STOP_SERVER received, server token: ab15d2fe-4e82-41b3-98bc-63c3aa6a0c97, passed token: ab15d2fe-4e82-41b3-98bc-63c3aa6a0c97
+04/14/26 17:13:09: Socket received request to stop server.
+04/14/26 17:13:09: Dispatch Server: do_await_stop
+04/14/26 17:13:09: SERVER: destructor for server bound to port 64803
+04/14/26 17:13:09: Server exiting with status 0.
+04/14/26 17:13:09: Closing log file.
+04/14/26 17:14:13: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:14:13: Server was asked to start on port: '57888'
+04/14/26 17:14:13: Server is using token UUID: '048bcfc0-47f6-4edd-a0dc-6e97b3dd3886'
+04/14/26 17:14:13: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:14:13: Attempting to start server on port '57888'
+04/14/26 17:14:13: Running Dispatch Server
+04/14/26 17:14:13: Version 2.2.0
+04/14/26 17:14:15: Dispatch Server: Accepted socket connection from client
+04/14/26 17:14:15: Starting Socket connection
+04/14/26 17:14:15: EXCHANGE_TOKEN received, server token: 048bcfc0-47f6-4edd-a0dc-6e97b3dd3886, passed token: 048bcfc0-47f6-4edd-a0dc-6e97b3dd3886
+04/14/26 17:14:15: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:14:15: SESSION_MGR: creating session with session uuid: 'd5b8017f-2e9d-48ac-ab89-b6f75f5d69c6' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:14:15: KERNEL_SVC: creating session with uuid: 'd5b8017f-2e9d-48ac-ab89-b6f75f5d69c6' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:14:15: GUIDANCE_SMGR: creating guidance session with uuid: 'd5b8017f-2e9d-48ac-ab89-b6f75f5d69c6' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:14:18: Dispatch Server: Accepted socket connection from client
+04/14/26 17:14:18: Starting Socket connection
+04/14/26 17:14:26: SESSION_MGR: closing session for UUID 'd5b8017f-2e9d-48ac-ab89-b6f75f5d69c6' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:14:26: KERNEL_SVC: closing session for UUID 'd5b8017f-2e9d-48ac-ab89-b6f75f5d69c6' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:14:26: GUIDANCE_SMGR: closing session for UUID 'd5b8017f-2e9d-48ac-ab89-b6f75f5d69c6' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:14:26: STOP_SERVER received, server token: 048bcfc0-47f6-4edd-a0dc-6e97b3dd3886, passed token: 048bcfc0-47f6-4edd-a0dc-6e97b3dd3886
+04/14/26 17:14:26: Socket received request to stop server.
+04/14/26 17:14:26: Dispatch Server: do_await_stop
+04/14/26 17:14:26: SERVER: destructor for server bound to port 57888
+04/14/26 17:14:26: Server exiting with status 0.
+04/14/26 17:14:26: Closing log file.
+04/14/26 17:31:19: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:31:19: Server was asked to start on port: '57613'
+04/14/26 17:31:19: Server is using token UUID: '60a3eb2d-9f68-41fc-a73b-89b7e53ffd74'
+04/14/26 17:31:19: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:31:19: Attempting to start server on port '57613'
+04/14/26 17:31:19: Running Dispatch Server
+04/14/26 17:31:19: Version 2.2.0
+04/14/26 17:31:21: Dispatch Server: Accepted socket connection from client
+04/14/26 17:31:21: Starting Socket connection
+04/14/26 17:31:21: EXCHANGE_TOKEN received, server token: 60a3eb2d-9f68-41fc-a73b-89b7e53ffd74, passed token: 60a3eb2d-9f68-41fc-a73b-89b7e53ffd74
+04/14/26 17:31:21: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:31:21: SESSION_MGR: creating session with session uuid: 'f8de181a-1f4f-4782-92d8-9e34a15f533e' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:31:21: KERNEL_SVC: creating session with uuid: 'f8de181a-1f4f-4782-92d8-9e34a15f533e' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:31:21: GUIDANCE_SMGR: creating guidance session with uuid: 'f8de181a-1f4f-4782-92d8-9e34a15f533e' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:31:25: Dispatch Server: Accepted socket connection from client
+04/14/26 17:31:25: Starting Socket connection
+04/14/26 17:31:36: SESSION_MGR: closing session for UUID 'f8de181a-1f4f-4782-92d8-9e34a15f533e' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:31:36: KERNEL_SVC: closing session for UUID 'f8de181a-1f4f-4782-92d8-9e34a15f533e' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:31:36: GUIDANCE_SMGR: closing session for UUID 'f8de181a-1f4f-4782-92d8-9e34a15f533e' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:31:36: STOP_SERVER received, server token: 60a3eb2d-9f68-41fc-a73b-89b7e53ffd74, passed token: 60a3eb2d-9f68-41fc-a73b-89b7e53ffd74
+04/14/26 17:31:36: Socket received request to stop server.
+04/14/26 17:31:36: Dispatch Server: do_await_stop
+04/14/26 17:31:36: SERVER: destructor for server bound to port 57613
+04/14/26 17:31:36: Server exiting with status 0.
+04/14/26 17:31:36: Closing log file.
+04/14/26 17:41:42: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:41:42: Server was asked to start on port: '57942'
+04/14/26 17:41:42: Server is using token UUID: 'e3e83a7b-90a5-4240-991f-7c1baf1a8751'
+04/14/26 17:41:42: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:41:42: Attempting to start server on port '57942'
+04/14/26 17:41:42: Running Dispatch Server
+04/14/26 17:41:42: Version 2.2.0
+04/14/26 17:41:44: Dispatch Server: Accepted socket connection from client
+04/14/26 17:41:44: Starting Socket connection
+04/14/26 17:41:44: EXCHANGE_TOKEN received, server token: e3e83a7b-90a5-4240-991f-7c1baf1a8751, passed token: e3e83a7b-90a5-4240-991f-7c1baf1a8751
+04/14/26 17:41:44: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:41:44: SESSION_MGR: creating session with session uuid: '35542e94-9f88-4a3d-9f40-524da1222816' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:41:44: KERNEL_SVC: creating session with uuid: '35542e94-9f88-4a3d-9f40-524da1222816' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:41:44: GUIDANCE_SMGR: creating guidance session with uuid: '35542e94-9f88-4a3d-9f40-524da1222816' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:41:47: Dispatch Server: Accepted socket connection from client
+04/14/26 17:41:47: Starting Socket connection
+04/14/26 17:41:55: SESSION_MGR: closing session for UUID '35542e94-9f88-4a3d-9f40-524da1222816' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:41:55: KERNEL_SVC: closing session for UUID '35542e94-9f88-4a3d-9f40-524da1222816' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:41:55: GUIDANCE_SMGR: closing session for UUID '35542e94-9f88-4a3d-9f40-524da1222816' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:41:55: STOP_SERVER received, server token: e3e83a7b-90a5-4240-991f-7c1baf1a8751, passed token: e3e83a7b-90a5-4240-991f-7c1baf1a8751
+04/14/26 17:41:55: Socket received request to stop server.
+04/14/26 17:41:55: Dispatch Server: do_await_stop
+04/14/26 17:41:55: SERVER: destructor for server bound to port 57942
+04/14/26 17:41:55: Server exiting with status 0.
+04/14/26 17:41:55: Closing log file.
+04/14/26 17:50:04: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 17:50:04: Server was asked to start on port: '60454'
+04/14/26 17:50:04: Server is using token UUID: '878ae530-8c57-4230-bddc-f6b78422e41e'
+04/14/26 17:50:04: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 17:50:04: Attempting to start server on port '60454'
+04/14/26 17:50:04: Running Dispatch Server
+04/14/26 17:50:04: Version 2.2.0
+04/14/26 17:50:06: Dispatch Server: Accepted socket connection from client
+04/14/26 17:50:06: Starting Socket connection
+04/14/26 17:50:06: EXCHANGE_TOKEN received, server token: 878ae530-8c57-4230-bddc-f6b78422e41e, passed token: 878ae530-8c57-4230-bddc-f6b78422e41e
+04/14/26 17:50:06: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 17:50:06: SESSION_MGR: creating session with session uuid: '412cf116-5a6d-4438-bbea-d15238cfa7d1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:50:06: KERNEL_SVC: creating session with uuid: '412cf116-5a6d-4438-bbea-d15238cfa7d1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:50:06: GUIDANCE_SMGR: creating guidance session with uuid: '412cf116-5a6d-4438-bbea-d15238cfa7d1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:50:10: Dispatch Server: Accepted socket connection from client
+04/14/26 17:50:10: Starting Socket connection
+04/14/26 17:50:17: SESSION_MGR: closing session for UUID '412cf116-5a6d-4438-bbea-d15238cfa7d1' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:50:17: KERNEL_SVC: closing session for UUID '412cf116-5a6d-4438-bbea-d15238cfa7d1' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:50:17: GUIDANCE_SMGR: closing session for UUID '412cf116-5a6d-4438-bbea-d15238cfa7d1' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 17:50:17: STOP_SERVER received, server token: 878ae530-8c57-4230-bddc-f6b78422e41e, passed token: 878ae530-8c57-4230-bddc-f6b78422e41e
+04/14/26 17:50:17: Socket received request to stop server.
+04/14/26 17:50:17: Dispatch Server: do_await_stop
+04/14/26 17:50:17: SERVER: destructor for server bound to port 60454
+04/14/26 17:50:17: Server exiting with status 0.
+04/14/26 17:50:17: Closing log file.
+04/14/26 18:01:55: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 18:01:55: Server was asked to start on port: '50061'
+04/14/26 18:01:55: Server is using token UUID: 'f2da13b6-4ac8-4185-84aa-bb75a241ab29'
+04/14/26 18:01:55: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 18:01:55: Attempting to start server on port '50061'
+04/14/26 18:01:55: Running Dispatch Server
+04/14/26 18:01:55: Version 2.2.0
+04/14/26 18:01:57: Dispatch Server: Accepted socket connection from client
+04/14/26 18:01:57: Starting Socket connection
+04/14/26 18:01:57: EXCHANGE_TOKEN received, server token: f2da13b6-4ac8-4185-84aa-bb75a241ab29, passed token: f2da13b6-4ac8-4185-84aa-bb75a241ab29
+04/14/26 18:01:57: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 18:01:57: SESSION_MGR: creating session with session uuid: '9125fd13-e8de-4710-905a-d21e370c53d1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:01:57: KERNEL_SVC: creating session with uuid: '9125fd13-e8de-4710-905a-d21e370c53d1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:01:57: GUIDANCE_SMGR: creating guidance session with uuid: '9125fd13-e8de-4710-905a-d21e370c53d1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:02:01: Dispatch Server: Accepted socket connection from client
+04/14/26 18:02:01: Starting Socket connection
+04/14/26 18:02:06: SESSION_MGR: closing session for UUID '9125fd13-e8de-4710-905a-d21e370c53d1' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:02:06: KERNEL_SVC: closing session for UUID '9125fd13-e8de-4710-905a-d21e370c53d1' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:02:06: GUIDANCE_SMGR: closing session for UUID '9125fd13-e8de-4710-905a-d21e370c53d1' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:02:06: STOP_SERVER received, server token: f2da13b6-4ac8-4185-84aa-bb75a241ab29, passed token: f2da13b6-4ac8-4185-84aa-bb75a241ab29
+04/14/26 18:02:06: Socket received request to stop server.
+04/14/26 18:02:06: Dispatch Server: do_await_stop
+04/14/26 18:02:06: SERVER: destructor for server bound to port 50061
+04/14/26 18:02:06: Server exiting with status 0.
+04/14/26 18:02:06: Closing log file.
+04/14/26 18:08:19: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 18:08:19: Server was asked to start on port: '63909'
+04/14/26 18:08:19: Server is using token UUID: 'd9a32de5-71ca-4e99-8be2-dab670c5be8d'
+04/14/26 18:08:19: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 18:08:19: Attempting to start server on port '63909'
+04/14/26 18:08:19: Running Dispatch Server
+04/14/26 18:08:19: Version 2.2.0
+04/14/26 18:08:21: Dispatch Server: Accepted socket connection from client
+04/14/26 18:08:21: Starting Socket connection
+04/14/26 18:08:21: EXCHANGE_TOKEN received, server token: d9a32de5-71ca-4e99-8be2-dab670c5be8d, passed token: d9a32de5-71ca-4e99-8be2-dab670c5be8d
+04/14/26 18:08:21: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 18:08:21: SESSION_MGR: creating session with session uuid: '97f4c96f-96d8-4fb5-ad8b-61395fd178d5' and name 'v++_compile_Envelope_Detector'
+04/14/26 18:08:21: KERNEL_SVC: creating session with uuid: '97f4c96f-96d8-4fb5-ad8b-61395fd178d5' and name 'v++_compile_Envelope_Detector'
+04/14/26 18:08:21: GUIDANCE_SMGR: creating guidance session with uuid: '97f4c96f-96d8-4fb5-ad8b-61395fd178d5' and name 'v++_compile_Envelope_Detector'
+04/14/26 18:08:25: Dispatch Server: Accepted socket connection from client
+04/14/26 18:08:25: Starting Socket connection
+04/14/26 18:08:58: SESSION_MGR: closing session for UUID '97f4c96f-96d8-4fb5-ad8b-61395fd178d5' with name 'v++_compile_Envelope_Detector'
+04/14/26 18:08:58: KERNEL_SVC: closing session for UUID '97f4c96f-96d8-4fb5-ad8b-61395fd178d5' with name 'v++_compile_Envelope_Detector'
+04/14/26 18:08:58: GUIDANCE_SMGR: closing session for UUID '97f4c96f-96d8-4fb5-ad8b-61395fd178d5' with name 'v++_compile_Envelope_Detector'
+04/14/26 18:08:58: STOP_SERVER received, server token: d9a32de5-71ca-4e99-8be2-dab670c5be8d, passed token: d9a32de5-71ca-4e99-8be2-dab670c5be8d
+04/14/26 18:08:58: Socket received request to stop server.
+04/14/26 18:08:58: Dispatch Server: do_await_stop
+04/14/26 18:08:58: SERVER: destructor for server bound to port 63909
+04/14/26 18:08:58: Server exiting with status 0.
+04/14/26 18:08:58: Closing log file.
+04/14/26 18:09:13: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 18:09:13: Server was asked to start on port: '56162'
+04/14/26 18:09:13: Server is using token UUID: '5f89e267-ab52-4b6d-a2cd-6fce99d15ddd'
+04/14/26 18:09:13: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 18:09:13: Attempting to start server on port '56162'
+04/14/26 18:09:13: Running Dispatch Server
+04/14/26 18:09:13: Version 2.2.0
+04/14/26 18:09:15: Dispatch Server: Accepted socket connection from client
+04/14/26 18:09:15: Starting Socket connection
+04/14/26 18:09:15: EXCHANGE_TOKEN received, server token: 5f89e267-ab52-4b6d-a2cd-6fce99d15ddd, passed token: 5f89e267-ab52-4b6d-a2cd-6fce99d15ddd
+04/14/26 18:09:15: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 18:09:15: SESSION_MGR: creating session with session uuid: '34354aab-a99f-4451-8a7b-ecfd825356fa' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:09:15: KERNEL_SVC: creating session with uuid: '34354aab-a99f-4451-8a7b-ecfd825356fa' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:09:15: GUIDANCE_SMGR: creating guidance session with uuid: '34354aab-a99f-4451-8a7b-ecfd825356fa' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:09:18: Dispatch Server: Accepted socket connection from client
+04/14/26 18:09:18: Starting Socket connection
+04/14/26 18:09:38: SESSION_MGR: closing session for UUID '34354aab-a99f-4451-8a7b-ecfd825356fa' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:09:38: KERNEL_SVC: closing session for UUID '34354aab-a99f-4451-8a7b-ecfd825356fa' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:09:38: GUIDANCE_SMGR: closing session for UUID '34354aab-a99f-4451-8a7b-ecfd825356fa' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:09:38: STOP_SERVER received, server token: 5f89e267-ab52-4b6d-a2cd-6fce99d15ddd, passed token: 5f89e267-ab52-4b6d-a2cd-6fce99d15ddd
+04/14/26 18:09:38: Socket received request to stop server.
+04/14/26 18:09:38: Dispatch Server: do_await_stop
+04/14/26 18:09:38: SERVER: destructor for server bound to port 56162
+04/14/26 18:09:38: Server exiting with status 0.
+04/14/26 18:09:38: Closing log file.
+04/14/26 18:39:14: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 18:39:14: Server was asked to start on port: '64681'
+04/14/26 18:39:14: Server is using token UUID: '47c0f013-abd2-4670-a60e-8df780421f08'
+04/14/26 18:39:14: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 18:39:14: Attempting to start server on port '64681'
+04/14/26 18:39:14: Running Dispatch Server
+04/14/26 18:39:14: Version 2.2.0
+04/14/26 18:39:16: Dispatch Server: Accepted socket connection from client
+04/14/26 18:39:16: Starting Socket connection
+04/14/26 18:39:16: EXCHANGE_TOKEN received, server token: 47c0f013-abd2-4670-a60e-8df780421f08, passed token: 47c0f013-abd2-4670-a60e-8df780421f08
+04/14/26 18:39:16: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 18:39:16: SESSION_MGR: creating session with session uuid: '1a91a063-f7ae-4d2d-8d79-ffab371aca6a' and name 'v++_compile_Envelope_Detector'
+04/14/26 18:39:16: KERNEL_SVC: creating session with uuid: '1a91a063-f7ae-4d2d-8d79-ffab371aca6a' and name 'v++_compile_Envelope_Detector'
+04/14/26 18:39:16: GUIDANCE_SMGR: creating guidance session with uuid: '1a91a063-f7ae-4d2d-8d79-ffab371aca6a' and name 'v++_compile_Envelope_Detector'
+04/14/26 18:39:19: Dispatch Server: Accepted socket connection from client
+04/14/26 18:39:19: Starting Socket connection
+04/14/26 18:39:53: SESSION_MGR: closing session for UUID '1a91a063-f7ae-4d2d-8d79-ffab371aca6a' with name 'v++_compile_Envelope_Detector'
+04/14/26 18:39:53: KERNEL_SVC: closing session for UUID '1a91a063-f7ae-4d2d-8d79-ffab371aca6a' with name 'v++_compile_Envelope_Detector'
+04/14/26 18:39:53: GUIDANCE_SMGR: closing session for UUID '1a91a063-f7ae-4d2d-8d79-ffab371aca6a' with name 'v++_compile_Envelope_Detector'
+04/14/26 18:39:53: STOP_SERVER received, server token: 47c0f013-abd2-4670-a60e-8df780421f08, passed token: 47c0f013-abd2-4670-a60e-8df780421f08
+04/14/26 18:39:53: Socket received request to stop server.
+04/14/26 18:39:53: Dispatch Server: do_await_stop
+04/14/26 18:39:53: SERVER: destructor for server bound to port 64681
+04/14/26 18:39:53: Server exiting with status 0.
+04/14/26 18:39:53: Closing log file.
+04/14/26 18:39:59: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 18:39:59: Server was asked to start on port: '49734'
+04/14/26 18:39:59: Server is using token UUID: 'e592d3d4-6eb7-4671-8579-6828f879eb3a'
+04/14/26 18:39:59: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 18:39:59: Attempting to start server on port '49734'
+04/14/26 18:39:59: Running Dispatch Server
+04/14/26 18:39:59: Version 2.2.0
+04/14/26 18:40:01: Dispatch Server: Accepted socket connection from client
+04/14/26 18:40:01: Starting Socket connection
+04/14/26 18:40:01: EXCHANGE_TOKEN received, server token: e592d3d4-6eb7-4671-8579-6828f879eb3a, passed token: e592d3d4-6eb7-4671-8579-6828f879eb3a
+04/14/26 18:40:01: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 18:40:01: SESSION_MGR: creating session with session uuid: '7c52cabe-c2d0-4438-8233-3c635cd266f1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:40:01: KERNEL_SVC: creating session with uuid: '7c52cabe-c2d0-4438-8233-3c635cd266f1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 18:40:01: GUIDANCE_SMGR: creating guidance session with uuid: '7c52cabe-c2d0-4438-8233-3c635cd266f1' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 20:02:22: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+04/14/26 20:02:22: Server was asked to start on port: '65215'
+04/14/26 20:02:22: Server is using token UUID: '9ef01e82-de77-4ffa-9341-72067d48e9e9'
+04/14/26 20:02:22: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/14/26 20:02:22: Attempting to start server on port '65215'
+04/14/26 20:02:22: Running Dispatch Server
+04/14/26 20:02:22: Version 2.2.0
+04/14/26 20:02:23: Dispatch Server: Accepted socket connection from client
+04/14/26 20:02:23: Starting Socket connection
+04/14/26 20:02:23: EXCHANGE_TOKEN received, server token: 9ef01e82-de77-4ffa-9341-72067d48e9e9, passed token: 9ef01e82-de77-4ffa-9341-72067d48e9e9
+04/14/26 20:02:23: DISPATCH_HANDLER: Adding handler from function makeHandler in library librdi_system_diagram failed with exception: Could not dynamically load librdi_system_diagram.dll
+04/14/26 20:02:23: SESSION_MGR: creating session with session uuid: '829bb674-71e9-436b-a5a0-f65014b5dfa6' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 20:02:23: KERNEL_SVC: creating session with uuid: '829bb674-71e9-436b-a5a0-f65014b5dfa6' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 20:02:23: GUIDANCE_SMGR: creating guidance session with uuid: '829bb674-71e9-436b-a5a0-f65014b5dfa6' and name 'vitis-run_compile_Envelope_Detector'
+04/14/26 20:02:27: Dispatch Server: Accepted socket connection from client
+04/14/26 20:02:27: Starting Socket connection
+04/14/26 20:02:35: SESSION_MGR: closing session for UUID '829bb674-71e9-436b-a5a0-f65014b5dfa6' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 20:02:35: KERNEL_SVC: closing session for UUID '829bb674-71e9-436b-a5a0-f65014b5dfa6' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 20:02:35: GUIDANCE_SMGR: closing session for UUID '829bb674-71e9-436b-a5a0-f65014b5dfa6' with name 'vitis-run_compile_Envelope_Detector'
+04/14/26 20:02:35: STOP_SERVER received, server token: 9ef01e82-de77-4ffa-9341-72067d48e9e9, passed token: 9ef01e82-de77-4ffa-9341-72067d48e9e9
+04/14/26 20:02:35: Socket received request to stop server.
+04/14/26 20:02:35: Dispatch Server: do_await_stop
+04/14/26 20:02:35: SERVER: destructor for server bound to port 65215
+04/14/26 20:02:35: Server exiting with status 0.
+04/14/26 20:02:35: Closing log file.

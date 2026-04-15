@@ -1,26 +1,38 @@
 [
   {
-    "directory": "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector",
+    "directory": "C:\\Motor-Simulator\\Envelope\\Envelope_Detector",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
       "-fhls",
       "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
       "",
       "-c",
-      "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector\\hilbert.cpp"
+      "C:\\Motor-Simulator\\Envelope\\Envelope_Detector\\hilbert.cpp"
     ],
-    "file": "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector\\hilbert.cpp"
+    "file": "C:\\Motor-Simulator\\Envelope\\Envelope_Detector\\hilbert.cpp"
   },
   {
-    "directory": "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector",
+    "directory": "C:\\Motor-Simulator\\Envelope\\Envelope_Detector",
     "arguments": [
       "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
       "-fhls-tb",
       "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
       "",
       "-c",
-      "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector\\tb_hilbert.cpp"
+      "C:\\Motor-Simulator\\Envelope\\Envelope_Detector\\tb_hilbert.cpp"
     ],
-    "file": "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector\\tb_hilbert.cpp"
+    "file": "C:\\Motor-Simulator\\Envelope\\Envelope_Detector\\tb_hilbert.cpp"
+  },
+  {
+    "directory": "C:\\Motor-Simulator\\Envelope\\Envelope_Detector",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
+      "",
+      "-c",
+      "C:/Motor-Simulator/Envelope/Envelope_Detector/tb_all.cpp"
+    ],
+    "file": "C:/Motor-Simulator/Envelope/Envelope_Detector/tb_all.cpp"
   }
 ]

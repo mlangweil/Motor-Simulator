@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "C:/Motor-Simulator-main\\Envelope\\Envelope_Detector\\Envelope_Detector\\Envelope_Detector.hlsrun_csim_summary",
+ "thisFile": "C:/Motor-Simulator\\Envelope\\Envelope_Detector\\Envelope_Detector\\Envelope_Detector.hlsrun_csim_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "04/13/26 17:38:13",
- "timestampMillis": "2294799838",
+ "dateTimestamp": "04/14/26 20:02:23",
+ "timestampMillis": "2389850732",
  "buildStep": {
-  "cmdId": "e7363482-bbfe-4cf2-891a-798c5f794b41",
+  "cmdId": "a7d9e3bf-b893-44db-b8c4-905c39e37ab7",
   "name": "vitis-run",
-  "logFile": "C:/Motor-Simulator-main\\Envelope\\Envelope_Detector\\Envelope_Detector\\logs\\Envelope_Detector.steps.log",
-  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector\\hls_config.cfg --work_dir Envelope_Detector ",
+  "logFile": "C:/Motor-Simulator\\Envelope\\Envelope_Detector\\Envelope_Detector\\logs\\Envelope_Detector.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Motor-Simulator\\Envelope\\Envelope_Detector\\hls_config.cfg --work_dir Envelope_Detector ",
   "args": [
    "--mode",
    "hls",
    "--csim",
    "--config",
-   "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector\\hls_config.cfg",
+   "C:\\Motor-Simulator\\Envelope\\Envelope_Detector\\hls_config.cfg",
    "--work_dir",
    "Envelope_Detector"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector"
+  "cwd": "C:\\Motor-Simulator\\Envelope\\Envelope_Detector"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/13/26 17:38:13",
- "timestampMillis": "2294799839",
+ "dateTimestamp": "04/14/26 20:02:23",
+ "timestampMillis": "2389850732",
  "status": {
-  "cmdId": "e7363482-bbfe-4cf2-891a-798c5f794b41",
+  "cmdId": "a7d9e3bf-b893-44db-b8c4-905c39e37ab7",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "04/13/26 17:38:17",
- "timestampMillis": "2294804751",
+ "dateTimestamp": "04/14/26 20:02:27",
+ "timestampMillis": "2389854306",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -64,8 +64,8 @@
      "uuid": ""
     },
     "sources": [
-     "C:/Motor-Simulator-main\\Envelope\\Envelope_Detector\\hilbert.cpp",
-     "C:/Motor-Simulator-main\\Envelope\\Envelope_Detector\\hilbert.h"
+     "C:/Motor-Simulator\\Envelope\\Envelope_Detector\\hilbert.cpp",
+     "C:/Motor-Simulator\\Envelope\\Envelope_Detector\\hilbert.h"
     ],
     "psSources": [],
     "cuNames": [],
@@ -81,26 +81,26 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "04/13/26 17:38:18",
- "timestampMillis": "2294804752",
+ "dateTimestamp": "04/14/26 20:02:27",
+ "timestampMillis": "2389854307",
  "buildStep": {
-  "cmdId": "134d8287-d546-4d88-ae45-f07311855ea4",
+  "cmdId": "93a89a3c-7285-4c09-81ef-a8a4a10b9c35",
   "name": "csim_design",
-  "logFile": "C:/Motor-Simulator-main\\Envelope\\Envelope_Detector\\Envelope_Detector\\hls\\hls.log",
+  "logFile": "C:/Motor-Simulator\\Envelope\\Envelope_Detector\\Envelope_Detector\\hls\\hls.log",
   "commandLine": "csim_design",
   "args": [],
   "iniFiles": [],
-  "cwd": "C:\\Motor-Simulator-main\\Envelope\\Envelope_Detector"
+  "cwd": "C:\\Motor-Simulator\\Envelope\\Envelope_Detector"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/13/26 17:38:18",
- "timestampMillis": "2294804753",
+ "dateTimestamp": "04/14/26 20:02:27",
+ "timestampMillis": "2389854307",
  "status": {
-  "cmdId": "134d8287-d546-4d88-ae45-f07311855ea4",
+  "cmdId": "93a89a3c-7285-4c09-81ef-a8a4a10b9c35",
   "state": "CS_RUNNING"
  }
 }
@@ -108,10 +108,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/13/26 17:38:18",
- "timestampMillis": "2294805465",
+ "dateTimestamp": "04/14/26 20:02:35",
+ "timestampMillis": "2389861874",
  "status": {
-  "cmdId": "134d8287-d546-4d88-ae45-f07311855ea4",
+  "cmdId": "93a89a3c-7285-4c09-81ef-a8a4a10b9c35",
   "state": "CS_PASSED"
  }
 }
@@ -119,10 +119,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/13/26 17:38:18",
- "timestampMillis": "2294805595",
+ "dateTimestamp": "04/14/26 20:02:35",
+ "timestampMillis": "2389861957",
  "status": {
-  "cmdId": "e7363482-bbfe-4cf2-891a-798c5f794b41",
+  "cmdId": "a7d9e3bf-b893-44db-b8c4-905c39e37ab7",
   "state": "CS_PASSED"
  }
 }
@@ -130,8 +130,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/13/26 17:38:18",
- "timestampMillis": "2294805596",
+ "dateTimestamp": "04/14/26 20:02:35",
+ "timestampMillis": "2389861957",
  "report": {
   "path": "",
   "name": "",
@@ -144,8 +144,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/13/26 17:38:18",
- "timestampMillis": "2294805596",
+ "dateTimestamp": "04/14/26 20:02:35",
+ "timestampMillis": "2389861957",
  "report": {
   "path": "",
   "name": "",

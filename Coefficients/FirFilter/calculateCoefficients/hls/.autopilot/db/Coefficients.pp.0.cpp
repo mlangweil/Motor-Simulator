@@ -51553,9 +51553,12 @@ typedef enum {
   LOWER_CUTOFF_OFFSET = 1,
   UPPER_CUTOFF_OFFSET = 2,
   SAMPLING_RATE_OFFSET = 3,
-  READ_SUCCESS = 4
+  READ_SUCCESS_OFFSET = 4,
+  RESET_OFFSET = 5,
+  SIZE_OFFSET = 6
 } registers;
-void fir(double *y, double c[100], double x, int N);
+
+void fir(double *y, double c[101], double x, int N, bool reset);
 
 void calculateCoefficients(int N, int lowerCutoff, int upperCutoff,
                            int samplingRate, double *taps);
@@ -51563,48 +51566,52 @@ __attribute__((sdx_kernel("firTop", 0))) void firTop(hls::stream<ap_axis<32, 2, 
             hls::stream<ap_axis<32, 2, 5, 6>> &out_stream, uint32_t *bram);
 # 2 "Coefficients.cpp" 2
 
+
 __attribute__((sdx_kernel("firTop", 0))) void firTop(hls::stream<ap_axis<32, 2, 5, 6>> &in_stream,
             hls::stream<ap_axis<32, 2, 5, 6>> &out_stream, uint32_t *bram) {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=firTop
-# 4 "Coefficients.cpp"
+# 5 "Coefficients.cpp"
 
-#pragma HLS INTERFACE mode=m_axi port=bram
+#pragma HLS INTERFACE mode = m_axi port = bram
 #pragma HLS INTERFACE s_axilite port = return
 #pragma HLS INTERFACE axis port = in_stream
 #pragma HLS INTERFACE axis port = out_stream
 #pragma HLS INTERFACE ap_ctrl_none port = return
 
- double taps[100];
+ double taps[101];
   uint32_t bramVal[4];
-  VITIS_LOOP_13_1: for (int i = 0; i < 4; i++)
+  VITIS_LOOP_14_1: for (int i = 0; i < 4; i++)
     bramVal[i] = bram[i];
- bram[READ_SUCCESS] = 1;
+  bram[READ_SUCCESS_OFFSET] = 1;
 
- int N = bramVal[NUM_TAPS_OFFSET];
-  int lowerCutoff =bramVal[LOWER_CUTOFF_OFFSET];
-  int upperCutoff =bramVal[UPPER_CUTOFF_OFFSET];
-  int samplingRate = bramVal[SAMPLING_RATE_OFFSET];
-
-
-
-
-
-
+  int N = (int)bramVal[NUM_TAPS_OFFSET];
+  int lowerCutoff = (int)bramVal[LOWER_CUTOFF_OFFSET];
+  int upperCutoff = (int)bramVal[UPPER_CUTOFF_OFFSET];
+  int samplingRate = (int)bramVal[SAMPLING_RATE_OFFSET];
 
   ap_axis<32, 2, 5, 6> tmp;
   calculateCoefficients(N, lowerCutoff, upperCutoff, samplingRate, taps);
 
-  VITIS_LOOP_31_2: while (1) {
-
+  VITIS_LOOP_26_2: while (1) {
 #pragma HLS PIPELINE II = 1
 
- in_stream.read(tmp);
+ bool doReset = (bram[RESET_OFFSET] != 0);
+    if (doReset) {
+      bram[RESET_OFFSET] = 0;
+    }
+
+    in_stream.read(tmp);
+
+
+    int32_t in_sample = (int32_t)tmp.data.to_int();
 
 
     double y;
-    fir(&y, taps, tmp.data.to_double(), N);
-    tmp.data = y;
+    fir(&y, taps, (double)in_sample, N, doReset);
+
+
+    tmp.data = (int32_t)y;
 
     out_stream.write(tmp);
 
@@ -51614,11 +51621,21 @@ __attribute__((sdx_kernel("firTop", 0))) void firTop(hls::stream<ap_axis<32, 2, 
   }
 }
 
-void fir(double *y, double c[100], double x, int N) {
-  static double shift_reg[100];
+void fir(double *y, double c[101], double x, int N, bool reset) {
+  static double shift_reg[101];
   double acc = 0;
   int i;
   double data;
+
+  if (reset) {
+    VITIS_LOOP_61_1: for (int i = 0; i < 101; i++) {
+#pragma HLS UNROLL
+ shift_reg[i] = 0.0;
+    }
+    *y = 0.0;
+    return;
+  }
+
 Shift_Accum_Loop:
   for (i = N - 1; i >= 0; i--) {
     if (i == 0) {
@@ -51629,45 +51646,49 @@ Shift_Accum_Loop:
       data = shift_reg[i];
     }
     acc += data * c[i];
-
   }
   *y = acc;
 }
 
 void calculateCoefficients(int N, int lowerCutoff, int upperCutoff,
-                           int samplingRate, double *taps) {
+                            int samplingRate, double *taps) {
 
   const int M = (N - 1) / 2;
-  const double PI = 3.141592653589793f;
+  const double PI = 3.14159265358979323846;
 
-  double omegaLower = 2.0f * PI * lowerCutoff / samplingRate;
-  double omegaUpper = 2.0f * PI * upperCutoff / samplingRate;
+  double omegaLower = 2.0 * PI * lowerCutoff / samplingRate;
+  double omegaUpper = 2.0 * PI * upperCutoff / samplingRate;
 
-
-  double sum = 0.0f;
-
-  VITIS_LOOP_82_1: for (int i = 0; i < N; i++) {
+  VITIS_LOOP_92_1: for (int i = 0; i < N; i++) {
 #pragma HLS PIPELINE
-
  int n = i - M;
     double val;
 
     if (n == 0) {
       val = (omegaUpper - omegaLower) / PI;
     } else {
-      val = (hls::sinf(omegaUpper * n) - hls::sinf(omegaLower * n)) / (PI * n);
+      val = (hls::sin(omegaUpper * n) - hls::sin(omegaLower * n)) / (PI * n);
     }
 
-    double w = 0.54f - 0.46f * hls::cosf(2.0f * PI * i / (N - 1));
 
+    double w = 0.54 - 0.46 * hls::cos(2.0 * PI * i / (N - 1));
     taps[i] = val * w;
-    sum += taps[i];
   }
 
-  double mean = sum / N;
 
-  VITIS_LOOP_102_2: for (int i = 0; i < N; i++) {
+
+  double centerOmega = (omegaLower + omegaUpper) / 2.0;
+  double gain_re = 0.0;
+
+  VITIS_LOOP_113_2: for (int i = 0; i < N; i++) {
 #pragma HLS PIPELINE
- taps[i] -= mean;
+ gain_re += taps[i] * hls::cos(centerOmega * (i - M));
+  }
+
+  if (gain_re > 1e-10) {
+    VITIS_LOOP_119_3: for (int i = 0; i < N; i++) {
+#pragma HLS PIPELINE
+ taps[i] /= gain_re;
+    }
   }
 }

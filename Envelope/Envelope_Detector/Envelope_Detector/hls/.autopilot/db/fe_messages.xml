@@ -632,38 +632,44 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/etc/hls_hypot_apfixed.h:170:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="hypot_fixed" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:12:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:24:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="hilbert" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:26:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="hilbert" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=x complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:28:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="hilbert" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:29:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:41:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="hilbert" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="hilbert_envelope_axis" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=hilbert_envelope_axis" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:53:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:63:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="hilbert_envelope_axis" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=in_stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:54:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:64:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="hilbert_envelope_axis" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=out_stream" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:55:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:65:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="hilbert_envelope_axis" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:60:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="hilbert.cpp:70:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="hilbert_envelope_axis" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="hilbert.cpp:66:9" msg_body="Inlining function 'hilbert(int, int&amp;)' into 'hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
-        <args Callee="hilbert(int, int&amp;)" Callee-DebugLoc="File hilbert.cpp Line 11 Column 0" Caller="hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File hilbert.cpp Line 52 Column 0"/>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="hilbert.cpp:77:9" msg_body="Inlining function 'hilbert(int, int&amp;)' into 'hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
+        <args Callee="hilbert(int, int&amp;)" Callee-DebugLoc="File hilbert.cpp Line 23 Column 0" Caller="hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File hilbert.cpp Line 62 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="hilbert.cpp:28:19" msg_body="Loop 'VITIS_LOOP_28_1' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="VITIS_LOOP_28_1"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="hilbert.cpp:27:19" msg_body="Loop 'VITIS_LOOP_27_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_27_1"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="hilbert.cpp:52:0" msg_body="Unrolling loop 'VITIS_LOOP_28_1' (hilbert.cpp:28:19) in function 'hilbert_envelope_axis' completely with a factor of 24">
-        <args Factor="24" LoopLoc="hilbert.cpp:28:19" LoopName="VITIS_LOOP_28_1"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="hilbert.cpp:40:22" msg_body="Loop 'VITIS_LOOP_40_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_40_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="hilbert.cpp:62:0" msg_body="Unrolling loop 'VITIS_LOOP_27_1' (hilbert.cpp:27:19) in function 'hilbert_envelope_axis' completely with a factor of 100">
+        <args Factor="100" LoopLoc="hilbert.cpp:27:19" LoopName="VITIS_LOOP_27_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="hilbert.cpp:62:0" msg_body="Unrolling loop 'VITIS_LOOP_40_2' (hilbert.cpp:40:22) in function 'hilbert_envelope_axis' completely with a factor of 25">
+        <args Factor="25" LoopLoc="hilbert.cpp:40:22" LoopName="VITIS_LOOP_40_2"/>
     </msg>
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;float&gt;::fp_struct(float)' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
         <args Callee="fp_struct&lt;float&gt;::fp_struct(float)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 283 Column 0" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, float&gt;(float, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)" Caller-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h} Line 12 Column 0"/>
@@ -683,14 +689,17 @@
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51:0" msg_body="Inlining function 'int generic_cast_IEEE754&lt;int, float&gt;(float, bool)' into '__hls_fptosi_float_i32'">
         <args Callee="int generic_cast_IEEE754&lt;int, float&gt;(float, bool)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h} Line 116 Column 0" Caller="__hls_fptosi_float_i32" Caller-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp} Line 51 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="hilbert.cpp:52:0" msg_body="Inlining function 'hls::sqrt(float)' into 'hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
-        <args Callee="hls::sqrt(float)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sqrtfloat.cpp} Line 6 Column 0" Caller="hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File hilbert.cpp Line 52 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="hilbert.cpp:62:0" msg_body="Inlining function 'hls::sqrt(float)' into 'hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
+        <args Callee="hls::sqrt(float)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sqrtfloat.cpp} Line 6 Column 0" Caller="hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File hilbert.cpp Line 62 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="hilbert.cpp:52:0" msg_body="Inlining function '__hls_fptosi_float_i32' into 'hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)'">
-        <args Callee="__hls_fptosi_float_i32" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp} Line 51 Column 0" Caller="hilbert_envelope_axis(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;)" Caller-DebugLoc="File hilbert.cpp Line 52 Column 0"/>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="hilbert.cpp:17:0" msg_body="array_partition dim=1 type=complete  variable=_ZL1x 1 hilbert_envelope_axis hilbert.cpp:17:0 hilbert.cpp:70:9x">
+        <args PragmaFunction="hilbert_envelope_axis" PragmaIsAuto="1" PragmaOptions="dim=1 type=complete  variable=_ZL1x" PragmaSrcLoc="hilbert.cpp:70:9" PragmaSrcLoc-DebugLoc="File hilbert.cpp Line 70 Column 9" PragmaType="array_partition" VarName="x" varLoc="hilbert.cpp:17:0"/>
     </msg>
-    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="hilbert.cpp:25:0" msg_body="Applying array_partition to '_ZZL7hilbertiRiE1x': Complete partitioning on dimension 1.">
-        <args Dim="1" Mode="Complete" UOName="_ZZL7hilbertiRiE1x"/>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-270" msg_severity="INFO" msg_loc="hilbert.cpp:70:9" msg_body="Inferring pragma 'array_partition type=complete dim=1' for array 'x' due to pipeline pragma">
+        <args Dim="1" Mode="complete" Name="x" PragmaType="array_partition"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="hilbert.cpp:17:0" msg_body="Applying array_partition to '_ZL1x': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="_ZL1x"/>
     </msg>
 </xilinx:hls_fe_msgs>
 

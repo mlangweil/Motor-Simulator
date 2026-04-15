@@ -1,0 +1,2 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector\Envelope_Detector.hlsrun_csim_summary, at 04/14/26 18:40:01
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector -config C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg -cmdlineconfig C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline

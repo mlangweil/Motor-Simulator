@@ -1,6 +1,6 @@
 <dict>
   <key>main-file</key>
-  <string>C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp</string>
+  <string>C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp</string>
   <key>diagnostics</key>
   <array>
     <dict>
@@ -3385,7 +3385,7 @@
       <key>filename</key>
       <string>hilbert.cpp</string>
       <key>line</key>
-      <integer>12</integer>
+      <integer>24</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3401,11 +3401,11 @@
       <key>filename</key>
       <string>hilbert.cpp</string>
       <key>line</key>
-      <integer>26</integer>
+      <integer>28</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=hilbert_XLX_SEP_ PragmaOptions=variable=x complete dim=1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=hilbert_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
       <integer>5471</integer>
       <key>WarningOption</key>
@@ -3417,7 +3417,7 @@
       <key>filename</key>
       <string>hilbert.cpp</string>
       <key>line</key>
-      <integer>29</integer>
+      <integer>41</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3449,7 +3449,7 @@
       <key>filename</key>
       <string>hilbert.cpp</string>
       <key>line</key>
-      <integer>53</integer>
+      <integer>63</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3465,7 +3465,7 @@
       <key>filename</key>
       <string>hilbert.cpp</string>
       <key>line</key>
-      <integer>54</integer>
+      <integer>64</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3481,7 +3481,7 @@
       <key>filename</key>
       <string>hilbert.cpp</string>
       <key>line</key>
-      <integer>55</integer>
+      <integer>65</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -3497,7 +3497,7 @@
       <key>filename</key>
       <string>hilbert.cpp</string>
       <key>line</key>
-      <integer>60</integer>
+      <integer>70</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>

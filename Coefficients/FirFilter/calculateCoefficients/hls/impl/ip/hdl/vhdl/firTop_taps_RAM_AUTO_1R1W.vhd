@@ -13,7 +13,7 @@ entity firTop_taps_RAM_AUTO_1R1W is
         MEM_TYPE        : string    := "auto"; 
         DataWidth       : integer   := 64; 
         AddressWidth    : integer   := 7;
-        AddressRange    : integer   := 100
+        AddressRange    : integer   := 101
     ); 
     port (
         address0    : in std_logic_vector(AddressWidth-1 downto 0); 

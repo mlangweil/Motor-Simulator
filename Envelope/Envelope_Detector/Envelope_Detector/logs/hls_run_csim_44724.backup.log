@@ -1,0 +1,258 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector\Envelope_Detector.hlsrun_csim_summary, at 04/14/26 16:58:22
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector -config C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg -cmdlineconfig C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Apr 14 16:58:24 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Apr 14 16:58:24 -0400 2026
+INFO: [HLS 200-10] In directory 'C:/Motor-Simulator/Envelope/Envelope_Detector'
+INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(9)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../hilbert.cpp in debug mode
+   Generating csim.exe
+In file included from ../../../../hilbert.cpp:1:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h:15:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h:10:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h:658:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+     n       input    envelope    last
+--------------------------------------
+     0           0           0       0
+     1         309           0       0
+     2         588           4       0
+     3         809           7       0
+     4         951          14       0
+     5        1000          20       0
+     6         951          28       0
+     7         809          33       0
+     8         588          40       0
+     9         309          42       0
+    10           0          45       0
+    11        -309          44       0
+    12        -588          44       0
+    13        -809          39       0
+    14        -951          35       0
+    15       -1000          28       0
+    16        -951          24       0
+    17        -809          18       0
+    18        -588          15       0
+    19        -309          11       0
+    20           0          13       0
+    21         309          13       0
+    22         588          18       0
+    23         809          22       0
+    24         951          31       0
+    25        1000          36       0
+    26         951          46       0
+    27         809          52       0
+    28         588          61       0
+    29         309          63       0
+    30           0          69       0
+    31        -309          69       0
+    32        -588          71       0
+    33        -809          67       0
+    34        -951          68       0
+    35       -1000          62       0
+    36        -951          63       0
+    37        -809          58       0
+    38        -588          62       0
+    39        -309          60       0
+    40           0          70       0
+    41         309          73       0
+    42         588          91       0
+    43         809         100       0
+    44         951         127       0
+    45        1000         142       0
+    46         951         182       0
+    47         809         204       0
+    48         588         272       0
+    49         309         313       0
+    50           0         520       0
+    51        -309         743       0
+    52        -588         818       0
+    53        -809         905       0
+    54        -951         961       0
+    55       -1000        1010       0
+    56        -951        1051       0
+    57        -809        1077       0
+    58        -588        1102       0
+    59        -309        1107       0
+    60           0        1111       0
+    61         309        1094       0
+    62         588        1078       0
+    63         809        1049       0
+    64         951        1025       0
+    65        1000        1001       0
+    66         951         984       0
+    67         809         974       0
+    68         588         968       0
+    69         309         971       0
+    70           0         970       0
+    71        -309         976       0
+    72        -588         977       0
+    73        -809         983       0
+    74        -951         989       0
+    75       -1000        1000       0
+    76        -951        1014       0
+    77        -809        1027       0
+    78        -588        1041       0
+    79        -309        1049       0
+    80           0        1054       0
+    81         309        1048       0
+    82         588        1039       0
+    83         809        1024       0
+    84         951        1011       0
+    85        1000        1000       0
+    86         951         992       0
+    87         809         990       0
+    88         588         991       0
+    89         309         994       0
+    90           0         994       0
+    91        -309         996       0
+    92        -588         993       0
+    93        -809         994       0
+    94        -951         995       0
+    95       -1000        1000       0
+    96        -951        1008       0
+    97        -809        1018       0
+    98        -588        1030       0
+    99        -309        1037       0
+   100           0        1040       0
+   101         309        1037       0
+   102         588        1026       0
+   103         809        1013       0
+   104         951        1003       0
+   105        1000        1000       0
+   106         951        1003       0
+   107         809        1013       0
+   108         588        1026       0
+   109         309        1037       0
+   110           0        1040       0
+   111        -309        1037       0
+   112        -588        1026       0
+   113        -809        1013       0
+   114        -951        1003       0
+   115       -1000        1000       0
+   116        -951        1003       0
+   117        -809        1013       0
+   118        -588        1026       0
+   119        -309        1037       0
+   120           0        1040       0
+   121         309        1037       0
+   122         588        1026       0
+   123         809        1013       0
+   124         951        1003       0
+   125        1000        1000       0
+   126         951        1003       0
+   127         809        1013       0
+   128         588        1026       0
+   129         309        1037       0
+   130           0        1040       0
+   131        -309        1037       0
+   132        -588        1026       0
+   133        -809        1013       0
+   134        -951        1003       0
+   135       -1000        1000       0
+   136        -951        1003       0
+   137        -809        1013       0
+   138        -588        1026       0
+   139        -309        1037       0
+   140           0        1040       0
+   141         309        1037       0
+   142         588        1026       0
+   143         809        1013       0
+   144         951        1003       0
+   145        1000        1000       0
+   146         951        1003       0
+   147         809        1013       0
+   148         588        1026       0
+   149         309        1037       0
+   150           0        1040       0
+   151        -309        1037       0
+   152        -588        1026       0
+   153        -809        1013       0
+   154        -951        1003       0
+   155       -1000        1000       0
+   156        -951        1003       0
+   157        -809        1013       0
+   158        -588        1026       0
+   159        -309        1037       0
+   160           0        1040       0
+   161         309        1037       0
+   162         588        1026       0
+   163         809        1013       0
+   164         951        1003       0
+   165        1000        1000       0
+   166         951        1003       0
+   167         809        1013       0
+   168         588        1026       0
+   169         309        1037       0
+   170           0        1040       0
+   171        -309        1037       0
+   172        -588        1026       0
+   173        -809        1013       0
+   174        -951        1003       0
+   175       -1000        1000       0
+   176        -951        1003       0
+   177        -809        1013       0
+   178        -588        1026       0
+   179        -309        1037       0
+   180           0        1040       0
+   181         309        1037       0
+   182         588        1026       0
+   183         809        1013       0
+   184         951        1003       0
+   185        1000        1000       0
+   186         951        1003       0
+   187         809        1013       0
+   188         588        1026       0
+   189         309        1037       0
+   190           0        1040       0
+   191        -309        1037       0
+   192        -588        1026       0
+   193        -809        1013       0
+   194        -951        1003       0
+   195       -1000        1000       0
+   196        -951        1003       0
+   197        -809        1013       0
+   198        -588        1026       0
+   199        -309        1037       1
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 200
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 9.429 seconds; peak allocated memory: 177.910 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 13s

@@ -1,0 +1,87 @@
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector\Envelope_Detector.hlsrun_csim_summary, at 04/14/26 17:10:14
+INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run csim -work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector -config C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg -cmdlineconfig C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
+  **** SW Build 5069499 on May 21 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Apr 14 17:10:15 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Apr 14 17:10:16 -0400 2026
+INFO: [HLS 200-10] In directory 'C:/Motor-Simulator/Envelope/Envelope_Detector'
+INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.h' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\Motor-Simulator\Coefficients\FirFilter\Coefficients.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:\Motor-Simulator\Coefficients\FirFilter\Coefficients.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Coefficients/FirFilter/Coefficients.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_all.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Envelope/Envelope_Detector/tb_all.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(5)
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../tb_all.cpp in debug mode
+   Generating csim.exe
+Makefile.rules:349: recipe for target 'csim.exe' failed
+In file included from ../../../../tb_all.cpp:6:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_axi_sdata.h:15:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/ap_int.h:10:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_common.h:658:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/ap_private.h:68:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_half.h:26:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/etc/hls_half_fpo.h:19:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/hls_fpo.h:140:
+In file included from C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:150:
+C:/Xilinx/Vitis_HLS/2024.1/include/gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+C:/Xilinx/Vitis_HLS/2024.1/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+ld.lld: error: duplicate symbol: main
+>>> defined at ../../../../tb_all.cpp:177
+>>>            obj/tb_all.o
+>>> defined at ../../../../tb_hilbert.cpp:16
+>>>            obj/tb_hilbert.o
+
+ld.lld: error: duplicate symbol: firTop(hls::stream<hls::axis<ap_int<32>, 2ull, 5ull, 6ull, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ull, 5ull, 6ull, (unsigned char)56, false>, 0>&, unsigned int*)
+>>> defined at ../../../../tb_all.cpp:105
+>>>            obj/tb_all.o
+>>> defined at ../../../../../../Coefficients/FirFilter/Coefficients.cpp:4
+>>>            obj/Coefficients.o
+
+ld.lld: error: duplicate symbol: calculateCoefficients(int, int, int, int, double*)
+>>> defined at ../../../../tb_all.cpp:34
+>>>            obj/tb_all.o
+>>> defined at ../../../../../../Coefficients/FirFilter/Coefficients.cpp:88
+>>>            obj/Coefficients.o
+
+ld.lld: error: duplicate symbol: fir(double*, double*, double, int, bool)
+>>> defined at ../../../../tb_all.cpp:75
+>>>            obj/tb_all.o
+>>> defined at ../../../../../../Coefficients/FirFilter/Coefficients.cpp:57
+>>>            obj/Coefficients.o
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [csim.exe] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: 4
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 8.058 seconds; peak allocated memory: 178.891 MB.

@@ -1,3 +1,3 @@
-relativeroot=C:/Motor-Simulator-main/Envelope/Envelope_Detector
-original_argv=--mode hls --csim --config C:\Motor-Simulator-main\Envelope\Envelope_Detector\hls_config.cfg --work_dir Envelope_Detector 
+relativeroot=C:/Motor-Simulator/Envelope/Envelope_Detector
+original_argv=--mode hls --csim --config C:\Motor-Simulator\Envelope\Envelope_Detector\hls_config.cfg --work_dir Envelope_Detector 
 

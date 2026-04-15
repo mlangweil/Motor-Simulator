@@ -15,7 +15,7 @@
         <PipelineType>loop auto-rewind stp(delay=0 clock cycles(s))</PipelineType>
         <SummaryOfTimingAnalysis>
             <unit>ns</unit>
-            <EstimatedClockPeriod>6.624</EstimatedClockPeriod>
+            <EstimatedClockPeriod>6.577</EstimatedClockPeriod>
         </SummaryOfTimingAnalysis>
         <SummaryOfOverallLatency>
             <unit>clock cycles</unit>
@@ -29,35 +29,35 @@
             <Interval-max>0</Interval-max>
         </SummaryOfOverallLatency>
         <SummaryOfLoopLatency>
-            <VITIS_LOOP_59_1>
+            <VITIS_LOOP_69_1>
                 <Slack>7.30</Slack>
                 <TripCount>undef</TripCount>
                 <Latency>undef</Latency>
                 <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                 <PipelineII>1</PipelineII>
-                <PipelineDepth>17</PipelineDepth>
+                <PipelineDepth>16</PipelineDepth>
                 <InstanceList/>
-            </VITIS_LOOP_59_1>
+            </VITIS_LOOP_69_1>
         </SummaryOfLoopLatency>
         <SummaryOfViolations>
             <IssueType>-</IssueType>
             <ViolationType>-</ViolationType>
-            <SourceLocation>hilbert.cpp:51</SourceLocation>
+            <SourceLocation>hilbert.cpp:61</SourceLocation>
             <SummaryOfLoopViolations>
-                <VITIS_LOOP_59_1>
-                    <Name>VITIS_LOOP_59_1</Name>
+                <VITIS_LOOP_69_1>
+                    <Name>VITIS_LOOP_69_1</Name>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>hilbert.cpp:62</SourceLocation>
-                </VITIS_LOOP_59_1>
+                    <SourceLocation>hilbert.cpp:72</SourceLocation>
+                </VITIS_LOOP_69_1>
             </SummaryOfLoopViolations>
         </SummaryOfViolations>
     </PerformanceEstimates>
     <AreaEstimates>
         <Resources>
-            <DSP>17</DSP>
-            <FF>1540</FF>
-            <LUT>2593</LUT>
+            <DSP>8</DSP>
+            <FF>3894</FF>
+            <LUT>6938</LUT>
             <BRAM_18K>0</BRAM_18K>
             <URAM>0</URAM>
         </Resources>
@@ -310,22 +310,87 @@
         </RtlPorts>
     </InterfaceSummary>
     <RTLDesignHierarchy>
-        <TopModule MAX_DEPTH="2">
+        <TopModule MAX_DEPTH="3">
             <ModuleName>hilbert_envelope_axis</ModuleName>
-            <BindInstances>sub_ln37_fu_540_p2 sub_ln38_fu_550_p2 sub_ln39_fu_560_p2 sub_ln40_fu_570_p2 sub_ln41_fu_580_p2 sub_ln42_fu_586_p2 sub_ln45_2_fu_616_p2 add_ln45_7_fu_688_p2 mul_46s_48ns_93_1_1_U5 sub_ln45_fu_1052_p2 select_ln45_1_fu_1082_p3 sub_ln45_1_fu_1093_p2 Q_path_fu_1099_p3 mul_32s_32s_64_1_1_U3 mul_35s_35s_64_1_1_U4 grp_fu_251_p0 sitofp_64ns_32_4_no_dsp_1_U1 fsqrt_32ns_32ns_32_8_no_dsp_1_U2 add_ln317_fu_1164_p2 sub_ln18_fu_1178_p2 select_ln18_fu_1188_p3 lshr_ln18_fu_1204_p2 shl_ln18_fu_1210_p2 val_fu_1236_p3 result_1_fu_1244_p2 out_stream_TDATA_int_regslice</BindInstances>
+            <InstancesList>
+                <Instance>
+                    <InstName>env_sample_p_hls_fptosi_float_i32_fu_381</InstName>
+                    <ModuleName>p_hls_fptosi_float_i32</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>381</ID>
+                    <BindInstances>add_ln317_fu_86_p2 sub_ln18_fu_100_p2 select_ln18_fu_110_p3 lshr_ln18_fu_126_p2 shl_ln18_fu_132_p2 val_fu_158_p3 result_1_fu_166_p2 ap_return</BindInstances>
+                </Instance>
+            </InstancesList>
+            <BindInstances>sub_ln50_fu_1429_p2 sub_ln50_1_fu_1447_p2 sub_ln50_2_fu_1461_p2 sub_ln50_3_fu_1475_p2 sub_ln50_4_fu_1489_p2 sub_ln50_5_fu_1503_p2 sub_ln50_6_fu_1517_p2 sub_ln50_7_fu_1535_p2 sub_ln50_8_fu_1553_p2 sub_ln50_9_fu_1571_p2 sub_ln50_10_fu_1585_p2 sub_ln50_11_fu_1603_p2 sub_ln50_12_fu_1621_p2 sub_ln50_13_fu_1635_p2 sub_ln50_14_fu_1653_p2 sub_ln50_15_fu_1671_p2 sub_ln50_16_fu_1689_p2 sub_ln50_17_fu_1703_p2 sub_ln50_18_fu_1717_p2 sub_ln50_19_fu_1731_p2 sub_ln50_20_fu_1749_p2 sub_ln50_21_fu_1767_p2 sub_ln50_22_fu_1785_p2 sub_ln50_23_fu_1799_p2 sub_ln50_24_fu_1813_p2 sub_ln50_26_fu_1909_p2 sub_ln50_29_fu_1993_p2 sub_ln50_33_fu_2131_p2 sub_ln50_34_fu_2201_p2 sub_ln50_36_fu_2271_p2 add_ln50_35_fu_2377_p2 add_ln50_37_fu_2447_p2 sub_ln50_46_fu_2763_p2 add_ln50_56_fu_3167_p2 add_ln50_1_fu_3493_p2 add_ln50_4_fu_3519_p2 add_ln50_6_fu_3539_p2 add_ln50_15_fu_3613_p2 add_ln50_20_fu_3655_p2 sub_ln53_fu_3713_p2 sub_ln53_1_fu_3728_p2 Q_path_fu_3734_p3 mul_32s_32s_64_1_1_U4 mul_32s_32s_64_1_1_U5 grp_fu_387_p0 sitofp_64ns_32_4_no_dsp_1_U2 fsqrt_32ns_32ns_32_8_no_dsp_1_U3</BindInstances>
         </TopModule>
     </RTLDesignHierarchy>
     <ModuleInformation>
         <Module>
+            <Name>p_hls_fptosi_float_i32</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <TargetInitiationInterval>1</TargetInitiationInterval>
+                    <EstimatedClockPeriod>4.465</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineDepth>1</PipelineDepth>
+                    <PipelineType>yes</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>0</FF>
+                    <AVAIL_FF>141120</AVAIL_FF>
+                    <UTIL_FF>0</UTIL_FF>
+                    <LUT>623</LUT>
+                    <AVAIL_LUT>70560</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>432</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>360</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <BindNodes>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="add" PRAGMA="" RTLNAME="add_ln317_fu_86_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:317" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln317" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln18_fu_100_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln18" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="" OPTYPE="select" PRAGMA="" RTLNAME="select_ln18_fu_110_p3" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln18" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op lshr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="" OPTYPE="lshr" PRAGMA="" RTLNAME="lshr_ln18_fu_126_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="lshr_ln18" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op shl" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="" OPTYPE="shl" PRAGMA="" RTLNAME="shl_ln18_fu_132_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="shl_ln18" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="" OPTYPE="select" PRAGMA="" RTLNAME="val_fu_158_p3" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="val" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="" OPTYPE="sub" PRAGMA="" RTLNAME="result_1_fu_166_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59" STORAGESUBTYPE="" URAM="0" VARIABLE="result_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="" OPTYPE="select" PRAGMA="" RTLNAME="ap_return" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59" STORAGESUBTYPE="" URAM="0" VARIABLE="result_2" VISIBLE="false"/>
+            </BindNodes>
+        </Module>
+        <Module>
             <Name>hilbert_envelope_axis</Name>
             <Loops>
-                <VITIS_LOOP_59_1/>
+                <VITIS_LOOP_69_1/>
             </Loops>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>6.624</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>6.577</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>undef</Best-caseLatency>
@@ -338,43 +403,45 @@
                     <PipelineType>loop auto-rewind (delay=0 clock cycles(s))</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_59_1>
-                        <Name>VITIS_LOOP_59_1</Name>
+                    <VITIS_LOOP_69_1>
+                        <Name>VITIS_LOOP_69_1</Name>
                         <Slack>7.30</Slack>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>1</PipelineII>
-                        <PipelineDepth>17</PipelineDepth>
+                        <PipelineDepth>16</PipelineDepth>
                         <PipelineType>yes</PipelineType>
-                        <InstanceList/>
-                    </VITIS_LOOP_59_1>
+                        <InstanceList>
+                            <Instance>env_sample_p_hls_fptosi_float_i32_fu_381</Instance>
+                        </InstanceList>
+                    </VITIS_LOOP_69_1>
                 </SummaryOfLoopLatency>
                 <SummaryOfViolations>
                     <IssueType>-</IssueType>
                     <ViolationType>-</ViolationType>
-                    <SourceLocation>hilbert.cpp:51</SourceLocation>
+                    <SourceLocation>hilbert.cpp:61</SourceLocation>
                     <SummaryOfLoopViolations>
-                        <VITIS_LOOP_59_1>
-                            <Name>VITIS_LOOP_59_1</Name>
+                        <VITIS_LOOP_69_1>
+                            <Name>VITIS_LOOP_69_1</Name>
                             <IssueType>-</IssueType>
                             <ViolationType>-</ViolationType>
-                            <SourceLocation>hilbert.cpp:62</SourceLocation>
-                        </VITIS_LOOP_59_1>
+                            <SourceLocation>hilbert.cpp:72</SourceLocation>
+                        </VITIS_LOOP_69_1>
                     </SummaryOfLoopViolations>
                 </SummaryOfViolations>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <DSP>17</DSP>
+                    <DSP>8</DSP>
                     <AVAIL_DSP>360</AVAIL_DSP>
-                    <UTIL_DSP>4</UTIL_DSP>
-                    <FF>1540</FF>
+                    <UTIL_DSP>2</UTIL_DSP>
+                    <FF>3894</FF>
                     <AVAIL_FF>141120</AVAIL_FF>
-                    <UTIL_FF>1</UTIL_FF>
-                    <LUT>2595</LUT>
+                    <UTIL_FF>2</UTIL_FF>
+                    <LUT>6940</LUT>
                     <AVAIL_LUT>70560</AVAIL_LUT>
-                    <UTIL_LUT>3</UTIL_LUT>
+                    <UTIL_LUT>9</UTIL_LUT>
                     <BRAM_18K>0</BRAM_18K>
                     <AVAIL_BRAM>432</AVAIL_BRAM>
                     <UTIL_BRAM>0</UTIL_BRAM>
@@ -384,32 +451,53 @@
                 </Resources>
             </AreaEstimates>
             <BindNodes>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln37_fu_540_p2" SOURCE="hilbert.cpp:37" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln37" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln38_fu_550_p2" SOURCE="hilbert.cpp:38" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln38" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln39_fu_560_p2" SOURCE="hilbert.cpp:39" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln39" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln40_fu_570_p2" SOURCE="hilbert.cpp:40" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln40" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln41_fu_580_p2" SOURCE="hilbert.cpp:41" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln41" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln42_fu_586_p2" SOURCE="hilbert.cpp:42" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln42" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln45_2_fu_616_p2" SOURCE="hilbert.cpp:45" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln45_2" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln45_7_fu_688_p2" SOURCE="hilbert.cpp:45" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln45_7" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="9" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="mul" PRAGMA="" RTLNAME="mul_46s_48ns_93_1_1_U5" SOURCE="hilbert.cpp:45" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln45" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln45_fu_1052_p2" SOURCE="hilbert.cpp:45" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln45" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="select" PRAGMA="" RTLNAME="select_ln45_1_fu_1082_p3" SOURCE="hilbert.cpp:45" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln45_1" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln45_1_fu_1093_p2" SOURCE="hilbert.cpp:45" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln45_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="select" PRAGMA="" RTLNAME="Q_path_fu_1099_p3" SOURCE="hilbert.cpp:45" STORAGESUBTYPE="" URAM="0" VARIABLE="Q_path" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_64_1_1_U3" SOURCE="hilbert.cpp:47" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln47" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="mul" PRAGMA="" RTLNAME="mul_35s_35s_64_1_1_U4" SOURCE="hilbert.cpp:47" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln47_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_251_p0" SOURCE="hilbert.cpp:47" STORAGESUBTYPE="" URAM="0" VARIABLE="mag_sq" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sitofp" DSP="0" ID="" IMPL="auto" LATENCY="3" LOOP="VITIS_LOOP_59_1" OPTYPE="sitofp" PRAGMA="" RTLNAME="sitofp_64ns_32_4_no_dsp_1_U1" SOURCE="hilbert.cpp:48" STORAGESUBTYPE="" URAM="0" VARIABLE="x_assign" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fsqrt" DSP="0" ID="" IMPL="fabric" LATENCY="7" LOOP="VITIS_LOOP_59_1" OPTYPE="fsqrt" PRAGMA="" RTLNAME="fsqrt_32ns_32ns_32_8_no_dsp_1_U2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sqrtfloat.cpp:8" STORAGESUBTYPE="" URAM="0" VARIABLE="dc" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln317_fu_1164_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:317" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln317" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln18_fu_1178_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln18" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="select" PRAGMA="" RTLNAME="select_ln18_fu_1188_p3" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="select_ln18" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op lshr" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="lshr" PRAGMA="" RTLNAME="lshr_ln18_fu_1204_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="lshr_ln18" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op shl" DSP="0" ID="" IMPL="auto_pipe" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="shl" PRAGMA="" RTLNAME="shl_ln18_fu_1210_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="shl_ln18" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="select" PRAGMA="" RTLNAME="val_fu_1236_p3" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18" STORAGESUBTYPE="" URAM="0" VARIABLE="val" VISIBLE="false"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="sub" PRAGMA="" RTLNAME="result_1_fu_1244_p2" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59" STORAGESUBTYPE="" URAM="0" VARIABLE="result_1" VISIBLE="true"/>
-                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_59_1" OPTYPE="select" PRAGMA="" RTLNAME="out_stream_TDATA_int_regslice" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59" STORAGESUBTYPE="" URAM="0" VARIABLE="result" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_fu_1429_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_1_fu_1447_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_2_fu_1461_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_2" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_3_fu_1475_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_3" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_4_fu_1489_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_5_fu_1503_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_5" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_6_fu_1517_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_7_fu_1535_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_7" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_8_fu_1553_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_8" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_9_fu_1571_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_9" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_10_fu_1585_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_10" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_11_fu_1603_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_11" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_12_fu_1621_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_12" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_13_fu_1635_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_13" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_14_fu_1653_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_14" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_15_fu_1671_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_15" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_16_fu_1689_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_16" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_17_fu_1703_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_17" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_18_fu_1717_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_18" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_19_fu_1731_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_19" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_20_fu_1749_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_20" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_21_fu_1767_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_21" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_22_fu_1785_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_22" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_23_fu_1799_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_23" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_24_fu_1813_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_24" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_26_fu_1909_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_26" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_29_fu_1993_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_29" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_33_fu_2131_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_33" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_34_fu_2201_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_34" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_36_fu_2271_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_36" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln50_35_fu_2377_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln50_35" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln50_37_fu_2447_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln50_37" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln50_46_fu_2763_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln50_46" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln50_56_fu_3167_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln50_56" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln50_1_fu_3493_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln50_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln50_4_fu_3519_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln50_4" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln50_6_fu_3539_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln50_6" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln50_15_fu_3613_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln50_15" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="add_ln50_20_fu_3655_p2" SOURCE="hilbert.cpp:50" STORAGESUBTYPE="" URAM="0" VARIABLE="add_ln50_20" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln53_fu_3713_p2" SOURCE="hilbert.cpp:53" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln53" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sub" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="sub" PRAGMA="" RTLNAME="sub_ln53_1_fu_3728_p2" SOURCE="hilbert.cpp:53" STORAGESUBTYPE="" URAM="0" VARIABLE="sub_ln53_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op select" DSP="0" ID="" IMPL="auto_sel" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="select" PRAGMA="" RTLNAME="Q_path_fu_3734_p3" SOURCE="hilbert.cpp:53" STORAGESUBTYPE="" URAM="0" VARIABLE="Q_path" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_64_1_1_U4" SOURCE="hilbert.cpp:56" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln56" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_64_1_1_U5" SOURCE="hilbert.cpp:56" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln56_1" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op add" DSP="0" ID="" IMPL="fabric" LATENCY="0" LOOP="VITIS_LOOP_69_1" OPTYPE="add" PRAGMA="" RTLNAME="grp_fu_387_p0" SOURCE="hilbert.cpp:56" STORAGESUBTYPE="" URAM="0" VARIABLE="mag_sq" VISIBLE="true"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op sitofp" DSP="0" ID="" IMPL="auto" LATENCY="3" LOOP="VITIS_LOOP_69_1" OPTYPE="sitofp" PRAGMA="" RTLNAME="sitofp_64ns_32_4_no_dsp_1_U2" SOURCE="hilbert.cpp:58" STORAGESUBTYPE="" URAM="0" VARIABLE="x_assign" VISIBLE="false"/>
+                <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op fsqrt" DSP="0" ID="" IMPL="fabric" LATENCY="7" LOOP="VITIS_LOOP_69_1" OPTYPE="fsqrt" PRAGMA="" RTLNAME="fsqrt_32ns_32ns_32_8_no_dsp_1_U3" SOURCE="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sqrtfloat.cpp:8" STORAGESUBTYPE="" URAM="0" VARIABLE="tmp" VISIBLE="true"/>
             </BindNodes>
         </Module>
     </ModuleInformation>
@@ -526,13 +614,16 @@
         <section name="M_AXI Burst Information" level="0" HEADER_NOTE="Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings."/>
     </ReportBurst>
     <PragmaReport>
-        <Pragma type="inline" location="hilbert.cpp:12" status="valid" parentFunction="hilbert" variable="" isDirective="0" options=""/>
-        <Pragma type="array_partition" location="hilbert.cpp:26" status="valid" parentFunction="hilbert" variable="x" isDirective="0" options="variable=x complete dim=1"/>
-        <Pragma type="unroll" location="hilbert.cpp:29" status="valid" parentFunction="hilbert" variable="" isDirective="0" options=""/>
-        <Pragma type="interface" location="hilbert.cpp:53" status="valid" parentFunction="hilbert_envelope_axis" variable="in_stream" isDirective="0" options="axis port=in_stream"/>
-        <Pragma type="interface" location="hilbert.cpp:54" status="valid" parentFunction="hilbert_envelope_axis" variable="out_stream" isDirective="0" options="axis port=out_stream"/>
-        <Pragma type="interface" location="hilbert.cpp:55" status="valid" parentFunction="hilbert_envelope_axis" variable="return" isDirective="0" options="ap_ctrl_none port=return"/>
-        <Pragma type="pipeline" location="hilbert.cpp:60" status="valid" parentFunction="hilbert_envelope_axis" variable="" isDirective="0" options="II=1"/>
+        <Pragma type="inline" location="hilbert.cpp:24" status="valid" parentFunction="hilbert" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="hilbert.cpp:28" status="valid" parentFunction="hilbert" variable="" isDirective="0" options=""/>
+        <Pragma type="unroll" location="hilbert.cpp:41" status="valid" parentFunction="hilbert" variable="" isDirective="0" options=""/>
+        <Pragma type="interface" location="hilbert.cpp:63" status="valid" parentFunction="hilbert_envelope_axis" variable="in_stream" isDirective="0" options="axis port=in_stream"/>
+        <Pragma type="interface" location="hilbert.cpp:64" status="valid" parentFunction="hilbert_envelope_axis" variable="out_stream" isDirective="0" options="axis port=out_stream"/>
+        <Pragma type="interface" location="hilbert.cpp:65" status="valid" parentFunction="hilbert_envelope_axis" variable="return" isDirective="0" options="ap_ctrl_none port=return"/>
+        <Pragma type="pipeline" location="hilbert.cpp:70" status="valid" parentFunction="hilbert_envelope_axis" variable="" isDirective="0" options="II=1"/>
     </PragmaReport>
+    <AutoPragmaReport>
+        <AutoPragma type="array_partition" parentFunction="hilbert_envelope_axis" options="dim=1 type=complete  variable=_ZL1x" pragmaLocId="hilbert.cpp:17:0" srcPragmaType="pipeline" srcPragmaLoc="hilbert.cpp:70" srcPragmaSource="pragma" srcIsDirective="0" variable="x" varLoc=""/>
+    </AutoPragmaReport>
 </profile>
 

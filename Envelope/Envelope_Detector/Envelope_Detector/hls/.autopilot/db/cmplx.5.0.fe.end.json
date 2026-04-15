@@ -2,19 +2,28 @@
     "0": {
         "name": "hilbert_envelope_axis",
         "file": "hilbert.cpp",
-        "fileloc": "51",
-        "instructions": "208",
-        "total_instructions": "208",
-        "calls": "",
+        "fileloc": "61",
+        "instructions": "655",
+        "total_instructions": "678",
+        "calls": "1",
         "basicblocks": "4",
         "loads": {
-            "G": "24"
+            "G": "99"
         },
         "stores": {
-            "G": "24"
+            "G": "99"
         },
         "loops": {
             "L": "1"
         }
+    },
+    "1": {
+        "name": "__hls_fptosi_float_i32",
+        "file": "lib_floatconversion.cpp",
+        "fileloc": "51",
+        "instructions": "23",
+        "total_instructions": "23",
+        "calls": "",
+        "basicblocks": "1"
     }
 }

@@ -1,35 +1,35 @@
-INFO-FLOW: Workspace C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls opened at Mon Apr 13 17:25:07 -0400 2026
+INFO-FLOW: Workspace C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls opened at Tue Apr 14 18:39:18 -0400 2026
 Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
-Execute   apply_ini C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg 
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(7) 
-INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(7)
-Execute     add_files C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.cpp 
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.cpp' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.h' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(8) 
-INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(8)
-Execute     add_files C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.h 
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.h' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(10) 
-INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(10)
-Execute     add_files -tb C:/Motor-Simulator-main/Envelope/Envelope_Detector/tb_hilbert.cpp 
-INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(9) 
-INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(9)
+Execute   apply_ini C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(8)
+Execute     add_files C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(9)
+Execute     add_files C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.h 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(10)
+Execute     add_files -tb C:/Motor-Simulator/Envelope/Envelope_Detector/tb_hilbert.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(7)
 Execute     set_top hilbert_envelope_axis 
-Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(4) 
-INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(4)
 Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
 INFO: [HLS 200-1505] Using flow_target 'vivado'
-Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(1) 
-INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(1)
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(1)
 Execute     set_part xczu3eg-sfvc784-2-e 
 Execute       create_platform xczu3eg-sfvc784-2-e -board  
 DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
-Command       create_platform done; 1.903 sec.
+Command       create_platform done; 1.002 sec.
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
@@ -44,19 +44,19 @@ Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xf
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
 Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 2.01 sec.
-Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(5) 
-INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(5)
+Command     set_part done; 1.133 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(5)
 Execute     config_export -format=ip_catalog 
-Command   apply_ini done; 2.035 sec.
-Execute   apply_ini C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline 
+Command   apply_ini done; 1.155 sec.
+Execute   apply_ini C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline 
 Execute   csynth_design 
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
 INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
 Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 3.244 seconds; current allocated memory: 245.617 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.085 seconds; current allocated memory: 174.852 MB.
 Execute       set_directive_top hilbert_envelope_axis -name=hilbert_envelope_axis 
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
@@ -66,55 +66,55 @@ INFO-FLOW: Handling hilbert.cpp as C++
 Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
 INFO-FLOW: Running: GCC PP 39
 INFO-FLOW: Source preprocessing
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang hilbert.cpp -foptimization-record-file=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt -fhls -fno-exceptions -insert-hls-directive=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/all.directive.json -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.cpp.clang.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.cpp.clang.err.log
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang hilbert.cpp -foptimization-record-file=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot C:/Xilinx/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt -fhls -fno-exceptions -insert-hls-directive=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/all.directive.json -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.cpp.clang.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.cpp.clang.err.log
 INFO-FLOW: Done: GCC PP 39 time: 0.4 seconds per iteration
 INFO-FLOW: Source syntax check for synthesis
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/clang.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/clang.err.log
-Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/.systemc_flag 
-INFO-FLOW: exec C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/.systemc_flag -fix-errors C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 2.811 sec.
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/clang.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/clang.err.log
+Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/.systemc_flag -fix-errors C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 1.984 sec.
 INFO-FLOW: Running: clang-tidy CDT preprocess 39
-Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/all.directive.json 
-INFO-FLOW: exec C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/all.directive.json -fix-errors C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 3.176 sec.
-INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 3.2 seconds per iteration
+Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp std=gnu++14 -target fpga  -directive=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/all.directive.json 
+INFO-FLOW: exec C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/all.directive.json -fix-errors C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 2.342 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 2.3 seconds per iteration
 INFO-FLOW: Calling xilinx-label-all-loops ... 
 INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
-Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp std=gnu++14 -target fpga  
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang-tidy.loop-label.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang-tidy.loop-label.err.log
+Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp std=gnu++14 -target fpga  
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang-tidy.loop-label.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang-tidy.loop-label.err.log
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
-Command       clang_tidy done; 5.447 sec.
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.xilinx-dataflow-lawyer.err.log
+Command       clang_tidy done; 4.174 sec.
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.xilinx-dataflow-lawyer.err.log
 Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
 INFO-FLOW: compiling source code to llvm bc
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.bc {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang.err.log
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 20.493 seconds; current allocated memory: 252.961 MB.
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot -I C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.bc {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.pp.0.cpp.clang.err.log
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 15.452 seconds; current allocated memory: 182.523 MB.
 INFO-FLOW: Linking Debug ...
 INFO-FLOW: Linking dut bc code.
-Execute       run_link_or_opt -out C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc -args  "C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.g.bc"  
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.g.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
+Execute       run_link_or_opt -out C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc -args  "C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.g.bc"  
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert.g.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
 INFO-FLOW: 
-Execute       run_link_or_opt -opt -out C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc -args C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
+Execute       run_link_or_opt -opt -out C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc -args C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
 INFO-FLOW: 
 INFO-FLOW: Running: gen_design_size_report post-opt
 INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
 INFO-FLOW: Linking math bc lib
-Execute       run_link_or_opt -out C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc -args C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsm_39.bc C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsmc++_39.bc 
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsm_39.bc C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsmc++_39.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
+Execute       run_link_or_opt -out C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc -args C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsm_39.bc C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsmc++_39.bc 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsm_39.bc C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libhlsmc++_39.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
 INFO-FLOW: 
-Command       run_link_or_opt done; 1.388 sec.
-Execute       run_link_or_opt -opt -out C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc -args C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=hilbert_envelope_axis -reflow-float-conversion 
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=hilbert_envelope_axis -reflow-float-conversion -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
+Command       run_link_or_opt done; 1.316 sec.
+Execute       run_link_or_opt -opt -out C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc -args C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=hilbert_envelope_axis -reflow-float-conversion 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=hilbert_envelope_axis -reflow-float-conversion -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
 INFO-FLOW: 
 INFO-FLOW: Running: gen_design_size_report post-opt
 INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
-Command       run_link_or_opt done; 0.627 sec.
-Execute       run_link_or_opt -out C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc -args C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libfloatconversion_39.bc 
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libfloatconversion_39.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
+Command       run_link_or_opt done; 0.558 sec.
+Execute       run_link_or_opt -out C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc -args C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libfloatconversion_39.bc 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/Vitis_HLS/2024.1/win64/lib/libfloatconversion_39.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
 INFO-FLOW: 
-Execute       run_link_or_opt -opt -out C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc -args C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=hilbert_envelope_axis 
-INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=hilbert_envelope_axis -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc > C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
+Execute       run_link_or_opt -opt -out C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc -args C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=hilbert_envelope_axis 
+INFO-FLOW: run_clang exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=hilbert_envelope_axis -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc > C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log
 INFO-FLOW: 
 INFO-FLOW: Running: gen_design_size_report post-opt
 INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
@@ -122,122 +122,166 @@ Execute       send_msg_by_id INFO @200-777@%s Vivado
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
 Execute       is_m_axi_addr64 
 INFO-FLOW: Doing LTO.
-INFO-FLOW: run_clang (background poll_ms 5000) exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=hilbert_envelope_axis -mllvm -hls-db-dir -mllvm C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -enable-fp-thr=0 -mllvm -reflow-bdd-simplify-threshold=1048576 -mllvm -reflow-fanout-threshold=16 -mllvm -reflow-complete-threshold=4 -mllvm -reflow-array-promotion-threshold=64 -mllvm -assume-maxi-align=1 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-small-array-partition=true -mllvm -reflow-enable-auto-array-partition-for-flatten=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=0 -mllvm -enable-reflow-auto-loop-pipeline -mllvm -reflow-max-unroll-threshold=409600 -mllvm -auto-unroll-tripcount-threshold=0 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -reflow-emit-hint-scope=true -mllvm -reflow-enable-codegen-with-if=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=10 -mllvm -use_read_first_ram_in_loop=1 -mllvm -default-clock-uncertainty=2.7 -x ir C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.lto.bc {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e 2> C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log bg_poll_cmd: ::AP::poll_clang_39_closed_source
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 2,386 Compile/Link C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 2,386 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 377 Unroll/Inline (step 1) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 377 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 245 Unroll/Inline (step 2) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 245 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 236 Unroll/Inline (step 3) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 236 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 210 Unroll/Inline (step 4) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 210 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 209 Array/Struct (step 1) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 209 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 209 Array/Struct (step 2) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 209 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 209 Array/Struct (step 3) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 209 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 209 Array/Struct (step 4) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 209 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 321 Array/Struct (step 5) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 321 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 335 Performance (step 1) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 335 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 321 Performance (step 2) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 321 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 223 Performance (step 3) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 223 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 223 Performance (step 4) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 223 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 169 HW Transforms (step 1) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 169 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Execute       send_msg_by_id INFO @200-1995@%s%s%s 158 HW Transforms (step 2) C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
-INFO: [HLS 200-1995] There were 158 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-Command       send_msg_by_id done; 0.342 sec.
-INFO: [HLS 214-131] Inlining function 'hilbert(int, int&)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:66:9)
-INFO: [HLS 214-291] Loop 'VITIS_LOOP_28_1' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:28:19)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (hilbert.cpp:28:19) in function 'hilbert_envelope_axis' completely with a factor of 24 (hilbert.cpp:52:0)
+INFO-FLOW: run_clang (background poll_ms 5000) exec: C:/Xilinx/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=hilbert_envelope_axis -mllvm -hls-db-dir -mllvm C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -enable-fp-thr=0 -mllvm -reflow-bdd-simplify-threshold=1048576 -mllvm -reflow-fanout-threshold=16 -mllvm -reflow-complete-threshold=4 -mllvm -reflow-array-promotion-threshold=64 -mllvm -assume-maxi-align=1 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -ftime-report -mllvm -time-passes -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-small-array-partition=true -mllvm -reflow-enable-auto-array-partition-for-flatten=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-reserved-saxilite-registers=0 -mllvm -enable-reflow-auto-loop-pipeline -mllvm -reflow-max-unroll-threshold=409600 -mllvm -auto-unroll-tripcount-threshold=0 -mllvm -reflow-assume-no-address-wrap=true -mllvm -reflow-enable-occurrence-inference=true -mllvm -reflow-emit-hint-scope=true -mllvm -reflow-enable-codegen-with-if=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=10 -mllvm -use_read_first_ram_in_loop=1 -mllvm -default-clock-uncertainty=2.7 -x ir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.5.gdce.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.lto.bc {-hls-platform-db-name=C:/Xilinx\Vitis_HLS\2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_432.000000_DSP_360.000000_FF_141120.000000_LUT_70560.000000_SLICE_8820.000000_URAM_0.000000 -device-name-info=xczu3eg-sfvc784-2-e 2> C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.ld.0.bc.clang.reflow.err.log bg_poll_cmd: ::AP::poll_clang_39_closed_source
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 4,513 Compile/Link C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 4,513 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 4,547 Unroll/Inline (step 1) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 4,547 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,924 Unroll/Inline (step 2) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,924 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,792 Unroll/Inline (step 3) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,792 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,116 Unroll/Inline (step 4) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,116 Array/Struct (step 1) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,116 Array/Struct (step 2) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,116 Array/Struct (step 3) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,116 Array/Struct (step 4) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,228 Array/Struct (step 5) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,228 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,242 Performance (step 1) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,242 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,228 Performance (step 2) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,228 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,130 Performance (step 3) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,130 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,130 Performance (step 4) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,130 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,076 HW Transforms (step 1) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,076 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Execute       send_msg_by_id INFO @200-1995@%s%s%s 1,065 HW Transforms (step 2) C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt 
+INFO: [HLS 200-1995] There were 1,065 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+Command       send_msg_by_id done; 0.737 sec.
+INFO: [HLS 214-131] Inlining function 'hilbert(int, int&)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:77:9)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_27_1' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:27:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_40_2' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:40:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_27_1' (hilbert.cpp:27:19) in function 'hilbert_envelope_axis' completely with a factor of 100 (hilbert.cpp:62:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_40_2' (hilbert.cpp:40:22) in function 'hilbert_envelope_axis' completely with a factor of 25 (hilbert.cpp:62:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<float>::mantissa() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<float>::expv() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<float>::__signbit() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' into 'int generic_cast_IEEE754<int, float>(float, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116:0)
 INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, float>(float, bool)' into '__hls_fptosi_float_i32' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51:0)
-INFO: [HLS 214-178] Inlining function 'hls::sqrt(float)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:52:0)
-INFO: [HLS 214-178] Inlining function '__hls_fptosi_float_i32' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:52:0)
-INFO: [HLS 214-248] Applying array_partition to '_ZZL7hilbertiRiE1x': Complete partitioning on dimension 1. (hilbert.cpp:25:0)
-INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/kernel.internal.xml
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.881 seconds; current allocated memory: 254.164 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 254.168 MB.
+INFO: [HLS 214-178] Inlining function 'hls::sqrt(float)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:62:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'x' due to pipeline pragma (hilbert.cpp:70:9)
+INFO: [HLS 214-248] Applying array_partition to '_ZL1x': Complete partitioning on dimension 1. (hilbert.cpp:17:0)
+INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/kernel.internal.xml
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.458 seconds; current allocated memory: 183.387 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 183.387 MB.
 Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute         cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 INFO-FLOW: Running Standard Transforms...
-Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top hilbert_envelope_axis -deadargelim -mem2reg -instcombine -dce -presyn-prepare -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -promote-dbg-pointer -norm-name C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.0.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.1.bc -f -phase std-opt 
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.041 seconds; current allocated memory: 259.668 MB.
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top hilbert_envelope_axis -deadargelim -mem2reg -instcombine -dce -presyn-prepare -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -promote-dbg-pointer -norm-name C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.0.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 188.613 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
-Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.1.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.2.prechk.bc -f 
+Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.1.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.2.prechk.bc -f 
 INFO-FLOW: Checking Synthesizability 2/2..
-Execute         transform -syn-check C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.2.prechk.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.2.bc -f -phase syn-check 
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.035 seconds; current allocated memory: 262.402 MB.
+Execute         transform -syn-check C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.2.prechk.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 192.160 MB.
 INFO-FLOW: Compiler optimizing ...
-INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.1.bc to C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.1.bc
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.g.1.bc to C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
-Execute         transform -hls -tmp C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -lcssa -loop-simplify -phi-select-elim -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -canonicalize-dataflow -dce -globaldce -scalar-preprocessing -scalar-propagation2 -scalar-stream -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -clean-array-spec -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.1.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.1.tmp.bc -f 
+Execute         transform -hls -tmp C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -lcssa -loop-simplify -phi-select-elim -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -canonicalize-dataflow -dce -globaldce -scalar-preprocessing -scalar-propagation2 -scalar-stream -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -clean-array-spec -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.1.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.1.tmp.bc -f 
 INFO-FLOW: Presyn 2...
-Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.1.tmp.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.2.bc -f -phase presyn 
-INFO: [XFORM 203-11] Balancing expressions in function 'hilbert_envelope_axis' (hilbert.cpp:8:22)...5 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.089 seconds; current allocated memory: 285.887 MB.
-Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -inst-simplify -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -inst-simplify -inst-rectify -instcombine -adce -deadargelim -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -mul2addshift -deadargelim -inst-simplify -dce -mem2reg -instcombine -gvn -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -inst-clarity -bitwidth -dce -validate-dataflow -dump-loop-dep-to-ir -check-all-ssdm -dump-complexity-metric C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.2.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.1.tmp.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [XFORM 203-11] Balancing expressions in function 'hilbert_envelope_axis' (hilbert.cpp:8:22)...47 expression(s) balanced.
+Command         transform done; 1.335 sec.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.436 seconds; current allocated memory: 215.137 MB.
+Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -inst-simplify -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -inst-simplify -inst-rectify -instcombine -adce -deadargelim -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -mul2addshift -deadargelim -inst-simplify -dce -mem2reg -instcombine -gvn -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -inst-clarity -bitwidth -dce -validate-dataflow -dump-loop-dep-to-ir -check-all-ssdm -dump-complexity-metric C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.2.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+INFO: [XFORM 203-603] Evaluating the output(s) of a call to function '__hls_fptosi_float_i32' (hilbert.cpp:44:31) in function 'hilbert_envelope_axis' and propagating its result(s) since all actual argument(s) to the function are constants.
 Execute           auto_get_db
+Command         transform done; 0.13 sec.
 INFO-FLOW: Building ssdm...
-Execute         transform -hls -cdfg-build C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.3.bc -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 285.984 MB.
+Execute         transform -hls -cdfg-build C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.3.bc -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.177 seconds; current allocated memory: 221.207 MB.
 INFO-FLOW: Finish building internal data model.
-Command       opt_and_import_c done; 1.91 sec.
-Command     elaborate done; 30.306 sec.
-Execute     ap_eval exec zip -j C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
-Command     ap_eval done; 0.122 sec.
+Command       opt_and_import_c done; 1.794 sec.
+Command     elaborate done; 25.75 sec.
+Execute     ap_eval exec zip -j C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
+Command     ap_eval done; 0.119 sec.
 Execute     autosyn -from_csynth_design=1 
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO-FLOW: Synthesizing C/C++ design ...
 INFO: [HLS 200-10] Synthesizing 'hilbert_envelope_axis' ...
 Execute       ap_set_top_model hilbert_envelope_axis 
+WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_float_i32' to 'p_hls_fptosi_float_i32'.
 Execute       get_model_list hilbert_envelope_axis -filter all-wo-channel -topdown 
 Execute       preproc_iomode -model hilbert_envelope_axis 
+Execute       preproc_iomode -model __hls_fptosi_float_i32 
 Execute       create_clock 
 Execute         ap_set_clock -name default -period 10 -unit ns -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 Execute       get_model_list hilbert_envelope_axis -filter all-wo-channel 
-INFO-FLOW: Model list for configure: hilbert_envelope_axis
+INFO-FLOW: Model list for configure: __hls_fptosi_float_i32 hilbert_envelope_axis
+INFO-FLOW: Configuring Module : __hls_fptosi_float_i32 ...
+Execute       set_default_model __hls_fptosi_float_i32 
+Execute       apply_spec_resource_limit __hls_fptosi_float_i32 
 INFO-FLOW: Configuring Module : hilbert_envelope_axis ...
 Execute       set_default_model hilbert_envelope_axis 
 Execute       apply_spec_resource_limit hilbert_envelope_axis 
-INFO-FLOW: Model list for preprocess: hilbert_envelope_axis
+INFO-FLOW: Model list for preprocess: __hls_fptosi_float_i32 hilbert_envelope_axis
+INFO-FLOW: Preprocessing Module: __hls_fptosi_float_i32 ...
+Execute       set_default_model __hls_fptosi_float_i32 
+Execute       cdfg_preprocess -model __hls_fptosi_float_i32 
+Execute       rtl_gen_preprocess __hls_fptosi_float_i32 
 INFO-FLOW: Preprocessing Module: hilbert_envelope_axis ...
 Execute       set_default_model hilbert_envelope_axis 
 Execute       cdfg_preprocess -model hilbert_envelope_axis 
 Execute       rtl_gen_preprocess hilbert_envelope_axis 
-INFO-FLOW: Model list for synthesis: hilbert_envelope_axis
+INFO-FLOW: Model list for synthesis: __hls_fptosi_float_i32 hilbert_envelope_axis
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'p_hls_fptosi_float_i32' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model __hls_fptosi_float_i32 
+Execute       schedule -model __hls_fptosi_float_i32 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function '__hls_fptosi_float_i32'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, function '__hls_fptosi_float_i32'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.342 seconds; current allocated memory: 224.617 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.verbose.sched.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.sched.adb -f 
+INFO-FLOW: Finish scheduling __hls_fptosi_float_i32.
+Execute       set_default_model __hls_fptosi_float_i32 
+Execute       bind -model __hls_fptosi_float_i32 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.047 seconds; current allocated memory: 225.883 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.verbose.bind.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.bind.adb -f 
+INFO-FLOW: Finish binding __hls_fptosi_float_i32.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'hilbert_envelope_axis' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute       set_default_model hilbert_envelope_axis 
 Execute       schedule -model hilbert_envelope_axis 
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_59_1'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 17, loop 'VITIS_LOOP_59_1'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_69_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 16, loop 'VITIS_LOOP_69_1'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.153 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.315 seconds; current allocated memory: 286.043 MB.
-Execute       syn_report -verbosereport -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.verbose.sched.rpt 
+Command       schedule done; 0.274 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.333 seconds; current allocated memory: 230.953 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.verbose.sched.rpt 
 Execute         list_part -family xczu3eg-sfvc784-2-e 
 Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
 Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
-Execute       db_write -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.sched.adb -f 
+Execute       db_write -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.sched.adb -f 
 INFO-FLOW: Finish scheduling hilbert_envelope_axis.
 Execute       set_default_model hilbert_envelope_axis 
 Execute       bind -model hilbert_envelope_axis 
@@ -246,21 +290,46 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 287.332 MB.
-Execute       syn_report -verbosereport -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.verbose.bind.rpt 
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.162 seconds; current allocated memory: 231.336 MB.
+Execute       syn_report -verbosereport -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.verbose.bind.rpt 
 Execute         list_part -family xczu3eg-sfvc784-2-e 
 Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
 Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
-Execute       db_write -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.bind.adb -f 
+Execute       db_write -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.bind.adb -f 
 INFO-FLOW: Finish binding hilbert_envelope_axis.
 Execute       get_model_list hilbert_envelope_axis -filter all-wo-channel 
 INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess __hls_fptosi_float_i32 
 Execute       rtl_gen_preprocess hilbert_envelope_axis 
-INFO-FLOW: Model list for RTL generation: hilbert_envelope_axis
+INFO-FLOW: Model list for RTL generation: __hls_fptosi_float_i32 hilbert_envelope_axis
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'p_hls_fptosi_float_i32' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model __hls_fptosi_float_i32 -top_prefix hilbert_envelope_axis_ -sub_prefix hilbert_envelope_axis_ -mg_file C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'p_hls_fptosi_float_i32'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 232.555 MB.
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
+Execute       gen_rtl __hls_fptosi_float_i32 -style xilinx -f -lang vhdl -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/vhdl/hilbert_envelope_axis_p_hls_fptosi_float_i32 
+Execute       gen_rtl __hls_fptosi_float_i32 -style xilinx -f -lang vlog -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/verilog/hilbert_envelope_axis_p_hls_fptosi_float_i32 
+Execute       syn_report -csynth -model __hls_fptosi_float_i32 -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/p_hls_fptosi_float_i32_csynth.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -rtlxml -model __hls_fptosi_float_i32 -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/p_hls_fptosi_float_i32_csynth.xml 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       syn_report -verbosereport -model __hls_fptosi_float_i32 -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.verbose.rpt 
+Execute         list_part -family xczu3eg-sfvc784-2-e 
+Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
+Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
+Execute       db_write -model __hls_fptosi_float_i32 -f -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.adb 
+Execute       db_write -model __hls_fptosi_float_i32 -bindview -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info __hls_fptosi_float_i32 -p C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'hilbert_envelope_axis' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-Execute       create_rtl_model hilbert_envelope_axis -top_prefix  -sub_prefix hilbert_envelope_axis_ -mg_file C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.tcl 
+Execute       create_rtl_model hilbert_envelope_axis -top_prefix  -sub_prefix hilbert_envelope_axis_ -mg_file C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.tcl 
 WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
 INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_data_V' to 'axis' (register, both mode).
 INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/in_stream_V_keep_V' to 'axis' (register, both mode).
@@ -277,80 +346,151 @@ INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_
 INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_id_V' to 'axis' (register, both mode).
 INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_dest_V' to 'axis' (register, both mode).
 INFO: [RTGEN 206-500] Setting interface mode on function 'hilbert_envelope_axis' to 'ap_ctrl_none'.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_23' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_22' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_21' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_20' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_19' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_18' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_17' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_16' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_15' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_14' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_13' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_12' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_11' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_10' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_9' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_8' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_7' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_6' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_5' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_4' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_3' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_2' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_1' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x' is power-on initialization.
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'hilbert_envelope_axis' pipeline 'VITIS_LOOP_59_1' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_98' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_97' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_96' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_95' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_94' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_93' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_92' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_91' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_90' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_89' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_88' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_87' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_86' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_85' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_84' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_83' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_82' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_81' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_80' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_79' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_78' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_77' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_76' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_75' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_74' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_73' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_72' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_71' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_70' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_69' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_68' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_67' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_66' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_65' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_64' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_63' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_62' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_61' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_60' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_59' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_58' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_57' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_56' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_55' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_54' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_53' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_52' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_51' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_50' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_49' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_48' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_47' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_46' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_45' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_44' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_43' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_42' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_41' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_40' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_39' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_38' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_37' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_36' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_35' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_34' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_33' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_32' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_31' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_30' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_29' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_28' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_27' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_26' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_25' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_24' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_23' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_22' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_21' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_20' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_19' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_18' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_17' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_16' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_15' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_14' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_13' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_12' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_11' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_10' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_9' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_8' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_7' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_6' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_5' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_4' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_0' is power-on initialization.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'hilbert_envelope_axis' pipeline 'VITIS_LOOP_69_1' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'fsqrt_32ns_32ns_32_8_no_dsp_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_64_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_35s_35s_64_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_46s_48ns_93_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_64_1_1': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'sitofp_64ns_32_4_no_dsp_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'hilbert_envelope_axis'.
-Command       create_rtl_model done; 1.729 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.802 seconds; current allocated memory: 291.262 MB.
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
-Execute       gen_rtl hilbert_envelope_axis -istop -style xilinx -f -lang vhdl -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/vhdl/hilbert_envelope_axis 
-Execute       gen_rtl hilbert_envelope_axis -istop -style xilinx -f -lang vlog -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/verilog/hilbert_envelope_axis 
-Execute       syn_report -csynth -model hilbert_envelope_axis -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/hilbert_envelope_axis_csynth.rpt 
+Command       create_rtl_model done; 4.904 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.012 seconds; current allocated memory: 238.504 MB.
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
+Execute       gen_rtl hilbert_envelope_axis -istop -style xilinx -f -lang vhdl -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/vhdl/hilbert_envelope_axis 
+Execute       gen_rtl hilbert_envelope_axis -istop -style xilinx -f -lang vlog -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/verilog/hilbert_envelope_axis 
+Execute       syn_report -csynth -model hilbert_envelope_axis -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/hilbert_envelope_axis_csynth.rpt 
 Execute         list_part -family xczu3eg-sfvc784-2-e 
 Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
 Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
-Execute       syn_report -rtlxml -model hilbert_envelope_axis -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/hilbert_envelope_axis_csynth.xml 
+Execute       syn_report -rtlxml -model hilbert_envelope_axis -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/hilbert_envelope_axis_csynth.xml 
 Execute         list_part -family xczu3eg-sfvc784-2-e 
 Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
 Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
-Execute       syn_report -verbosereport -model hilbert_envelope_axis -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.verbose.rpt 
+Execute       syn_report -verbosereport -model hilbert_envelope_axis -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.verbose.rpt 
 Execute         list_part -family xczu3eg-sfvc784-2-e 
 Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
 Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
-Execute       db_write -model hilbert_envelope_axis -f -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.adb 
-Execute       db_write -model hilbert_envelope_axis -bindview -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/design.bindinfo.xml 
-Execute       gen_tb_info hilbert_envelope_axis -p C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis 
-Execute       export_constraint_db -f -tool general -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.constraint.tcl 
-Execute       syn_report -designview -model hilbert_envelope_axis -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.design.xml 
-Execute       syn_report -csynthDesign -model hilbert_envelope_axis -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth.rpt -MHOut C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/kernel_module_hierarchy.tcl 
+Execute       db_write -model hilbert_envelope_axis -f -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.adb 
+Execute       db_write -model hilbert_envelope_axis -bindview -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info hilbert_envelope_axis -p C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis 
+Execute       export_constraint_db -f -tool general -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.constraint.tcl 
+Execute       syn_report -designview -model hilbert_envelope_axis -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.design.xml 
+Execute       syn_report -csynthDesign -model hilbert_envelope_axis -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth.rpt -MHOut C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/kernel_module_hierarchy.tcl 
 Execute         list_part -family xczu3eg-sfvc784-2-e 
 Execute           ap_family_info -name xczu3eg-sfvc784-2-e -data names 
 Execute           ap_part_info -quiet -name xczu3eg-sfvc784-2-e -data family 
-Execute       syn_report -wcfg -model hilbert_envelope_axis -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis_dataflow_ana.wcfg 
-Execute       syn_report -protoinst -model hilbert_envelope_axis -o C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.protoinst 
+Execute       syn_report -wcfg -model hilbert_envelope_axis -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis_dataflow_ana.wcfg 
+Execute       syn_report -protoinst -model hilbert_envelope_axis -o C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.protoinst 
 Execute       sc_get_clocks hilbert_envelope_axis 
 Execute       sc_get_portdomain hilbert_envelope_axis 
-INFO-FLOW: Model list for RTL component generation: hilbert_envelope_axis
+INFO-FLOW: Model list for RTL component generation: __hls_fptosi_float_i32 hilbert_envelope_axis
+INFO-FLOW: Handling components in module [p_hls_fptosi_float_i32] ... 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.compgen.tcl 
 INFO-FLOW: Handling components in module [hilbert_envelope_axis] ... 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.tcl 
 INFO-FLOW: Found component hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1.
 INFO-FLOW: Append model hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1
 INFO-FLOW: Found component hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1.
 INFO-FLOW: Append model hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1
 INFO-FLOW: Found component hilbert_envelope_axis_mul_32s_32s_64_1_1.
 INFO-FLOW: Append model hilbert_envelope_axis_mul_32s_32s_64_1_1
-INFO-FLOW: Found component hilbert_envelope_axis_mul_35s_35s_64_1_1.
-INFO-FLOW: Append model hilbert_envelope_axis_mul_35s_35s_64_1_1
-INFO-FLOW: Found component hilbert_envelope_axis_mul_46s_48ns_93_1_1.
-INFO-FLOW: Append model hilbert_envelope_axis_mul_46s_48ns_93_1_1
 INFO-FLOW: Found component hilbert_envelope_axis_regslice_both.
 INFO-FLOW: Append model hilbert_envelope_axis_regslice_both
 INFO-FLOW: Found component hilbert_envelope_axis_regslice_both.
@@ -381,15 +521,14 @@ INFO-FLOW: Found component hilbert_envelope_axis_regslice_both.
 INFO-FLOW: Append model hilbert_envelope_axis_regslice_both
 INFO-FLOW: Found component hilbert_envelope_axis_flow_control_loop_pipe_no_ap_cont.
 INFO-FLOW: Append model hilbert_envelope_axis_flow_control_loop_pipe_no_ap_cont
+INFO-FLOW: Append model p_hls_fptosi_float_i32
 INFO-FLOW: Append model hilbert_envelope_axis
 INFO-FLOW: Generating RTL model list ...
-INFO-FLOW: All models in this session: hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1 hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1 hilbert_envelope_axis_mul_32s_32s_64_1_1 hilbert_envelope_axis_mul_35s_35s_64_1_1 hilbert_envelope_axis_mul_46s_48ns_93_1_1 hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_flow_control_loop_pipe_no_ap_cont hilbert_envelope_axis
-INFO-FLOW: Generating C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/autopilot.rtl.models.txt file...
+INFO-FLOW: All models in this session: hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1 hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1 hilbert_envelope_axis_mul_32s_32s_64_1_1 hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_regslice_both hilbert_envelope_axis_flow_control_loop_pipe_no_ap_cont p_hls_fptosi_float_i32 hilbert_envelope_axis
+INFO-FLOW: Generating C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/autopilot.rtl.models.txt file...
 INFO-FLOW: To file: write model hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1
 INFO-FLOW: To file: write model hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1
 INFO-FLOW: To file: write model hilbert_envelope_axis_mul_32s_32s_64_1_1
-INFO-FLOW: To file: write model hilbert_envelope_axis_mul_35s_35s_64_1_1
-INFO-FLOW: To file: write model hilbert_envelope_axis_mul_46s_48ns_93_1_1
 INFO-FLOW: To file: write model hilbert_envelope_axis_regslice_both
 INFO-FLOW: To file: write model hilbert_envelope_axis_regslice_both
 INFO-FLOW: To file: write model hilbert_envelope_axis_regslice_both
@@ -405,8 +544,9 @@ INFO-FLOW: To file: write model hilbert_envelope_axis_regslice_both
 INFO-FLOW: To file: write model hilbert_envelope_axis_regslice_both
 INFO-FLOW: To file: write model hilbert_envelope_axis_regslice_both
 INFO-FLOW: To file: write model hilbert_envelope_axis_flow_control_loop_pipe_no_ap_cont
+INFO-FLOW: To file: write model p_hls_fptosi_float_i32
 INFO-FLOW: To file: write model hilbert_envelope_axis
-INFO-FLOW: Generating C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/autopilot.rtl.models.tcl file...
+INFO-FLOW: Generating C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/autopilot.rtl.models.tcl file...
 INFO-FLOW: Finished generating RTL model list.
 
 
@@ -414,13 +554,13 @@ INFO-FLOW: RTL Generation done.
 INFO-FLOW: CAS Generation done.
 INFO-FLOW: CBC Generation done.
 INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate_csynth_design
-INFO-FLOW: DBG:PUTS: read_platform_lib C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl
+INFO-FLOW: DBG:PUTS: read_platform_lib C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/common.gen 
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/APCoreGen.gen 
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op.gen 
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op_simcore.gen 
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/interface.gen 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
@@ -434,11 +574,9 @@ Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xf
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
 INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
-INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/vhdl' dstVlogDir='C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/vlog' tclDir='C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db' modelList='hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/vhdl' dstVlogDir='C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/vlog' tclDir='C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db' modelList='hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1
 hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1
 hilbert_envelope_axis_mul_32s_32s_64_1_1
-hilbert_envelope_axis_mul_35s_35s_64_1_1
-hilbert_envelope_axis_mul_46s_48ns_93_1_1
 hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_regslice_both
@@ -454,15 +592,17 @@ hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_flow_control_loop_pipe_no_ap_cont
+p_hls_fptosi_float_i32
 hilbert_envelope_axis
 ' expOnly='0'
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
 Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
 Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.tcl 
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.556 seconds; current allocated memory: 297.793 MB.
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.compgen.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.tcl 
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.893 seconds; current allocated memory: 249.359 MB.
 INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='hilbert_envelope_axis_' outfile=''
 INFO-FLOW: Running: create_csynth_xml read xml data
 INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
@@ -472,12 +612,10 @@ INFO-FLOW: Running: create_csynth_xml config info
 INFO-FLOW: Done: create_csynth_xml config info time: 0.2 seconds per iteration
 INFO-FLOW: Running: create_csynth_xml write xml
 INFO-FLOW: Done: create_csynth_xml write xml time: 0 seconds per iteration
-INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth.xml
+INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth.xml
 INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='0' modelList='hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1
 hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1
 hilbert_envelope_axis_mul_32s_32s_64_1_1
-hilbert_envelope_axis_mul_35s_35s_64_1_1
-hilbert_envelope_axis_mul_46s_48ns_93_1_1
 hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_regslice_both
@@ -493,50 +631,75 @@ hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_regslice_both
 hilbert_envelope_axis_flow_control_loop_pipe_no_ap_cont
+p_hls_fptosi_float_i32
 hilbert_envelope_axis
 ' rtl_lang='both' bootstrap_tcl='false' outdir='' outfilename=''
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/top-io-be.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.dataonly.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/top-io-be.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.dataonly.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/p_hls_fptosi_float_i32.tbgen.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
 Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
 Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.constraint.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.constraint.tcl 
 Execute       sc_get_clocks hilbert_envelope_axis 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/misc/hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1_ip.tcl 
-Execute       source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/misc/hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1_ip.tcl 
-INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {} cache_nodes {} report_dict {TOPINST hilbert_envelope_axis MODULE2INSTS {hilbert_envelope_axis hilbert_envelope_axis} INST2MODULE {hilbert_envelope_axis hilbert_envelope_axis} INSTDATA {hilbert_envelope_axis {DEPTH 1 CHILDREN {}}} MODULEDATA {hilbert_envelope_axis {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln37_fu_540_p2 SOURCE hilbert.cpp:37 VARIABLE sub_ln37 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln38_fu_550_p2 SOURCE hilbert.cpp:38 VARIABLE sub_ln38 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln39_fu_560_p2 SOURCE hilbert.cpp:39 VARIABLE sub_ln39 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln40_fu_570_p2 SOURCE hilbert.cpp:40 VARIABLE sub_ln40 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln41_fu_580_p2 SOURCE hilbert.cpp:41 VARIABLE sub_ln41 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln42_fu_586_p2 SOURCE hilbert.cpp:42 VARIABLE sub_ln42 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln45_2_fu_616_p2 SOURCE hilbert.cpp:45 VARIABLE sub_ln45_2 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln45_7_fu_688_p2 SOURCE hilbert.cpp:45 VARIABLE add_ln45_7 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_46s_48ns_93_1_1_U5 SOURCE hilbert.cpp:45 VARIABLE mul_ln45 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 9 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln45_fu_1052_p2 SOURCE hilbert.cpp:45 VARIABLE sub_ln45 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln45_1_fu_1082_p3 SOURCE hilbert.cpp:45 VARIABLE select_ln45_1 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln45_1_fu_1093_p2 SOURCE hilbert.cpp:45 VARIABLE sub_ln45_1 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME Q_path_fu_1099_p3 SOURCE hilbert.cpp:45 VARIABLE Q_path LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_32s_32s_64_1_1_U3 SOURCE hilbert.cpp:47 VARIABLE mul_ln47 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 4 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_35s_35s_64_1_1_U4 SOURCE hilbert.cpp:47 VARIABLE mul_ln47_1 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 4 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME grp_fu_251_p0 SOURCE hilbert.cpp:47 VARIABLE mag_sq LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 3 OPTYPE sitofp PRAGMA {} RTLNAME sitofp_64ns_32_4_no_dsp_1_U1 SOURCE hilbert.cpp:48 VARIABLE x_assign LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sitofp} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 7 OPTYPE fsqrt PRAGMA {} RTLNAME fsqrt_32ns_32ns_32_8_no_dsp_1_U2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sqrtfloat.cpp:8} VARIABLE dc LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fsqrt} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln317_fu_1164_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:317} VARIABLE add_ln317 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln18_fu_1178_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE sub_ln18 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln18_fu_1188_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE select_ln18 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE lshr PRAGMA {} RTLNAME lshr_ln18_fu_1204_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE lshr_ln18 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op lshr} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE shl PRAGMA {} RTLNAME shl_ln18_fu_1210_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE shl_ln18 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op shl} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME val_fu_1236_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE val LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME result_1_fu_1244_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59} VARIABLE result_1 LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME out_stream_TDATA_int_regslice SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59} VARIABLE result LOOP VITIS_LOOP_59_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false}} AREA {DSP 17 BRAM 0 URAM 0}}}}'
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/misc/hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1_ip.tcl 
+Execute       source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/misc/hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1_ip.tcl 
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {} cache_nodes {} report_dict {TOPINST hilbert_envelope_axis MODULE2INSTS {hilbert_envelope_axis hilbert_envelope_axis p_hls_fptosi_float_i32 env_sample_p_hls_fptosi_float_i32_fu_381} INST2MODULE {hilbert_envelope_axis hilbert_envelope_axis env_sample_p_hls_fptosi_float_i32_fu_381 p_hls_fptosi_float_i32} INSTDATA {hilbert_envelope_axis {DEPTH 1 CHILDREN env_sample_p_hls_fptosi_float_i32_fu_381} env_sample_p_hls_fptosi_float_i32_fu_381 {DEPTH 2 CHILDREN {}}} MODULEDATA {p_hls_fptosi_float_i32 {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln317_fu_86_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:317} VARIABLE add_ln317 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln18_fu_100_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE sub_ln18 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln18_fu_110_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE select_ln18 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE lshr PRAGMA {} RTLNAME lshr_ln18_fu_126_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE lshr_ln18 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op lshr} VISIBLE false} {BINDTYPE op ID {} IMPL auto_pipe LATENCY 0 OPTYPE shl PRAGMA {} RTLNAME shl_ln18_fu_132_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE shl_ln18 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op shl} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME val_fu_158_p3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18} VARIABLE val LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME result_1_fu_166_p2 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59} VARIABLE result_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME ap_return SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:59} VARIABLE result_2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false}} AREA {DSP 0 BRAM 0 URAM 0}} hilbert_envelope_axis {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_fu_1429_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_1_fu_1447_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_1 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_2_fu_1461_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_2 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_3_fu_1475_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_3 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_4_fu_1489_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_4 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_5_fu_1503_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_5 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_6_fu_1517_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_6 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_7_fu_1535_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_7 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_8_fu_1553_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_8 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_9_fu_1571_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_9 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_10_fu_1585_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_10 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_11_fu_1603_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_11 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_12_fu_1621_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_12 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_13_fu_1635_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_13 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_14_fu_1653_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_14 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_15_fu_1671_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_15 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_16_fu_1689_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_16 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_17_fu_1703_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_17 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_18_fu_1717_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_18 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_19_fu_1731_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_19 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_20_fu_1749_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_20 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_21_fu_1767_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_21 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_22_fu_1785_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_22 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_23_fu_1799_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_23 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_24_fu_1813_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_24 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_26_fu_1909_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_26 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_29_fu_1993_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_29 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_33_fu_2131_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_33 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_34_fu_2201_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_34 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_36_fu_2271_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_36 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln50_35_fu_2377_p2 SOURCE hilbert.cpp:50 VARIABLE add_ln50_35 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln50_37_fu_2447_p2 SOURCE hilbert.cpp:50 VARIABLE add_ln50_37 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln50_46_fu_2763_p2 SOURCE hilbert.cpp:50 VARIABLE sub_ln50_46 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln50_56_fu_3167_p2 SOURCE hilbert.cpp:50 VARIABLE add_ln50_56 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln50_1_fu_3493_p2 SOURCE hilbert.cpp:50 VARIABLE add_ln50_1 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln50_4_fu_3519_p2 SOURCE hilbert.cpp:50 VARIABLE add_ln50_4 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln50_6_fu_3539_p2 SOURCE hilbert.cpp:50 VARIABLE add_ln50_6 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln50_15_fu_3613_p2 SOURCE hilbert.cpp:50 VARIABLE add_ln50_15 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln50_20_fu_3655_p2 SOURCE hilbert.cpp:50 VARIABLE add_ln50_20 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln53_fu_3713_p2 SOURCE hilbert.cpp:53 VARIABLE sub_ln53 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME sub_ln53_1_fu_3728_p2 SOURCE hilbert.cpp:53 VARIABLE sub_ln53_1 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME Q_path_fu_3734_p3 SOURCE hilbert.cpp:53 VARIABLE Q_path LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_32s_32s_64_1_1_U4 SOURCE hilbert.cpp:56 VARIABLE mul_ln56 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 4 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE mul PRAGMA {} RTLNAME mul_32s_32s_64_1_1_U5 SOURCE hilbert.cpp:56 VARIABLE mul_ln56_1 LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 4 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME grp_fu_387_p0 SOURCE hilbert.cpp:56 VARIABLE mag_sq LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 3 OPTYPE sitofp PRAGMA {} RTLNAME sitofp_64ns_32_4_no_dsp_1_U2 SOURCE hilbert.cpp:58 VARIABLE x_assign LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sitofp} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 7 OPTYPE fsqrt PRAGMA {} RTLNAME fsqrt_32ns_32ns_32_8_no_dsp_1_U3 SOURCE {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sqrtfloat.cpp:8} VARIABLE tmp LOOP VITIS_LOOP_69_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op fsqrt} VISIBLE true}} AREA {DSP 8 BRAM 0 URAM 0}}}}'
 INFO-FLOW: DBG:PUTS:      update_csynth_reports json2rpt_hw_sw_interfaces
 INFO-FLOW: Running: gen_csynth_sec_pragma
 INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.1 seconds per iteration
 INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
 INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.678 seconds; current allocated memory: 300.492 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.738 seconds; current allocated memory: 252.762 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for hilbert_envelope_axis.
 INFO: [VLOG 209-307] Generating Verilog RTL for hilbert_envelope_axis.
 Execute       syn_report -model hilbert_envelope_axis -printsummary 
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
-INFO: [HLS 200-789] **** Estimated Fmax: 150.97 MHz
-Command     autosyn done; 3.347 sec.
-Command   csynth_design done; 33.877 sec.
+INFO: [HLS 200-789] **** Estimated Fmax: 152.05 MHz
+Command     autosyn done; 7.715 sec.
+Command   csynth_design done; 33.694 sec.
 Execute   close_project 
 Execute     close_solution 
 Execute       cleanup_all 
 Execute       cleanup_all 
-INFO-FLOW: Workspace C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls opened at Mon Apr 13 17:36:10 -0400 2026
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+INFO-FLOW: Workspace C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls opened at Tue Apr 14 20:02:26 -0400 2026
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute   apply_ini C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg 
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(8) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(8)
+Execute     add_files C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.cpp 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(9) 
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(9)
+Execute     add_files C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.h 
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.h' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(10) 
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(10)
+Execute     add_files -tb C:/Motor-Simulator/Envelope/Envelope_Detector/tb_hilbert.cpp 
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
+Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(7) 
+INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(7)
+Execute     set_top hilbert_envelope_axis 
+Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(4) 
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(4)
+Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(1) 
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(1)
 Execute     set_part xczu3eg-sfvc784-2-e 
 Execute       create_platform xczu3eg-sfvc784-2-e -board  
 DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
-Command       create_platform done; 1.961 sec.
+Command       create_platform done; 1.024 sec.
 Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
@@ -551,241 +714,18 @@ Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xf
 Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
 Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 2.081 sec.
-Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
-INFO: [HLS 200-1505] Using default flow_target 'vivado'
-Command   open_solution done; 2.101 sec.
-Execute   apply_ini C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg 
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(7) 
-INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(7)
-Execute     add_files C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.cpp 
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.cpp' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.h' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(8) 
-INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(8)
-Execute     add_files C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.h 
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.h' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(10) 
-INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(10)
-Execute     add_files -tb C:/Motor-Simulator-main/Envelope/Envelope_Detector/tb_hilbert.cpp 
-INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(9) 
-INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(9)
-Execute     set_top hilbert_envelope_axis 
-Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(4) 
-INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(4)
-Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
-INFO: [HLS 200-1505] Using flow_target 'vivado'
-Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(1) 
-INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(1)
-Execute     set_part xczu3eg-sfvc784-2-e 
-Execute       create_platform xczu3eg-sfvc784-2-e -board  
-Command       create_platform done; 0.161 sec.
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
-Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
-Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 0.288 sec.
-Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(5) 
-INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(5)
+Command     set_part done; 1.108 sec.
+Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(5) 
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(5)
 Execute     config_export -format=ip_catalog 
-Command   apply_ini done; 0.313 sec.
-Execute   apply_ini C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline 
-Execute   export_design -flow none 
-Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
-Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
-Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
-Execute     AP::get_vpp_package_output_file
-Execute     config_export -flow=none 
-INFO-FLOW: DBG:PUTS: export_design_wrap: -format ip_catalog -rtl verilog
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-INFO-FLOW: DBG:PUTS:   auto_impl: pack: -export -rtl verilog
-INFO-FLOW: DBG:PROC: ::AESL_AUTOIMPL::auto_impl args='-export -rtl verilog'
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
-INFO-FLOW: DBG:PUTS: automg_wrap -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
-INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate args='-export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag'
-INFO-FLOW: DBG:PUTS:     auto_generate -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-INFO-FLOW: DBG:PUTS: read_platform_lib C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/common.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/APCoreGen.gen 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op.gen 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op_simcore.gen 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/interface.gen 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
-INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
-INFO-FLOW: DBG:PUTS:       initCTypeInfo top_module=hilbert_envelope_axis xml_exists=0
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-INFO-FLOW: DBG:PUTS:       cosim_export_main adding deadlock detection to hilbert_envelope_axis
-INFO-FLOW: DBG:PUTS:       generate_datafile_ip_script ip_types={vitis sysgen} #gSsdmPorts=0
-INFO-FLOW: DBG:PUTS: Skipping loadAnalyze_DB, #g_database=14
-INFO-FLOW: DBG:PUTS:       generate_json generate_bd_files=0 generate_xo_files=false #modelList=21 #gSsdmPorts=0
-INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='false' modelList='hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1
-hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1
-hilbert_envelope_axis_mul_32s_32s_64_1_1
-hilbert_envelope_axis_mul_35s_35s_64_1_1
-hilbert_envelope_axis_mul_46s_48ns_93_1_1
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_regslice_both
-hilbert_envelope_axis_flow_control_loop_pipe_no_ap_cont
-hilbert_envelope_axis
-' rtl_lang='vlog' bootstrap_tcl='false' outdir='' outfilename=''
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/top-io-be.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.rtl_wrap.cfg.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.compgen.dataonly.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
-Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.constraint.tcl 
-Execute     sc_get_clocks hilbert_envelope_axis 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/misc/hilbert_envelope_axis_fsqrt_32ns_32ns_32_8_no_dsp_1_ip.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/misc/hilbert_envelope_axis_sitofp_64ns_32_4_no_dsp_1_ip.tcl 
-INFO-FLOW: DBG:PUTS:       generate_syn_sh
-Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
-Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-INFO-FLOW: DBG:PUTS:       generate_imp_constraints
-Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
-Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.constraint.tcl 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/hilbert_envelope_axis.tbgen.tcl 
-INFO-FLOW: DBG:PUTS:       delete-temp-dirs (skipped for debug)
-Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data names -quiet 
-Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info -quiet 
-INFO-FLOW: DBG:PUTS: read_platform_lib C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/common.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/APCoreGen.gen 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op.gen 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/op_simcore.gen 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/generic/autopilot/interface.gen 
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
-INFO-FLOW: DBG:PUTS:     IP package: exec C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/ip/pack.bat
-INFO-FLOW: DBG:PUTS:     IP package: success C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/impl/ip/pack.bat
-Execute     send_msg_by_id INFO @200-802@%s Envelope_Detector/hilbert_envelope_axis.zip 
-INFO: [HLS 200-802] Generated output file Envelope_Detector/hilbert_envelope_axis.zip
-Command   export_design done; 18.125 sec.
-Execute   close_project 
-Execute     close_solution 
-Execute       cleanup_all 
-Execute       cleanup_all 
-INFO-FLOW: Workspace C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls opened at Mon Apr 13 17:38:15 -0400 2026
-Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
-INFO: [HLS 200-1505] Using default flow_target 'vivado'
-Execute   apply_ini C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg 
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(7) 
-INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(7)
-Execute     add_files C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.cpp 
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.cpp' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.file=hilbert.h' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(8) 
-INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(8)
-Execute     add_files C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.h 
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.h' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(10) 
-INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(10)
-Execute     add_files -tb C:/Motor-Simulator-main/Envelope/Envelope_Detector/tb_hilbert.cpp 
-INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
-Execute     send_msg_by_id INFO @200-1465@%s 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(9) 
-INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(9)
-Execute     set_top hilbert_envelope_axis 
-Execute     send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(4) 
-INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(4)
-Execute     send_msg_by_id INFO @200-1505@%s%s  vivado 
-INFO: [HLS 200-1505] Using flow_target 'vivado'
-Execute     send_msg_by_id INFO @200-1465@%s 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(1) 
-INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(1)
-Execute     set_part xczu3eg-sfvc784-2-e 
-Execute       create_platform xczu3eg-sfvc784-2-e -board  
-DBG:HLSDevice: Trying to load device library: C:/Xilinx\Vitis_HLS\2024.1\lib\win64.o\xv_hlsvwrap.dll
-DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/Vivado/2024.1/data/parts/arch.xml
-DBG:HLSDevice: init success
-INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
-Command       create_platform done; 1.888 sec.
-Execute       source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute           source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/saxilite.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/dds_compiler.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/util.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfft.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/ip/xfir.gen 
-Execute         source C:/Xilinx/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
-Execute       ap_part_info -name xczu3eg-sfvc784-2-e -data info 
-Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 2.005 sec.
-Execute     send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(5) 
-INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(5)
-Execute     config_export -format=ip_catalog 
-Command   apply_ini done; 2.029 sec.
-Execute   apply_ini C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline 
+Command   apply_ini done; 1.129 sec.
+Execute   apply_ini C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline 
 Execute   csim_design 
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
 INFO-FLOW: Running SLX 'csim' proc: ::SLX::run_csim
-Execute     source C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
+Execute     source C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/.autopilot/db/global.setting.tcl 
 INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
 Execute     source csim/.lst_opt.tcl 
@@ -795,10 +735,10 @@ Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.t
 Execute     source C:/Xilinx/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
 Execute     ap_part_info -name xczu3eg-sfvc784-2-e -data info 
 Execute     source run_sim.tcl 
-Command     ap_source done; 0.11 sec.
+Command     ap_source done; 0.66 sec.
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-Command   csim_design done; 0.712 sec.
+Command   csim_design done; 7.567 sec.
 Execute   close_project 
 Execute     close_solution 
 Execute       cleanup_all 

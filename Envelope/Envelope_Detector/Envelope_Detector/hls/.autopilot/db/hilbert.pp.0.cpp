@@ -29427,72 +29427,85 @@ typedef int64_t acc_t;
 typedef ap_axis<32,2,5,6> axis_pkt_t;
 typedef hls::stream<axis_pkt_t> axis_t;
 
+
+static const int NTAPS = 101;
+static const int CENTER = NTAPS / 2;
+static const int SCALE = 32768;
+
+
+static data_t x[NTAPS] = {0};
+
+
+
+
+
 static void hilbert(data_t in, data_t &envelope) {
 #pragma HLS INLINE
 
- const int NTAPS = 25;
-    const int CENTER = NTAPS / 2;
 
-
-    const int32_t h1 = 6366;
-    const int32_t h3 = 2122;
-    const int32_t h5 = 1273;
-    const int32_t h7 = 909;
-    const int32_t h9 = 707;
-    const int32_t h11 = 579;
-
-    static int32_t x[NTAPS] = {0};
-#pragma HLS ARRAY_PARTITION variable=x complete dim=1
-
- VITIS_LOOP_28_1: for (int i = NTAPS - 1; i > 0; i--) {
+ VITIS_LOOP_27_1: for (int i = NTAPS - 1; i > 0; i--) {
 #pragma HLS UNROLL
  x[i] = x[i - 1];
     }
     x[0] = in;
 
-    int32_t I_path = x[CENTER];
 
-    acc_t Q_path = 0;
-    Q_path += h11 * (int64_t)(x[24] - x[0]);
-    Q_path += h9 * (int64_t)(x[22] - x[2]);
-    Q_path += h7 * (int64_t)(x[20] - x[4]);
-    Q_path += h5 * (int64_t)(x[18] - x[6]);
-    Q_path += h3 * (int64_t)(x[16] - x[8]);
-    Q_path += h1 * (int64_t)(x[14] - x[10]);
+    data_t I_path = x[CENTER];
 
 
-    Q_path /= 10000;
+    acc_t Q_acc = 0;
 
-    acc_t mag_sq = (acc_t)I_path * I_path + (Q_path * Q_path);
-    envelope = (int32_t)hls::sqrt((float)mag_sq);
+
+    VITIS_LOOP_40_2: for (int k = 1; k <= 49; k += 2) {
+#pragma HLS UNROLL
+
+ float hk_f = 2.0f / (3.14159265358979f * (float)k);
+        int32_t hk = (int32_t)(hk_f * SCALE + 0.5f);
+
+        int left = CENTER - k;
+        int right = CENTER + k;
+
+
+        Q_acc += (acc_t)hk * ((acc_t)x[right] - (acc_t)x[left]);
+    }
+
+    data_t Q_path = (data_t)(Q_acc / SCALE);
+
+    acc_t mag_sq = (acc_t)I_path * (acc_t)I_path
+                 + (acc_t)Q_path * (acc_t)Q_path;
+
+    envelope = (data_t)hls::sqrt((float)mag_sq);
 }
 
-__attribute__((sdx_kernel("hilbert_envelope_axis", 0))) void hilbert_envelope_axis(hls::stream<ap_axis<32,2,5,6>> &in_stream,
-                           hls::stream<ap_axis<32,2,5,6>> &out_stream) {
+__attribute__((sdx_kernel("hilbert_envelope_axis", 0))) void hilbert_envelope_axis(hls::stream<axis_pkt_t> &in_stream,
+                           hls::stream<axis_pkt_t> &out_stream) {
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=hilbert_envelope_axis
-# 52 "hilbert.cpp"
+# 62 "hilbert.cpp"
 
 #pragma HLS INTERFACE axis port=in_stream
 #pragma HLS INTERFACE axis port=out_stream
 #pragma HLS INTERFACE ap_ctrl_none port=return
 
- ap_axis<32,2,5,6> tmp;
+ axis_pkt_t tmp;
 
-    VITIS_LOOP_59_1: while (1) {
+    VITIS_LOOP_69_1: while (1) {
 #pragma HLS PIPELINE II=1
 
  in_stream.read(tmp);
 
-        data_t in_sample = (int32_t)tmp.data;
-        data_t env_sample;
+        data_t in_sample = (data_t)tmp.data;
+        data_t env_sample = 0;
+
         hilbert(in_sample, env_sample);
 
         tmp.data = env_sample;
-
         out_stream.write(tmp);
+
+
         if (tmp.last) {
             break;
         }
+
     }
 }

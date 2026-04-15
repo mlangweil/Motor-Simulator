@@ -2,9 +2,9 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "Motor_Simulator_hilbert_envelope_axis_0_4",
-    "cell_name": "envelope",
+    "cell_name": "envelopeDetector",
     "component_reference": "xilinx.com:hls:hilbert_envelope_axis:1.0",
-    "ip_revision": "2114564076",
+    "ip_revision": "2114565549",
     "gen_directory": "../../../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ip/Motor_Simulator_hilbert_envelope_axis_0_4",
     "parameters": {
       "component_parameters": {
@@ -31,7 +31,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "2114564076" } ],
+        "IPREVISION": [ { "value": "2114565549" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../Motor-Simulator.gen/sources_1/bd/Motor_Simulator/ip/Motor_Simulator_hilbert_envelope_axis_0_4" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

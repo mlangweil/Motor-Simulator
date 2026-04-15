@@ -1,91 +1,114 @@
-INFO: [v++ 60-1548] Creating build summary session with primary output C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector\Envelope_Detector.hlscompile_summary, at 04/13/26 17:25:04
-INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector -config C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg -cmdlineconfig C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline
+INFO: [v++ 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector\Envelope_Detector.hlscompile_summary, at 04/14/26 18:39:16
+INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector -config C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg -cmdlineconfig C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/config.cmdline
 
 ****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
   **** SW Build 5069499 on May 21 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Mon Apr 13 17:25:06 2026
+  **** Start of session at: Tue Apr 14 18:39:17 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'langweil.m' on host 'wfxa4bb6dbb67af.nunet.neu.edu' (Windows NT_amd64 version 10.0) on Mon Apr 13 17:25:06 -0400 2026
-INFO: [HLS 200-10] In directory 'C:/Motor-Simulator-main/Envelope/Envelope_Detector'
-INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector 
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Apr 14 18:39:18 -0400 2026
+INFO: [HLS 200-10] In directory 'C:/Motor-Simulator/Envelope/Envelope_Detector'
+INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
-INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(7)
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.cpp' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(8)
-INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/hilbert.h' to the project
-INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(10)
-INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator-main/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
-INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(9)
-INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(4)
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.file=hilbert.h' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'C:/Motor-Simulator/Envelope/Envelope_Detector/hilbert.h' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=tb_hilbert.cpp' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Motor-Simulator/Envelope/Envelope_Detector/tb_hilbert.cpp' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=hilbert_envelope_axis' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vivado' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(4)
 INFO: [HLS 200-1505] Using flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
-INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(1)
 INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
-INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator-main/Envelope/Envelope_Detector/hls_config.cfg(5)
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 3.244 seconds; current allocated memory: 245.617 MB.
+INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Envelope/Envelope_Detector/hls_config.cfg(5)
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.085 seconds; current allocated memory: 174.852 MB.
 INFO: [HLS 200-10] Analyzing design file 'hilbert.cpp' ... 
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 20.493 seconds; current allocated memory: 252.961 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 15.452 seconds; current allocated memory: 182.523 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
-INFO: [HLS 200-1995] There were 2,386 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 377 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 245 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 236 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 210 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 209 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 209 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 209 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 209 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 321 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 335 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 321 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 223 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 223 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 169 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 158 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator-main/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 214-131] Inlining function 'hilbert(int, int&)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:66:9)
-INFO: [HLS 214-291] Loop 'VITIS_LOOP_28_1' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:28:19)
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_28_1' (hilbert.cpp:28:19) in function 'hilbert_envelope_axis' completely with a factor of 24 (hilbert.cpp:52:0)
+INFO: [HLS 200-1995] There were 4,513 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4,547 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,924 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,792 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,116 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,228 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,242 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,228 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,130 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,130 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,076 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,065 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Envelope/Envelope_Detector/Envelope_Detector/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-131] Inlining function 'hilbert(int, int&)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:77:9)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_27_1' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:27:19)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_40_2' is marked as complete unroll implied by the pipeline pragma (hilbert.cpp:40:22)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_27_1' (hilbert.cpp:27:19) in function 'hilbert_envelope_axis' completely with a factor of 100 (hilbert.cpp:62:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_40_2' (hilbert.cpp:40:22) in function 'hilbert_envelope_axis' completely with a factor of 25 (hilbert.cpp:62:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<float>::fp_struct(float)' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<float>::mantissa() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<float>::expv() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<float>::__signbit() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, (ap_q_mode)6, float>(float, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' into 'int generic_cast_IEEE754<int, float>(float, bool)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:116:0)
 INFO: [HLS 214-178] Inlining function 'int generic_cast_IEEE754<int, float>(float, bool)' into '__hls_fptosi_float_i32' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51:0)
-INFO: [HLS 214-178] Inlining function 'hls::sqrt(float)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:52:0)
-INFO: [HLS 214-178] Inlining function '__hls_fptosi_float_i32' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:52:0)
-INFO: [HLS 214-248] Applying array_partition to '_ZZL7hilbertiRiE1x': Complete partitioning on dimension 1. (hilbert.cpp:25:0)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.881 seconds; current allocated memory: 254.164 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 254.168 MB.
+INFO: [HLS 214-178] Inlining function 'hls::sqrt(float)' into 'hilbert_envelope_axis(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&)' (hilbert.cpp:62:0)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'x' due to pipeline pragma (hilbert.cpp:70:9)
+INFO: [HLS 214-248] Applying array_partition to '_ZL1x': Complete partitioning on dimension 1. (hilbert.cpp:17:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.458 seconds; current allocated memory: 183.387 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 183.387 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.041 seconds; current allocated memory: 259.668 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 188.613 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.035 seconds; current allocated memory: 262.402 MB.
-INFO: [XFORM 203-11] Balancing expressions in function 'hilbert_envelope_axis' (hilbert.cpp:8:22)...5 expression(s) balanced.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.089 seconds; current allocated memory: 285.887 MB.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 285.984 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 192.160 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'hilbert_envelope_axis' (hilbert.cpp:8:22)...47 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.436 seconds; current allocated memory: 215.137 MB.
+INFO: [XFORM 203-603] Evaluating the output(s) of a call to function '__hls_fptosi_float_i32' (hilbert.cpp:44:31) in function 'hilbert_envelope_axis' and propagating its result(s) since all actual argument(s) to the function are constants.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.177 seconds; current allocated memory: 221.207 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'hilbert_envelope_axis' ...
+WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_float_i32' to 'p_hls_fptosi_float_i32'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'hilbert_envelope_axis' 
+INFO: [HLS 200-42] -- Implementing module 'p_hls_fptosi_float_i32' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_59_1'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 17, loop 'VITIS_LOOP_59_1'
+INFO: [SCHED 204-61] Pipelining function '__hls_fptosi_float_i32'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, function '__hls_fptosi_float_i32'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.315 seconds; current allocated memory: 286.043 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.342 seconds; current allocated memory: 224.617 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 287.332 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.047 seconds; current allocated memory: 225.883 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'hilbert_envelope_axis' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_69_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 16, loop 'VITIS_LOOP_69_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.333 seconds; current allocated memory: 230.953 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.162 seconds; current allocated memory: 231.336 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'p_hls_fptosi_float_i32' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'p_hls_fptosi_float_i32'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 232.555 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'hilbert_envelope_axis' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -105,43 +128,116 @@ INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_
 INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_id_V' to 'axis' (register, both mode).
 INFO: [RTGEN 206-500] Setting interface mode on port 'hilbert_envelope_axis/out_stream_V_dest_V' to 'axis' (register, both mode).
 INFO: [RTGEN 206-500] Setting interface mode on function 'hilbert_envelope_axis' to 'ap_ctrl_none'.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_23' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_22' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_21' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_20' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_19' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_18' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_17' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_16' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_15' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_14' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_13' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_12' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_11' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'p_ZZL7hilbertiRiE1x_10' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_9' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_8' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_7' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_6' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_5' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_4' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_3' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_2' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x_1' is power-on initialization.
-WARNING: [RTGEN 206-101] Register 'hilbert_int_int_x' is power-on initialization.
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'hilbert_envelope_axis' pipeline 'VITIS_LOOP_59_1' pipeline type 'loop pipeline'
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_98' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_97' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_96' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_95' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_94' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_93' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_92' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_91' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_90' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_89' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_88' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_87' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_86' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_85' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_84' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_83' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_82' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_81' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_80' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_79' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_78' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_77' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_76' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_75' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_74' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_73' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_72' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_71' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_70' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_69' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_68' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_67' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_66' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_65' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_64' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_63' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_62' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_61' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_60' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_59' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_58' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_57' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_56' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_55' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_54' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_53' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_52' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_51' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_50' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_49' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_48' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_47' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_46' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_45' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_44' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_43' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_42' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_41' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_40' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_39' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_38' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_37' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_36' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_35' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_34' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_33' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_32' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_31' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_30' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_29' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_28' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_27' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_26' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_25' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_24' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_23' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_22' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_21' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_20' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_19' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_18' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_17' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_16' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_15' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_14' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_13' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_12' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_11' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_10' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_9' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_8' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_7' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_6' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_5' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_4' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_3' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_2' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_1' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'p_ZL1x_0' is power-on initialization.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'hilbert_envelope_axis' pipeline 'VITIS_LOOP_69_1' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'fsqrt_32ns_32ns_32_8_no_dsp_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_64_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_35s_35s_64_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_46s_48ns_93_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_64_1_1': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'sitofp_64ns_32_4_no_dsp_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'hilbert_envelope_axis'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.802 seconds; current allocated memory: 291.262 MB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.556 seconds; current allocated memory: 297.793 MB.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.678 seconds; current allocated memory: 300.492 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.012 seconds; current allocated memory: 238.504 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.893 seconds; current allocated memory: 249.359 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.738 seconds; current allocated memory: 252.762 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for hilbert_envelope_axis.
 INFO: [VLOG 209-307] Generating Verilog RTL for hilbert_envelope_axis.
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
-INFO: [HLS 200-789] **** Estimated Fmax: 150.97 MHz
-INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 2 seconds. Total elapsed time: 37.024 seconds; peak allocated memory: 300.695 MB.
-INFO: [v++ 60-791] Total elapsed time: 0h 0m 41s
+INFO: [HLS 200-789] **** Estimated Fmax: 152.05 MHz
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 2 seconds. Total elapsed time: 35.677 seconds; peak allocated memory: 253.477 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 39s

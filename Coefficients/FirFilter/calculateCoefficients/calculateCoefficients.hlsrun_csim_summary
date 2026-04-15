@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "C:/Motor-Simulator-main\\Coefficients\\FirFilter\\calculateCoefficients\\calculateCoefficients.hlsrun_csim_summary",
+ "thisFile": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\calculateCoefficients.hlsrun_csim_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "04/13/26 17:26:39",
- "timestampMillis": "2294105759",
+ "dateTimestamp": "04/14/26 18:07:17",
+ "timestampMillis": "2382943920",
  "buildStep": {
-  "cmdId": "c840ef21-f7e5-48ad-a538-46c5da416b06",
+  "cmdId": "96db8e0c-3bde-4e0a-a68f-0845da7796c2",
   "name": "vitis-run",
-  "logFile": "C:/Motor-Simulator-main\\Coefficients\\FirFilter\\calculateCoefficients\\logs\\calculateCoefficients.steps.log",
-  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Motor-Simulator-main\\Coefficients\\FirFilter\\hls_config.cfg --work_dir calculateCoefficients ",
+  "logFile": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\logs\\calculateCoefficients.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.1/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Motor-Simulator\\Coefficients\\FirFilter\\hls_config.cfg --work_dir calculateCoefficients ",
   "args": [
    "--mode",
    "hls",
    "--csim",
    "--config",
-   "C:\\Motor-Simulator-main\\Coefficients\\FirFilter\\hls_config.cfg",
+   "C:\\Motor-Simulator\\Coefficients\\FirFilter\\hls_config.cfg",
    "--work_dir",
    "calculateCoefficients"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Motor-Simulator-main\\Coefficients\\FirFilter"
+  "cwd": "C:\\Motor-Simulator\\Coefficients\\FirFilter"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/13/26 17:26:39",
- "timestampMillis": "2294105760",
+ "dateTimestamp": "04/14/26 18:07:17",
+ "timestampMillis": "2382943921",
  "status": {
-  "cmdId": "c840ef21-f7e5-48ad-a538-46c5da416b06",
+  "cmdId": "96db8e0c-3bde-4e0a-a68f-0845da7796c2",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "04/13/26 17:26:43",
- "timestampMillis": "2294110675",
+ "dateTimestamp": "04/14/26 18:07:20",
+ "timestampMillis": "2382947241",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -64,8 +64,8 @@
      "uuid": ""
     },
     "sources": [
-     "C:/Motor-Simulator-main\\Coefficients\\FirFilter\\Coefficients.cpp",
-     "C:/Motor-Simulator-main\\Coefficients\\FirFilter\\Coefficients.h"
+     "C:/Motor-Simulator\\Coefficients\\FirFilter\\Coefficients.cpp",
+     "C:/Motor-Simulator\\Coefficients\\FirFilter\\Coefficients.h"
     ],
     "psSources": [],
     "cuNames": [],
@@ -81,26 +81,26 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "04/13/26 17:26:43",
- "timestampMillis": "2294110676",
+ "dateTimestamp": "04/14/26 18:07:20",
+ "timestampMillis": "2382947243",
  "buildStep": {
-  "cmdId": "32f22b72-cba3-4c42-a13f-0b3ef0c01074",
+  "cmdId": "e90627f8-9d2b-486c-ad5f-c51d582e51a8",
   "name": "csim_design",
-  "logFile": "C:/Motor-Simulator-main\\Coefficients\\FirFilter\\calculateCoefficients\\hls\\hls.log",
+  "logFile": "C:/Motor-Simulator\\Coefficients\\FirFilter\\calculateCoefficients\\hls\\hls.log",
   "commandLine": "csim_design",
   "args": [],
   "iniFiles": [],
-  "cwd": "C:\\Motor-Simulator-main\\Coefficients\\FirFilter"
+  "cwd": "C:\\Motor-Simulator\\Coefficients\\FirFilter"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/13/26 17:26:43",
- "timestampMillis": "2294110676",
+ "dateTimestamp": "04/14/26 18:07:20",
+ "timestampMillis": "2382947243",
  "status": {
-  "cmdId": "32f22b72-cba3-4c42-a13f-0b3ef0c01074",
+  "cmdId": "e90627f8-9d2b-486c-ad5f-c51d582e51a8",
   "state": "CS_RUNNING"
  }
 }
@@ -108,10 +108,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/13/26 17:26:51",
- "timestampMillis": "2294118169",
+ "dateTimestamp": "04/14/26 18:07:26",
+ "timestampMillis": "2382952845",
  "status": {
-  "cmdId": "32f22b72-cba3-4c42-a13f-0b3ef0c01074",
+  "cmdId": "e90627f8-9d2b-486c-ad5f-c51d582e51a8",
   "state": "CS_PASSED"
  }
 }
@@ -119,10 +119,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/13/26 17:26:51",
- "timestampMillis": "2294118300",
+ "dateTimestamp": "04/14/26 18:07:26",
+ "timestampMillis": "2382952930",
  "status": {
-  "cmdId": "c840ef21-f7e5-48ad-a538-46c5da416b06",
+  "cmdId": "96db8e0c-3bde-4e0a-a68f-0845da7796c2",
   "state": "CS_PASSED"
  }
 }
@@ -130,8 +130,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/13/26 17:26:51",
- "timestampMillis": "2294118301",
+ "dateTimestamp": "04/14/26 18:07:26",
+ "timestampMillis": "2382952930",
  "report": {
   "path": "",
   "name": "",
@@ -144,8 +144,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/13/26 17:26:51",
- "timestampMillis": "2294118301",
+ "dateTimestamp": "04/14/26 18:07:26",
+ "timestampMillis": "2382952931",
  "report": {
   "path": "",
   "name": "",
