@@ -10,8 +10,8 @@ void firTop(hls::stream<ap_axis<32, 2, 5, 6>> &in_stream,
 #pragma HLS INTERFACE ap_ctrl_none port = return
 
   double taps[MAX_TAPS];
-  uint32_t bramVal[4];
-  for (int i = 0; i < 4; i++)
+  uint32_t bramVal[SIZE_OFFSET];
+  for (int i = 0; i < SIZE_OFFSET; i++)
     bramVal[i] = bram[i];
   bram[READ_SUCCESS_OFFSET] = 1;
 
@@ -23,8 +23,7 @@ void firTop(hls::stream<ap_axis<32, 2, 5, 6>> &in_stream,
   ap_axis<32, 2, 5, 6> tmp;
   calculateCoefficients(N, lowerCutoff, upperCutoff, samplingRate, taps);
 
-  while (1) {
-#pragma HLS PIPELINE II = 1
+  do {
 
     bool doReset = (bram[RESET_OFFSET] != 0);
     if (doReset) {
@@ -45,10 +44,8 @@ void firTop(hls::stream<ap_axis<32, 2, 5, 6>> &in_stream,
 
     out_stream.write(tmp);
 
-    if (tmp.last) {
-      break;
-    }
-  }
+      }while (!tmp.last) ;
+
 }
 
 void fir(double *y, double c[MAX_TAPS], double x, int N, bool reset) {
@@ -63,7 +60,6 @@ void fir(double *y, double c[MAX_TAPS], double x, int N, bool reset) {
       shift_reg[i] = 0.0;
     }
     *y = 0.0;
-    return;
   }
 
 Shift_Accum_Loop:
@@ -90,7 +86,6 @@ void calculateCoefficients(int N, int lowerCutoff, int upperCutoff,
   double omegaUpper = 2.0 * PI * upperCutoff / samplingRate;
 
   for (int i = 0; i < N; i++) {
-#pragma HLS PIPELINE
     int n = i - M;
     double val;
 
@@ -111,13 +106,11 @@ void calculateCoefficients(int N, int lowerCutoff, int upperCutoff,
   double gain_re = 0.0;
 
   for (int i = 0; i < N; i++) {
-#pragma HLS PIPELINE
     gain_re += taps[i] * hls::cos(centerOmega * (i - M));
   }
 
   if (gain_re > 1e-10) {
     for (int i = 0; i < N; i++) {
-#pragma HLS PIPELINE
       taps[i] /= gain_re;
     }
   }

@@ -5,7 +5,7 @@
 #include <cstdint>
 #include <cmath>
 
-#define NUM_SAMPLES 64
+#define NUM_SAMPLES 101
 
 #define PI 3.14159265358979323846
 
@@ -24,13 +24,13 @@ int main() {
     // --- Pick ONE test case at a time ---
 
     // TEST A: 3000 Hz — center of passband, should PASS THROUGH
-    //double f_test = 3000.0;
+    double f_test = 2500.0;
 
     // TEST B: 100 Hz — below passband, should be REJECTED (~0 output)
     //double f_test = 100.0;
 
     // TEST C: 8000 Hz — above passband, should be REJECTED (~0 output)
-     double f_test = 8000.0;
+     //double f_test = 8000.0;
 
     for (int i = 0; i < NUM_SAMPLES; i++) {
         ap_axis<32, 2, 5, 6> sample;
@@ -39,6 +39,8 @@ int main() {
         sample.data = (int32_t)s;
         sample.last = (i == NUM_SAMPLES - 1) ? 1 : 0;
         in_stream.write(sample);
+            std::cout <<"Fir_in: "<< (int32_t)s << "\n";
+
     }
 
     firTop(in_stream, out_stream, bram);

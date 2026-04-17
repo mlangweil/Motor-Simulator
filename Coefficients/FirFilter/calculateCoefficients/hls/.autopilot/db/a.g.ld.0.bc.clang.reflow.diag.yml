@@ -9,229 +9,20 @@ Args:
   - String:          ''' for cosimulation.'
 ...
 --- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: Coefficients.cpp, Line: 61, Column: 22 }
-Function:        _Z3firPdS_dib
-Args:            
-  - String:          'Loop '''
-  - LoopName:        VITIS_LOOP_61_1
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: Coefficients.cpp, Line: 70, Column: 3 }
-Function:        _Z3firPdS_dib
-Args:            
-  - String:          'Loop '''
-  - LoopName:        Shift_Accum_Loop
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 421, Column: 5 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Loop '''
-  - LoopName:        anonymous
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 414, Column: 5 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Loop '''
-  - LoopName:        anonymous
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 401, Column: 5 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Loop '''
-  - LoopName:        anonymous
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 400, Column: 41 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Loop '''
-  - LoopName:        anonymous
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Loop '''
-  - LoopName:        anonymous
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: Coefficients.cpp, Line: 54, Column: 0 }
+DebugLoc:        { File: Coefficients.cpp, Line: 51, Column: 0 }
 Function:        _Z3firPdS_dib
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_61_1
+  - LoopName:        VITIS_LOOP_58_1
   - String:          ''' ('
-  - LoopLoc:         'Coefficients.cpp:61:22'
+  - LoopLoc:         'Coefficients.cpp:58:22'
   - String:          ') '
   - String:          'in function '''
   - String:          fir
   - String:          ''' completely with a factor of '
-  - Factor:          '101'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 390, Column: 0 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        anonymous
-  - String:          ''' ('
-  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:421:5'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          'scaled_fixed2ieee<63, 1>'
-  - String:          ''' completely with a factor of '
-  - Factor:          '4'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 390, Column: 0 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        anonymous
-  - String:          ''' ('
-  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:414:5'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          'scaled_fixed2ieee<63, 1>'
-  - String:          ''' completely with a factor of '
-  - Factor:          '4'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 390, Column: 0 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        anonymous
-  - String:          ''' ('
-  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:401:5'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          'scaled_fixed2ieee<63, 1>'
-  - String:          ''' completely with a factor of '
-  - Factor:          '3'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 390, Column: 0 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        anonymous
-  - String:          ''' ('
-  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:41'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          'scaled_fixed2ieee<63, 1>'
-  - String:          ''' completely with a factor of '
-  - Factor:          '4'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 390, Column: 0 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        anonymous
-  - String:          ''' ('
-  - LoopLoc:         ''
-  - String:          ') '
-  - String:          'in function '''
-  - String:          'scaled_fixed2ieee<63, 1>'
-  - String:          ''' completely with a factor of '
-  - Factor:          '1'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 390, Column: 0 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        anonymous
-  - String:          ''' ('
-  - LoopLoc:         ''
-  - String:          ') '
-  - String:          'in function '''
-  - String:          'scaled_fixed2ieee<63, 1>'
-  - String:          ''' completely with a factor of '
-  - Factor:          '1'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 390, Column: 0 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        anonymous
-  - String:          ''' ('
-  - LoopLoc:         ''
-  - String:          ') '
-  - String:          'in function '''
-  - String:          'scaled_fixed2ieee<63, 1>'
-  - String:          ''' completely with a factor of '
-  - Factor:          '1'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
-                   Line: 390, Column: 0 }
-Function:        _Z17scaled_fixed2ieeeILi63ELi1EEv9ap_ufixedIXT_EXT0_EL9ap_q_mode5EL9ap_o_mode3ELi0EERdi
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        anonymous
-  - String:          ''' ('
-  - LoopLoc:         ''
-  - String:          ') '
-  - String:          'in function '''
-  - String:          'scaled_fixed2ieee<63, 1>'
-  - String:          ''' completely with a factor of '
-  - Factor:          '1'
+  - Factor:          '301'
 ...
 --- !Passed
 Pass:            reflow-inliner
@@ -542,7 +333,7 @@ Args:
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: Coefficients.cpp, Line: 84, Column: 0 }
+DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
 Function:        _Z21calculateCoefficientsiiiiPd
 Args:            
   - String:          'Inlining function '''
@@ -551,13 +342,13 @@ Args:
                        Line: 24, Column: 0 }
   - String:          ''' into '''
   - Caller:          'calculateCoefficients(int, int, int, int, double*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 84, Column: 0 }
+    DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: Coefficients.cpp, Line: 84, Column: 0 }
+DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
 Function:        _Z21calculateCoefficientsiiiiPd
 Args:            
   - String:          'Inlining function '''
@@ -566,7 +357,7 @@ Args:
                        Line: 28, Column: 0 }
   - String:          ''' into '''
   - Caller:          'calculateCoefficients(int, int, int, int, double*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 84, Column: 0 }
+    DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
@@ -679,7 +470,7 @@ Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56E
 Args:            
   - String:          'Inlining function '''
   - Callee:          'calculateCoefficients(int, int, int, int, double*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 84, Column: 0 }
+    DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
   - String:          ''' into '''
   - Caller:          'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
     DebugLoc:        { File: Coefficients.cpp, Line: 5, Column: 0 }
@@ -821,7 +612,7 @@ Args:
   - String:          'Sequential '
   - Direction:       read
   - String:          ' of length '
-  - Length:          '4'
+  - Length:          '6'
   - String:          ' has been inferred'
   - String:          ' _XLX_SEP_ '
   - AccessID:        bramseq
@@ -856,6 +647,24 @@ Args:
   - String:          ' '
   - Function:        'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
     DebugLoc:        { File: Coefficients.cpp, Line: 5, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 421, Column: 5 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        anonymous
+  - String:          ' '
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:421:5'
+  - String:          ' '
+  - Function:        'double hotbm_::sin_or_cos<double>(double, bool, bool)'
+    DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h', 
+                       Line: 210, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -897,15 +706,68 @@ Args:
   - LoopLoc:         'Coefficients.cpp:26:20'
   - String:          ') . Requires loop in simplify form and with single exit.'
 ...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: Coefficients.cpp, Line: 70, Column: 3 }
-Function:        _Z3firPdS_dib
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 421, Column: 5 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
 Args:            
-  - String:          'Loop '''
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        anonymous
+  - String:          '''('
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:421:5'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
   - LoopName:        Shift_Accum_Loop
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+  - String:          '> at '
+  - LoopLoc:         'Coefficients.cpp:66:3'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        unknown
+  - String:          '> at '
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:421:5'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        unknown
+  - String:          '> at '
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:414:5'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        unknown
+  - String:          '> at '
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:401:5'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        unknown
+  - String:          '> at '
+  - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:41'
+  - String:          ' '
 ...
 --- !HLSReportInfo
 Pass:            auto-loop-pipeline
@@ -917,64 +779,64 @@ Args:
   - LoopLoc:         'Coefficients.cpp:14:20'
   - String:          ' '
 ...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: Coefficients.cpp, Line: 70, Column: 3 }
-Function:        _Z3firPdS_dib
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
 Args:            
-  - String:          'Loop '''
-  - LoopName:        Shift_Accum_Loop
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Passed
-Pass:            reflow-auto-inline-performance-driven
-Name:            AutoInlinePerf
-DebugLoc:        { File: Coefficients.cpp, Line: 41, Column: 5 }
-Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
-Args:            
-  - String:          'Automatically inlining function '''
-  - Callee:          'fir(double*, double*, double, int, bool)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 54, Column: 0 }
-  - String:          ''' to improve effectiveness of pipeline pragma in function '''
-  - Caller:          'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 5, Column: 0 }
-  - String:          ''''
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_113_3
+  - String:          '> at '
+  - LoopLoc:         'Coefficients.cpp:113:23'
+  - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoSmallArrayPartition
-DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 12 }
-Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 400, Column: 17 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
 Args:            
   - String:          'Automatically partitioning small array '''
-  - Value:           bramVal
+  - Value:           out_bits
+  - String:          ''' completely based on array size.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoSmallArrayPartition
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 413, Column: 9 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
+Args:            
+  - String:          'Automatically partitioning small array '''
+  - Value:           c
   - String:          ''' completely based on array size.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoParallelPerformanceDrivenVerbosePassed
-DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 12 }
-Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 400, Column: 17 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
 Args:            
   - PragmaType:      array_partition
   - String:          ' '
-  - PragmaOptions:   'dim=1 type=complete  variable=bramVal'
+  - PragmaOptions:   'dim=1 type=complete  variable=out_bits.i'
   - String:          ' '
   - PragmaIsAuto:    '1'
   - String:          ' '
-  - PragmaFunction:  firTop
+  - PragmaFunction:  'hotbm_::sin_or_cos<double>'
   - String:          ' '
-  - varLoc:          'Coefficients.cpp:13:12'
+  - varLoc:          'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:17'
   - String:          ' '
-  - VarName:         bramVal
+  - VarName:         out_bits.i
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayXform
-DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 12 }
-Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 400, Column: 17 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
 Args:            
   - String:          'Inferring pragma '''
   - PragmaType:      array_partition
@@ -983,7 +845,47 @@ Args:
   - String:          ' dim='
   - Dim:             '1'
   - String:          ''' for array '''
-  - Name:            bramVal
+  - Name:            out_bits.i
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 413, Column: 9 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=c.i'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  'hotbm_::sin_or_cos<double>'
+  - String:          ' '
+  - varLoc:          'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:413:9'
+  - String:          ' '
+  - VarName:         c.i
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 413, Column: 9 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            c.i
   - String:          ''''
   - String:          ' due to '
   - String:          pipeline
@@ -992,13 +894,33 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: Coefficients.cpp, Line: 13, Column: 12 }
-Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 400, Column: 17 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
 Args:            
   - String:          'Applying '
   - String:          array_partition
   - String:          ' to '''
-  - UOName:          bramVal
+  - UOName:          out_bits.i
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h', 
+                   Line: 413, Column: 9 }
+Function:        _ZN6hotbm_10sin_or_cosIdEET_S1_bb
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          c.i
   - String:          ''':'
   - String:          ' '
   - Mode:            Complete
@@ -1016,7 +938,7 @@ Args:
   - String:          'Multiple burst '
   - Direction:       reads
   - String:          ' of length '
-  - Length:          '4'
+  - Length:          '6'
   - String:          ' and bit width '
   - Width:           '32'
   - String:          ' has been inferred.'
@@ -1044,7 +966,7 @@ Args:
   - String:          'Multiple burst '
   - Direction:       reads
   - String:          ' of length '
-  - Length:          '4'
+  - Length:          '6'
   - String:          ' and bit width '
   - Width:           '32'
   - String:          ' in loop '''
@@ -1056,29 +978,4 @@ Args:
   - BundleName:      gmem
   - String:          '''.'
   - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
-...
---- !Passed
-Pass:            reflow-infer-unroll
-Name:            ImplicitUnroll
-DebugLoc:        { File: Coefficients.cpp, Line: 70, Column: 3 }
-Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
-Args:            
-  - String:          'Loop '''
-  - LoopName:        Shift_Accum_Loop
-  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
-...
---- !Missed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFailFullyUnroll
-DebugLoc:        { File: Coefficients.cpp, Line: 70, Column: 3 }
-Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56ELb0EEELi0EEES6_Pj
-Args:            
-  - String:          'Cannot unroll loop '''
-  - LoopName:        Shift_Accum_Loop
-  - String:          ''' ('
-  - LoopLoc:         'Coefficients.cpp:70:3'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          firTop
-  - String:          ''' as it has a variable trip count'
 ...

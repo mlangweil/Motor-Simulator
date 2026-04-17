@@ -732,7 +732,7 @@ C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\d
  VITIS_LOOP_27_1: 
 C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29446:2: note: FIX-IT applied suggested code changes
 C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29459:5: warning: Added loop label VITIS_LOOP_40_2:   [xilinx-label-all-loops]
-    for (int k = 1; k <= 49; k += 2) {
+    for (int k = 1; k <= (NTAPS/2) -1; k += 2) {
     ^~~
     VITIS_LOOP_40_2: 
 C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29459:5: note: FIX-IT applied suggested code changes
@@ -741,3 +741,8 @@ C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\d
     ^~~~~
     VITIS_LOOP_69_1: 
 C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29492:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29507:13: warning: Added loop label VITIS_LOOP_84_2:   [xilinx-label-all-loops]
+            for (int i = 0; i < NTAPS; i++) {
+            ^~~
+            VITIS_LOOP_84_2: 
+C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp:29507:13: note: FIX-IT applied suggested code changes

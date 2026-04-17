@@ -29428,7 +29428,7 @@ typedef ap_axis<32,2,5,6> axis_pkt_t;
 typedef hls::stream<axis_pkt_t> axis_t;
 
 
-static const int NTAPS = 101;
+static const int NTAPS = 301;
 static const int CENTER = NTAPS / 2;
 static const int SCALE = 32768;
 
@@ -29456,7 +29456,7 @@ static void hilbert(data_t in, data_t &envelope) {
     acc_t Q_acc = 0;
 
 
-    VITIS_LOOP_40_2: for (int k = 1; k <= 49; k += 2) {
+    VITIS_LOOP_40_2: for (int k = 1; k <= (NTAPS/2) -1; k += 2) {
 #pragma HLS UNROLL
 
  float hk_f = 2.0f / (3.14159265358979f * (float)k);
@@ -29504,6 +29504,9 @@ __attribute__((sdx_kernel("hilbert_envelope_axis", 0))) void hilbert_envelope_ax
 
 
         if (tmp.last) {
+            VITIS_LOOP_84_2: for (int i = 0; i < NTAPS; i++) {
+        x[i] = 0;
+    }
             break;
         }
 

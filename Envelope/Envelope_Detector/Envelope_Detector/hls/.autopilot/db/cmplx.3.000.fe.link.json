@@ -1,22 +1,48 @@
 {
   "0": {
-    "basicblocks": 10,
-    "calls": "4",
+    "basicblocks": 16,
+    "calls": "1",
     "file": "hilbert.cpp",
     "fileloc": 61,
-    "instructions": 48,
+    "instructions": 60,
     "loads": {
       "L": 2
     },
     "name": "hilbert_envelope_axis",
     "stores": {
+      "G": 1,
       "L": 2
     },
-    "total_instructions": 4513
+    "total_instructions": 4525
   },
   "1": {
+    "basicblocks": 13,
+    "calls": "4 2 4",
+    "file": "hilbert.cpp",
+    "fileloc": 23,
+    "instructions": 62,
+    "loads": {
+      "G": 4
+    },
+    "name": "hilbert",
+    "stores": {
+      "G": 2,
+      "L": 1
+    },
+    "total_instructions": 4324
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "sqrtfloat.cpp",
+    "fileloc": 6,
+    "instructions": 2,
+    "name": "sqrt",
+    "total_instructions": 2
+  },
+  "3": {
     "basicblocks": 16,
-    "calls": "3 9 2 2 6 6",
+    "calls": "8 5 7 7 6 6",
     "file": "hls_case_IEEE754.h",
     "fileloc": 12,
     "instructions": 133,
@@ -29,7 +55,34 @@
     },
     "total_instructions": 2126
   },
-  "2": {
+  "4": {
+    "basicblocks": 1,
+    "calls": "9",
+    "file": "lib_floatconversion.cpp",
+    "fileloc": 51,
+    "instructions": 2,
+    "name": "__hls_fptosi_float_i32",
+    "total_instructions": 2130
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 340,
+    "instructions": 24,
+    "name": "mantissa",
+    "total_instructions": 178
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 349,
+    "instructions": 4,
+    "name": "__signbit",
+    "total_instructions": 9
+  },
+  "7": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
@@ -38,7 +91,7 @@
     "name": "expv",
     "total_instructions": 109
   },
-  "3": {
+  "8": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
@@ -53,65 +106,13 @@
     },
     "total_instructions": 318
   },
-  "4": {
-    "basicblocks": 13,
-    "calls": "5 7 5",
-    "file": "hilbert.cpp",
-    "fileloc": 23,
-    "instructions": 62,
-    "loads": {
-      "G": 4
-    },
-    "name": "hilbert",
-    "stores": {
-      "G": 2,
-      "L": 1
-    },
-    "total_instructions": 4324
-  },
-  "5": {
+  "9": {
     "basicblocks": 1,
-    "calls": "8",
-    "file": "lib_floatconversion.cpp",
-    "fileloc": 51,
-    "instructions": 2,
-    "name": "__hls_fptosi_float_i32",
-    "total_instructions": 2130
-  },
-  "6": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 349,
-    "instructions": 4,
-    "name": "__signbit",
-    "total_instructions": 9
-  },
-  "7": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "sqrtfloat.cpp",
-    "fileloc": 6,
-    "instructions": 2,
-    "name": "sqrt",
-    "total_instructions": 2
-  },
-  "8": {
-    "basicblocks": 1,
-    "calls": "1",
+    "calls": "3",
     "file": "hls_case_IEEE754.h",
     "fileloc": 116,
     "instructions": 2,
     "name": "generic_cast_IEEE754<int, float>",
     "total_instructions": 2128
-  },
-  "9": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 340,
-    "instructions": 24,
-    "name": "mantissa",
-    "total_instructions": 178
   }
 }

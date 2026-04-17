@@ -7,7 +7,7 @@ set CombLogicFlag 0
 set PipelineFlag 0
 set DataflowTaskPipelineFlag 1
 set TrivialPipelineFlag 0
-set noPortSwitchingFlag 1
+set noPortSwitchingFlag 0
 set FloatingPointFlag 1
 set FftOrFirFlag 0
 set NbRWValue 0
@@ -45,12 +45,12 @@ set TargetInfo xczu3eg:-sfvc784:-2-e
 set SourceFiles {sc {} c ../../hilbert.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {}
-set TBFiles {verilog ../../tb_hilbert.cpp bc ../../tb_hilbert.cpp vhdl ../../tb_hilbert.cpp sc ../../tb_hilbert.cpp cas ../../tb_hilbert.cpp c {}}
+set TBFiles {verilog {../../tb_all.cpp ../../tb_hilbert.cpp} bc {../../tb_all.cpp ../../tb_hilbert.cpp} sc {../../tb_all.cpp ../../tb_hilbert.cpp} vhdl {../../tb_all.cpp ../../tb_hilbert.cpp} c {} cas {../../tb_all.cpp ../../tb_hilbert.cpp}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
-set TBTops {verilog {} bc {} vhdl {} sc {} cas {} c {}}
-set TBInstNames {verilog {} bc {} vhdl {} sc {} cas {} c {}}
+set TBTops {verilog {} bc {} sc {} vhdl {} c {} cas {}}
+set TBInstNames {verilog {} bc {} sc {} vhdl {} c {} cas {}}
 set XDCFiles {}
 set ExtraGlobalOptions {"area_timing" 1 "clock_gate" 1 "impl_flow" map "power_gate" 0}
 set TBTVFileNotFound {}

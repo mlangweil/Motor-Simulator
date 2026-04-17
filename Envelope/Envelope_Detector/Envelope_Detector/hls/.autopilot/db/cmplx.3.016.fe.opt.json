@@ -1,20 +1,20 @@
 {
   "0": {
     "basicblocks": 4,
-    "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
+    "calls": "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1",
     "file": "hilbert.cpp",
     "fileloc": 61,
-    "instructions": 441,
+    "instructions": 1793,
     "loads": {
-      "G": 100,
+      "G": 300,
       "L": 7
     },
     "name": "hilbert_envelope_axis",
     "stores": {
-      "G": 101,
+      "G": 301,
       "L": 7
     },
-    "total_instructions": 1065
+    "total_instructions": 3617
   },
   "1": {
     "basicblocks": 1,

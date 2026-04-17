@@ -706,19 +706,7 @@ Coefficients.cpp:9:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP
 Coefficients.cpp:10:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=ap_ctrl_none port = return_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE ap_ctrl_none port = return
         ^
-Coefficients.cpp:27:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=firTop_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS PIPELINE II = 1
-        ^
-Coefficients.cpp:62:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=fir_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+Coefficients.cpp:59:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=fir_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
         ^
-Coefficients.cpp:93:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=calculateCoefficients_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS PIPELINE
-        ^
-Coefficients.cpp:114:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=calculateCoefficients_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS PIPELINE
-        ^
-Coefficients.cpp:120:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=calculateCoefficients_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS PIPELINE
-        ^
-222 warnings generated.
+218 warnings generated.

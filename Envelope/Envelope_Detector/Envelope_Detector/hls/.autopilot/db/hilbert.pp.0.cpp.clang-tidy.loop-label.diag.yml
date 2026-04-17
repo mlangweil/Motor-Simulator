@@ -1325,7 +1325,16 @@ Diagnostics:
     FilePath:        hilbert.cpp
     Replacements:    
       - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
-        Offset:          1739063
+        Offset:          1739073
         Length:          0
         ReplacementText: 'VITIS_LOOP_69_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_2:  '
+    FileOffset:      84
+    FilePath:        hilbert.cpp
+    Replacements:    
+      - FilePath:        'C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp'
+        Offset:          1739353
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_2: '
 ...

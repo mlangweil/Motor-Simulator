@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'p_hls_fptosi_float_i32'
 ================================================================
-* Date:           Tue Apr 14 18:39:46 2026
+* Date:           Thu Apr 16 19:55:00 2026
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        Envelope_Detector
@@ -112,7 +112,7 @@ Target clock period: 10.000ns, clock uncertainty: 2.700ns.
  <State 1>: 4.465ns
 The critical path consists of the following:
 	wire read operation ('x', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51) on port 'x' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51) [2]  (0.000 ns)
-	'sub' operation 8 bit ('sub_ln18', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:117->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51) [12]  (0.765 ns)
+	'add' operation 9 bit ('add_ln317', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:317->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:117->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51) [10]  (0.765 ns)
 	'select' operation 9 bit ('select_ln18', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:117->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51) [14]  (0.398 ns)
 	'shl' operation 79 bit ('shl_ln18', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:117->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51) [18]  (1.388 ns)
 	'select' operation 32 bit ('val', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:18->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:117->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp:51) [21]  (0.449 ns)

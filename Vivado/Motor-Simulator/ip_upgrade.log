@@ -1,6 +1,69 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Apr 16 17:22:34 2026
+| Host         : Max-Zbk running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_firTop_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Motor_Simulator_firTop_0_0 (xilinx.com:hls:firTop:1.0) from (Rev. 2114568156) to (Rev. 2114568379)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Apr 16 13:37:14 2026
+| Host         : Max-Zbk running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_firTop_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Motor_Simulator_firTop_0_0 (xilinx.com:hls:firTop:1.0) from (Rev. 2114568102) to (Rev. 2114568156)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Apr 16 12:44:28 2026
+| Host         : Max-Zbk running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu3eg-sfvc784-2-e
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Motor_Simulator_firTop_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Motor_Simulator_firTop_0_0 (xilinx.com:hls:firTop:1.0) from (Rev. 2114565549) to (Rev. 2114568102)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
 | Date         : Tue Apr 14 18:10:43 2026
 | Host         : Max-Zbk running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

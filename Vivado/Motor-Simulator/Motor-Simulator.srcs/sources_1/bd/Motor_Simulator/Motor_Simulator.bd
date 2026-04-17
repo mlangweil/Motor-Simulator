@@ -34,7 +34,6 @@
         }
       },
       "blk_mem_gen_0": "",
-      "envelopeDetector": "",
       "ps7_0_axi_periph": {
         "xbar": "",
         "s00_couplers": {
@@ -52,7 +51,8 @@
       },
       "rst_ps7_0_100M": "",
       "zynq_ultra_ps_e_0": "",
-      "firFilter": ""
+      "firFilter": "",
+      "envelopeDetector": ""
     },
     "components": {
       "axi_bram_ctrl_0": {
@@ -1034,13 +1034,6 @@
           }
         }
       },
-      "envelopeDetector": {
-        "vlnv": "xilinx.com:hls:hilbert_envelope_axis:1.0",
-        "ip_revision": "2114565549",
-        "xci_name": "Motor_Simulator_hilbert_envelope_axis_0_4",
-        "xci_path": "ip\\Motor_Simulator_hilbert_envelope_axis_0_4\\Motor_Simulator_hilbert_envelope_axis_0_4.xci",
-        "inst_hier_path": "envelopeDetector"
-      },
       "ps7_0_axi_periph": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
         "xci_path": "ip\\Motor_Simulator_ps7_0_axi_periph_1\\Motor_Simulator_ps7_0_axi_periph_1.xci",
@@ -1830,7 +1823,7 @@
       },
       "firFilter": {
         "vlnv": "xilinx.com:hls:firTop:1.0",
-        "ip_revision": "2114565549",
+        "ip_revision": "2114568379",
         "xci_name": "Motor_Simulator_firTop_0_0",
         "xci_path": "ip\\Motor_Simulator_firTop_0_0\\Motor_Simulator_firTop_0_0.xci",
         "inst_hier_path": "firFilter",
@@ -1854,6 +1847,13 @@
             }
           }
         }
+      },
+      "envelopeDetector": {
+        "vlnv": "xilinx.com:hls:hilbert_envelope_axis:1.0",
+        "ip_revision": "2114568536",
+        "xci_name": "Motor_Simulator_hilbert_envelope_axis_0_0",
+        "xci_path": "ip\\Motor_Simulator_hilbert_envelope_axis_0_0\\Motor_Simulator_hilbert_envelope_axis_0_0.xci",
+        "inst_hier_path": "envelopeDetector"
       }
     },
     "interface_nets": {
@@ -1905,22 +1905,22 @@
           "axi_mem_intercon/M00_AXI"
         ]
       },
-      "envelope_out_stream": {
+      "envelopeDetector_out_stream": {
         "interface_ports": [
           "envelopeDetector/out_stream",
           "axi_dma/S_AXIS_S2MM"
+        ]
+      },
+      "firFilter_out_stream": {
+        "interface_ports": [
+          "firFilter/out_stream",
+          "envelopeDetector/in_stream"
         ]
       },
       "firTop_0_m_axi_gmem": {
         "interface_ports": [
           "firFilter/m_axi_gmem",
           "axi_interconnect_0/S01_AXI"
-        ]
-      },
-      "firTop_0_out_stream": {
-        "interface_ports": [
-          "firFilter/out_stream",
-          "envelopeDetector/in_stream"
         ]
       },
       "ps7_0_axi_periph_M00_AXI": {

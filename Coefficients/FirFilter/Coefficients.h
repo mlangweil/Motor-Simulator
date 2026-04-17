@@ -9,7 +9,7 @@
 
 using namespace std;
 typedef ap_axis<32, 2, 5, 6> axis_pkt_t;
-#define MAX_TAPS 101
+#define MAX_TAPS 301
 typedef enum {
   NUM_TAPS_OFFSET = 0,
   LOWER_CUTOFF_OFFSET = 1,

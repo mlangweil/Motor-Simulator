@@ -905,7 +905,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>18699dc3</spirit:value>
+            <spirit:value>57ddd5f3</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -924,7 +924,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>7b200f2a</spirit:value>
+            <spirit:value>321579bb</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -943,7 +943,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>9d7ea777</spirit:value>
+            <spirit:value>62cda824</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -962,7 +962,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>4fd89cd2</spirit:value>
+            <spirit:value>24872a2a</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2549,11 +2549,11 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip.v</spirit:name>
+        <spirit:name>hdl/ip/firTop_sitodp_32ns_64_4_no_dsp_1_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/firTop_sitodp_32ns_64_4_no_dsp_1_ip.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_bramVal_RAM_AUTO_1R1W.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2577,7 +2577,19 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_dsub_64ns_64ns_64_5_full_dsp_1.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_fir.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_fir_Pipeline_Shift_Accum_Loop.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_fir_shift_reg_RAM_AUTO_1R1W.dat</spirit:name>
+        <spirit:userFileType>mif</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_fir_shift_reg_RAM_AUTO_1R1W.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2585,15 +2597,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_92_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_113_2.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_119_3.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_113_3.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2645,11 +2649,19 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_shift_reg_RAM_AUTO_1R1W.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
+        <spirit:name>hdl/verilog/firTop_sin_or_cos_double_Pipeline_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_shift_reg_RAM_AUTO_1R1W.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_sin_or_cos_double_Pipeline_2.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_sin_or_cos_double_Pipeline_3.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_sin_or_cos_double_Pipeline_4.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2709,11 +2721,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_sparsemux_9_3_32_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/firTop_sparsemux_9_3_62_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_sparsemux_9_2_32_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2766,12 +2774,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip.v</spirit:name>
+        <spirit:name>hdl/ip/firTop_sitodp_32ns_64_4_no_dsp_1_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/firTop_sitodp_32ns_64_4_no_dsp_1_ip.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_bramVal_RAM_AUTO_1R1W.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2801,7 +2809,21 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_dsub_64ns_64ns_64_5_full_dsp_1.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_fir.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_fir_Pipeline_Shift_Accum_Loop.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_fir_shift_reg_RAM_AUTO_1R1W.dat</spirit:name>
+        <spirit:userFileType>mif</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_fir_shift_reg_RAM_AUTO_1R1W.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2811,17 +2833,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_92_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_113_2.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_119_3.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_113_3.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2886,11 +2898,22 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_shift_reg_RAM_AUTO_1R1W.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
+        <spirit:name>hdl/verilog/firTop_sin_or_cos_double_Pipeline_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_shift_reg_RAM_AUTO_1R1W.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_sin_or_cos_double_Pipeline_2.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_sin_or_cos_double_Pipeline_3.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_sin_or_cos_double_Pipeline_4.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2959,12 +2982,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_sparsemux_9_3_32_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/firTop_sparsemux_9_3_62_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_sparsemux_9_2_32_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3023,12 +3041,12 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip.v</spirit:name>
+        <spirit:name>hdl/ip/firTop_sitodp_32ns_64_4_no_dsp_1_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/firTop_sitodp_32ns_64_4_no_dsp_1_ip.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:name>hdl/vhdl/firTop_bramVal_RAM_AUTO_1R1W.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/firTop_control_s_axi.vhd</spirit:name>
@@ -3051,7 +3069,15 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_dsub_64ns_64ns_64_5_full_dsp_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_fir.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_fir_Pipeline_Shift_Accum_Loop.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_fir_shift_reg_RAM_AUTO_1R1W.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -3059,15 +3085,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_92_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_113_2.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_119_3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_113_3.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -3111,7 +3129,19 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_shift_reg_RAM_AUTO_1R1W.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_sin_or_cos_double_Pipeline_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_sin_or_cos_double_Pipeline_2.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_sin_or_cos_double_Pipeline_3.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_sin_or_cos_double_Pipeline_4.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -3147,11 +3177,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_sparsemux_9_3_32_1_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_sparsemux_9_3_62_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_sparsemux_9_2_32_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -3169,7 +3195,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/firTop.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_8c30781c</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_5afc06c2</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -3205,13 +3231,13 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip.v</spirit:name>
+        <spirit:name>hdl/ip/firTop_sitodp_32ns_64_4_no_dsp_1_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/ip/firTop_sitodp_32ns_64_4_no_dsp_1_ip.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:name>hdl/vhdl/firTop_bramVal_RAM_AUTO_1R1W.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
@@ -3240,7 +3266,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_dsub_64ns_64ns_64_5_full_dsp_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_fir.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_fir_Pipeline_Shift_Accum_Loop.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_fir_shift_reg_RAM_AUTO_1R1W.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3250,17 +3286,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_92_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_113_2.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_119_3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_113_3.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3315,7 +3341,22 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_shift_reg_RAM_AUTO_1R1W.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_sin_or_cos_double_Pipeline_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_sin_or_cos_double_Pipeline_2.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_sin_or_cos_double_Pipeline_3.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_sin_or_cos_double_Pipeline_4.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3360,12 +3401,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_sparsemux_9_3_32_1_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_sparsemux_9_3_62_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_sparsemux_9_2_32_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3621,8 +3657,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Firtop</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2114565549</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-04-14T22:09:42Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2114568379</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2026-04-16T21:19:29Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -3633,7 +3669,7 @@
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="ba78e454"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="2c1df7e3"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="00756362"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="3f871e68"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="50925d10"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="4d07fd8d"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="266b6a7a"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="9588e308"/>

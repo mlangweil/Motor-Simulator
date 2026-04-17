@@ -1,6 +1,6 @@
 {
   "0": {
-    "basicblocks": 24,
+    "basicblocks": 23,
     "calls": "2 2 2 2 1",
     "file": "Coefficients.cpp",
     "fileloc": 4,
@@ -14,39 +14,39 @@
       "L": 14,
       "T": 2
     },
-    "total_instructions": 2081
+    "total_instructions": 2324
   },
   "1": {
-    "basicblocks": 11,
+    "basicblocks": 10,
     "calls": "",
     "file": "Coefficients.cpp",
-    "fileloc": 54,
-    "instructions": 134,
+    "fileloc": 51,
+    "instructions": 333,
     "loads": {
       "G": 1,
       "L": 1
     },
     "name": "fir",
     "stores": {
-      "G": 103,
+      "G": 303,
       "L": 2
     },
-    "total_instructions": 134
+    "total_instructions": 333
   },
   "2": {
-    "basicblocks": 33,
+    "basicblocks": 37,
     "calls": "",
     "file": "hls_hotbm.h",
     "fileloc": 209,
-    "instructions": 417,
+    "instructions": 428,
     "loads": {
       "G": 12,
-      "L": 23
+      "L": 25
     },
     "name": "sin_or_cos<double>",
     "stores": {
-      "L": 34
+      "L": 38
     },
-    "total_instructions": 417
+    "total_instructions": 428
   }
 }

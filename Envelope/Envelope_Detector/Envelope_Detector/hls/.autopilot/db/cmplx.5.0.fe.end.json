@@ -3,21 +3,36 @@
         "name": "hilbert_envelope_axis",
         "file": "hilbert.cpp",
         "fileloc": "61",
-        "instructions": "655",
-        "total_instructions": "678",
+        "instructions": "623",
+        "total_instructions": "3597",
         "calls": "1",
-        "basicblocks": "4",
+        "basicblocks": "1",
         "loads": {
-            "G": "99"
+            "G": "299"
         },
         "stores": {
-            "G": "99"
+            "G": "301"
+        }
+    },
+    "1": {
+        "name": "hilbert_envelope_axis_Pipeline_VITIS_LOOP_69_1",
+        "file": "hilbert.cpp",
+        "fileloc": "67",
+        "instructions": "2951",
+        "total_instructions": "2974",
+        "calls": "2",
+        "basicblocks": "4",
+        "loads": {
+            "L": "299"
+        },
+        "stores": {
+            "L": "598"
         },
         "loops": {
             "L": "1"
         }
     },
-    "1": {
+    "2": {
         "name": "__hls_fptosi_float_i32",
         "file": "lib_floatconversion.cpp",
         "fileloc": "51",

@@ -1,16 +1,16 @@
-INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients\calculateCoefficients.hlsrun_package_summary, at 04/14/26 18:09:20
+INFO: [vitis-run 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients\calculateCoefficients.hlsrun_package_summary, at 04/16/26 17:19:08
 INFO: [vitis-run 82-31] Launching vitis_hls: vitis_hls -nolog -run package -work_dir C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients -config C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg -cmdlineconfig C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/config.cmdline
 
 ****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
   **** SW Build 5069499 on May 21 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Tue Apr 14 18:09:21 2026
+  **** Start of session at: Thu Apr 16 17:19:10 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Apr 14 18:09:22 -0400 2026
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Thu Apr 16 17:19:10 -0400 2026
 INFO: [HLS 200-10] In directory 'C:/Motor-Simulator/Coefficients/FirFilter'
 INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients 
 INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
@@ -34,26 +34,25 @@ INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
   **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Tue Apr 14 18:09:27 2026
+  **** Start of session at: Thu Apr 16 17:19:15 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source run_ippack.tcl -notrace
 INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/hls_data.json outdir=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip srcdir=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls sort_interfaces_ports=false
 INFO: Copied 1 ipmisc file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/misc
-INFO: Copied 44 verilog file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/verilog
-INFO: Copied 35 vhdl file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/vhdl
+INFO: Copied 47 verilog file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/verilog
+INFO: Copied 38 vhdl file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/vhdl
 INFO: Copied 10 swdriver file(s) to C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/drivers
-Generating 6 subcores in C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/ip.tmp:
+Generating 5 subcores in C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/ip.tmp:
 impl/misc/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.tcl
 impl/misc/firTop_dcmp_64ns_64ns_1_2_no_dsp_1_ip.tcl
 impl/misc/firTop_ddiv_64ns_64ns_64_22_no_dsp_1_ip.tcl
 impl/misc/firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip.tcl
-impl/misc/firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip.tcl
 impl/misc/firTop_sitodp_32ns_64_4_no_dsp_1_ip.tcl
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/ip.tmp'
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 551.492 ; gain = 200.660
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 553.422 ; gain = 199.496
 INFO: Using COE_DIR=C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/hdl/verilog
 INFO: Generating firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip via file impl/misc/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.tcl
 INFO: [IP_Flow 19-234] Refreshing IP repositories
@@ -78,11 +77,6 @@ WARNING: [IP_Flow 19-4832] The IP name 'firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip'
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip'...
 INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip'...
 INFO: Done generating firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip via file impl/misc/firTop_dmul_64ns_64ns_64_5_max_dsp_1_ip.tcl
-INFO: Generating firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip via file impl/misc/firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip.tcl
-WARNING: [IP_Flow 19-4832] The IP name 'firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
-INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip'...
-INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip'...
-INFO: Done generating firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip via file impl/misc/firTop_dsub_64ns_64ns_64_5_full_dsp_1_ip.tcl
 INFO: Generating firTop_sitodp_32ns_64_4_no_dsp_1_ip via file impl/misc/firTop_sitodp_32ns_64_4_no_dsp_1_ip.tcl
 WARNING: [IP_Flow 19-4832] The IP name 'firTop_sitodp_32ns_64_4_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'firTop_sitodp_32ns_64_4_no_dsp_1_ip'...
@@ -103,7 +97,7 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/component.xml
 INFO: Created IP archive C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/impl/ip/xilinx_com_hls_firTop_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 18:09:44 2026...
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 16 17:19:31 2026...
 INFO: [HLS 200-802] Generated output file calculateCoefficients/firTop.zip
-INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 23.375 seconds; peak allocated memory: 235.070 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 27s
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 21.938 seconds; peak allocated memory: 234.578 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 26s

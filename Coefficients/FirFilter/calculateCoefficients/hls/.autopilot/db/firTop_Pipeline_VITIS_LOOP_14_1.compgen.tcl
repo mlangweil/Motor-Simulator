@@ -7,6 +7,25 @@ if {${::AESL::PGuard_autoexp_gen}} {
     AESL_LIB_XILADAPTER::native_axis_begin
 }
 
+# XIL_BRAM:
+if {${::AESL::PGuard_autoexp_gen}} {
+if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
+eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
+    id 3 \
+    name bramVal \
+    reset_level 1 \
+    sync_rst true \
+    dir O \
+    corename bramVal \
+    op interface \
+    ports { bramVal_address0 { O 3 vector } bramVal_ce0 { O 1 bit } bramVal_we0 { O 1 bit } bramVal_d0 { O 32 vector } } \
+} "
+} else {
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'bramVal'"
+}
+}
+
+
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
@@ -34,66 +53,6 @@ eval "cg_default_interface_gen_dc { \
     corename dc_sext_ln14 \
     op interface \
     ports { sext_ln14 { I 62 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 3 \
-    name p_out \
-    type other \
-    dir O \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_p_out \
-    op interface \
-    ports { p_out { O 32 vector } p_out_ap_vld { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 4 \
-    name p_out1 \
-    type other \
-    dir O \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_p_out1 \
-    op interface \
-    ports { p_out1 { O 32 vector } p_out1_ap_vld { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 5 \
-    name p_out2 \
-    type other \
-    dir O \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_p_out2 \
-    op interface \
-    ports { p_out2 { O 32 vector } p_out2_ap_vld { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 6 \
-    name p_out3 \
-    type other \
-    dir O \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_p_out3 \
-    op interface \
-    ports { p_out3 { O 32 vector } p_out3_ap_vld { O 1 bit } } \
 } "
 }
 

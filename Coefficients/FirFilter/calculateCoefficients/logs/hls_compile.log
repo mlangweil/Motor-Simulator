@@ -1,16 +1,16 @@
-INFO: [v++ 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients\calculateCoefficients.hlscompile_summary, at 04/14/26 18:07:34
+INFO: [v++ 60-1548] Creating build summary session with primary output C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients\calculateCoefficients.hlscompile_summary, at 04/16/26 17:18:01
 INFO: [v++ 82-31] Launching vitis_hls: vitis_hls -nolog -run csynth -work_dir C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients -config C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg -cmdlineconfig C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/config.cmdline
 
 ****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2024.1 (64-bit)
   **** SW Build 5069499 on May 21 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Tue Apr 14 18:07:36 2026
+  **** Start of session at: Thu Apr 16 17:18:03 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source C:/Xilinx/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Tue Apr 14 18:07:37 -0400 2026
+INFO: [HLS 200-10] For user 'maxls' on host 'max-zbk' (Windows NT_amd64 version 10.0) on Thu Apr 16 17:18:03 -0400 2026
 INFO: [HLS 200-10] In directory 'C:/Motor-Simulator/Coefficients/FirFilter'
 INFO: [HLS 200-2005] Using work_dir C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
@@ -28,40 +28,28 @@ Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/top
 INFO: [HLS 200-1465] Applying ini 'part=xczu3eg-sfvc784-2-e' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(1)
 INFO: [HLS 200-1611] Setting target device to 'xczu3eg-sfvc784-2-e'
 INFO: [HLS 200-1465] Applying ini 'package.output.format=ip_catalog' from C:/Motor-Simulator/Coefficients/FirFilter/hls_config.cfg(5)
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.897 seconds; current allocated memory: 175.059 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.072 seconds; current allocated memory: 175.297 MB.
 INFO: [HLS 200-10] Analyzing design file 'Coefficients.cpp' ... 
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 16.314 seconds; current allocated memory: 182.828 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 17.516 seconds; current allocated memory: 183.113 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
-INFO: [HLS 200-1995] There were 47,071 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 4,338 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 2,229 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 2,081 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,430 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,597 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,377 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,377 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,377 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,496 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,510 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,491 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,389 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,382 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,336 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
-INFO: [HLS 200-1995] There were 1,333 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 47,061 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 4,027 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,388 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 2,324 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,701 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,868 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,648 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,648 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,648 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,775 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,789 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,765 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,879 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,739 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,693 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 1,721 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: C:/Motor-Simulator/Coefficients/FirFilter/calculateCoefficients/hls/syn/report/csynth_design_size.rpt
 WARNING: [HLS 214-386] A depth specification is required for MAXI interface port 'bram' for cosimulation. (Coefficients.cpp:5:0)
-INFO: [HLS 214-291] Loop 'VITIS_LOOP_61_1' is marked as complete unroll implied by the pipeline pragma (Coefficients.cpp:61:22)
-INFO: [HLS 214-291] Loop 'Shift_Accum_Loop' is marked as complete unroll implied by the pipeline pragma (Coefficients.cpp:70:3)
-INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:421:5)
-INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:414:5)
-INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:401:5)
-INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:41)
-INFO: [HLS 214-291] Loop 'anonymous' is marked as complete unroll implied by the pipeline pragma
-INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_61_1' (Coefficients.cpp:61:22) in function 'fir' completely with a factor of 101 (Coefficients.cpp:54:0)
-INFO: [HLS 214-186] Unrolling loop 'anonymous' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:421:5) in function 'scaled_fixed2ieee<63, 1>' completely with a factor of 4 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:390:0)
-INFO: [HLS 214-186] Unrolling loop 'anonymous' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:414:5) in function 'scaled_fixed2ieee<63, 1>' completely with a factor of 4 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:390:0)
-INFO: [HLS 214-186] Unrolling loop 'anonymous' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:401:5) in function 'scaled_fixed2ieee<63, 1>' completely with a factor of 3 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:390:0)
-INFO: [HLS 214-186] Unrolling loop 'anonymous' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:41) in function 'scaled_fixed2ieee<63, 1>' completely with a factor of 4 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:390:0)
-INFO: [HLS 214-186] Unrolling loop 'anonymous' () in function 'scaled_fixed2ieee<63, 1>' completely with a factor of 1 (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:390:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_58_1' (Coefficients.cpp:58:22) in function 'fir' completely with a factor of 301 (Coefficients.cpp:51:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'void range_redux_payne_hanek_hotbm<61, double, 63, 63>(double, ap_uint<3>&, ap_ufixed<63, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<63, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<double>::EXP_BITS>&)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:437:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<double>::expv() const' into 'void range_redux_payne_hanek_hotbm<61, double, 63, 63>(double, ap_uint<3>&, ap_ufixed<63, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<63, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<double>::EXP_BITS>&)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:437:0)
 INFO: [HLS 214-178] Inlining function 'ap_uint<(((2) * ((52) + (1))) + (61)) + (3)> table_lookup_4oPi_hotbm<52, 61>(int, double)' into 'void range_redux_payne_hanek_hotbm<61, double, 63, 63>(double, ap_uint<3>&, ap_ufixed<63, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_ufixed<63, 0, (ap_q_mode)5, (ap_o_mode)3, 0>&, ap_int<fp_struct<double>::EXP_BITS>&)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:437:0)
@@ -80,8 +68,8 @@ INFO: [HLS 214-178] Inlining function 'hotbm_::sin(double)' into 'hls::hotbm::si
 INFO: [HLS 214-178] Inlining function 'hls::hotbm::sin(double)' into 'hls::sin(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp:24:0)
 INFO: [HLS 214-178] Inlining function 'hotbm_::cos(double)' into 'hls::hotbm::cos(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp:14:0)
 INFO: [HLS 214-178] Inlining function 'hls::hotbm::cos(double)' into 'hls::cos(double)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp:28:0)
-INFO: [HLS 214-178] Inlining function 'hls::sin(double)' into 'calculateCoefficients(int, int, int, int, double*)' (Coefficients.cpp:84:0)
-INFO: [HLS 214-178] Inlining function 'hls::cos(double)' into 'calculateCoefficients(int, int, int, int, double*)' (Coefficients.cpp:84:0)
+INFO: [HLS 214-178] Inlining function 'hls::sin(double)' into 'calculateCoefficients(int, int, int, int, double*)' (Coefficients.cpp:80:0)
+INFO: [HLS 214-178] Inlining function 'hls::cos(double)' into 'calculateCoefficients(int, int, int, int, double*)' (Coefficients.cpp:80:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<double>::fp_struct(double)' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, double>(double, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<double>::mantissa() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, double>(double, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
 INFO: [HLS 214-178] Inlining function 'fp_struct<double>::expv() const' into 'int generic_cast_IEEE754<int, (ap_q_mode)6, double>(double, bool, hls::enable_if<std::numeric_limits<int>::is_signed, bool>::type)' (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0)
@@ -97,24 +85,39 @@ INFO: [HLS 214-248] Applying array_partition to '_ZZN6hotbm_10sin_or_cosIdEET_S1
 WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:242:30)
 WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\common\hls_hotbm_double.cpp:29:67)
 WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:267:8)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< Shift_Accum_Loop> at Coefficients.cpp:66:3 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:421:5 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:414:5 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:401:5 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:41 
 INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_14_1> at Coefficients.cpp:14:20 
-INFO: [HLS 214-364] Automatically inlining function 'fir(double*, double*, double, int, bool)' to improve effectiveness of pipeline pragma in function 'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)' (Coefficients.cpp:41:5)
-INFO: [HLS 214-421] Automatically partitioning small array 'bramVal' completely based on array size. (Coefficients.cpp:13:12)
-INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'bramVal' due to pipeline pragma (Coefficients.cpp:13:12)
-INFO: [HLS 214-248] Applying array_partition to 'bramVal': Complete partitioning on dimension 1. (Coefficients.cpp:13:12)
-INFO: [HLS 214-115] Multiple burst reads of length 4 and bit width 32 in loop 'VITIS_LOOP_14_1'(Coefficients.cpp:14:20) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (Coefficients.cpp:14:20)
-WARNING: [HLS 214-187] Cannot unroll loop 'Shift_Accum_Loop' (Coefficients.cpp:70:3) in function 'firTop' as it has a variable trip count (Coefficients.cpp:70:3)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 15.421 seconds; current allocated memory: 184.320 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.001 seconds; current allocated memory: 184.324 MB.
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_113_3> at Coefficients.cpp:113:23 
+INFO: [HLS 214-421] Automatically partitioning small array 'out_bits' completely based on array size. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:17)
+INFO: [HLS 214-421] Automatically partitioning small array 'c' completely based on array size. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:413:9)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'out_bits.i' due to pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:17)
+INFO: [HLS 214-270] Inferring pragma 'array_partition type=complete dim=1' for array 'c.i' due to pipeline pragma (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:413:9)
+INFO: [HLS 214-248] Applying array_partition to 'out_bits.i': Complete partitioning on dimension 1. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:17)
+INFO: [HLS 214-248] Applying array_partition to 'c.i': Complete partitioning on dimension 1. (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:413:9)
+INFO: [HLS 214-115] Multiple burst reads of length 6 and bit width 32 in loop 'VITIS_LOOP_14_1'(Coefficients.cpp:14:20) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (Coefficients.cpp:14:20)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 14.09 seconds; current allocated memory: 184.629 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 184.629 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.166 seconds; current allocated memory: 194.742 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.095 seconds; current allocated memory: 195.055 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.117 seconds; current allocated memory: 202.773 MB.
-INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:459:31) to (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:287:5) in function 'hotbm_::sin_or_cos<double>'... converting 15 basic blocks.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.258 seconds; current allocated memory: 230.418 MB.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.319 seconds; current allocated memory: 274.395 MB.
+WARNING: [SYNCHK 200-23] C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:403: variable-indexed range selection may cause suboptimal QoR.
+INFO: [SYNCHK 200-10] 0 error(s), 1 warning(s).
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.142 seconds; current allocated memory: 203.680 MB.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:17) to (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:41) in function 'hotbm_::sin_or_cos<double>'... converting 5 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:459:31) to (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:400:41) in function 'hotbm_::sin_or_cos<double>'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252:40) to (C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:287:5) in function 'hotbm_::sin_or_cos<double>'... converting 9 basic blocks.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.295 seconds; current allocated memory: 230.684 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.807 seconds; current allocated memory: 313.020 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'firTop' ...
+WARNING: [SYN 201-103] Legalizing function name 'sin_or_cos<double>_Pipeline_1' to 'sin_or_cos_double_Pipeline_1'.
+WARNING: [SYN 201-103] Legalizing function name 'sin_or_cos<double>_Pipeline_2' to 'sin_or_cos_double_Pipeline_2'.
+WARNING: [SYN 201-103] Legalizing function name 'sin_or_cos<double>_Pipeline_3' to 'sin_or_cos_double_Pipeline_3'.
+WARNING: [SYN 201-103] Legalizing function name 'sin_or_cos<double>_Pipeline_4' to 'sin_or_cos_double_Pipeline_4'.
 WARNING: [SYN 201-103] Legalizing function name 'sin_or_cos<double>' to 'sin_or_cos_double_s'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -122,90 +125,141 @@ INFO: [HLS 200-42] -- Implementing module 'firTop_Pipeline_VITIS_LOOP_14_1'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_14_1'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_14_1'
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_14_1'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.082 seconds; current allocated memory: 278.277 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.611 seconds; current allocated memory: 317.359 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 279.402 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 318.496 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sin_or_cos_double_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 318.613 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.092 seconds; current allocated memory: 318.633 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sin_or_cos_double_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.156 seconds; current allocated memory: 318.809 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 318.836 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sin_or_cos_double_Pipeline_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.164 seconds; current allocated memory: 318.855 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 318.855 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sin_or_cos_double_Pipeline_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.121 seconds; current allocated memory: 318.875 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 318.922 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'sin_or_cos_double_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining function 'sin_or_cos<double>'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 9, function 'sin_or_cos<double>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.227 seconds; current allocated memory: 280.211 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.206 seconds; current allocated memory: 319.629 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.118 seconds; current allocated memory: 280.523 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.127 seconds; current allocated memory: 319.949 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'firTop_Pipeline_VITIS_LOOP_92_1' 
+INFO: [HLS 200-42] -- Implementing module 'firTop_Pipeline_VITIS_LOOP_113_3' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_92_1'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 57, loop 'VITIS_LOOP_92_1'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_113_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 23, loop 'VITIS_LOOP_113_3'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.177 seconds; current allocated memory: 280.891 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.196 seconds; current allocated memory: 320.164 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.096 seconds; current allocated memory: 281.246 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.106 seconds; current allocated memory: 320.262 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'firTop_Pipeline_VITIS_LOOP_113_2' 
+INFO: [HLS 200-42] -- Implementing module 'fir_Pipeline_Shift_Accum_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_113_2'.
-WARNING: [HLS 200-880] The II Violation in module 'firTop_Pipeline_VITIS_LOOP_113_2' (loop 'VITIS_LOOP_113_2'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 0) between 'store' operation 0 bit ('gain_re_write_ln111', Coefficients.cpp:111->Coefficients.cpp:24) of variable 'gain_re', Coefficients.cpp:115->Coefficients.cpp:24 on local variable 'gain_re', Coefficients.cpp:111->Coefficients.cpp:24 and 'load' operation 64 bit ('gain_re_load', Coefficients.cpp:115->Coefficients.cpp:24) on local variable 'gain_re', Coefficients.cpp:111->Coefficients.cpp:24.
+INFO: [SCHED 204-61] Pipelining loop 'Shift_Accum_Loop'.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_Shift_Accum_Loop' (loop 'Shift_Accum_Loop'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation 0 bit ('shift_reg_addr_1_write_ln71', Coefficients.cpp:71) of variable 'data', Coefficients.cpp:71 on array 'shift_reg' and 'load' operation 64 bit ('data', Coefficients.cpp:71) on array 'shift_reg'.
 Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
-WARNING: [HLS 200-880] The II Violation in module 'firTop_Pipeline_VITIS_LOOP_113_2' (loop 'VITIS_LOOP_113_2'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation 0 bit ('gain_re_write_ln111', Coefficients.cpp:111->Coefficients.cpp:24) of variable 'gain_re', Coefficients.cpp:115->Coefficients.cpp:24 on local variable 'gain_re', Coefficients.cpp:111->Coefficients.cpp:24 and 'load' operation 64 bit ('gain_re_load', Coefficients.cpp:115->Coefficients.cpp:24) on local variable 'gain_re', Coefficients.cpp:111->Coefficients.cpp:24.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_Shift_Accum_Loop' (loop 'Shift_Accum_Loop'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 0) between 'store' operation 0 bit ('acc_1_write_ln53', Coefficients.cpp:53) of variable 'acc', Coefficients.cpp:74 on local variable 'acc', Coefficients.cpp:53 and 'load' operation 64 bit ('acc_1_load', Coefficients.cpp:74) on local variable 'acc', Coefficients.cpp:53.
 Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
-WARNING: [HLS 200-880] The II Violation in module 'firTop_Pipeline_VITIS_LOOP_113_2' (loop 'VITIS_LOOP_113_2'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation 0 bit ('gain_re_write_ln111', Coefficients.cpp:111->Coefficients.cpp:24) of variable 'gain_re', Coefficients.cpp:115->Coefficients.cpp:24 on local variable 'gain_re', Coefficients.cpp:111->Coefficients.cpp:24 and 'load' operation 64 bit ('gain_re_load', Coefficients.cpp:115->Coefficients.cpp:24) on local variable 'gain_re', Coefficients.cpp:111->Coefficients.cpp:24.
+WARNING: [HLS 200-880] The II Violation in module 'fir_Pipeline_Shift_Accum_Loop' (loop 'Shift_Accum_Loop'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 0) between 'store' operation 0 bit ('acc_1_write_ln53', Coefficients.cpp:53) of variable 'acc', Coefficients.cpp:74 on local variable 'acc', Coefficients.cpp:53 and 'load' operation 64 bit ('acc_1_load', Coefficients.cpp:74) on local variable 'acc', Coefficients.cpp:53.
 Resolution: For help on HLS 200-880 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.1%20English&url=ug1448-hls-guidance&resourceid=200-880.html
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 4, Depth = 29, loop 'VITIS_LOOP_113_2'
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 4, Depth = 13, loop 'Shift_Accum_Loop'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.18 seconds; current allocated memory: 281.695 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.147 seconds; current allocated memory: 320.496 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.119 seconds; current allocated memory: 281.742 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.118 seconds; current allocated memory: 320.539 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'firTop_Pipeline_VITIS_LOOP_119_3' 
+INFO: [HLS 200-42] -- Implementing module 'fir' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_119_3'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 23, loop 'VITIS_LOOP_119_3'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.176 seconds; current allocated memory: 281.961 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.178 seconds; current allocated memory: 322.941 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.122 seconds; current allocated memory: 282.125 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 323.109 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'firTop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
-WARNING: [SCHED 204-65] Unable to satisfy pipeline directive for loop 'VITIS_LOOP_26_2': contains subloop(s) that are not unrolled or flattened.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.203 seconds; current allocated memory: 284.309 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.213 seconds; current allocated memory: 324.023 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.167 seconds; current allocated memory: 284.961 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.135 seconds; current allocated memory: 324.934 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'firTop_Pipeline_VITIS_LOOP_14_1' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -223,7 +277,30 @@ WARNING: [RTGEN 206-101] Setting dangling out port 'firTop_Pipeline_VITIS_LOOP_1
 WARNING: [RTGEN 206-101] Setting dangling out port 'firTop_Pipeline_VITIS_LOOP_14_1/m_axi_gmem_ARREGION' to 0.
 WARNING: [RTGEN 206-101] Setting dangling out port 'firTop_Pipeline_VITIS_LOOP_14_1/m_axi_gmem_ARUSER' to 0.
 INFO: [RTGEN 206-100] Finished creating RTL model for 'firTop_Pipeline_VITIS_LOOP_14_1'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.287 seconds; current allocated memory: 286.914 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.118 seconds; current allocated memory: 326.867 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sin_or_cos_double_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sin_or_cos_double_Pipeline_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.146 seconds; current allocated memory: 328.176 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sin_or_cos_double_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sin_or_cos_double_Pipeline_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.178 seconds; current allocated memory: 328.875 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sin_or_cos_double_Pipeline_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_2_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sin_or_cos_double_Pipeline_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.182 seconds; current allocated memory: 330.250 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sin_or_cos_double_Pipeline_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'sin_or_cos_double_Pipeline_4' pipeline 'Loop 1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_2_32_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sin_or_cos_double_Pipeline_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.21 seconds; current allocated memory: 331.262 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'sin_or_cos_double_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -231,13 +308,11 @@ INFO: [RTGEN 206-100] Generating core module 'mul_170s_53ns_170_2_1': 1 instance
 INFO: [RTGEN 206-100] Generating core module 'mul_35ns_25ns_60_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_42ns_33ns_75_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_49ns_44s_93_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'mul_49ns_49ns_98_1_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_49ns_49ns_98_1_1': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_56ns_52s_108_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_64s_63ns_126_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'sparsemux_17_3_1_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_1_1_1': 2 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_3_32_1_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'sparsemux_9_3_62_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'sin_or_cos_double_s'.
 INFO: [RTMG 210-279] Implementing memory 'firTop_sin_or_cos_double_s_ref_4oPi_table_256_ROM_AUTO_1R' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'firTop_sin_or_cos_double_s_fourth_order_double_sin_cos_K0_ROM_1P_LUTRAM_1R' using distributed ROMs.
@@ -245,34 +320,30 @@ INFO: [RTMG 210-279] Implementing memory 'firTop_sin_or_cos_double_s_fourth_orde
 INFO: [RTMG 210-279] Implementing memory 'firTop_sin_or_cos_double_s_fourth_order_double_sin_cos_K2_ROM_1P_LUTRAM_1R' using distributed ROMs.
 INFO: [RTMG 210-279] Implementing memory 'firTop_sin_or_cos_double_s_fourth_order_double_sin_cos_K3_ROM_1P_LUTRAM_1R' using distributed ROMs.
 INFO: [RTMG 210-279] Implementing memory 'firTop_sin_or_cos_double_s_fourth_order_double_sin_cos_K4_ROM_1P_LUTRAM_1R' using distributed ROMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.66 seconds; current allocated memory: 291.172 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.262 seconds; current allocated memory: 334.391 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'firTop_Pipeline_VITIS_LOOP_92_1' 
+INFO: [HLS 200-10] -- Generating RTL for module 'firTop_Pipeline_VITIS_LOOP_113_3' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'firTop_Pipeline_VITIS_LOOP_92_1' pipeline 'VITIS_LOOP_92_1' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'dadddsub_64ns_64ns_64_5_full_dsp_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'ddiv_64ns_64ns_64_22_no_dsp_1': 2 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 6 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'dsub_64ns_64ns_64_5_full_dsp_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'sitodp_32ns_64_4_no_dsp_1': 2 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'firTop_Pipeline_VITIS_LOOP_92_1'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.259 seconds; current allocated memory: 295.707 MB.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'firTop_Pipeline_VITIS_LOOP_113_3' pipeline 'VITIS_LOOP_113_3' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'ddiv_64ns_64ns_64_22_no_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'firTop_Pipeline_VITIS_LOOP_113_3'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.362 seconds; current allocated memory: 337.621 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'firTop_Pipeline_VITIS_LOOP_113_2' 
+INFO: [HLS 200-10] -- Generating RTL for module 'fir_Pipeline_Shift_Accum_Loop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'firTop_Pipeline_VITIS_LOOP_113_2' pipeline 'VITIS_LOOP_113_2' pipeline type 'loop pipeline'
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fir_Pipeline_Shift_Accum_Loop' pipeline 'Shift_Accum_Loop' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'dadddsub_64ns_64ns_64_5_full_dsp_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 1 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'sitodp_32ns_64_4_no_dsp_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'firTop_Pipeline_VITIS_LOOP_113_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.382 seconds; current allocated memory: 298.004 MB.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir_Pipeline_Shift_Accum_Loop'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.231 seconds; current allocated memory: 338.391 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'firTop_Pipeline_VITIS_LOOP_119_3' 
+INFO: [HLS 200-10] -- Generating RTL for module 'fir' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'firTop_Pipeline_VITIS_LOOP_119_3' pipeline 'VITIS_LOOP_119_3' pipeline type 'loop pipeline'
-INFO: [RTGEN 206-100] Generating core module 'ddiv_64ns_64ns_64_22_no_dsp_1': 1 instance(s).
-INFO: [RTGEN 206-100] Finished creating RTL model for 'firTop_Pipeline_VITIS_LOOP_119_3'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.282 seconds; current allocated memory: 299.031 MB.
+INFO: [RTGEN 206-100] Generating core module 'dadddsub_64ns_64ns_64_5_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fir'.
+INFO: [RTMG 210-278] Implementing memory 'firTop_fir_shift_reg_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.369 seconds; current allocated memory: 343.934 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'firTop' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -301,15 +372,15 @@ INFO: [RTGEN 206-100] Generating core module 'ddiv_64ns_64ns_64_22_no_dsp_1': 2 
 INFO: [RTGEN 206-100] Generating core module 'dmul_64ns_64ns_64_5_max_dsp_1': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'sitodp_32ns_64_4_no_dsp_1': 2 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'firTop'.
-INFO: [RTMG 210-278] Implementing memory 'firTop_shift_reg_RAM_AUTO_1R1W' using auto RAMs.
 INFO: [RTMG 210-278] Implementing memory 'firTop_taps_RAM_AUTO_1R1W' using auto RAMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.613 seconds; current allocated memory: 304.703 MB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.188 seconds; current allocated memory: 311.258 MB.
+INFO: [RTMG 210-278] Implementing memory 'firTop_bramVal_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.331 seconds; current allocated memory: 354.160 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.101 seconds; current allocated memory: 359.918 MB.
 INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.356 seconds; current allocated memory: 320.246 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.991 seconds; current allocated memory: 369.500 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for firTop.
 INFO: [VLOG 209-307] Generating Verilog RTL for firTop.
-INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 136.99 MHz
-INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 3 seconds. Total elapsed time: 48.77 seconds; peak allocated memory: 320.336 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 3 seconds. Total elapsed time: 49.454 seconds; peak allocated memory: 369.664 MB.
 INFO: [v++ 60-791] Total elapsed time: 0h 0m 53s

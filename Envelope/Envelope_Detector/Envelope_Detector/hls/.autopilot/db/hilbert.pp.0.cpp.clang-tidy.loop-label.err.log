@@ -1,3 +1,3 @@
 26 errors generated.
 Error while processing C:\Motor-Simulator\Envelope\Envelope_Detector\Envelope_Detector\hls\.autopilot\db\hilbert.pp.0.cpp.
-clang-tidy applied 133 of 133 suggested fixes.
+clang-tidy applied 134 of 134 suggested fixes.

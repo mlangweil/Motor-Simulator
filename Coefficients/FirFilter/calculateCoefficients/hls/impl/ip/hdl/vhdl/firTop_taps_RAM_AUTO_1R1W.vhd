@@ -12,8 +12,8 @@ entity firTop_taps_RAM_AUTO_1R1W is
     generic(
         MEM_TYPE        : string    := "auto"; 
         DataWidth       : integer   := 64; 
-        AddressWidth    : integer   := 7;
-        AddressRange    : integer   := 101
+        AddressWidth    : integer   := 9;
+        AddressRange    : integer   := 301
     ); 
     port (
         address0    : in std_logic_vector(AddressWidth-1 downto 0); 

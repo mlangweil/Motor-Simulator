@@ -17,8 +17,8 @@ module firTop_taps_RAM_AUTO_1R1W (
     reset, clk);
 
 parameter DataWidth = 64;
-parameter AddressWidth = 7;
-parameter AddressRange = 101;
+parameter AddressWidth = 9;
+parameter AddressRange = 301;
  
 input[AddressWidth-1:0] address0;
 input ce0;
