@@ -1,6 +1,7 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch CLANG as the compiler.
    Compiling ../../../../tb_coefficients.cpp in debug mode
+   Compiling ../../../../Coefficients.cpp in debug mode
    Generating csim.exe
 Fir_in: 0
 Fir_in: 1767

@@ -650,14 +650,20 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Coefficients.cpp:10:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="firTop" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port = return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Coefficients.cpp:59:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Coefficients.cpp:60:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="fir" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Coefficients.cpp:69:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=3" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="Coefficients.cpp:79:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="fir" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=prod op=mul impl=dsp" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-386" msg_severity="WARNING" msg_loc="Coefficients.cpp:5:0" msg_body="A depth specification is required for MAXI interface port 'bram' for cosimulation.">
         <args Name="bram"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Coefficients.cpp:51:0" msg_body="Unrolling loop 'VITIS_LOOP_58_1' (Coefficients.cpp:58:22) in function 'fir' completely with a factor of 301">
-        <args Factor="301" LoopLoc="Coefficients.cpp:58:22" LoopName="VITIS_LOOP_58_1"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="Coefficients.cpp:51:0" msg_body="Unrolling loop 'VITIS_LOOP_59_1' (Coefficients.cpp:59:22) in function 'fir' completely with a factor of 301">
+        <args Factor="301" LoopLoc="Coefficients.cpp:59:22" LoopName="VITIS_LOOP_59_1"/>
     </msg>
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h:437:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'void range_redux_payne_hanek_hotbm&lt;61, double, 63, 63&gt;(double, ap_uint&lt;3&gt;&amp;, ap_ufixed&lt;63, 0, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;63, 0, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_int&lt;fp_struct&lt;double&gt;::EXP_BITS&gt;&amp;)'">
         <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 456 Column 0" Caller="void range_redux_payne_hanek_hotbm&lt;61, double, 63, 63&gt;(double, ap_uint&lt;3&gt;&amp;, ap_ufixed&lt;63, 0, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;63, 0, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_int&lt;fp_struct&lt;double&gt;::EXP_BITS&gt;&amp;)" Caller-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_range_redux.h} Line 437 Column 0"/>
@@ -713,11 +719,11 @@
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp:28:0" msg_body="Inlining function 'hls::hotbm::cos(double)' into 'hls::cos(double)'">
         <args Callee="hls::hotbm::cos(double)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp} Line 14 Column 0" Caller="hls::cos(double)" Caller-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp} Line 28 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Coefficients.cpp:80:0" msg_body="Inlining function 'hls::sin(double)' into 'calculateCoefficients(int, int, int, int, double*)'">
-        <args Callee="hls::sin(double)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp} Line 24 Column 0" Caller="calculateCoefficients(int, int, int, int, double*)" Caller-DebugLoc="File Coefficients.cpp Line 80 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Coefficients.cpp:88:0" msg_body="Inlining function 'hls::sin(double)' into 'calculateCoefficients(int, int, int, int, double*)'">
+        <args Callee="hls::sin(double)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp} Line 24 Column 0" Caller="calculateCoefficients(int, int, int, int, double*)" Caller-DebugLoc="File Coefficients.cpp Line 88 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Coefficients.cpp:80:0" msg_body="Inlining function 'hls::cos(double)' into 'calculateCoefficients(int, int, int, int, double*)'">
-        <args Callee="hls::cos(double)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp} Line 28 Column 0" Caller="calculateCoefficients(int, int, int, int, double*)" Caller-DebugLoc="File Coefficients.cpp Line 80 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Coefficients.cpp:88:0" msg_body="Inlining function 'hls::cos(double)' into 'calculateCoefficients(int, int, int, int, double*)'">
+        <args Callee="hls::cos(double)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\c++\sincoshotbmdouble.cpp} Line 28 Column 0" Caller="calculateCoefficients(int, int, int, int, double*)" Caller-DebugLoc="File Coefficients.cpp Line 88 Column 0"/>
     </msg>
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h:12:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)'">
         <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 456 Column 0" Caller="int generic_cast_IEEE754&lt;int, (ap_q_mode)6, double&gt;(double, bool, hls::enable_if&lt;std::numeric_limits&lt;int&gt;::is_signed, bool&gt;::type)" Caller-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h} Line 12 Column 0"/>
@@ -738,7 +744,7 @@
         <args Callee="int generic_cast_IEEE754&lt;int, double&gt;(double, bool)" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_case_IEEE754.h} Line 116 Column 0" Caller="__hls_fptosi_double_i32" Caller-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp} Line 55 Column 0"/>
     </msg>
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Coefficients.cpp:5:0" msg_body="Inlining function 'calculateCoefficients(int, int, int, int, double*)' into 'firTop(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, unsigned int*)'">
-        <args Callee="calculateCoefficients(int, int, int, int, double*)" Callee-DebugLoc="File Coefficients.cpp Line 80 Column 0" Caller="firTop(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, unsigned int*)" Caller-DebugLoc="File Coefficients.cpp Line 5 Column 0"/>
+        <args Callee="calculateCoefficients(int, int, int, int, double*)" Callee-DebugLoc="File Coefficients.cpp Line 88 Column 0" Caller="firTop(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, unsigned int*)" Caller-DebugLoc="File Coefficients.cpp Line 5 Column 0"/>
     </msg>
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="Coefficients.cpp:5:0" msg_body="Inlining function '__hls_fptosi_double_i32' into 'firTop(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, unsigned int*)'">
         <args Callee="__hls_fptosi_double_i32" Callee-DebugLoc="File {C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib\hlsmath\src\lib_floatconversion.cpp} Line 55 Column 0" Caller="firTop(hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;ap_int&lt;32&gt;, 2ul, 5ul, 6ul, (unsigned char)56, false&gt;, 0&gt;&amp;, unsigned int*)" Caller-DebugLoc="File Coefficients.cpp Line 5 Column 0"/>

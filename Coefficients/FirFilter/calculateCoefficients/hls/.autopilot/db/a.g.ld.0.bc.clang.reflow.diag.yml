@@ -15,9 +15,9 @@ DebugLoc:        { File: Coefficients.cpp, Line: 51, Column: 0 }
 Function:        _Z3firPdS_dib
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_58_1
+  - LoopName:        VITIS_LOOP_59_1
   - String:          ''' ('
-  - LoopLoc:         'Coefficients.cpp:58:22'
+  - LoopLoc:         'Coefficients.cpp:59:22'
   - String:          ') '
   - String:          'in function '''
   - String:          fir
@@ -333,7 +333,7 @@ Args:
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
+DebugLoc:        { File: Coefficients.cpp, Line: 88, Column: 0 }
 Function:        _Z21calculateCoefficientsiiiiPd
 Args:            
   - String:          'Inlining function '''
@@ -342,13 +342,13 @@ Args:
                        Line: 24, Column: 0 }
   - String:          ''' into '''
   - Caller:          'calculateCoefficients(int, int, int, int, double*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
+    DebugLoc:        { File: Coefficients.cpp, Line: 88, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
+DebugLoc:        { File: Coefficients.cpp, Line: 88, Column: 0 }
 Function:        _Z21calculateCoefficientsiiiiPd
 Args:            
   - String:          'Inlining function '''
@@ -357,7 +357,7 @@ Args:
                        Line: 28, Column: 0 }
   - String:          ''' into '''
   - Caller:          'calculateCoefficients(int, int, int, int, double*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
+    DebugLoc:        { File: Coefficients.cpp, Line: 88, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
@@ -470,7 +470,7 @@ Function:        _Z6firTopRN3hls6streamINS_4axisI6ap_intILi32EELm2ELm5ELm6ELh56E
 Args:            
   - String:          'Inlining function '''
   - Callee:          'calculateCoefficients(int, int, int, int, double*)'
-    DebugLoc:        { File: Coefficients.cpp, Line: 80, Column: 0 }
+    DebugLoc:        { File: Coefficients.cpp, Line: 88, Column: 0 }
   - String:          ''' into '''
   - Caller:          'firTop(hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, hls::stream<hls::axis<ap_int<32>, 2ul, 5ul, 6ul, (unsigned char)56, false>, 0>&, unsigned int*)'
     DebugLoc:        { File: Coefficients.cpp, Line: 5, Column: 0 }
@@ -724,16 +724,6 @@ Pass:            auto-loop-pipeline
 Name:            AutoLoopPipeline
 Args:            
   - String:          'automatically set the pipeline for Loop< '
-  - LoopName:        Shift_Accum_Loop
-  - String:          '> at '
-  - LoopLoc:         'Coefficients.cpp:66:3'
-  - String:          ' '
-...
---- !HLSReportInfo
-Pass:            auto-loop-pipeline
-Name:            AutoLoopPipeline
-Args:            
-  - String:          'automatically set the pipeline for Loop< '
   - LoopName:        unknown
   - String:          '> at '
   - LoopLoc:         'C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:421:5'
@@ -784,9 +774,9 @@ Pass:            auto-loop-pipeline
 Name:            AutoLoopPipeline
 Args:            
   - String:          'automatically set the pipeline for Loop< '
-  - LoopName:        VITIS_LOOP_113_3
+  - LoopName:        VITIS_LOOP_121_3
   - String:          '> at '
-  - LoopLoc:         'Coefficients.cpp:113:23'
+  - LoopLoc:         'Coefficients.cpp:121:23'
   - String:          ' '
 ...
 --- !Passed

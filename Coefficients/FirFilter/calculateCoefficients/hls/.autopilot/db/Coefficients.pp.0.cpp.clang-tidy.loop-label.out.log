@@ -736,23 +736,26 @@ C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\d
   ^~
   VITIS_LOOP_26_2: 
 C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51596:3: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51628:5: warning: Added loop label VITIS_LOOP_58_1:   [xilinx-label-all-loops]
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51629:5: warning: Added loop label VITIS_LOOP_59_1:   [xilinx-label-all-loops]
     for (int i = 0; i < 301; i++) {
     ^~~
-    VITIS_LOOP_58_1: 
-C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51628:5: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51658:3: warning: Added loop label VITIS_LOOP_88_1:   [xilinx-label-all-loops]
+    VITIS_LOOP_59_1: 
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51629:5: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51649:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLS BIND_OP variable=prod op=mul impl=dsp
+        ^
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51666:3: warning: Added loop label VITIS_LOOP_96_1:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++) {
   ^~~
-  VITIS_LOOP_88_1: 
-C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51658:3: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51678:3: warning: Added loop label VITIS_LOOP_108_2:   [xilinx-label-all-loops]
+  VITIS_LOOP_96_1: 
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51666:3: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51686:3: warning: Added loop label VITIS_LOOP_116_2:   [xilinx-label-all-loops]
   for (int i = 0; i < N; i++) {
   ^~~
-  VITIS_LOOP_108_2: 
-C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51678:3: note: FIX-IT applied suggested code changes
-C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51683:5: warning: Added loop label VITIS_LOOP_113_3:   [xilinx-label-all-loops]
+  VITIS_LOOP_116_2: 
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51686:3: note: FIX-IT applied suggested code changes
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51691:5: warning: Added loop label VITIS_LOOP_121_3:   [xilinx-label-all-loops]
     for (int i = 0; i < N; i++) {
     ^~~
-    VITIS_LOOP_113_3: 
-C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51683:5: note: FIX-IT applied suggested code changes
+    VITIS_LOOP_121_3: 
+C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp:51691:5: note: FIX-IT applied suggested code changes

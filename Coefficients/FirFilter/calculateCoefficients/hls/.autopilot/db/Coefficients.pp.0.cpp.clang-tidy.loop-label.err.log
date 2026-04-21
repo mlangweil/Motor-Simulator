@@ -1,4 +1,4 @@
-26 errors generated.
+27 errors generated.
 Error while processing C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp.
 clang-tidy applied 136 of 136 suggested fixes.
 Suppressed 87 warnings (87 in non-user code).

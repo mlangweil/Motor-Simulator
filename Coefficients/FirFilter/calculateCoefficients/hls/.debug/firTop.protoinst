@@ -3,7 +3,7 @@
 	"modules": {
 		"firTop": {
 			"proto_instances": {
-				"grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441/grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441_activity": {
+				"grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441/grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -23,7 +23,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_fir_fu_448/grp_fir_Pipeline_Shift_Accum_Loop_fu_960/grp_fir_Pipeline_Shift_Accum_Loop_fu_960_activity": {
+				"grp_fir_fu_448/grp_fir_Pipeline_Shift_Accum_Loop_fu_970/grp_fir_Pipeline_Shift_Accum_Loop_fu_970_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},

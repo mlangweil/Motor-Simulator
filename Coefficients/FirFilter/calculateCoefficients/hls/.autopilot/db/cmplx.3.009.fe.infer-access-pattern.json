@@ -14,14 +14,14 @@
       "L": 24,
       "T": 2
     },
-    "total_instructions": 1775
+    "total_instructions": 1778
   },
   "1": {
-    "basicblocks": 10,
+    "basicblocks": 11,
     "calls": "",
     "file": "Coefficients.cpp",
     "fileloc": 51,
-    "instructions": 334,
+    "instructions": 337,
     "loads": {
       "G": 1,
       "L": 1
@@ -31,7 +31,7 @@
       "G": 303,
       "L": 2
     },
-    "total_instructions": 334
+    "total_instructions": 337
   },
   "2": {
     "basicblocks": 19,

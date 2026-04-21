@@ -32,7 +32,7 @@ set C_modelArgMapList {[
  	{ "Name" : "reset", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY"} , 
  	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 64} ]}
 # RTL Port declarations: 
-set portNum 22
+set portNum 17
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -47,11 +47,6 @@ set portList {
 	{ N sc_in sc_lv 32 signal 2 } 
 	{ reset sc_in sc_lv 1 signal 3 } 
 	{ ap_return sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_458_p_din0 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_458_p_din1 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_458_p_opcode sc_out sc_lv 1 signal -1 } 
-	{ grp_fu_458_p_dout0 sc_in sc_lv 64 signal -1 } 
-	{ grp_fu_458_p_ce sc_out sc_logic 1 signal -1 } 
 	{ grp_fu_463_p_din0 sc_out sc_lv 64 signal -1 } 
 	{ grp_fu_463_p_din1 sc_out sc_lv 64 signal -1 } 
 	{ grp_fu_463_p_dout0 sc_in sc_lv 64 signal -1 } 
@@ -71,11 +66,6 @@ set NewPortList {[
  	{ "name": "N", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "N", "role": "default" }} , 
  	{ "name": "reset", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "reset", "role": "default" }} , 
  	{ "name": "ap_return", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "ap_return", "role": "default" }} , 
- 	{ "name": "grp_fu_458_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_458_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_458_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_458_p_din1", "role": "default" }} , 
- 	{ "name": "grp_fu_458_p_opcode", "direction": "out", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_458_p_opcode", "role": "default" }} , 
- 	{ "name": "grp_fu_458_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_458_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_458_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_458_p_ce", "role": "default" }} , 
  	{ "name": "grp_fu_463_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_463_p_din0", "role": "default" }} , 
  	{ "name": "grp_fu_463_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_463_p_din1", "role": "default" }} , 
  	{ "name": "grp_fu_463_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_463_p_dout0", "role": "default" }} , 
@@ -99,15 +89,15 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "c", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "2", "SubInstance" : "grp_fir_Pipeline_Shift_Accum_Loop_fu_960", "Port" : "c", "Inst_start_state" : "152", "Inst_end_state" : "153"}]},
+					{"ID" : "2", "SubInstance" : "grp_fir_Pipeline_Shift_Accum_Loop_fu_970", "Port" : "c", "Inst_start_state" : "1", "Inst_end_state" : "2"}]},
 			{"Name" : "x", "Type" : "None", "Direction" : "I"},
 			{"Name" : "N", "Type" : "None", "Direction" : "I"},
 			{"Name" : "reset", "Type" : "None", "Direction" : "I"},
 			{"Name" : "shift_reg", "Type" : "Memory", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "2", "SubInstance" : "grp_fir_Pipeline_Shift_Accum_Loop_fu_960", "Port" : "shift_reg", "Inst_start_state" : "152", "Inst_end_state" : "153"}]}]},
+					{"ID" : "2", "SubInstance" : "grp_fir_Pipeline_Shift_Accum_Loop_fu_970", "Port" : "shift_reg", "Inst_start_state" : "1", "Inst_end_state" : "2"}]}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.shift_reg_U", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_fir_Pipeline_Shift_Accum_Loop_fu_960", "Parent" : "0", "Child" : ["3"],
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_fir_Pipeline_Shift_Accum_Loop_fu_970", "Parent" : "0", "Child" : ["3", "4"],
 		"CDFG" : "fir_Pipeline_Shift_Accum_Loop",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -122,15 +112,16 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "sext_ln66", "Type" : "None", "Direction" : "I"},
+			{"Name" : "sext_ln68", "Type" : "None", "Direction" : "I"},
 			{"Name" : "x", "Type" : "None", "Direction" : "I"},
 			{"Name" : "c", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "acc_1_out", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "acc_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "shift_reg", "Type" : "Memory", "Direction" : "IO"}],
 		"Loop" : [
 			{"Name" : "Shift_Accum_Loop", "PipelineType" : "UPC",
-				"LoopDec" : {"FSMBitwidth" : "4", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter3", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter3", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_fir_Pipeline_Shift_Accum_Loop_fu_960.flow_control_loop_pipe_sequential_init_U", "Parent" : "2"}]}
+				"LoopDec" : {"FSMBitwidth" : "3", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage2", "LastStateIter" : "ap_enable_reg_pp0_iter3", "LastStateBlock" : "ap_block_pp0_stage2_subdone", "QuitState" : "ap_ST_fsm_pp0_stage2", "QuitStateIter" : "ap_enable_reg_pp0_iter3", "QuitStateBlock" : "ap_block_pp0_stage2_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
+	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_fir_Pipeline_Shift_Accum_Loop_fu_970.dadd_64ns_64ns_64_4_no_dsp_1_U65", "Parent" : "2"},
+	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_fir_Pipeline_Shift_Accum_Loop_fu_970.flow_control_loop_pipe_sequential_init_U", "Parent" : "2"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -141,10 +132,10 @@ set ArgLastReadFirstWriteLatency {
 		reset {Type I LastRead 0 FirstWrite -1}
 		shift_reg {Type IO LastRead -1 FirstWrite -1}}
 	fir_Pipeline_Shift_Accum_Loop {
-		sext_ln66 {Type I LastRead 0 FirstWrite -1}
+		sext_ln68 {Type I LastRead 0 FirstWrite -1}
 		x {Type I LastRead 0 FirstWrite -1}
 		c {Type I LastRead 1 FirstWrite -1}
-		acc_1_out {Type O LastRead -1 FirstWrite 8}
+		acc_out {Type O LastRead -1 FirstWrite 8}
 		shift_reg {Type IO LastRead 1 FirstWrite 1}}}
 
 set hasDtUnsupportedChannel 0

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'sin_or_cos_double_Pipeline_4'
 ================================================================
-* Date:           Thu Apr 16 17:18:41 2026
+* Date:           Tue Apr 21 17:14:44 2026
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        calculateCoefficients
@@ -145,7 +145,7 @@ The critical path consists of the following:
 	'sparsemux' operation 32 bit ('tmp_s', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:422->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252) [27]  (0.525 ns)
 	'sub' operation 32 bit ('sub_ln423', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:423->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252) [30]  (1.016 ns)
 	'select' operation 32 bit ('select_ln423', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:423->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252) [31]  (0.449 ns)
-	'shl' operation 63 bit ('shl_ln423', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:423->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252) [34]  (1.535 ns)
+	'ashr' operation 63 bit ('ashr_ln423', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:423->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252) [33]  (1.535 ns)
 	'select' operation 63 bit ('in_shift', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:423->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252) [35]  (0.417 ns)
 	'store' operation 0 bit ('store_ln419', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:419->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252) of variable 'in_shift', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:423->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252 on local variable 'in_shift', C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/src/hls\utils/x_hls_float_utils.h:419->C:\scratch\2024.1\hls_product\545\2024.1\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_hotbm.h:252 [44]  (0.427 ns)
 

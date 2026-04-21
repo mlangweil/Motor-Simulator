@@ -905,7 +905,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>57ddd5f3</spirit:value>
+            <spirit:value>ab3f9982</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -924,7 +924,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>321579bb</spirit:value>
+            <spirit:value>1dcbbca4</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -943,7 +943,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>62cda824</spirit:value>
+            <spirit:value>6fc09cca</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -962,7 +962,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>24872a2a</spirit:value>
+            <spirit:value>8342f679</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -2533,6 +2533,10 @@
         <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/ip/firTop_dadd_64ns_64ns_64_4_no_dsp_1_ip.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/ip/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
@@ -2558,6 +2562,10 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/firTop_control_s_axi.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_dadd_64ns_64ns_64_4_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2597,7 +2605,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_113_3.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_121_3.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2754,6 +2762,11 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
+        <spirit:name>hdl/ip/firTop_dadd_64ns_64ns_64_4_no_dsp_1_ip.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/ip/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
@@ -2785,6 +2798,11 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/firTop_control_s_axi.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/firTop_dadd_64ns_64ns_64_4_no_dsp_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2833,7 +2851,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_113_3.v</spirit:name>
+        <spirit:name>hdl/verilog/firTop_firTop_Pipeline_VITIS_LOOP_121_3.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3025,6 +3043,10 @@
         <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/ip/firTop_dadd_64ns_64ns_64_4_no_dsp_1_ip.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/ip/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
@@ -3050,6 +3072,10 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/firTop_control_s_axi.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_dadd_64ns_64ns_64_4_no_dsp_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -3085,7 +3111,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_113_3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_121_3.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -3195,7 +3221,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/firTop.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_5afc06c2</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_c4ea404d</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -3210,6 +3236,11 @@
     </spirit:fileSet>
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>hdl/ip/firTop_dadd_64ns_64ns_64_4_no_dsp_1_ip.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
       <spirit:file>
         <spirit:name>hdl/ip/firTop_dadddsub_64ns_64ns_64_5_full_dsp_1_ip.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
@@ -3242,6 +3273,11 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/firTop_control_s_axi.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/firTop_dadd_64ns_64ns_64_4_no_dsp_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3286,7 +3322,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_113_3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/firTop_firTop_Pipeline_VITIS_LOOP_121_3.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3657,8 +3693,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Firtop</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2114568379</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-04-16T21:19:29Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2114575576</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2026-04-21T21:16:38Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -3669,7 +3705,7 @@
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="ba78e454"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="2c1df7e3"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="00756362"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="50925d10"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="fc673700"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="4d07fd8d"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="266b6a7a"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="9588e308"/>

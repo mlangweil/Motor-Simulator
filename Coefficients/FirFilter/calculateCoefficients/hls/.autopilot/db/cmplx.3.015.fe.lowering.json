@@ -12,7 +12,7 @@
     "stores": {
       "L": 10
     },
-    "total_instructions": 1693
+    "total_instructions": 1696
   },
   "1": {
     "basicblocks": 30,
@@ -27,11 +27,11 @@
     "total_instructions": 287
   },
   "2": {
-    "basicblocks": 9,
+    "basicblocks": 10,
     "calls": "",
     "file": "Coefficients.cpp",
     "fileloc": 51,
-    "instructions": 332,
+    "instructions": 335,
     "loads": {
       "G": 1,
       "L": 1
@@ -41,6 +41,6 @@
       "G": 303,
       "L": 2
     },
-    "total_instructions": 332
+    "total_instructions": 335
   }
 }

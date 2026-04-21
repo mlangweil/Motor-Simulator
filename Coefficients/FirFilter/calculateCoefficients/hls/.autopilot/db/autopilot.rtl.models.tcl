@@ -31,8 +31,12 @@ set SynModuleInfo {
       {MODELNAME firTop_sin_or_cos_double_s_fourth_order_double_sin_cos_K4_ROM_1P_LUTRAM_1R RTLNAME firTop_sin_or_cos_double_s_fourth_order_double_sin_cos_K4_ROM_1P_LUTRAM_1R BINDTYPE storage TYPE rom_1p IMPL lutram LATENCY 2 ALLOW_PRAGMA 1}
     }
   }
-  {SRCNAME firTop_Pipeline_VITIS_LOOP_113_3 MODELNAME firTop_Pipeline_VITIS_LOOP_113_3 RTLNAME firTop_firTop_Pipeline_VITIS_LOOP_113_3}
-  {SRCNAME fir_Pipeline_Shift_Accum_Loop MODELNAME fir_Pipeline_Shift_Accum_Loop RTLNAME firTop_fir_Pipeline_Shift_Accum_Loop}
+  {SRCNAME firTop_Pipeline_VITIS_LOOP_121_3 MODELNAME firTop_Pipeline_VITIS_LOOP_121_3 RTLNAME firTop_firTop_Pipeline_VITIS_LOOP_121_3}
+  {SRCNAME fir_Pipeline_Shift_Accum_Loop MODELNAME fir_Pipeline_Shift_Accum_Loop RTLNAME firTop_fir_Pipeline_Shift_Accum_Loop
+    SUBMODULES {
+      {MODELNAME firTop_dadd_64ns_64ns_64_4_no_dsp_1 RTLNAME firTop_dadd_64ns_64ns_64_4_no_dsp_1 BINDTYPE op TYPE dadd IMPL fabric LATENCY 3 ALLOW_PRAGMA 1}
+    }
+  }
   {SRCNAME fir MODELNAME fir RTLNAME firTop_fir
     SUBMODULES {
       {MODELNAME firTop_fir_shift_reg_RAM_AUTO_1R1W RTLNAME firTop_fir_shift_reg_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}

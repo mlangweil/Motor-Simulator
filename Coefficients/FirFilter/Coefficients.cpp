@@ -50,9 +50,10 @@ void firTop(hls::stream<ap_axis<32, 2, 5, 6>> &in_stream,
 
 void fir(double *y, double c[MAX_TAPS], double x, int N, bool reset) {
   static double shift_reg[MAX_TAPS];
-  double acc = 0;
+  double acc = 0.0;
   int i;
   double data;
+  double prod;
 
   if (reset) {
     for (int i = 0; i < MAX_TAPS; i++) {
@@ -60,10 +61,12 @@ void fir(double *y, double c[MAX_TAPS], double x, int N, bool reset) {
       shift_reg[i] = 0.0;
     }
     *y = 0.0;
+    return;
   }
 
 Shift_Accum_Loop:
   for (i = N - 1; i >= 0; i--) {
+#pragma HLS PIPELINE II=3
     if (i == 0) {
       shift_reg[0] = x;
       data = x;
@@ -71,8 +74,13 @@ Shift_Accum_Loop:
       shift_reg[i] = shift_reg[i - 1];
       data = shift_reg[i];
     }
-    acc += data * c[i];
+
+    prod = data * c[i];
+#pragma HLS BIND_OP variable=prod op=mul impl=dsp
+
+    acc += prod;
   }
+
   *y = acc;
 }
 

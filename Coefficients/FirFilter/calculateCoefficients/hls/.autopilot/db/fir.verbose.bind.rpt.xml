@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'fir'" level="0">
-<item name = "Date">Thu Apr 16 17:18:43 2026
+<item name = "Date">Tue Apr 21 17:14:46 2026
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">calculateCoefficients</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_fir_Pipeline_Shift_Accum_Loop_fu_960">fir_Pipeline_Shift_Accum_Loop, ?, ?, ?, ?, 0, 0, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_fir_Pipeline_Shift_Accum_Loop_fu_970">fir_Pipeline_Shift_Accum_Loop, ?, ?, ?, ?, 0, 0, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

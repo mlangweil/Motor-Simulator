@@ -75,8 +75,8 @@
 </InstancesList>
 </Instance>
 <Instance>
-<InstName>grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441</InstName>
-<ModuleName>firTop_Pipeline_VITIS_LOOP_113_3</ModuleName>
+<InstName>grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441</InstName>
+<ModuleName>firTop_Pipeline_VITIS_LOOP_121_3</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>441</ID>
 </Instance>
@@ -87,10 +87,10 @@
 <ID>448</ID>
 <InstancesList>
 <Instance>
-<InstName>grp_fir_Pipeline_Shift_Accum_Loop_fu_960</InstName>
+<InstName>grp_fir_Pipeline_Shift_Accum_Loop_fu_970</InstName>
 <ModuleName>fir_Pipeline_Shift_Accum_Loop</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>960</ID>
+<ID>970</ID>
 </Instance>
 </InstancesList>
 </Instance>
@@ -1903,9 +1903,9 @@
 </InterfaceSummary>
 </Module>
 <Module>
-<Name>firTop_Pipeline_VITIS_LOOP_113_3</Name>
+<Name>firTop_Pipeline_VITIS_LOOP_121_3</Name>
 <Loops>
-<VITIS_LOOP_113_3></VITIS_LOOP_113_3>
+<VITIS_LOOP_121_3></VITIS_LOOP_121_3>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
@@ -1924,8 +1924,8 @@
 <PipelineType>loop auto-rewind (delay=0 clock cycles(s))</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_113_3>
-<Name>VITIS_LOOP_113_3</Name>
+<VITIS_LOOP_121_3>
+<Name>VITIS_LOOP_121_3</Name>
 <Slack>7.30</Slack>
 <TripCount>
 <range>
@@ -1940,19 +1940,19 @@
 <PipelineType>yes</PipelineType>
 <InstanceList>
 </InstanceList>
-</VITIS_LOOP_113_3>
+</VITIS_LOOP_121_3>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>Coefficients.cpp:113~Coefficients.cpp:24</SourceLocation>
+<SourceLocation>Coefficients.cpp:121~Coefficients.cpp:24</SourceLocation>
 <SummaryOfLoopViolations>
-<VITIS_LOOP_113_3>
-<Name>VITIS_LOOP_113_3</Name>
+<VITIS_LOOP_121_3>
+<Name>VITIS_LOOP_121_3</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>Coefficients.cpp:113~Coefficients.cpp:24</SourceLocation>
-</VITIS_LOOP_113_3>
+<SourceLocation>Coefficients.cpp:121~Coefficients.cpp:24</SourceLocation>
+</VITIS_LOOP_121_3>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
 </PerformanceEstimates>
@@ -1978,7 +1978,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1989,7 +1989,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2000,7 +2000,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2011,7 +2011,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2022,7 +2022,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2033,7 +2033,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2044,7 +2044,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_477_p_din0</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2055,7 +2055,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_477_p_din1</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2066,7 +2066,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_477_p_dout0</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2077,7 +2077,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>grp_fu_477_p_ce</name>
-<Object>firTop_Pipeline_VITIS_LOOP_113_3</Object>
+<Object>firTop_Pipeline_VITIS_LOOP_121_3</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -2215,8 +2215,8 @@
 <TripCount>undef</TripCount>
 <Latency>undef</Latency>
 <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
-<PipelineII>4</PipelineII>
-<PipelineDepth>12</PipelineDepth>
+<PipelineII>3</PipelineII>
+<PipelineDepth>11</PipelineDepth>
 <PipelineType>yes</PipelineType>
 <InstanceList>
 </InstanceList>
@@ -2229,28 +2229,27 @@
 <SummaryOfLoopViolations>
 <Shift_Accum_Loop>
 <Name>Shift_Accum_Loop</Name>
-<IssueType>II Violation</IssueType>
-<ViolationType>Memory Dependency</ViolationType>
-<IterationDistance>1</IterationDistance>
-<SourceLocation>Coefficients.cpp:66</SourceLocation>
+<IssueType>-</IssueType>
+<ViolationType>-</ViolationType>
+<SourceLocation>Coefficients.cpp:68</SourceLocation>
 </Shift_Accum_Loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
 <Resources>
-<FF>461</FF>
-<AVAIL_FF>141120</AVAIL_FF>
-<UTIL_FF>~0</UTIL_FF>
-<LUT>350</LUT>
-<AVAIL_LUT>70560</AVAIL_LUT>
-<UTIL_LUT>~0</UTIL_LUT>
-<BRAM_18K>0</BRAM_18K>
-<AVAIL_BRAM>432</AVAIL_BRAM>
-<UTIL_BRAM>0</UTIL_BRAM>
 <DSP>0</DSP>
 <AVAIL_DSP>360</AVAIL_DSP>
 <UTIL_DSP>0</UTIL_DSP>
+<FF>852</FF>
+<AVAIL_FF>141120</AVAIL_FF>
+<UTIL_FF>~0</UTIL_FF>
+<LUT>1125</LUT>
+<AVAIL_LUT>70560</AVAIL_LUT>
+<UTIL_LUT>1</UTIL_LUT>
+<BRAM_18K>0</BRAM_18K>
+<AVAIL_BRAM>432</AVAIL_BRAM>
+<UTIL_BRAM>0</UTIL_BRAM>
 <URAM>0</URAM>
 <AVAIL_URAM>0</AVAIL_URAM>
 <UTIL_URAM>0</UTIL_URAM>
@@ -2324,7 +2323,7 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1005_p_din0</name>
+<name>grp_fu_1015_p_din0</name>
 <Object>fir_Pipeline_Shift_Accum_Loop</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -2335,7 +2334,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1005_p_din1</name>
+<name>grp_fu_1015_p_din1</name>
 <Object>fir_Pipeline_Shift_Accum_Loop</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -2346,18 +2345,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1005_p_opcode</name>
-<Object>fir_Pipeline_Shift_Accum_Loop</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_1005_p_dout0</name>
+<name>grp_fu_1015_p_dout0</name>
 <Object>fir_Pipeline_Shift_Accum_Loop</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -2368,7 +2356,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1005_p_ce</name>
+<name>grp_fu_1015_p_ce</name>
 <Object>fir_Pipeline_Shift_Accum_Loop</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -2379,52 +2367,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_1009_p_din0</name>
-<Object>fir_Pipeline_Shift_Accum_Loop</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>64</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_1009_p_din1</name>
-<Object>fir_Pipeline_Shift_Accum_Loop</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>64</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_1009_p_dout0</name>
-<Object>fir_Pipeline_Shift_Accum_Loop</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>64</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_1009_p_ce</name>
-<Object>fir_Pipeline_Shift_Accum_Loop</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>sext_ln66</name>
-<Object>sext_ln66</Object>
+<name>sext_ln68</name>
+<Object>sext_ln68</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -2478,8 +2422,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>acc_1_out</name>
-<Object>acc_1_out</Object>
+<name>acc_out</name>
+<Object>acc_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -2489,8 +2433,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>acc_1_out_ap_vld</name>
-<Object>acc_1_out</Object>
+<name>acc_out_ap_vld</name>
+<Object>acc_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -2577,7 +2521,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>Coefficients.cpp:57</SourceLocation>
+<SourceLocation>Coefficients.cpp:58</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -2585,18 +2529,18 @@
 <BRAM_18K>4</BRAM_18K>
 <AVAIL_BRAM>432</AVAIL_BRAM>
 <UTIL_BRAM>~0</UTIL_BRAM>
-<FF>648</FF>
-<AVAIL_FF>141120</AVAIL_FF>
-<UTIL_FF>~0</UTIL_FF>
-<LUT>2859</LUT>
-<AVAIL_LUT>70560</AVAIL_LUT>
-<UTIL_LUT>4</UTIL_LUT>
-<URAM>0</URAM>
-<AVAIL_URAM>0</AVAIL_URAM>
-<UTIL_URAM>0</UTIL_URAM>
 <DSP>0</DSP>
 <AVAIL_DSP>360</AVAIL_DSP>
 <UTIL_DSP>0</UTIL_DSP>
+<FF>1313</FF>
+<AVAIL_FF>141120</AVAIL_FF>
+<UTIL_FF>~0</UTIL_FF>
+<LUT>4429</LUT>
+<AVAIL_LUT>70560</AVAIL_LUT>
+<UTIL_LUT>6</UTIL_LUT>
+<URAM>0</URAM>
+<AVAIL_URAM>0</AVAIL_URAM>
+<UTIL_URAM>0</UTIL_URAM>
 </Resources>
 </AreaEstimates>
 <InterfaceSummary>
@@ -2675,61 +2619,6 @@
 <IOConfig></IOConfig>
 <Dir>out</Dir>
 <Bits>64</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_458_p_din0</name>
-<Object>fir</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>64</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_458_p_din1</name>
-<Object>fir</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>64</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_458_p_opcode</name>
-<Object>fir</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_458_p_dout0</name>
-<Object>fir</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>in</Dir>
-<Bits>64</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_458_p_ce</name>
-<Object>fir</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>1</Bits>
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -2847,8 +2736,8 @@
 <Module>
 <Name>firTop</Name>
 <Loops>
-<VITIS_LOOP_88_1></VITIS_LOOP_88_1>
-<VITIS_LOOP_108_2></VITIS_LOOP_108_2>
+<VITIS_LOOP_96_1></VITIS_LOOP_96_1>
+<VITIS_LOOP_116_2></VITIS_LOOP_116_2>
 <VITIS_LOOP_26_2></VITIS_LOOP_26_2>
 </Loops>
 <PerformanceEstimates>
@@ -2868,8 +2757,8 @@
 <PipelineType>no</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_88_1>
-<Name>VITIS_LOOP_88_1</Name>
+<VITIS_LOOP_96_1>
+<Name>VITIS_LOOP_96_1</Name>
 <Slack>7.30</Slack>
 <TripCount>undef</TripCount>
 <Latency>undef</Latency>
@@ -2886,9 +2775,9 @@
 <Instance>grp_sin_or_cos_double_s_fu_402</Instance>
 <Instance>grp_sin_or_cos_double_s_fu_421</Instance>
 </InstanceList>
-</VITIS_LOOP_88_1>
-<VITIS_LOOP_108_2>
-<Name>VITIS_LOOP_108_2</Name>
+</VITIS_LOOP_96_1>
+<VITIS_LOOP_116_2>
+<Name>VITIS_LOOP_116_2</Name>
 <Slack>7.30</Slack>
 <TripCount>
 <range>
@@ -2908,7 +2797,7 @@
 <PipelineType>no</PipelineType>
 <InstanceList>
 </InstanceList>
-</VITIS_LOOP_108_2>
+</VITIS_LOOP_116_2>
 <VITIS_LOOP_26_2>
 <Name>VITIS_LOOP_26_2</Name>
 <Slack>7.30</Slack>
@@ -2926,20 +2815,20 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>Coefficients.cpp:88~Coefficients.cpp:24</SourceLocation>
+<SourceLocation>Coefficients.cpp:96~Coefficients.cpp:24</SourceLocation>
 <SummaryOfLoopViolations>
-<VITIS_LOOP_88_1>
-<Name>VITIS_LOOP_88_1</Name>
+<VITIS_LOOP_96_1>
+<Name>VITIS_LOOP_96_1</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>Coefficients.cpp:88~Coefficients.cpp:24</SourceLocation>
-</VITIS_LOOP_88_1>
-<VITIS_LOOP_108_2>
-<Name>VITIS_LOOP_108_2</Name>
+<SourceLocation>Coefficients.cpp:96~Coefficients.cpp:24</SourceLocation>
+</VITIS_LOOP_96_1>
+<VITIS_LOOP_116_2>
+<Name>VITIS_LOOP_116_2</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>Coefficients.cpp:108~Coefficients.cpp:24</SourceLocation>
-</VITIS_LOOP_108_2>
+<SourceLocation>Coefficients.cpp:116~Coefficients.cpp:24</SourceLocation>
+</VITIS_LOOP_116_2>
 <VITIS_LOOP_26_2>
 <Name>VITIS_LOOP_26_2</Name>
 <IssueType>-</IssueType>
@@ -2957,12 +2846,12 @@
 <DSP>189</DSP>
 <AVAIL_DSP>360</AVAIL_DSP>
 <UTIL_DSP>52</UTIL_DSP>
-<FF>8470</FF>
+<FF>9135</FF>
 <AVAIL_FF>141120</AVAIL_FF>
 <UTIL_FF>6</UTIL_FF>
-<LUT>19835</LUT>
+<LUT>21379</LUT>
 <AVAIL_LUT>70560</AVAIL_LUT>
-<UTIL_LUT>28</UTIL_LUT>
+<UTIL_LUT>30</UTIL_LUT>
 <URAM>0</URAM>
 <AVAIL_URAM>0</AVAIL_URAM>
 <UTIL_URAM>0</UTIL_URAM>

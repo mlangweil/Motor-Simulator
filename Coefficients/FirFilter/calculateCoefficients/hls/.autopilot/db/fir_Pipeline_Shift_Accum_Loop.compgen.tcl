@@ -1,5 +1,11 @@
 # This script segment is generated automatically by AutoPilot
 
+set name firTop_dadd_64ns_64ns_64_4_no_dsp_1
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {dadd} IMPL {fabric} LATENCY 3 ALLOW_PRAGMA 1
+}
+
+
 # clear list
 if {${::AESL::PGuard_autoexp_gen}} {
     cg_default_interface_gen_dc_begin
@@ -11,7 +17,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 69 \
+    id 70 \
     name c \
     reset_level 1 \
     sync_rst true \
@@ -30,7 +36,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 71 \
+    id 72 \
     name shift_reg \
     reset_level 1 \
     sync_rst true \
@@ -48,22 +54,22 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 67 \
-    name sext_ln66 \
+    id 68 \
+    name sext_ln68 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_sext_ln66 \
+    corename dc_sext_ln68 \
     op interface \
-    ports { sext_ln66 { I 32 vector } } \
+    ports { sext_ln68 { I 32 vector } } \
 } "
 }
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 68 \
+    id 69 \
     name x \
     type other \
     dir I \
@@ -78,15 +84,15 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 70 \
-    name acc_1_out \
+    id 71 \
+    name acc_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_acc_1_out \
+    corename dc_acc_out \
     op interface \
-    ports { acc_1_out { O 64 vector } acc_1_out_ap_vld { O 1 bit } } \
+    ports { acc_out { O 64 vector } acc_out_ap_vld { O 1 bit } } \
 } "
 }
 

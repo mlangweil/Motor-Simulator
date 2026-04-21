@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'firTop'" level="0">
-<item name = "Date">Thu Apr 16 17:18:43 2026
+<item name = "Date">Tue Apr 21 17:14:46 2026
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">calculateCoefficients</item>
@@ -34,14 +34,14 @@
 <column name="grp_firTop_Pipeline_VITIS_LOOP_14_1_fu_394">firTop_Pipeline_VITIS_LOOP_14_1, 9, 9, 90.000 ns, 90.000 ns, 7, 7, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 <column name="grp_sin_or_cos_double_s_fu_402">sin_or_cos_double_s, 31, 34, 0.310 us, 0.340 us, 31, 34, no</column>
 <column name="grp_sin_or_cos_double_s_fu_421">sin_or_cos_double_s, 31, 34, 0.310 us, 0.340 us, 31, 34, no</column>
-<column name="grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441">firTop_Pipeline_VITIS_LOOP_113_3, 2, 534, 20.000 ns, 5.340 us, 1, 512, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441">firTop_Pipeline_VITIS_LOOP_121_3, 2, 534, 20.000 ns, 5.340 us, 1, 512, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 <column name="grp_fir_fu_448">fir, ?, ?, ?, ?, ?, ?, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_88_1">?, ?, 81 ~ 154, -, -, ?, no</column>
-<column name="- VITIS_LOOP_108_2">0, 28105, 52 ~ 55, -, -, 0 ~ 511, no</column>
+<column name="- VITIS_LOOP_96_1">?, ?, 81 ~ 154, -, -, ?, no</column>
+<column name="- VITIS_LOOP_116_2">0, 28105, 52 ~ 55, -, -, 0 ~ 511, no</column>
 <column name="- VITIS_LOOP_26_2">?, ?, ?, -, -, ?, no</column>
 </table>
 </item>

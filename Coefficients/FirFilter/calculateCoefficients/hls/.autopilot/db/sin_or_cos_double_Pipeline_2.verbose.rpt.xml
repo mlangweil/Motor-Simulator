@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'sin_or_cos_double_Pipeline_2'" level="0">
-<item name = "Date">Thu Apr 16 17:18:45 2026
+<item name = "Date">Tue Apr 21 17:14:48 2026
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">calculateCoefficients</item>

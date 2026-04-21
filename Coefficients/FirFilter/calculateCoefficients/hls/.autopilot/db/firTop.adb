@@ -599,7 +599,7 @@
               <name>i_3</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -615,7 +615,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -1970,10 +1970,10 @@
             <Obj>
               <type>0</type>
               <id>73</id>
-              <name>add_ln82</name>
+              <name>add_ln90</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -1989,7 +1989,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2002,7 +2002,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>add_ln82_fu_622_p2</rtlName>
+              <rtlName>add_ln90_fu_622_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -2037,7 +2037,7 @@
               <name>tmp_12</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2053,7 +2053,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2099,10 +2099,10 @@
             <Obj>
               <type>0</type>
               <id>75</id>
-              <name>sub_ln82</name>
+              <name>sub_ln90</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2118,7 +2118,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2131,7 +2131,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sub_ln82_fu_647_p2</rtlName>
+              <rtlName>sub_ln90_fu_647_p2</rtlName>
               <control>auto</control>
               <opType>sub</opType>
               <implIndex>fabric</implIndex>
@@ -2163,10 +2163,10 @@
             <Obj>
               <type>0</type>
               <id>76</id>
-              <name>lshr_ln82_1</name>
+              <name>lshr_ln90_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2182,7 +2182,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2195,7 +2195,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>lshr_ln82_1_fu_653_p4</rtlName>
+              <rtlName>lshr_ln90_1_fu_653_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -2229,10 +2229,10 @@
             <Obj>
               <type>0</type>
               <id>77</id>
-              <name>zext_ln82</name>
+              <name>zext_ln90</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2248,7 +2248,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2261,7 +2261,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln82_fu_663_p1</rtlName>
+              <rtlName>zext_ln90_fu_663_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -2292,10 +2292,10 @@
             <Obj>
               <type>0</type>
               <id>78</id>
-              <name>sub_ln82_1</name>
+              <name>sub_ln90_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2311,7 +2311,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2324,7 +2324,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sub_ln82_1_fu_667_p2</rtlName>
+              <rtlName>sub_ln90_1_fu_667_p2</rtlName>
               <control>auto</control>
               <opType>sub</opType>
               <implIndex>fabric</implIndex>
@@ -2356,10 +2356,10 @@
             <Obj>
               <type>0</type>
               <id>79</id>
-              <name>lshr_ln82_2</name>
+              <name>lshr_ln90_2</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2375,7 +2375,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2388,7 +2388,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>lshr_ln82_2_reg_1094</rtlName>
+              <rtlName>lshr_ln90_2_reg_1094</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -2422,10 +2422,10 @@
             <Obj>
               <type>0</type>
               <id>80</id>
-              <name>zext_ln82_1</name>
+              <name>zext_ln90_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2441,7 +2441,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2454,7 +2454,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln82_1_fu_673_p1</rtlName>
+              <rtlName>zext_ln90_1_fu_673_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -2488,7 +2488,7 @@
               <name>M</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2504,7 +2504,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -2553,7 +2553,7 @@
               <name>conv_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>85</lineNumber>
+              <lineNumber>93</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2569,7 +2569,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>85</second>
+                      <second>93</second>
                     </item>
                     <item>
                       <first>
@@ -2616,7 +2616,7 @@
               <name>mul_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>85</lineNumber>
+              <lineNumber>93</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2632,7 +2632,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>85</second>
+                      <second>93</second>
                     </item>
                     <item>
                       <first>
@@ -2680,7 +2680,7 @@
               <name>conv1_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>85</lineNumber>
+              <lineNumber>93</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2696,7 +2696,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>85</second>
+                      <second>93</second>
                     </item>
                     <item>
                       <first>
@@ -2743,7 +2743,7 @@
               <name>omegaLower</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>85</lineNumber>
+              <lineNumber>93</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2759,7 +2759,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>85</second>
+                      <second>93</second>
                     </item>
                     <item>
                       <first>
@@ -2807,7 +2807,7 @@
               <name>conv3_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>86</lineNumber>
+              <lineNumber>94</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2823,7 +2823,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>86</second>
+                      <second>94</second>
                     </item>
                     <item>
                       <first>
@@ -2870,7 +2870,7 @@
               <name>mul4_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>86</lineNumber>
+              <lineNumber>94</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2886,7 +2886,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>86</second>
+                      <second>94</second>
                     </item>
                     <item>
                       <first>
@@ -2934,7 +2934,7 @@
               <name>omegaUpper</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>86</lineNumber>
+              <lineNumber>94</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -2950,7 +2950,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>86</second>
+                      <second>94</second>
                     </item>
                     <item>
                       <first>
@@ -2998,7 +2998,7 @@
               <name>sub9_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>86</lineNumber>
+              <lineNumber>94</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3014,7 +3014,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>86</second>
+                      <second>94</second>
                     </item>
                     <item>
                       <first>
@@ -3062,7 +3062,7 @@
               <name>div10_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>86</lineNumber>
+              <lineNumber>94</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3078,7 +3078,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>86</second>
+                      <second>94</second>
                     </item>
                     <item>
                       <first>
@@ -3126,7 +3126,7 @@
               <name>conv23_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>82</lineNumber>
+              <lineNumber>90</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3142,7 +3142,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>82</second>
+                      <second>90</second>
                     </item>
                     <item>
                       <first>
@@ -3186,10 +3186,10 @@
             <Obj>
               <type>0</type>
               <id>92</id>
-              <name>i_3_write_ln88</name>
+              <name>i_3_write_ln96</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3205,7 +3205,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -3250,10 +3250,10 @@
             <Obj>
               <type>0</type>
               <id>93</id>
-              <name>br_ln88</name>
+              <name>br_ln96</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3269,7 +3269,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -3316,7 +3316,7 @@
               <name>i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3332,7 +3332,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -3377,10 +3377,10 @@
             <Obj>
               <type>0</type>
               <id>96</id>
-              <name>zext_ln88_1</name>
+              <name>zext_ln96_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3396,7 +3396,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -3409,7 +3409,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln88_1_fu_686_p1</rtlName>
+              <rtlName>zext_ln96_1_fu_686_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -3440,10 +3440,10 @@
             <Obj>
               <type>0</type>
               <id>97</id>
-              <name>icmp_ln88</name>
+              <name>icmp_ln96</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3459,7 +3459,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -3472,7 +3472,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln88_fu_690_p2</rtlName>
+              <rtlName>icmp_ln96_fu_690_p2</rtlName>
               <control>auto</control>
               <opType>setlt</opType>
               <implIndex>auto</implIndex>
@@ -3504,10 +3504,10 @@
             <Obj>
               <type>0</type>
               <id>98</id>
-              <name>add_ln88</name>
+              <name>add_ln96</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3523,7 +3523,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -3536,7 +3536,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>add_ln88_fu_696_p2</rtlName>
+              <rtlName>add_ln96_fu_696_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -3568,10 +3568,10 @@
             <Obj>
               <type>0</type>
               <id>99</id>
-              <name>br_ln88</name>
+              <name>br_ln96</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3587,7 +3587,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -3633,10 +3633,10 @@
             <Obj>
               <type>0</type>
               <id>101</id>
-              <name>zext_ln88</name>
+              <name>zext_ln96</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3652,7 +3652,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -3665,7 +3665,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln88_fu_702_p1</rtlName>
+              <rtlName>zext_ln96_fu_702_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -3696,10 +3696,10 @@
             <Obj>
               <type>0</type>
               <id>103</id>
-              <name>sub_ln92</name>
+              <name>sub_ln100</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>92</lineNumber>
+              <lineNumber>100</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3715,7 +3715,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>92</second>
+                      <second>100</second>
                     </item>
                     <item>
                       <first>
@@ -3728,7 +3728,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sub_ln92_fu_706_p2</rtlName>
+              <rtlName>sub_ln100_fu_706_p2</rtlName>
               <control>auto</control>
               <opType>sub</opType>
               <implIndex>fabric</implIndex>
@@ -3760,10 +3760,10 @@
             <Obj>
               <type>0</type>
               <id>104</id>
-              <name>icmp_ln92</name>
+              <name>icmp_ln100</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>92</lineNumber>
+              <lineNumber>100</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3779,7 +3779,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>92</second>
+                      <second>100</second>
                     </item>
                     <item>
                       <first>
@@ -3792,7 +3792,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln92_fu_712_p2</rtlName>
+              <rtlName>icmp_ln100_fu_712_p2</rtlName>
               <control>auto</control>
               <opType>seteq</opType>
               <implIndex>auto</implIndex>
@@ -3824,10 +3824,10 @@
             <Obj>
               <type>0</type>
               <id>105</id>
-              <name>br_ln92</name>
+              <name>br_ln100</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>92</lineNumber>
+              <lineNumber>100</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3843,7 +3843,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>92</second>
+                      <second>100</second>
                     </item>
                     <item>
                       <first>
@@ -3892,7 +3892,7 @@
               <name>conv11_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>95</lineNumber>
+              <lineNumber>103</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3908,7 +3908,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>95</second>
+                      <second>103</second>
                     </item>
                     <item>
                       <first>
@@ -3955,7 +3955,7 @@
               <name>x_assign</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>95</lineNumber>
+              <lineNumber>103</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -3971,7 +3971,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>95</second>
+                      <second>103</second>
                     </item>
                     <item>
                       <first>
@@ -4035,7 +4035,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>95</second>
+                      <second>103</second>
                     </item>
                     <item>
                       <first>
@@ -4111,7 +4111,7 @@
               <name>x_assign_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>95</lineNumber>
+              <lineNumber>103</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4127,7 +4127,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>95</second>
+                      <second>103</second>
                     </item>
                     <item>
                       <first>
@@ -4191,7 +4191,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>95</second>
+                      <second>103</second>
                     </item>
                     <item>
                       <first>
@@ -4267,7 +4267,7 @@
               <name>sub16_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>95</lineNumber>
+              <lineNumber>103</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4283,7 +4283,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>95</second>
+                      <second>103</second>
                     </item>
                     <item>
                       <first>
@@ -4331,7 +4331,7 @@
               <name>mul18_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>95</lineNumber>
+              <lineNumber>103</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4347,7 +4347,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>95</second>
+                      <second>103</second>
                     </item>
                     <item>
                       <first>
@@ -4395,7 +4395,7 @@
               <name>val</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>95</lineNumber>
+              <lineNumber>103</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4411,7 +4411,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>95</second>
+                      <second>103</second>
                     </item>
                     <item>
                       <first>
@@ -4546,7 +4546,7 @@
               <name>conv20_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>99</lineNumber>
+              <lineNumber>107</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4562,7 +4562,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>99</second>
+                      <second>107</second>
                     </item>
                     <item>
                       <first>
@@ -4609,7 +4609,7 @@
               <name>mul21_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>99</lineNumber>
+              <lineNumber>107</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4625,7 +4625,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>99</second>
+                      <second>107</second>
                     </item>
                     <item>
                       <first>
@@ -4673,7 +4673,7 @@
               <name>x_assign_2</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>99</lineNumber>
+              <lineNumber>107</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4689,7 +4689,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>99</second>
+                      <second>107</second>
                     </item>
                     <item>
                       <first>
@@ -4753,7 +4753,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>99</second>
+                      <second>107</second>
                     </item>
                     <item>
                       <first>
@@ -4829,7 +4829,7 @@
               <name>mul26_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>99</lineNumber>
+              <lineNumber>107</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4845,7 +4845,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>99</second>
+                      <second>107</second>
                     </item>
                     <item>
                       <first>
@@ -4893,7 +4893,7 @@
               <name>w</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>99</lineNumber>
+              <lineNumber>107</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4909,7 +4909,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>99</second>
+                      <second>107</second>
                     </item>
                     <item>
                       <first>
@@ -4957,7 +4957,7 @@
               <name>mul28_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>100</lineNumber>
+              <lineNumber>108</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -4973,7 +4973,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>100</second>
+                      <second>108</second>
                     </item>
                     <item>
                       <first>
@@ -5021,7 +5021,7 @@
               <name>taps_addr</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>100</lineNumber>
+              <lineNumber>108</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5037,7 +5037,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>100</second>
+                      <second>108</second>
                     </item>
                     <item>
                       <first>
@@ -5083,10 +5083,10 @@
             <Obj>
               <type>0</type>
               <id>126</id>
-              <name>taps_addr_write_ln100</name>
+              <name>taps_addr_write_ln108</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>100</lineNumber>
+              <lineNumber>108</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5102,7 +5102,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>100</second>
+                      <second>108</second>
                     </item>
                     <item>
                       <first>
@@ -5147,10 +5147,10 @@
             <Obj>
               <type>0</type>
               <id>127</id>
-              <name>i_3_write_ln88</name>
+              <name>i_3_write_ln96</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5166,7 +5166,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -5213,10 +5213,10 @@
             <Obj>
               <type>0</type>
               <id>128</id>
-              <name>br_ln88</name>
+              <name>br_ln96</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>88</lineNumber>
+              <lineNumber>96</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5232,7 +5232,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>88</second>
+                      <second>96</second>
                     </item>
                     <item>
                       <first>
@@ -5279,7 +5279,7 @@
               <name>gain_re</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>106</lineNumber>
+              <lineNumber>114</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5295,7 +5295,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>106</second>
+                      <second>114</second>
                     </item>
                     <item>
                       <first>
@@ -5342,7 +5342,7 @@
               <name>i_4</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5358,7 +5358,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -5405,7 +5405,7 @@
               <name>add_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>105</lineNumber>
+              <lineNumber>113</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5421,7 +5421,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>105</second>
+                      <second>113</second>
                     </item>
                     <item>
                       <first>
@@ -5469,7 +5469,7 @@
               <name>centerOmega</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>105</lineNumber>
+              <lineNumber>113</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5485,7 +5485,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>105</second>
+                      <second>113</second>
                     </item>
                     <item>
                       <first>
@@ -5530,10 +5530,10 @@
             <Obj>
               <type>0</type>
               <id>134</id>
-              <name>i_4_write_ln108</name>
+              <name>i_4_write_ln116</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5549,7 +5549,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -5594,10 +5594,10 @@
             <Obj>
               <type>0</type>
               <id>135</id>
-              <name>gain_re_write_ln106</name>
+              <name>gain_re_write_ln114</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>106</lineNumber>
+              <lineNumber>114</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5613,7 +5613,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>106</second>
+                      <second>114</second>
                     </item>
                     <item>
                       <first>
@@ -5658,10 +5658,10 @@
             <Obj>
               <type>0</type>
               <id>136</id>
-              <name>br_ln108</name>
+              <name>br_ln116</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5677,7 +5677,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -5724,7 +5724,7 @@
               <name>i_6</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5740,7 +5740,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -5785,10 +5785,10 @@
             <Obj>
               <type>0</type>
               <id>139</id>
-              <name>zext_ln108_1</name>
+              <name>zext_ln116_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5804,7 +5804,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -5817,7 +5817,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln108_1_fu_734_p1</rtlName>
+              <rtlName>zext_ln116_1_fu_734_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -5848,10 +5848,10 @@
             <Obj>
               <type>0</type>
               <id>140</id>
-              <name>icmp_ln108</name>
+              <name>icmp_ln116</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5867,7 +5867,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -5880,7 +5880,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln108_fu_738_p2</rtlName>
+              <rtlName>icmp_ln116_fu_738_p2</rtlName>
               <control>auto</control>
               <opType>setlt</opType>
               <implIndex>auto</implIndex>
@@ -5912,10 +5912,10 @@
             <Obj>
               <type>0</type>
               <id>142</id>
-              <name>add_ln108</name>
+              <name>add_ln116</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5931,7 +5931,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -5944,7 +5944,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>add_ln108_fu_744_p2</rtlName>
+              <rtlName>add_ln116_fu_744_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -5976,10 +5976,10 @@
             <Obj>
               <type>0</type>
               <id>143</id>
-              <name>br_ln108</name>
+              <name>br_ln116</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -5995,7 +5995,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -6044,7 +6044,7 @@
               <name>gain_re_load</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>109</lineNumber>
+              <lineNumber>117</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6060,7 +6060,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6105,10 +6105,10 @@
             <Obj>
               <type>0</type>
               <id>146</id>
-              <name>zext_ln108</name>
+              <name>zext_ln116</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6124,7 +6124,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -6137,7 +6137,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln108_fu_761_p1</rtlName>
+              <rtlName>zext_ln116_fu_761_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -6171,7 +6171,7 @@
               <name>taps_addr_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>109</lineNumber>
+              <lineNumber>117</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6187,7 +6187,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6236,7 +6236,7 @@
               <name>taps_load</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>109</lineNumber>
+              <lineNumber>117</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6252,7 +6252,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6296,10 +6296,10 @@
             <Obj>
               <type>0</type>
               <id>150</id>
-              <name>sub_ln109</name>
+              <name>sub_ln117</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>109</lineNumber>
+              <lineNumber>117</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6315,7 +6315,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6328,7 +6328,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sub_ln109_fu_750_p2</rtlName>
+              <rtlName>sub_ln117_fu_750_p2</rtlName>
               <control>auto</control>
               <opType>sub</opType>
               <implIndex>fabric</implIndex>
@@ -6363,7 +6363,7 @@
               <name>conv38_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>109</lineNumber>
+              <lineNumber>117</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6379,7 +6379,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6426,7 +6426,7 @@
               <name>x_assign_3</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>109</lineNumber>
+              <lineNumber>117</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6442,7 +6442,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6506,7 +6506,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6582,7 +6582,7 @@
               <name>mul41_i</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>109</lineNumber>
+              <lineNumber>117</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6598,7 +6598,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6646,7 +6646,7 @@
               <name>gain_re_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>109</lineNumber>
+              <lineNumber>117</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6662,7 +6662,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>109</second>
+                      <second>117</second>
                     </item>
                     <item>
                       <first>
@@ -6707,10 +6707,10 @@
             <Obj>
               <type>0</type>
               <id>156</id>
-              <name>i_4_write_ln108</name>
+              <name>i_4_write_ln116</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6726,7 +6726,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -6773,10 +6773,10 @@
             <Obj>
               <type>0</type>
               <id>157</id>
-              <name>gain_re_write_ln106</name>
+              <name>gain_re_write_ln114</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>106</lineNumber>
+              <lineNumber>114</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6792,7 +6792,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>106</second>
+                      <second>114</second>
                     </item>
                     <item>
                       <first>
@@ -6839,10 +6839,10 @@
             <Obj>
               <type>0</type>
               <id>158</id>
-              <name>br_ln108</name>
+              <name>br_ln116</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>108</lineNumber>
+              <lineNumber>116</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6858,7 +6858,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>108</second>
+                      <second>116</second>
                     </item>
                     <item>
                       <first>
@@ -6905,7 +6905,7 @@
               <name>gain_re_load_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6921,7 +6921,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -6966,10 +6966,10 @@
             <Obj>
               <type>0</type>
               <id>161</id>
-              <name>bitcast_ln112</name>
+              <name>bitcast_ln120</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -6985,7 +6985,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -6998,7 +6998,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>bitcast_ln112_fu_770_p1</rtlName>
+              <rtlName>bitcast_ln120_fu_770_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -7032,7 +7032,7 @@
               <name>tmp_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -7048,7 +7048,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -7095,10 +7095,10 @@
             <Obj>
               <type>0</type>
               <id>163</id>
-              <name>trunc_ln112</name>
+              <name>trunc_ln120</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -7114,7 +7114,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -7127,7 +7127,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>trunc_ln112_fu_784_p1</rtlName>
+              <rtlName>trunc_ln120_fu_784_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -7158,10 +7158,10 @@
             <Obj>
               <type>0</type>
               <id>164</id>
-              <name>icmp_ln112</name>
+              <name>icmp_ln120</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -7177,7 +7177,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -7190,7 +7190,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln112_fu_788_p2</rtlName>
+              <rtlName>icmp_ln120_fu_788_p2</rtlName>
               <control>auto</control>
               <opType>setne</opType>
               <implIndex>auto</implIndex>
@@ -7222,10 +7222,10 @@
             <Obj>
               <type>0</type>
               <id>165</id>
-              <name>icmp_ln112_1</name>
+              <name>icmp_ln120_1</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -7241,7 +7241,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -7254,7 +7254,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln112_1_fu_794_p2</rtlName>
+              <rtlName>icmp_ln120_1_fu_794_p2</rtlName>
               <control>auto</control>
               <opType>seteq</opType>
               <implIndex>auto</implIndex>
@@ -7286,10 +7286,10 @@
             <Obj>
               <type>0</type>
               <id>166</id>
-              <name>or_ln112</name>
+              <name>or_ln120</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -7305,7 +7305,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -7318,7 +7318,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>or_ln112_fu_800_p2</rtlName>
+              <rtlName>or_ln120_fu_800_p2</rtlName>
               <control>auto</control>
               <opType>or</opType>
               <implIndex>auto</implIndex>
@@ -7353,7 +7353,7 @@
               <name>tmp_2</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -7369,7 +7369,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -7414,10 +7414,10 @@
             <Obj>
               <type>0</type>
               <id>168</id>
-              <name>and_ln112</name>
+              <name>and_ln120</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -7433,7 +7433,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -7446,7 +7446,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln112_fu_806_p2</rtlName>
+              <rtlName>and_ln120_fu_806_p2</rtlName>
               <control>auto</control>
               <opType>and</opType>
               <implIndex>auto</implIndex>
@@ -7478,10 +7478,10 @@
             <Obj>
               <type>0</type>
               <id>169</id>
-              <name>br_ln112</name>
+              <name>br_ln120</name>
               <fileName>Coefficients.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>120</lineNumber>
               <contextFuncName>calculateCoefficients</contextFuncName>
               <contextNormFuncName>calculateCoefficients</contextNormFuncName>
               <inlineStackInfo>
@@ -7497,7 +7497,7 @@
                         <first>Coefficients.cpp</first>
                         <second>calculateCoefficients</second>
                       </first>
-                      <second>112</second>
+                      <second>120</second>
                     </item>
                     <item>
                       <first>
@@ -7568,7 +7568,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441</rtlName>
+              <rtlName>grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -8919,7 +8919,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.23</m_delay>
+          <m_delay>1.44</m_delay>
           <m_topoIndex>135</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -11878,7 +11878,7 @@
             <Obj>
               <type>2</type>
               <id>484</id>
-              <name>firTop_Pipeline_VITIS_LOOP_113_3</name>
+              <name>firTop_Pipeline_VITIS_LOOP_121_3</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -11902,7 +11902,7 @@
             <bitwidth>0</bitwidth>
           </Value>
           <const_type>6</const_type>
-          <content>&lt;constant:firTop_Pipeline_VITIS_LOOP_113_3&gt;</content>
+          <content>&lt;constant:firTop_Pipeline_VITIS_LOOP_121_3&gt;</content>
         </item>
         <item class_id_reference="16" object_id="_207">
           <Value>
@@ -15604,8 +15604,8 @@
       </item>
       <item class_id_reference="22" object_id="_632">
         <mId>3</mId>
-        <mTag>VITIS_LOOP_88_1</mTag>
-        <mNormTag>VITIS_LOOP_88_1</mNormTag>
+        <mTag>VITIS_LOOP_96_1</mTag>
+        <mNormTag>VITIS_LOOP_96_1</mNormTag>
         <mType>1</mType>
         <sub_regions>
           <count>0</count>
@@ -15653,8 +15653,8 @@
       </item>
       <item class_id_reference="22" object_id="_634">
         <mId>5</mId>
-        <mTag>VITIS_LOOP_108_2</mTag>
-        <mNormTag>VITIS_LOOP_108_2</mNormTag>
+        <mTag>VITIS_LOOP_116_2</mTag>
+        <mNormTag>VITIS_LOOP_116_2</mNormTag>
         <mType>1</mType>
         <sub_regions>
           <count>0</count>
@@ -22723,7 +22723,7 @@
           </second>
         </item>
         <item>
-          <first>grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441 (firTop_Pipeline_VITIS_LOOP_113_3)</first>
+          <first>grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441 (firTop_Pipeline_VITIS_LOOP_121_3)</first>
           <second>
             <count>2</count>
             <item_version>0</item_version>
@@ -22755,19 +22755,23 @@
         <item>
           <first>grp_fir_fu_448 (fir)</first>
           <second>
-            <count>4</count>
+            <count>5</count>
             <item_version>0</item_version>
             <item>
               <first>BRAM</first>
               <second>4</second>
             </item>
             <item>
+              <first>DSP</first>
+              <second>0</second>
+            </item>
+            <item>
               <first>FF</first>
-              <second>648</second>
+              <second>1313</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>2859</second>
+              <second>4429</second>
             </item>
             <item>
               <first>URAM</first>
@@ -22965,7 +22969,7 @@
           </second>
         </item>
         <item>
-          <first>add_ln108_fu_744_p2 ( + ) </first>
+          <first>add_ln116_fu_744_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23034,7 +23038,7 @@
           </second>
         </item>
         <item>
-          <first>add_ln82_fu_622_p2 ( + ) </first>
+          <first>add_ln90_fu_622_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23057,7 +23061,7 @@
           </second>
         </item>
         <item>
-          <first>add_ln88_fu_696_p2 ( + ) </first>
+          <first>add_ln96_fu_696_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23080,7 +23084,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln112_fu_806_p2 ( and ) </first>
+          <first>and_ln120_fu_806_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23241,7 +23245,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln108_fu_738_p2 ( icmp ) </first>
+          <first>icmp_ln100_fu_712_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23264,7 +23268,30 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln112_1_fu_794_p2 ( icmp ) </first>
+          <first>icmp_ln116_fu_738_p2 ( icmp ) </first>
+          <second>
+            <count>4</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>32</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>32</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>39</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>icmp_ln120_1_fu_794_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23287,7 +23314,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln112_fu_788_p2 ( icmp ) </first>
+          <first>icmp_ln120_fu_788_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23310,30 +23337,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln88_fu_690_p2 ( icmp ) </first>
-          <second>
-            <count>4</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>32</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>32</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>39</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>icmp_ln92_fu_712_p2 ( icmp ) </first>
+          <first>icmp_ln96_fu_690_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23379,7 +23383,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln112_fu_800_p2 ( or ) </first>
+          <first>or_ln120_fu_800_p2 ( or ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23502,7 +23506,30 @@
           </second>
         </item>
         <item>
-          <first>sub_ln109_fu_750_p2 ( - ) </first>
+          <first>sub_ln100_fu_706_p2 ( - ) </first>
+          <second>
+            <count>4</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>32</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>32</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>39</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>sub_ln117_fu_750_p2 ( - ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23548,7 +23575,7 @@
           </second>
         </item>
         <item>
-          <first>sub_ln82_1_fu_667_p2 ( - ) </first>
+          <first>sub_ln90_1_fu_667_p2 ( - ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -23571,36 +23598,13 @@
           </second>
         </item>
         <item>
-          <first>sub_ln82_fu_647_p2 ( - ) </first>
+          <first>sub_ln90_fu_647_p2 ( - ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
               <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>32</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>39</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>sub_ln92_fu_706_p2 ( - ) </first>
-          <second>
-            <count>4</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>32</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -23731,7 +23735,7 @@
         </item>
       </dp_memory_resource>
       <dp_multiplexer_resource>
-        <count>45</count>
+        <count>44</count>
         <item_version>0</item_version>
         <item>
           <first>ap_NS_fsm</first>
@@ -24220,40 +24224,13 @@
           </second>
         </item>
         <item>
-          <first>grp_fu_458_ce</first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0Size)</first>
-              <second>2</second>
-            </item>
-            <item>
-              <first>(1Bits)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(2Count)</first>
-              <second>2</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>9</second>
-            </item>
-          </second>
-        </item>
-        <item>
           <first>grp_fu_458_opcode</first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
             <item>
               <first>(0Size)</first>
-              <second>4</second>
+              <second>3</second>
             </item>
             <item>
               <first>(1Bits)</first>
@@ -24261,7 +24238,7 @@
             </item>
             <item>
               <first>(2Count)</first>
-              <second>8</second>
+              <second>6</second>
             </item>
             <item>
               <first>FF</first>
@@ -24269,39 +24246,12 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>20</second>
+              <second>14</second>
             </item>
           </second>
         </item>
         <item>
           <first>grp_fu_458_p0</first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0Size)</first>
-              <second>7</second>
-            </item>
-            <item>
-              <first>(1Bits)</first>
-              <second>64</second>
-            </item>
-            <item>
-              <first>(2Count)</first>
-              <second>448</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>37</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>grp_fu_458_p1</first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -24324,6 +24274,33 @@
             <item>
               <first>LUT</first>
               <second>31</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>grp_fu_458_p1</first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0Size)</first>
+              <second>5</second>
+            </item>
+            <item>
+              <first>(1Bits)</first>
+              <second>64</second>
+            </item>
+            <item>
+              <first>(2Count)</first>
+              <second>320</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>26</second>
             </item>
           </second>
         </item>
@@ -24972,7 +24949,7 @@
           </second>
         </item>
         <item>
-          <first>add_ln88_reg_1119</first>
+          <first>add_ln96_reg_1119</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -24991,7 +24968,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln112_reg_1195</first>
+          <first>and_ln120_reg_1195</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -25181,7 +25158,7 @@
           </second>
         </item>
         <item>
-          <first>grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441_ap_start_reg</first>
+          <first>grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441_ap_start_reg</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -25333,7 +25310,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln92_reg_1134</first>
+          <first>icmp_ln100_reg_1134</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -25352,7 +25329,7 @@
           </second>
         </item>
         <item>
-          <first>lshr_ln82_2_reg_1094</first>
+          <first>lshr_ln90_2_reg_1094</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -25827,7 +25804,7 @@
           </second>
         </item>
         <item>
-          <first>zext_ln88_1_reg_1111</first>
+          <first>zext_ln96_1_reg_1111</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -25846,7 +25823,7 @@
           </second>
         </item>
         <item>
-          <first>zext_ln88_reg_1124</first>
+          <first>zext_ln96_reg_1124</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -25925,7 +25902,7 @@
           </second>
         </item>
         <item>
-          <first>grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441</first>
+          <first>grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
@@ -26078,9 +26055,8 @@
         <item class_id="42" tracking_level="0" version="0">
           <first>dadddsub_64ns_64ns_64_5_full_dsp_1_U79 (dadddsub_64ns_64ns_64_5_full_dsp_1)</first>
           <second>
-            <count>6</count>
+            <count>5</count>
             <item_version>0</item_version>
-            <item>41</item>
             <item>89</item>
             <item>112</item>
             <item>123</item>
@@ -26143,7 +26119,7 @@
           </second>
         </item>
         <item>
-          <first>grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441 (firTop_Pipeline_VITIS_LOOP_113_3)</first>
+          <first>grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441 (firTop_Pipeline_VITIS_LOOP_121_3)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26219,7 +26195,7 @@
           </second>
         </item>
         <item>
-          <first>add_ln108_fu_744_p2 ( + ) </first>
+          <first>add_ln116_fu_744_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26243,7 +26219,7 @@
           </second>
         </item>
         <item>
-          <first>add_ln82_fu_622_p2 ( + ) </first>
+          <first>add_ln90_fu_622_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26251,7 +26227,7 @@
           </second>
         </item>
         <item>
-          <first>add_ln88_fu_696_p2 ( + ) </first>
+          <first>add_ln96_fu_696_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26259,7 +26235,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln112_fu_806_p2 ( and ) </first>
+          <first>and_ln120_fu_806_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26283,7 +26259,15 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln108_fu_738_p2 ( icmp ) </first>
+          <first>icmp_ln100_fu_712_p2 ( icmp ) </first>
+          <second>
+            <count>1</count>
+            <item_version>0</item_version>
+            <item>104</item>
+          </second>
+        </item>
+        <item>
+          <first>icmp_ln116_fu_738_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26291,7 +26275,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln112_1_fu_794_p2 ( icmp ) </first>
+          <first>icmp_ln120_1_fu_794_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26299,7 +26283,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln112_fu_788_p2 ( icmp ) </first>
+          <first>icmp_ln120_fu_788_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26307,19 +26291,11 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln88_fu_690_p2 ( icmp ) </first>
+          <first>icmp_ln96_fu_690_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
             <item>97</item>
-          </second>
-        </item>
-        <item>
-          <first>icmp_ln92_fu_712_p2 ( icmp ) </first>
-          <second>
-            <count>1</count>
-            <item_version>0</item_version>
-            <item>104</item>
           </second>
         </item>
         <item>
@@ -26331,7 +26307,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln112_fu_800_p2 ( or ) </first>
+          <first>or_ln120_fu_800_p2 ( or ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26371,7 +26347,15 @@
           </second>
         </item>
         <item>
-          <first>sub_ln109_fu_750_p2 ( - ) </first>
+          <first>sub_ln100_fu_706_p2 ( - ) </first>
+          <second>
+            <count>1</count>
+            <item_version>0</item_version>
+            <item>103</item>
+          </second>
+        </item>
+        <item>
+          <first>sub_ln117_fu_750_p2 ( - ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26387,7 +26371,7 @@
           </second>
         </item>
         <item>
-          <first>sub_ln82_1_fu_667_p2 ( - ) </first>
+          <first>sub_ln90_1_fu_667_p2 ( - ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -26395,19 +26379,11 @@
           </second>
         </item>
         <item>
-          <first>sub_ln82_fu_647_p2 ( - ) </first>
+          <first>sub_ln90_fu_647_p2 ( - ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
             <item>75</item>
-          </second>
-        </item>
-        <item>
-          <first>sub_ln92_fu_706_p2 ( - ) </first>
-          <second>
-            <count>1</count>
-            <item_version>0</item_version>
-            <item>103</item>
           </second>
         </item>
         <item>
@@ -28847,7 +28823,7 @@
         </second>
       </item>
       <item>
-        <first>add_ln108_fu_744</first>
+        <first>add_ln116_fu_744</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -28871,7 +28847,7 @@
         </second>
       </item>
       <item>
-        <first>add_ln82_fu_622</first>
+        <first>add_ln90_fu_622</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -28879,7 +28855,7 @@
         </second>
       </item>
       <item>
-        <first>add_ln88_fu_696</first>
+        <first>add_ln96_fu_696</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -28887,7 +28863,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln112_fu_806</first>
+        <first>and_ln120_fu_806</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -28895,7 +28871,7 @@
         </second>
       </item>
       <item>
-        <first>bitcast_ln112_fu_770</first>
+        <first>bitcast_ln120_fu_770</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29015,7 +28991,15 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln108_fu_738</first>
+        <first>icmp_ln100_fu_712</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>104</item>
+        </second>
+      </item>
+      <item>
+        <first>icmp_ln116_fu_738</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29023,7 +29007,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln112_1_fu_794</first>
+        <first>icmp_ln120_1_fu_794</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29031,7 +29015,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln112_fu_788</first>
+        <first>icmp_ln120_fu_788</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29039,19 +29023,11 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln88_fu_690</first>
+        <first>icmp_ln96_fu_690</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>97</item>
-        </second>
-      </item>
-      <item>
-        <first>icmp_ln92_fu_712</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>104</item>
         </second>
       </item>
       <item>
@@ -29063,7 +29039,7 @@
         </second>
       </item>
       <item>
-        <first>lshr_ln82_1_fu_653</first>
+        <first>lshr_ln90_1_fu_653</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29071,7 +29047,7 @@
         </second>
       </item>
       <item>
-        <first>lshr_ln82_2_fu_637</first>
+        <first>lshr_ln90_2_fu_637</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29087,7 +29063,7 @@
         </second>
       </item>
       <item>
-        <first>or_ln112_fu_800</first>
+        <first>or_ln120_fu_800</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29175,7 +29151,15 @@
         </second>
       </item>
       <item>
-        <first>sub_ln109_fu_750</first>
+        <first>sub_ln100_fu_706</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>103</item>
+        </second>
+      </item>
+      <item>
+        <first>sub_ln117_fu_750</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29191,7 +29175,7 @@
         </second>
       </item>
       <item>
-        <first>sub_ln82_1_fu_667</first>
+        <first>sub_ln90_1_fu_667</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29199,19 +29183,11 @@
         </second>
       </item>
       <item>
-        <first>sub_ln82_fu_647</first>
+        <first>sub_ln90_fu_647</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>75</item>
-        </second>
-      </item>
-      <item>
-        <first>sub_ln92_fu_706</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>103</item>
         </second>
       </item>
       <item>
@@ -29335,7 +29311,7 @@
         </second>
       </item>
       <item>
-        <first>trunc_ln112_fu_784</first>
+        <first>trunc_ln120_fu_784</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29399,7 +29375,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln108_1_fu_734</first>
+        <first>zext_ln116_1_fu_734</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29407,7 +29383,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln108_fu_761</first>
+        <first>zext_ln116_fu_761</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29439,7 +29415,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln82_1_fu_673</first>
+        <first>zext_ln90_1_fu_673</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29447,7 +29423,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln82_fu_663</first>
+        <first>zext_ln90_fu_663</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29455,7 +29431,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln88_1_fu_686</first>
+        <first>zext_ln96_1_fu_686</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29463,7 +29439,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln88_fu_702</first>
+        <first>zext_ln96_fu_702</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29475,7 +29451,7 @@
       <count>13</count>
       <item_version>0</item_version>
       <item>
-        <first>grp_firTop_Pipeline_VITIS_LOOP_113_3_fu_441</first>
+        <first>grp_firTop_Pipeline_VITIS_LOOP_121_3_fu_441</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -29915,7 +29891,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln106_store_fu_722</first>
+        <first>store_ln114_store_fu_722</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29923,7 +29899,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln106_store_fu_765</first>
+        <first>store_ln114_store_fu_765</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29931,7 +29907,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln108_store_fu_717</first>
+        <first>store_ln116_store_fu_717</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29939,7 +29915,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln108_store_fu_756</first>
+        <first>store_ln116_store_fu_756</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29947,7 +29923,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln88_store_fu_582</first>
+        <first>store_ln96_store_fu_582</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -29955,7 +29931,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln88_store_fu_727</first>
+        <first>store_ln96_store_fu_727</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -30622,7 +30598,7 @@
         </second>
       </item>
       <item>
-        <first>add_ln82_reg_1084</first>
+        <first>add_ln90_reg_1084</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -30630,7 +30606,7 @@
         </second>
       </item>
       <item>
-        <first>add_ln88_reg_1119</first>
+        <first>add_ln96_reg_1119</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -30638,7 +30614,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln112_reg_1195</first>
+        <first>and_ln120_reg_1195</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -30774,7 +30750,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln92_reg_1134</first>
+        <first>icmp_ln100_reg_1134</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -30782,7 +30758,7 @@
         </second>
       </item>
       <item>
-        <first>lshr_ln82_2_reg_1094</first>
+        <first>lshr_ln90_2_reg_1094</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -30906,19 +30882,19 @@
         </second>
       </item>
       <item>
-        <first>sub_ln109_reg_1180</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>150</item>
-        </second>
-      </item>
-      <item>
-        <first>sub_ln92_reg_1129</first>
+        <first>sub_ln100_reg_1129</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>103</item>
+        </second>
+      </item>
+      <item>
+        <first>sub_ln117_reg_1180</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>150</item>
         </second>
       </item>
       <item>
@@ -31058,7 +31034,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln88_1_reg_1111</first>
+        <first>zext_ln96_1_reg_1111</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -31066,7 +31042,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln88_reg_1124</first>
+        <first>zext_ln96_reg_1124</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

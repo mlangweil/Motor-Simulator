@@ -1320,39 +1320,44 @@ Diagnostics:
         Length:          0
         ReplacementText: 'VITIS_LOOP_26_2: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_58_1:  '
-    FileOffset:      58
+    Message:         'Added loop label VITIS_LOOP_59_1:  '
+    FileOffset:      59
     FilePath:        Coefficients.cpp
     Replacements:    
       - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2391908
+        Offset:          2391925
         Length:          0
-        ReplacementText: 'VITIS_LOOP_58_1: '
+        ReplacementText: 'VITIS_LOOP_59_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      79
+    FilePath:        Coefficients.cpp
+    Replacements:    
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_88_1:  '
-    FileOffset:      88
+    Message:         'Added loop label VITIS_LOOP_96_1:  '
+    FileOffset:      96
     FilePath:        Coefficients.cpp
     Replacements:    
       - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2392572
+        Offset:          2392691
         Length:          0
-        ReplacementText: 'VITIS_LOOP_88_1: '
+        ReplacementText: 'VITIS_LOOP_96_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_108_2:  '
-    FileOffset:      108
+    Message:         'Added loop label VITIS_LOOP_116_2:  '
+    FileOffset:      116
     FilePath:        Coefficients.cpp
     Replacements:    
       - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2392975
+        Offset:          2393094
         Length:          0
-        ReplacementText: 'VITIS_LOOP_108_2: '
+        ReplacementText: 'VITIS_LOOP_116_2: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_113_3:  '
-    FileOffset:      113
+    Message:         'Added loop label VITIS_LOOP_121_3:  '
+    FileOffset:      121
     FilePath:        Coefficients.cpp
     Replacements:    
       - FilePath:        'C:\Motor-Simulator\Coefficients\FirFilter\calculateCoefficients\hls\.autopilot\db\Coefficients.pp.0.cpp'
-        Offset:          2393097
+        Offset:          2393216
         Length:          0
-        ReplacementText: 'VITIS_LOOP_113_3: '
+        ReplacementText: 'VITIS_LOOP_121_3: '
 ...

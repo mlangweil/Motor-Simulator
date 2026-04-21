@@ -1,0 +1,16 @@
+21:50:14 INFO  : updated workspace path: C:\Motor-Simulator
+21:50:16 INFO  : Marking the target connection as default Local
+21:50:16 INFO  : Marking the target connection as default Linux Agent
+21:50:16 INFO  : Marking the target connection as default XRTServer
+21:50:16 INFO  : Marking the target connection as default LinuxEmulation
+21:50:16 INFO  : Marking the target connection as default QEMU
+21:50:16 INFO  : created .gitignore file for the project C:\Motor-Simulator\PWM
+21:50:17 INFO  : Successfully created repository data at C:\Users\maxls\AppData\Local\Temp\rigel_lopper_maxls82403746441394837
+21:50:17 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.1\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\maxls\AppData\Local\Temp\rigel_lopper_maxls2090841023525675922 -r C:\Users\maxls\AppData\Local\Temp\rigel_lopper_maxls82403746441394837\.repo.yaml && C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+21:50:18 INFO  : Embedded Template List generated successfully
+21:50:18 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.1\data\embeddedsw\scripts\pyesw\\repo.py -st   C:\Xilinx\Vitis\2024.1\data\embeddedsw && C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+21:50:20 INFO  : Successfully created repository data at C:\Motor-Simulator/.wsdata
+21:50:20 INFO  : cmd.exe, /C, C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python C:\Xilinx\Vitis\2024.1\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\maxls\AppData\Local\Temp\rigel_lopper_maxls14619488366955210519 -r C:\Motor-Simulator\.wsdata\.repo.yaml && C:\Xilinx\Vitis\2024.1\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+21:50:20 INFO  : Embedded Template List generated successfully
+22:24:20 INFO  : Vitis Unified CLI: Embedded Repository data: 
+22:24:20 INFO  : Vitis Unified CLI: Embedded Repository data: 

@@ -51620,29 +51620,37 @@ __attribute__((sdx_kernel("firTop", 0))) void firTop(hls::stream<ap_axis<32, 2, 
 
 void fir(double *y, double c[301], double x, int N, bool reset) {
   static double shift_reg[301];
-  double acc = 0;
+  double acc = 0.0;
   int i;
   double data;
+  double prod;
 
   if (reset) {
-    VITIS_LOOP_58_1: for (int i = 0; i < 301; i++) {
+    VITIS_LOOP_59_1: for (int i = 0; i < 301; i++) {
 #pragma HLS UNROLL
  shift_reg[i] = 0.0;
     }
     *y = 0.0;
+    return;
   }
 
 Shift_Accum_Loop:
   for (i = N - 1; i >= 0; i--) {
-    if (i == 0) {
+#pragma HLS PIPELINE II=3
+ if (i == 0) {
       shift_reg[0] = x;
       data = x;
     } else {
       shift_reg[i] = shift_reg[i - 1];
       data = shift_reg[i];
     }
-    acc += data * c[i];
+
+    prod = data * c[i];
+#pragma HLS BIND_OP variable=prod op=mul impl=dsp
+
+ acc += prod;
   }
+
   *y = acc;
 }
 
@@ -51655,7 +51663,7 @@ void calculateCoefficients(int N, int lowerCutoff, int upperCutoff,
   double omegaLower = 2.0 * PI * lowerCutoff / samplingRate;
   double omegaUpper = 2.0 * PI * upperCutoff / samplingRate;
 
-  VITIS_LOOP_88_1: for (int i = 0; i < N; i++) {
+  VITIS_LOOP_96_1: for (int i = 0; i < N; i++) {
     int n = i - M;
     double val;
 
@@ -51675,12 +51683,12 @@ void calculateCoefficients(int N, int lowerCutoff, int upperCutoff,
   double centerOmega = (omegaLower + omegaUpper) / 2.0;
   double gain_re = 0.0;
 
-  VITIS_LOOP_108_2: for (int i = 0; i < N; i++) {
+  VITIS_LOOP_116_2: for (int i = 0; i < N; i++) {
     gain_re += taps[i] * hls::cos(centerOmega * (i - M));
   }
 
   if (gain_re > 1e-10) {
-    VITIS_LOOP_113_3: for (int i = 0; i < N; i++) {
+    VITIS_LOOP_121_3: for (int i = 0; i < N; i++) {
       taps[i] /= gain_re;
     }
   }
