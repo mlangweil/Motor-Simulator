@@ -24,6 +24,7 @@ void firTop(hls::stream<ap_axis<32, 2, 5, 6>> &in_stream,
   calculateCoefficients(N, lowerCutoff, upperCutoff, samplingRate, taps);
 
   do {
+#pragma HLS LOOP_TRIPCOUNT min = 1000 max = 1000 avg = 1000
 
     bool doReset = (bram[RESET_OFFSET] != 0);
     if (doReset) {
@@ -51,9 +52,6 @@ void firTop(hls::stream<ap_axis<32, 2, 5, 6>> &in_stream,
 void fir(double *y, double c[MAX_TAPS], double x, int N, bool reset) {
   static double shift_reg[MAX_TAPS];
   double acc = 0.0;
-  int i;
-  double data;
-  double prod;
 
   if (reset) {
     for (int i = 0; i < MAX_TAPS; i++) {
@@ -64,24 +62,24 @@ void fir(double *y, double c[MAX_TAPS], double x, int N, bool reset) {
     return;
   }
 
-Shift_Accum_Loop:
-  for (i = N - 1; i >= 0; i--) {
+Shift_Loop:
+  for (int i = N - 1; i > 0; i--) {
+    shift_reg[i] = shift_reg[i - 1];
+  }
+  shift_reg[0] = x;
+
+  double acc0=0.0, acc1=0.0, acc2=0.0, acc3=0.0;
+
+Accum_Loop:
+  for (int i = 0; i < N; i += 4) {
 #pragma HLS PIPELINE II=3
-    if (i == 0) {
-      shift_reg[0] = x;
-      data = x;
-    } else {
-      shift_reg[i] = shift_reg[i - 1];
-      data = shift_reg[i];
-    }
-
-    prod = data * c[i];
-#pragma HLS BIND_OP variable=prod op=mul impl=dsp
-
-    acc += prod;
+    acc0 += shift_reg[i]   * c[i];
+    acc1 += shift_reg[i+1] * c[i+1];
+    acc2 += shift_reg[i+2] * c[i+2];
+    acc3 += shift_reg[i+3] * c[i+3];
   }
 
-  *y = acc;
+  *y = (acc0 + acc1) + (acc2 + acc3);
 }
 
 void calculateCoefficients(int N, int lowerCutoff, int upperCutoff,
